@@ -22,12 +22,12 @@ lembretes.
 1. Abra **"Espaços"** no menu.
 2. Na linha do espaço, clique em **"Arquivar"** (ou **"Reabrir"**, se ele já estiver arquivado).
 
-![Lista de espaços com "Formação de educadores" já arquivado (badge Arquivado, botão Reabrir) e outro espaço ativo com botão Arquivar](/assets/capturas/espacos-lista-desktop.png)
+![Lista de espaços do Instituto Semente, com um deles arquivado](/assets/capturas/espacos-lista-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Lista de espaços com "Formação de educadores" já arquivado (badge Arquivado, botão Reabrir) e outro espaço ativo com botão Arquivar — no celular](/assets/capturas/espacos-lista-celular.png){: style="max-width:375px" }
+![Lista de espaços do Instituto Semente, com um deles arquivado — no celular](/assets/capturas/espacos-lista-celular.png){: style="max-width:375px" }
 
 ## Em lote
 

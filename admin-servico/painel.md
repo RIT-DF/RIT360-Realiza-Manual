@@ -17,12 +17,12 @@ delas.
 1. Abra **"Administração geral"**.
 2. As três contagens aparecem logo no topo da tela.
 
-![As três contagens (Organizações, Pessoas com vínculo, Espaços) em destaque, com números fictícios pequenos](/assets/capturas/admin-servico-painel-desktop.png)
+![Painel da administração do serviço, com as contagens gerais](/assets/capturas/admin-servico-painel-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![As três contagens (Organizações, Pessoas com vínculo, Espaços) em destaque, com números fictícios pequenos — no celular](/assets/capturas/admin-servico-painel-celular.png){: style="max-width:375px" }
+![Painel da administração do serviço, com as contagens gerais — no celular](/assets/capturas/admin-servico-painel-celular.png){: style="max-width:375px" }
 
 ## O que cada número conta
 

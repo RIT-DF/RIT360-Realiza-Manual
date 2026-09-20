@@ -71,12 +71,12 @@ com a regra "Todos precisam aprovar". Beatriz aprova a versão 1. O cartão cont
 aprovação" até Maria também decidir — se Maria pedir ajuste, a versão volta para correção mesmo com
 a aprovação de Beatriz já registrada.
 
-![Tela "Aguardando aprovação — versão 1" com a lista de material, a lista de aprovadores (um já aprovou, outro ainda não decidiu) e os botões Aprovar/Pedir ajuste](/assets/capturas/aprovacao-aguardando-desktop.png)
+![Painel da tarefa com uma versão aguardando aprovação](/assets/capturas/aprovacao-aguardando-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Tela "Aguardando aprovação — versão 1" com a lista de material, a lista de aprovadores (um já aprovou, outro ainda não decidiu) e os botões Aprovar/Pedir ajuste — no celular](/assets/capturas/aprovacao-aguardando-celular.png){: style="max-width:375px" }
+![Painel da tarefa com uma versão aguardando aprovação — no celular](/assets/capturas/aprovacao-aguardando-celular.png){: style="max-width:375px" }
 
 
 ## Quando dá errado

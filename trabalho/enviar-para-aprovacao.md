@@ -59,12 +59,12 @@ imprensa", marca aprovação com Beatriz Lima como aprovadora e clica em "Enviar
 sistema numera essa remessa como versão 1. Ainda que Joana altere o arquivo original depois no seu
 computador, a versão 1 registrada continua sendo exatamente o que foi enviado naquele momento.
 
-![Seção "Quem aprova" preenchida com Beatriz Lima selecionada e a regra "Um aprovador basta", botão "Enviar para aprovação" visível](/assets/capturas/aprovacao-aguardando-desktop.png)
+![Painel da tarefa com uma versão aguardando aprovação](/assets/capturas/aprovacao-aguardando-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Seção "Quem aprova" preenchida com Beatriz Lima selecionada e a regra "Um aprovador basta", botão "Enviar para aprovação" visível — no celular](/assets/capturas/aprovacao-aguardando-celular.png){: style="max-width:375px" }
+![Painel da tarefa com uma versão aguardando aprovação — no celular](/assets/capturas/aprovacao-aguardando-celular.png){: style="max-width:375px" }
 
 
 ## Quando dá errado

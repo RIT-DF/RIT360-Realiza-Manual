@@ -26,12 +26,12 @@ comunicação da organização. Antes de criar tarefas, é preciso ter um espaç
 
 Ao criar, você já cai dentro do espaço, na aba **"Trabalho"** — não fica esperando na lista.
 
-![Formulário de criação preenchido com nome "Campanha do Agasalho 2026", tipo Projeto, cliente Fundação Aroeira, antes de clicar em Criar espaço](/assets/capturas/espacos-lista-desktop.png)
+![Lista de espaços do Instituto Semente, com um deles arquivado](/assets/capturas/espacos-lista-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Formulário de criação preenchido com nome "Campanha do Agasalho 2026", tipo Projeto, cliente Fundação Aroeira, antes de clicar em Criar espaço — no celular](/assets/capturas/espacos-lista-celular.png){: style="max-width:375px" }
+![Lista de espaços do Instituto Semente, com um deles arquivado — no celular](/assets/capturas/espacos-lista-celular.png){: style="max-width:375px" }
 
 ## Exemplo
 

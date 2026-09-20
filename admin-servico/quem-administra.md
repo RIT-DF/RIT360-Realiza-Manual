@@ -21,12 +21,12 @@ amplo que existe no produto, e nunca pode chegar a zero pessoas."**
 A pessoa passa a administrar o serviço imediatamente — não é preciso ela
 aceitar nem confirmar nada.
 
-![Bloco "Quem administra o serviço" com a lista de administradores e o formulário de conceder por e-mail](/assets/capturas/admin-servico-painel-desktop.png)
+![Painel da administração do serviço, com as contagens gerais](/assets/capturas/admin-servico-painel-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Bloco "Quem administra o serviço" com a lista de administradores e o formulário de conceder por e-mail — no celular](/assets/capturas/admin-servico-painel-celular.png){: style="max-width:375px" }
+![Painel da administração do serviço, com as contagens gerais — no celular](/assets/capturas/admin-servico-painel-celular.png){: style="max-width:375px" }
 
 {: .warning }
 Conceder por e-mail exige que já exista uma conta com esse e-mail no serviço

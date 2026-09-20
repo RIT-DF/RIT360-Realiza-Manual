@@ -16,12 +16,12 @@ para ligar espaços a eles e ver, de uma vez, tudo que sua organização faz par
 2. No campo **"Nome do cliente"**, digite o nome.
 3. Clique em **"Criar cliente"**.
 
-![Formulário de criação preenchido com "Fundação Aroeira" antes de clicar em Criar cliente](/assets/capturas/clientes-lista-desktop.png)
+![Lista de clientes e parceiros da organização](/assets/capturas/clientes-lista-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Formulário de criação preenchido com "Fundação Aroeira" antes de clicar em Criar cliente — no celular](/assets/capturas/clientes-lista-celular.png){: style="max-width:375px" }
+![Lista de clientes e parceiros da organização — no celular](/assets/capturas/clientes-lista-celular.png){: style="max-width:375px" }
 
 ## Editar a ficha de um cliente
 

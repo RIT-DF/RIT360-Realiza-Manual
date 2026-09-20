@@ -47,12 +47,12 @@ Histórico de aprovação, a versão 1 continua marcada como "Ajuste solicitado"
 Beatriz preservado, mesmo depois de a versão 2 ser aprovada.
 
 
-![Seção "Histórico de aprovação" com duas versões: uma "Ajuste solicitado" e outra "Aprovada"](/assets/capturas/aprovacao-historico-desktop.png)
+![Histórico de aprovação de uma tarefa já concluída](/assets/capturas/aprovacao-historico-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Seção "Histórico de aprovação" com duas versões: uma "Ajuste solicitado" e outra "Aprovada" — no celular](/assets/capturas/aprovacao-historico-celular.png){: style="max-width:375px" }
+![Histórico de aprovação de uma tarefa já concluída — no celular](/assets/capturas/aprovacao-historico-celular.png){: style="max-width:375px" }
 
 ## Quando dá errado
 

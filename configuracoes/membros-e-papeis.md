@@ -16,12 +16,12 @@ concedida.
 
 Na seção **"Membros"**, cada linha mostra uma pessoa e o papel dela na organização.
 
-![Seção Membros com Carlos Nunes e Joana Martins listados, cada um com o seletor de papel](/assets/capturas/organizacao-configuracoes-desktop.png)
+![Configurações da organização: identidade, membros e inteligência artificial](/assets/capturas/organizacao-configuracoes-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Seção Membros com Carlos Nunes e Joana Martins listados, cada um com o seletor de papel — no celular](/assets/capturas/organizacao-configuracoes-celular.png){: style="max-width:375px" }
+![Configurações da organização: identidade, membros e inteligência artificial — no celular](/assets/capturas/organizacao-configuracoes-celular.png){: style="max-width:375px" }
 
 ## Os três papéis na organização
 

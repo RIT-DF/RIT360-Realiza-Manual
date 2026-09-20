@@ -26,7 +26,7 @@ página própria no manual.
 | **Tarefas que se repetem** | Rotinas mensais e ciclos, sem remontar o trabalho a cada período. |
 | **Agenda no Google** | Acompanhar os compromissos do Realiza no Google Calendar. |
 | **Instalar como aplicativo** | Usar o Realiza como app no celular, com aviso na tela de bloqueio. |
-| **Levar os seus dados** | Exportar tudo o que é da organização — trabalho, arquivos e histórico de aprovações. |
+| **Levar os seus dados** | Exportar tudo o que é da organização — trabalho, arquivos e histórico de aprovações — por um botão na tela. ⚠️ O **direito** de levar os dados já existe e não depende disto nem de contrato ativo: até a tela existir, o pedido é feito pelo contato da [Política de Privacidade](/privacidade/). |
 
 ## O que não está previsto
 

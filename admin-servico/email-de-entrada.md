@@ -53,12 +53,12 @@ Por isso esta configuração pede mais cuidado que a outra.
 6. Confira se o e-mail de teste chegou de verdade na caixa de entrada
    informada — não apenas se a tela disse que enviou.
 
-![Formulário completo, servidor primário preenchido com valores de exemplo (host fictício "smtp.exemplo.org.br"), campo de e-mail de teste preenchido](/assets/capturas/admin-servico-email-entrada-desktop.png)
+![Configuração do servidor de e-mail de entrada e recuperação de senha](/assets/capturas/admin-servico-email-entrada-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Formulário completo, servidor primário preenchido com valores de exemplo (host fictício "smtp.exemplo.org.br"), campo de e-mail de teste preenchido — no celular](/assets/capturas/admin-servico-email-entrada-celular.png){: style="max-width:375px" }
+![Configuração do servidor de e-mail de entrada e recuperação de senha — no celular](/assets/capturas/admin-servico-email-entrada-celular.png){: style="max-width:375px" }
 
 {: .warning }
 O servidor de reserva **não é proteção contra spam ou contra entrega

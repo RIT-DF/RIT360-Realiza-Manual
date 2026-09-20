@@ -25,12 +25,12 @@ Marcando essa opção, a tela explica: "O assistente está desligado para esta o
 qualquer lugar, inclusive por fora desta tela. Os provedores já cadastrados continuam salvos, mas
 inertes; desmarque para voltar a usá-los como estavam."
 
-![Caixa "Não quero que IA trate os dados desta organização" marcada, com a explicação abaixo](/assets/capturas/organizacao-configuracoes-desktop.png)
+![Configurações da organização: identidade, membros e inteligência artificial](/assets/capturas/organizacao-configuracoes-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Caixa "Não quero que IA trate os dados desta organização" marcada, com a explicação abaixo — no celular](/assets/capturas/organizacao-configuracoes-celular.png){: style="max-width:375px" }
+![Configurações da organização: identidade, membros e inteligência artificial — no celular](/assets/capturas/organizacao-configuracoes-celular.png){: style="max-width:375px" }
 
 {: .note }
 Marcar a recusa **não apaga** os provedores que a organização já tinha cadastrado — eles ficam
@@ -111,3 +111,22 @@ provedor padrão do sistema.
   testar." quando não há detalhe — confira a credencial cadastrada.
 - **"Você não tem permissão para administrar isto."** — sua conta não administra esta organização;
   peça a quem administra.
+
+## O que está escrito na política, e por que você deveria ler antes de decidir
+
+Esta é uma decisão sobre para onde vai o conteúdo da sua organização. Três pontos da
+[Política de Privacidade](/privacidade/) mudam a decisão, e é melhor conhecê-los antes:
+
+1. **As três empresas que podem receber o conteúdo** ficam todas nos Estados Unidos.
+2. **Quando a primeira falha, o pedido é refeito na seguinte, automaticamente** — o conteúdo pode
+   acabar processado por uma empresa diferente da que você esperava, sem aviso naquele momento.
+   Toda chamada registra qual delas respondeu, e é esse registro que permite saber depois para
+   onde o conteúdo foi.
+3. **Nenhuma delas usa o conteúdo para treinar os modelos**, segundo a documentação oficial de
+   cada uma, e cada uma o retém por um prazo limitado — de 30 a 55 dias — apenas para monitorar
+   abuso e segurança.
+
+{: .important }
+Se a sua organização tem compromisso com um doador, ou política própria, que impeça o conteúdo de
+sair para empresas de fora, **a recusa completa é o caminho** — e ela funciona no servidor, não só
+na tela.

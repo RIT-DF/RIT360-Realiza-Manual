@@ -16,12 +16,12 @@ Na aba **"Trabalho"** do espaço, use as abas **"Quadro"**, **"Lista"** e **"Cal
 das tarefas. O produto lembra qual visão você usou da última vez, então da próxima vez que entrar
 já abre do jeito que você deixou.
 
-![As três abas Quadro/Lista/Calendário visíveis acima do quadro de tarefas](/assets/capturas/visao-quadro-desktop.png)
+![Quadro da Campanha do Agasalho 2026, com as tarefas distribuídas pelas etapas](/assets/capturas/visao-quadro-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![As três abas Quadro/Lista/Calendário visíveis acima do quadro de tarefas — no celular](/assets/capturas/visao-quadro-celular.png){: style="max-width:375px" }
+![Quadro da Campanha do Agasalho 2026, com as tarefas distribuídas pelas etapas — no celular](/assets/capturas/visao-quadro-celular.png){: style="max-width:375px" }
 
 ## Quadro
 

@@ -149,8 +149,50 @@ completo. Ver [O que ainda vem por aí](/em-breve/).
 
 ### Como exporto os dados da minha organização?
 
-Essa função ainda não está disponível. Ela está prevista, e o direito de levar
-os dados da sua organização não depende de contrato ativo.
+A exportação pela tela ainda não está disponível. Mas **o direito de levar os dados da sua
+organização não depende disso, nem de contrato ativo**: enquanto a tela não existe, o pedido é
+feito pelo contato da [Política de Privacidade](/privacidade/).
+
+## Dados, privacidade e inteligência artificial
+
+### Quem é o dono dos dados que a minha organização coloca aqui?
+
+A sua organização. Ela é quem decide o que registrar e para quê — e quem opera a plataforma trata
+esses dados por conta dela, sem finalidade própria. O detalhe está na
+[Política de Privacidade](/privacidade/).
+
+### A minha organização pode recusar o uso de inteligência artificial?
+
+Pode, por completo, e a recusa funciona de verdade: nenhum conteúdo sai para serviço de
+inteligência artificial nenhum, por caminho nenhum. Quem faz isso é quem administra a organização,
+em [Inteligência artificial na sua organização](/configuracoes/inteligencia-artificial/).
+
+### Para onde vai o conteúdo quando usamos inteligência artificial?
+
+Para uma das três empresas listadas na [Política de Privacidade](/privacidade/) — todas nos
+Estados Unidos. ⚠️ E há um detalhe que vale conhecer antes de decidir: **se a primeira falhar, o
+pedido é refeito automaticamente na seguinte**, o que significa que o conteúdo pode ser processado
+por uma empresa diferente da que você esperava. Toda chamada registra qual delas respondeu.
+
+### Elas usam o nosso conteúdo para treinar os modelos delas?
+
+Segundo a documentação oficial das três, não. Cada uma retém o conteúdo por um prazo limitado (30
+a 55 dias), só para monitorar abuso e segurança. As fontes estão na
+[Política de Privacidade](/privacidade/).
+
+### O que acontece com os nossos dados se pararmos de usar o Realiza?
+
+Quem administra a organização mantém o acesso por **30 dias**, podendo fazer duas coisas: exportar
+os dados ou reativar o uso. **No trigésimo dia os dados são apagados, e isso não tem volta.**
+Durante toda a janela você vê um aviso em tela com o prazo restante e o caminho para exportar, e
+recebe avisos por e-mail. O detalhe está nos [Termos de Uso](/termos/).
+
+### Vocês vão começar a cobrar?
+
+Hoje não há cobrança. Se os custos de inteligência artificial se mostrarem relevantes, pode passar
+a haver — e, nesse caso, a sua organização é avisada com pelo menos 30 dias de antecedência e
+escolhe entre assumir o custo ou deixar de usar esses recursos. Deixar de usar inteligência
+artificial **não interrompe o resto da plataforma**.
 
 ### Achei um erro. Onde aviso?
 

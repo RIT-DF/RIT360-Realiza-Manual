@@ -37,12 +37,12 @@ servidor, não a tela.
    contato"**.
 3. Clique em **"Salvar ficha"**.
 
-![Seção Identidade visual e ficha preenchida para Instituto Semente, com imagem definida](/assets/capturas/organizacao-configuracoes-desktop.png)
+![Configurações da organização: identidade, membros e inteligência artificial](/assets/capturas/organizacao-configuracoes-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Seção Identidade visual e ficha preenchida para Instituto Semente, com imagem definida — no celular](/assets/capturas/organizacao-configuracoes-celular.png){: style="max-width:375px" }
+![Configurações da organização: identidade, membros e inteligência artificial — no celular](/assets/capturas/organizacao-configuracoes-celular.png){: style="max-width:375px" }
 
 {: .note }
 O nome de exibição da organização (o que aparece em toda tela, como "Instituto Semente") não muda

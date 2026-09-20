@@ -51,12 +51,12 @@ explica o que muda a partir daí.
 Só decida sobre aprovação quando o material estiver pronto para isso. Até lá, anexe e organize à
 vontade — nada é definitivo enquanto o material não for enviado.
 
-![Seção Materiais de uma tarefa com um arquivo, um link e um texto anexados, e os botões "Anexar arquivo"/"Adicionar link"/"Adicionar texto" visíveis](/assets/capturas/detalhe-tarefa-desktop.png)
+![Painel de uma tarefa aberto, com datas, subtarefas, dependências e materiais](/assets/capturas/detalhe-tarefa-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Seção Materiais de uma tarefa com um arquivo, um link e um texto anexados, e os botões "Anexar arquivo"/"Adicionar link"/"Adicionar texto" visíveis — no celular](/assets/capturas/detalhe-tarefa-celular.png){: style="max-width:375px" }
+![Painel de uma tarefa aberto, com datas, subtarefas, dependências e materiais — no celular](/assets/capturas/detalhe-tarefa-celular.png){: style="max-width:375px" }
 
 
 ## Quando dá errado

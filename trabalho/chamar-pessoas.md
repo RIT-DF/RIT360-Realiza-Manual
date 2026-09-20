@@ -19,12 +19,12 @@ pode fazer — desde quem coordena tudo até quem só precisa acompanhar de fora
 4. Escolha o papel dela neste espaço em **"Papel no espaço"**.
 5. Clique em **"Adicionar participante"**.
 
-![Seção Participantes com Carlos Nunes e Joana Martins já na lista, e o formulário de adicionar Beatriz Lima com papel Aprovador](/assets/capturas/configurar-espaco-desktop.png)
+![Tela de configuração do espaço, com as etapas e os participantes](/assets/capturas/configurar-espaco-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Seção Participantes com Carlos Nunes e Joana Martins já na lista, e o formulário de adicionar Beatriz Lima com papel Aprovador — no celular](/assets/capturas/configurar-espaco-celular.png){: style="max-width:375px" }
+![Tela de configuração do espaço, com as etapas e os participantes — no celular](/assets/capturas/configurar-espaco-celular.png){: style="max-width:375px" }
 
 ## Os quatro papéis no espaço
 

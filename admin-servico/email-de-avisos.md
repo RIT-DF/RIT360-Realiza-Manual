@@ -37,12 +37,12 @@ e-mail de entrada, embora o passo a passo seja o mesmo.
 6. Confira se o e-mail de teste chegou de verdade na caixa de entrada
    informada.
 
-![Formulário completo, servidor primário preenchido com valores de exemplo (host fictício "smtp.exemplo.org.br"), mensagem "Configurado" visível](/assets/capturas/admin-servico-email-avisos-desktop.png)
+![Configuração do servidor de e-mail dos avisos](/assets/capturas/admin-servico-email-avisos-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Formulário completo, servidor primário preenchido com valores de exemplo (host fictício "smtp.exemplo.org.br"), mensagem "Configurado" visível — no celular](/assets/capturas/admin-servico-email-avisos-celular.png){: style="max-width:375px" }
+![Configuração do servidor de e-mail dos avisos — no celular](/assets/capturas/admin-servico-email-avisos-celular.png){: style="max-width:375px" }
 
 {: .warning }
 O servidor de reserva **não é proteção contra spam ou contra entrega

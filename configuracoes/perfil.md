@@ -20,12 +20,12 @@ Clique no seu avatar, no canto superior direito, e escolha **"Meu perfil"**.
 2. Em **"Telefone"**, preencha o seu contato.
 3. Clique em **"Salvar"**.
 
-![Formulário de perfil preenchido com nome "Maria Oliveira" e telefone, foto já definida](/assets/capturas/perfil-editar-desktop.png)
+![Tela do seu perfil, com nome, telefone e foto](/assets/capturas/perfil-editar-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Formulário de perfil preenchido com nome "Maria Oliveira" e telefone, foto já definida — no celular](/assets/capturas/perfil-editar-celular.png){: style="max-width:375px" }
+![Tela do seu perfil, com nome, telefone e foto — no celular](/assets/capturas/perfil-editar-celular.png){: style="max-width:375px" }
 
 {: .important }
 Preencher o nome importa mais do que parece: sem ele, as outras pessoas veem um código no lugar de

@@ -57,6 +57,7 @@ primeiros e nunca chega perto dos outros.
 - [Enviar feedback](/enviar-feedback/) — achou um problema, ou faltou alguma coisa
 - [Novidades](/novidades/) — o que mudou no produto, e quando
 - [O que ainda vem por aí](/em-breve/) — o que o Realiza ainda não faz
+- [Termos de Uso](/termos/) e [Política de Privacidade](/privacidade/) — quem responde pelos seus dados, o que acontece com eles e o que muda quando a organização usa inteligência artificial
 
 {: .note }
 Este manual descreve o que o produto faz **hoje**. Encontrando diferença entre

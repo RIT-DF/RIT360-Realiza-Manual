@@ -18,12 +18,12 @@ precisa esperar outra terminar.
 3. Marque a caixa de cada subtarefa conforme ela for concluída.
 4. Use **"Remover"** para tirar uma subtarefa que não faz mais sentido.
 
-![Seção Subtarefas com duas concluídas (riscadas) e uma pendente](/assets/capturas/detalhe-tarefa-desktop.png)
+![Painel de uma tarefa aberto, com datas, subtarefas, dependências e materiais](/assets/capturas/detalhe-tarefa-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Seção Subtarefas com duas concluídas (riscadas) e uma pendente — no celular](/assets/capturas/detalhe-tarefa-celular.png){: style="max-width:375px" }
+![Painel de uma tarefa aberto, com datas, subtarefas, dependências e materiais — no celular](/assets/capturas/detalhe-tarefa-celular.png){: style="max-width:375px" }
 
 Subtarefas concluídas aparecem riscadas, mas continuam na lista — nada é escondido.
 

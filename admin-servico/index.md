@@ -36,12 +36,12 @@ criados — nunca o que está dentro deles.
 - [Cópia de segurança](/admin-servico/copia-de-seguranca/) — o que a tela mostra
   sobre a cópia de segurança do banco, e o que ela ainda não faz.
 
-![Tela "Administração geral" completa, com as três contagens e os quatro botões de atalho](/assets/capturas/admin-servico-painel-desktop.png)
+![Painel da administração do serviço, com as contagens gerais](/assets/capturas/admin-servico-painel-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Tela "Administração geral" completa, com as três contagens e os quatro botões de atalho — no celular](/assets/capturas/admin-servico-painel-celular.png){: style="max-width:375px" }
+![Painel da administração do serviço, com as contagens gerais — no celular](/assets/capturas/admin-servico-painel-celular.png){: style="max-width:375px" }
 
 ## Como se chega aqui
 

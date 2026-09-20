@@ -29,12 +29,12 @@ formulário, separado por um "ou". Clique nele e conclua a autorização na tela
 O botão só aparece quando a entrada por Google está habilitada neste ambiente. Não vendo o botão,
 use e-mail e senha.
 
-![Tela de entrar com e-mail e senha preenchidos, e o botão Entrar com Google visível abaixo](/assets/capturas/entrar-tela-desktop.png)
+![Tela de entrada do RIT360 Realiza, com os campos de e-mail e senha e o link para recuperar a senha](/assets/capturas/entrar-tela-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Tela de entrar com e-mail e senha preenchidos, e o botão Entrar com Google visível abaixo — no celular](/assets/capturas/entrar-tela-celular.png){: style="max-width:375px" }
+![Tela de entrada do RIT360 Realiza no celular](/assets/capturas/entrar-tela-celular.png){: style="max-width:375px" }
 
 ## Aceitar um convite
 
@@ -100,12 +100,12 @@ começar sem precisar abrir nada primeiro.
 O mesmo seletor também aparece fixo no topo do aplicativo, ao lado da logo, em qualquer tela: você
 não precisa voltar à aba Organização só para trocar.
 
-![Seletor Organização ativa com Instituto Semente selecionado, menu aberto mostrando outra organização disponível](/assets/capturas/organizacao-trocar-desktop.png)
+![Tela de organizações, com o Instituto Semente como organização ativa](/assets/capturas/organizacao-trocar-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Seletor Organização ativa com Instituto Semente selecionado, menu aberto mostrando outra organização disponível — no celular](/assets/capturas/organizacao-trocar-celular.png){: style="max-width:375px" }
+![Tela de organizações, com o Instituto Semente como organização ativa — no celular](/assets/capturas/organizacao-trocar-celular.png){: style="max-width:375px" }
 
 {: .tip }
 Participando de uma única organização, o seletor aparece sem seta e não abre menu — não há nada

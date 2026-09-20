@@ -15,12 +15,12 @@ equipe realmente trabalha.
 
 Abra o espaço, vá na aba **"Configurar"** e role até a seção **"Etapas"**.
 
-![Seção Etapas com as quatro etapas padrão, uma delas com "Aciona aprovação" marcado](/assets/capturas/configurar-espaco-desktop.png)
+![Tela de configuração do espaço, com as etapas e os participantes](/assets/capturas/configurar-espaco-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Seção Etapas com as quatro etapas padrão, uma delas com "Aciona aprovação" marcado — no celular](/assets/capturas/configurar-espaco-celular.png){: style="max-width:375px" }
+![Tela de configuração do espaço, com as etapas e os participantes — no celular](/assets/capturas/configurar-espaco-celular.png){: style="max-width:375px" }
 
 ## Criar, renomear, remover e reordenar
 

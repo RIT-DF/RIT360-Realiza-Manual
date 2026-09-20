@@ -15,12 +15,12 @@ quanto tempo**.
 
 No menu, é a tela que abre com o título **"O que está travado"**.
 
-![Painel com as três contagens no topo (Esperando outra pessoa, Aguardando você, Atrasadas) e uma lista de itens variados abaixo](/assets/capturas/painel-visao-geral-desktop.png)
+![Tela "O que está travado", com as contagens e os itens parados](/assets/capturas/painel-visao-geral-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Painel com as três contagens no topo (Esperando outra pessoa, Aguardando você, Atrasadas) e uma lista de itens variados abaixo — no celular](/assets/capturas/painel-visao-geral-celular.png){: style="max-width:375px" }
+![Tela "O que está travado", com as contagens e os itens parados — no celular](/assets/capturas/painel-visao-geral-celular.png){: style="max-width:375px" }
 
 ## Os três grupos
 

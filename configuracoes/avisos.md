@@ -33,12 +33,12 @@ Os tipos de aviso são:
 - **"Pediram ajuste numa entrega que eu enviei"**
 - **"Uma entrega minha foi decidida"**
 
-![Lista de tipos de aviso com os interruptores de Central de avisos e E-mail, alguns ligados e outros desligados](/assets/capturas/preferencias-avisos-lista-desktop.png)
+![Preferências de avisos, por tipo e por canal](/assets/capturas/preferencias-avisos-lista-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Lista de tipos de aviso com os interruptores de Central de avisos e E-mail, alguns ligados e outros desligados — no celular](/assets/capturas/preferencias-avisos-lista-celular.png){: style="max-width:375px" }
+![Preferências de avisos, por tipo e por canal — no celular](/assets/capturas/preferencias-avisos-lista-celular.png){: style="max-width:375px" }
 
 {: .warning }
 Desligar o e-mail de um tipo de aviso **não elimina a pendência**. Se Beatriz Lima desliga o

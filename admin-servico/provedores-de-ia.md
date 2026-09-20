@@ -32,12 +32,12 @@ ninguém precise perceber e trocar manualmente.
 5. Cole a chave de API no campo **"Credencial (chave de API)"**.
 6. Clique em **"Cadastrar"**.
 
-![Formulário de cadastro com um provedor escolhido, nome preenchido e o link "Conseguir credencial" visível](/assets/capturas/admin-servico-ia-desktop.png)
+![Provedores de inteligência artificial do serviço](/assets/capturas/admin-servico-ia-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Formulário de cadastro com um provedor escolhido, nome preenchido e o link "Conseguir credencial" visível — no celular](/assets/capturas/admin-servico-ia-celular.png){: style="max-width:375px" }
+![Provedores de inteligência artificial do serviço — no celular](/assets/capturas/admin-servico-ia-celular.png){: style="max-width:375px" }
 
 ## Passo a passo — reordenar, testar, ligar e desligar
 

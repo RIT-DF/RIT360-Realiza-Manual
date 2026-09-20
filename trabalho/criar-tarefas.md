@@ -19,12 +19,12 @@ momento de criar.
 
 Pronto — a tarefa já aparece na coluna, sem mais perguntas.
 
-![Quadro com o campo "Nova tarefa..." preenchido com "Arte do cartaz para redes" na coluna "A fazer"](/assets/capturas/visao-quadro-desktop.png)
+![Quadro da Campanha do Agasalho 2026, com as tarefas distribuídas pelas etapas](/assets/capturas/visao-quadro-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Quadro com o campo "Nova tarefa..." preenchido com "Arte do cartaz para redes" na coluna "A fazer" — no celular](/assets/capturas/visao-quadro-celular.png){: style="max-width:375px" }
+![Quadro da Campanha do Agasalho 2026, com as tarefas distribuídas pelas etapas — no celular](/assets/capturas/visao-quadro-celular.png){: style="max-width:375px" }
 
 ## Por que o produto não pergunta mais nada ao criar
 
@@ -43,12 +43,12 @@ prazo, que costumam ter resposta um pouco depois, você preenche quando abrir a 
      editado diretamente **antes de existir pela primeira vez**; depois disso, mudar o prazo
      passa a ser por reprogramação (veja abaixo).
 
-![Seção Datas com Data planejada preenchida e Prazo acordado já travado, mostrando o aviso "Já existe um prazo acordado"](/assets/capturas/detalhe-tarefa-desktop.png)
+![Painel de uma tarefa aberto, com datas, subtarefas, dependências e materiais](/assets/capturas/detalhe-tarefa-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Seção Datas com Data planejada preenchida e Prazo acordado já travado, mostrando o aviso "Já existe um prazo acordado" — no celular](/assets/capturas/detalhe-tarefa-celular.png){: style="max-width:375px" }
+![Painel de uma tarefa aberto, com datas, subtarefas, dependências e materiais — no celular](/assets/capturas/detalhe-tarefa-celular.png){: style="max-width:375px" }
 
 {: .note }
 Depois que o prazo acordado existe uma vez, o campo fica desabilitado e a tela mostra: "Já existe

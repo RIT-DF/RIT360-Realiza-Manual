@@ -23,12 +23,12 @@ ter que perguntar de volta.
 2. Escreva o que aconteceu, no campo de texto.
 3. Clique em "Enviar".
 
-![Tela de feedback com o campo de texto preenchido com um relato plausível](/assets/capturas/feedback-envio-desktop.png)
+![Tela de envio de feedback](/assets/capturas/feedback-envio-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Tela de feedback com o campo de texto preenchido com um relato plausível — no celular](/assets/capturas/feedback-envio-celular.png){: style="max-width:375px" }
+![Tela de envio de feedback — no celular](/assets/capturas/feedback-envio-celular.png){: style="max-width:375px" }
 
 ## O que escrever para a mensagem ser útil
 

@@ -32,12 +32,12 @@ forma de entrada.
    - **"Segredo do aplicativo (client secret)"**
 5. Clique em **"Salvar credenciais"**.
 
-![Tela com o endereço de retorno visível e os dois campos preenchidos com valores fictícios, antes de salvar](/assets/capturas/admin-servico-google-desktop.png)
+![Configuração da entrada pelo Google](/assets/capturas/admin-servico-google-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Tela com o endereço de retorno visível e os dois campos preenchidos com valores fictícios, antes de salvar — no celular](/assets/capturas/admin-servico-google-celular.png){: style="max-width:375px" }
+![Configuração da entrada pelo Google — no celular](/assets/capturas/admin-servico-google-celular.png){: style="max-width:375px" }
 
 {: .tip }
 As credenciais entram em uso assim que salvas — não é preciso reiniciar nada
