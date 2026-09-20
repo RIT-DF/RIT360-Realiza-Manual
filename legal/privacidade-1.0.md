@@ -20,7 +20,7 @@ Esta é uma **versão arquivada**, preservada para auditoria. A versão vigente 
 
 ## 1. Quem responde pelo quê
 
-Duas organizações aparecem nesta política — **a sua organização** e a **V3RTECH**, que desenvolve e opera o RIT360 Realiza. Cada uma responde pelo que **ela** decide.
+Duas organizações aparecem nesta política — **a sua organização** e a **V3RTECH Tecnologia, Consultoria e Inovação Ltda.** (CNPJ 58.550.029/0001-27), com sede em Brasília – DF, que desenvolve e opera o RIT360 Realiza. Cada uma responde pelo que **ela** decide.
 
 - **A sua organização é a controladora dos dados que ela cadastra e gerencia** na plataforma: as pessoas que ela convida, os espaços que cria, as tarefas, os materiais anexados, as conversas, as aprovações e os cadastros de clientes e parceiros. É ela quem decide o que registrar e para quê.
 - **Sobre esses mesmos dados, a V3RTECH é operadora.** Tratamos por conta da sua organização, seguindo as instruções dela, sem dar a essas informações nenhuma finalidade própria.
@@ -257,5 +257,5 @@ Esta política é regida pela **Lei Geral de Proteção de Dados Pessoais (LGPD 
 
 ---
 
-*V3RTECH Tecnologia, Consultoria e Inovação Ltda. · Brasília – DF · dpo@v3rtech.com.br*
+*V3RTECH Tecnologia, Consultoria e Inovação Ltda. · CNPJ 58.550.029/0001-27 · Brasília – DF · dpo@v3rtech.com.br*
 *Acesso em condição social pela RIT — Rede de Inovação e Transformação · CNPJ 59.905.202/0001-25 · [rit.org.br](https://rit.org.br)*

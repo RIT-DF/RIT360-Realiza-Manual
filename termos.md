@@ -27,7 +27,7 @@ Se você não concorda com estes Termos, não utilize a plataforma.
 
 ## 2. Quem somos
 
-O **RIT360 Realiza** é desenvolvido e operado pela **V3RTECH Tecnologia, Consultoria e Inovação Ltda.**, com sede em Brasília – DF (doravante "V3RTECH").
+O **RIT360 Realiza** é desenvolvido e operado pela **V3RTECH Tecnologia, Consultoria e Inovação Ltda.** (CNPJ 58.550.029/0001-27), com sede em Brasília – DF (doravante "V3RTECH").
 
 A **RIT — Rede de Inovação e Transformação** (CNPJ 59.905.202/0001-25), com sede em SMPW Qd. 25, Conjunto 4, Lote 10, Unidade C – Park Way – Brasília – DF – CEP 71745-504, oferece o acesso à plataforma a organizações da sociedade civil em condição social.
 
@@ -205,5 +205,5 @@ Estes Termos são regidos pela legislação brasileira. Fica eleito o **foro da 
 
 ---
 
-*V3RTECH Tecnologia, Consultoria e Inovação Ltda. · Brasília – DF · dpo@v3rtech.com.br*
+*V3RTECH Tecnologia, Consultoria e Inovação Ltda. · CNPJ 58.550.029/0001-27 · Brasília – DF · dpo@v3rtech.com.br*
 *Acesso em condição social pela RIT — Rede de Inovação e Transformação · CNPJ 59.905.202/0001-25 · [rit.org.br](https://rit.org.br)*
