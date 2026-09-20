@@ -1,0 +1,17 @@
+// Esquema de cores RIT360 Realiza (just-the-docs).
+// Paleta oficial em Projeto/Brand/design-system.md, na raiz da família.
+// Acento de produto do Realiza = Verde; texto/marca da família = Petróleo.
+//
+// ⚠️ O verde NÃO é a cor mais presente na arte do Realiza — o logo é dominado
+// por navy. O acento é verde de propósito, porque navy já é o acento do
+// Financeiro, e duas cores de acento iguais em dois produtos da família
+// tirariam de quem usa os dois a pista visual de qual está aberto. Acento
+// governa botão, destaque e estado; a arte segue com o que a composição pede.
+$link-color: #0F4855;          // Petróleo — link legível (AAA ~9:1), cor de marca
+$btn-primary-color: #0C7357;   // Verde — acento primário do produto
+$body-heading-color: #0C7357;  // Verde — títulos fortes, on-brand
+$body-text-color: #1A1A1A;     // texto
+$nav-child-link-color: #6B6B6B; // texto secundário
+$sidebar-color: #F7F9FA;       // neutro frio (base RIT360)
+$border-color: #E5E7EB;        // hairline neutro
+$code-background-color: #F5F6F7;
