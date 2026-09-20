@@ -64,11 +64,15 @@ aux_links:
     - "https://realiza.rit360.org.br"
 aux_links_new_tab: true
 
-# Rodapé
-# ⚠️ O rodapé NÃO se configura aqui. A versão do just-the-docs que este site
-# usa ignora `footer_content` — o valor ficava aqui sem aparecer no site.
-# O conteúdo do rodapé, com o copyright e os links legais, está em
-# _includes/nav_footer_custom.html.
+# Rodapé — VAZIO de propósito, como nos outros manuais da casa.
+# A frase de atribuição que o tema traz é removida por
+# _includes/nav_footer_custom.html; nada entra no lugar dela.
+#
+# ⚠️ Não adianta configurar `footer_content` aqui: a versão do just-the-docs
+# que estes sites usam ignora essa chave. Ela existe nos _config.yml dos
+# outros manuais e também não rende nada lá — o efeito coincide com o que se
+# quer, então ninguém notou. Querendo mesmo texto no rodapé um dia, o caminho
+# é o include acima, não esta chave.
 last_edit_timestamp: false
 back_to_top: true
 back_to_top_text: "Voltar ao topo"
