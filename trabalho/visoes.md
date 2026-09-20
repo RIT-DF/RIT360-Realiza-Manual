@@ -1,0 +1,72 @@
+---
+title: "Ver o trabalho em quadro, lista ou calendário"
+nav_order: 6
+parent: "O trabalho do dia a dia"
+permalink: /trabalho/visoes/
+---
+
+# Ver o trabalho em quadro, lista ou calendário
+
+As mesmas tarefas de um espaço podem ser olhadas de três formas diferentes. Nenhuma delas é "a
+certa" — cada uma ajuda mais dependendo do que você precisa enxergar naquele momento.
+
+## Trocar de visão
+
+Na aba **"Trabalho"** do espaço, use as abas **"Quadro"**, **"Lista"** e **"Calendário"**, acima
+das tarefas. O produto lembra qual visão você usou da última vez, então da próxima vez que entrar
+já abre do jeito que você deixou.
+
+![As três abas Quadro/Lista/Calendário visíveis acima do quadro de tarefas](/assets/capturas/visao-quadro-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![As três abas Quadro/Lista/Calendário visíveis acima do quadro de tarefas — no celular](/assets/capturas/visao-quadro-celular.png){: style="max-width:375px" }
+
+## Quadro
+
+Uma coluna por etapa, cartões dentro. É a visão para acompanhar o fluxo — o que está parado em
+cada etapa e há quanto tempo.
+
+- **Arrastar** um cartão para outra coluna move a tarefa para aquela etapa.
+- Em telas pequenas, ou quando arrastar não é prático, use o botão de mover em cada cartão para
+  escolher a etapa de destino sem arrastar.
+
+
+## Lista
+
+Uma linha por tarefa, com responsável, prazo, etapa e estado lado a lado. Clique no cabeçalho de
+qualquer coluna para ordenar por ela — título, responsável, prazo, etapa ou estado.
+
+
+## Calendário
+
+As tarefas distribuídas pelo mês, conforme o prazo de cada uma. Use as setas para navegar entre
+meses. Tarefas sem prazo definido não desaparecem: elas ficam reunidas numa lista à parte, abaixo
+da grade do mês.
+
+
+{: .note }
+No calendário, mover ou reorganizar tarefas é feito nas outras duas visões, ou abrindo a tarefa
+diretamente. O calendário é só para consulta e navegação por data.
+
+## Arrastar e a confirmação de aprovação
+
+{: .warning }
+Arrastar um cartão no quadro para uma etapa marcada com **"Aciona aprovação"** (veja [Ajustar as
+etapas do espaço](/trabalho/etapas/)) nunca aprova em silêncio. Antes de completar o movimento, o
+produto mostra uma caixa de confirmação nomeando a versão e a entrega que serão aprovadas, com o
+botão **"Mover e aprovar"**. Cancelar a confirmação desfaz o arraste — a tarefa continua na etapa
+original.
+
+## Exemplo
+
+Carlos Nunes prefere o quadro para trabalhar durante o dia — arrasta os próprios cartões conforme
+avança. Maria Oliveira, ao planejar a semana, prefere a lista ordenada por prazo, para ver tudo
+que vence nos próximos dias de uma vez. Nenhuma das duas está "usando errado": é a mesma
+informação, olhada de dois jeitos.
+
+## Quando dá errado
+
+Se um movimento no quadro ou na lista falhar, a tela mostra "Não foi possível mover a tarefa."
+acima da área de trabalho. A tarefa permanece na etapa em que estava antes da tentativa.

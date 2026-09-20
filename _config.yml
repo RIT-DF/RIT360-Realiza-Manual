@@ -15,9 +15,13 @@ defaults:
       layout: default
 
 # Tema / cor — ver _sass/color_schemes/rit360.scss.
+# ⚠️ O design system da família NÃO fica neste container: mora um nível acima,
+# em /mnt/trabalho/Projetos/RIT/RIT360/Projeto/Brand/design-system.md, porque é
+# compartilhado por Financeiro, Premiado e Solidário. Procurar por ele dentro do
+# Realiza dá falso negativo.
 # Acento do Realiza é o VERDE, não o navy que domina a arte do logo: navy já é
 # o acento do Financeiro, e é a cor que faz quem usa os dois produtos saber de
-# relance qual está aberto. Decisão registrada em Projeto/Brand/design-system.md.
+# relance qual está aberto. Decisão registrada no design system da família.
 color_scheme: rit360
 logo: "/assets/logo.png"
 favicon_ico: "/assets/favicon.png"
