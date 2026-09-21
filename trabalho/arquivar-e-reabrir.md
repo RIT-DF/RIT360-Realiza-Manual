@@ -1,6 +1,6 @@
 ---
 title: "Arquivar e reabrir um espaço"
-nav_order: 14
+nav_order: 15
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/arquivar-e-reabrir/
 ---

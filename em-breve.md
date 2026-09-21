@@ -17,15 +17,13 @@ página própria no manual.
 
 | O que | O que vai resolver |
 |---|---|
-| **Convidar gente de fora para um espaço** | Trazer o cliente ou o parceiro para acompanhar e aprovar dentro de um espaço. Os papéis e as regras já existem — o convite em si ainda não. Hoje, quem é de fora precisa ser cadastrado como pessoa da organização para participar. |
-| **Reunião na agenda** | Compromisso com hora, participantes, convite e lembrete. ⚠️ O calendário de hoje mostra **prazos de tarefa**, e criar por ele cria uma tarefa com data — não uma reunião. |
 | **Assistente por conversa** | Pedir e consultar coisas escrevendo em linguagem comum, dentro do app — "o que precisa da minha atenção hoje?" — em vez de navegar pelas telas. Hoje existe só a configuração de quem processa isso; a conversa em si não existe ainda. |
 | **Assistente no Telegram** | O mesmo assistente, por mensagem no celular, sem abrir o app. |
 | **Relatório mensal e indicadores** | Reunir num documento o trabalho feito, as entregas aprovadas e os resultados medidos do período. |
 | **Documentos e wiki** | Guardar regras, procedimentos e decisões ligados ao trabalho que os originou. |
 | **Páginas públicas** | Publicar uma página escolhida para quem não tem conta, com a identidade do espaço. |
 | **Triagem de solicitações** | Receber pedidos de fora e decidir se viram tarefa, sem que todo pedido vire compromisso automaticamente. |
-| **Tarefas que se repetem** | Rotinas mensais e ciclos, sem remontar o trabalho a cada período. |
+| **Tarefas que se repetem** | Rotinas mensais e ciclos de trabalho, sem remontar tudo a cada período. ⚠️ **Reunião** já repete — o que ainda não repete é **tarefa**. |
 | **Agenda no Google** | Acompanhar os compromissos do Realiza no Google Calendar. |
 | **Instalar como aplicativo** | Usar o Realiza como app no celular, com aviso na tela de bloqueio. |
 | **Levar os seus dados** | Exportar tudo o que é da organização — trabalho, arquivos e histórico de aprovações — por um botão na tela. ⚠️ O **direito** de levar os dados já existe e não depende disto nem de contrato ativo: até a tela existir, o pedido é feito pelo contato da [Política de Privacidade](/privacidade/). |

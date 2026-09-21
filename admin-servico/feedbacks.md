@@ -79,6 +79,8 @@ confusão para a equipe rever a tela.
 
 ## Quando dá errado
 
+- Enquanto não houver feedback nenhum, a tela mostra **"Nenhum feedback
+  recebido ainda. Volte aqui quando alguém enviar um."**
 - Se a lista de feedbacks não carregar, a tela mostra a mensagem de erro no
   lugar dela.
 - Se salvar a resposta falhar, a tela mostra o erro acima do campo de

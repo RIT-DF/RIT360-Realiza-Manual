@@ -17,6 +17,51 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 20 de setembro de 2026 — versão 0.8.0
+
+### Adicionado
+
+- **Convidar quem não é da organização, direto pelo espaço.** Na configuração do espaço, basta o
+  e-mail e o papel: a pessoa recebe o convite, entra, e aparece na lista com o rótulo
+  "(convidado externo)". Ela alcança **aquele espaço e nada mais** — não vira membro da
+  organização, não descobre os outros espaços, não vê a equipe nem as configurações. Antes eram
+  dois passos, e a pessoa precisava entrar na organização inteira.
+- **Reunião na agenda, com repetição.** Compromisso com hora, gente convidada e confirmação de
+  presença — diferente de prazo de tarefa, que continua sendo "isto precisa estar pronto até tal
+  dia". No calendário, cada dia ganhou os botões para criar um ou outro. Reuniões podem repetir
+  toda semana ou todo mês.
+- **Duas telas novas para quem administra o serviço:** destinos da cópia de segurança, e as
+  tarefas agendadas — onde se vê se as rotinas automáticas estão vivas.
+- **As preferências de aviso passaram a ter um cartão no seu perfil**, com um resumo de quantos
+  tipos de aviso você recebe. Antes só se chegava lá pelo sininho.
+- **O produto avisa quando há versão nova**, com uma faixa no alto da tela. Aba que fica aberta
+  por dias continuava rodando a versão antiga sem que ninguém percebesse.
+
+### Alterado
+
+- **As duas configurações de servidor de e-mail viraram uma só.** Continuam existindo dois
+  caminhos por baixo, e a diferença entre eles continua importando — mas quem configura mexe num
+  lugar só.
+- **As telas ficaram no mesmo padrão**: mesma largura, título no mesmo lugar, o mesmo "Voltar",
+  e listas que se comportam igual em todas.
+- **Editar cliente e organização passou a abrir em uma janela sobre a tela**, em vez de cada
+  tela fazer de um jeito.
+- **Os estados vazios passaram a dizer o que fazer.** Em vez de "Nenhum espaço ainda.", agora é
+  "Nenhum espaço ainda. Crie um pelo formulário acima." — e assim em todas as listas.
+
+### Corrigido
+
+- **"Meu trabalho" passou a mostrar só o que depende de você.** Antes trazia também o que estava
+  parado com outras pessoas — o que era especialmente incômodo para quem é convidado de fora e
+  via atrasos internos da equipe.
+- **Quem é convidado de fora não vê mais os controles de edição da tarefa**, nem o botão de
+  remover. Eles nunca funcionaram para essa pessoa; agora também não aparecem.
+- **A mensagem de "nenhuma organização ativa" parou de mandar a pessoa para um lugar que não
+  existe** — e quem ainda não tem vínculo com organização nenhuma passou a receber uma mensagem
+  que trata do caso dela.
+
+---
+
 ## 20 de setembro de 2026 — versões 0.6.0 e 0.7.0
 
 ### Adicionado

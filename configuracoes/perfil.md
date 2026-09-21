@@ -38,6 +38,20 @@ que torna o Realiza legível para quem trabalha com você.
 2. Formatos aceitos: PNG, JPEG ou WEBP.
 3. Para remover a foto atual, clique em **"Remover foto"**.
 
+## O cartão "Avisos"
+
+Logo abaixo do seu perfil, o cartão **"Avisos"** resume quantos tipos de aviso você recebe hoje —
+"Você recebe aviso de [quantos] de [total] tipos de evento, entre a central de avisos, e-mail e
+notificação no aparelho." — e leva direto ao ajuste fino, pelo botão **"Ver e ajustar preferências
+de aviso"**. Veja [Avisos: o que você recebe e por onde](/configuracoes/avisos/) para o que cada
+tipo significa e como mudar.
+
+
+{: .note }
+Esse cartão é um atalho novo. O caminho pelo sino de avisos, no topo do aplicativo, continua
+funcionando do mesmo jeito — o cartão só evita que quem nunca abre o sino descubra tarde demais
+que dava para escolher o que recebe.
+
 ## Por que o e-mail não se edita aqui
 
 O campo **"E-mail"** aparece desabilitado, com a explicação: "Alterar o e-mail não faz parte desta

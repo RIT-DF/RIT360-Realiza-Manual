@@ -134,6 +134,11 @@ quantas pessoas, quantos espaços — e nada do conteúdo.
 
 ## Avisos
 
+### "Meu trabalho" mostra tarefas de outras pessoas?
+
+Não. Tudo o que aparece ali depende de você. Tarefa atrasada de outra pessoa aparece no quadro do
+espaço, com o selo de atrasada, e no painel de quem é responsável por ela.
+
 ### Desliguei os avisos por e-mail. Vou perder pedidos de aprovação?
 
 Não. Desligar o aviso não elimina a pendência: ela continua no app, na sua tela
@@ -146,6 +151,12 @@ de [Meu trabalho](/trabalho/meu-trabalho/). O canal muda; a obrigação, não.
 Ainda não existe. O que já existe é a configuração de quais empresas de IA
 podem ser usadas, e a possibilidade de a sua organização recusar isso por
 completo. Ver [O que ainda vem por aí](/em-breve/).
+
+### Como convido o cliente para aprovar, se ele não é da minha organização?
+
+Pela configuração do espaço, na seção "Convidar quem não é da organização": e-mail, papel, e
+pronto. Ele alcança **aquele espaço e nada mais**. Veja
+[Chamar pessoas para o espaço](/trabalho/chamar-pessoas/).
 
 ### Como exporto os dados da minha organização?
 
@@ -193,6 +204,15 @@ Hoje não há cobrança. Se os custos de inteligência artificial se mostrarem r
 a haver — e, nesse caso, a sua organização é avisada com pelo menos 30 dias de antecedência e
 escolhe entre assumir o custo ou deixar de usar esses recursos. Deixar de usar inteligência
 artificial **não interrompe o resto da plataforma**.
+
+### Apareceu uma faixa dizendo que há uma versão nova. Preciso recarregar agora?
+
+Não, se a faixa disser "Há uma versão nova do Realiza — recarregue quando puder." — nesse caso há
+um botão **"Agora não"**, e nada é perdido enquanto você não recarrega; a aba só continua na
+versão anterior até você clicar em **"Recarregar"**. Há uma segunda faixa, mais séria e sem botão
+de dispensar: se ela disser que a aba está numa versão que **já não conversa com o servidor**,
+recarregue assim que puder — a essa altura a aba pode não estar salvando o que você faz. O produto
+nunca recarrega sozinho: formulário preenchido é seu até você decidir.
 
 ### Achei um erro. Onde aviso?
 

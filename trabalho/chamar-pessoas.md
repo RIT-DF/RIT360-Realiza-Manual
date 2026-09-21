@@ -44,11 +44,22 @@ trazer alguém de outra organização — como Beatriz Lima, da Fundação Aroei
 precisa convidá-la primeiro pela tela de administração da organização, com o papel **Convidado**;
 depois disso ela aparece disponível para ser adicionada aos espaços como qualquer outra pessoa.
 
-{: .note }
-São dois passos, e por enquanto não há atalho: **convidar alguém direto para o espaço, digitando o
-e-mail, ainda não existe.** A pessoa passa pela organização primeiro, como Convidada, e só então
-entra no espaço. Enquanto isso, o papel Convidado na organização é o que garante que ela não
-enxergue nada além do que lhe for concedido.
+## Convidar quem não é da organização
+
+Quando a pessoa é de fora — o cliente, o parceiro, quem vai aprovar —, há um caminho direto, na
+mesma tela de configuração do espaço, na seção **"Convidar quem não é da organização"**:
+
+1. Escreva o endereço em **"E-mail de quem convidar"**.
+2. Escolha o que ela vai fazer, em **"Papel de quem convidar"**.
+3. Clique em **"Convidar"**.
+
+Ela recebe o convite, entra, e passa a aparecer na lista de participantes com o rótulo
+**"(convidado externo)"**.
+
+{: .important }
+Quem entra assim alcança **aquele espaço e nada mais**. Não vira membro da organização, não
+descobre que existem outros espaços, e não vê a equipe nem as configurações. É a diferença entre
+convidar para um trabalho e dar as chaves da casa.
 
 {: .important }
 Participar da organização **não é** participar do espaço. Um administrador da organização enxerga

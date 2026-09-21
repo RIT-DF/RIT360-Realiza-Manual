@@ -44,17 +44,19 @@ funcionalidade:
 - **Não é possível agendar, adiar ou disparar uma cópia por aqui.** A
   frequência e o horário são definidos fora do produto, pela equipe técnica
   que cuida do servidor.
-- **Não é possível escolher, por esta tela, um destino fora do servidor
-  para onde a cópia deveria ser enviada.** Hoje, levar a cópia para longe do
-  servidor original ainda depende de uma etapa feita à parte pela equipe
-  técnica, e essa etapa não está representada em nenhuma tela do produto.
-  Enquanto isso não muda, uma perda que atinja o servidor inteiro — não
-  apenas o banco de dados — ainda é um risco que este painel não cobre
-  sozinho.
 - **Esta tela não mostra prova de que uma cópia restaura o produto de
   verdade.** A equipe técnica testa isso separadamente, fora do produto; o
   resultado desse teste não aparece aqui. O que você vê é apenas se a rodada
-  de cópia foi concluída, não se ela foi restaurada com sucesso.
+  de cópia foi concluída, não se ela foi restaurada com sucesso. O teste que
+  a tela de destinos oferece (veja abaixo) prova que **gravar, ler e apagar**
+  no destino funciona — não prova que uma cópia real do banco inteiro
+  restaura o produto.
+
+{: .note }
+**Levar a cópia para fora do servidor original já tem tela própria.** Veja
+[Destinos da cópia de segurança](/admin-servico/destinos-backup/) para
+cadastrar um destino externo (S3 e compatíveis, SFTP ou WebDAV), testá-lo de
+verdade e acompanhar a última cópia enviada a cada um.
 
 {: .important }
 Se a sua organização depende de garantias formais sobre cópia de segurança —

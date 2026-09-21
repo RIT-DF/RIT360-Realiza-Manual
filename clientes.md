@@ -85,6 +85,7 @@ Aroeira — a carteira mostra a campanha e qualquer outro espaço ligado a ela.
   avise quem administra a organização.
 
 {: .warning }
-Sem nenhuma organização ativa, a aba "Clientes" mostra apenas: "Nenhuma organização ativa. Escolha
-uma organização primeiro, na aba Organização." — escolha uma organização antes de cadastrar
-clientes.
+Sem nenhuma organização ativa, a tela mostra apenas **"Nenhuma organização ativa. Escolha uma no
+seletor, ao lado da logo."** — escolha a organização antes de cadastrar clientes. Se você ainda
+não pertence a organização nenhuma, a mensagem é outra: **"Você ainda não tem vínculo com nenhuma
+organização."**, e o caminho é [Primeiros passos](/primeiros-passos/).

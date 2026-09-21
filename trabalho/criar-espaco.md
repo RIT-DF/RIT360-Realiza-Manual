@@ -59,9 +59,10 @@ receber tarefas imediatamente. Essas etapas podem ser renomeadas, removidas ou t
 acrescentadas a qualquer momento; veja [Ajustar as etapas do espaço](/trabalho/etapas/).
 
 {: .warning }
-Se sua organização não aparecer nenhum espaço para criar, confira se há uma organização ativa
-selecionada. Sem organização ativa, a tela mostra apenas: "Nenhuma organização ativa. Escolha uma
-organização primeiro, na aba Organização."
+Não conseguindo criar espaço, confira se há uma organização ativa. Sem ela, a tela mostra apenas
+**"Nenhuma organização ativa. Escolha uma no seletor, ao lado da logo."** Se você ainda não
+pertence a organização nenhuma, a mensagem é **"Você ainda não tem vínculo com nenhuma
+organização."** — veja [Primeiros passos](/primeiros-passos/).
 
 ## Quando dá errado
 

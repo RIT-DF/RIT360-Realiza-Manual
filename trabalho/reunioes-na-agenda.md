@@ -1,0 +1,135 @@
+---
+title: "Marcar reuniões na agenda"
+nav_order: 7
+parent: "O trabalho do dia a dia"
+permalink: /trabalho/reunioes-na-agenda/
+---
+
+# Marcar reuniões na agenda
+
+O calendário do espaço agora mostra duas coisas diferentes: prazos de tarefa e reuniões. Esta
+página é sobre a segunda — um compromisso com hora marcada, gente convidada e presença
+confirmada.
+
+## Por que isto importa
+
+Até aqui, marcar uma reunião sobre o trabalho de um espaço significava combinar por fora — um
+convite de calendário separado, uma mensagem, um "confirmado?" perdido numa conversa. Agora a
+reunião nasce dentro do próprio espaço, junto das tarefas que ela discute, e quem foi chamado
+confirma presença ali mesmo.
+
+## A diferença entre prazo de tarefa e reunião
+
+{: .warning }
+As duas aparecem no mesmo calendário, mas são coisas diferentes. **Prazo de tarefa** é "isto tem
+de estar pronto até tal dia" — sem hora, sem convidado, sem confirmação de presença; é o que você
+cria clicando num dia e o que [Criar e organizar tarefas](/trabalho/criar-tarefas/) explica.
+**Reunião** tem hora de início e fim, local opcional, participantes chamados e presença
+confirmada — é o que esta página explica. Clicar no dia não escolhe uma das duas por engano: cada
+tipo tem o próprio botão.
+
+Na visão de calendário, cada dia tem dois botões pequenos: **"+T"**, para uma tarefa com prazo
+naquele dia, e **"+E"**, para uma reunião com hora naquele dia. Nas reuniões, o cartão do dia
+mostra o horário de início antes do título; nos prazos, não.
+
+## Criar uma reunião
+
+1. Na visão **"Calendário"** do espaço, clique em **"+E"** no dia da reunião.
+2. Na janela **"Novo evento"**, preencha:
+   - **"Título"**.
+   - **"Data"**, **"Início"** e **"Fim"** — a reunião precisa ter hora de começo e de fim.
+   - **"Local"** (opcional) — endereço, sala ou link da chamada.
+   - **"Participantes"** — marque quem do espaço está convidado. Só aparece se o espaço já tiver
+     mais de uma pessoa.
+3. Clique em **"Criar evento"**.
+
+<!-- CAPTURA: rota=/espacos/:id (visão Calendário, diálogo "Novo evento" aberto) | o-que-mostrar=janela "Novo evento" com título, data, início, fim, local, participantes e "Repete" marcado com frequência e "Até" | arquivo=novo-evento-desktop.png -->
+
+A mesma tela no celular:
+
+<!-- CAPTURA: rota=/espacos/:id (visão Calendário, diálogo "Novo evento" aberto) | o-que-mostrar=igual à de desktop, em 375px | arquivo=novo-evento-celular.png -->
+
+## Repetir uma reunião
+
+Marque **"Repete"** antes de criar. Aparecem dois campos:
+
+- **"Frequência"** — **"Toda semana"** ou **"Todo mês"**, sempre no mesmo dia da semana (ou do
+  mês) da primeira ocorrência.
+- **"Até"** — obrigatório. Uma reunião recorrente sempre tem data final; não existe "repetir para
+  sempre".
+
+Cada ocorrência nasce como um compromisso próprio: confirmar presença, marcar como realizada ou
+vincular uma tarefa numa reunião de uma semana não muda as outras semanas da série.
+
+{: .note }
+Depois de criada, uma reunião recorrente não tem edição pela tela: não dá para mudar o horário, a
+frequência ou a data final de uma série já criada, nem cancelar todas as ocorrências futuras de
+uma vez. O que dá para fazer é cancelar uma ocorrência específica (veja abaixo). Precisando mudar
+algo na série inteira, é preciso recriar.
+
+## Lembrete
+
+Marque **"Lembrar antes do início"** e escolha os minutos de antecedência (30 por padrão).
+
+## Confirmar presença
+
+Se você foi convidado, ao abrir a reunião aparece **"Sua presença"** com dois botões:
+**"Confirmar presença"** e **"Não vou"**. A resposta vale para a reunião como convite — não é por
+ocorrência isolada dentro da tela de detalhe.
+
+<!-- CAPTURA: rota=/espacos/:id (visão Calendário, ocorrência aberta) | o-que-mostrar=diálogo de detalhe com badge de status, "Sua presença" com os dois botões, lista de participantes com resposta, e "Tarefas ligadas a esta reunião" | arquivo=detalhe-evento-desktop.png -->
+
+A mesma tela no celular:
+
+<!-- CAPTURA: rota=/espacos/:id (visão Calendário, ocorrência aberta) | o-que-mostrar=igual à de desktop, em 375px | arquivo=detalhe-evento-celular.png -->
+
+Abaixo da sua presença, a lista **"Participantes"** mostra quem foi chamado e a resposta de cada
+um: **"Sem resposta"**, **"Confirmou presença"** ou **"Não vai"**.
+
+## Andamento de uma ocorrência
+
+Abrindo uma reunião no calendário, o rodapé da janela tem:
+
+- **"Marcar como realizada"** — registra que aquele encontro aconteceu. Vira **"Reabrir"** depois,
+  para desfazer.
+- **"Cancelar esta ocorrência"** — cancela **só aquele dia**, nunca a série inteira. As outras
+  ocorrências continuam agendadas normalmente.
+
+Nenhuma das duas ações mexe no passado nem nas outras semanas/meses da série.
+
+## Tarefas ligadas a esta reunião
+
+Cada ocorrência pode ter suas próprias tarefas vinculadas — a lista **"Tarefas ligadas a esta
+reunião"**, dentro do detalhe:
+
+1. No campo **"Vincular tarefa…"**, escolha uma tarefa do espaço.
+2. Clique em **"Vincular"**.
+3. Para desfazer, clique em **"Remover"** ao lado da tarefa na lista.
+
+Vincular é por ocorrência: a reunião de terça-feira pode ter tarefas diferentes da de terça
+seguinte, mesmo sendo a mesma série.
+
+## Exemplo
+
+O Instituto Semente tem uma reunião de acompanhamento toda segunda-feira. Beatriz Lima cria o
+evento **"Reunião semanal do projeto"**, das 9h às 9h30, marca **"Repete"** → **"Toda semana"** →
+**"Até"** 30 de dezembro, e convida os três participantes do espaço. Na segunda seguinte, ela abre
+aquela ocorrência específica e vincula a tarefa **"Levar números de outubro"** — só para aquele
+encontro, não para as demais segundas.
+
+## Limites de hoje
+
+- Não dá para editar uma reunião já criada — nem título, nem horário, nem participantes, nem
+  recorrência. Só é possível cancelar uma ocorrência de cada vez.
+- Não existe evento de dia inteiro nem convite para quem é de fora do espaço — só para quem já
+  participa dele.
+- Quem foi chamado ao espaço só como pessoa externa (convidado) só vê, no calendário, as reuniões
+  para as quais foi convidado — não a agenda inteira do espaço.
+
+## Quando dá errado
+
+- Ao criar: a mensagem que aparece é a causa real informada pelo produto — por exemplo, "O fim
+  precisa ser depois do início." (fim antes do início) ou, numa recorrência muito longa, algo como
+  "Esta recorrência geraria mais de 260 ocorrências — encurte o período (campo 'até')." Corrija o
+  campo indicado e tente de novo.
+- Ao abrir uma reunião: "Não foi possível carregar o evento." — feche e abra de novo.

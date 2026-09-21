@@ -48,13 +48,16 @@ A mesma tela no celular:
 
 ## Calendário
 
-As tarefas distribuídas pelo mês, conforme o prazo de cada uma. Use as setas para navegar entre
-meses. Tarefas sem prazo definido não desaparecem: elas ficam reunidas numa lista à parte, abaixo
-da grade do mês.
+As tarefas e as reuniões do espaço, distribuídas pelo mês. Use as setas para navegar entre meses.
+Tarefas sem prazo definido não desaparecem: elas ficam reunidas numa lista à parte, abaixo da
+grade do mês.
 
-Clicar num dia cria uma tarefa com aquele dia como prazo — veja [Criar e organizar
-tarefas](/trabalho/criar-tarefas/) para o passo a passo e para o cuidado de que isso cria uma
-tarefa, não um evento de agenda com hora e participantes.
+Cada dia tem dois botões pequenos: **"+T"**, para criar uma tarefa com prazo naquele dia, e
+**"+E"**, para criar uma reunião com hora naquele dia — veja [Criar e organizar
+tarefas](/trabalho/criar-tarefas/) e [Marcar reuniões na agenda](/trabalho/reunioes-na-agenda/)
+para o passo a passo de cada um. São coisas diferentes: prazo é só uma data; reunião tem hora,
+convidados e presença confirmada. Nos cartões do dia, a reunião mostra o horário antes do título;
+o prazo de tarefa, não.
 
 {: .note }
 Fora criar, mover ou reorganizar tarefas continua sendo feito nas outras duas visões, ou abrindo a

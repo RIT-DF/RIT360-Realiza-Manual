@@ -20,11 +20,19 @@ marcar tudo como lido.
 
 ## Escolher o que recebe, e por onde
 
-1. Abra o sino de avisos, no topo do aplicativo.
-2. Clique em **"Preferências de avisos"**.
-3. Para cada tipo de aviso, veja duas colunas de interruptor: **"Central de avisos"** e
+Há dois caminhos até a mesma tela de preferências:
+
+- Pelo sino de avisos, no topo do aplicativo: abra o sino e clique em **"Preferências de
+  avisos"**.
+- Pelo seu [perfil](/configuracoes/perfil/): o cartão **"Avisos"** mostra quantos tipos você já
+  recebe e leva direto pelo botão **"Ver e ajustar preferências de aviso"** — útil para quem nunca
+  abre o sino.
+
+Dali em diante o passo a passo é o mesmo:
+
+1. Para cada tipo de aviso, veja duas colunas de interruptor: **"Central de avisos"** e
    **"E-mail"**.
-4. Clique no interruptor para ligar ou desligar aquele canal, para aquele tipo.
+2. Clique no interruptor para ligar ou desligar aquele canal, para aquele tipo.
 
 Os tipos de aviso são:
 

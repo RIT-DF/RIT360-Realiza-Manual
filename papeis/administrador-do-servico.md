@@ -35,10 +35,10 @@ Leia a seção inteira: [Administração do serviço](/admin-servico/).
 ## A armadilha deste papel
 
 {: .warning }
-**São dois servidores de e-mail, e confundi-los custa caro.** Um serve para
-convite e recuperação de senha; o outro, para os avisos das organizações. Errar
-o dos avisos incomoda; errar o da entrada impede alguém de entrar no produto — e
-essa pessoa não tem como avisar você, porque não entrou. Leia
-[E-mail de entrada](/admin-servico/email-de-entrada/) e
-[E-mail de avisos](/admin-servico/email-de-avisos/) antes de mexer em qualquer
-um dos dois.
+**É um servidor só, mas com dois caminhos — e confundi-los custa caro.** O
+mesmo servidor entrega convite e recuperação de senha **e** os avisos das
+organizações. Errar e deixar os avisos sem sair incomoda; errar e deixar o
+e-mail de entrada sem sair impede alguém de entrar no produto — e essa
+pessoa não tem como avisar você, porque não entrou. Leia
+[Servidor de e-mail do produto](/admin-servico/email/) antes de mexer nele,
+e teste os dois caminhos separadamente, não só um.

@@ -1,6 +1,6 @@
 ---
 title: "Corrigir e reenviar"
-nav_order: 10
+nav_order: 11
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/corrigir-e-reenviar/
 ---

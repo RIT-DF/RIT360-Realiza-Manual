@@ -76,4 +76,4 @@ administra o serviço.
   navegador pede correção antes de enviar.
 - Enquanto a lista de organizações não carrega, a tabela mostra
   **"Carregando…"**; se ainda não existir organização nenhuma, ela mostra
-  **"Nenhuma organização cadastrada ainda."**
+  **"Nenhuma organização cadastrada ainda. Crie uma acima."**

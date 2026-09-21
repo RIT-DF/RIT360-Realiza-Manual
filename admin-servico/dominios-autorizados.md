@@ -85,6 +85,8 @@ segundo.
 
 ## Quando dá errado
 
+- Enquanto não houver nenhum domínio autorizado cadastrado, a lista mostra
+  **"Nenhum domínio autorizado ainda. Autorize um acima."**
 - Se o domínio informado já for público e ainda não confirmado, a tela
   mostra o aviso **"Este é um provedor de e-mail público"** antes de
   cadastrar — não é um erro, é uma confirmação pendente.

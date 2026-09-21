@@ -32,7 +32,7 @@ Depende do papel que lhe deram no espaço:
 ## Por onde começar
 
 1. [Primeiros passos](/primeiros-passos/) — aceitar o convite e definir a senha
-2. [Meu trabalho](/trabalho/meu-trabalho/) — o que está esperando por você, e o que está travado no espaço
+2. [Meu trabalho](/trabalho/meu-trabalho/) — o que está esperando por você
 3. [Conversar dentro da tarefa](/trabalho/conversas/)
 
 {: .note }

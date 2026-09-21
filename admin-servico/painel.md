@@ -76,11 +76,12 @@ Outros assuntos são grandes demais para caber ao lado de outro card sem
 espremer — esses continuam em telas próprias, e o caminho até eles é o bloco
 **"Mais configurações"**, no fim da tela, com um botão para cada um:
 
-- **"E-mail de avisos"**
-- **"E-mail de entrada"**
+- **"Servidor de e-mail"**
 - **"Provedores de IA"**
 - **"Organizações"**
 - **"Feedbacks"**
+- **"Destinos da cópia de segurança"**
+- **"Tarefas agendadas"**
 
 Cada um deles é explicado na página própria, linkada no
 [índice desta seção](/admin-servico/).

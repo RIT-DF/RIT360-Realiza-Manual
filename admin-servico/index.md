@@ -26,10 +26,9 @@ criados — nunca o que está dentro deles.
   resto, tudo numa tela só, em duas colunas no computador.
 - [Organizações](/admin-servico/organizacoes/) — a lista de todas as
   organizações do serviço, e o cadastro de organização nova.
-- [E-mail de entrada (convite e senha)](/admin-servico/email-de-entrada/) — o
-  servidor por onde saem convite de conta e recuperação de senha.
-- [E-mail de avisos](/admin-servico/email-de-avisos/) — o servidor por onde saem
-  os avisos que as organizações escolhem receber.
+- [Servidor de e-mail do produto](/admin-servico/email/) — o servidor único
+  por onde saem o convite de conta, a recuperação de senha e os avisos que
+  as organizações escolhem receber.
 - [Entrada pelo Google](/admin-servico/entrada-pelo-google/) — liga ou desliga o
   botão de entrar com conta Google, para todo mundo.
 - [Domínios autorizados](/admin-servico/dominios-autorizados/) — os domínios de
@@ -43,6 +42,11 @@ criados — nunca o que está dentro deles.
   listar e revogar esse acesso.
 - [Cópia de segurança](/admin-servico/copia-de-seguranca/) — o que a tela mostra
   sobre a cópia de segurança do banco, e o que ela ainda não faz.
+- [Destinos da cópia de segurança](/admin-servico/destinos-backup/) — para onde
+  a cópia do banco é enviada fora do servidor, e o teste que grava, lê e apaga
+  de verdade.
+- [Tarefas agendadas](/admin-servico/tarefas/) — o estado de toda rotina
+  automática da instalação: nunca rodou, falhou ou deu certo.
 
 ![Painel da administração do serviço, com as contagens gerais](/assets/capturas/admin-servico-painel-desktop.png)
 {: .mt-4 }
@@ -54,8 +58,10 @@ A mesma tela no celular:
 ## Como se chega aqui
 
 Não existe um link visível para quem não administra o serviço. Quem tenta
-acessar `/admin-servico` sem essa permissão vê apenas uma mensagem dizendo que
-a tela não é para o papel dela — nunca um erro técnico, e nunca uma porta
+acessar qualquer uma das telas desta seção sem essa permissão vê a mesma
+recusa, em todas elas: **"Você não administra o serviço — esta tela é para
+quem administra o RIT360 Realiza como um todo."**, com um link para **"Voltar
+para administração geral"** — nunca um erro técnico, e nunca uma porta
 entreaberta.
 
 {: .note }
