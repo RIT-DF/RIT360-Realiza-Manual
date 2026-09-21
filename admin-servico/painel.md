@@ -17,12 +17,8 @@ delas.
 1. Abra **"Administração geral"**.
 2. As três contagens aparecem logo no topo da tela.
 
-![Painel da administração do serviço, com as contagens gerais](/assets/capturas/admin-servico-painel-desktop.png)
+<!-- CAPTURA: rota=/admin-servico | o-que-mostrar=painel completo, com o bloco "Mais configurações" mostrando o botão "Pedidos de organização" | arquivo=admin-servico-painel-desktop.png e admin-servico-painel-celular.png -->
 {: .mt-4 }
-
-A mesma tela no celular:
-
-![Painel da administração do serviço, com as contagens gerais — no celular](/assets/capturas/admin-servico-painel-celular.png){: style="max-width:375px" }
 
 ## O que cada número conta
 
@@ -92,6 +88,7 @@ espremer — esses continuam em telas próprias, e o caminho até eles é o bloc
 - **"Servidor de e-mail"**
 - **"Provedores de IA"**
 - **"Organizações"**
+- **"Pedidos de organização"**
 - **"Feedbacks"**
 - **"Destinos da cópia de segurança"**
 - **"Tarefas agendadas"**

@@ -37,7 +37,9 @@ A mesma tela no celular:
 1. Na visão **"Calendário"**, clique no dia em que a tarefa deve ter o prazo.
 2. Na janela **"Nova tarefa"**, que já mostra "Com prazo em [a data que você clicou]", digite o
    título.
-3. Clique em **"Criar"**.
+3. Em **"Responsável (opcional)"**, escolha quem vai executar — ou deixe como está, em **"Sem
+   responsável"**. Só aparecem aqui as pessoas que podem executar tarefa neste espaço.
+4. Clique em **"Criar"**.
 
 A tarefa nasce com aquele dia como **prazo acordado** — o mesmo campo que você veria e editaria
 abrindo a tarefa depois de criada.
@@ -52,8 +54,17 @@ compromisso de agenda.
 
 Prioridade, categoria, estimativa, etiqueta — nada disso é pedido na criação. Essa é uma decisão
 deliberada: perguntar coisas que ninguém sabe responder ainda só ensina a preencher qualquer coisa
-para passar adiante, e isso corrói a confiança nos dados do produto com o tempo. Responsável e
-prazo, que costumam ter resposta um pouco depois, você preenche quando abrir a tarefa — não antes.
+para passar adiante, e isso corrói a confiança nos dados do produto com o tempo.
+
+No quadro e na lista, responsável e prazo — que costumam ter resposta um pouco depois — você
+preenche quando abrir a tarefa, não antes. No calendário é diferente: o prazo já vem do dia em que
+você clicou, então a janela aproveita e também oferece o responsável ali — sempre **opcional**,
+nunca obrigatório. Nos dois casos, ninguém é forçado a decidir quem vai executar antes da hora.
+
+{: .warning }
+Só pode ser responsável quem executa ou gerencia o espaço. Tentando designar alguém de fora desse
+grupo — pelo calendário na criação, ou depois no painel de detalhe — a tela avisa: "Esta pessoa
+não pode ser responsável — só quem executa ou gerencia este espaço."
 
 ## Preencher responsável e prazo
 
@@ -77,6 +88,27 @@ Depois que o prazo acordado existe uma vez, o campo fica desabilitado e a tela m
 um prazo acordado — mudar agora é só pela reprogramação, abaixo." Isso preserva o prazo acordado
 original intacto, mesmo que o prazo atual mude depois — veja [Meu trabalho: ver o que está
 travado](/trabalho/meu-trabalho/) para o selo "Reprogramação de prazo pendente".
+
+## Como o painel de detalhe salva sozinho
+
+Assim que você abre o painel, a tela avisa: "As alterações desta tarefa são salvas
+automaticamente." **Não existe botão "Salvar" aqui.** Título e descrição gravam quando você sai do
+campo (clica fora, ou aperta Tab); responsável, etapa e as duas datas gravam assim que você
+escolhe.
+
+Cada campo mostra o próprio estado, logo abaixo dele:
+
+- **"Salvando…"** — a gravação está em andamento.
+- **"Salvo às [hora]"** — gravou. Você pode seguir para o próximo campo.
+- **"Não foi possível salvar: [motivo]"**, com um botão **"Tentar de novo"** — a gravação falhou.
+  O que você digitou ou escolheu continua ali, visível no campo; nada se perde enquanto você não
+  fecha o painel. Clique em **"Tentar de novo"** para reenviar exatamente aquilo, sem digitar de
+  novo.
+
+{: .warning }
+O aviso de falha fica só naquele campo — os outros continuam gravando normalmente. Se você fechar
+o painel com um "Não foi possível salvar" ainda na tela, aquela alteração específica **não foi
+guardada**: volte, confira o campo e tente de novo antes de sair.
 
 ## Concluir tarefas
 
@@ -131,7 +163,11 @@ prazo acordado para sexta-feira.
 ## Quando dá errado
 
 - Ao criar: "Não foi possível criar a tarefa."
-- Ao salvar título, descrição, responsável, etapa ou datas: "Não foi possível salvar."
+- Ao salvar título, descrição, responsável, etapa ou datas no painel de detalhe: "Não foi possível
+  salvar: [motivo]", junto do campo, com o botão "Tentar de novo".
+- Ao escolher alguém que não executa nem gerencia o espaço como responsável — na criação pelo
+  calendário, ou depois no painel de detalhe: "Esta pessoa não pode ser responsável — só quem
+  executa ou gerencia este espaço."
 - Ao concluir em lote: "Não foi possível concluir em lote."
 - Ao remover em lote: "Não foi possível remover em lote."
 - Ao remover uma única tarefa: "Não foi possível remover a tarefa."

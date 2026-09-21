@@ -44,3 +44,15 @@ nunca vai mostrar essas palavras para você.
 13. [Propor novas datas](/trabalho/reprogramar-prazo/)
 14. [Meu trabalho: ver o que está travado](/trabalho/meu-trabalho/)
 15. [Arquivar e reabrir um espaço](/trabalho/arquivar-e-reabrir/)
+
+## Pedir, repetir, medir e guardar
+
+Estas abas também existem só para quem precisa delas — a maioria dos espaços simples nunca usa
+nenhuma.
+
+16. [Pedir uma tarefa, sem poder criar direto](/trabalho/pedidos/) — quando o espaço tem triagem
+    ligada
+17. [Tarefas que se repetem e modelos de ciclo](/trabalho/recorrencias/)
+18. [Indicadores do espaço](/trabalho/indicadores/)
+19. [Relatórios do espaço](/trabalho/relatorios/)
+20. [Documentos e wiki do espaço](/trabalho/documentos-e-wiki-do-espaco/)

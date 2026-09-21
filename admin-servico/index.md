@@ -25,7 +25,11 @@ criados — nunca o que está dentro deles.
 - [O painel](/admin-servico/painel/) — as três contagens e o caminho para o
   resto, tudo numa tela só, em duas colunas no computador.
 - [Organizações](/admin-servico/organizacoes/) — a lista de todas as
-  organizações do serviço, e o cadastro de organização nova.
+  organizações do serviço, o domínio de cada uma, e o cadastro de organização
+  nova.
+- [Pedidos de organização](/admin-servico/pedidos-de-organizacao/) — os
+  pedidos de criação que o produto não conseguiu decidir sozinho, para você
+  aprovar ou recusar.
 - [Servidor de e-mail do produto](/admin-servico/email/) — o servidor único
   por onde saem o convite de conta, a recuperação de senha e os avisos que
   as organizações escolhem receber.
@@ -34,8 +38,8 @@ criados — nunca o que está dentro deles.
 - [Domínios autorizados](/admin-servico/dominios-autorizados/) — os domínios de
   e-mail que dispensam convite para criar conta.
 - [Provedores de inteligência artificial](/admin-servico/provedores-de-ia/) — o
-  provedor padrão que atende as organizações que não cadastraram o próprio, e
-  o modelo que cada um usa.
+  provedor padrão que atende as organizações que não cadastraram o próprio, o
+  modelo que cada um usa, e o consumo de IA de todas as organizações.
 - [Feedbacks](/admin-servico/feedbacks/) — o que as pessoas enviaram de dentro
   do produto, e a resposta a cada um.
 - [Quem administra o serviço](/admin-servico/quem-administra/) — conceder,
@@ -46,14 +50,12 @@ criados — nunca o que está dentro deles.
   a cópia do banco é enviada fora do servidor, e o teste que grava, lê e apaga
   de verdade.
 - [Tarefas agendadas](/admin-servico/tarefas/) — o estado de toda rotina
-  automática da instalação: nunca rodou, falhou ou deu certo.
+  automática da instalação: nunca rodou, falhou, reprocessando ou deu certo —
+  com o botão para reprocessar o que falhou e o de conferir o espelho com a
+  origem.
 
-![Painel da administração do serviço, com as contagens gerais](/assets/capturas/admin-servico-painel-desktop.png)
+<!-- CAPTURA: rota=/admin-servico | o-que-mostrar=painel completo, com o bloco "Mais configurações" mostrando o botão "Pedidos de organização" | arquivo=admin-servico-painel-desktop.png e admin-servico-painel-celular.png -->
 {: .mt-4 }
-
-A mesma tela no celular:
-
-![Painel da administração do serviço, com as contagens gerais — no celular](/assets/capturas/admin-servico-painel-celular.png){: style="max-width:375px" }
 
 ## Como se chega aqui
 

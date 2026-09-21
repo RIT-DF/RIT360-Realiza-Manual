@@ -24,6 +24,16 @@ tela de configurações. Quem não administra e chega direto ao endereço vê: "
 mesmo que a pessoa digite o endereço direto, porque quem decide de verdade quem entra é o
 servidor, não a tela.
 
+## Os outros dois links desta tela
+
+No topo, ao lado do título, dois links levam a assuntos que também são "da organização" mas têm
+página própria:
+
+- [Pedidos de entrada](/configuracoes/pedidos-de-entrada/) — gente com e-mail do mesmo domínio
+  pedindo para entrar, esperando sua decisão.
+- [Integrações](/configuracoes/integracoes/) — chaves de API e webhooks, para conectar sistemas
+  externos a esta organização.
+
 
 ## Logo e ícone são dois arquivos diferentes
 
@@ -57,6 +67,27 @@ A mesma tela no celular:
 {: .note }
 O nome de exibição da organização (o que aparece em toda tela, como "Instituto Semente") não muda
 nesta seção — razão social, contato e site são dados de ficha, à parte.
+
+## Domínio de reconhecimento
+
+Em **"Domínio de reconhecimento"**, preencha o domínio do e-mail da sua instituição — por exemplo
+`institutosemente.org.br`.
+
+Esse domínio é o que evita que alguém da mesma equipe crie uma organização duplicada ao pedir
+acesso: pedindo com um e-mail desse domínio, em vez de nascer uma organização nova, o pedido vira
+um [pedido de entrada](/configuracoes/pedidos-de-entrada/) nesta organização, para você decidir.
+Veja [Primeiros passos](/primeiros-passos/) para como esse pedido nasce, do lado de quem pede.
+
+{: .note }
+"Domínio de reconhecimento" é diferente do campo **"Site"**, ali em cima: o site é texto livre da
+ficha, sem efeito em nada; o domínio de reconhecimento é o que o Realiza usa para casar um pedido
+novo com esta organização.
+
+## Exportar dados
+
+No cartão **"Exportar dados"**, o link **"Exportar a organização"** leva à tela onde você pede o
+pacote com os dados da organização inteira. Veja
+[Exportar dados](/configuracoes/exportar-dados/).
 
 ## Exemplo
 

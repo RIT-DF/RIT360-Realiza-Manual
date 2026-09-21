@@ -28,12 +28,16 @@ administrá-la, e o produto cuida de convidar essa pessoa. Ela só passa a
 fazer parte da organização quando aceitar o convite — criar não é o mesmo
 que já ter alguém dentro.
 
-![Lista de todas as organizações do serviço, com o formulário de criação](/assets/capturas/admin-servico-organizacoes-desktop.png)
+Boa parte dos pedidos de organização nem chega a esta tela: quando alguém pede a criação pela
+tela de entrada com um e-mail de domínio reconhecido, a organização nasce sozinha, e quando o
+domínio já pertence a uma organização existente, o pedido vai para quem administra ela. Só quando
+o domínio é público, desconhecido, ou diferente do domínio do site informado é que o pedido exige
+julgamento — e aí ele aparece em [Pedidos de organização](/admin-servico/pedidos-de-organizacao/),
+não aqui. O que você cria por esta tela é a organização que **você mesmo** decide abrir, sem
+pedido de ninguém.
+
+<!-- CAPTURA: rota=/admin-servico/organizacoes | o-que-mostrar=formulário de criação com o campo "Domínio (opcional)" preenchido e a tabela com a coluna "Domínio" visível | arquivo=admin-servico-organizacoes-desktop.png e admin-servico-organizacoes-celular.png -->
 {: .mt-4 }
-
-A mesma tela no celular:
-
-![Lista de todas as organizações do serviço, com o formulário de criação — no celular](/assets/capturas/admin-servico-organizacoes-celular.png){: style="max-width:375px" }
 
 ## Passo a passo — criar uma organização
 
@@ -41,15 +45,34 @@ A mesma tela no celular:
 2. No formulário **"Criar organização"**, preencha **"Nome da organização"**.
 3. Preencha **"E-mail de quem vai administrar"** com o e-mail da pessoa que
    vai gerir aquela organização a partir de agora.
-4. Clique em **"Criar e convidar"**.
+4. Se quiser, preencha **"Domínio (opcional)"** com o domínio de e-mail da
+   organização (por exemplo, `instituto.org.br`).
+5. Clique em **"Criar e convidar"**.
 
 A organização aparece na tabela **"Todas as organizações"** imediatamente,
 mesmo antes de a pessoa convidada aceitar o convite.
 
+{: .note }
+**O domínio é opcional, mas não é decorativo.** É ele que faz o produto
+reconhecer um pedido de entrada futuro como "esta pessoa é desta
+organização" em vez de tratá-lo como ambíguo. Organização criada sem
+domínio nunca recebe pedido de entrada automático — quem quiser entrar
+precisa ser convidado à mão.
+
+## Passo a passo — trocar o domínio de uma organização já criada
+
+1. Na coluna **"Domínio"**, clique no valor da organização (ou em **"—
+   (editar)"**, se ainda não houver domínio cadastrado).
+2. Digite o novo domínio no campo que aparece.
+3. Clique em **"Salvar"** para confirmar, ou em **"Cancelar"** para desistir
+   sem alterar nada.
 
 ## O que cada coluna da tabela mostra
 
 - **"Nome"** — o nome da organização.
+- **"Domínio"** — o domínio de e-mail associado à organização, editável
+  clicando no valor. Mostra **"— (editar)"** quando ainda não há domínio
+  cadastrado.
 - **"Gestor"** — o e-mail de quem administra aquela organização. Se a pessoa
   convidada ainda não tiver conta no serviço de identidade, esta coluna
   mostra um travessão até que ela crie a própria conta.
@@ -97,6 +120,8 @@ administra o serviço.
   e nenhuma organização é criada.
 - Se o e-mail informado não corresponder ao formato de um e-mail, o
   navegador pede correção antes de enviar.
+- Se salvar o domínio falhar, a mensagem de erro aparece acima da tabela, e o
+  domínio antigo (ou a ausência dele) continua valendo.
 - Enquanto a lista de organizações não carrega, a tabela mostra
   **"Carregando…"**; se ainda não existir organização nenhuma, ela mostra
   **"Nenhuma organização cadastrada ainda. Crie uma acima."**

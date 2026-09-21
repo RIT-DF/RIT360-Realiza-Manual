@@ -130,3 +130,39 @@ provedor e cadastrá-la de novo; não há como recuperar a anterior por aqui.
 - Se **"Ver modelos disponíveis"** ou **"Trocar modelo"** falhar, a tela
   mostra a mensagem de erro no lugar da lista. Uma credencial inválida é a
   causa mais comum — o mesmo problema que o **"Testar conexão"** revelaria.
+
+## Consumo de IA — todas as organizações
+
+Logo abaixo da lista de provedores, nesta mesma tela, fica o cartão **"Consumo de IA — todas as
+organizações"**: quanto cada organização usou de inteligência artificial no mês, por provedor e
+por modelo.
+
+{: .important }
+**Tokens e custo são ESTIMATIVAS** — nenhum provedor devolve uma contagem exata — **e não há
+franquia nem teto**: nenhuma organização é interrompida por causa do consumo dela. Esta tela
+serve para acompanhar, não para limitar.
+
+<!-- CAPTURA: rota=/admin-servico/ia | o-que-mostrar=cartão "Consumo de IA — todas as organizações", com pelo menos uma organização e uma linha de provedor/modelo | arquivo=admin-servico-consumo-ia-desktop.png e admin-servico-consumo-ia-celular.png -->
+
+### O que a tela mostra
+
+- O **mês** em exibição, com **"← Mês anterior"** e **"Mês seguinte →"** para navegar entre
+  meses.
+- Uma seção por **organização**, pelo nome dela — nunca pelo identificador interno.
+- Dentro de cada organização, uma linha por combinação de **provedor** e **modelo** usados, com
+  o número de **chamadas**, os **tokens (entrada+saída)** e o **custo estimado**.
+
+{: .warning }
+**Esta tela mostra números, nunca o conteúdo das conversas.** Quem administra o serviço vê quanto
+uma organização gastou e com qual provedor — nunca o que foi perguntado ao assistente ou o que
+ele respondeu. É o mesmo limite de alcance que vale para toda a administração do serviço: veja
+[a nota sobre alcance](/admin-servico/).
+
+## Quando o consumo não aparece
+
+- Enquanto a consulta não termina, o cartão mostra **"Carregando…"**.
+- Sem nenhuma chamada registrada no mês, o cartão mostra **"Nenhuma chamada de IA registrada
+  neste mês."**
+- Se a consulta falhar, a mensagem de erro aparece no lugar da lista.
+- Se o nome de uma organização não puder ser resolvido, a linha dela aparece como **"Organização
+  sem nome resolvido"** — o número do consumo continua correto, só o nome que falta.
