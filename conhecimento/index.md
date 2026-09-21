@@ -31,9 +31,12 @@ Todo documento, link e página de wiki tem uma visibilidade:
 Quem não tem permissão ampla na organização — um convidado — só consegue criar e ver o
 **"Compartilhado"**; a opção "Interno" nem aparece para essa pessoa, porque o servidor recusaria.
 
-<!-- CAPTURA: rota=/conhecimento | o-que-mostrar=aba "Conhecimento" da organização, com as abas
-     internas "Documentos" e "Wiki" visíveis | arquivo=conhecimento-visao-geral-desktop.png e
-     conhecimento-visao-geral-celular.png -->
+![Tela Conhecimento da organização, com as abas internas Documentos e Wiki](/assets/capturas/conhecimento-visao-geral-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Tela Conhecimento da organização, com as abas internas Documentos e Wiki — no celular](/assets/capturas/conhecimento-visao-geral-celular.png){: style="max-width:375px" }
 
 {: .note }
 Este manual descreve o que a tela faz hoje. Se você encontrar algo diferente, [nos avise pelo

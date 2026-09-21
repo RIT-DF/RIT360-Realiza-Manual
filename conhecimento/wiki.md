@@ -27,9 +27,12 @@ de um espaço, escolha a **"Visibilidade"**: **"Interno (só quem administra a o
 Clique em **"Salvar"** para gravar. Cada vez que você salva, nasce **uma versão nova** — nada se
 sobrescreve, e o texto de antes continua acessível no histórico.
 
-<!-- CAPTURA: rota=/conhecimento/wiki/:id | o-que-mostrar=editor de uma página de wiki com texto,
-     o seletor de visibilidade e o botão Salvar | arquivo=conhecimento-wiki-editor-desktop.png e
-     conhecimento-wiki-editor-celular.png -->
+![Editor de uma página de wiki, com texto, o seletor de Visibilidade e o botão Salvar](/assets/capturas/conhecimento-wiki-editor-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Editor de uma página de wiki, com texto, o seletor de Visibilidade e o botão Salvar — no celular](/assets/capturas/conhecimento-wiki-editor-celular.png){: style="max-width:375px" }
 
 ## Ver o histórico e voltar a uma versão anterior
 
@@ -43,9 +46,12 @@ salva. Para voltar a uma versão antiga:
 Restaurar nunca apaga nada — mesmo o texto atual (o que você está prestes a substituir) continua
 guardado no histórico, como a versão anterior a essa restauração.
 
-<!-- CAPTURA: rota=/conhecimento/wiki/:id | o-que-mostrar=cartão "Histórico" com pelo menos três
-     versões listadas | arquivo=conhecimento-wiki-historico-desktop.png e
-     conhecimento-wiki-historico-celular.png -->
+![Cartão "Histórico" da página de wiki, com três versões listadas](/assets/capturas/conhecimento-wiki-historico-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Cartão "Histórico" da página de wiki, com três versões listadas — no celular](/assets/capturas/conhecimento-wiki-historico-celular.png){: style="max-width:375px" }
 
 ## Excluir uma página
 
@@ -76,9 +82,12 @@ pessoa específica — voluntário, beneficiário, doador — não deve entrar n
 vez publicado, esse dado fica acessível para qualquer um com o link, mesmo que a página seja
 despublicada depois (quem já acessou pode ter guardado uma cópia).
 
-<!-- CAPTURA: rota=/p/<token> | o-que-mostrar=uma página pública de wiki aberta sem sessão, título
-     e conteúdo visíveis | arquivo=conhecimento-wiki-pagina-publica-desktop.png e
-     conhecimento-wiki-pagina-publica-celular.png -->
+![Página pública de wiki aberta sem sessão, com título e conteúdo visíveis](/assets/capturas/conhecimento-wiki-pagina-publica-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Página pública de wiki aberta sem sessão, com título e conteúdo visíveis — no celular](/assets/capturas/conhecimento-wiki-pagina-publica-celular.png){: style="max-width:375px" }
 
 ### Se a página é editada depois de publicada
 

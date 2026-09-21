@@ -25,9 +25,12 @@ Limite de 25 MB por arquivo. Aceita documento de escritório, imagem, PDF e comp
 **Executável é recusado, mesmo renomeado** — o produto confere o conteúdo real do arquivo, não só
 o nome.
 
-<!-- CAPTURA: rota=/conhecimento | o-que-mostrar=diálogo "Enviar arquivo" aberto, com o seletor de
-     visibilidade visível | arquivo=conhecimento-enviar-arquivo-desktop.png e
-     conhecimento-enviar-arquivo-celular.png -->
+![Diálogo "Enviar arquivo" aberto, com o seletor de Visibilidade](/assets/capturas/conhecimento-enviar-arquivo-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Diálogo "Enviar arquivo" aberto, com o seletor de Visibilidade — no celular](/assets/capturas/conhecimento-enviar-arquivo-celular.png){: style="max-width:375px" }
 
 ## Guardar um link
 
@@ -71,9 +74,12 @@ ou mais selecionados, aparecem as ações em lote:
 - **"Mover para pasta atual"** — move todos os selecionados para a pasta que você está vendo agora.
 - **"Marcar compartilhado"** / **"Marcar interno"** — muda a visibilidade de todos de uma vez.
 
-<!-- CAPTURA: rota=/conhecimento | o-que-mostrar=lista de documentos com vários selecionados e a
-     barra de ações em lote (excluir, mover, marcar visibilidade) visível | arquivo=conhecimento-acoes-em-lote-desktop.png
-     e conhecimento-acoes-em-lote-celular.png -->
+![Lista de documentos com dois itens selecionados e a barra de ações em lote (excluir, mover, marcar visibilidade)](/assets/capturas/conhecimento-acoes-em-lote-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Lista de documentos com dois itens selecionados e a barra de ações em lote (excluir, mover, marcar visibilidade) — no celular](/assets/capturas/conhecimento-acoes-em-lote-celular.png){: style="max-width:375px" }
 
 ## Exemplo
 

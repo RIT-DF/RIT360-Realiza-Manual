@@ -142,7 +142,12 @@ por modelo.
 franquia nem teto**: nenhuma organização é interrompida por causa do consumo dela. Esta tela
 serve para acompanhar, não para limitar.
 
-<!-- CAPTURA: rota=/admin-servico/ia | o-que-mostrar=cartão "Consumo de IA — todas as organizações", com pelo menos uma organização e uma linha de provedor/modelo | arquivo=admin-servico-consumo-ia-desktop.png e admin-servico-consumo-ia-celular.png -->
+![Cartão "Consumo de IA — todas as organizações", com a navegação por mês e o aviso de que os números são estimativas](/assets/capturas/admin-servico-consumo-ia-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Cartão "Consumo de IA — todas as organizações", com a navegação por mês e o aviso de que os números são estimativas — no celular](/assets/capturas/admin-servico-consumo-ia-celular.png){: style="max-width:375px" }
 
 ### O que a tela mostra
 

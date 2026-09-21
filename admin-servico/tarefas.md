@@ -45,7 +45,12 @@ Cada rotina aparece num cartão, com:
 - Se o estado for **"Falhou"**, a mensagem de erro que a própria rotina
   reportou.
 
-<!-- CAPTURA: rota=/admin-servico/tarefas | o-que-mostrar=lista de rotinas com pelo menos uma "Falhou" (mostrando o botão "Reprocessar (<rótulo>)") e a rotina do espelho (mostrando "Conferir com a origem agora") | arquivo=admin-servico-tarefas-desktop.png e admin-servico-tarefas-celular.png -->
+![Tela Tarefas agendadas, com a rotina do espelho em "Falhou" mostrando o botão "Conferir com a origem agora"](/assets/capturas/admin-servico-tarefas-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Tela Tarefas agendadas, com a rotina do espelho em "Falhou" mostrando o botão "Conferir com a origem agora" — no celular](/assets/capturas/admin-servico-tarefas-celular.png){: style="max-width:375px" }
 {: .mt-4 }
 
 {: .important }

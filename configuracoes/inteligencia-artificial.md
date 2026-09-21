@@ -106,7 +106,12 @@ texto processado) e o custo estimado, mês a mês.
 
 Use as setas **"← Mês anterior"** e **"Mês seguinte →"** para navegar entre os meses.
 
-<!-- CAPTURA: rota=/organizacao/configuracoes | o-que-mostrar=cartão Consumo de IA desta organização, com a tabela por pessoa | arquivo=organizacao-ia-consumo-desktop.png e organizacao-ia-consumo-celular.png -->
+![Cartão "Consumo de IA desta organização", navegação por mês e aviso de que os números são estimativas](/assets/capturas/organizacao-ia-consumo-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Cartão "Consumo de IA desta organização", navegação por mês e aviso de que os números são estimativas — no celular](/assets/capturas/organizacao-ia-consumo-celular.png){: style="max-width:375px" }
 
 {: .important }
 "Tokens e custo são ESTIMATIVAS (nenhum provedor devolve contagem exata) — não há franquia nem

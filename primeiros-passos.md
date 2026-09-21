@@ -98,7 +98,12 @@ domínio do e-mail que você usou:
   serviço decidir. Você recebe um e-mail assim que houver decisão." Acontece quando o domínio do
   site informado é diferente do domínio do seu e-mail.
 
-<!-- CAPTURA: rota=/solicitacoes-organizacao/{id}/confirmar?verificador=... | o-que-mostrar=tela "Confirmação do pedido de organização" no desfecho de organização criada | arquivo=confirmacao-pedido-organizacao-desktop.png e confirmacao-pedido-organizacao-celular.png -->
+![Tela "Confirmação do pedido de organização", com a organização criada e o convite de acesso enviado](/assets/capturas/confirmacao-pedido-organizacao-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Tela "Confirmação do pedido de organização", com a organização criada e o convite de acesso enviado — no celular](/assets/capturas/confirmacao-pedido-organizacao-celular.png){: style="max-width:375px" }
 
 ### Exemplo
 

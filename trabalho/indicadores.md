@@ -55,9 +55,12 @@ um período:
 O ensaio é o que protege você de uma planilha com erro de formatação: nada entra no indicador
 antes de você ver exatamente o que vai entrar e o que a planilha tem de errado.
 
-<!-- CAPTURA: rota=/espacos/:id/indicadores | o-que-mostrar=painel de valores de um indicador com
-     o ensaio de importação de CSV mostrando linhas aceitas e recusadas | arquivo=indicadores-ensaio-csv-desktop.png
-     e indicadores-ensaio-csv-celular.png -->
+![Painel de valores de um indicador, com o ensaio de importação de CSV mostrando uma linha aceita e uma recusada](/assets/capturas/indicadores-ensaio-csv-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Painel de valores de um indicador, com o ensaio de importação de CSV mostrando uma linha aceita e uma recusada — no celular](/assets/capturas/indicadores-ensaio-csv-celular.png){: style="max-width:375px" }
 
 Cada valor registrado mostra o período, o valor com a unidade, e a origem: **"à mão"** ou
 **"planilha"** — para você sempre saber de onde aquele número veio.
