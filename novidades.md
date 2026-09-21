@@ -17,6 +17,19 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 21 de setembro de 2026 — versão 0.9.4
+
+### Alterado
+
+- **Quem é convidado de fora só vê os botões que pode usar.** Criar espaço ou cliente, arquivar,
+  excluir, mexer em etapas e participantes, criar tarefa ou evento: nada disso aparecia como opção
+  de verdade para essa pessoa, mas os botões continuavam na tela. Agora eles simplesmente não
+  aparecem para quem não pode usá-los.
+- **A mensagem de falta de permissão ficou clara.** Em vez de um texto técnico, qualquer recusa por
+  permissão agora diz "Você não tem permissão para fazer isto nesta organização."
+
+---
+
 ## 21 de setembro de 2026 — versão 0.9.0
 
 ### Adicionado

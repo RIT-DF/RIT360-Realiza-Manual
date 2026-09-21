@@ -45,6 +45,11 @@ organização descobre que você participa das outras**.
 Não pela tela de perfil: o e-mail é o que identifica a sua conta em todas as
 organizações. Nome, telefone e foto você muda quando quiser.
 
+### Apareceu "Você não tem permissão para fazer isto nesta organização." O que faço?
+
+O seu papel não permite essa ação. Não é erro do produto: peça a quem administra a organização —
+ou, dentro de um espaço, a quem gerencia o espaço — para fazer por você ou ajustar o seu papel.
+
 ## Espaços e tarefas
 
 ### Qual a diferença entre projeto e operação contínua?

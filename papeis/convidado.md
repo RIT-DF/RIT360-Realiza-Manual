@@ -29,6 +29,22 @@ Depende do papel que lhe deram no espaço:
   [Quem aprova](/papeis/aprovador/), que é o guia certo para você.
 - **Observador** — você acompanha o andamento, sem mexer em nada.
 
+## Os botões que não aparecem para você
+
+Como convidado de fora, alguns botões e campos simplesmente não estão na sua tela — não é que
+estejam desligados, é que fazer aquilo não é o seu papel:
+
+- Criar espaço, criar cliente, selecionar vários de uma vez e as ações "Arquivar", "Reabrir" e
+  "Excluir" sobre espaços ou clientes.
+- Dentro do espaço, a aba **"Configurar"** e o link **"Configure as etapas"** — quem mexe em
+  etapas, participantes e convites é sempre quem gerencia o espaço.
+- No quadro, na lista e no calendário do espaço, o campo **"Nova tarefa…"**, o botão de novo
+  evento e as ações em lote sobre tarefas.
+
+{: .note }
+Para a equipe da organização nada disso muda — a diferença é só para quem entra por um convite de
+espaço, como você.
+
 ## Por onde começar
 
 1. [Primeiros passos](/primeiros-passos/) — aceitar o convite e definir a senha

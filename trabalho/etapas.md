@@ -79,6 +79,9 @@ realmente representa uma decisão de aprovação.
 
 ## Quando dá errado
 
+- **"Você não administra "[nome do espaço]" — só quem gerencia o espaço configura etapas,
+  participantes e convites."** — você chegou direto no endereço de "Configurar" sem ser gestor
+  deste espaço. Peça a quem gerencia o espaço.
 - Ao criar: "Não foi possível criar a etapa."
 - Ao renomear: "Não foi possível renomear a etapa."
 - Ao trocar a correspondência: "Não foi possível trocar a correspondência."
