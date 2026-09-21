@@ -75,12 +75,7 @@ Agasalho 2026"** — então o painel dela só mostra o que está travado ali, nu
 de outra organização. O restante do painel funciona do mesmo jeito: atrasadas, aguardando ela e
 esperando outra pessoa, tudo restrito ao que ela alcança.
 
-![Painel "O que está travado", visto por uma pessoa convidada de fora, só com o espaço dela](/assets/capturas/painel-convidado-desktop.png)
-{: .mt-4 }
-
-A mesma tela no celular:
-
-![Painel "O que está travado", visto por uma pessoa convidada de fora — no celular](/assets/capturas/painel-convidado-celular.png){: style="max-width:375px" }
+<!-- CAPTURA: o-que-mostrar=Meu trabalho visto por Beatriz Lima, sem a aba Clientes (#116) | arquivo=painel-convidado-desktop.png e painel-convidado-celular.png -->
 
 ## Quando dá errado
 
