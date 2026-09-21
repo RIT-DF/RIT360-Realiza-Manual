@@ -104,3 +104,10 @@ qualquer momento, mesmo sem suspeitar de nada errado.
   lugar dela.
 - Se **"Conferir com a origem agora"** falhar, a tela mostra a mensagem de
   erro devolvida, e o espelho continua como estava — nada fica pela metade.
+- Se o cartão do espelho mostrar **"N organização(ões) sem correspondência
+  aqui (dado residual do Trabalho para uma organização que não existe mais,
+  ou nunca existiu, neste Núcleo) — "Reconciliar" não resolve isto; requer
+  investigação (ver issue #82)."**, não adianta reconciliar: sobraram
+  registros de espaços de uma organização que já não existe. Avise quem
+  cuida da instalação — é preciso apagar esses restos com cuidado, e isso
+  não se faz por esta tela.

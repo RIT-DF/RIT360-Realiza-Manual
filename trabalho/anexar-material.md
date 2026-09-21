@@ -12,6 +12,11 @@ direto no cartão. Não existe um passo separado para "criar uma entrega" nem um
 tipo de material é: você anexa, e pronto. A palavra "entrega" só aparece mais tarde, se e quando
 alguém pedir aprovação daquele material — enquanto isso não acontece, é só material.
 
+{: .note }
+Anexar, remover e enviar material é de quem **executa** o espaço: gestor e executor. Quem só aprova
+ou observa — inclusive quem foi convidado de fora — vê o material já anexado, mas não os botões de
+acrescentar, remover ou enviar.
+
 ## Passo a passo
 
 1. Abra a tarefa, na seção **"Materiais"**.
