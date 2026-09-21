@@ -22,15 +22,23 @@ criados — nunca o que está dentro deles.
 
 ## O que você encontra aqui
 
-- [O painel](/admin-servico/painel/) — as três contagens e os atalhos para o resto.
+- [O painel](/admin-servico/painel/) — as três contagens e o caminho para o
+  resto, tudo numa tela só, em duas colunas no computador.
+- [Organizações](/admin-servico/organizacoes/) — a lista de todas as
+  organizações do serviço, e o cadastro de organização nova.
 - [E-mail de entrada (convite e senha)](/admin-servico/email-de-entrada/) — o
   servidor por onde saem convite de conta e recuperação de senha.
 - [E-mail de avisos](/admin-servico/email-de-avisos/) — o servidor por onde saem
   os avisos que as organizações escolhem receber.
 - [Entrada pelo Google](/admin-servico/entrada-pelo-google/) — liga ou desliga o
   botão de entrar com conta Google, para todo mundo.
+- [Domínios autorizados](/admin-servico/dominios-autorizados/) — os domínios de
+  e-mail que dispensam convite para criar conta.
 - [Provedores de inteligência artificial](/admin-servico/provedores-de-ia/) — o
-  provedor padrão que atende as organizações que não cadastraram o próprio.
+  provedor padrão que atende as organizações que não cadastraram o próprio, e
+  o modelo que cada um usa.
+- [Feedbacks](/admin-servico/feedbacks/) — o que as pessoas enviaram de dentro
+  do produto, e a resposta a cada um.
 - [Quem administra o serviço](/admin-servico/quem-administra/) — conceder,
   listar e revogar esse acesso.
 - [Cópia de segurança](/admin-servico/copia-de-seguranca/) — o que a tela mostra

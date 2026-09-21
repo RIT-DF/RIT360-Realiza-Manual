@@ -32,10 +32,10 @@ Depende do papel que lhe deram no espaço:
 ## Por onde começar
 
 1. [Primeiros passos](/primeiros-passos/) — aceitar o convite e definir a senha
-2. [Meu trabalho](/trabalho/meu-trabalho/) — o que está esperando por você
+2. [Meu trabalho](/trabalho/meu-trabalho/) — o que está esperando por você, e o que está travado no espaço
 3. [Conversar dentro da tarefa](/trabalho/conversas/)
 
 {: .note }
 Se você também usa o Realiza pela sua própria organização, é a **mesma conta**
-nos dois lugares. Basta trocar de organização pela aba "Organização" — e cada
-organização só enxerga o vínculo dela com você, nunca os outros.
+nos dois lugares. Basta trocar de organização pelo seletor do cabeçalho — e
+cada organização só enxerga o vínculo dela com você, nunca os outros.

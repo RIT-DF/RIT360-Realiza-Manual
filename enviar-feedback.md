@@ -19,9 +19,11 @@ ter que perguntar de volta.
 
 ## Como enviar
 
-1. Abra o menu do seu usuário, no alto da tela, e escolha a opção de feedback.
-2. Escreva o que aconteceu, no campo de texto.
-3. Clique em "Enviar".
+1. No cabeçalho, clique no ícone de feedback (ao lado dos outros ícones, no canto direito).
+2. Escolha o **"Tipo"**: Sugestão, Problema, Elogio, Depoimento ou Outro.
+3. Preencha **"Título"** e **"Sua mensagem"**.
+4. Se ajudar a explicar, anexe até 3 arquivos (10 MB cada) em **"Anexos (opcional)"**.
+5. Clique em **"Enviar"**.
 
 ![Tela de envio de feedback](/assets/capturas/feedback-envio-desktop.png)
 {: .mt-4 }
@@ -29,6 +31,10 @@ ter que perguntar de volta.
 A mesma tela no celular:
 
 ![Tela de envio de feedback — no celular](/assets/capturas/feedback-envio-celular.png){: style="max-width:375px" }
+
+{: .note }
+Escolhendo o tipo **"Depoimento"**, aparece um consentimento a mais: autorizar a RIT a publicar o
+depoimento. Nos demais tipos, esse consentimento não é perguntado.
 
 ## O que escrever para a mensagem ser útil
 

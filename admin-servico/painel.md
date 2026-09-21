@@ -49,23 +49,41 @@ Se você precisa saber como uma organização específica está usando o produto
 resposta não está aqui. Peça a quem administra aquela organização — só ela
 enxerga o próprio conteúdo.
 
-## Os atalhos
+## Uma tela só, em duas colunas
 
-Abaixo das contagens ficam os botões para as outras configurações do serviço:
+No computador, tudo o que você administra no serviço fica numa **tela só**,
+organizada em duas colunas — nada de entrar e sair de tela em tela para ver
+cada assunto. No celular, as colunas empilham, uma abaixo da outra.
+
+Alguns assuntos aparecem **direto na tela**, com o conteúdo completo:
+
+- **"Números do serviço"** — as três contagens, explicadas abaixo.
+- **"Cópia de segurança do banco"** — veja [Cópia de
+  segurança](/admin-servico/copia-de-seguranca/).
+- **"Quem administra o serviço"** — veja [Quem administra o
+  serviço](/admin-servico/quem-administra/).
+- **"Login por Google"** — veja [Entrada pelo
+  Google](/admin-servico/entrada-pelo-google/).
+- **"Domínios autorizados"** — veja [Domínios
+  autorizados](/admin-servico/dominios-autorizados/).
+
+{: .note }
+No celular, **"Login por Google"** e **"Domínios autorizados"** não cabem
+inteiros na tela — em vez do conteúdo completo, você vê um resumo de uma linha
+e um botão **"Abrir"**, que leva à tela própria daquele assunto.
+
+Outros assuntos são grandes demais para caber ao lado de outro card sem
+espremer — esses continuam em telas próprias, e o caminho até eles é o bloco
+**"Mais configurações"**, no fim da tela, com um botão para cada um:
 
 - **"E-mail de avisos"**
 - **"E-mail de entrada"**
-- **"Login por Google"**
 - **"Provedores de IA"**
+- **"Organizações"**
+- **"Feedbacks"**
 
 Cada um deles é explicado na página própria, linkada no
 [índice desta seção](/admin-servico/).
-
-Mais abaixo na mesma tela, dois blocos que não são atalho — já mostram
-informação diretamente: **"Cópia de segurança do banco"** e **"Quem administra
-o serviço"**. Eles têm páginas próprias porque têm mais o que explicar do que
-cabe aqui: veja [Cópia de segurança](/admin-servico/copia-de-seguranca/) e
-[Quem administra o serviço](/admin-servico/quem-administra/).
 
 ## Quando dá errado
 

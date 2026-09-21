@@ -16,6 +16,15 @@ concedida.
 
 Na seção **"Membros"**, cada linha mostra uma pessoa e o papel dela na organização.
 
+Para organizações com muita gente, três recursos ajudam a achar quem você procura:
+
+- **"Buscar por nome ou e-mail"** — filtra a lista enquanto você digita.
+- **"Ordenar por"** — nome ou papel.
+- **Paginação** — a lista mostra um grupo de membros por vez, com **"Anterior"** e **"Próxima"**
+  para navegar, e o total ("Página X de Y") sempre visível.
+
+Buscar, ordenar ou recarregar a lista sempre volta para a primeira página.
+
 ![Configurações da organização: identidade, membros e inteligência artificial](/assets/capturas/organizacao-configuracoes-desktop.png)
 {: .mt-4 }
 
@@ -46,8 +55,13 @@ confirmação separada.
 ## Remover um membro
 
 - **Uma pessoa**: na linha dela, clique em **"Remover acesso"**.
-- **Várias de uma vez**: marque as caixas das pessoas (ou **"Selecionar todos"**) e clique em
-  **"Remover selecionados"**. Confirme no diálogo, que mostra quantas pessoas serão afetadas.
+- **Várias de uma vez**: marque as caixas das pessoas (ou **"Selecionar todos desta página"**) e
+  clique em **"Remover selecionados"**. Confirme no diálogo, que mostra quantas pessoas serão
+  afetadas.
+
+{: .note }
+"Selecionar todos" marca só a página visível — havendo busca ou mais de uma página, você seleciona
+um grupo de cada vez, nunca a organização inteira sem perceber.
 
 Depois da remoção em lote, a tela mostra o resultado detalhado — por exemplo: "2 removido(s), 1
 recusado(s) por regra (última pessoa com permissão de administrar), 0 não encontrado(s)."

@@ -17,6 +17,8 @@ página própria no manual.
 
 | O que | O que vai resolver |
 |---|---|
+| **Convidar gente de fora para um espaço** | Trazer o cliente ou o parceiro para acompanhar e aprovar dentro de um espaço. Os papéis e as regras já existem — o convite em si ainda não. Hoje, quem é de fora precisa ser cadastrado como pessoa da organização para participar. |
+| **Reunião na agenda** | Compromisso com hora, participantes, convite e lembrete. ⚠️ O calendário de hoje mostra **prazos de tarefa**, e criar por ele cria uma tarefa com data — não uma reunião. |
 | **Assistente por conversa** | Pedir e consultar coisas escrevendo em linguagem comum, dentro do app — "o que precisa da minha atenção hoje?" — em vez de navegar pelas telas. Hoje existe só a configuração de quem processa isso; a conversa em si não existe ainda. |
 | **Assistente no Telegram** | O mesmo assistente, por mensagem no celular, sem abrir o app. |
 | **Relatório mensal e indicadores** | Reunir num documento o trabalho feito, as entregas aprovadas e os resultados medidos do período. |

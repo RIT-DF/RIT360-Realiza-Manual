@@ -1,7 +1,7 @@
 ---
 title: "Política de Privacidade — versão 1.0"
 parent: "Termos e Privacidade"
-nav_order: 10
+nav_order: 11
 permalink: /legal/privacidade-1.0/
 nav_exclude: false
 search_exclude: true

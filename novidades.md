@@ -17,7 +17,72 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
-## 20 de setembro de 2026
+## 20 de setembro de 2026 — versões 0.6.0 e 0.7.0
+
+### Adicionado
+
+- **Agora dá para criar conta sozinho, se o seu e-mail for de um domínio
+  autorizado.** Convite continua valendo para qualquer pessoa, de qualquer
+  endereço. Sem convite, só cria conta quem tem e-mail de um domínio que quem
+  administra o serviço tenha liberado — e a regra vale tanto para a entrada por
+  senha quanto pela conta Google. Quem entra assim começa sem vínculo com
+  organização nenhuma: entrar não é ser aceito em lugar nenhum.
+- **Criar tarefa pela lista e pelo calendário.** Antes só o quadro criava. No
+  calendário, clicar num dia já deixa a data preenchida. ⚠️ O que se cria
+  continua sendo uma tarefa com data — reunião com hora, participantes e convite
+  ainda não existe.
+- **Rodapé em todas as telas**, com o manual, a política de privacidade e os
+  termos de uso sempre ao alcance.
+- **A organização ganhou ícone próprio, além da logo**, e a logo passou a
+  aceitar qualquer proporção. Também há campo para o site da organização.
+- **A lista de membros ganhou busca, ordenação e páginas**, e cada pessoa passou
+  a ocupar uma linha só — antes a lista crescia sem parar.
+- **O feedback ficou mais completo**: agora tem tipo (sugestão, problema, elogio,
+  depoimento ou outro), título e anexos. E quem administra o serviço passou a ter
+  uma tela para ler e responder o que chega.
+- **Quem administra o serviço ganhou duas telas novas**: a lista de todas as
+  organizações, com gestor, entrada, contrato, espaços e pessoas; e a lista de
+  domínios autorizados a criar conta sem convite.
+- **Criar organização passou a ser tarefa de quem administra o serviço**, que
+  cria e convida quem vai administrá-la.
+- **Escolher o modelo de cada provedor de inteligência artificial**, com um botão
+  que lista os modelos que a credencial alcança.
+
+### Alterado
+
+- **A aba "Organização" saiu do menu.** As abas agora são Meu trabalho, Espaços e
+  Clientes. Trocar de organização passou a ser pelo seletor no alto da tela, e
+  configurar, pela engrenagem — o produto parte do princípio de que você trabalha
+  numa organização, não que escolhe uma numa lista.
+- **A logo do RIT360 Realiza virou atalho** para "Meu trabalho".
+- **O alto da tela mostra a logo da sua organização**, quando ela tem uma
+  cadastrada; sem logo, mostra o nome.
+- **Seu avatar passou a mostrar a sua foto.**
+- **A tela de manual dentro do produto saiu** — o manual é alcançado pelo rodapé.
+- **No computador, a administração do serviço virou uma tela só**, em duas
+  colunas, em vez de uma tela por assunto.
+- **O DeepSeek saiu da lista de provedores de inteligência artificial.** Ficam
+  Gemini, OpenAI e Claude.
+
+### Corrigido
+
+- **Quem é convidado de fora não vê mais que existe uma conversa interna da
+  equipe.** Antes as duas abas apareciam para essa pessoa — o conteúdo nunca
+  vazou, mas a existência da conversa, sim.
+- **Os nomes das pessoas voltaram a aparecer** em telas onde apareciam códigos.
+- **Cada tela tinha uma largura**, e no computador sobrava espaço vazio; agora
+  seguem a mesma medida.
+- **No celular, a barra superior parou de fugir** e a página parou de deslizar
+  para o lado.
+- **Configurar espaço** parou de sobrepor partes da tela, e cliente e tipo
+  deixaram de gastar duas linhas.
+- **O campo de escolher arquivo** passou a parecer um botão e a responder ao
+  mouse.
+- **O perfil parou de acusar erro** quando a pessoa não tem foto.
+
+---
+
+## 20 de setembro de 2026 — primeiras versões
 
 ### Adicionado
 

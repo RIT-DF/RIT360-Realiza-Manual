@@ -13,11 +13,17 @@ momento de criar.
 
 ## Criar uma tarefa
 
-1. Abra o espaço — você cai direto na aba **"Trabalho"**, no quadro.
-2. Em qualquer coluna, digite o título no campo **"Nova tarefa… (Enter cria)"**.
+Você pode criar em qualquer uma das três visões do espaço — veja [Ver o trabalho em quadro, lista
+ou calendário](/trabalho/visoes/) para o que cada uma mostra.
+
+### No quadro ou na lista
+
+1. Abra o espaço — você cai direto na aba **"Trabalho"**.
+2. No quadro, digite o título em qualquer coluna, no campo **"Nova tarefa… (Enter cria)"**. Na
+   lista, o mesmo campo aparece acima das linhas.
 3. Pressione Enter.
 
-Pronto — a tarefa já aparece na coluna, sem mais perguntas.
+Pronto — a tarefa já aparece, sem mais perguntas.
 
 ![Quadro da Campanha do Agasalho 2026, com as tarefas distribuídas pelas etapas](/assets/capturas/visao-quadro-desktop.png)
 {: .mt-4 }
@@ -25,6 +31,22 @@ Pronto — a tarefa já aparece na coluna, sem mais perguntas.
 A mesma tela no celular:
 
 ![Quadro da Campanha do Agasalho 2026, com as tarefas distribuídas pelas etapas — no celular](/assets/capturas/visao-quadro-celular.png){: style="max-width:375px" }
+
+### No calendário
+
+1. Na visão **"Calendário"**, clique no dia em que a tarefa deve ter o prazo.
+2. Na janela **"Nova tarefa"**, que já mostra "Com prazo em [a data que você clicou]", digite o
+   título.
+3. Clique em **"Criar"**.
+
+A tarefa nasce com aquele dia como **prazo acordado** — o mesmo campo que você veria e editaria
+abrindo a tarefa depois de criada.
+
+{: .warning }
+Clicar num dia do calendário cria uma **tarefa com data**, não um evento de agenda. Não existe
+horário, convite de participantes nem lembrete — se o que você precisa é agendar uma reunião com
+hora marcada, o Realiza ainda não faz isso; o calendário aqui é sobre prazo de tarefa, não sobre
+compromisso de agenda.
 
 ## Por que o produto não pergunta mais nada ao criar
 

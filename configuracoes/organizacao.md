@@ -7,18 +7,14 @@ permalink: /configuracoes/organizacao/
 
 # Dados e identidade da organização
 
-A ficha da organização — imagem, razão social e contato — aparece para todo mundo que participa
-dela: na lista de organizações, no cabeçalho do aplicativo e no seletor de organização. Esta página
-é sobre como manter esses dados em dia.
+A ficha da organização — logo, ícone, razão social, contato e site — aparece para todo mundo que
+participa dela: na lista de organizações, no cabeçalho do aplicativo e no seletor de organização.
+Esta página é sobre como manter esses dados em dia.
 
-## Criar uma organização
-
-1. Abra a aba **"Organização"**.
-2. Em **"Criar organização"**, preencha o campo **"Nome"**.
-3. Clique em **"Criar organização"**.
-
-Ao criar, a nova organização já fica ativa, e você já pode continuar em **"Configurar esta
-organização"** para completar a ficha.
+{: .note }
+Criar uma organização não é mais algo que você mesmo faz por aqui: quem cria é quem administra o
+serviço da V3RTECH. Veja [Primeiros passos](/primeiros-passos/) para o caminho de pedir uma
+organização nova.
 
 ## Quem alcança esta tela
 
@@ -29,13 +25,27 @@ mesmo que a pessoa digite o endereço direto, porque quem decide de verdade quem
 servidor, não a tela.
 
 
-## Editar a imagem e a ficha
+## Logo e ícone são dois arquivos diferentes
 
-1. Na seção **"Identidade visual e ficha"**, escolha um arquivo de imagem (PNG, JPEG ou WEBP) para
-   trocar a imagem da organização, ou clique em **"Remover imagem"** para tirar a atual.
-2. Preencha **"Razão social"**, **"Pessoa de contato"**, **"E-mail de contato"** e **"Telefone de
-   contato"**.
-3. Clique em **"Salvar ficha"**.
+A organização tem duas imagens independentes, cada uma com o próprio botão de escolher e de
+remover:
+
+- **"Logo (qualquer proporção)"** — a imagem que aparece no cabeçalho e no seletor de organização.
+  Aceita qualquer proporção: não precisa ser quadrada, e o Realiza não corta nem distorce para
+  encaixar num formato fixo.
+- **"Ícone/favicon (símbolo, quadrado)"** — o símbolo que aparece onde só cabe um espaço pequeno e
+  quadrado, como ao lado do nome numa lista de organizações. Continua precisando ser quadrado,
+  diferente da logo.
+
+Trocar uma não afeta a outra: enviar uma logo nova não muda o ícone, e vice-versa.
+
+## Editar a ficha
+
+1. Preencha **"Razão social"**, **"Pessoa de contato"**, **"E-mail de contato"**, **"Telefone de
+   contato"** e **"Site"**.
+2. Clique em **"Salvar ficha"**.
+
+O site cadastrado aparece como link clicável ao lado do campo, assim que salvo.
 
 ![Configurações da organização: identidade, membros e inteligência artificial](/assets/capturas/organizacao-configuracoes-desktop.png)
 {: .mt-4 }
@@ -46,20 +56,20 @@ A mesma tela no celular:
 
 {: .note }
 O nome de exibição da organização (o que aparece em toda tela, como "Instituto Semente") não muda
-nesta seção — razão social e contato são dados de ficha, à parte.
+nesta seção — razão social, contato e site são dados de ficha, à parte.
 
 ## Exemplo
 
-Maria Oliveira, que administra o Instituto Semente, sobe a logo do instituto como imagem da
-organização e preenche a razão social completa e o e-mail de contato institucional. A partir daí,
-essa imagem aparece para todo mundo que participa do Instituto Semente — no seletor de
-organização, na lista de organizações e no cabeçalho.
+Maria Oliveira, que administra o Instituto Semente, sobe a logo horizontal do instituto e, à parte,
+um ícone quadrado para as listas compactas. Preenche a razão social completa, o e-mail de contato
+institucional e o site do instituto. A partir daí, a logo aparece para todo mundo que participa do
+Instituto Semente — no seletor de organização, na lista de organizações e no cabeçalho.
 
 ## Quando dá errado
 
-- **"Não foi possível criar a organização."** — tente novamente.
-- **"Não foi possível salvar a ficha."** — os dados de razão social ou contato não foram salvos;
-  tente de novo.
-- **"Não foi possível enviar a imagem."** — confira o formato do arquivo (PNG, JPEG ou WEBP).
-- **"Não foi possível remover a imagem."** — tente novamente; se persistir, avise outra pessoa que
-  administre a organização.
+- **"Não foi possível salvar a ficha."** — os dados de razão social, contato ou site não foram
+  salvos; tente de novo.
+- **"Não foi possível enviar logo."** ou **"Não foi possível enviar ícone."** — confira o formato
+  do arquivo.
+- **"Não foi possível remover logo."** ou **"Não foi possível remover ícone."** — tente novamente;
+  se persistir, avise outra pessoa que administre a organização.

@@ -27,6 +27,11 @@ A mesma tela no celular:
 Cada item cai em um destes grupos, mostrados como contagem no topo da tela:
 
 - **Atrasadas** — o prazo já venceu.
+
+{: .note }
+Os itens de **"Atrasadas"** são os do espaço, não só os seus: uma tarefa atrasada de outra pessoa,
+num espaço de que você participa, aparece aqui também. Já **"Aguardando você"** é sempre seu —
+alguém está parado esperando uma ação sua.
 - **Aguardando você** — outra pessoa está esperando uma ação sua.
 - **Esperando outra pessoa** — você está esperando uma ação de alguém.
 

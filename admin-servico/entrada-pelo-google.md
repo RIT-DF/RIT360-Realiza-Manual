@@ -20,7 +20,10 @@ forma de entrada.
 
 ## Passo a passo
 
-1. Abra **"Administração geral"** e clique em **"Login por Google"**.
+1. Abra **"Administração geral"**. No computador, esta configuração já
+   aparece direto na tela, num card próprio — role até **"Login por
+   Google"**. No celular, toque no botão **"Abrir"** do card **"Login por
+   Google"** para chegar à tela própria dela.
 2. Copie o endereço mostrado no topo da tela, ao lado de **"Endereço de
    retorno a cadastrar no Google"**, exatamente como aparece, sem acrescentar
    nem remover a barra do fim.

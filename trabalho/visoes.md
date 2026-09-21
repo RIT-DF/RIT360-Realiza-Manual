@@ -39,16 +39,33 @@ Uma linha por tarefa, com responsável, prazo, etapa e estado lado a lado. Cliqu
 qualquer coluna para ordenar por ela — título, responsável, prazo, etapa ou estado.
 
 
+![O mesmo trabalho na visão de lista, ordenado por prazo](/assets/capturas/visao-lista-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![O mesmo trabalho na visão de lista, ordenado por prazo — no celular](/assets/capturas/visao-lista-celular.png){: style="max-width:375px" }
+
 ## Calendário
 
 As tarefas distribuídas pelo mês, conforme o prazo de cada uma. Use as setas para navegar entre
 meses. Tarefas sem prazo definido não desaparecem: elas ficam reunidas numa lista à parte, abaixo
 da grade do mês.
 
+Clicar num dia cria uma tarefa com aquele dia como prazo — veja [Criar e organizar
+tarefas](/trabalho/criar-tarefas/) para o passo a passo e para o cuidado de que isso cria uma
+tarefa, não um evento de agenda com hora e participantes.
 
 {: .note }
-No calendário, mover ou reorganizar tarefas é feito nas outras duas visões, ou abrindo a tarefa
-diretamente. O calendário é só para consulta e navegação por data.
+Fora criar, mover ou reorganizar tarefas continua sendo feito nas outras duas visões, ou abrindo a
+tarefa diretamente. O calendário não tem arrastar.
+
+![O calendário do espaço, com as tarefas nos dias dos prazos](/assets/capturas/visao-calendario-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![O calendário do espaço, com as tarefas nos dias dos prazos — no celular](/assets/capturas/visao-calendario-celular.png){: style="max-width:375px" }
 
 ## Arrastar e a confirmação de aprovação
 

@@ -30,9 +30,9 @@ Se você mesmo coordena, dá para criar a organização ali na hora.
 
 ### Participo de duas organizações. Preciso de duas contas?
 
-Não. É a mesma conta, e você troca de organização pela aba "Organização". As
-suas permissões mudam conforme o vínculo, e **nenhuma organização descobre que
-você participa das outras**.
+Não. É a mesma conta, e você troca de organização pelo seletor no alto da tela,
+ao lado da logo. As suas permissões mudam conforme o vínculo, e **nenhuma
+organização descobre que você participa das outras**.
 
 ### Posso trocar o meu e-mail?
 

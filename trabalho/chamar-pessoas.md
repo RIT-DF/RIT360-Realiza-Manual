@@ -41,8 +41,14 @@ A mesma tela no celular:
 
 O seletor **"Pessoa (da organização)"** só lista quem já faz parte do Instituto Semente. Para
 trazer alguém de outra organização — como Beatriz Lima, da Fundação Aroeira — a organização
-precisa convidá-la primeiro pela tela de administração da organização; depois disso ela aparece
-disponível para ser adicionada aos espaços como qualquer outra pessoa.
+precisa convidá-la primeiro pela tela de administração da organização, com o papel **Convidado**;
+depois disso ela aparece disponível para ser adicionada aos espaços como qualquer outra pessoa.
+
+{: .note }
+São dois passos, e por enquanto não há atalho: **convidar alguém direto para o espaço, digitando o
+e-mail, ainda não existe.** A pessoa passa pela organização primeiro, como Convidada, e só então
+entra no espaço. Enquanto isso, o papel Convidado na organização é o que garante que ela não
+enxergue nada além do que lhe for concedido.
 
 {: .important }
 Participar da organização **não é** participar do espaço. Um administrador da organização enxerga

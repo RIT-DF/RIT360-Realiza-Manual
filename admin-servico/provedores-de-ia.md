@@ -20,6 +20,8 @@ sem resposta ao mesmo tempo. Cadastrando vários, em ordem de prioridade, o
 produto tenta o primeiro e, se ele falhar, tenta o seguinte sozinho — sem que
 ninguém precise perceber e trocar manualmente.
 
+Os provedores disponíveis hoje são **Gemini**, **OpenAI** e **Claude**.
+
 ## Passo a passo — cadastrar um provedor
 
 1. Abra **"Administração geral"** e clique em **"Provedores de IA"**.
@@ -30,7 +32,17 @@ ninguém precise perceber e trocar manualmente.
 4. Preencha **"Nome (para você identificar depois)"** com um nome que ajude
    você a reconhecer este cadastro na lista mais tarde.
 5. Cole a chave de API no campo **"Credencial (chave de API)"**.
-6. Clique em **"Cadastrar"**.
+6. Se quiser escolher qual modelo daquele provedor será usado — em vez de
+   deixar o produto decidir —, clique em **"Ver modelos disponíveis"**. A
+   tela consulta a credencial que você acabou de colar e mostra, no campo
+   **"Modelo"**, a lista que aquela credencial alcança. Escolha um, ou deixe
+   em **"Usar o padrão (\<provedor\>)"**.
+7. Clique em **"Cadastrar"**.
+
+{: .note }
+**"Ver modelos disponíveis"** só funciona depois de escolher o provedor e
+colar a credencial — os dois são necessários para perguntar ao provedor quais
+modelos aquela chave alcança.
 
 ![Provedores de inteligência artificial do serviço](/assets/capturas/admin-servico-ia-desktop.png)
 {: .mt-4 }
@@ -42,7 +54,7 @@ A mesma tela no celular:
 ## Passo a passo — reordenar, testar, ligar e desligar
 
 Cada provedor já cadastrado aparece numa lista numerada, na ordem em que é
-tentado.
+tentado. Abaixo do nome de cada um aparece o modelo em uso.
 
 - Para mudar a posição de um provedor, use as setas **↑** e **↓** ao lado
   dele.
@@ -56,6 +68,21 @@ tentado.
 - Para remover de vez, clique em **"Remover"** e confirme em **"Remover
   provedor"**. Esta ação não pode ser desfeita.
 
+## Passo a passo — trocar o modelo de um provedor já cadastrado
+
+1. Na lista de provedores, clique em **"Trocar modelo"** ao lado do provedor
+   que você quer mudar.
+2. A tela consulta os modelos que a credencial já salva alcança e mostra a
+   lista no campo **"Modelo"**.
+3. Escolha um modelo, ou **"Usar o padrão (\<provedor\>)"** para deixar o
+   produto decidir.
+4. Clique em **"Salvar modelo"**.
+
+{: .tip }
+Se a tela não conseguir listar os modelos direto do provedor, ela avisa
+**"Não foi possível listar direto do provedor — mostrando uma lista
+conhecida."** e mostra, em vez disso, uma lista que o produto já conhece.
+Essa lista pode não incluir um modelo lançado recentemente pelo provedor.
 
 ## Exemplo
 
@@ -92,3 +119,6 @@ provedor e cadastrá-la de novo; não há como recuperar a anterior por aqui.
 - Se o teste falhar, a mensagem mostrada é a que o próprio provedor devolveu,
   traduzida para algo legível — confira antes de mais nada se a credencial foi
   colada corretamente, sem espaços a mais.
+- Se **"Ver modelos disponíveis"** ou **"Trocar modelo"** falhar, a tela
+  mostra a mensagem de erro no lugar da lista. Uma credencial inválida é a
+  causa mais comum — o mesmo problema que o **"Testar conexão"** revelaria.
