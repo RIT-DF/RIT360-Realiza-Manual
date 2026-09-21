@@ -54,7 +54,12 @@ criados — nunca o que está dentro deles.
   com o botão para reprocessar o que falhou e o de conferir o espelho com a
   origem.
 
-<!-- CAPTURA: rota=/admin-servico | o-que-mostrar=painel completo, com o bloco "Mais configurações" mostrando o botão "Pedidos de organização" | arquivo=admin-servico-painel-desktop.png e admin-servico-painel-celular.png -->
+![Painel da administração do serviço, com as contagens gerais](/assets/capturas/admin-servico-painel-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Painel da administração do serviço, com as contagens gerais — no celular](/assets/capturas/admin-servico-painel-celular.png){: style="max-width:375px" }
 {: .mt-4 }
 
 ## Como se chega aqui

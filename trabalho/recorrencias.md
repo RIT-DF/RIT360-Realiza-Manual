@@ -36,9 +36,12 @@ Há duas ferramentas diferentes aqui, para dois problemas diferentes:
 Cada ocorrência nasce como uma tarefa comum, com andamento próprio: concluir uma não encerra a
 série, e as outras seguem chegando nas datas combinadas.
 
-<!-- CAPTURA: rota=/espacos/:id/recorrencias | o-que-mostrar=cartão "Nova tarefa recorrente"
-     preenchido, e o cartão "Séries de tarefa recorrente" com pelo menos uma série listada |
-     arquivo=recorrencias-nova-serie-desktop.png e recorrencias-nova-serie-celular.png -->
+![Cartão "Nova tarefa recorrente" preenchido, e o cartão "Séries de tarefa recorrente" com uma série listada](/assets/capturas/recorrencias-nova-serie-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Cartão "Nova tarefa recorrente" preenchido, e o cartão "Séries de tarefa recorrente" com uma série listada — no celular](/assets/capturas/recorrencias-nova-serie-celular.png){: style="max-width:375px" }
 
 ## O selo "Faz parte de uma repetição"
 
@@ -86,9 +89,12 @@ trabalho já feito não é o que "cancelar uma recorrência" deveria fazer.
 4. Clique em **"Adicionar item"** para incluir mais itens, ou em **"Criar modelo"** quando
    terminar.
 
-<!-- CAPTURA: rota=/espacos/:id/recorrencias | o-que-mostrar=cartão "Novo modelo de ciclo" com
-     dois ou três itens preenchidos, um deles com "Gera entrega" marcado |
-     arquivo=recorrencias-novo-modelo-desktop.png e recorrencias-novo-modelo-celular.png -->
+![Cartão "Novo modelo de ciclo" com dois itens preenchidos, um deles com "Gera entrega" marcado](/assets/capturas/recorrencias-novo-modelo-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Cartão "Novo modelo de ciclo" com dois itens preenchidos, um deles com "Gera entrega" marcado — no celular](/assets/capturas/recorrencias-novo-modelo-celular.png){: style="max-width:375px" }
 
 ## Instanciar um ciclo
 

@@ -24,8 +24,12 @@ e mexe neles; quem foi convidado de fora não os vê.
 3. Escolha a **"Periodicidade"**: **"Mensal"**, **"Trimestral"** ou **"Único"**.
 4. Clique em **"Criar"**.
 
-<!-- CAPTURA: rota=/espacos/:id/indicadores | o-que-mostrar=diálogo "Novo indicador" preenchido |
-     arquivo=indicadores-novo-desktop.png e indicadores-novo-celular.png -->
+![Diálogo "Novo indicador" preenchido, com nome, unidade, periodicidade e origem](/assets/capturas/indicadores-novo-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Diálogo "Novo indicador" preenchido, com nome, unidade, periodicidade e origem — no celular](/assets/capturas/indicadores-novo-celular.png){: style="max-width:375px" }
 
 ## Registrar um valor
 

@@ -36,7 +36,12 @@ julgamento — e aí ele aparece em [Pedidos de organização](/admin-servico/pe
 não aqui. O que você cria por esta tela é a organização que **você mesmo** decide abrir, sem
 pedido de ninguém.
 
-<!-- CAPTURA: rota=/admin-servico/organizacoes | o-que-mostrar=formulário de criação com o campo "Domínio (opcional)" preenchido e a tabela com a coluna "Domínio" visível | arquivo=admin-servico-organizacoes-desktop.png e admin-servico-organizacoes-celular.png -->
+![Tela Organizações da administração geral, com o formulário de criação preenchido (incluindo o campo Domínio) e a coluna Domínio na tabela](/assets/capturas/admin-servico-organizacoes-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Tela Organizações da administração geral, com o formulário de criação preenchido e a coluna Domínio na tabela — no celular](/assets/capturas/admin-servico-organizacoes-celular.png){: style="max-width:375px" }
 {: .mt-4 }
 
 ## Passo a passo — criar uma organização

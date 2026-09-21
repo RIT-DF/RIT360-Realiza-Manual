@@ -27,9 +27,12 @@ Desligada, quem tem permissão continua criando a tarefa direto, sem passar por 
 Ligada, convidados de fora e equipe sem permissão de executar passam a mandar pedido em vez de
 criar — só quem gerencia decide se ele vira tarefa, precisa de mais informação ou é recusado.
 
-<!-- CAPTURA: rota=/espacos/:id/configurar | o-que-mostrar=cartão "Triagem de solicitações" com o
-     texto explicativo e a caixa "Triagem ligada neste espaço" | arquivo=triagem-configurar-desktop.png
-     e triagem-configurar-celular.png -->
+![Cartão "Triagem de solicitações", com o texto explicativo e a caixa "Triagem ligada neste espaço" marcada](/assets/capturas/triagem-configurar-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Cartão "Triagem de solicitações", com o texto explicativo e a caixa "Triagem ligada neste espaço" marcada — no celular](/assets/capturas/triagem-configurar-celular.png){: style="max-width:375px" }
 
 ## Mandar um pedido
 
@@ -44,9 +47,12 @@ isto.
 O pedido aparece em **"Meus pedidos"**, com o estado atual: **"Recebido"**, **"Em
 esclarecimento"**, **"Aceito"** ou **"Recusado"**.
 
-<!-- CAPTURA: rota=/espacos/:id/pedidos | o-que-mostrar=aba Pedidos com o formulário "Novo pedido"
-     e a lista "Meus pedidos" com um item em cada estado | arquivo=pedidos-meus-pedidos-desktop.png
-     e pedidos-meus-pedidos-celular.png -->
+![Aba Pedidos, com o formulário "Novo pedido" e a lista "Meus pedidos" com um item em cada estado](/assets/capturas/pedidos-meus-pedidos-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Aba Pedidos, com o formulário "Novo pedido" e a lista "Meus pedidos" com um item em cada estado — no celular](/assets/capturas/pedidos-meus-pedidos-celular.png){: style="max-width:375px" }
 
 ## Responder a um pedido de esclarecimento
 
@@ -96,9 +102,12 @@ O resultado sempre separa três grupos: quantos foram concluídos, quantos foram
 (pedidos que outra pessoa já havia decidido entretanto) e quantos tiveram falha técnica — nunca um
 "pronto" único que esconderia uma recusa no meio.
 
-<!-- CAPTURA: rota=/espacos/:id/pedidos | o-que-mostrar=cartão "Fila de triagem", com pedidos
-     selecionados e os controles de aceitar/recusar em lote visíveis | arquivo=pedidos-fila-triagem-desktop.png
-     e pedidos-fila-triagem-celular.png -->
+![Cartão "Fila de triagem", com pedidos em estados diferentes e os controles de aceitar/recusar em lote](/assets/capturas/pedidos-fila-triagem-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Cartão "Fila de triagem", com pedidos em estados diferentes e os controles de aceitar/recusar em lote — no celular](/assets/capturas/pedidos-fila-triagem-celular.png){: style="max-width:375px" }
 
 ## Exemplo
 

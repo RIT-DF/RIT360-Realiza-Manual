@@ -25,7 +25,12 @@ Marcando essa opção, a tela explica: "O assistente está desligado para esta o
 qualquer lugar, inclusive por fora desta tela. Os provedores já cadastrados continuam salvos, mas
 inertes; desmarque para voltar a usá-los como estavam."
 
-<!-- CAPTURA: rota=/organizacao/configuracoes | o-que-mostrar=cartão de postura de IA com a caixa de recusa marcada | arquivo=organizacao-ia-postura-desktop.png e organizacao-ia-postura-celular.png -->
+![Cartão "Uso de IA por esta organização", com a caixa "Não quero que IA trate os dados desta organização" marcada](/assets/capturas/organizacao-ia-postura-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Cartão "Uso de IA por esta organização", com a caixa "Não quero que IA trate os dados desta organização" marcada — no celular](/assets/capturas/organizacao-ia-postura-celular.png){: style="max-width:375px" }
 
 {: .note }
 Marcar a recusa **não apaga** os provedores que a organização já tinha cadastrado — eles ficam

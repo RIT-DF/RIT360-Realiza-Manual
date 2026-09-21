@@ -17,7 +17,12 @@ delas.
 1. Abra **"Administração geral"**.
 2. As três contagens aparecem logo no topo da tela.
 
-<!-- CAPTURA: rota=/admin-servico | o-que-mostrar=painel completo, com o bloco "Mais configurações" mostrando o botão "Pedidos de organização" | arquivo=admin-servico-painel-desktop.png e admin-servico-painel-celular.png -->
+![Painel da administração do serviço, com as contagens gerais](/assets/capturas/admin-servico-painel-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Painel da administração do serviço, com as contagens gerais — no celular](/assets/capturas/admin-servico-painel-celular.png){: style="max-width:375px" }
 {: .mt-4 }
 
 ## O que cada número conta

@@ -57,7 +57,12 @@ Trocar uma não afeta a outra: enviar uma logo nova não muda o ícone, e vice-v
 
 O site cadastrado aparece como link clicável ao lado do campo, assim que salvo.
 
-<!-- CAPTURA: rota=/organizacao/configuracoes | o-que-mostrar=topo com os links Pedidos de entrada/Integrações, ficha com o campo Domínio de reconhecimento visível | arquivo=organizacao-configuracoes-desktop.png e organizacao-configuracoes-celular.png -->
+![Tela Configurações de Instituto Semente, com os links Pedidos de entrada e Integrações no topo e o campo Domínio de reconhecimento na ficha](/assets/capturas/organizacao-configuracoes-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Tela Configurações de Instituto Semente, com os links Pedidos de entrada e Integrações no topo e o campo Domínio de reconhecimento na ficha — no celular](/assets/capturas/organizacao-configuracoes-celular.png){: style="max-width:375px" }
 
 {: .note }
 O nome de exibição da organização (o que aparece em toda tela, como "Instituto Semente") não muda

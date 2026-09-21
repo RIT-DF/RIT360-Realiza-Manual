@@ -30,7 +30,12 @@ do Google.
 O botão só aparece quando a entrada por Google está habilitada neste ambiente. Não vendo o botão,
 use e-mail e senha.
 
-<!-- CAPTURA: rota=/entrar | o-que-mostrar=tela de entrada inteira, incluindo o link "Solicitar a criação da minha organização" no rodapé do cartão | arquivo=entrar-tela-desktop.png e entrar-tela-celular.png -->
+![Tela de entrada do RIT360 Realiza, com o link "Solicitar a criação da minha organização" no rodapé do cartão](/assets/capturas/entrar-tela-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Tela de entrada do RIT360 Realiza, com o link "Solicitar a criação da minha organização" no rodapé do cartão — no celular](/assets/capturas/entrar-tela-celular.png){: style="max-width:375px" }
 
 ### Quando dá errado ao entrar
 
@@ -60,7 +65,12 @@ informado, sem ninguém precisar intermediar.
    "http://".
 4. Clique em **"Enviar pedido"**.
 
-<!-- CAPTURA: rota=/solicitacoes-organizacao/nova | o-que-mostrar=formulário preenchido, antes de enviar | arquivo=solicitar-organizacao-desktop.png e solicitar-organizacao-celular.png -->
+![Formulário "Solicitar a criação da minha organização" preenchido, antes de enviar](/assets/capturas/solicitar-organizacao-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Formulário "Solicitar a criação da minha organização" preenchido, antes de enviar — no celular](/assets/capturas/solicitar-organizacao-celular.png){: style="max-width:375px" }
 
 A tela muda para **"Confirme seu e-mail"**: "Enviamos um e-mail para [seu e-mail] para confirmar
 que você controla este endereço. Confirme por lá para seguir com o pedido."

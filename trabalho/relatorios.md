@@ -21,8 +21,12 @@ O relatório nasce como **"Rascunho"** — sempre. Mesmo quando a geração é a
 "Gerar mensalmente", abaixo), ele nunca sai publicado sozinho: alguém precisa revisar e decidir
 publicar.
 
-<!-- CAPTURA: rota=/espacos/:id/relatorios | o-que-mostrar=lista de relatórios do espaço, com um
-     rascunho e um publicado | arquivo=relatorios-lista-desktop.png e relatorios-lista-celular.png -->
+![Aba Relatórios do espaço Campanha do Agasalho 2026, com um relatório em rascunho e outro publicado](/assets/capturas/relatorios-lista-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Aba Relatórios do espaço Campanha do Agasalho 2026, com um relatório em rascunho e outro publicado — no celular](/assets/capturas/relatorios-lista-celular.png){: style="max-width:375px" }
 
 ## Gerar automaticamente todo mês
 
@@ -40,9 +44,12 @@ Clique em **"Ver"** na linha do relatório. A página mostra:
 - As **seções** do conteúdo, cada uma com um selo: **"medido"** (veio de um indicador, com número)
   ou **"informado pela equipe"** (veio do que foi registrado como trabalho e entrega).
 
-<!-- CAPTURA: rota=/relatorios/:id | o-que-mostrar=página de um relatório rascunho, com o título,
-     o aviso de informação faltando (se houver) e pelo menos duas seções | arquivo=relatorios-detalhe-desktop.png
-     e relatorios-detalhe-celular.png -->
+![Página de um relatório em rascunho, com título, período e as seções do conteúdo](/assets/capturas/relatorios-detalhe-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Página de um relatório em rascunho, com título, período e as seções do conteúdo — no celular](/assets/capturas/relatorios-detalhe-celular.png){: style="max-width:375px" }
 
 ## Editar o título de um rascunho
 
