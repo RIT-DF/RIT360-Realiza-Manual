@@ -16,6 +16,11 @@ um espaço, escreve as tarefas e trabalha. Os conceitos mais avançados só
 aparecem no dia em que resolvem um problema seu — e, se você nunca tiver esse
 problema, eles nunca aparecem.
 
+{: .important }
+**Vai usar pelo celular?** Instale o Realiza na tela inicial: ele abre como aplicativo e avisa
+você mesmo com o celular bloqueado. Leva menos de um minuto — veja
+[Instalar no celular](/instalar-no-celular/).
+
 ## Comece por aqui
 
 Se é a sua primeira vez, leia [Primeiros passos](/primeiros-passos/): entrar,

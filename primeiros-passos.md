@@ -231,17 +231,5 @@ nome por extenso.
 
 ## Usar o Realiza como aplicativo no celular
 
-O Realiza pode ficar na tela inicial do celular como um aplicativo, abrindo sem a barra do
-navegador. Não há loja de aplicativos: a instalação é pelo próprio navegador.
-
-1. Abra o Realiza no navegador do celular e entre com sua conta.
-2. No Android (Chrome), toque no menu de três pontos e em **"Instalar app"** ou **"Adicionar à
-   tela inicial"**. No iPhone (Safari), toque no botão de compartilhar e em **"Adicionar à Tela de
-   Início"**.
-3. Abra o Realiza pelo ícone novo.
-
-Para receber aviso no aparelho, ative as notificações em [Meu perfil](/configuracoes/perfil/).
-
-{: .tip }
-O nome exato do item de menu muda conforme o navegador e a versão dele. Se não encontrar, procure
-por "instalar" ou "tela inicial" no menu do navegador.
+O Realiza pode ficar na tela inicial do celular, com ícone próprio e notificações. Veja o passo a
+passo para Android e iPhone em [Instalar no celular](/instalar-no-celular/).
