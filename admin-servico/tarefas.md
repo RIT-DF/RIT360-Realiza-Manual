@@ -43,7 +43,12 @@ Cada rotina aparece num cartão, com:
 - Se o estado for **"Falhou"**, a mensagem de erro que a própria rotina
   reportou.
 
-<!-- CAPTURA: o-que-mostrar=rotinas dos três módulos, sem falha de ambiente (#114) | arquivo=admin-servico-tarefas-desktop.png e admin-servico-tarefas-celular.png -->
+![Tarefas agendadas, com as rotinas de todos os módulos, estado, frequência e pendências](/assets/capturas/admin-servico-tarefas-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Tarefas agendadas — no celular](/assets/capturas/admin-servico-tarefas-celular.png){: style="max-width:375px" }
 
 {: .important }
 **"Nunca rodou" e "Não foi possível consultar" não são a mesma coisa.**
