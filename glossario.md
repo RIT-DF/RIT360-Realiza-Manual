@@ -23,9 +23,9 @@ que sobrevive a mudanças posteriores no material.
 
 ## Arquivar
 
-Tirar um espaço da rotina sem apagar nada. Tarefas, conversas, versões e
-aprovações continuam lá para consulta. **Arquivar não é excluir.** Ver
-[Arquivar e reabrir](/trabalho/arquivar-e-reabrir/).
+Tirar um espaço, cliente ou organização da rotina sem apagar nada. Tarefas, conversas, versões e
+aprovações continuam lá para consulta, e dá para reabrir depois. **Arquivar não é excluir** — veja
+**Excluir**, abaixo. Ver [Arquivar e reabrir](/trabalho/arquivar-e-reabrir/).
 
 ## Cliente
 
@@ -40,6 +40,12 @@ Duas coisas diferentes, conforme onde a palavra aparece:
 - **Papel na organização**: vínculo com acesso restrito ao que lhe for concedido.
 - **Pessoa de fora** convidada para um espaço específico — o uso mais comum.
   Ver [Quem é convidado de fora](/papeis/convidado/).
+
+## Convite pendente
+
+Um convite já enviado, para organização ou espaço, que a pessoa convidada ainda não aceitou.
+Aparece numa lista própria, separada de quem já é membro ou participante, com a opção de
+reenviar ou cancelar.
 
 ## Carteira
 
@@ -69,6 +75,13 @@ Cada coluna do quadro — por padrão "A fazer", "Fazendo", "Em aprovação" e
 aprovação**: mover um cartão para ela registra a aprovação de quem moveu, depois
 de uma confirmação. Ver [Ajustar as etapas](/trabalho/etapas/).
 
+## Excluir
+
+Apagar de verdade, sem volta — diferente de **Arquivar**, que só tira do caminho e preserva tudo.
+Existe para cliente, espaço e organização (e para membro, embora ali o nome seja "Remover
+acesso" — a conta de login nunca é apagada). Antes de excluir, a tela sempre mostra o que está
+vinculado e o que vai junto, para você confirmar sabendo o tamanho da ação.
+
 ## Executor
 
 Papel dentro de um espaço: quem faz as tarefas.
@@ -83,6 +96,12 @@ Não confunda com **Administrador**, que é papel da organização.
 Qualquer coisa anexada a um cartão: arquivo, link ou texto. É a palavra que o
 produto usa enquanto ninguém pediu aprovação. Ver
 [Anexar material](/trabalho/anexar-material/).
+
+## Módulo
+
+Cada uma das partes em que o Realiza é dividido por dentro, entre elas Trabalho (espaços e tarefas),
+Comunicação (avisos e e-mails) e Núcleo (organizações e pessoas). Só aparece na tela de
+[Tarefas agendadas](/admin-servico/tarefas/), de quem administra o serviço.
 
 ## Observador
 

@@ -91,6 +91,19 @@ O resultado de uma conclusão em lote sempre separa três grupos: quantas foram 
 foram recusadas por regra (com o motivo de cada uma) e quantas tiveram falha técnica. Nunca
 aparece um "pronto" único que esconderia uma recusa no meio.
 
+## Remover uma tarefa
+
+No painel de detalhe da tarefa, clique em **"Remover tarefa"**. A confirmação avisa: **"A tarefa
+'[título]' será apagada, com suas mensagens e material anexado. Esta ação não pode ser
+desfeita."**
+
+![Confirmação de remoção de uma tarefa, avisando o que se perde junto](/assets/capturas/remover-tarefa-confirmacao-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Confirmação de remoção de uma tarefa — no celular](/assets/capturas/remover-tarefa-confirmacao-celular.png){: style="max-width:375px" }
+
 ## Remover tarefas em lote
 
 Marque as caixas e clique em **"Remover selecionadas"**. A confirmação avisa: "Remover
@@ -98,7 +111,8 @@ Marque as caixas e clique em **"Remover selecionadas"**. A confirmação avisa: 
 
 {: .warning }
 Remover uma tarefa é definitivo — ao contrário de arquivar um espaço (veja [Arquivar e reabrir um
-espaço](/trabalho/arquivar-e-reabrir/)), não existe "reabrir" para uma tarefa removida.
+espaço](/trabalho/arquivar-e-reabrir/)), não existe "reabrir" para uma tarefa removida. Remover
+apaga junto as mensagens da conversa e todo o material anexado — não só o cartão.
 
 ## Mover entre etapas
 

@@ -58,7 +58,30 @@ mesmo antes de a pessoa convidada aceitar o convite.
   **"Encerrado"**.
 - **"Espaços"** — quantos espaços (projetos e operações contínuas) a
   organização tem, arquivados ou não.
+- **"Clientes"** — quantos clientes a organização tem cadastrados.
 - **"Pessoas"** — quantas pessoas têm vínculo com a organização.
+- **"Ação"** — o botão **"Excluir"**, que apaga a organização inteira. Veja
+  abaixo.
+
+## Excluir uma organização
+
+Excluir aqui é definitivo, e é diferente de suspender o contrato: a organização inteira — espaços
+(inclusive arquivados), clientes, tarefas e convites externos pendentes — some junto.
+
+1. Na linha da organização, clique em **"Excluir"**.
+2. A confirmação mostra o que vai acontecer:
+   - Organização sem conteúdo: **"Esta organização ainda não tem nenhum conteúdo — a exclusão não
+     afeta mais nada."**
+   - Organização com conteúdo: **"Esta organização tem [quantidade] espaço(s) ativo(s),
+     [quantidade] espaço(s) arquivado(s), [quantidade] cliente(s), [quantidade] tarefa(s) e
+     [quantidade] convite(s) externo(s) pendente(s). TUDO isso — inclusive o conteúdo dos espaços
+     arquivados — será excluído junto, sem volta. Confirma a exclusão?"**
+3. Confirme em **"Excluir"**.
+
+{: .warning }
+O aviso conta o conteúdo real da organização, inclusive o que está dentro de espaços arquivados —
+uma organização que só tem trabalho arquivado **não** aparece como vazia. Não há como desfazer
+depois de confirmado.
 
 ## Exemplo
 
@@ -77,3 +100,5 @@ administra o serviço.
 - Enquanto a lista de organizações não carrega, a tabela mostra
   **"Carregando…"**; se ainda não existir organização nenhuma, ela mostra
   **"Nenhuma organização cadastrada ainda. Crie uma acima."**
+- Se a exclusão falhar, a mensagem de erro aparece dentro do diálogo de
+  confirmação, e a organização continua existindo.

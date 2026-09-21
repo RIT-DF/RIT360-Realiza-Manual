@@ -49,12 +49,22 @@ depois disso ela aparece disponível para ser adicionada aos espaços como qualq
 Quando a pessoa é de fora — o cliente, o parceiro, quem vai aprovar —, há um caminho direto, na
 mesma tela de configuração do espaço, na seção **"Convidar quem não é da organização"**:
 
-1. Escreva o endereço em **"E-mail de quem convidar"**.
-2. Escolha o que ela vai fazer, em **"Papel de quem convidar"**.
+1. Escreva o endereço em **"E-mail"**.
+2. Escolha o que ela vai fazer, em **"Papel no espaço"**.
 3. Clique em **"Convidar"**.
 
-Ela recebe o convite, entra, e passa a aparecer na lista de participantes com o rótulo
-**"(convidado externo)"**.
+A tela confirma com **"Convite enviado para [e-mail]."** Ela recebe o convite, entra, e passa a
+aparecer na lista de participantes com o rótulo **"(convidado externo)"**.
+
+### Convites pendentes
+
+Enquanto a pessoa não aceita, o convite aparece numa seção própria, **"Convites pendentes"**,
+dentro da mesma tela — com a situação **"Convite enviado"** ou **"Convite vencido"**. Dali dá para
+**"Reenviar"** (renova o prazo e manda um novo e-mail; a tela mostra **"Convite reenviado para
+[e-mail]."**) ou **"Cancelar convite"** — a confirmação pergunta **"Cancelar o convite enviado
+para [e-mail]? A pessoa não vai conseguir mais entrar por este convite."** Veja [Membros, papéis e
+convites](/configuracoes/membros-e-papeis/#convites-pendentes) para o mesmo mecanismo, usado
+também para convite de organização.
 
 {: .important }
 Quem entra assim alcança **aquele espaço e nada mais**. Não vira membro da organização, não
@@ -101,3 +111,5 @@ não foram encontrados.
 - Ao trocar o papel: "Não foi possível trocar o papel."
 - Ao remover uma pessoa: "Não foi possível remover."
 - Ao remover em lote: "Não foi possível concluir a remoção em lote."
+- Ao reenviar ou cancelar um convite pendente, a mensagem de erro aparece perto da linha do
+  convite; tente de novo.

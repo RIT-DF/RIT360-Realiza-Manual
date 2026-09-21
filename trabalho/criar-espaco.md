@@ -14,14 +14,13 @@ comunicação da organização. Antes de criar tarefas, é preciso ter um espaç
 
 1. Abra **"Espaços"** no menu.
 2. No formulário no topo da tela, digite o nome no campo **"Nome do espaço"**.
-3. Escolha o tipo em **"Tipo do espaço"**:
+3. Escolha o tipo em **"Tipo"**:
    - **"Projeto (com encerramento previsto)"** — tem um fim: uma campanha, um evento, uma
      prestação de contas.
    - **"Operação contínua (sem encerramento)"** — não termina: a comunicação institucional, o
      atendimento do dia a dia.
-4. Se a organização já tiver clientes cadastrados, aparece também o campo **"Cliente do
-   espaço"**. Escolha um cliente para vincular o espaço a ele, ou deixe em **"Sem cliente
-   (projeto interno)"**.
+4. Se a organização já tiver clientes cadastrados, aparece também o campo **"Cliente"**. Escolha
+   um cliente para vincular o espaço a ele, ou deixe em **"Sem cliente (projeto interno)"**.
 5. Clique em **"Criar espaço"**.
 
 Ao criar, você já cai dentro do espaço, na aba **"Trabalho"** — não fica esperando na lista.
@@ -43,13 +42,24 @@ institucional"** — como **"Operação contínua"**.
 
 ## O que muda com o tipo escolhido
 
-A diferença entre os dois tipos aparece na tela **"Configurar espaço"**: um projeto tem campos de
-objetivo e data de encerramento prevista; uma operação contínua não tem nenhum dos dois, porque
+A diferença entre os dois tipos aparece na aba **"Configurar"** do espaço: um projeto tem campos
+de objetivo e data de encerramento prevista; uma operação contínua não tem nenhum dos dois, porque
 não faz sentido perguntar "quando isso termina" de algo que não termina.
 
 {: .tip }
-Não se preocupe em escolher errado. Dá para trocar o tipo depois, em "Configurar espaço" — veja
+Não se preocupe em escolher errado. Dá para trocar o tipo depois, na aba "Configurar" — veja
 [Ajustar as etapas do espaço](/trabalho/etapas/).
+
+### Trocar de projeto para operação contínua
+
+Ao trocar o tipo de "Projeto" para "Operação contínua" na aba "Configurar", a tela avisa antes de
+aplicar: **"Ao virar operação contínua, o objetivo e a data de encerramento prevista deixam de
+aparecer. Nada é apagado: convertendo de volta para projeto, os dois reaparecem exatamente como
+estavam."** Clique em **"Continuar"** para confirmar.
+
+{: .note }
+A troca no sentido contrário — de operação contínua para projeto — não pede essa confirmação,
+porque nada some: os campos de objetivo e data só voltam a aparecer.
 
 ## Assim que o espaço é criado
 

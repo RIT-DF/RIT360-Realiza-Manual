@@ -24,6 +24,10 @@ alguém pedir aprovação daquele material — enquanto isso não acontece, é s
 Cada material anexado aparece numa lista, com um ícone conforme o tipo (📎 arquivo, 🔗 link, 📝
 texto) e um botão **"Remover"** para tirá-lo enquanto ninguém pediu aprovação.
 
+Para tirar tudo de uma vez, em vez de um por um, clique em **"Remover todo o material"**. A
+confirmação avisa quantas peças serão apagadas — por exemplo, "3 materiais anexados de 'Arte do
+cartaz para redes' serão apagados. Esta ação não pode ser desfeita."
+
 ## Reaproveitar material de outra tarefa
 
 Se o que você precisa anexar já foi enviado em outra tarefa — o mesmo release, a mesma arte — não
@@ -64,7 +68,17 @@ A mesma tela no celular:
 Anexar um arquivo maior que o limite ou de um tipo não aceito é recusado, com a mensagem dizendo
 o limite de tamanho e os tipos aceitos, e a tela ainda mostra esses limites antes de você tentar.
 
+- **"Não foi possível remover — talvez já tenha sido enviado."** — ao remover todo o material:
+  alguém pode ter enviado para aprovação entre você abrir a tela e clicar em remover. Recarregue e
+  confira o estado atual.
+- **"Não foi possível listar material de outras tarefas."** — ao abrir "Usar material já enviado
+  em outra tarefa". Tente de novo.
+- **"Não foi possível usar este material."** — ao clicar em "Usar", na lista de material de outra
+  tarefa.
+- **"Não foi possível deixar de usar este material."** — ao clicar em "Deixar de usar".
+
 {: .warning }
-Removendo material antes de enviar para aprovação: some sem deixar rastro, sem confirmação. Depois
-de enviado, o material some da lista, mas você pode remover a tarefa inteira, que aí sim pede
-confirmação (veja a página sobre a tarefa em si).
+Removendo material um por um antes de enviar para aprovação: some sem deixar rastro, sem
+confirmação. "Remover todo o material" e a remoção da tarefa inteira, essas sim, pedem
+confirmação. Depois de enviado, o material some da lista, mas você pode remover a tarefa inteira
+(veja [Criar e organizar tarefas](/trabalho/criar-tarefas/)).

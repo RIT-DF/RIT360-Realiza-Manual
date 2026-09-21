@@ -17,6 +17,33 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 21 de setembro de 2026 — versão 0.9.0
+
+### Adicionado
+
+- **Excluir cliente, espaço ou organização, de verdade.** Além de arquivar, agora dá para apagar
+  de vez — com a tela sempre avisando antes o que está vinculado e o que vai junto, para você
+  confirmar sabendo o tamanho da ação. Excluir um cliente não apaga os espaços ligados a ele, só
+  desfaz o vínculo; excluir um espaço ou uma organização leva junto o conteúdo de dentro.
+- **Convite pendente ganhou seção própria, com reenviar e cancelar.** Tanto para convite de
+  organização quanto para convite de espaço, dá para ver quem ainda não aceitou, reenviar sem
+  precisar convidar de novo do zero, ou cancelar um convite enviado por engano.
+- **Confirmação antes de apagar uma tarefa, todo o material de um cartão ou uma ocorrência de
+  reunião.** As três ações agora avisam exatamente o que se perde antes de acontecer.
+- **Aviso de reunião nas preferências.** "Fui convidado para uma reunião" e "Uma reunião minha
+  está para começar" entraram na lista de avisos que você liga ou desliga, por canal.
+- **A versão do Realiza, no rodapé, agora leva direto para esta página.** Clique no número da
+  versão, no rodapé de qualquer tela, para ver o que mudou.
+- **A tela de tarefas agendadas passou a mostrar as rotinas de todas as partes do produto**, não só as de
+  espaços e tarefas — inclui, por exemplo, o envio de e-mail e de notificação de aviso.
+
+### Alterado
+
+- **Os e-mails que o Realiza envia ganharam um visual novo** — convite, recuperação de senha,
+  aviso e o e-mail de teste da configuração.
+
+---
+
 ## 20 de setembro de 2026 — versão 0.8.0
 
 ### Adicionado

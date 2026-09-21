@@ -17,10 +17,16 @@ alguns minutos; confira a caixa de spam antes de tentar de novo.
 
 ### O convite não chegou.
 
-Confira o spam e o endereço exato para onde ele foi enviado (quem convidou
-consegue ver isso na lista de membros). Se mesmo assim não chegou, peça para
-reenviarem. Convite que não chega costuma ser problema de configuração do
-serviço, não da sua conta — quem administra a instalação sabe o que conferir.
+Confira o spam e o endereço exato para onde ele foi enviado — quem convidou consegue ver isso na
+seção "Convites pendentes", na lista de membros ou de participantes do espaço, e pode clicar em
+"Reenviar" ali mesmo, sem precisar convidar de novo do zero. Se mesmo assim não chegar, peça para
+reenviarem. Convite que não chega costuma ser problema de configuração do serviço, não da sua
+conta — quem administra a instalação sabe o que conferir.
+
+### Convidei a pessoa errada, ou errei o e-mail. Como desfaço?
+
+Na seção "Convites pendentes", clique em "Cancelar convite" na linha errada e convide de novo com
+o dado certo. Um convite cancelado não deixa a pessoa entrar mais por aquele link.
 
 ### Entrei e não vejo organização nenhuma.
 
@@ -67,8 +73,11 @@ conta própria**. Mudar data é decisão de gente, e fica registrada.
 
 ### Apaguei um espaço sem querer?
 
-Provavelmente você arquivou, e arquivar não apaga nada: o espaço sai da rotina e
-todo o conteúdo continua lá. Na tela "Espaços", reabra.
+Depende do botão que você usou. **"Arquivar"** não apaga nada — o espaço sai da rotina e todo o
+conteúdo continua lá; na tela "Espaços", clique em "Reabrir". **"Excluir"** é outra coisa: apaga de
+verdade, sem volta, e a tela sempre avisa antes, mostrando o que vai junto. Se você clicou em
+"Excluir" e confirmou, não há como desfazer — veja [Arquivar e reabrir um
+espaço](/trabalho/arquivar-e-reabrir/) para a diferença entre os dois.
 
 ## Material e aprovação
 

@@ -41,6 +41,34 @@ O resultado mostra quantos espaços foram arquivados e quantos não foram encont
 Não há reabertura em lote na tela de "Espaços" — cada espaço arquivado é reaberto individualmente
 pelo botão **"Reabrir"** na própria linha.
 
+## Excluir um espaço
+
+Excluir é diferente de arquivar: em vez de só sair do caminho, o espaço inteiro some de verdade —
+tarefas, conversas, materiais, eventos de agenda e convites externos, tudo junto.
+
+- **Um espaço por vez**: na linha dele, clique em **"Excluir"**. A confirmação mostra o que vai
+  acontecer:
+  - Espaço sem conteúdo: **"Este espaço ainda não tem nenhum conteúdo — a exclusão não afeta mais
+    nada."**
+  - Espaço com conteúdo: **"Este espaço tem [quantidade] tarefa(s), [quantidade] evento(s) de
+    agenda, [quantidade] convite(s) externo(s) e [quantidade] participante(s) além de quem criou.
+    TUDO isso será excluído junto, sem volta. Confirma a exclusão?"**
+- **Vários de uma vez**: marque as caixas dos espaços (ou **"Selecionar todos"**) e clique em
+  **"Excluir selecionados"**. Confirme no diálogo, que avisa que todo o conteúdo de dentro é
+  excluído junto, sem volta.
+
+![Confirmação de exclusão de um espaço, mostrando o que será perdido](/assets/capturas/excluir-espaco-confirmacao-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Confirmação de exclusão de um espaço, mostrando o que será perdido — no celular](/assets/capturas/excluir-espaco-confirmacao-celular.png){: style="max-width:375px" }
+
+{: .warning }
+Excluir não tem volta, ao contrário de arquivar. Se o espaço só parou de ser usado — a formação
+pode ser retomada, a campanha pode repetir no ano seguinte —, use **"Arquivar"**, que preserva
+tudo para consulta.
+
 ## O que muda para quem participava
 
 Um espaço arquivado some da lista de espaços ativos e para de gerar itens na tela [Meu trabalho:
@@ -59,3 +87,5 @@ durante a formação, como comprovante para um relatório de prestação de cont
 
 - Ao arquivar ou reabrir um único espaço: "Não foi possível arquivar/reabrir."
 - Ao arquivar em lote: "Não foi possível arquivar em lote."
+- Ao excluir um único espaço: "Não foi possível excluir."
+- Ao excluir em lote: "Não foi possível excluir em lote."

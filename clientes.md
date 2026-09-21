@@ -51,10 +51,33 @@ por exemplo, "2 arquivado(s), 0 não encontrado(s)".
 Arquivar um cliente não desfaz o vínculo dos espaços que já apontam para ele — apenas some da lista
 de clientes ativos. Reabrir devolve o cliente à lista normalmente.
 
+## Excluir um cliente
+
+Excluir é diferente de arquivar: em vez de só sair do caminho, o cadastro do cliente some de
+verdade. Os espaços que já apontavam para ele **não são apagados** — só perdem o vínculo com
+aquele cliente, e continuam existindo normalmente.
+
+- **Um cliente por vez**: na linha dele, clique em **"Excluir"**. A confirmação mostra o que vai
+  acontecer:
+  - Sem espaço vinculado: **"Este cliente não tem nenhum espaço vinculado — a exclusão não afeta
+    mais nada."**
+  - Com espaço vinculado: **"Este cliente tem [quantidade] espaço(s) vinculado(s). Eles NÃO serão
+    apagados — só perdem o vínculo com este cliente. Confirma a exclusão?"**
+- **Vários de uma vez**: marque as caixas dos clientes (ou **"Selecionar todos"**) e clique em
+  **"Excluir selecionados"**. Confirme no diálogo, que avisa que os espaços vinculados não são
+  apagados.
+
+Depois da exclusão em lote, a tela mostra o resultado separado em três grupos — por exemplo, "3
+excluído(s), 0 recusado(s), 0 com falha".
+
+{: .warning }
+Excluir não tem volta. Se a intenção é só tirar o cliente do caminho por enquanto — a parceria
+pode voltar — use **"Arquivar"**, não **"Excluir"**.
+
 ## Ligar um espaço a um cliente
 
 O vínculo se faz na criação do espaço, não na tela de clientes: ao criar um espaço, escolha o
-cliente no campo **"Cliente do espaço"**, ou deixe em **"Sem cliente (projeto interno)"**. Veja
+cliente no campo **"Cliente"**, ou deixe em **"Sem cliente (projeto interno)"**. Veja
 [Criar um espaço](/trabalho/criar-espaco/) para o passo a passo completo.
 
 ## Ver a carteira de um cliente
@@ -70,7 +93,7 @@ tudo que sua organização faz para ele.
 
 O Instituto Semente presta serviço para a Fundação Aroeira. Maria Oliveira cadastra a **Fundação
 Aroeira** como cliente, com o e-mail de contato de Beatriz Lima. Ao criar o espaço **"Campanha do
-Agasalho 2026"**, ela escolhe a Fundação Aroeira em "Cliente do espaço". Meses depois, para saber
+Agasalho 2026"**, ela escolhe a Fundação Aroeira em "Cliente". Meses depois, para saber
 tudo que o instituto já entregou à fundação, ela abre "Clientes" e clica no nome da Fundação
 Aroeira — a carteira mostra a campanha e qualquer outro espaço ligado a ela.
 
@@ -80,9 +103,10 @@ Aroeira — a carteira mostra a campanha e qualquer outro espaço ligado a ela.
   recarregar; se persistir, avise quem administra a organização.
 - **"Não foi possível criar o cliente."**, **"Não foi possível salvar."**, **"Não foi possível
   enviar a imagem."**, **"Não foi possível remover a imagem."**, **"Não foi possível
-  arquivar/reabrir."** ou **"Não foi possível concluir a remoção em lote."** — a ação específica
-  falhou; a mensagem aparece no topo da tela ou do diálogo. Tente de novo; se continuar falhando,
-  avise quem administra a organização.
+  arquivar/reabrir."**, **"Não foi possível arquivar em lote."**, **"Não foi possível excluir."**
+  ou **"Não foi possível excluir em lote."** — a ação específica falhou; a mensagem aparece no
+  topo da tela ou do diálogo. Tente de novo; se continuar falhando, avise quem administra a
+  organização.
 
 {: .warning }
 Sem nenhuma organização ativa, a tela mostra apenas **"Nenhuma organização ativa. Escolha uma no

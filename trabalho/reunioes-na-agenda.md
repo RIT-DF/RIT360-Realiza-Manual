@@ -43,11 +43,12 @@ mostra o horário de início antes do título; nos prazos, não.
      mais de uma pessoa.
 3. Clique em **"Criar evento"**.
 
-<!-- CAPTURA: rota=/espacos/:id (visão Calendário, diálogo "Novo evento" aberto) | o-que-mostrar=janela "Novo evento" com título, data, início, fim, local, participantes e "Repete" marcado com frequência e "Até" | arquivo=novo-evento-desktop.png -->
+![Janela "Novo evento", com título, data, início, fim, local, participantes e repetição](/assets/capturas/novo-evento-desktop.png)
+{: .mt-4 }
 
 A mesma tela no celular:
 
-<!-- CAPTURA: rota=/espacos/:id (visão Calendário, diálogo "Novo evento" aberto) | o-que-mostrar=igual à de desktop, em 375px | arquivo=novo-evento-celular.png -->
+![Janela "Novo evento" — no celular](/assets/capturas/novo-evento-celular.png){: style="max-width:375px" }
 
 ## Repetir uma reunião
 
@@ -67,6 +68,9 @@ frequência ou a data final de uma série já criada, nem cancelar todas as ocor
 uma vez. O que dá para fazer é cancelar uma ocorrência específica (veja abaixo). Precisando mudar
 algo na série inteira, é preciso recriar.
 
+Abrindo qualquer ocorrência de uma reunião recorrente, um selo no topo da janela lembra que ela se
+repete: **"Repete toda semana"** ou **"Repete todo mês"**, conforme a frequência escolhida.
+
 ## Lembrete
 
 Marque **"Lembrar antes do início"** e escolha os minutos de antecedência (30 por padrão).
@@ -77,14 +81,16 @@ Se você foi convidado, ao abrir a reunião aparece **"Sua presença"** com dois
 **"Confirmar presença"** e **"Não vou"**. A resposta vale para a reunião como convite — não é por
 ocorrência isolada dentro da tela de detalhe.
 
-<!-- CAPTURA: rota=/espacos/:id (visão Calendário, ocorrência aberta) | o-que-mostrar=diálogo de detalhe com badge de status, "Sua presença" com os dois botões, lista de participantes com resposta, e "Tarefas ligadas a esta reunião" | arquivo=detalhe-evento-desktop.png -->
+![Detalhe de uma ocorrência, com "Sua presença", a lista de participantes e as tarefas ligadas](/assets/capturas/detalhe-evento-desktop.png)
+{: .mt-4 }
 
 A mesma tela no celular:
 
-<!-- CAPTURA: rota=/espacos/:id (visão Calendário, ocorrência aberta) | o-que-mostrar=igual à de desktop, em 375px | arquivo=detalhe-evento-celular.png -->
+![Detalhe de uma ocorrência — no celular](/assets/capturas/detalhe-evento-celular.png){: style="max-width:375px" }
 
-Abaixo da sua presença, a lista **"Participantes"** mostra quem foi chamado e a resposta de cada
-um: **"Sem resposta"**, **"Confirmou presença"** ou **"Não vai"**.
+Logo abaixo da sua presença, a lista **"Participantes"** mostra sempre todo mundo que foi
+chamado, e a resposta de cada um: **"Sem resposta"**, **"Confirmou presença"** ou **"Não vai"** —
+mesmo quando é só uma pessoa.
 
 ## Andamento de uma ocorrência
 
@@ -93,7 +99,9 @@ Abrindo uma reunião no calendário, o rodapé da janela tem:
 - **"Marcar como realizada"** — registra que aquele encontro aconteceu. Vira **"Reabrir"** depois,
   para desfazer.
 - **"Cancelar esta ocorrência"** — cancela **só aquele dia**, nunca a série inteira. As outras
-  ocorrências continuam agendadas normalmente.
+  ocorrências continuam agendadas normalmente. A confirmação avisa: **"A ocorrência de
+  [data/hora] será cancelada. Esta ação não pode ser desfeita."**, com os botões **"Voltar"** e
+  **"Cancelar ocorrência"**.
 
 Nenhuma das duas ações mexe no passado nem nas outras semanas/meses da série.
 

@@ -43,6 +43,13 @@ Maria Oliveira comenta, na aba "🔒 Interna (equipe)" da tarefa "Definir pontos
 orçamento da campanha está apertado este mês. Beatriz Lima, da Fundação Aroeira, está na mesma
 tarefa mas nunca vê esse comentário — ela só enxerga a aba "🌐 Compartilhada".
 
+## O que quem é convidado de fora vê
+
+Beatriz Lima, convidada de fora do Instituto Semente, abre a mesma tarefa e encontra só uma
+conversa — sem aba para escolher, e sem qualquer sinal de que existe uma conversa interna por
+trás.
+
+<!-- CAPTURA: o-que-mostrar=tarefa vista por Beatriz Lima, só a conversa compartilhada, sem controles de anexar (#113) | arquivo=conversas-convidado-desktop.png e conversas-convidado-celular.png -->
 
 ## Quando dá errado
 

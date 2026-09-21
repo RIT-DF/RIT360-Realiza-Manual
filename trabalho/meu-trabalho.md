@@ -68,6 +68,20 @@ Maria Oliveira abre o painel pela manhã e vê, em "Aguardando você": **"'Arte 
 redes' está aguardando aprovação"**, com o selo "Aguardando aprovação" e "há 3 dias". Ela clica no
 item, é levada direto para a tarefa, no espaço e na organização certos, e decide ali mesmo.
 
+## O que quem é convidado de fora vê
+
+Beatriz Lima, convidada de fora do Instituto Semente, só participa do espaço **"Campanha do
+Agasalho 2026"** — então o painel dela só mostra o que está travado ali, nunca de outro espaço ou
+de outra organização. O restante do painel funciona do mesmo jeito: atrasadas, aguardando ela e
+esperando outra pessoa, tudo restrito ao que ela alcança.
+
+![Painel "O que está travado", visto por uma pessoa convidada de fora, só com o espaço dela](/assets/capturas/painel-convidado-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Painel "O que está travado", visto por uma pessoa convidada de fora — no celular](/assets/capturas/painel-convidado-celular.png){: style="max-width:375px" }
+
 ## Quando dá errado
 
 Se o painel não conseguir atualizar, ele mostra: "Não foi possível atualizar agora. Mostrando os

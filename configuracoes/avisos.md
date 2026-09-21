@@ -30,8 +30,8 @@ Há dois caminhos até a mesma tela de preferências:
 
 Dali em diante o passo a passo é o mesmo:
 
-1. Para cada tipo de aviso, veja duas colunas de interruptor: **"Central de avisos"** e
-   **"E-mail"**.
+1. Para cada tipo de aviso, veja três colunas de interruptor: **"Central de avisos"**,
+   **"E-mail"** e **"Notificação no aparelho"**.
 2. Clique no interruptor para ligar ou desligar aquele canal, para aquele tipo.
 
 Os tipos de aviso são:
@@ -40,6 +40,13 @@ Os tipos de aviso são:
 - **"Há um pedido de aprovação para mim"**
 - **"Pediram ajuste numa entrega que eu enviei"**
 - **"Uma entrega minha foi decidida"**
+- **"Fui convidado para uma reunião"**
+- **"Uma reunião minha está para começar"**
+
+{: .note }
+A coluna **"Notificação no aparelho"** é o interruptor por tipo — ela só tem efeito depois que
+você ativa as notificações **neste aparelho**, no bloco logo abaixo. Sem ativar o aparelho, ligar
+o interruptor não faz nada chegar.
 
 ![Preferências de avisos, por tipo e por canal](/assets/capturas/preferencias-avisos-lista-desktop.png)
 {: .mt-4 }
