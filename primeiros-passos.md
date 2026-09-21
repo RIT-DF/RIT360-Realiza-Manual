@@ -22,8 +22,9 @@ Você entra de duas formas, e as duas levam ao mesmo lugar.
 
 ### Pelo Google
 
-Quando a organização habilita essa entrada, aparece o botão **"Entrar com Google"** abaixo do
-formulário, separado por um "ou". Clique nele e conclua a autorização na tela do Google.
+Quando a entrada por Google está habilitada neste ambiente, aparece o botão **"Entrar com
+Google"** abaixo do formulário, separado por um "ou". Clique nele e conclua a autorização na tela
+do Google.
 
 {: .note }
 O botão só aparece quando a entrada por Google está habilitada neste ambiente. Não vendo o botão,
@@ -35,6 +36,17 @@ use e-mail e senha.
 A mesma tela no celular:
 
 ![Tela de entrada do RIT360 Realiza no celular](/assets/capturas/entrar-tela-celular.png){: style="max-width:375px" }
+
+### Quando dá errado ao entrar
+
+- **"E-mail ou senha inválidos."** — aparece tanto quando o e-mail não existe quanto quando a
+  senha está errada. É proposital: a tela nunca diz qual dos dois é o problema, para não dar pista
+  de quais e-mails têm conta no Realiza.
+- Tentando entrar pelo Google, um problema na autorização volta para esta tela com uma destas
+  mensagens: **"A entrada por Google ainda não foi configurada neste ambiente."**, **"A
+  confirmação do Google expirou ou é inválida. Tente entrar de novo."**, **"O Google recusou a
+  autorização. Tente novamente."**, **"A conta Google usada não tem e-mail verificado."**, ou,
+  sem nenhuma delas se aplicar, **"Não foi possível concluir a entrada pelo Google."**
 
 ## Cadastrar-se sem convite
 
@@ -50,7 +62,8 @@ sempre funciona, de qualquer domínio de e-mail — é o caminho para quem já f
 de uma organização. Sem convite, só é possível se cadastrar com um e-mail de um **domínio
 autorizado**, uma lista que quem administra o serviço mantém. A mesma regra vale entrando pelo
 Google: sem convite pendente e sem domínio autorizado, o Google recusa com "Este e-mail não tem
-convite pendente nem pertence a um domínio autorizado a entrar no RIT360 Realiza."
+convite pendente nem pertence a um domínio autorizado a entrar no RIT360 Realiza. Peça um convite
+a quem administra sua organização."
 
 {: .note }
 Uma conta criada por domínio autorizado nasce **sem vínculo com nenhuma organização** — veja mais

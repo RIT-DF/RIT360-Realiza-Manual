@@ -70,15 +70,32 @@ recusou IA por completo.
 Depois de salva, a credencial nunca mais é exibida — nem para quem administra. Se precisar trocá-
 la, cadastre de novo ou atualize o provedor; não há como "ver" a credencial já salva.
 
+### Escolher o modelo
+
+Por padrão, cada provedor usa o modelo padrão dele. Se quiser escolher outro:
+
+- **Ao cadastrar** — depois de escolher o **"Provedor"** e colar a **"Credencial (chave de
+  API)"**, clique em **"Ver modelos disponíveis"**. A tela mostra **"Consultando os modelos do
+  provedor…"** enquanto consulta e, ao terminar, o campo **"Modelo"** com a lista que aquela
+  credencial alcança — escolha um, ou deixe em **"Usar o padrão ([provedor])"**.
+- **Num provedor já cadastrado** — clique em **"Trocar modelo"**, escolha o novo **"Modelo"** e
+  clique em **"Salvar modelo"**.
+
+{: .tip }
+Se a tela não conseguir listar os modelos direto do provedor, ela avisa **"Não foi possível listar
+direto do provedor — mostrando uma lista conhecida."** e mostra, em vez disso, uma lista que o
+produto já conhece. Essa lista pode não incluir um modelo lançado recentemente pelo provedor.
+
 ### Testar, ligar e desligar, reordenar e remover
 
 Na lista de provedores cadastrados, cada linha tem:
 
 - Um interruptor para ligar ou desligar o provedor.
-- **"Testar conexão"** — confirma se a credencial cadastrada funciona agora.
+- **"Testar conexão"** — confirma se a credencial cadastrada funciona agora. Ao funcionar, a tela
+  mostra **"Conexão confirmada."**
 - As setas **↑** e **↓** para mudar a ordem entre os provedores.
-- **"Remover"** — abre a confirmação "[Nome do provedor] deixa de ser usado. Esta ação não pode
-  ser desfeita."
+- **"Remover"** — abre a confirmação **""[nome do provedor]" deixa de ser usado. Esta ação não
+  pode ser desfeita."**
 
 
 ## Quem autorizou isso, e quando

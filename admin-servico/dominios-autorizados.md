@@ -75,6 +75,25 @@ A mesma tela no celular:
 2. Confira o aviso em **"Remover domínio autorizado"** e confirme clicando
    em **"Remover"** de novo, ou cancele em **"Cancelar"**.
 
+## Removendo vários domínios de uma vez
+
+Havendo mais de um domínio na lista, você não precisa remover um a um.
+
+1. Marque a caixa de cada domínio que quer remover, ou marque **"Selecionar
+   todos"** para marcar a lista inteira.
+2. Clique em **"Remover selecionados (N)"** — o número entre parênteses é
+   quantos você marcou.
+3. Confira o aviso em **"Remover domínios autorizados"** e confirme em
+   **"Remover"**, ou cancele em **"Cancelar"**.
+4. O resultado aparece logo acima da lista: **"N removido(s)[, M com
+   falha]."** — se algum domínio não puder ser removido, ele continua na
+   lista, e o número de falhas aparece separado do número de removidos.
+
+{: .tip }
+O resultado nunca esconde uma falha parcial atrás de um "pronto" genérico: se
+3 de 5 domínios selecionados forem removidos, a mensagem diz exatamente isso,
+para você saber quais dois ainda precisam de atenção.
+
 ## Exemplo
 
 A equipe da RIT autoriza o domínio `rit.org.br` para que qualquer pessoa da

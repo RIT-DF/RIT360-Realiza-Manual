@@ -54,7 +54,9 @@ A mesma tela no celular:
 ## Passo a passo — reordenar, testar, ligar e desligar
 
 Cada provedor já cadastrado aparece numa lista numerada, na ordem em que é
-tentado. Abaixo do nome de cada um aparece o modelo em uso.
+tentado. Abaixo do nome de cada um aparece **"ligado"** ou **"desligado"**, e
+embaixo disso o modelo em uso — com **"(padrão)"** ao lado quando você deixou o
+produto escolher, em vez de fixar um modelo específico.
 
 - Para mudar a posição de um provedor, use as setas **↑** e **↓** ao lado
   dele.
@@ -65,8 +67,14 @@ tentado. Abaixo do nome de cada um aparece o modelo em uso.
 - Para desativar um provedor sem apagar o cadastro, use a chave ao lado dele.
   Um provedor desligado não entra na fila de tentativas, mas continua na
   lista, pronto para ser religado.
-- Para remover de vez, clique em **"Remover"** e confirme em **"Remover
-  provedor"**. Esta ação não pode ser desfeita.
+- Para remover de vez, clique em **"Remover"**. Aparece a confirmação
+  **"Remover provedor"**, avisando: **""[nome do provedor]" deixa de ser
+  usado. Esta ação não pode ser desfeita."** Clique em **"Remover"** de novo
+  para confirmar, ou em **"Cancelar"** para desistir.
+
+{: .note }
+Antes de qualquer provedor ser cadastrado, a lista mostra **"Nenhum provedor
+cadastrado ainda."** no lugar dela.
 
 ## Passo a passo — trocar o modelo de um provedor já cadastrado
 

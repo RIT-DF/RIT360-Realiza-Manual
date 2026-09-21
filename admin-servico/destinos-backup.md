@@ -44,14 +44,6 @@ A mesma tela no celular:
 
 ![Tela de destinos da cópia de segurança — no celular](/assets/capturas/admin-servico-destinos-backup-celular.png){: style="max-width:375px" }
 
-![Destinos da cópia de segurança](/assets/capturas/admin-servico-destinos-backup-desktop.png)
-{: .mt-4 }
-
-A mesma tela no celular:
-
-![Destinos da cópia de segurança — no celular](/assets/capturas/admin-servico-destinos-backup-celular.png){: style="max-width:375px" }
-
-
 {: .warning }
 **Sem a senha de cifragem, uma cópia cifrada é inútil.** A tela avisa: "Sem
 esta senha, a cópia enviada é inútil — ninguém consegue restaurá-la." Guarde
@@ -60,8 +52,9 @@ nunca mais é exibida aqui, nem de forma mascarada.
 
 ## Passo a passo — testar, ligar/desligar e remover
 
-Cada destino já cadastrado aparece num cartão, com o mecanismo, o nome, se
-está cifrado e se está ligado.
+Cada destino já cadastrado aparece num cartão, com o mecanismo, o nome, e dois
+selos: **"Cifrado antes de enviar"** (só quando a cifragem está ligada) e
+**"Ligado"** ou **"Desligado"**.
 
 - Para verificar se o destino funciona de verdade, clique em **"Testar
   destino"**. O teste **grava, lê de volta e apaga** um arquivo pequeno no
@@ -73,9 +66,9 @@ está cifrado e se está ligado.
 - Para desativar um destino sem apagar o cadastro, clique em **"Desligar"**
   (ou **"Ligar"**, se já estiver desligado). Um destino desligado não recebe
   novas cópias, mas continua na lista, pronto para ser religado.
-- Para remover de vez, clique em **"Remover"** e confirme em **"Confirmar
-  remoção"**. A configuração some; o histórico de envios que já aconteceram
-  não é apagado.
+- Para remover de vez, clique em **"Remover"**. No lugar do botão aparece a
+  pergunta **"Remover "[nome do destino]"? A configuração some, o histórico de
+  envios fica."**, com dois botões: **"Confirmar remoção"** e **"Cancelar"**.
 
 ## Dicas e armadilhas
 

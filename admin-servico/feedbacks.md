@@ -33,11 +33,12 @@ A mesma tela no celular:
 ## Passo a passo — responder um feedback
 
 1. Abra **"Administração geral"** e clique em **"Feedbacks"**.
-2. Cada feedback aparece num cartão, com o tipo, o título, a mensagem e a
-   data de envio.
+2. Cada feedback aparece num cartão, com o tipo, o título, a mensagem, a data
+   de envio e a linha **"Tela de origem: [rota de onde a pessoa mandou]"**.
 3. Se o feedback tiver anexo, clique no nome dele para baixar.
 4. Clique em **"Responder"**.
-5. Escreva a resposta e clique em **"Salvar resposta"**.
+5. Escreva a resposta e clique em **"Salvar resposta"**, ou em **"Cancelar"**
+   para desistir sem enviar.
 
 
 {: .warning }
@@ -83,9 +84,9 @@ confusão para a equipe rever a tela.
   recebido ainda. Volte aqui quando alguém enviar um."**
 - Se a lista de feedbacks não carregar, a tela mostra a mensagem de erro no
   lugar dela.
-- Se salvar a resposta falhar, a tela mostra o erro acima do campo de
-  resposta, e o texto digitado continua ali — nada se perde, e você pode
-  tentar de novo.
+- Se salvar a resposta falhar, a tela mostra **"Não foi possível gravar a
+  resposta."** logo abaixo do campo de resposta — não acima — e o texto
+  digitado continua ali — nada se perde, e você pode tentar de novo.
 - Se abrir um anexo falhar, a tela mostra **"Não foi possível abrir o
   anexo."** — tente de novo; se persistir, é um problema do serviço, avise a
   equipe técnica.

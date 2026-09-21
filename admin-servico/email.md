@@ -48,6 +48,16 @@ também sai.
    ative **"Servidor de reserva"** e preencha os mesmos campos para ele.
 4. Clique em **"Salvar configuração"**.
 
+Logo acima do formulário, um aviso mostra o estado atual: **"Configurado —
+primário: [endereço do servidor], reserva: [endereço]"** (ou **"(sem
+reserva)"**, se você não tiver cadastrado um segundo servidor), ou **"Ainda
+não configurado."**, antes do primeiro cadastro.
+
+Ao salvar com sucesso, a tela confirma: **"Configuração salva. Vale para os
+avisos das organizações e, se a Identidade não tiver configuração própria,
+também para o convite e a recuperação de senha. Use os testes abaixo antes de
+contar com ela de verdade."**
+
 ![Configuração do servidor de e-mail do produto, com os dois blocos de teste](/assets/capturas/admin-servico-email-desktop.png)
 {: .mt-4 }
 
@@ -73,6 +83,11 @@ Dali para baixo há **dois grupos de botões separados**, um para cada caminho:
 3. Confira se o e-mail de teste chegou de verdade na caixa de entrada
    informada — **para os dois grupos**, não apenas se a tela disse que
    enviou.
+
+Cada teste bem-sucedido confirma pelo servidor usado: **"E-mail de teste
+(avisos) enviado pelo servidor primário. Confira a caixa de entrada
+informada."** (ou "de reserva", conforme o botão clicado), e o mesmo padrão
+para **"E-mail de teste (entrada/recuperação)"**.
 
 {: .warning }
 **Testar um grupo não prova o outro.** Os dois usam o mesmo servidor
@@ -133,9 +148,13 @@ de entrada e recuperação de senha, nunca para os avisos das organizações.
 2. Ative **"Usar configuração própria para entrada"**.
 3. Preencha o **"Servidor primário (Identidade)"** com os mesmos campos de
    sempre, e opcionalmente um **"Servidor de reserva (Identidade)"**.
-4. Clique em **"Salvar configuração própria"**.
+4. Clique em **"Salvar configuração própria"**. A tela confirma:
+   **"Configuração própria da Identidade salva. A partir de agora ela é usada
+   no lugar da herdada."**
 5. Para voltar a herdar o servidor do topo, clique em **"Remover
-   configuração própria (voltar a herdar)"**.
+   configuração própria (voltar a herdar)"**. A tela confirma: **"Configuração
+   própria removida. A Identidade volta a herdar o servidor configurado
+   acima."**
 
 {: .important }
 Enquanto a Identidade estiver usando uma configuração própria, a tela avisa

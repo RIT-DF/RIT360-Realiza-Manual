@@ -46,6 +46,11 @@ notificação no aparelho." — e leva direto ao ajuste fino, pelo botão **"Ver
 de aviso"**. Veja [Avisos: o que você recebe e por onde](/configuracoes/avisos/) para o que cada
 tipo significa e como mudar.
 
+Ao final dessa frase, o cartão acrescenta o estado deste aparelho, quando ele suporta notificação:
+**"Este aparelho está autorizado a receber notificações."** ou **"As notificações neste aparelho
+estão desativadas."** Num aparelho que não suporta notificação alguma, nenhuma das duas frases
+aparece.
+
 
 {: .note }
 Esse cartão é um atalho novo. O caminho pelo sino de avisos, no topo do aplicativo, continua
@@ -68,3 +73,6 @@ está aqui como os outros campos.
   de novo.
 - **"Não foi possível remover a foto."** — tente novamente; se persistir, avise quem administra a
   organização.
+- **"Não consegui carregar suas preferências de aviso agora."** — aparece no lugar do resumo, no
+  cartão **"Avisos"**, quando a consulta às preferências falha. O resto do perfil continua
+  funcionando normalmente; recarregue a página para tentar de novo.

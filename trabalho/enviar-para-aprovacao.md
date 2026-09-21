@@ -34,6 +34,12 @@ use o botão **"Salvar esta escolha para esta entrega"**, que aparece quando voc
 Sem escolher pelo menos um aprovador, o sistema recusa o envio com a mensagem "Escolha ao menos um
 aprovador antes de enviar para aprovação." — corrija a seleção e envie de novo.
 
+{: .warning }
+Se ninguém no espaço tiver papel de Aprovador ou Gestor, a seção **"Quem aprova"** mostra, no
+lugar da lista: **"Ninguém neste espaço tem papel de aprovador ainda — adicione um participante com
+esse papel."** Veja [Chamar pessoas para o espaço](/trabalho/chamar-pessoas/) para dar esse papel a
+alguém antes de tentar enviar para aprovação.
+
 ## Passo a passo
 
 1. Anexe todo o material que deve ir junto (veja

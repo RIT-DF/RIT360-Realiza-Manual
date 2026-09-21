@@ -34,6 +34,13 @@ A mesma tela no celular:
 - **"Espaços"** — quantos espaços existem ao todo, somando projetos e
   operações contínuas de todas as organizações, arquivados ou não.
 
+## Quando as contagens não carregam
+
+Se o painel não conseguir buscar as contagens, elas ficam paradas em **"Carregando…"**
+— nunca mostram um número errado — e a mensagem **"Não foi possível carregar o
+painel."** aparece no cartão de introdução, acima das contagens. Recarregue a
+página; se o problema continuar, avise a equipe técnica.
+
 ## O que esses números não dizem
 
 - Não dizem quantas organizações estão **ativas de verdade** — só quantas
@@ -58,8 +65,14 @@ cada assunto. No celular, as colunas empilham, uma abaixo da outra.
 Alguns assuntos aparecem **direto na tela**, com o conteúdo completo:
 
 - **"Números do serviço"** — as três contagens, explicadas abaixo.
-- **"Cópia de segurança do banco"** — veja [Cópia de
-  segurança](/admin-servico/copia-de-seguranca/).
+- **"Cópia de segurança do banco"** — mostra, direto nesta tela, um destes
+  estados: **"Nunca rodou uma cópia de segurança reportada por este
+  mecanismo."**, **"Última cópia concluída com sucesso em [data e hora]."** ou
+  **"A última cópia, em [data e hora], FALHOU[: mensagem]."**. Enquanto a
+  consulta não termina, o cartão mostra **"Carregando…"**; se ela falhar, mostra
+  a mensagem de erro no lugar do estado. Veja [Cópia de
+  segurança](/admin-servico/copia-de-seguranca/) para o que cada estado
+  significa e os limites desta funcionalidade.
 - **"Quem administra o serviço"** — veja [Quem administra o
   serviço](/admin-servico/quem-administra/).
 - **"Login por Google"** — veja [Entrada pelo

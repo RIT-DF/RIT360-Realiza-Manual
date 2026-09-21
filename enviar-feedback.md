@@ -23,7 +23,9 @@ ter que perguntar de volta.
 2. Escolha o **"Tipo"**: Sugestão, Problema, Elogio, Depoimento ou Outro.
 3. Preencha **"Título"** e **"Sua mensagem"**.
 4. Se ajudar a explicar, anexe até 3 arquivos (10 MB cada) em **"Anexos (opcional)"**.
-5. Clique em **"Enviar"**.
+5. A caixa **"Autorizo a RIT a entrar em contato sobre este feedback"** já vem marcada; desmarque
+   se não quiser ser procurado sobre esse envio.
+6. Clique em **"Enviar"**.
 
 ![Tela de envio de feedback](/assets/capturas/feedback-envio-desktop.png)
 {: .mt-4 }
@@ -54,3 +56,8 @@ Não inclua senha, chave de acesso, nem dado pessoal de terceiros — nome compl
 documento, telefone de alguém que não seja você. O relato é lido por gente que
 mantém o produto, não por quem trabalha na sua organização, e esses dados não são
 necessários para resolver o problema.
+
+## Quando dá errado
+
+Se o envio falhar, a tela mostra **"Não foi possível enviar o feedback."** acima do
+formulário. Nada do que você escreveu se perde — tente enviar de novo.

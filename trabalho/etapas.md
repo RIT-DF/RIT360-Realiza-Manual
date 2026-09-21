@@ -67,9 +67,9 @@ calendário](/trabalho/visoes/) para o comportamento dessa confirmação ao arra
 
 No espaço **"Campanha do Agasalho 2026"**, Maria Oliveira marca **"Aciona aprovação"** na etapa
 "Em aprovação". Quando Carlos Nunes termina a arte do cartaz e move o cartão para essa etapa, o
-sistema mostra: "Esta coluna aprova ao receber o cartão — Ao mover '[nome da tarefa]' para 'Em
-aprovação', você aprova a versão [número] da entrega '[nome]', em seu nome." Só depois de Carlos
-confirmar em **"Mover e aprovar"** é que a aprovação é registrada.
+sistema mostra a confirmação **"Esta coluna aprova ao receber o cartão"**, avisando: "Ao mover
+"Arte do cartaz" para "Em aprovação", você aprova a versão [número] da entrega "[nome]", em seu
+nome." Só depois de Carlos confirmar em **"Mover e aprovar"** é que a aprovação é registrada.
 
 {: .warning }
 Se você marcar "Aciona aprovação" numa etapa que sua equipe usa como parada intermediária comum —

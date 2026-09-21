@@ -18,8 +18,8 @@ de mexer em outra coisa.
   "um aprovador basta".
 - A lista do material daquela versão — os mesmos arquivos, links e textos que estavam no cartão no
   momento do envio.
-- Para cada aprovador: se já decidiu ("aprovou" ou "pediu ajuste — com o motivo escrito"), ou
-  "ainda não decidiu".
+- Para cada aprovador: se já decidiu — "aprovou", ou "pediu ajuste — " seguido do motivo escrito
+  entre aspas —, ou "ainda não decidiu".
 - Se você é um dos aprovadores e ainda não decidiu, dois controles: o botão **"Aprovar"** e o campo
   **"Motivo do ajuste (obrigatório para recusar)"** com o botão **"Pedir ajuste"**.
 
@@ -27,8 +27,9 @@ de mexer em outra coisa.
 
 1. Confira o material listado.
 2. Clique em **"Aprovar"**.
-3. Uma confirmação aparece, dizendo exatamente o que vai ficar registrado: *"Ao aprovar, você
-   registra a aprovação da versão N da entrega '[nome]', em seu nome."*
+3. Uma confirmação aparece, com o título **"Aprovar esta versão"**, dizendo exatamente o que vai
+   ficar registrado: "Ao aprovar, você registra a aprovação da versão N da entrega "[nome]", em
+   seu nome."
 4. Clique em **"Aprovar"** na confirmação para concluir.
 
 Essa confirmação nomeada é proposital: aprovar não é um clique que passa despercebido, é um
@@ -38,7 +39,8 @@ registro em seu nome, e o texto da confirmação diz isso antes de acontecer.
 
 1. Escreva, no campo **"Motivo do ajuste (obrigatório para recusar)"**, o que precisa mudar.
 2. Clique em **"Pedir ajuste"**.
-3. Confirme na caixa que aparece.
+3. Confirme na caixa **"Pedir ajuste nesta versão"**, que avisa: "Ao pedir ajuste, você registra a
+   recusa da versão N da entrega "[nome]", em seu nome, com o motivo escrito."
 
 {: .important }
 Pedir ajuste sem escrever o motivo é recusado com a mensagem "Escreva o motivo do ajuste pedido." —
