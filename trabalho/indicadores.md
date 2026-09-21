@@ -67,14 +67,18 @@ Cada valor registrado mostra o período, o valor com a unidade, e a origem: **"�
 
 ## Remover um valor ou um indicador
 
-- **Um valor**: na tabela de valores, clique em **"Remover"** na linha dele.
-- **O indicador inteiro**: clique em **"Remover"** na linha do indicador, na lista principal.
+- **Um valor**: na tabela de valores, clique em **"Remover"** na linha dele. A confirmação diz:
+  "O valor registrado para o período [período] será apagado. Esta ação não pode ser desfeita." —
+  clique em **"Excluir"** para confirmar, ou em **"Cancelar"** para desistir.
+- **O indicador inteiro**: clique em **"Remover"** na linha do indicador, na lista principal. A
+  confirmação avisa se há valores registrados: "Isto também apaga [quantidade] valor(es) já
+  registrado(s) deste indicador. Esta ação não pode ser desfeita." (ou, sem valores ainda, "Este
+  indicador ainda não tem valores registrados. Esta ação não pode ser desfeita.") — clique em
+  **"Excluir"** para confirmar.
 
 {: .warning }
-**Nenhum dos dois pede confirmação — o clique já remove.** Ao contrário de tarefa, pasta ou
-relatório, não existe aqui uma pergunta do tipo "tem certeza?" antes de apagar. Clique com atenção,
-principalmente na linha do indicador inteiro: remover o indicador tira ele de qualquer relatório
-que ainda vá ser gerado — relatórios já publicados não mudam retroativamente.
+Remover o indicador tira ele de qualquer relatório que ainda vá ser gerado — relatórios já
+publicados não mudam retroativamente.
 
 ## Exemplo
 
@@ -90,3 +94,10 @@ recusada ("Linha 4: valor não é um número"), ele corrige a planilha na origem
 - Ao registrar um valor à mão: "Não foi possível gravar o valor."
 - Ao ler o arquivo para o ensaio: "Não foi possível ler o arquivo."
 - Ao confirmar a importação: "Não foi possível importar."
+
+{: .note }
+Se você foi convidado de fora para o espaço, não é isto que você vê: a aba mostra "Você não tem
+permissão para ver os indicadores deste espaço — indicador é dado de trabalho interno, alcançado
+só por quem administra o conteúdo da organização." — e, quando alguém já lhe deu permissão de ver
+mas não de editar, os valores aparecem sem os campos de registrar ou importar, com o aviso "Você só
+pode ver os valores registrados — não pode gravar nem importar."

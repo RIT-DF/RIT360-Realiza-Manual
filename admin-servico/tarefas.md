@@ -153,8 +153,9 @@ rotina voltou a funcionar ou se falhou de novo pela mesma causa.
   para a fila.
 - Se o cartão do espelho mostrar **"N organização(ões) sem correspondência
   aqui (dado residual do Trabalho para uma organização que não existe mais,
-  ou nunca existiu, neste Núcleo) — "Reconciliar" não resolve isto; requer
-  investigação (ver issue #82)."**, não adianta reconciliar: sobraram
-  registros de espaços de uma organização que já não existe. Avise quem
-  cuida da instalação — é preciso apagar esses restos com cuidado, e isso
-  não se faz por esta tela.
+  ou nunca existiu, neste Núcleo) — 'Conferir com a origem agora' não
+  resolve isto: é preciso investigar de onde vieram e removê-las."**, não
+  adianta clicar em **"Conferir com a origem agora"**: sobraram registros de
+  espaços de uma organização que já não existe. Avise quem cuida da
+  instalação — é preciso investigar a origem e apagar esses restos com
+  cuidado, e isso não se faz por esta tela.

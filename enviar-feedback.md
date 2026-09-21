@@ -19,20 +19,22 @@ ter que perguntar de volta.
 
 ## Como enviar
 
-1. No cabeçalho, clique no ícone de feedback (ao lado dos outros ícones, no canto direito).
+1. No cabeçalho, clique no ícone de feedback (ao lado dos outros ícones, no canto direito). Uma
+   janela abre por cima da tela em que você está — você não sai de onde estava.
 2. Escolha o **"Tipo"**: Sugestão, Problema, Elogio, Depoimento ou Outro.
 3. Preencha **"Título"** e **"Sua mensagem"**.
 4. Se ajudar a explicar, anexe até 3 arquivos (10 MB cada) em **"Anexos (opcional)"**.
 5. A caixa **"Autorizo a RIT a entrar em contato sobre este feedback"** já vem marcada; desmarque
    se não quiser ser procurado sobre esse envio.
-6. Clique em **"Enviar"**.
+6. Clique em **"Enviar"**. A janela fecha e você continua exatamente onde estava.
 
-![Tela de envio de feedback](/assets/capturas/feedback-envio-desktop.png)
-{: .mt-4 }
+<!-- CAPTURA: rota=qualquer tela, com o ícone de feedback clicado | o-que-mostrar=janela de envio
+     de feedback aberta por cima da tela | arquivo=feedback-envio-desktop.png e feedback-envio-celular.png -->
 
-A mesma tela no celular:
-
-![Tela de envio de feedback — no celular](/assets/capturas/feedback-envio-celular.png){: style="max-width:375px" }
+{: .note }
+Se você chegar pelo endereço antigo `/feedback` — um link salvo ou um favorito de antes —, o
+produto te leva de volta para a tela em que você estava (ou para a inicial) com esta mesma janela
+já aberta.
 
 {: .note }
 Escolhendo o tipo **"Depoimento"**, aparece um consentimento a mais: autorizar a RIT a publicar o

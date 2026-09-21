@@ -84,7 +84,9 @@ publicado, só deixa de ser visível para quem é de fora.
 
 ## Excluir um rascunho
 
-Clique em **"Excluir rascunho"**, disponível só enquanto o relatório ainda não foi publicado. Um
+Clique em **"Excluir rascunho"**, disponível só enquanto o relatório ainda não foi publicado. A
+confirmação mostra o título do relatório e avisa: "Este rascunho será apagado. Esta ação não pode
+ser desfeita." — clique em **"Excluir"** para confirmar, ou em **"Cancelar"** para desistir. Um
 relatório já publicado não pode ser excluído.
 
 ## Exemplo

@@ -32,14 +32,19 @@ Depende do papel que lhe deram no espaço:
 Se o espaço tiver a [triagem](/trabalho/pedidos/) ligada, você também pode mandar um pedido, do
 mesmo jeito que qualquer participante.
 
-## O que você não vê em Conhecimento, Indicadores e Relatórios
+## O que você não vê em Conhecimento, Indicadores, Relatórios e Recorrências
 
 - Em [Conhecimento](/conhecimento/), você só vê o que foi marcado como **"Compartilhado"**
   naquele espaço — nunca o "Interno", e nunca nada da organização inteira.
 - **Indicador e relatório-rascunho, você nunca vê** — nem existindo, nem mesmo se um dia lhe
   derem o papel de gestor daquele espaço: essa é uma permissão de quem tem vínculo amplo com a
   organização, que um convidado nunca tem. Você só chega a um [relatório](/trabalho/relatorios/)
-  depois que ele foi **publicado** e alguém escolheu **"Compartilhar com convidados"**.
+  depois que ele foi **publicado** e alguém escolheu **"Compartilhar com convidados"**. Tentando
+  abrir a aba **"Indicadores"** mesmo assim, a tela diz "Você não tem permissão para ver os
+  indicadores deste espaço — indicador é dado de trabalho interno, alcançado só por quem
+  administra o conteúdo da organização."
+- **[Recorrências](/trabalho/recorrencias/) também não é para você.** A aba mostra "Você não pode
+  ver nem criar recorrências neste espaço — isso exige executar ou gerenciar o espaço."
 
 ## Os botões que não aparecem para você
 

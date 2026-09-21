@@ -7,9 +7,10 @@ permalink: /trabalho/documentos-e-wiki-do-espaco/
 
 # Documentos e wiki do espaço
 
-A aba **"Documentos e wiki"** abre o [Conhecimento](/conhecimento/) já filtrado por este espaço —
-os arquivos, links e páginas de wiki que pertencem especificamente a ele, em vez de à organização
-inteira. É a mesma ferramenta, só com a porta de entrada diferente.
+A aba **"Documentos e wiki"** abre, dentro do próprio espaço (em
+`/espacos/[id]/conhecimento`), a mesma ferramenta descrita em [Conhecimento](/conhecimento/) — só
+que já filtrada por este espaço: os arquivos, links e páginas de wiki que pertencem
+especificamente a ele, em vez de à organização inteira.
 
 Enviar arquivo, criar pasta, escrever página de wiki, ver o histórico de versões e publicar uma
 página pública: tudo isso está descrito em [Conhecimento](/conhecimento/), e funciona exatamente
@@ -24,7 +25,7 @@ igual aqui dentro do espaço.
   "Interno" por aqui — o servidor recusaria, e por isso a tela nem oferece essa opção a essa
   pessoa.
 
-<!-- CAPTURA: rota=/conhecimento?espacoId=<id> | o-que-mostrar=aba "Documentos e wiki" aberta a
+<!-- CAPTURA: rota=/espacos/<id>/conhecimento | o-que-mostrar=aba "Documentos e wiki" aberta a
      partir de um espaço, com a lista de documentos daquele espaço | arquivo=espaco-documentos-wiki-desktop.png
      e espaco-documentos-wiki-celular.png -->
 

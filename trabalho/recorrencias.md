@@ -133,3 +133,7 @@ campanha nova começa.
 - Ao criar um modelo: "Não foi possível criar o modelo."
 - Ao excluir um modelo: "Não foi possível excluir o modelo."
 - Ao instanciar um ciclo: "Não foi possível instanciar o ciclo."
+
+{: .note }
+Se você foi convidado de fora para o espaço, a aba mostra outra coisa: "Você não pode ver nem criar
+recorrências neste espaço — isso exige executar ou gerenciar o espaço."

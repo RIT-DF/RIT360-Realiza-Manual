@@ -53,6 +53,9 @@ criados — nunca o que está dentro deles.
   automática da instalação: nunca rodou, falhou, reprocessando ou deu certo —
   com o botão para reprocessar o que falhou e o de conferir o espelho com a
   origem.
+- [Mudar de servidor](/admin-servico/mudar-de-servidor/) — exporta a
+  instalação inteira num pacote cifrado, ou importa um pacote numa
+  instalação vazia, sempre com ensaio antes de gravar de verdade.
 
 ![Painel da administração do serviço, com as contagens gerais](/assets/capturas/admin-servico-painel-desktop.png)
 {: .mt-4 }

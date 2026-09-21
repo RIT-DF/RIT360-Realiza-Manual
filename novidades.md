@@ -17,6 +17,26 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 21 de setembro de 2026 — versão 0.10.4
+
+### Adicionado
+
+- **Nova tela para quem administra o serviço: [Mudar de servidor](/admin-servico/mudar-de-servidor/).**
+  Exporta a instalação inteira num pacote cifrado, para levar a um servidor novo, ou importa um
+  pacote numa instalação vazia — sempre com um ensaio antes de gravar de verdade.
+
+### Alterado
+
+- **Excluir um valor de indicador, um indicador ou um rascunho de relatório passou a pedir
+  confirmação**, mostrando exatamente o que vai ser apagado antes de você confirmar.
+- **O feedback agora abre numa janela sobre a tela em que você está**, em vez de levar você para
+  uma tela própria. Você não perde o lugar de onde partiu.
+- **Quem é convidado de fora para um espaço deixou de ver os formulários de recorrências,
+  indicadores e relatórios** — via só o resultado; agora a tela já explica, com uma mensagem
+  própria, por que aquilo não está disponível para esse papel.
+
+---
+
 ## 21 de setembro de 2026 — versão 0.10
 
 ### Adicionado

@@ -97,6 +97,7 @@ espremer — esses continuam em telas próprias, e o caminho até eles é o bloc
 - **"Feedbacks"**
 - **"Destinos da cópia de segurança"**
 - **"Tarefas agendadas"**
+- **"Mudar de servidor"**
 
 Cada um deles é explicado na página própria, linkada no
 [índice desta seção](/admin-servico/).
