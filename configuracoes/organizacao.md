@@ -12,9 +12,9 @@ participa dela: na lista de organizações, no cabeçalho do aplicativo e no sel
 Esta página é sobre como manter esses dados em dia.
 
 {: .note }
-Criar uma organização não é mais algo que você mesmo faz por aqui: quem cria é quem administra o
-serviço da V3RTECH. Veja [Primeiros passos](/primeiros-passos/) para o caminho de pedir uma
-organização nova.
+Criar uma organização não é algo que você faz por aqui, dentro do produto já logado: o pedido é
+feito na tela de entrada, antes de existir conta — veja
+[Primeiros passos](/primeiros-passos/), seção "Solicitar a criação da minha organização".
 
 ## Quem alcança esta tela
 
@@ -57,12 +57,7 @@ Trocar uma não afeta a outra: enviar uma logo nova não muda o ícone, e vice-v
 
 O site cadastrado aparece como link clicável ao lado do campo, assim que salvo.
 
-![Configurações da organização: identidade, membros e inteligência artificial](/assets/capturas/organizacao-configuracoes-desktop.png)
-{: .mt-4 }
-
-A mesma tela no celular:
-
-![Configurações da organização: identidade, membros e inteligência artificial — no celular](/assets/capturas/organizacao-configuracoes-celular.png){: style="max-width:375px" }
+<!-- CAPTURA: rota=/organizacao/configuracoes | o-que-mostrar=topo com os links Pedidos de entrada/Integrações, ficha com o campo Domínio de reconhecimento visível | arquivo=organizacao-configuracoes-desktop.png e organizacao-configuracoes-celular.png -->
 
 {: .note }
 O nome de exibição da organização (o que aparece em toda tela, como "Instituto Semente") não muda

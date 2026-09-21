@@ -21,7 +21,10 @@ ou calendário](/trabalho/visoes/) para o que cada uma mostra.
 1. Abra o espaço — você cai direto na aba **"Trabalho"**.
 2. No quadro, digite o título em qualquer coluna, no campo **"Nova tarefa… (Enter cria)"**. Na
    lista, o mesmo campo aparece acima das linhas.
-3. Pressione Enter.
+3. Se já sabe quem vai executar, escolha a pessoa no seletor ao lado do campo — no quadro, logo
+   abaixo dele. Se não sabe, deixe em **"Sem responsável"**. Só aparecem ali as pessoas que podem
+   executar tarefa neste espaço.
+4. Pressione Enter.
 
 Pronto — a tarefa já aparece, sem mais perguntas.
 
@@ -45,10 +48,9 @@ A tarefa nasce com aquele dia como **prazo acordado** — o mesmo campo que voc�
 abrindo a tarefa depois de criada.
 
 {: .warning }
-Clicar num dia do calendário cria uma **tarefa com data**, não um evento de agenda. Não existe
-horário, convite de participantes nem lembrete — se o que você precisa é agendar uma reunião com
-hora marcada, o Realiza ainda não faz isso; o calendário aqui é sobre prazo de tarefa, não sobre
-compromisso de agenda.
+A tarefa criada pelo calendário é uma **tarefa com data**, não uma reunião: não tem horário,
+participantes nem lembrete. Para marcar uma reunião com hora, use o botão de evento do dia — veja
+[Reuniões na agenda](/trabalho/reunioes-na-agenda/).
 
 ## Por que o produto não pergunta mais nada ao criar
 
@@ -56,14 +58,13 @@ Prioridade, categoria, estimativa, etiqueta — nada disso é pedido na criaçã
 deliberada: perguntar coisas que ninguém sabe responder ainda só ensina a preencher qualquer coisa
 para passar adiante, e isso corrói a confiança nos dados do produto com o tempo.
 
-No quadro e na lista, responsável e prazo — que costumam ter resposta um pouco depois — você
-preenche quando abrir a tarefa, não antes. No calendário é diferente: o prazo já vem do dia em que
-você clicou, então a janela aproveita e também oferece o responsável ali — sempre **opcional**,
-nunca obrigatório. Nos dois casos, ninguém é forçado a decidir quem vai executar antes da hora.
+O responsável pode ser escolhido já na criação, nas três visões, mas é sempre **opcional**. O prazo
+você preenche quando abrir a tarefa, exceto no calendário, onde ele já vem do dia em que você
+clicou. Ninguém é forçado a decidir quem vai executar antes da hora.
 
 {: .warning }
 Só pode ser responsável quem executa ou gerencia o espaço. Tentando designar alguém de fora desse
-grupo — pelo calendário na criação, ou depois no painel de detalhe — a tela avisa: "Esta pessoa
+grupo — na criação, ou depois no painel de detalhe — a tela avisa: "Esta pessoa
 não pode ser responsável — só quem executa ou gerencia este espaço."
 
 ## Preencher responsável e prazo

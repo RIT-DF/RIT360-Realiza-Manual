@@ -14,11 +14,17 @@ de pé, mas **não tem acesso ao conteúdo de organização nenhuma**.
 ## O que você alcança
 
 - O painel com as contagens gerais do serviço
-- Os dois servidores de e-mail: o da entrada (convite e senha) e o dos avisos
+- O único servidor de e-mail do produto, usado tanto para entrada (convite e senha) quanto para os
+  avisos das organizações
 - A entrada pelo Google
 - Os provedores de inteligência artificial que o serviço oferece como padrão
 - Quem mais administra o serviço
-- O resultado da última cópia de segurança do banco
+- O resultado da última cópia de segurança do banco, e para onde ela é enviada
+- Os [pedidos de organização](/admin-servico/pedidos-de-organizacao/) que o produto não conseguiu
+  decidir sozinho — domínio de e-mail público ou desconhecido, por exemplo
+- Os [domínios autorizados](/admin-servico/dominios-autorizados/) a criar conta sem convite
+- O estado de toda [rotina automática da instalação](/admin-servico/tarefas/) — nunca rodou,
+  falhou, reprocessando ou deu certo
 
 ## O que você **não** alcança
 

@@ -71,6 +71,13 @@ Porque na hora de criar quase ninguém sabe a resposta, e perguntar cedo só
 ensina a preencher qualquer coisa. Título e Enter bastam; responsável e prazo
 são dois cliques depois, quando você souber.
 
+### Por que não tem botão "Salvar" na tarefa?
+
+Porque não precisa: toda alteração que você faz numa tarefa é gravada sozinha, e a tela mostra
+"Salvando…" e depois "Salvo às [horário]", para você saber que ficou registrado. Se alguma alteração
+não for salva, aparece "Não foi possível salvar: [motivo]" com um botão para tentar de novo — nesse
+caso, sim, é preciso agir.
+
 ### Uma tarefa está bloqueada. O produto vai empurrar o prazo sozinho?
 
 Não. Ele sinaliza o bloqueio e mostra o impacto, mas **nunca desloca prazo por
@@ -162,9 +169,16 @@ de [Meu trabalho](/trabalho/meu-trabalho/). O canal muda; a obrigação, não.
 
 ### Onde está o assistente que responde por conversa?
 
-Ainda não existe. O que já existe é a configuração de quais empresas de IA
-podem ser usadas, e a possibilidade de a sua organização recusar isso por
-completo. Ver [O que ainda vem por aí](/em-breve/).
+No ícone **"Assistente"**, no topo do aplicativo, e também pelo [Telegram](/configuracoes/telegram/)
+se você ligar o seu. Escreva uma pergunta ou um pedido, como "o que está atrasado esta semana" ou
+"cria uma tarefa para ligar para o depósito". Veja [Assistente](/assistente/).
+
+### O assistente pode fazer algo que eu não posso?
+
+Não. Ele nunca faz mais do que você mesmo poderia fazer clicando na tela — a mesma permissão que
+te falta lá também falta a ele quando você pede pelo chat. E, quando o pedido envolve uma ação de
+verdade (criar uma tarefa, por exemplo), ele sempre mostra uma prévia para você confirmar antes de
+qualquer coisa acontecer. Veja [Assistente](/assistente/), seção "Limites do assistente".
 
 ### Como convido o cliente para aprovar, se ele não é da minha organização?
 
@@ -174,9 +188,24 @@ pronto. Ele alcança **aquele espaço e nada mais**. Veja
 
 ### Como exporto os dados da minha organização?
 
-A exportação pela tela ainda não está disponível. Mas **o direito de levar os dados da sua
-organização não depende disso, nem de contrato ativo**: enquanto a tela não existe, o pedido é
-feito pelo contato da [Política de Privacidade](/privacidade/).
+Pelo menu do seu avatar, em **"Exportar meus dados"** — qualquer pessoa pode pedir a própria
+exportação. Quem administra a organização também pode pedir a exportação da organização inteira.
+Veja [Exportar dados](/configuracoes/exportar-dados/).
+
+## Conhecimento e integrações
+
+### Alguém de fora consegue ver a página publicada da wiki?
+
+Sim, e sem precisar de conta: publicar uma página de wiki gera um endereço no formato `/p/<código>`
+que qualquer pessoa com o link consegue abrir, mesmo sem entrar no Realiza. Por isso o manual avisa
+para nunca publicar uma página com dado pessoal — veja
+[Wiki: páginas, histórico e publicação pública](/conhecimento/wiki/).
+
+### Perdi a chave de API. E agora?
+
+Não tem como "ver" de novo uma chave já criada — ela só aparece em claro uma vez, no momento em que
+é gerada. Revogue a antiga e crie uma nova em [Integrações](/configuracoes/integracoes/); sistemas
+que ainda usarem a chave revogada passam a receber erro de autenticação (401).
 
 ## Dados, privacidade e inteligência artificial
 

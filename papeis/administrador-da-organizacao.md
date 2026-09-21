@@ -19,6 +19,20 @@ Instituto Semente, seria a Maria Oliveira.
 - Cadastrar os clientes e parceiros para quem o trabalho é feito
 - Definir a postura da organização quanto a inteligência artificial
 - Criar espaços e enxergar a lista de todos eles
+- Decidir os [pedidos de entrada](/configuracoes/pedidos-de-entrada/) de gente com e-mail do
+  domínio cadastrado da sua organização
+- Criar e revogar [chaves de API e webhooks](/configuracoes/integracoes/) — nenhum outro papel
+  alcança essa tela
+- Publicar um [relatório](/trabalho/relatorios/) de qualquer espaço, compartilhá-lo com
+  convidados, e publicar uma página de [wiki](/conhecimento/wiki/) num endereço público — as
+  únicas ações de Conhecimento e Relatórios que exigem o seu papel
+- [Exportar os dados da organização inteira](/configuracoes/exportar-dados/)
+
+{: .note }
+Ver e editar [documentos, wiki, indicadores e relatório-rascunho](/conhecimento/) não é exclusivo
+seu: qualquer pessoa vinculada à organização (mesmo sem administrar) já faz isso. O que só o seu
+papel alcança é o que **publica ou expõe algo para fora**: publicar wiki, publicar/compartilhar
+relatório, e gerenciar integrações.
 
 ## O que você **não** alcança
 

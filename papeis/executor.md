@@ -18,6 +18,8 @@ parte das pessoas.
 - Enviar material para aprovação, quando o trabalho exigir
 - Conversar com a equipe e com quem é de fora, nas abas certas
 - Propor novas datas quando o prazo não couber
+- Criar e alterar [tarefa recorrente e modelo de ciclo](/trabalho/recorrencias/) — a mesma
+  permissão que cria tarefa comum já alcança isto
 
 ## O que você **não** alcança
 

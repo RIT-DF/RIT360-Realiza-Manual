@@ -27,11 +27,31 @@ Tirar um espaço, cliente ou organização da rotina sem apagar nada. Tarefas, c
 aprovações continuam lá para consulta, e dá para reabrir depois. **Arquivar não é excluir** — veja
 **Excluir**, abaixo. Ver [Arquivar e reabrir](/trabalho/arquivar-e-reabrir/).
 
+## Assistente
+
+O recurso que responde perguntas sobre o que precisa da sua atenção e pode criar tarefas para
+você, a partir de uma frase escrita em linguagem comum — no aplicativo ou pelo Telegram. Nunca faz
+mais do que a sua própria permissão já permitiria fazer clicando na tela, e sempre mostra uma
+prévia antes de qualquer ação de verdade acontecer. Ver [Assistente](/assistente/).
+
+## Chave de API
+
+Uma credencial que permite a um sistema externo (uma planilha, um robô de automação) ler ou
+alterar dados de uma organização, sem usar a senha de ninguém. Nunca pode mais do que a pessoa que
+a criou. Ver [Integrações](/configuracoes/integracoes/).
+
 ## Cliente
 
 O parceiro, financiador ou contratante para quem o trabalho de um espaço é
 feito. Cadastrar o cliente não cria organização nenhuma para ele: é um cadastro
 dentro da sua. Ver [Clientes e carteira](/clientes/).
+
+## Conhecimento
+
+Onde a organização guarda o que não é tarefa, mas precisa existir em algum lugar: documentos,
+pastas, links e páginas de **wiki**. Existe em duas portas de entrada — a da organização inteira, e
+a de dentro de um espaço, filtrada só por ele — mas é a mesma ferramenta nos dois casos. Ver
+[Conhecimento](/conhecimento/).
 
 ## Convidado
 
@@ -56,6 +76,20 @@ A visão de todos os espaços ligados a um mesmo cliente.
 A relação entre duas tarefas em que uma precisa terminar antes da outra. O
 Realiza sinaliza o bloqueio, mas **não desloca prazo nenhum automaticamente**.
 Ver [Subtarefas e dependências](/trabalho/subtarefas-e-dependencias/).
+
+## Domínio autorizado
+
+Um domínio de e-mail que quem administra o serviço libera para dispensar convite: qualquer pessoa
+com e-mail daquele domínio cria a própria conta sozinha, ainda sem vínculo com organização
+nenhuma. Diferente do **domínio de reconhecimento**, abaixo, que é de uma organização específica.
+Ver [Domínios autorizados](/admin-servico/dominios-autorizados/).
+
+## Domínio de reconhecimento
+
+O domínio de e-mail que uma organização cadastra para que um pedido de entrada de alguém da mesma
+instituição caia na fila dela, em vez de nascer uma organização nova e duplicada. Diferente do
+**domínio autorizado**, acima, que vale para o serviço inteiro. Ver
+[Dados e identidade da organização](/configuracoes/organizacao/).
 
 ## Entrega
 
@@ -91,11 +125,24 @@ Papel dentro de um espaço: quem faz as tarefas.
 Papel dentro de um espaço: quem organiza o trabalho, as pessoas e as etapas.
 Não confunda com **Administrador**, que é papel da organização.
 
+## Indicador
+
+Um número que a organização acompanha ao longo do tempo — pessoas atendidas, cestas entregues —
+registrado por período, à mão ou por planilha. Alimenta os **relatórios** do espaço
+automaticamente. Ver [Indicadores do espaço](/trabalho/indicadores/).
+
 ## Material
 
 Qualquer coisa anexada a um cartão: arquivo, link ou texto. É a palavra que o
 produto usa enquanto ninguém pediu aprovação. Ver
 [Anexar material](/trabalho/anexar-material/).
+
+## Modelo de ciclo
+
+Um conjunto de tarefas diferentes que sempre acontecem juntas quando um ciclo de trabalho começa
+— cada uma com o prazo contado a partir do início do ciclo. Diferente de **recorrência** (que
+repete a mesma tarefa sozinha), o modelo de ciclo é instanciado de novo a cada ciclo. Ver
+[Tarefas que se repetem e modelos de ciclo](/trabalho/recorrencias/).
 
 ## Módulo
 
@@ -125,9 +172,33 @@ O que uma pessoa pode fazer. Existem dois, independentes: o **papel na
 organização** (Administrador, Membro, Convidado) e o **papel no espaço**
 (Gestor, Executor, Aprovador, Observador).
 
+## Pedido
+
+Duas coisas diferentes, conforme onde a palavra aparece:
+
+- Num espaço com **triagem** ligada, o que alguém manda em vez de criar tarefa direto — só vira
+  tarefa quando quem gerencia o espaço aceita. Ver
+  [Pedir uma tarefa, sem poder criar direto](/trabalho/pedidos/).
+- **Pedido de entrada** e **pedido de organização**: solicitações para entrar numa organização, ou
+  para criar uma organização nova, feitas antes de haver qualquer vínculo. Ver
+  [Pedidos de entrada](/configuracoes/pedidos-de-entrada/).
+
 ## Projeto
 
 Tipo de espaço para trabalho com objetivo definido e encerramento previsto.
+
+## Recorrência
+
+A repetição automática de uma tarefa, num intervalo fixo (semanal ou mensal) até uma data. Cada
+ocorrência nasce como uma tarefa comum, com andamento próprio — concluir uma não encerra a série.
+Ver [Tarefas que se repetem e modelos de ciclo](/trabalho/recorrencias/).
+
+## Relatório
+
+Um documento que reúne, para um período, o que um espaço fez: tarefas concluídas, entregas
+aprovadas e os **indicadores** registrados. Nasce como rascunho, e só existe de fato publicado
+depois de alguém revisar — publicar **congela** o conteúdo. Ver
+[Relatórios do espaço](/trabalho/relatorios/).
 
 ## Reprogramação
 
@@ -145,12 +216,39 @@ A unidade de trabalho — o cartão do quadro. Tem responsável, prazo, subtaref
 pode ter material. **Nem toda tarefa produz material ou exige aprovação:**
 "telefonar para o parceiro" é uma tarefa que só se conclui.
 
+## Token
+
+A unidade que os provedores de inteligência artificial usam para medir o tamanho de um texto
+processado — aparece no consumo de IA da organização e nas chaves de integração (onde também é
+chamado de "chave" ou "segredo"). Não é um dado que se lê e se entende sozinho: trate qualquer
+token como uma senha.
+
+## Triagem
+
+A configuração de um espaço que faz quem participa mandar um **pedido** em vez de criar tarefa
+direto, para quem gerencia decidir o que entra. Desligada (o padrão), quem tem permissão continua
+criando a tarefa direto. Ver [Pedir uma tarefa, sem poder criar direto](/trabalho/pedidos/).
+
 ## Versão
 
 A cópia congelada e numerada do material, guardada no momento em que ele foi
 enviado para aprovação. É o que permite responder, meses depois, "foi isto que
 você aprovou" — mesmo que o arquivo original tenha mudado. Como a palavra
 "entrega", ela **só aparece a partir do envio para aprovação**.
+
+## Webhook
+
+Um aviso automático que o Realiza manda para um sistema externo quando algo acontece — uma tarefa
+criada, uma entrega decidida. Diferente da chave de API, que é o sistema externo perguntando ao
+Realiza, o webhook é o Realiza avisando por conta própria. Ver
+[Integrações](/configuracoes/integracoes/).
+
+## Wiki
+
+A parte do Conhecimento para texto que se escreve e se atualiza ao longo do tempo — diferente de
+documento, que é um arquivo pronto enviado de uma vez. Toda vez que se salva nasce uma versão nova,
+e uma página pode ser publicada num endereço público. Ver
+[Wiki: páginas, histórico e publicação pública](/conhecimento/wiki/).
 
 ## Administração do serviço
 

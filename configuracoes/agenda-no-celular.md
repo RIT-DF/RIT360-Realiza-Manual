@@ -1,6 +1,6 @@
 ---
 title: "Agenda no Google e no celular"
-nav_order: 4
+nav_order: 2.6
 parent: "Configurações"
 permalink: /configuracoes/agenda-no-celular/
 ---

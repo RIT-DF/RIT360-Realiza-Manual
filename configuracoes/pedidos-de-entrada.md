@@ -1,6 +1,6 @@
 ---
 title: "Pedidos de entrada"
-nav_order: 6
+nav_order: 3.5
 parent: "Configurações"
 permalink: /configuracoes/pedidos-de-entrada/
 ---

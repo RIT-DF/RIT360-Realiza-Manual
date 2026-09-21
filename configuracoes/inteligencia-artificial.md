@@ -8,9 +8,9 @@ permalink: /configuracoes/inteligencia-artificial/
 # Inteligência artificial na sua organização
 
 {: .important }
-O que existe hoje nesta tela é a **configuração** de uso de IA pela organização — quem decide se
-ela é usada, e com qual provedor. Um assistente que conversa com você dentro do Realiza ainda não
-existe. Esta página documenta o que está na tela agora, não o que está planejado.
+Esta tela é a **configuração** de uso de IA pela organização — quem decide se ela é usada, e com
+qual provedor. Quem conversa com o assistente é o [Assistente](/assistente/), em separado; esta
+página cobre só a configuração, não a conversa.
 
 Só quem administra a organização ativa alcança esta tela — veja
 [Dados e identidade da organização](/configuracoes/organizacao/) para como essa permissão é
@@ -25,12 +25,7 @@ Marcando essa opção, a tela explica: "O assistente está desligado para esta o
 qualquer lugar, inclusive por fora desta tela. Os provedores já cadastrados continuam salvos, mas
 inertes; desmarque para voltar a usá-los como estavam."
 
-![Configurações da organização: identidade, membros e inteligência artificial](/assets/capturas/organizacao-configuracoes-desktop.png)
-{: .mt-4 }
-
-A mesma tela no celular:
-
-![Configurações da organização: identidade, membros e inteligência artificial — no celular](/assets/capturas/organizacao-configuracoes-celular.png){: style="max-width:375px" }
+<!-- CAPTURA: rota=/organizacao/configuracoes | o-que-mostrar=cartão de postura de IA com a caixa de recusa marcada | arquivo=organizacao-ia-postura-desktop.png e organizacao-ia-postura-celular.png -->
 
 {: .note }
 Marcar a recusa **não apaga** os provedores que a organização já tinha cadastrado — eles ficam
@@ -98,6 +93,24 @@ Na lista de provedores cadastrados, cada linha tem:
   pode ser desfeita."**
 
 
+## Consumo de IA desta organização
+
+No cartão **"Consumo de IA desta organização"**, você vê, por pessoa, quantas chamadas de IA
+foram feitas, quantos **tokens** (a unidade que os provedores usam para medir o tamanho de um
+texto processado) e o custo estimado, mês a mês.
+
+Use as setas **"← Mês anterior"** e **"Mês seguinte →"** para navegar entre os meses.
+
+<!-- CAPTURA: rota=/organizacao/configuracoes | o-que-mostrar=cartão Consumo de IA desta organização, com a tabela por pessoa | arquivo=organizacao-ia-consumo-desktop.png e organizacao-ia-consumo-celular.png -->
+
+{: .important }
+"Tokens e custo são ESTIMATIVAS (nenhum provedor devolve contagem exata) — não há franquia nem
+teto por enquanto: o assistente nunca para por causa do consumo." Este cartão é só medição: ele
+não bloqueia ninguém, mesmo que o consumo suba bastante.
+
+Sem nenhuma chamada de IA registrada no mês, o cartão mostra "Nenhuma chamada de IA registrada
+neste mês." em vez de uma tabela vazia.
+
 ## Quem autorizou isso, e quando
 
 Toda mudança nesta configuração — recusar IA, trocar de nível, cadastrar ou remover um provedor —
@@ -128,6 +141,8 @@ provedor padrão do sistema.
   testar." quando não há detalhe — confira a credencial cadastrada.
 - **"Você não tem permissão para administrar isto."** — sua conta não administra esta organização;
   peça a quem administra.
+- **"Não foi possível carregar o consumo."** — a tabela de consumo de IA não carregou; recarregue
+  a página.
 
 ## O que está escrito na política, e por que você deveria ler antes de decidir
 

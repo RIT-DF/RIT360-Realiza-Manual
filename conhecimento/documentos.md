@@ -85,7 +85,7 @@ de inscrição de voluntários como **"Compartilhado"**, para Beatriz Lima tamb�
 ## Dicas e armadilhas
 
 - **Marcar como "Interno" um documento que um convidado precisa ver** é o erro mais comum: a
-  pessoa simplesmente não vê o item na lista dela, e sem mensagem de erro nenhuma — porque, para
+  pessoa não vê o item na lista dela, e sem mensagem de erro nenhuma — porque, para
   quem não tem acesso, o item não existe na consulta. Se um convidado disser "não estou achando o
   arquivo", confira primeiro a visibilidade.
 - **Excluir em lote não tem "desfazer".** Revise a seleção antes de confirmar, especialmente

@@ -13,8 +13,8 @@ período, para você ver a evolução e para ele entrar automaticamente nos
 [relatórios](/trabalho/relatorios/) do espaço.
 
 {: .note }
-Só quem gerencia o espaço vê e mexe em indicadores — é dado de trabalho interno da organização,
-não algo que um convidado de fora acompanha.
+Indicadores são dado de trabalho interno: quem é **membro** ou **administrador** da organização vê
+e mexe neles; quem foi convidado de fora não os vê.
 
 ## Criar um indicador
 
@@ -64,8 +64,10 @@ Cada valor registrado mostra o período, o valor com a unidade, e a origem: **"�
 - **O indicador inteiro**: clique em **"Remover"** na linha do indicador, na lista principal.
 
 {: .warning }
-Remover o indicador tira ele de qualquer relatório que ainda vá ser gerado — relatórios já
-publicados não mudam retroativamente.
+**Nenhum dos dois pede confirmação — o clique já remove.** Ao contrário de tarefa, pasta ou
+relatório, não existe aqui uma pergunta do tipo "tem certeza?" antes de apagar. Clique com atenção,
+principalmente na linha do indicador inteiro: remover o indicador tira ele de qualquer relatório
+que ainda vá ser gerado — relatórios já publicados não mudam retroativamente.
 
 ## Exemplo
 

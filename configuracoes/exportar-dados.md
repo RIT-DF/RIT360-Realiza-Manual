@@ -1,6 +1,6 @@
 ---
 title: "Exportar dados"
-nav_order: 8
+nav_order: 5.6
 parent: "Configurações"
 permalink: /configuracoes/exportar-dados/
 ---
@@ -12,8 +12,8 @@ Realiza.
 
 ## Por que isto importa
 
-Às vezes você precisa de uma cópia própria — para uma prestação de contas, uma auditoria, ou
-simplesmente para ter um backup. Esta tela monta o pacote e avisa quando ele está pronto para
+Às vezes você precisa de uma cópia própria — para uma prestação de contas, uma auditoria, ou só
+para guardar uma cópia à parte. Esta tela monta o pacote e avisa quando ele está pronto para
 baixar.
 
 {: .note }

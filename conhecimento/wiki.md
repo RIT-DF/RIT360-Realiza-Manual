@@ -55,7 +55,7 @@ página da wiki?"
 ## Publicar uma página pública
 
 Só quem tem a permissão específica de publicar Conhecimento vê o botão **"Publicar"** — ter
-permissão ampla na organização não basta sozinho.
+permissão ampla na organização, por si só, não é suficiente.
 
 1. No editor da página, clique em **"Publicar"**.
 2. Confirme: "Publicar a versão atual desta página? Ela ficará acessível sem conta, por um

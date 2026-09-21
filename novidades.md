@@ -17,6 +17,72 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 21 de setembro de 2026 — versão 0.10
+
+### Adicionado
+
+- **O [Assistente](/assistente/) chegou.** Um ícone novo no topo do aplicativo abre uma conversa
+  onde você escreve o que precisa — uma pergunta ou um pedido, como "cria uma tarefa para ligar
+  para o depósito, prazo sexta" — e ele prepara a ação, sempre mostrando uma prévia para você
+  confirmar antes de qualquer coisa acontecer de verdade. Ele nunca faz mais do que você mesmo
+  poderia fazer clicando na tela.
+- **O Assistente também responde pelo [Telegram](/configuracoes/telegram/).** Ligue o seu Telegram
+  ao seu perfil e converse com ele do celular, sem abrir o aplicativo.
+- **[Agenda no Google e no celular](/configuracoes/agenda-no-celular/).** Gere um link e cole no
+  Google Agenda (ou em qualquer app de calendário) para ver os prazos e reuniões do Realiza junto
+  com o resto da sua agenda.
+- **[Conhecimento](/conhecimento/): documentos, pastas, links e wiki.** Um lugar para guardar o que
+  não é tarefa, mas precisa existir em algum lugar — um modelo de ofício, o estatuto da
+  organização, o passo a passo de um processo. A wiki guarda o histórico de cada versão, e uma
+  página pode ser publicada num endereço público, para quem não tem conta.
+- **[Pedir uma tarefa, sem poder criar direto](/trabalho/pedidos/).** Espaços podem ligar a
+  triagem: em vez de criar a tarefa direto, quem participa manda um pedido, e quem gerencia decide
+  se ele vira tarefa, precisa de mais informação ou é recusado.
+- **[Tarefas que se repetem e modelos de ciclo](/trabalho/recorrencias/).** Uma tarefa recorrente
+  nasce sozinha no intervalo que você escolher, e um modelo de ciclo cria de uma vez um conjunto de
+  tarefas que sempre acontecem juntas, cada uma com seu prazo contado a partir do início do ciclo.
+- **[Indicadores](/trabalho/indicadores/) e [Relatórios](/trabalho/relatorios/) do espaço.** Um
+  indicador guarda um número que a sua organização acompanha por período — pessoas atendidas,
+  cestas entregues — à mão ou por planilha. O relatório reúne, num rascunho que só sai publicado
+  depois de revisado, o que o espaço fez no período: tarefas concluídas, entregas aprovadas e os
+  indicadores registrados, com PDF para baixar.
+- **[Exportar dados](/configuracoes/exportar-dados/).** Baixe um pacote com os seus dados, ou, se
+  você administra a organização, com os dados da organização inteira.
+- **[Integrações](/configuracoes/integracoes/): chaves de API e webhooks.** Quem administra a
+  organização pode conectar sistemas externos — uma planilha, um robô de automação — para ler ou
+  alterar dados do Realiza, e ser avisado automaticamente quando algo acontece.
+- **Criar a própria organização, sem esperar convite.** Na tela de entrada, quem ainda não integra
+  organização nenhuma pode pedir a criação da própria — veja
+  [Primeiros passos](/primeiros-passos/). Quando o domínio do e-mail já pertence a outra
+  organização, o pedido vira, em vez disso, um pedido de entrada para quem a administra decidir.
+- **Tarefa salva sozinha, sem botão "Salvar".** Toda alteração numa tarefa é gravada automaticamente,
+  com um aviso na tela mostrando o horário salvo — ou, se algo falhar, um botão para tentar de novo.
+- **Responsável passou a ser opcional ao criar uma tarefa.**
+
+### Alterado
+
+- **A tela de tarefas agendadas, de quem administra o serviço, ganhou duas telas irmãs**: os
+  [pedidos de organização](/admin-servico/pedidos-de-organizacao/) que o produto não conseguiu
+  decidir sozinho, e os [domínios autorizados](/admin-servico/dominios-autorizados/) a criar conta
+  sem convite.
+
+---
+
+## 21 de setembro de 2026 — versão 0.9.5
+
+### Adicionado
+
+- **[Meu perfil](/configuracoes/perfil/) ganhou uma segunda coluna**, com os avisos que você
+  recebe reunidos numa tabela só. A antiga tela de preferências de avisos virou parte do perfil.
+
+### Alterado
+
+- **Reprocessar uma rotina que falhou, e reconciliar o espelho de espaços, passaram a pedir
+  confirmação** — a caixa de diálogo mostra exatamente o que vai acontecer antes de você
+  confirmar. Isso é telas de administração do serviço, sem efeito no seu dia a dia.
+
+---
+
 ## 21 de setembro de 2026 — versão 0.9.4
 
 ### Alterado

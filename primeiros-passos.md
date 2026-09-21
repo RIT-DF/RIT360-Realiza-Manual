@@ -30,12 +30,7 @@ do Google.
 O botão só aparece quando a entrada por Google está habilitada neste ambiente. Não vendo o botão,
 use e-mail e senha.
 
-![Tela de entrada do RIT360 Realiza, com os campos de e-mail e senha e o link para recuperar a senha](/assets/capturas/entrar-tela-desktop.png)
-{: .mt-4 }
-
-A mesma tela no celular:
-
-![Tela de entrada do RIT360 Realiza no celular](/assets/capturas/entrar-tela-celular.png){: style="max-width:375px" }
+<!-- CAPTURA: rota=/entrar | o-que-mostrar=tela de entrada inteira, incluindo o link "Solicitar a criação da minha organização" no rodapé do cartão | arquivo=entrar-tela-desktop.png e entrar-tela-celular.png -->
 
 ### Quando dá errado ao entrar
 
@@ -47,6 +42,67 @@ A mesma tela no celular:
   confirmação do Google expirou ou é inválida. Tente entrar de novo."**, **"O Google recusou a
   autorização. Tente novamente."**, **"A conta Google usada não tem e-mail verificado."**, ou,
   sem nenhuma delas se aplicar, **"Não foi possível concluir a entrada pelo Google."**
+
+## Solicitar a criação da minha organização
+
+Sua instituição ainda não tem organização no RIT360 Realiza? Você mesmo pode pedir a criação,
+sem precisar de convite nem de contato prévio.
+
+### Por que isto importa
+
+Antes, só quem já administrava o serviço da V3RTECH criava uma organização nova. Agora, quem
+chega primeiro na sua instituição consegue começar sozinho — o pedido é decidido pelo e-mail
+informado, sem ninguém precisar intermediar.
+
+1. Na tela de entrar, clique em **"Solicitar a criação da minha organização"**.
+2. Preencha **"Nome da organização"**, **"Seu nome"** e **"Seu e-mail"**.
+3. Preencha **"Domínio do site (opcional)"** — só o domínio (ex.: `instituto.org.br`), sem
+   "http://".
+4. Clique em **"Enviar pedido"**.
+
+<!-- CAPTURA: rota=/solicitacoes-organizacao/nova | o-que-mostrar=formulário preenchido, antes de enviar | arquivo=solicitar-organizacao-desktop.png e solicitar-organizacao-celular.png -->
+
+A tela muda para **"Confirme seu e-mail"**: "Enviamos um e-mail para [seu e-mail] para confirmar
+que você controla este endereço. Confirme por lá para seguir com o pedido."
+
+{: .note }
+"Usamos o domínio deste e-mail para reconhecer a instituição — evita criar uma organização
+duplicada se alguém da mesma equipe já pediu." Preenchendo um domínio de site diferente do
+domínio do seu e-mail, o pedido passa a ser decidido por quem administra o serviço, em vez de
+seguir sozinho.
+
+### Os três desfechos, depois de confirmar o e-mail
+
+Abrindo o link do e-mail de confirmação, a tela **"Confirmação do pedido de organização"** mostra
+um destes três resultados — o desfecho **não depende de você escolher nada**, é decidido pelo
+domínio do e-mail que você usou:
+
+- **A organização é criada na hora**: "A organização [nome] foi criada, e enviamos um novo e-mail
+  para você concluir o acesso como administrador dela."
+- **A organização já existe**, e seu e-mail é do mesmo domínio dela: "A organização [nome] já
+  existe no RIT360 Realiza — seu pedido foi enviado para quem administra ela decidir. Você recebe
+  um e-mail assim que houver decisão." Veja
+  [Pedidos de entrada](/configuracoes/pedidos-de-entrada/) para como isso aparece do lado de quem
+  decide.
+- **Fica com quem administra o serviço**: "Seu pedido foi encaminhado para quem administra o
+  serviço decidir. Você recebe um e-mail assim que houver decisão." Acontece quando o domínio do
+  site informado é diferente do domínio do seu e-mail.
+
+<!-- CAPTURA: rota=/solicitacoes-organizacao/{id}/confirmar?verificador=... | o-que-mostrar=tela "Confirmação do pedido de organização" no desfecho de organização criada | arquivo=confirmacao-pedido-organizacao-desktop.png e confirmacao-pedido-organizacao-celular.png -->
+
+### Exemplo
+
+Beatriz Lima, da Fundação Aroeira, pede a criação da organização preenchendo
+`beatriz@fundacaoaroeira.org` e deixando o domínio do site em branco. Como ninguém da Fundação
+Aroeira tinha pedido antes, a organização nasce assim que ela confirma o e-mail, e ela já entra
+como administradora.
+
+### Quando dá errado
+
+- **"Não foi possível enviar o pedido agora. Tente novamente."** — o pedido não chegou ao
+  servidor; tente de novo.
+- O link de confirmação pode estar incompleto, expirado ou já usado — a tela mostra o motivo, e
+  o caminho é pedir de novo pela tela de entrar.
 
 ## Cadastrar-se sem convite
 
@@ -157,3 +213,20 @@ Participando de uma única organização, o seletor aparece sem seta e não abre
 para trocar, então a tela evita oferecer um controle que não faz nada. Havendo logo cadastrada da
 organização ativa, o seletor mostra só a logo (o nome aparece passando o mouse); sem logo, mostra o
 nome por extenso.
+
+## Usar o Realiza como aplicativo no celular
+
+O Realiza pode ficar na tela inicial do celular como um aplicativo, abrindo sem a barra do
+navegador. Não há loja de aplicativos: a instalação é pelo próprio navegador.
+
+1. Abra o Realiza no navegador do celular e entre com sua conta.
+2. No Android (Chrome), toque no menu de três pontos e em **"Instalar app"** ou **"Adicionar à
+   tela inicial"**. No iPhone (Safari), toque no botão de compartilhar e em **"Adicionar à Tela de
+   Início"**.
+3. Abra o Realiza pelo ícone novo.
+
+Para receber aviso no aparelho, ative as notificações em [Meu perfil](/configuracoes/perfil/).
+
+{: .tip }
+O nome exato do item de menu muda conforme o navegador e a versão dele. Se não encontrar, procure
+por "instalar" ou "tela inicial" no menu do navegador.

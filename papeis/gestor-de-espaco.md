@@ -17,6 +17,11 @@ Dentro do seu espaço, tudo: criar e mudar tarefas, definir responsáveis e
 prazos, ajustar as etapas do quadro, chamar e remover participantes, escolher
 quem aprova, e arquivar o espaço quando ele acabar.
 
+Só você — nem o executor, nem o aprovador — liga a [triagem](/trabalho/pedidos/) do espaço e
+decide a fila de pedidos: aceitar, pedir esclarecimento ou recusar. Criar tarefa recorrente e
+modelo de ciclo (veja [Tarefas que se repetem](/trabalho/recorrencias/)), por outro lado, você
+divide com o executor — os dois alcançam.
+
 ## O que você **não** alcança
 
 Espaços de que você não participa. Gerenciar um espaço não dá nenhum acesso aos

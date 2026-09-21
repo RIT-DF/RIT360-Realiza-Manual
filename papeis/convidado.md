@@ -29,6 +29,18 @@ Depende do papel que lhe deram no espaço:
   [Quem aprova](/papeis/aprovador/), que é o guia certo para você.
 - **Observador** — você acompanha o andamento, sem mexer em nada.
 
+Se o espaço tiver a [triagem](/trabalho/pedidos/) ligada, você também pode mandar um pedido, do
+mesmo jeito que qualquer participante.
+
+## O que você não vê em Conhecimento, Indicadores e Relatórios
+
+- Em [Conhecimento](/conhecimento/), você só vê o que foi marcado como **"Compartilhado"**
+  naquele espaço — nunca o "Interno", e nunca nada da organização inteira.
+- **Indicador e relatório-rascunho, você nunca vê** — nem existindo, nem mesmo se um dia lhe
+  derem o papel de gestor daquele espaço: essa é uma permissão de quem tem vínculo amplo com a
+  organização, que um convidado nunca tem. Você só chega a um [relatório](/trabalho/relatorios/)
+  depois que ele foi **publicado** e alguém escolheu **"Compartilhar com convidados"**.
+
 ## Os botões que não aparecem para você
 
 Como convidado de fora, alguns botões e campos não estão na sua tela — não é que

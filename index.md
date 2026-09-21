@@ -50,6 +50,13 @@ primeiros e nunca chega perto dos outros.
 9. [Ver o que está travado](/trabalho/meu-trabalho/) — a primeira tela do dia
 10. [Arquivar e reabrir](/trabalho/arquivar-e-reabrir/)
 
+## Outras portas de entrada
+
+- [Assistente](/assistente/) — pergunte o que precisa da sua atenção, ou peça para criar uma
+  tarefa, escrevendo em linguagem comum, dentro do app ou pelo [Telegram](/configuracoes/telegram/)
+- [Conhecimento](/conhecimento/) — documentos, links e páginas de wiki que a organização guarda
+  para o time, com histórico de versões e a opção de publicar uma página para quem não tem conta
+
 ## Quando travar
 
 - [Perguntas frequentes](/faq/) — o que as pessoas mais perguntam

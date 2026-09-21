@@ -20,7 +20,7 @@ sozinho, pelo domínio do e-mail confirmado:
 - Domínio que já pertence a uma organização existente: o pedido vira um pedido de entrada para
   quem administra **aquela** organização decidir — não chega até você.
 - **Domínio público ou desconhecido, ou domínio do site informado diferente do domínio do
-  e-mail confirmado:** o produto não tem como decidir sozinho, e é só este caso que aparece
+  e-mail confirmado:** o produto não tem como decidir sozinho, e é apenas este caso que aparece
   nesta tela.
 
 {: .note }
