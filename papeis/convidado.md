@@ -31,7 +31,7 @@ Depende do papel que lhe deram no espaço:
 
 ## Os botões que não aparecem para você
 
-Como convidado de fora, alguns botões e campos simplesmente não estão na sua tela — não é que
+Como convidado de fora, alguns botões e campos não estão na sua tela — não é que
 estejam desligados, é que fazer aquilo não é o seu papel:
 
 - Criar espaço, criar cliente, selecionar vários de uma vez e as ações "Arquivar", "Reabrir" e
