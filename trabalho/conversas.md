@@ -49,7 +49,12 @@ Beatriz Lima, convidada de fora do Instituto Semente, abre a mesma tarefa e enco
 conversa — sem aba para escolher, e sem qualquer sinal de que existe uma conversa interna por
 trás.
 
-<!-- CAPTURA: o-que-mostrar=tarefa vista por Beatriz Lima, só a conversa compartilhada, sem controles de anexar (#113) | arquivo=conversas-convidado-desktop.png e conversas-convidado-celular.png -->
+![A mesma tarefa, vista por quem foi convidado de fora — só a conversa compartilhada aparece](/assets/capturas/conversas-convidado-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![A mesma tarefa, vista por quem foi convidado de fora — só a conversa compartilhada aparece — no celular](/assets/capturas/conversas-convidado-celular.png){: style="max-width:375px" }
 
 ## Quando dá errado
 
