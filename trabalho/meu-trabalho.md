@@ -16,9 +16,9 @@ outra organização é que o Realiza troca para ela.
 
 No menu, é a tela que abre com o título **"Meu trabalho"**.
 
-<!-- CAPTURA: rota=/painel | o-que-mostrar=as três contagens no topo, os filtros de organização e espaço, e as seis faixas — "Depende de você" com pelo menos um item de cada categoria (atrasada, aguardando você) e "Parado" com um item | arquivo=painel-visao-geral-desktop.png e painel-visao-geral-celular.png -->
+<!-- CAPTURA: rota=/painel | o-que-mostrar=as três contagens no topo, os filtros de organização e espaço, e as sete faixas — "Depende de você" com pelo menos um item de cada categoria (atrasada, aguardando você), "Parado" com um item e "Menções" com pelo menos um item | arquivo=painel-visao-geral-desktop.png e painel-visao-geral-celular.png -->
 
-## As seis faixas, nesta ordem
+## As sete faixas, nesta ordem
 
 ### 1. Depende de você
 
@@ -52,27 +52,40 @@ de você. Mostra até 5 itens, com **"Ver todas"** para o restante.
 
 Se estiver vazia: **"Nada parado esperando outra pessoa."**
 
-### 3. Próximas entregas
+### 3. Menções
+
+As vezes em que alguém te citou com "@" numa conversa de tarefa, mais recentes primeiro. Cada
+item mostra o texto da mensagem, a organização, o espaço, a tarefa e há quanto tempo. Até 5, com
+**"Ver todas"** para o restante.
+
+Se estiver vazia: **"Ninguém te mencionou ainda."**
+
+{: .note }
+Menção não entra nas três contagens do topo nem nas faixas **"Depende de você"** ou
+**"Parado"** — ela é aviso de que alguém te citou, não um trabalho pendente. Veja
+[Conversar dentro da tarefa](/trabalho/conversas/) para como mencionar e ser mencionado.
+
+### 4. Próximas entregas
 
 As entregas com prazo agendado mais próximo, em todos os seus espaços. Até 5, com **"Ver
 todas"**.
 
 Se estiver vazia: **"Nenhuma entrega com prazo por vir."**
 
-### 4. Agenda
+### 5. Agenda
 
 Os próximos compromissos marcados nos espaços de que você participa. Até 5, com **"Ver todas"**.
 
 Se estiver vazia: **"Nenhum compromisso por vir."**
 
-### 5. Últimas conversas
+### 6. Últimas conversas
 
 As mensagens mais recentes nas tarefas dos espaços de que você participa. Até 5, com **"Ver
 todas"**.
 
 Se estiver vazia: **"Nenhuma conversa recente."**
 
-### 6. Movimento nos meus espaços
+### 7. Movimento nos meus espaços
 
 Os espaços com atividade recente, com a data da última movimentação. Até 5, com **"Ver todas"**.
 
@@ -134,9 +147,11 @@ vez de ficar vazia.
 ## O que quem é convidado de fora vê
 
 Beatriz Lima, convidada de fora do Instituto Semente, só participa do espaço **"Campanha do
-Agasalho 2026"** — então todas as seis faixas do painel dela mostram só o que é desse espaço,
+Agasalho 2026"** — então todas as sete faixas do painel dela mostram só o que é desse espaço,
 nunca de outro espaço ou de outra organização. Em **"Últimas conversas"**, ela só vê a conversa
 compartilhada das tarefas em que participa: a conversa interna da equipe não aparece para ela em
-lugar nenhum do painel.
+lugar nenhum do painel. Vale o mesmo para **"Menções"**: só aparecem ali as vezes em que alguém a
+citou na conversa compartilhada — ninguém consegue mencioná-la na conversa interna, porque ela não
+alcança essa aba.
 
 <!-- CAPTURA: rota=/painel | o-que-mostrar=o painel de Beatriz Lima, convidada de fora, restrito ao espaço "Campanha do Agasalho 2026" | arquivo=painel-convidado-desktop.png e painel-convidado-celular.png -->

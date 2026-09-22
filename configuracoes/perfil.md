@@ -90,18 +90,20 @@ Os tipos de aviso são:
 - **"Meu pedido foi decidido"**
 - **"Um relatório periódico está pronto para revisão"**
 - **"Minha exportação de dados está pronta"**
+- **"Fui mencionado numa conversa"**
+
+{: .note }
+**"Fui mencionado numa conversa"** já chega ligado no e-mail — para alcançar você mesmo com o
+Realiza fechado — e desligado na notificação do aparelho. Se preferir não receber e-mail a cada
+menção, desligue esse interruptor aqui; a menção continua aparecendo na central de avisos
+normalmente.
 
 {: .note }
 A coluna **"Notificação no aparelho"** é o interruptor por tipo — ela só tem efeito depois que
 você ativa as notificações **neste aparelho**, no bloco logo acima da lista. Sem ativar o
 aparelho, ligar o interruptor não faz nada chegar.
 
-![Tabela de tipos de aviso por canal, em Meu perfil, com os tipos novos visíveis](/assets/capturas/perfil-avisos-tabela-desktop.png)
-{: .mt-4 }
-
-A mesma tela no celular:
-
-![Tabela de tipos de aviso por canal, em Meu perfil, com os tipos novos visíveis — no celular](/assets/capturas/perfil-avisos-tabela-celular.png){: style="max-width:375px" }
+<!-- CAPTURA: rota=/perfil#preferencias-de-avisos | o-que-mostrar=tabela de tipos de aviso por canal, incluindo "Fui mencionado numa conversa" | arquivo=perfil-avisos-tabela-desktop.png e perfil-avisos-tabela-celular.png -->
 
 {: .warning }
 Desligar o e-mail de um tipo de aviso **não elimina a pendência**. Se Beatriz Lima desliga o

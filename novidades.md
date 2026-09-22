@@ -17,6 +17,19 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 22 de setembro de 2026 — versão 0.12.0
+
+### Adicionado
+
+- **Agora dá para mencionar alguém dentro da conversa da tarefa.** Digite "@" e o nome da pessoa
+  para chamar a atenção dela diretamente — ela recebe um aviso e a mensagem aparece destacada para
+  ela. Veja [Conversar dentro da tarefa](/trabalho/conversas/).
+- **Nova faixa "Menções" em [Meu trabalho](/trabalho/meu-trabalho/)**, logo depois de "Parado",
+  com as vezes em que alguém te citou numa conversa.
+- **Novo tipo de aviso, "Fui mencionado numa conversa"**, em [Seu perfil](/configuracoes/perfil/).
+
+---
+
 ## 22 de setembro de 2026 — versão 0.11.0
 
 ### Alterado
