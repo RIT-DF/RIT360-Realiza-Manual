@@ -181,8 +181,8 @@ pessoa poderia usar essa tela para descobrir quem tem conta no Realiza.
 
 ## A primeira tela depois de entrar
 
-Depois de entrar, você chega à aba **"Meu trabalho"** — o que está com você, por prazo, em
-qualquer espaço da organização ativa.
+Depois de entrar, você chega à aba **"Meu trabalho"** — o que depende de você e o que está por
+vir, em todas as organizações de que você participa, não só na ativa.
 
 {: .note }
 Se você acabou de aceitar um convite pelo Google e ainda está sendo confirmado, pode ver por um

@@ -33,7 +33,8 @@ outros, mesmo dentro da sua organização.
 2. [Chamar pessoas para o espaço](/trabalho/chamar-pessoas/) — de dentro e de fora
 3. [Ajustar as etapas do espaço](/trabalho/etapas/) — só se as que vêm prontas não servirem
 4. [Criar e organizar tarefas](/trabalho/criar-tarefas/)
-5. [Meu trabalho](/trabalho/meu-trabalho/) — a tela que mostra o que travou
+5. [Meu trabalho](/trabalho/meu-trabalho/) — a tela que reúne o que depende de você e o que está
+   por vir
 
 ## As duas armadilhas deste papel
 

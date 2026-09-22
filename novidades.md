@@ -17,6 +17,19 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 22 de setembro de 2026 — versão 0.11.0
+
+### Alterado
+
+- **A tela "Meu trabalho" ficou mais completa.** Além do que depende de você e do que está
+  parado esperando outra pessoa, ela agora também mostra suas próximas entregas, sua agenda, as
+  últimas conversas e o movimento recente nos seus espaços — tudo numa passada de olhos, sem
+  precisar trocar de organização para ver cada uma. Veja [Meu trabalho](/trabalho/meu-trabalho/).
+- **O editor de página de wiki passou a abrir com o texto que já estava salvo**, em vez de abrir
+  em branco.
+
+---
+
 ## 21 de setembro de 2026 — versão 0.10.4
 
 ### Adicionado

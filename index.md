@@ -52,7 +52,7 @@ primeiros e nunca chega perto dos outros.
 6. [Enviar para aprovação](/trabalho/enviar-para-aprovacao/)
 7. [Aprovar ou pedir ajuste](/trabalho/aprovar-ou-pedir-ajuste/)
 8. [Corrigir e reenviar](/trabalho/corrigir-e-reenviar/)
-9. [Ver o que está travado](/trabalho/meu-trabalho/) — a primeira tela do dia
+9. [Meu trabalho](/trabalho/meu-trabalho/) — a primeira tela do dia
 10. [Arquivar e reabrir](/trabalho/arquivar-e-reabrir/)
 
 ## Outras portas de entrada

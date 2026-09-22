@@ -43,7 +43,7 @@ A seção **"Dependências"** mostra duas listas, e a distinção entre elas imp
 
 Quando uma tarefa está bloqueada por outra que ainda não terminou, ela ganha o selo **"Bloqueada
 por [quantidade]"**, visível no quadro, na lista e no painel de detalhe. Esse selo também aparece
-na tela [Meu trabalho: ver o que está travado](/trabalho/meu-trabalho/), como "Bloqueada por
+na tela [Meu trabalho](/trabalho/meu-trabalho/), como "Bloqueada por
 outra tarefa".
 
 {: .warning }

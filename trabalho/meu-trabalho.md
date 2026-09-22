@@ -1,93 +1,142 @@
 ---
-title: "Meu trabalho: ver o que está travado"
+title: "Meu trabalho"
 nav_order: 14
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/meu-trabalho/
 ---
 
-# Meu trabalho: ver o que está travado
+# Meu trabalho
 
-Esta é a primeira tela que você deveria abrir no começo do dia. Ela não lista tudo o que existe —
-seria informação demais para começar o dia. Ela mostra só **o que está parado, com quem, e há
-quanto tempo**.
+Esta é a tela para abrir no começo do dia. Ela junta, num lugar só, tudo que precisa da sua
+atenção e tudo que está por vir — em **todas** as organizações de que você participa, sem
+precisar trocar a organização ativa para enxergar cada uma. Só quando você clica num item de
+outra organização é que o Realiza troca para ela.
 
 ## Onde fica
 
-No menu, é a tela que abre com o título **"O que está travado"**.
+No menu, é a tela que abre com o título **"Meu trabalho"**.
 
-![Tela "O que está travado", com as contagens e os itens parados](/assets/capturas/painel-visao-geral-desktop.png)
-{: .mt-4 }
+<!-- CAPTURA: rota=/painel | o-que-mostrar=as três contagens no topo, os filtros de organização e espaço, e as seis faixas — "Depende de você" com pelo menos um item de cada categoria (atrasada, aguardando você) e "Parado" com um item | arquivo=painel-visao-geral-desktop.png e painel-visao-geral-celular.png -->
 
-A mesma tela no celular:
+## As seis faixas, nesta ordem
 
-![Tela "O que está travado", com as contagens e os itens parados — no celular](/assets/capturas/painel-visao-geral-celular.png){: style="max-width:375px" }
+### 1. Depende de você
 
-## Os três grupos
+Toda tarefa, aprovação, ajuste ou proposta de prazo que espera uma ação sua — **sem limite de
+itens**, ordenada por prazo: as vencidas primeiro, depois as demais por data, e as sem prazo por
+último.
 
-Cada item cai em um destes grupos, mostrados como contagem no topo da tela:
+Cada item mostra o rótulo do que está pendente:
 
-- **Atrasadas** — o prazo já venceu.
-
-{: .note }
-Tudo o que aparece aqui **depende de você**. Uma tarefa atrasada de outra pessoa, num espaço de
-que você participa, não entra nesta lista — ela aparece no quadro do espaço, com o selo de
-atrasada, e no painel de quem é responsável por ela.
-- **Aguardando você** — outra pessoa está esperando uma ação sua.
-- **Esperando outra pessoa** — você está esperando uma ação de alguém.
-
-## Os selos que você vai ver
-
-Cada item da lista mostra um destes rótulos, indicando o motivo de estar parado:
-
-- **"Prazo vencido"** — a tarefa passou do prazo acordado.
-- **"Aguardando aprovação"** — um material está esperando decisão de aprovação.
-- **"Ajuste pedido"** — um material voltou com pedido de ajuste.
-- **"Reprogramação de prazo pendente"** — alguém propôs um novo prazo e está esperando decisão.
+- **"Atribuída a você"** — a descrição diz `"<título da tarefa>" está com você, prazo em
+  DD/MM/AAAA` ou, quando não há prazo, `"<título da tarefa>" está com você, sem prazo definido`.
+- **"Prazo vencido"** — o prazo acordado já passou.
+- **"Aguardando aprovação"** — um material está esperando sua decisão.
+- **"Ajuste pedido"** — um material que você enviou voltou com pedido de ajuste.
+- **"Reprogramação de prazo pendente"** — alguém propôs um novo prazo e espera sua decisão.
 - **"Bloqueada por outra tarefa"** — a tarefa depende de outra que ainda não terminou. Veja
   [Subtarefas e dependências](/trabalho/subtarefas-e-dependencias/).
 
+Cada item também leva um selo de **"Atrasada"** ou **"Aguardando você"**, conforme o caso.
+
 {: .note }
 Uma tarefa atrasada que **também** está bloqueada por outra aparece uma única vez na lista, não
-duas — o motivo de bloqueio continua visível na descrição do item, só não vira um item à parte.
+duas — o motivo de bloqueio continua na descrição do item, só não vira um item à parte.
+
+Se não houver nada esperando por você, a faixa mostra: **"Nada esperando você por aqui."**
+
+### 2. Parado
+
+O que você está esperando de outra pessoa — aprovação, ajuste ou decisão de prazo que não depende
+de você. Mostra até 5 itens, com **"Ver todas"** para o restante.
+
+Se estiver vazia: **"Nada parado esperando outra pessoa."**
+
+### 3. Próximas entregas
+
+As entregas com prazo agendado mais próximo, em todos os seus espaços. Até 5, com **"Ver
+todas"**.
+
+Se estiver vazia: **"Nenhuma entrega com prazo por vir."**
+
+### 4. Agenda
+
+Os próximos compromissos marcados nos espaços de que você participa. Até 5, com **"Ver todas"**.
+
+Se estiver vazia: **"Nenhum compromisso por vir."**
+
+### 5. Últimas conversas
+
+As mensagens mais recentes nas tarefas dos espaços de que você participa. Até 5, com **"Ver
+todas"**.
+
+Se estiver vazia: **"Nenhuma conversa recente."**
+
+### 6. Movimento nos meus espaços
+
+Os espaços com atividade recente, com a data da última movimentação. Até 5, com **"Ver todas"**.
+
+Se estiver vazia: **"Nenhum espaço com atividade recente."**
+
+## As três contagens do topo
+
+- **"Atrasadas"** — o prazo já venceu.
+- **"Aguardando você"** — outra pessoa está esperando uma ação sua.
+- **"Esperando outra pessoa"** — você está esperando uma ação de alguém.
+
+Essas contagens são o mesmo cálculo que sustenta as faixas **"Depende de você"** e
+**"Parado"** — nunca um número solto.
 
 ## Atravessa todas as organizações
 
-Se você participa de mais de uma organização, o painel mostra os itens de todas elas juntos,
+Se você participa de mais de uma organização, todas as faixas juntam os itens delas,
 identificados por organização e espaço. Use os seletores **"Organização"** e **"Espaço"**, acima
-da lista, para filtrar.
-
+das faixas, para filtrar — o filtro vale para as seis faixas ao mesmo tempo, não só para a
+primeira.
 
 {: .important }
 Clicar num item de outra organização **troca a organização ativa** para aquela, e só então abre a
 tarefa. Se você notar que sua organização ativa mudou sem ter feito isso de propósito, foi um
-clique no painel.
+clique nesta tela.
 
 ## Exemplo
 
-Maria Oliveira abre o painel pela manhã e vê, em "Aguardando você": **"'Arte do cartaz para
-redes' está aguardando aprovação"**, com o selo "Aguardando aprovação" e "há 3 dias". Ela clica no
-item, é levada direto para a tarefa, no espaço e na organização certos, e decide ali mesmo.
+Maria Oliveira abre "Meu trabalho" pela manhã. Em **"Depende de você"**, o primeiro item é
+**"'Arte do cartaz para redes' está com você, prazo em 24/09/2026"**, com o selo **"Aguardando
+você"** — está no topo porque o prazo é o mais próximo. Ela também vê **"'Prestação de contas de
+agosto' está aguardando aprovação"**, com o selo **"Aguardando você"**. Em **"Parado"**, aparece
+**"'Convite para Carlos Nunes' está travada esperando 'Levantamento de doações'"**, com o selo
+**"Esperando outra pessoa"** — ela não precisa fazer nada ali, só sabe que está represado do lado
+de Carlos.
+
+## Dicas e armadilhas
+
+{: .tip }
+**"Depende de você" não tem teto.** Diferente das outras cinco, ela mostra tudo — é de propósito:
+é a lista do que exige decisão, e cortar em 5 esconderia trabalho pendente.
+
+{: .warning }
+**"Ver todas" busca de novo.** Ao clicar, a tela pede ao servidor a lista completa daquela faixa —
+não é instantâneo em conexão lenta. Se a busca falhar, a faixa continua mostrando os 5 itens que
+já tinha carregado, em vez de ficar vazia.
+
+{: .warning }
+**Trocar o filtro de organização não muda a organização ativa.** Filtrar por outra organização
+aqui só recorta o que a tela mostra; a organização em que você está trabalhando continua sendo a
+mesma até você clicar num item dela.
+
+## Quando dá errado
+
+Se a tela não conseguir atualizar, aparece: **"Não foi possível atualizar agora. Mostrando os
+últimos dados carregados."** — e ela continua exibindo a última lista que conseguiu carregar, em
+vez de ficar vazia.
 
 ## O que quem é convidado de fora vê
 
 Beatriz Lima, convidada de fora do Instituto Semente, só participa do espaço **"Campanha do
-Agasalho 2026"** — então o painel dela só mostra o que está travado ali, nunca de outro espaço ou
-de outra organização. O restante do painel funciona do mesmo jeito: atrasadas, aguardando ela e
-esperando outra pessoa, tudo restrito ao que ela alcança.
+Agasalho 2026"** — então todas as seis faixas do painel dela mostram só o que é desse espaço,
+nunca de outro espaço ou de outra organização. Em **"Últimas conversas"**, ela só vê a conversa
+compartilhada das tarefas em que participa: a conversa interna da equipe não aparece para ela em
+lugar nenhum do painel.
 
-![Meu trabalho visto por Beatriz Lima, convidada de fora — só o que é dela](/assets/capturas/painel-convidado-desktop.png)
-{: .mt-4 }
-
-A mesma tela no celular:
-
-![Meu trabalho visto por Beatriz Lima, convidada de fora — só o que é dela — no celular](/assets/capturas/painel-convidado-celular.png){: style="max-width:375px" }
-
-## Quando dá errado
-
-Se o painel não conseguir atualizar, ele mostra: "Não foi possível atualizar agora. Mostrando os
-últimos dados carregados." — e continua exibindo a última lista que conseguiu carregar, em vez de
-ficar vazio.
-
-{: .tip }
-Se a tela mostrar "Nada travado por aqui.", é uma boa notícia: nenhuma tarefa sua está atrasada,
-bloqueada ou esperando decisão no momento.
+<!-- CAPTURA: rota=/painel | o-que-mostrar=o painel de Beatriz Lima, convidada de fora, restrito ao espaço "Campanha do Agasalho 2026" | arquivo=painel-convidado-desktop.png e painel-convidado-celular.png -->

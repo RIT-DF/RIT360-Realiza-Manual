@@ -87,8 +87,8 @@ A mesma tela no celular:
 {: .note }
 Depois que o prazo acordado existe uma vez, o campo fica desabilitado e a tela mostra: "Já existe
 um prazo acordado — mudar agora é só pela reprogramação, abaixo." Isso preserva o prazo acordado
-original intacto, mesmo que o prazo atual mude depois — veja [Meu trabalho: ver o que está
-travado](/trabalho/meu-trabalho/) para o selo "Reprogramação de prazo pendente".
+original intacto, mesmo que o prazo atual mude depois — veja [Meu
+trabalho](/trabalho/meu-trabalho/) para o selo "Reprogramação de prazo pendente".
 
 ## Como o painel de detalhe salva sozinho
 
