@@ -3,6 +3,7 @@ title: "Agenda no Google e no celular"
 nav_order: 2.6
 parent: "Configurações"
 permalink: /configuracoes/agenda-no-celular/
+palavras_chave: "google calendar, assinar agenda, sincronizar calendário, ics, agenda no celular"
 nav_exclude: true
 ---
 

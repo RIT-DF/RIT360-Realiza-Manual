@@ -3,6 +3,7 @@ title: "Pedidos de organização"
 nav_order: 13
 parent: "Administração do serviço"
 permalink: /admin-servico/pedidos-de-organizacao/
+palavras_chave: "domínio público, criação automática, aprovar organização, recusar organização"
 ---
 
 # Pedidos de organização

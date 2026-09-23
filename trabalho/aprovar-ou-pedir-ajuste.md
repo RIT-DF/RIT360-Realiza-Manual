@@ -3,6 +3,7 @@ title: "Aprovar ou pedir ajuste"
 nav_order: 10
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/aprovar-ou-pedir-ajuste/
+palavras_chave: "aprovar, recusar, pedir ajuste, motivo da recusa, aprovador, todos precisam aprovar, um aprovador basta"
 ---
 
 # Aprovar ou pedir ajuste

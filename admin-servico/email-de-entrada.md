@@ -3,6 +3,7 @@ title: "E-mail de entrada (convite e senha)"
 nav_exclude: true
 parent: "Administração do serviço"
 permalink: /admin-servico/email-de-entrada/
+palavras_chave: "smtp, servidor de e-mail, convite, recuperação de senha"
 ---
 
 # E-mail de entrada (convite e senha)

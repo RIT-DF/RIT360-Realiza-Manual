@@ -3,6 +3,7 @@ title: "Servidor de e-mail do produto"
 nav_order: 2
 parent: "Administração do serviço"
 permalink: /admin-servico/email/
+palavras_chave: "smtp, porta 587, autenticação smtp, servidor de reserva, remetente, e-mail não sai"
 ---
 
 # Servidor de e-mail do produto

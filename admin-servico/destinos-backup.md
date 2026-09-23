@@ -3,6 +3,7 @@ title: "Destinos da cópia de segurança"
 nav_order: 11
 parent: "Administração do serviço"
 permalink: /admin-servico/destinos-backup/
+palavras_chave: "s3, sftp, webdav, cifragem, retenção, senha de cifragem, backblaze, wasabi, minio"
 ---
 
 # Destinos da cópia de segurança

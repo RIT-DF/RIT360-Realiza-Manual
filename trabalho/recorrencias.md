@@ -3,6 +3,7 @@ title: "Tarefas recorrentes e modelos de ciclo"
 nav_order: 17
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/recorrencias/
+palavras_chave: "tarefa repetida, série, modelo de ciclo, prestação de contas mensal, repetir tarefa, ocorrência"
 ---
 
 # Tarefas recorrentes e modelos de ciclo

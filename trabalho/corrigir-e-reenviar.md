@@ -3,6 +3,7 @@ title: "Corrigir e reenviar"
 nav_order: 11
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/corrigir-e-reenviar/
+palavras_chave: "reenviar, nova versão, histórico de aprovação, correção, versão anterior, ajuste pedido"
 ---
 
 # Corrigir e reenviar

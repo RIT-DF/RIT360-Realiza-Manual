@@ -3,6 +3,7 @@ title: "Documentos, pastas e links"
 nav_order: 1
 parent: "Conhecimento"
 permalink: /conhecimento/documentos/
+palavras_chave: "upload de arquivo, pasta, subpasta, link externo, compartilhar arquivo, visibilidade interno, ações em lote"
 ---
 
 # Documentos, pastas e links

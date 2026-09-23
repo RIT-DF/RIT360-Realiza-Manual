@@ -3,6 +3,7 @@ title: "Integrações"
 nav_order: 5.5
 parent: "Configurações"
 permalink: /configuracoes/integracoes/
+palavras_chave: "chave de api, webhook, token, n8n, automação, segredo, credencial de máquina, erro 401"
 ---
 
 # Integrações

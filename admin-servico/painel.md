@@ -3,6 +3,7 @@ title: "O painel"
 nav_order: 1
 parent: "Administração do serviço"
 permalink: /admin-servico/painel/
+palavras_chave: "contagens gerais, painel administrativo, limite de alcance, duas colunas"
 ---
 
 # O painel

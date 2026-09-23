@@ -3,6 +3,7 @@ title: "Seu perfil"
 nav_order: 1
 parent: "Configurações"
 permalink: /configuracoes/perfil/
+palavras_chave: "foto de perfil, avatar, telefone de contato, trocar senha, notificação push, e-mail não editável"
 ---
 
 # Seu perfil

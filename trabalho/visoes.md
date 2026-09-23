@@ -3,6 +3,7 @@ title: "Ver o trabalho em quadro, lista ou calendário"
 nav_order: 6
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/visoes/
+palavras_chave: "kanban, quadro, lista, calendário, arrastar cartão, ordenar, trocar de visão"
 ---
 
 # Ver o trabalho em quadro, lista ou calendário

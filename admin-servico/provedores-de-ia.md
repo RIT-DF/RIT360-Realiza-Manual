@@ -3,6 +3,7 @@ title: "Provedores de inteligência artificial"
 nav_order: 5
 parent: "Administração do serviço"
 permalink: /admin-servico/provedores-de-ia/
+palavras_chave: "gemini, openai, claude, ordem de prioridade, failover, consumo de ia, provedor padrão"
 ---
 
 # Provedores de inteligência artificial

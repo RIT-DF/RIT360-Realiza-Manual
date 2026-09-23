@@ -3,6 +3,7 @@ title: "Inteligência artificial na sua organização"
 nav_order: 5
 parent: "Configurações"
 permalink: /configuracoes/inteligencia-artificial/
+palavras_chave: "lgpd, provedor de ia, openai, gemini, claude, consumo de tokens, recusar ia, custo estimado"
 ---
 
 # Inteligência artificial na sua organização

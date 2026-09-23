@@ -3,6 +3,7 @@ title: "Relatórios do espaço"
 nav_order: 19
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/relatorios/
+palavras_chave: "prestação de contas, pdf, publicar relatório, rascunho, compartilhar com financiador, gerar relatório"
 ---
 
 # Relatórios do espaço

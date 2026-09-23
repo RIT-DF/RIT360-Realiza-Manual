@@ -2,6 +2,7 @@
 title: "Assistente"
 nav_order: 4.5
 permalink: /assistente/
+palavras_chave: "chatbot, inteligência artificial, telegram, pergunta, criar tarefa por chat, prévia de ação"
 ---
 
 # Assistente

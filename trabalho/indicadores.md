@@ -3,6 +3,7 @@ title: "Indicadores do espaço"
 nav_order: 18
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/indicadores/
+palavras_chave: "métrica, indicador, planilha, csv, importar dados, período, unidade de medida, ensaio de importação"
 ---
 
 # Indicadores do espaço

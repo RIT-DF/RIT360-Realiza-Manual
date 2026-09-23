@@ -3,6 +3,7 @@ title: "Dados e identidade da organização"
 nav_order: 3
 parent: "Configurações"
 permalink: /configuracoes/organizacao/
+palavras_chave: "logo, ícone, favicon, razão social, domínio de reconhecimento, ficha da organização"
 ---
 
 # Dados e identidade da organização

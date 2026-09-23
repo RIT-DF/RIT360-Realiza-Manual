@@ -3,6 +3,7 @@ title: "Membros, papéis e convites"
 nav_order: 4
 parent: "Configurações"
 permalink: /configuracoes/membros-e-papeis/
+palavras_chave: "convite vencido, cancelar convite, remover acesso, trocar de papel, tirar alguém da organização, seleção em lote"
 ---
 
 # Membros, papéis e convites

@@ -3,6 +3,7 @@ title: "E-mail de avisos"
 nav_exclude: true
 parent: "Administração do serviço"
 permalink: /admin-servico/email-de-avisos/
+palavras_chave: "smtp, servidor de e-mail, convite, recuperação de senha"
 ---
 
 # E-mail de avisos

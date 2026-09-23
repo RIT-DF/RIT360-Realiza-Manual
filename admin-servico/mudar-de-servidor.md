@@ -3,6 +3,7 @@ title: "Mudar de servidor"
 nav_order: 14
 parent: "Administração do serviço"
 permalink: /admin-servico/mudar-de-servidor/
+palavras_chave: "migração, exportar instalação, importar instalação, pacote cifrado, ensaio, zip.enc"
 ---
 
 # Mudar de servidor

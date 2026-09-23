@@ -2,6 +2,7 @@
 title: "Clientes e carteira"
 nav_order: 5
 permalink: /clientes/
+palavras_chave: "financiador, parceiro, carteira, cadastro de cliente, arquivar cliente"
 ---
 
 # Clientes e carteira

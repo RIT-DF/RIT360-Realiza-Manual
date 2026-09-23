@@ -3,6 +3,7 @@ title: "Quem é convidado de fora"
 nav_order: 5
 parent: "Guias por papel"
 permalink: /papeis/convidado/
+palavras_chave: "parceiro, financiador, cliente externo, conversa interna, o que convidado não vê"
 ---
 
 # Quem é convidado de fora

@@ -3,6 +3,7 @@ title: "Chamar pessoas para o espaço"
 nav_order: 2
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/chamar-pessoas/
+palavras_chave: "convidar, dar acesso, adicionar participante, tirar alguém, remover participante, convite externo, permissão, papel no espaço"
 ---
 
 # Chamar pessoas para o espaço

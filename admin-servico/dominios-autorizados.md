@@ -3,6 +3,7 @@ title: "Domínios autorizados"
 nav_order: 9
 parent: "Administração do serviço"
 permalink: /admin-servico/dominios-autorizados/
+palavras_chave: "domínio público, gmail.com, subdomínio, criar conta sem convite, autosserviço"
 ---
 
 # Domínios autorizados

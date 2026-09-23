@@ -3,6 +3,7 @@ title: "Quem administra a organização"
 nav_order: 1
 parent: "Guias por papel"
 permalink: /papeis/administrador-da-organizacao/
+palavras_chave: "o que administrador pode, limites do administrador, publicar wiki, compartilhar relatório"
 ---
 
 # Quem administra a organização

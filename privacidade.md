@@ -3,6 +3,7 @@ title: "Privacidade"
 nav_order: 1
 parent: "Termos e Privacidade"
 permalink: /privacidade/
+palavras_chave: "lgpd, titular de dados, controlador, operador, isolamento entre organizações, retenção de dados, cookies, direitos do titular, encarregado"
 version: "1.0"
 change_summary: "Primeira versão da Política de Privacidade do RIT360 Realiza. Revisada juridicamente em 23/09/2026, sem alteração de texto."
 ---

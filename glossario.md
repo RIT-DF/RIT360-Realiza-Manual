@@ -2,6 +2,7 @@
 title: "Glossário"
 nav_order: 11
 permalink: /glossario/
+palavras_chave: "definições, significado, termos, dicionário, o que quer dizer"
 ---
 
 # Glossário

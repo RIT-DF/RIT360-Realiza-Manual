@@ -3,6 +3,7 @@ title: "Reprogramar o prazo de uma tarefa"
 nav_order: 13
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/reprogramar-prazo/
+palavras_chave: "mudar prazo, adiar, nova data, atraso, aprovar reprogramação, prazo acordado original"
 ---
 
 # Reprogramar o prazo de uma tarefa

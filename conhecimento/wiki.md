@@ -3,6 +3,7 @@ title: "Wiki: páginas, histórico e publicação pública"
 nav_order: 2
 parent: "Conhecimento"
 permalink: /conhecimento/wiki/
+palavras_chave: "página wiki, histórico de versões, publicar página pública, restaurar versão, endereço público"
 ---
 
 # Wiki: páginas, histórico e publicação pública

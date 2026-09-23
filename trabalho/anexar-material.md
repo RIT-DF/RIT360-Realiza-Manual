@@ -3,6 +3,7 @@ title: "Anexar material a uma tarefa"
 nav_order: 8
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/anexar-material/
+palavras_chave: "anexo, upload, arquivo, link, texto, reaproveitar material, marcar como pronto, remover material"
 ---
 
 # Anexar material a uma tarefa

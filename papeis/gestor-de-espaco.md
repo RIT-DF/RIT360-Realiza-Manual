@@ -3,6 +3,7 @@ title: "Quem gerencia um espaço"
 nav_order: 2
 parent: "Guias por papel"
 permalink: /papeis/gestor-de-espaco/
+palavras_chave: "etapa que aprova, triagem, arquivar espaço, configurar etapas"
 ---
 
 # Quem gerencia um espaço

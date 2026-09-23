@@ -3,6 +3,7 @@ title: "Organizações"
 nav_order: 8
 parent: "Administração do serviço"
 permalink: /admin-servico/organizacoes/
+palavras_chave: "criar organização, gestor, suspender contrato, excluir organização, autosserviço desligado"
 ---
 
 # Organizações

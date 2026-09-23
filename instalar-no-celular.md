@@ -2,6 +2,7 @@
 title: "Instalar no celular"
 nav_order: 2.5
 permalink: /instalar-no-celular/
+palavras_chave: "pwa, aplicativo no celular, tela inicial, notificações push, android, iphone, adicionar à tela de início"
 ---
 
 # Instalar o Realiza no celular

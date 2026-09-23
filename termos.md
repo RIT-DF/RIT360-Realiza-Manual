@@ -3,6 +3,7 @@ title: "Termos de Uso"
 nav_order: 2
 parent: "Termos e Privacidade"
 permalink: /termos/
+palavras_chave: "cancelamento, rescisão, encerramento de contrato, prazo de 30 dias, apagamento de dados, uso proibido, foro"
 version: "1.0"
 change_summary: "Primeira versão dos Termos de Uso do RIT360 Realiza. Revisada juridicamente em 23/09/2026, sem alteração de texto."
 ---

@@ -3,6 +3,7 @@ title: "Tarefas agendadas"
 nav_order: 12
 parent: "Administração do serviço"
 permalink: /admin-servico/tarefas/
+palavras_chave: "rotina automática, fila de eventos, reprocessar, espelho, reconciliar, cron, módulo"
 ---
 
 # Tarefas agendadas

@@ -3,6 +3,7 @@ title: "Guia de quem administra o serviço"
 nav_order: 6
 parent: "Guias por papel"
 permalink: /papeis/administrador-do-servico/
+palavras_chave: "operação, suporte técnico, sem acesso a conteúdo, instalação"
 ---
 
 # Guia de quem administra o serviço

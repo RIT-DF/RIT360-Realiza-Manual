@@ -3,6 +3,7 @@ title: "Arquivar e reabrir um espaço"
 nav_order: 15
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/arquivar-e-reabrir/
+palavras_chave: "arquivar espaço, reabrir, excluir espaço, apagar projeto, encerrar projeto, sumiu"
 ---
 
 # Arquivar e reabrir um espaço

@@ -3,6 +3,7 @@ title: "Cópia de segurança"
 nav_order: 7
 parent: "Administração do serviço"
 permalink: /admin-servico/copia-de-seguranca/
+palavras_chave: "backup, restauração, falha silenciosa, madrugada, banco de dados"
 ---
 
 # Cópia de segurança

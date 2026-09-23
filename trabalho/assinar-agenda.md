@@ -3,6 +3,7 @@ title: "Levar sua agenda para o Google ou para o celular"
 nav_order: 6.5
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/assinar-agenda/
+palavras_chave: "google agenda, sincronizar calendário, webcal, outlook, endereço de assinatura, ical, agenda pessoal"
 ---
 
 # Levar sua agenda para o Google ou para o celular

@@ -3,6 +3,7 @@ title: "Pedir uma tarefa, sem poder criar direto"
 nav_order: 16
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/pedidos/
+palavras_chave: "solicitação, triagem, fila de triagem, aceitar pedido, recusar pedido, esclarecimento"
 ---
 
 # Pedir uma tarefa, sem poder criar direto

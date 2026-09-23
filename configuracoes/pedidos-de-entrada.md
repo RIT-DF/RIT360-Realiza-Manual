@@ -3,6 +3,7 @@ title: "Pedidos de entrada"
 nav_order: 3.5
 parent: "Configurações"
 permalink: /configuracoes/pedidos-de-entrada/
+palavras_chave: "domínio de reconhecimento, aprovar pedido, recusar pedido, entrada automática, mesmo domínio de e-mail"
 ---
 
 # Pedidos de entrada

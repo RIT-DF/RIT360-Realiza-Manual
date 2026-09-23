@@ -3,6 +3,7 @@ title: "Criar um espaço"
 nav_order: 1
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/criar-espaco/
+palavras_chave: "novo projeto, novo espaço, tipo de espaço, operação contínua, vincular cliente, ordenar lista"
 ---
 
 # Criar um espaço

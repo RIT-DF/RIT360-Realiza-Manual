@@ -2,6 +2,7 @@
 title: "Primeiros passos"
 nav_order: 2
 permalink: /primeiros-passos/
+palavras_chave: "login, cadastro, esqueci a senha, convite, criar organização, entrar com google, domínio autorizado"
 ---
 
 # Primeiros passos

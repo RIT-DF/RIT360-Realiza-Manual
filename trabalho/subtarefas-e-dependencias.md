@@ -3,6 +3,7 @@ title: "Subtarefas e dependências"
 nav_order: 5
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/subtarefas-e-dependencias/
+palavras_chave: "checklist, bloqueada, depende de, lista de passos, bloqueio"
 ---
 
 # Subtarefas e dependências

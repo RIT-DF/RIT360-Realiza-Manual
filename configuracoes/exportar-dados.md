@@ -3,6 +3,7 @@ title: "Exportar dados"
 nav_order: 5.6
 parent: "Configurações"
 permalink: /configuracoes/exportar-dados/
+palavras_chave: "lgpd, portabilidade de dados, baixar meus dados, prestação de contas, auditoria, pacote expirado"
 ---
 
 # Exportar dados

@@ -3,6 +3,7 @@ title: "Documentos e wiki do espaço"
 nav_order: 20
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/documentos-e-wiki-do-espaco/
+palavras_chave: "arquivos do espaço, wiki do espaço, documentos do projeto, pasta"
 ---
 
 # Documentos e wiki do espaço

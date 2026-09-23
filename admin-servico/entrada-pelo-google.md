@@ -3,6 +3,7 @@ title: "Entrada pelo Google"
 nav_order: 4
 parent: "Administração do serviço"
 permalink: /admin-servico/entrada-pelo-google/
+palavras_chave: "oauth, client id, client secret, login social, sso, botão google"
 ---
 
 # Entrada pelo Google

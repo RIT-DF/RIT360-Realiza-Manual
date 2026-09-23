@@ -3,6 +3,7 @@ title: "Quem executa o trabalho"
 nav_order: 3
 parent: "Guias por papel"
 permalink: /papeis/executor/
+palavras_chave: "conversa interna, conversa externa, subtarefa, propor nova data"
 ---
 
 # Quem executa o trabalho

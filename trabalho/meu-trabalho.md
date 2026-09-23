@@ -3,6 +3,7 @@ title: "Meu trabalho"
 nav_order: 14
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/meu-trabalho/
+palavras_chave: "painel, tudo pendente, atrasada, buscar tarefa, menções, agenda, aguardando você"
 ---
 
 # Meu trabalho

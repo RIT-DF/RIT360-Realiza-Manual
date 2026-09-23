@@ -2,6 +2,7 @@
 title: "Enviar feedback"
 nav_order: 8
 permalink: /enviar-feedback/
+palavras_chave: "reportar erro, sugestão, reclamação, suporte, contato, depoimento"
 ---
 
 # Enviar feedback

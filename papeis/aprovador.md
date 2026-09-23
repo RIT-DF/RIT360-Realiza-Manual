@@ -3,6 +3,7 @@ title: "Quem aprova"
 nav_order: 4
 parent: "Guias por papel"
 permalink: /papeis/aprovador/
+palavras_chave: "versão congelada, pedir ajuste, motivo do ajuste, silêncio não aprova"
 ---
 
 # Quem aprova

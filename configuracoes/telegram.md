@@ -3,6 +3,7 @@ title: "Telegram"
 nav_order: 2.5
 parent: "Configurações"
 permalink: /configuracoes/telegram/
+palavras_chave: "robô, bot, vincular telegram, código de vinculação, conversa privada, /organizacao"
 ---
 
 # Telegram

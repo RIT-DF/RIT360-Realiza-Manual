@@ -2,6 +2,7 @@
 title: "Perguntas frequentes"
 nav_order: 12
 permalink: /faq/
+palavras_chave: "dúvidas comuns, ajuda, domínio autorizado, exportar dados, chave de api, inteligência artificial, cobrança"
 ---
 
 # Perguntas frequentes

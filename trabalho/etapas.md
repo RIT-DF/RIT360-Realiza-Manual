@@ -3,6 +3,7 @@ title: "Ajustar as etapas do espaço"
 nav_order: 3
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/etapas/
+palavras_chave: "colunas do quadro, kanban, renomear etapa, aciona aprovação, fluxo de trabalho, correspondência de etapa"
 ---
 
 # Ajustar as etapas do espaço

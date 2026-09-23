@@ -3,6 +3,7 @@ title: "Feedbacks"
 nav_order: 10
 parent: "Administração do serviço"
 permalink: /admin-servico/feedbacks/
+palavras_chave: "depoimento, consentimento de contato, anexo, elogio, sugestão, suporte"
 ---
 
 # Feedbacks

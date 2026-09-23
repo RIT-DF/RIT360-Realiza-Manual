@@ -3,6 +3,7 @@ title: "Criar e organizar tarefas"
 nav_order: 4
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/criar-tarefas/
+palavras_chave: "nova tarefa, cartão, responsável, data planejada, prazo acordado, concluir tarefa, mover etapa, excluir tarefa, salvamento automático"
 ---
 
 # Criar e organizar tarefas

@@ -3,6 +3,7 @@ title: "Quem administra o serviço"
 nav_order: 6
 parent: "Administração do serviço"
 permalink: /admin-servico/quem-administra/
+palavras_chave: "conceder acesso, revogar acesso, última administradora, alcance mais amplo"
 ---
 
 # Quem administra o serviço

@@ -3,6 +3,7 @@ title: "Enviar para aprovação"
 nav_order: 9
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/enviar-para-aprovacao/
+palavras_chave: "entrega, cobrar aprovação, versão congelada, quem aprova, regra de aprovação"
 ---
 
 # Enviar para aprovação

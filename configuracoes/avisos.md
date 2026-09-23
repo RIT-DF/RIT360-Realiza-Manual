@@ -3,6 +3,7 @@ title: "Avisos: o que você recebe e por onde"
 nav_order: 2
 parent: "Configurações"
 permalink: /configuracoes/avisos/
+palavras_chave: "sino, notificação push, central de avisos, tipos de aviso, silenciar e-mail"
 ---
 
 # Avisos: o que você recebe e por onde
