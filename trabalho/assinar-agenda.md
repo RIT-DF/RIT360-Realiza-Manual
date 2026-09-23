@@ -27,8 +27,15 @@ de espaço.
 1. No espaço, abra a aba **"Trabalho"** e escolha a visão **"Calendário"** (veja [Ver o trabalho
    em quadro, lista ou calendário](/trabalho/visoes/)).
 2. Acima da grade do mês, clique em **"Assinar agenda"**.
-3. No painel que abre, clique em **"Adicionar ao Google Agenda"**. O Google Agenda abre numa nova
-   aba, já pronto para você confirmar a incorporação.
+3. No painel que abre, clique em **"usar outro calendário"** e depois em **"Copiar endereço"**.
+4. No Google Agenda, no menu do lado esquerdo, clique no **+** ao lado de "Outras agendas", escolha
+   **"De URL"**, cole o endereço e clique em **"Adicionar agenda"**.
+
+{: .warning }
+O atalho **"Adicionar ao Google Agenda"** do painel está com defeito nesta versão: ele leva ao
+Google, e o Google recusa com "Não foi possível adicionar a agenda. Verifique o URL." Enquanto a
+correção não sai, use o caminho acima, com o endereço copiado — ele funciona. O endereço é o mesmo
+nos dois caminhos.
 
 <!-- CAPTURA: rota=/espacos/<id> (aba Trabalho, visão Calendário) | o-que-mostrar=painel "Assinar agenda" aberto, com o texto "O endereço é pessoal e funciona como uma chave de leitura..." e o botão "Adicionar ao Google Agenda" visíveis | arquivo=assinar-agenda-painel-desktop.png e assinar-agenda-painel-celular.png -->
 
@@ -49,7 +56,8 @@ O botão que você clicou mostra **"Copiado!"** por instantes, confirmando que o
 
 Joana Martins participa de dois espaços do Instituto Semente: **Campanha do Agasalho 2026** e
 **Comunicação institucional**. Ela abre o calendário da campanha, clica em **"Assinar agenda"** e
-em **"Adicionar ao Google Agenda"**. A partir daí, o Google Agenda do celular dela passa a mostrar
+em **"usar outro calendário"**, copia o endereço e o cola no Google Agenda, em "De URL". A partir
+daí, o Google Agenda do celular dela passa a mostrar
 os prazos e as reuniões **dos dois espaços** — não só da campanha, que foi de onde ela assinou.
 
 ## Dicas e armadilhas
