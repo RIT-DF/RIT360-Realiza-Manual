@@ -37,8 +37,9 @@ também sai.
 
 ## Passo a passo — configurar o servidor
 
-1. Na administração do serviço, abra a aba **"Serviços"** e clique em
-   **"Servidor de e-mail"**.
+1. Na administração do serviço, abra a aba **"Serviços"**. No computador, a configuração já
+   aparece ali, em **"Servidor de e-mail do produto"**, na coluna da esquerda. No celular, toque
+   em **"Mostrar configuração"** no cartão **"Servidor de e-mail"**.
 2. Em **"Servidor primário"**, preencha:
    - **"Endereço do servidor (host)"**
    - **"Porta"**

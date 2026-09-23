@@ -50,12 +50,22 @@ contagens do serviço: quantas organizações, quantas pessoas e quantos espaço
 - [Domínios autorizados](/admin-servico/dominios-autorizados/) — os domínios de e-mail que
   dispensam convite para criar conta.
 
-**Serviços**
+**Serviços** — esta aba traz as duas configurações **na própria tela**: no computador, lado a
+lado; no celular, uma abaixo da outra, recolhidas, com um botão **"Mostrar configuração"** em cada
+cartão. Abrir uma não carrega a outra.
 - [Servidor de e-mail do produto](/admin-servico/email/) — o servidor único por onde saem o
   convite de conta, a recuperação de senha e os avisos que as organizações escolhem receber.
 - [Provedores de inteligência artificial](/admin-servico/provedores-de-ia/) — o provedor padrão
   que atende as organizações que não cadastraram o próprio, o modelo que cada um usa, e o consumo
   de IA de todas as organizações.
+
+{: .tip }
+Os dois assuntos também têm endereço próprio, e ele continua valendo: abrir
+`/admin-servico/email` ou `/admin-servico/ia` leva à tela cheia daquele assunto, sem o outro ao
+lado. Link guardado nos favoritos não quebrou.
+
+![Aba "Serviços" no celular, com os cartões "Servidor de e-mail" e "Provedores de IA" recolhidos, cada um com o botão "Mostrar configuração"](/assets/capturas/admin-servico-servicos-celular.png){: style="max-width:375px" }
+{: .mt-4 }
 
 **Manutenção**
 - [Cópia de segurança](/admin-servico/copia-de-seguranca/) — o que a tela mostra sobre a cópia de
