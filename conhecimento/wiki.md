@@ -89,12 +89,12 @@ foi salva — a mais recente no topo, sem botão, porque é a que está no ar. P
 Restaurar nunca apaga nada — mesmo o texto atual (o que você está prestes a substituir) continua
 guardado no histórico, como a versão anterior a essa restauração.
 
-![Cartão "Histórico" da página de wiki, com as versões listadas e o botão Restaurar em cada uma](/assets/capturas/conhecimento-wiki-historico-desktop.png)
+![Cartão "Histórico" da página de wiki, com quatro versões listadas e o botão Restaurar em cada uma, menos na mais recente](/assets/capturas/conhecimento-wiki-historico-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Cartão "Histórico" da página de wiki, com as versões listadas — no celular](/assets/capturas/conhecimento-wiki-historico-celular.png){: style="max-width:375px" }
+![Cartão "Histórico" da página de wiki, com quatro versões listadas — no celular](/assets/capturas/conhecimento-wiki-historico-celular.png){: style="max-width:375px" }
 
 ## Excluir uma página
 
