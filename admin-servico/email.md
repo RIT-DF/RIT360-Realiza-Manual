@@ -37,8 +37,8 @@ também sai.
 
 ## Passo a passo — configurar o servidor
 
-1. Abra **"Administração geral"**, role até **"Mais configurações"** e
-   clique em **"Servidor de e-mail"**.
+1. Na administração do serviço, abra a aba **"Serviços"** e clique em
+   **"Servidor de e-mail"**.
 2. Em **"Servidor primário"**, preencha:
    - **"Endereço do servidor (host)"**
    - **"Porta"**

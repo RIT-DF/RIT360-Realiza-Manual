@@ -38,9 +38,9 @@ A mesma tela no celular:
 
 ## Passo a passo — autorizar um domínio
 
-1. Abra **"Administração geral"**. No computador, esta configuração já
-   aparece direto na tela, num card próprio — role até **"Domínios
-   autorizados"**. No celular, toque no botão **"Abrir"** do card
+1. Na administração do serviço, abra a aba **"Acesso"**. No computador, esta
+   configuração já aparece direto na tela, num card próprio — role até
+   **"Domínios autorizados"**. No celular, toque no botão **"Abrir"** do card
    **"Domínios autorizados"**.
 2. No campo **"Autorizar domínio (ex.: rit.org.br)"**, digite o domínio, sem
    o `@`.

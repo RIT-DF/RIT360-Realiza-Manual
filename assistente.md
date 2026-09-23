@@ -31,13 +31,9 @@ janela, você continua exatamente onde estava, sem precisar navegar de volta.
 Para fechar, use o botão **"Fechar"** (o ✕ no canto do cabeçalho), pressione Esc, ou clique fora da
 janela — as três formas funcionam.
 
-![Janela do assistente aberta no canto inferior direito, ancorada ao botão redondo, com o pedido de criar uma tarefa e a prévia esperando confirmação — o resto da tela continua visível atrás](/assets/capturas/assistente-janela-desktop.png)
-{: .mt-4 }
-
-A mesma janela no celular:
-
-![Janela do assistente no celular, com o pedido de criar uma tarefa e a prévia esperando confirmação](/assets/capturas/assistente-janela-celular.png){: style="max-width:375px" }
-{: .mt-4 }
+<!-- CAPTURA PENDENTE: janela do assistente, desktop e celular. As imagens atuais mostram a prévia
+     antiga, de uma linha só; a da 0.21.0 cita espaço, prazo e responsável. Refazer evitando
+     enquadrar data crua enquanto a issue #173 não sair. -->
 
 ## Conversar
 
@@ -106,6 +102,21 @@ executa direto. Ele mostra uma prévia com dois botões:
 - **"Confirmar"** — só agora a ação acontece.
 - **"Cancelar"** — nada é feito, e a prévia some da conversa.
 
+A prévia diz **o que ele entendeu do seu pedido**, não só o nome da coisa: o espaço em que a
+tarefa vai nascer, o prazo e o responsável, quando você tiver dito algum deles. Por exemplo:
+
+> Criar a tarefa "ligar para o depósito confirmando a entrega das caixas", no espaço "Campanha do
+> Agasalho 2026", com prazo em 25/09/2026. Confirma?
+
+As prévias de excluir tarefa e de remover participante dizem de qual espaço; as de reprogramação
+de prazo e de ajuste de entrega dizem o motivo.
+
+{: .warning }
+**Confira o prazo na prévia, e não só o dia.** Pedindo com uma palavra — "sexta", "semana que
+vem" —, o assistente pode acertar o dia e errar o ano. É para isso que a prévia mostra a data por
+extenso: dando algo diferente do que você quis dizer, clique em **"Cancelar"** e peça de novo com
+a data completa.
+
 {: .note }
 Enquanto a prévia está na tela, nada foi criado, alterado ou aprovado ainda. É por isso que ela
 existe: para você ver exatamente o que vai acontecer antes de acontecer, em vez de descobrir
@@ -117,7 +128,9 @@ interpretar qual espaço você quis dizer — a prévia é o momento de conferir
 espaço certo antes de a ação acontecer de verdade.
 
 Fechando a conversa com uma prévia pendente e voltando depois, ela continua lá, esperando sua
-decisão — não desaparece sozinha.
+decisão — não desaparece sozinha. Já uma prévia que você **confirmou ou cancelou** não volta: a
+conversa guarda o que aconteceu, e a caixa com os dois botões só aparece quando há mesmo algo
+esperando você.
 
 ## Citar o espaço pelo nome
 

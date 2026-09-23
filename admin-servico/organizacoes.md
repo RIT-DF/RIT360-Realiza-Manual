@@ -47,7 +47,7 @@ A mesma tela no celular:
 
 ## Passo a passo — criar uma organização
 
-1. Abra **"Administração geral"** e clique em **"Organizações"**.
+1. Na administração do serviço, abra a aba **"Organizações"**.
 2. No formulário **"Criar organização"**, preencha **"Nome da organização"**.
 3. Preencha **"E-mail de quem vai administrar"** com o e-mail da pessoa que
    vai gerir aquela organização a partir de agora.

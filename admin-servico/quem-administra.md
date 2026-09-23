@@ -15,7 +15,8 @@ amplo que existe no produto, e nunca pode chegar a zero pessoas."**
 
 ## Passo a passo — conceder
 
-1. Abra **"Administração geral"** e role até **"Quem administra o serviço"**.
+1. Na administração do serviço, abra a aba **"Acesso"** e role até
+   **"Quem administra o serviço"**.
 2. No campo **"Conceder por e-mail"**, digite o e-mail da pessoa.
 3. Clique em **"Conceder"**.
 

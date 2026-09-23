@@ -33,7 +33,7 @@ A mesma tela no celular:
 
 ## Passo a passo — responder um feedback
 
-1. Abra **"Administração geral"** e clique em **"Feedbacks"**.
+1. Na administração do serviço, abra a aba **"Feedbacks"**.
 2. Cada feedback aparece num cartão, com o tipo, o título, a mensagem, a data
    de envio e a linha **"Tela de origem: [rota de onde a pessoa mandou]"**.
 3. Se o feedback tiver anexo, clique no nome dele para baixar.

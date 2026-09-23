@@ -21,7 +21,8 @@ que vai entrar aparece antes de qualquer gravação de verdade.
 
 ## Exportar a instalação
 
-1. Abra **"Administração geral"** e clique em **"Mudar de servidor"**.
+1. Na administração do serviço, abra a aba **"Manutenção"** e clique em
+   **"Mudar de servidor"**.
 2. Na aba **"Exportar"**, escolha **"Senha do pacote"** e repita em **"Confirme a senha"** — pelo
    menos 8 caracteres.
 3. Clique em **"Gerar pacote de exportação"**.

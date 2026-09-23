@@ -1,14 +1,15 @@
 ---
-title: "O painel"
+title: "Visão geral"
 nav_order: 1
 parent: "Administração do serviço"
 permalink: /admin-servico/painel/
-palavras_chave: "contagens gerais, painel administrativo, limite de alcance, duas colunas"
+palavras_chave: "contagens gerais, visão geral, quantas organizações, quantos espaços, limite de alcance, cópia de segurança"
 ---
 
-# O painel
+# Visão geral
 
-O painel é a primeira coisa que você vê ao abrir a administração do serviço.
+A aba **"Visão geral"** é a primeira coisa que você vê ao abrir a administração
+do serviço.
 Ele existe para dar um retrato rápido de tamanho — quantas organizações usam o
 produto, quantas pessoas, quantos espaços — sem abrir o conteúdo de nenhuma
 delas.
@@ -29,8 +30,9 @@ delas.
 - **"Pessoas com vínculo"** — quantas pessoas têm vínculo com pelo menos uma
   organização. Uma mesma pessoa que participa de duas organizações conta uma
   vez para cada vínculo, não uma vez só.
-- **"Espaços"** — quantos espaços existem ao todo, somando projetos e
-  operações contínuas de todas as organizações, arquivados ou não.
+- **"Espaços"** — quantos espaços **ativos** existem ao todo, somando projetos e
+  operações contínuas de todas as organizações. Espaço arquivado **não** entra
+  nesta conta: arquivar um espaço faz o número cair.
 
 ## Quando as contagens não carregam
 
@@ -54,50 +56,15 @@ Se você precisa saber como uma organização específica está usando o produto
 resposta não está aqui. Peça a quem administra aquela organização — só ela
 enxerga o próprio conteúdo.
 
-## Uma tela só, em duas colunas
+## O que mais existe nesta aba
 
-No computador, tudo o que você administra no serviço fica numa **tela só**,
-organizada em duas colunas — nada de entrar e sair de tela em tela para ver
-cada assunto. No celular, as colunas empilham, uma abaixo da outra.
+Nada além disso: a **"Visão geral"** tem só o cartão **"Números do serviço"**.
+Ela é um retrato de tamanho, não um painel de controle.
 
-Alguns assuntos aparecem **direto na tela**, com o conteúdo completo:
-
-- **"Números do serviço"** — as três contagens, explicadas abaixo.
-- **"Cópia de segurança do banco"** — mostra, direto nesta tela, um destes
-  estados: **"Nunca rodou uma cópia de segurança reportada por este
-  mecanismo."**, **"Última cópia concluída com sucesso em [data e hora]."** ou
-  **"A última cópia, em [data e hora], FALHOU[: mensagem]."**. Enquanto a
-  consulta não termina, o cartão mostra **"Carregando…"**; se ela falhar, mostra
-  a mensagem de erro no lugar do estado. Veja [Cópia de
-  segurança](/admin-servico/copia-de-seguranca/) para o que cada estado
-  significa e os limites desta funcionalidade.
-- **"Quem administra o serviço"** — veja [Quem administra o
-  serviço](/admin-servico/quem-administra/).
-- **"Login por Google"** — veja [Entrada pelo
-  Google](/admin-servico/entrada-pelo-google/).
-- **"Domínios autorizados"** — veja [Domínios
-  autorizados](/admin-servico/dominios-autorizados/).
-
-{: .note }
-No celular, **"Login por Google"** e **"Domínios autorizados"** não cabem
-inteiros na tela — em vez do conteúdo completo, você vê um resumo de uma linha
-e um botão **"Abrir"**, que leva à tela própria daquele assunto.
-
-Outros assuntos são grandes demais para caber ao lado de outro card sem
-espremer — esses continuam em telas próprias, e o caminho até eles é o bloco
-**"Mais configurações"**, no fim da tela, com um botão para cada um:
-
-- **"Servidor de e-mail"**
-- **"Provedores de IA"**
-- **"Organizações"**
-- **"Pedidos de organização"**
-- **"Feedbacks"**
-- **"Destinos da cópia de segurança"**
-- **"Tarefas agendadas"**
-- **"Mudar de servidor"**
-
-Cada um deles é explicado na página própria, linkada no
-[índice desta seção](/admin-servico/).
+Todo o resto — organizações, acesso, serviços, manutenção e feedbacks — fica nas
+outras abas. O [índice desta seção](/admin-servico/) lista o que há em cada uma.
+O estado da última cópia de segurança, por exemplo, fica na aba
+**"Manutenção"**; veja [Cópia de segurança](/admin-servico/copia-de-seguranca/).
 
 ## Quando dá errado
 

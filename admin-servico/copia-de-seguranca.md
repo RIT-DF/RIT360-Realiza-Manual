@@ -22,8 +22,8 @@ reportou.
 
 ## O que a tela mostra
 
-Um dos três estados abaixo aparece sempre que você abre **"Administração
-geral"**:
+Um dos três estados abaixo aparece sempre que você abre a aba
+**"Manutenção"**:
 
 - **Nunca rodou uma cópia de segurança reportada por este mecanismo.** —
   significa que, até agora, nenhuma rodada de cópia chegou a informar um
