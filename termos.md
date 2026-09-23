@@ -4,13 +4,14 @@ nav_order: 2
 parent: "Termos e Privacidade"
 permalink: /termos/
 version: "1.0"
-change_summary: "Primeira versão dos Termos de Uso do RIT360 Realiza."
+change_summary: "Primeira versão dos Termos de Uso do RIT360 Realiza. Revisada juridicamente em 23/09/2026, sem alteração de texto."
 ---
 
 # Termos de Uso — RIT360 Realiza
 
 **Vigência:** 20 de setembro de 2026
-**Versão:** 1.0
+**Versão:** 1.0  
+**Revisão jurídica:** 23 de setembro de 2026
 
 ---
 

@@ -4,13 +4,14 @@ nav_order: 1
 parent: "Termos e Privacidade"
 permalink: /privacidade/
 version: "1.0"
-change_summary: "Primeira versão da Política de Privacidade do RIT360 Realiza."
+change_summary: "Primeira versão da Política de Privacidade do RIT360 Realiza. Revisada juridicamente em 23/09/2026, sem alteração de texto."
 ---
 
 # Política de Privacidade — RIT360 Realiza
 
 **Vigência:** 20 de setembro de 2026
-**Versão:** 1.0
+**Versão:** 1.0  
+**Revisão jurídica:** 23 de setembro de 2026
 
 ---
 
