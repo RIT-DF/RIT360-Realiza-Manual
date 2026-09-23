@@ -37,7 +37,13 @@ Google, e o Google recusa com "Não foi possível adicionar a agenda. Verifique 
 correção não sai, use o caminho acima, com o endereço copiado — ele funciona. O endereço é o mesmo
 nos dois caminhos.
 
-<!-- CAPTURA: rota=/espacos/<id> (aba Trabalho, visão Calendário) | o-que-mostrar=painel "Assinar agenda" aberto, com o texto "O endereço é pessoal e funciona como uma chave de leitura..." e o botão "Adicionar ao Google Agenda" visíveis | arquivo=assinar-agenda-painel-desktop.png e assinar-agenda-painel-celular.png -->
+![Painel "Assinar agenda" aberto, com o aviso sobre o endereço ser pessoal e o botão "Adicionar ao Google Agenda"](/assets/capturas/assinar-agenda-painel-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Painel "Assinar agenda" aberto, com o aviso sobre o endereço ser pessoal e o botão "Adicionar ao Google Agenda" — no celular](/assets/capturas/assinar-agenda-painel-celular.png){: style="max-width:375px" }
+{: .mt-4 }
 
 ## Usar outro calendário (Outlook, celular, outro programa)
 
@@ -50,7 +56,13 @@ nos dois caminhos.
 O botão que você clicou mostra **"Copiado!"** por instantes, confirmando que o texto foi para a
 área de transferência.
 
-<!-- CAPTURA: rota=/espacos/<id> (aba Trabalho, visão Calendário) | o-que-mostrar=painel "Assinar agenda" com "usar outro calendário" expandido, mostrando os dois endereços e os botões "Copiar endereço" e "Copiar link do webcal" | arquivo=assinar-agenda-outro-calendario-desktop.png e assinar-agenda-outro-calendario-celular.png -->
+![Painel "Assinar agenda" com "usar outro calendário" expandido, mostrando os dois endereços e os botões "Copiar endereço" e "Copiar link do webcal"](/assets/capturas/assinar-agenda-outro-calendario-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Painel "Assinar agenda" com "usar outro calendário" expandido, mostrando os dois endereços e os botões "Copiar endereço" e "Copiar link do webcal" — no celular](/assets/capturas/assinar-agenda-outro-calendario-celular.png){: style="max-width:375px" }
+{: .mt-4 }
 
 ## Exemplo
 

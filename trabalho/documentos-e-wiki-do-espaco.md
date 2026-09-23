@@ -25,9 +25,13 @@ igual aqui dentro do espaço.
   "Interno" por aqui — o servidor recusaria, e por isso a tela nem oferece essa opção a essa
   pessoa.
 
-<!-- CAPTURA: rota=/espacos/<id>/conhecimento | o-que-mostrar=aba "Documentos e wiki" aberta a
-     partir de um espaço, com a lista de documentos daquele espaço | arquivo=espaco-documentos-wiki-desktop.png
-     e espaco-documentos-wiki-celular.png -->
+![Aba "Documentos e wiki" aberta a partir de um espaço, com a lista de documentos daquele espaço](/assets/capturas/espaco-documentos-wiki-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Aba "Documentos e wiki" aberta a partir de um espaço, com a lista de documentos daquele espaço — no celular](/assets/capturas/espaco-documentos-wiki-celular.png){: style="max-width:375px" }
+{: .mt-4 }
 
 ## Exemplo
 

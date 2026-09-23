@@ -99,7 +99,13 @@ também não consegue mencionar ninguém ali — a aba simplesmente não existe 
 compartilhada, ela pode mencionar e ser mencionada normalmente, como qualquer outro participante
 do espaço.
 
-<!-- CAPTURA: rota=/tarefas/{id} | o-que-mostrar=o campo de mensagem com "@" digitado e a lista de sugestões de participantes aberta, com pelo menos duas pessoas e o realce por teclado visível | arquivo=conversas-mencao-lista-desktop.png e conversas-mencao-lista-celular.png -->
+![Campo de mensagem com "@" digitado e a lista de sugestões de participantes aberta, com o item selecionado por teclado em destaque](/assets/capturas/conversas-mencao-lista-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Campo de mensagem com "@" digitado e a lista de sugestões de participantes aberta, com o item selecionado por teclado em destaque — no celular](/assets/capturas/conversas-mencao-lista-celular.png){: style="max-width:375px" }
+{: .mt-4 }
 
 ## Quando dá errado
 

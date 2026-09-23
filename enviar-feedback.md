@@ -28,8 +28,13 @@ ter que perguntar de volta.
    se não quiser ser procurado sobre esse envio.
 6. Clique em **"Enviar"**. A janela fecha e você continua exatamente onde estava.
 
-<!-- CAPTURA: rota=qualquer tela, com o ícone de feedback clicado | o-que-mostrar=janela de envio
-     de feedback aberta por cima da tela | arquivo=feedback-envio-desktop.png e feedback-envio-celular.png -->
+![Janela de envio de feedback aberta por cima da tela "Meu trabalho"](/assets/capturas/feedback-envio-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Janela de envio de feedback aberta por cima da tela "Meu trabalho" — no celular](/assets/capturas/feedback-envio-celular.png){: style="max-width:375px" }
+{: .mt-4 }
 
 {: .note }
 Se você chegar pelo endereço antigo `/feedback` — um link salvo ou um favorito de antes —, o

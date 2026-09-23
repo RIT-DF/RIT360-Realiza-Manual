@@ -34,7 +34,13 @@ que torna o Realiza legível para quem trabalha com você.
 2. Formatos aceitos: PNG, JPEG ou WEBP.
 3. Para remover a foto atual, clique em **"Remover foto"**.
 
-<!-- CAPTURA: rota=/perfil | o-que-mostrar=tela Meu perfil, em duas colunas: nome/telefone/foto à esquerda, Telegram e preferências de aviso à direita (sem o cartão de agenda, que saiu daqui) | arquivo=perfil-duas-colunas-desktop.png e perfil-duas-colunas-celular.png -->
+![Tela "Meu perfil" em duas colunas: nome, telefone e foto à esquerda; Telegram e preferências de aviso à direita](/assets/capturas/perfil-duas-colunas-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Tela "Meu perfil" em duas colunas: nome, telefone e foto à esquerda; Telegram e preferências de aviso à direita — no celular](/assets/capturas/perfil-duas-colunas-celular.png){: style="max-width:375px" }
+{: .mt-4 }
 
 ## Por que o e-mail não se edita aqui
 
@@ -98,7 +104,13 @@ A coluna **"Notificação no aparelho"** é o interruptor por tipo — ela só t
 você ativa as notificações **neste aparelho**, no bloco logo acima da lista. Sem ativar o
 aparelho, ligar o interruptor não faz nada chegar.
 
-<!-- CAPTURA: rota=/perfil#preferencias-de-avisos | o-que-mostrar=tabela de tipos de aviso por canal, incluindo "Fui mencionado numa conversa" | arquivo=perfil-avisos-tabela-desktop.png e perfil-avisos-tabela-celular.png -->
+![Tabela de preferências de aviso por canal, com o tipo "Fui mencionado numa conversa" ao final](/assets/capturas/perfil-avisos-tabela-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Tabela de preferências de aviso por canal, com o tipo "Fui mencionado numa conversa" ao final — no celular](/assets/capturas/perfil-avisos-tabela-celular.png){: style="max-width:375px" }
+{: .mt-4 }
 
 {: .warning }
 Desligar o e-mail de um tipo de aviso **não elimina a pendência**. Se Beatriz Lima desliga o

@@ -16,7 +16,13 @@ outra organização é que o Realiza troca para ela.
 
 No menu, é a tela que abre com o título **"Meu trabalho"**.
 
-<!-- CAPTURA: rota=/painel | o-que-mostrar=as três contagens no topo, os filtros de organização e espaço, e as sete faixas — "Depende de você" com pelo menos um item de cada categoria (atrasada, aguardando você), "Parado" com um item e "Menções" com pelo menos um item | arquivo=painel-visao-geral-desktop.png e painel-visao-geral-celular.png -->
+![Tela "Meu trabalho" com as três contagens no topo, os filtros de organização e espaço, e as sete faixas](/assets/capturas/painel-visao-geral-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Tela "Meu trabalho" com as três contagens no topo, os filtros de organização e espaço, e as sete faixas — no celular](/assets/capturas/painel-visao-geral-celular.png){: style="max-width:375px" }
+{: .mt-4 }
 
 ## As sete faixas, nesta ordem
 
@@ -154,4 +160,10 @@ lugar nenhum do painel. Vale o mesmo para **"Menções"**: só aparecem ali as v
 citou na conversa compartilhada — ninguém consegue mencioná-la na conversa interna, porque ela não
 alcança essa aba.
 
-<!-- CAPTURA: rota=/painel | o-que-mostrar=o painel de Beatriz Lima, convidada de fora, restrito ao espaço "Campanha do Agasalho 2026" | arquivo=painel-convidado-desktop.png e painel-convidado-celular.png -->
+![Painel de Beatriz Lima, convidada de fora, restrito ao espaço "Campanha do Agasalho 2026"](/assets/capturas/painel-convidado-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Painel de Beatriz Lima, convidada de fora, restrito ao espaço "Campanha do Agasalho 2026" — no celular](/assets/capturas/painel-convidado-celular.png){: style="max-width:375px" }
+{: .mt-4 }
