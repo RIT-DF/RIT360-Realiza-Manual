@@ -17,6 +17,26 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 23 de setembro de 2026 — versão 0.18.0
+
+### Adicionado
+
+- **A janela do assistente ficou menor e mais discreta.** Em vez de um quadro no meio da tela, ela
+  agora abre pequena, ancorada ao botão do canto inferior direito, sem escurecer o resto da tela —
+  dá para continuar lendo o que está atrás enquanto conversa. Tem também um botão **"Fechar"** no
+  cabeçalho, além de Esc e clique fora. Veja [Acessar](/assistente/#acessar).
+- **A resposta a uma dúvida agora traz um link clicável para a página do manual**, em vez do
+  endereço em texto solto. Veja [Tirar dúvida sobre como usar o
+  Realiza](/assistente/#tirar-duvida-sobre-como-usar-o-realiza).
+
+### Corrigido
+
+- **O assistente ficou mais criterioso ao responder dúvidas.** Antes, quando nenhuma página do
+  manual respondia bem à pergunta, ele podia trazer a página mais parecida mesmo sem ela explicar
+  o que foi perguntado. Agora, nesse caso, ele diz que não encontrou.
+
+---
+
 ## 23 de setembro de 2026 — versão 0.17.0
 
 ### Adicionado

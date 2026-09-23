@@ -24,8 +24,12 @@ mesma regra que barraria você no quadro.
 ## Acessar
 
 Clique no botão redondo no canto inferior direito da tela — ele fica presente em qualquer tela de
-dentro do produto. A conversa abre em uma janela por cima da tela em que você está; fechando a
+dentro do produto. A conversa abre numa janela pequena, ancorada a esse botão, sem escurecer o
+resto da tela: dá para continuar lendo e usando o que está atrás enquanto conversa. Fechando a
 janela, você continua exatamente onde estava, sem precisar navegar de volta.
+
+Para fechar, use o botão **"Fechar"** (o ✕ no canto do cabeçalho), pressione Esc, ou clique fora da
+janela — as três formas funcionam.
 
 ## Conversar
 
@@ -58,7 +62,7 @@ assistente traz o trecho que responde, junto com o link para ler o resto.
 1. Escreva a dúvida como preferir — por exemplo, "como eu arquivo um espaço?" ou "o que é uma
    reprogramação de prazo?".
 2. O assistente responde com o título da seção do manual que respondeu, o trecho que explica, e
-   "Veja mais em:" com o link para a página completa.
+   "Veja mais em:" com um link clicável para a página completa.
 
 ### Exemplo
 
@@ -69,8 +73,8 @@ explica o passo, e o link para a página inteira, caso ela queira ver mais.
 ### Quando não encontra ou não consegue
 
 - **"Não encontrei isso no manual. Você pode dar uma olhada no índice completo: \<endereço do
-  manual\>"** — nenhuma seção do manual respondeu à pergunta. Tente reformular com outras
-  palavras, ou abra o índice pelo link.
+  manual\>"** — nenhuma seção do manual respondeu à pergunta; o endereço aparece como link
+  clicável. Tente reformular com outras palavras, ou abra o índice pelo link.
 - **"Não consegui consultar o manual agora — tente de novo em instantes."** — o manual está
   temporariamente fora do alcance do assistente. Tente de novo em alguns instantes.
 - **"Sobre qual dúvida de uso do Realiza você quer saber?"** — a pergunta chegou sem nenhum
@@ -79,7 +83,8 @@ explica o passo, e o link para a página inteira, caso ela queira ver mais.
 ### Dicas e armadilhas
 
 - **A resposta é sempre um trecho do manual, nunca uma explicação inventada.** Não encontrando
-  nada, o assistente diz isso — não tenta "adivinhar" um passo que o manual não descreve.
+  nada, o assistente diz isso — não tenta "adivinhar" um passo que o manual não descreve, nem
+  entrega a página mais parecida quando ela não responde de verdade à pergunta.
 - **Funciona nos dois canais**, no app e pelo Telegram, do mesmo jeito.
 - Pergunta que mistura dúvida com pedido de ação — por exemplo, "como arquivo um espaço? arquiva o
   Horta pra mim" — também funciona: o assistente responde a dúvida e, entendendo que você também
@@ -108,6 +113,9 @@ decisão — não desaparece sozinha.
   clicando. Sem a permissão, a recusa que aparece é a mesma que apareceria na tela correspondente.
 - **Só a organização ativa.** O assistente não vê nem mistura dados de outra organização de que
   você participe — a mesma regra que separa as organizações em qualquer outra tela.
+- **Pedir uma ação citando o espaço só pelo nome ainda não funciona sempre.** Hoje o assistente é
+  mais confiável para tirar dúvidas do que para executar ações; se pedir uma ação e ele não
+  conseguir identificar o espaço, prefira criar ou alterar pela própria tela.
 
 ## Quando a organização desligou a inteligência artificial
 
