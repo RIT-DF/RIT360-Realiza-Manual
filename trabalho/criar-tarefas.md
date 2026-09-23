@@ -3,7 +3,7 @@ title: "Criar e organizar tarefas"
 nav_order: 4
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/criar-tarefas/
-palavras_chave: "nova tarefa, cartão, responsável, data planejada, prazo acordado, concluir tarefa, mover etapa, excluir tarefa, salvamento automático"
+palavras_chave: "nova tarefa, cartão, responsável, data planejada, prazo acordado, botão salvar, salvar datas, descartar alterações, perdi o que digitei, concluir tarefa, mover etapa, excluir tarefa"
 ---
 
 # Criar e organizar tarefas
@@ -91,26 +91,52 @@ um prazo acordado — mudar agora é só pela reprogramação, abaixo." Isso pre
 original intacto, mesmo que o prazo atual mude depois — veja [Meu
 trabalho](/trabalho/meu-trabalho/) para o selo "Reprogramação de prazo pendente".
 
-## Como o painel de detalhe salva sozinho
+## Como o painel de detalhe grava
 
-Assim que você abre o painel, a tela avisa: "As alterações desta tarefa são salvas
-automaticamente." **Não existe botão "Salvar" aqui.** Título e descrição gravam quando você sai do
-campo (clica fora, ou aperta Tab); responsável, etapa e as duas datas gravam assim que você
-escolhe.
+No painel da tarefa, **o que você digita só é gravado quando você clica em salvar**; o que você
+escolhe numa lista é gravado na hora.
 
-Cada campo mostra o próprio estado, logo abaixo dele:
+### Por que isto importa
+
+O que se digita se perde fácil: basta fechar o painel sem perceber. Com o botão, você decide
+quando a alteração vale — e, enquanto não decidir, ela continua na tela do jeito que você
+escreveu.
+
+### O que precisa de botão
+
+- **"Título"** e **"Descrição"** — botão **"Salvar"**, abaixo dos dois.
+- **"Data planejada (previsão)"** e **"Prazo acordado (compromisso atual)"** — botão
+  **"Salvar datas"**, no fim do cartão **"Datas"**.
+- Em [Etapas](/trabalho/etapas/), o nome da etapa — botão **"Salvar"**, ao lado.
+
+**O botão fica apagado enquanto não há nada para salvar** e acende assim que você muda o campo. É
+por ele que você enxerga que existe alteração pendente.
+
+### O que grava sozinho
+
+**"Responsável"** e a etapa da tarefa gravam no instante em que você escolhe, sem botão — são
+escolhas de lista, em que não há texto a perder.
+
+### Fechar com alteração pendente
+
+Fechando o painel com algo digitado e não salvo, aparece a confirmação **"Descartar alterações?"**,
+com a mensagem **"Há uma alteração ainda não salva. Fechando agora, ela se perde."** e dois botões:
+**"Descartar"**, que fecha e perde o que você escreveu, e **"Cancelar"**, que volta ao painel para
+você salvar.
+
+### Depois de salvar
+
+Cada seção mostra o próprio estado:
 
 - **"Salvando…"** — a gravação está em andamento.
-- **"Salvo às [hora]"** — gravou. Você pode seguir para o próximo campo.
+- **"Salvo às [hora]"** — gravou.
 - **"Não foi possível salvar: [motivo]"**, com um botão **"Tentar de novo"** — a gravação falhou.
-  O que você digitou ou escolheu continua ali, visível no campo; nada se perde enquanto você não
-  fecha o painel. Clique em **"Tentar de novo"** para reenviar exatamente aquilo, sem digitar de
-  novo.
+  O que você digitou continua ali, visível; clique em **"Tentar de novo"** para reenviar sem
+  digitar de novo.
 
 {: .warning }
-O aviso de falha fica só naquele campo — os outros continuam gravando normalmente. Se você fechar
-o painel com um "Não foi possível salvar" ainda na tela, aquela alteração específica **não foi
-guardada**: volte, confira o campo e tente de novo antes de sair.
+O aviso de falha fica só naquela seção — as outras continuam normais. Fechando o painel com um
+"Não foi possível salvar" na tela, aquela alteração **não foi guardada**.
 
 ## Concluir tarefas
 

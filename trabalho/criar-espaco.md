@@ -91,3 +91,12 @@ organização."** — veja [Primeiros passos](/primeiros-passos/).
 Se algo impedir a criação do espaço, a tela mostra a mensagem "Não foi possível criar o espaço."
 acima do formulário. Confira se o nome foi preenchido e tente novamente; se o problema persistir,
 avise quem administra a organização.
+
+Outras duas mensagens aparecem no lugar da lista:
+
+- **"Você não tem permissão para ver os espaços nesta organização."** — sua conta participa da
+  organização, mas o papel dela não alcança a lista de espaços. Peça a quem administra a
+  organização o papel adequado.
+- **"Nenhuma organização ativa. Escolha uma no seletor, ao lado da logo."** — a organização que
+  estava escolhida não vale mais para a sua conta (você saiu dela, ou ela foi excluída). Escolha
+  outra no seletor.

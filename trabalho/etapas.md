@@ -27,8 +27,9 @@ A mesma tela no celular:
 
 - **Criar** — no formulário abaixo da lista, digite o nome em **"Nova etapa"**, escolha a
   correspondência e clique em **"Acrescentar etapa"**.
-- **Renomear** — clique no campo de nome da etapa, edite e clique fora (o nome é salvo ao sair do
-  campo).
+- **Renomear** — clique no campo de nome da etapa, edite e clique em **"Salvar"**, ao lado. O
+  botão fica apagado enquanto você não muda nada, e acende quando há algo a salvar; sair do campo
+  sem clicar **não grava**.
 - **Remover uma etapa** — clique em **"Remover"** na linha dela.
 - **Remover em lote** — marque as caixas das etapas e clique em **"Remover selecionadas"**.
 - **Reordenar** — use as setas ↑ e ↓ na linha de cada etapa para mover para cima ou para baixo.

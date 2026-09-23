@@ -113,6 +113,11 @@ Aroeira — a carteira mostra a campanha e qualquer outro espaço ligado a ela.
 
 - **"Não foi possível listar os clientes."** — a tela não conseguiu carregar a lista. Tente
   recarregar; se persistir, avise quem administra a organização.
+- **"Você não tem permissão para ver os clientes nesta organização."** — sua conta participa da
+  organização, mas o papel dela não alcança a lista de clientes. Peça a quem administra a
+  organização o papel adequado.
+- **"Nenhuma organização ativa. Escolha uma no seletor, ao lado da logo."** — a organização que
+  estava escolhida não vale mais para a sua conta. Escolha outra no seletor.
 - **"Não foi possível criar o cliente."**, **"Não foi possível salvar."**, **"Não foi possível
   enviar a imagem."**, **"Não foi possível remover a imagem."**, **"Não foi possível
   arquivar/reabrir."**, **"Não foi possível arquivar em lote."**, **"Não foi possível excluir."**
