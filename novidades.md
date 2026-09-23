@@ -17,6 +17,24 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 23 de setembro de 2026 — versão 0.19.0
+
+### Adicionado
+
+- **Agora dá para pedir uma ação ao assistente citando o espaço pelo nome**, sem precisar abrir o
+  quadro certo antes. Peça, por exemplo, "crie uma tarefa chamada Comprar mudas no espaço Campanha
+  do Agasalho 2026": havendo mais de um espaço parecido, ele pergunta qual; não encontrando
+  nenhum, diz que não encontrou e lista os espaços de que você participa. Como o nome precisou ser
+  interpretado, o assistente sempre confirma com você antes de criar ou concluir a tarefa de
+  verdade. Veja [Citar o espaço pelo nome](/assistente/#citar-o-espaco-pelo-nome).
+
+### Corrigido
+
+- **Endereço longo nas respostas do assistente não estoura mais a largura da conversa.** Agora ele
+  quebra dentro da bolha da mensagem, sem criar rolagem para o lado.
+
+---
+
 ## 23 de setembro de 2026 — versão 0.18.0
 
 ### Adicionado

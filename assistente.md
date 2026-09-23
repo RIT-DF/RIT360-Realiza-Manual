@@ -2,7 +2,7 @@
 title: "Assistente"
 nav_order: 4.5
 permalink: /assistente/
-palavras_chave: "chatbot, inteligência artificial, telegram, pergunta, criar tarefa por chat, prévia de ação"
+palavras_chave: "chatbot, inteligência artificial, telegram, pergunta, criar tarefa por chat, prévia de ação, pedir por escrito, criar tarefa falando, nome do espaço"
 ---
 
 # Assistente
@@ -103,8 +103,63 @@ Enquanto a prévia está na tela, nada foi criado, alterado ou aprovado ainda. �
 existe: para você ver exatamente o que vai acontecer antes de acontecer, em vez de descobrir
 depois que o assistente interpretou seu pedido errado.
 
+Criar ou concluir tarefa citando o espaço pelo nome sempre passa por essa prévia, mesmo quando a
+mesma ação, com o espaço já certo, executaria direto. O motivo é que o assistente teve que
+interpretar qual espaço você quis dizer — a prévia é o momento de conferir se ele entendeu o
+espaço certo antes de a ação acontecer de verdade.
+
 Fechando a conversa com uma prévia pendente e voltando depois, ela continua lá, esperando sua
 decisão — não desaparece sozinha.
+
+## Citar o espaço pelo nome
+
+Pedindo para criar ou concluir uma tarefa, você pode dizer o nome do espaço em vez de precisar
+abrir o quadro certo primeiro.
+
+### Por que isto importa
+
+Você não precisa navegar até o espaço certo antes de pedir a ação — basta citar o nome dele na
+própria frase, do jeito que você já o reconhece.
+
+### Como funciona
+
+1. Diga o que quer fazer e cite o espaço pelo nome — por exemplo, "crie uma tarefa chamada Comprar
+   mudas no espaço Campanha do Agasalho 2026".
+2. Existindo só um espaço com esse nome (ou parecido) entre os que você participa, o assistente
+   mostra a prévia da ação — veja [Confirmar ou cancelar uma ação](#confirmar-ou-cancelar-uma-acao).
+
+### Nome ambíguo
+
+Mais de um espaço parecido com o nome que você disse? O assistente pergunta qual, nomeando as
+opções — por exemplo: "Encontrei mais de um espaço parecido com \"Agasalho\": \"Campanha do
+Agasalho 2025\", \"Campanha do Agasalho 2026\". Qual deles?"
+
+### Nome que não existe, ou que você não alcança
+
+Nome que não bate com nenhum espaço que você participa — inclusive um espaço que existe na
+organização, mas que você não alcança — o assistente diz que não encontrou e lista os espaços que
+você participa: "Não encontrei nenhum espaço chamado \"Chá Beneficente\". Você participa de:
+\"Campanha do Agasalho 2026\", \"Horta Comunitária\", entre outros."
+
+Se você não participar de nenhum espaço nesta organização, a resposta diz isso também: "Não
+encontrei nenhum espaço chamado \"X\" — e você não participa de nenhum espaço nesta organização."
+
+### Exemplo
+
+Marina Alves, coordenadora no Instituto Semear, escreve ao assistente: "crie uma tarefa chamada
+Confirmar fornecedor de mudas no espaço Horta". Como ela participa de dois espaços com "Horta" no
+nome — "Horta Comunitária" e "Horta Escolar" —, o assistente responde: "Encontrei mais de um
+espaço parecido com \"Horta\": \"Horta Comunitária\", \"Horta Escolar\". Qual deles?" Marina
+responde "a Comunitária", e o assistente mostra a prévia da tarefa, esperando confirmação.
+
+### Dicas e armadilhas
+
+- **Quanto mais parecido o nome que você usa com o nome real do espaço, menor a chance de
+  ambiguidade.** Citar um trecho distintivo ("Agasalho 2026" em vez de só "Agasalho") já evita boa
+  parte das perguntas de desempate.
+- **Tarefa, entrega e pessoa ainda não se resolvem pelo nome — só o espaço.** Pedir "conclua a
+  tarefa Comprar mudas" sem apontar de qual tarefa se trata (por exemplo, a partir de uma lista que
+  o próprio assistente já mostrou) ainda não funciona; nesse caso, prefira a tela.
 
 ## Limites do assistente
 
@@ -113,9 +168,9 @@ decisão — não desaparece sozinha.
   clicando. Sem a permissão, a recusa que aparece é a mesma que apareceria na tela correspondente.
 - **Só a organização ativa.** O assistente não vê nem mistura dados de outra organização de que
   você participe — a mesma regra que separa as organizações em qualquer outra tela.
-- **Pedir uma ação citando o espaço só pelo nome ainda não funciona sempre.** Hoje o assistente é
-  mais confiável para tirar dúvidas do que para executar ações; se pedir uma ação e ele não
-  conseguir identificar o espaço, prefira criar ou alterar pela própria tela.
+- **Citar o espaço pelo nome já funciona** para criar e concluir tarefa — veja [Citar o espaço pelo
+  nome](#citar-o-espaco-pelo-nome). **Tarefa, entrega e pessoa por nome ainda não** — para essas,
+  aponte a partir de uma lista que o assistente já tenha mostrado, ou prefira a própria tela.
 
 ## Quando a organização desligou a inteligência artificial
 
