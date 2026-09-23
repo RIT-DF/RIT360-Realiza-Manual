@@ -23,6 +23,17 @@ A mesma tela no celular:
 
 ![Lista de clientes e parceiros da organização — no celular](/assets/capturas/clientes-lista-celular.png){: style="max-width:375px" }
 
+## Ordenar a lista
+
+Clique no nome de uma coluna — **"Nome"**, **"Projetos"** ou **"Estado"** — para ordenar a lista
+por ela; clique de novo para inverter a ordem. A ordem escolhida continua valendo se você abrir um
+cliente e voltar.
+
+{: .tip }
+No celular, onde a lista vira cartões, não há cabeçalho para clicar: use o seletor **"Ordenar
+por"**, no formato "Nome (crescente)" / "Nome (decrescente)" e equivalentes para as outras
+colunas.
+
 ## Editar a ficha de um cliente
 
 1. Na lista de clientes, clique em **"Editar"** na linha do cliente.

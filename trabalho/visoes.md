@@ -36,8 +36,13 @@ cada etapa e há quanto tempo.
 ## Lista
 
 Uma linha por tarefa, com responsável, prazo, etapa e estado lado a lado. Clique no cabeçalho de
-qualquer coluna para ordenar por ela — título, responsável, prazo, etapa ou estado.
+qualquer coluna para ordenar por ela — título, responsável, prazo, etapa ou estado; clique de novo
+para inverter a ordem. A ordem escolhida continua valendo se você abrir uma tarefa e voltar.
 
+{: .tip }
+No celular, onde a lista vira cartões, não há cabeçalho para clicar: use o seletor **"Ordenar
+por"**, no formato "Prazo (crescente)" / "Prazo (decrescente)" e equivalentes para as outras
+colunas.
 
 ![O mesmo trabalho na visão de lista, ordenado por prazo](/assets/capturas/visao-lista-desktop.png)
 {: .mt-4 }

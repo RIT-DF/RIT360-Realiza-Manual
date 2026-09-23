@@ -29,6 +29,11 @@ A mesma tela no celular:
 
 ![Lista de espaços do Instituto Semente, com um deles arquivado — no celular](/assets/capturas/espacos-lista-celular.png){: style="max-width:375px" }
 
+{: .tip }
+Você pode ordenar essa lista clicando no nome de uma coluna — **"Nome"**, **"Cliente"**, **"Tipo"**
+ou **"Estado"**. No celular, use o seletor **"Ordenar por"** no lugar do cabeçalho. Veja [Criar um
+espaço](/trabalho/criar-espaco/#ordenar-a-lista) para o detalhe.
+
 ## Em lote
 
 1. Marque as caixas dos espaços que quer arquivar — ou use **"Selecionar todos"**.

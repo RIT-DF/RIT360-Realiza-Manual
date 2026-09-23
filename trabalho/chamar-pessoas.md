@@ -98,6 +98,12 @@ Na lista de participantes, cada linha tem um seletor para trocar o papel e um bo
 **"Remover"**. Para remover várias pessoas de uma vez, marque as caixas de seleção e use
 **"Remover selecionados"** — a confirmação mostra quantas pessoas serão removidas.
 
+{: .tip }
+Clique no nome da coluna **"Pessoa"** ou **"Papel"** para ordenar a lista de participantes por
+ela; clique de novo para inverter a ordem. No celular, onde a lista vira cartões, use o seletor
+**"Ordenar por"** no lugar do cabeçalho. A ordem escolhida continua valendo se você sair da tela
+de configuração e voltar.
+
 {: .warning }
 Remover em lote pode recusar alguns casos "por regra (última pessoa com permissão de gerenciar)":
 o sistema não deixa um espaço ficar sem ninguém que possa administrá-lo. O resultado do lote

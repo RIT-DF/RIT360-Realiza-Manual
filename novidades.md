@@ -17,6 +17,41 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 22 de setembro de 2026 — versão 0.15.0
+
+### Adicionado
+
+- **Agora dá para ordenar as listas de Clientes, Espaços, Participantes de um espaço e a visão em
+  lista de Tarefas.** Clique no nome de uma coluna para ordenar por ela, e clique de novo para
+  inverter a ordem. No celular, onde essas listas viram cartões, um seletor **"Ordenar por"**
+  oferece as mesmas opções. A ordem escolhida continua valendo se você abrir um item e voltar.
+  Veja [Clientes e carteira](/clientes/#ordenar-a-lista), [Criar um
+  espaço](/trabalho/criar-espaco/#ordenar-a-lista), [Chamar pessoas para o
+  espaço](/trabalho/chamar-pessoas/) e [Ver o trabalho em quadro, lista ou
+  calendário](/trabalho/visoes/#lista).
+
+### Corrigido
+
+- **Abrir "Meu perfil", um relatório ou uma tarefa direto por um link — por exemplo, o de um
+  e-mail de aviso — não mostra mais um erro de carregamento.** A tela agora espera a organização
+  carregar e mostra "Carregando…" enquanto isso, em vez de cair direto num estado de erro.
+- **Os horários exibidos no produto pararam de mostrar os segundos.** Onde aparecia, por exemplo,
+  "28/09/2026, 10:00:00", agora aparece "28/09/2026, 10:00" — em Meu trabalho, Exportações,
+  Integrações, Administração geral, no histórico de versões de tarefas e de páginas da wiki, e nas
+  reuniões da agenda.
+
+---
+
+## 22 de setembro de 2026 — versão 0.14.1
+
+### Corrigido
+
+- **O atalho "Adicionar ao Google Agenda" voltou a funcionar.** Ele estava levando a um erro do
+  Google ("Não foi possível adicionar a agenda. Verifique o URL."); agora abre corretamente. Veja
+  [Levar sua agenda para o Google ou para o celular](/trabalho/assinar-agenda/).
+
+---
+
 ## 22 de setembro de 2026 — versão 0.14.0
 
 ### Alterado
