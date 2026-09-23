@@ -3,7 +3,7 @@ title: "Inteligência artificial na sua organização"
 nav_order: 5
 parent: "Configurações"
 permalink: /configuracoes/inteligencia-artificial/
-palavras_chave: "lgpd, provedor de ia, openai, gemini, claude, consumo de tokens, recusar ia, custo estimado"
+palavras_chave: "lgpd, provedor de ia, openai, gemini, claude, consumo de tokens, recusar ia, custo estimado, assistente não responde, por que falhou, últimas tentativas, histórico de erro"
 ---
 
 # Inteligência artificial na sua organização
@@ -98,6 +98,45 @@ Na lista de provedores cadastrados, cada linha tem:
 - **"Remover"** — abre a confirmação **""[nome do provedor]" deixa de ser usado. Esta ação não
   pode ser desfeita."**
 
+
+## Últimas tentativas
+
+Quando alguém da organização diz que o assistente não respondeu, é aqui que se descobre por quê.
+A seção **"Últimas tentativas"** lista as chamadas mais recentes à inteligência artificial, cada
+uma com o provedor, se deu **"sucesso"** ou **"falhou"**, a data e a hora, e — quando falhou — a
+**mensagem que o provedor devolveu**, com as palavras dele.
+
+### Por que isto importa
+
+Quem usa o produto vê só "o assistente está indisponível". Essa frase não diz se a credencial
+está errada, se o provedor recusou por limite de uso, ou se foi uma falha passageira. Aqui está a
+resposta, em vez de tentativa e erro.
+
+**É uma lista, não só a última tentativa** — e isso é de propósito: um provedor que alterna entre
+responder e recusar só se enxerga vendo a sequência. Uma falha isolada no meio de sucessos é outra
+coisa, e pede outra reação.
+
+### Como ler
+
+- **"Atualizar"** recarrega a lista; enquanto carrega, o botão mostra **"Atualizando…"**.
+- Na primeira carga, aparece **"Apurando o histórico…"**.
+- Sem nenhuma chamada registrada ainda, a seção mostra **"Nenhuma tentativa registrada ainda."**
+- Um provedor que foi apagado depois da tentativa aparece com o sufixo **"(removido depois)"** —
+  o registro não some junto com o cadastro.
+
+### Quando dá errado
+
+Não conseguindo buscar o histórico, a seção mostra **"Não foi possível apurar o histórico de
+tentativas: [motivo]"** — e aí o que falhou foi a consulta, não necessariamente a inteligência
+artificial.
+
+![Seção "Últimas tentativas" nas configurações da organização, listando tentativas que falharam com a mensagem devolvida pelo provedor](/assets/capturas/organizacao-ia-tentativas-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Seção "Últimas tentativas", listando tentativas que falharam com a mensagem do provedor — no celular](/assets/capturas/organizacao-ia-tentativas-celular.png){: style="max-width:375px" }
+{: .mt-4 }
 
 ## Consumo de IA desta organização
 

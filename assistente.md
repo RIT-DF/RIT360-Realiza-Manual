@@ -114,11 +114,14 @@ tarefa vai nascer, o prazo e o responsável, quando você tiver dito algum deles
 As prévias de excluir tarefa e de remover participante dizem de qual espaço; as de reprogramação
 de prazo e de ajuste de entrega dizem o motivo.
 
-{: .warning }
-**Confira o prazo na prévia, e não só o dia.** Pedindo com uma palavra — "sexta", "semana que
-vem" —, o assistente pode acertar o dia e errar o ano. É para isso que a prévia mostra a data por
-extenso: dando algo diferente do que você quis dizer, clique em **"Cancelar"** e peça de novo com
-a data completa.
+{: .tip }
+**Confira o prazo na prévia.** Pedindo com uma palavra — "sexta", "semana que vem" —, o assistente
+mostra na prévia a data que entendeu. Não sendo a que você quis dizer, clique em **"Cancelar"** e
+peça de novo com a data completa.
+
+Entendendo uma data que **já passou**, ele nem chega a montar a prévia: responde perguntando, com
+a data que entendeu à vista — **"Entendi o prazo como [data], mas essa data já passou — a tarefa
+nasceria atrasada. Pode confirmar a data certa?"**. Responda com a data certa e ele segue.
 
 {: .note }
 Enquanto a prévia está na tela, nada foi criado, alterado ou aprovado ainda. É por isso que ela
@@ -213,12 +216,13 @@ exceção por papel.
 - **"Não foi possível enviar agora."** — a mensagem não chegou ao servidor; o texto volta para o
   campo, para você tentar de novo sem reescrever.
 - **"O assistente está desligado para esta organização."** — veja a seção acima.
-- **"O assistente está indisponível no momento. Tente novamente em instantes."** — esta mensagem
-  cobre duas situações diferentes, e vale conferir a segunda antes de insistir: ou a inteligência
-  artificial que atende sua organização falhou agora, e tentar de novo em alguns instantes
-  resolve; ou **não há nenhuma cadastrada**, e aí tentar de novo nunca vai funcionar. Repetindo o
-  pedido duas ou três vezes sem mudança, peça a quem administra a organização que confira em
-  [Inteligência artificial na sua organização](/configuracoes/inteligencia-artificial/).
+- **"O assistente está indisponível no momento. Tente novamente em instantes."** — a inteligência
+  artificial que atende sua organização falhou agora. Tentar de novo em alguns instantes
+  costuma resolver.
+- **"O assistente não está configurado nesta organização. Peça a quem administra para cadastrar um
+  provedor de IA."** — não há inteligência artificial nenhuma cadastrada, e insistir não vai
+  adiantar. Fale com quem administra a organização; o caminho está em [Inteligência artificial na
+  sua organização](/configuracoes/inteligencia-artificial/).
 - Confirmar ou cancelar uma ação pode recusar com a mesma mensagem que a tela de origem daria —
   por exemplo, falta de permissão para aprovar. Nesse caso, é a mesma regra de sempre, só que
   vinda pela conversa.
