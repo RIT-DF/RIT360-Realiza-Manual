@@ -31,8 +31,11 @@ janela, você continua exatamente onde estava, sem precisar navegar de volta.
 Para fechar, use o botão **"Fechar"** (o ✕ no canto do cabeçalho), pressione Esc, ou clique fora da
 janela — as três formas funcionam.
 
-<!-- CAPTURA PENDENTE: janela do assistente, desktop e celular. As imagens atuais mostram a prévia
-     antiga, de uma linha só; a da 0.21.0 cita espaço, prazo e responsável. Refazer evitando
+<!-- CAPTURA PENDENTE: janela do assistente, desktop e celular, com uma prévia de ação na tela.
+     As imagens anteriores mostravam a prévia antiga, de uma linha só, e foram removidas; a da
+     0.21.0 cita espaço, prazo e responsável. Tentado em 23/09/2026 e não foi possível: o provedor
+     de IA do ambiente local passou a recusar toda chamada (provavelmente cota diária), depois de
+     doze tentativas. Refazer noutro dia, com o roteiro que repete quando o provedor falha, e sem
      enquadrar data crua enquanto a issue #173 não sair. -->
 
 ## Conversar
@@ -210,6 +213,12 @@ exceção por papel.
 - **"Não foi possível enviar agora."** — a mensagem não chegou ao servidor; o texto volta para o
   campo, para você tentar de novo sem reescrever.
 - **"O assistente está desligado para esta organização."** — veja a seção acima.
+- **"O assistente está indisponível no momento. Tente novamente em instantes."** — esta mensagem
+  cobre duas situações diferentes, e vale conferir a segunda antes de insistir: ou a inteligência
+  artificial que atende sua organização falhou agora, e tentar de novo em alguns instantes
+  resolve; ou **não há nenhuma cadastrada**, e aí tentar de novo nunca vai funcionar. Repetindo o
+  pedido duas ou três vezes sem mudança, peça a quem administra a organização que confira em
+  [Inteligência artificial na sua organização](/configuracoes/inteligencia-artificial/).
 - Confirmar ou cancelar uma ação pode recusar com a mesma mensagem que a tela de origem daria —
   por exemplo, falta de permissão para aprovar. Nesse caso, é a mesma regra de sempre, só que
   vinda pela conversa.
