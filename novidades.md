@@ -17,6 +17,19 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 23 de setembro de 2026 — versão 0.16.0
+
+### Adicionado
+
+- **A tela "Meu trabalho" foi refeita.** No lugar das faixas empilhadas, agora ela tem um campo de
+  busca, três filtros ("Organização", "Espaço" e "Prazo") e duas colunas: à esquerda, uma lista
+  única de tarefas com uma etiqueta de estado em cada linha — clique na etiqueta para filtrar só
+  por aquele estado; à direita, os cartões "Movimento nos meus espaços", "Agenda" e "Conversas". A
+  busca encontra tarefa, espaço, cliente ou pessoa, mas não procura dentro de conversas, e nunca
+  mostra o que você não alcança. Veja [Meu trabalho](/trabalho/meu-trabalho/).
+
+---
+
 ## 22 de setembro de 2026 — versão 0.15.0
 
 ### Adicionado
