@@ -31,14 +31,22 @@ janela, você continua exatamente onde estava, sem precisar navegar de volta.
 Para fechar, use o botão **"Fechar"** (o ✕ no canto do cabeçalho), pressione Esc, ou clique fora da
 janela — as três formas funcionam.
 
+![Janela do assistente aberta no canto inferior direito, ancorada ao botão redondo, com o pedido de criar uma tarefa e a prévia esperando confirmação — o resto da tela continua visível atrás](/assets/capturas/assistente-janela-desktop.png)
+{: .mt-4 }
+
+A mesma janela no celular:
+
+![Janela do assistente no celular, com o pedido de criar uma tarefa e a prévia esperando confirmação](/assets/capturas/assistente-janela-celular.png){: style="max-width:375px" }
+{: .mt-4 }
+
 ## Conversar
 
-1. No campo **"Mensagem para o assistente"**, escreva o que você precisa — uma pergunta ou um
-   pedido.
+1. No campo **"Mensagem para o assistente"** — o que mostra "Escreva sua mensagem…" enquanto está
+   vazio —, escreva o que você precisa: uma pergunta ou um pedido.
 2. Clique em **"Enviar"** (ou pressione Enter; Shift+Enter quebra linha sem enviar).
 
-Chegando à conversa sem nenhuma mensagem ainda, o campo mostra a dica: "Pergunte o que precisa da
-sua atenção, ou peça para criar uma tarefa."
+Chegando à conversa sem nenhuma mensagem ainda, o espaço da conversa mostra a dica: "Pergunte o
+que precisa da sua atenção, ou peça para criar uma tarefa."
 
 ## Exemplo
 
@@ -146,11 +154,11 @@ encontrei nenhum espaço chamado \"X\" — e você não participa de nenhum espa
 
 ### Exemplo
 
-Marina Alves, coordenadora no Instituto Semear, escreve ao assistente: "crie uma tarefa chamada
-Confirmar fornecedor de mudas no espaço Horta". Como ela participa de dois espaços com "Horta" no
-nome — "Horta Comunitária" e "Horta Escolar" —, o assistente responde: "Encontrei mais de um
-espaço parecido com \"Horta\": \"Horta Comunitária\", \"Horta Escolar\". Qual deles?" Marina
-responde "a Comunitária", e o assistente mostra a prévia da tarefa, esperando confirmação.
+Maria Oliveira, coordenadora no Instituto Semente, escreve ao assistente: "crie uma tarefa chamada
+Confirmar fornecedor de mudas no espaço Horta". Como a organização dela tem dois espaços com
+"Horta" no nome — "Horta Comunitária" e "Horta Escolar" —, o assistente responde: "Encontrei mais
+de um espaço parecido com \"Horta\": \"Horta Comunitária\", \"Horta Escolar\". Qual deles?"
+Maria responde "a Comunitária", e o assistente mostra a prévia da tarefa, esperando confirmação.
 
 ### Dicas e armadilhas
 
