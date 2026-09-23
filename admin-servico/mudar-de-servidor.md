@@ -28,9 +28,12 @@ que vai entrar aparece antes de qualquer gravação de verdade.
    **"Expirado"**.
 5. Com o selo **"Pronto para baixar"**, clique em **"Baixar pacote"**.
 
-<!-- CAPTURA: rota=/admin-servico/instalacao | o-que-mostrar=aba "Exportar" com um pedido no estado
-     "Pronto para baixar" | arquivo=admin-servico-mudar-servidor-desktop.png e
-     admin-servico-mudar-servidor-celular.png -->
+![Aba "Exportar" da tela "Mudar de servidor", com um pedido no estado "Pronto para baixar"](/assets/capturas/admin-servico-mudar-servidor-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Aba "Exportar" da tela "Mudar de servidor", com um pedido no estado "Pronto para baixar" — no celular](/assets/capturas/admin-servico-mudar-servidor-celular.png){: style="max-width:375px" }
 
 {: .warning }
 **A senha nunca é guardada pelo produto.** Sem ela, ninguém abre o pacote — nem quem tem acesso ao
