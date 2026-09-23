@@ -59,7 +59,7 @@ grade do mês.
 
 Cada dia tem dois botões pequenos: **"+T"**, para criar uma tarefa com prazo naquele dia, e
 **"+E"**, para criar uma reunião com hora naquele dia — veja [Criar e organizar
-tarefas](/trabalho/criar-tarefas/) e [Marcar reuniões na agenda](/trabalho/reunioes-na-agenda/)
+tarefas](/trabalho/criar-tarefas/) e [Criar um evento na agenda: reunião ou compromisso](/trabalho/reunioes-na-agenda/)
 para o passo a passo de cada um. São coisas diferentes: prazo é só uma data; reunião tem hora,
 convidados e presença confirmada. Nos cartões do dia, a reunião mostra o horário antes do título;
 o prazo de tarefa, não.

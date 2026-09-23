@@ -26,7 +26,7 @@ páginas, e nunca aciona aprovação nenhuma.
 5. [Subtarefas e dependências](/trabalho/subtarefas-e-dependencias/)
 6. [Ver o trabalho em quadro, lista ou calendário](/trabalho/visoes/)
 7. [Levar sua agenda para o Google ou para o celular](/trabalho/assinar-agenda/)
-8. [Marcar reuniões na agenda](/trabalho/reunioes-na-agenda/)
+8. [Criar um evento na agenda: reunião ou compromisso](/trabalho/reunioes-na-agenda/)
 
 ## Produzir e aprovar
 

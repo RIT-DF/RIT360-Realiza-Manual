@@ -1,15 +1,15 @@
 ---
-title: "Marcar reuniões na agenda"
+title: "Criar um evento na agenda: reunião ou compromisso"
 nav_order: 7
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/reunioes-na-agenda/
 ---
 
-# Marcar reuniões na agenda
+# Criar um evento na agenda: reunião ou compromisso
 
-O calendário do espaço agora mostra duas coisas diferentes: prazos de tarefa e reuniões. Esta
-página é sobre a segunda — um compromisso com hora marcada, gente convidada e presença
-confirmada.
+O calendário do espaço mostra duas coisas diferentes: prazos de tarefa e eventos da agenda. Esta
+página é sobre a segunda — criar um evento, que o produto usa para reunião, visita, oficina ou
+qualquer compromisso com hora marcada, gente convidada e presença confirmada.
 
 ## Por que isto importa
 
