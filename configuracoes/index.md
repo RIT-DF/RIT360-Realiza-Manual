@@ -16,8 +16,6 @@ organização. Cada página resolve uma coisa:
   preferências de aviso vivem dentro do seu perfil.
 - [Telegram](/configuracoes/telegram/) — converse com o assistente pelo Telegram, fora do
   aplicativo. Também é seu.
-- [Agenda no Google e no celular](/configuracoes/agenda-no-celular/) — veja seus prazos do Realiza
-  junto com o resto da sua agenda. Também é seu.
 - [Dados e identidade da organização](/configuracoes/organizacao/) — o nome, a imagem e os dados
   de contato da organização, além do domínio de reconhecimento. É da organização, e só quem a
   administra altera.

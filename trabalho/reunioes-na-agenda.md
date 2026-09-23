@@ -18,6 +18,11 @@ convite de calendário separado, uma mensagem, um "confirmado?" perdido numa con
 reunião nasce dentro do próprio espaço, junto das tarefas que ela discute, e quem foi chamado
 confirma presença ali mesmo.
 
+{: .note }
+Uma reunião marcada aqui também aparece na agenda que você assina para o Google ou para o celular
+— veja [Levar sua agenda para o Google ou para o celular](/trabalho/assinar-agenda/). O botão
+**"Assinar agenda"** fica na mesma visão de calendário, acima da grade do mês.
+
 ## A diferença entre prazo de tarefa e reunião
 
 {: .warning }

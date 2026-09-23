@@ -9,8 +9,8 @@ permalink: /configuracoes/perfil/
 
 Seu perfil é o que as outras pessoas veem de você quando dividem uma organização ou um espaço —
 sua foto, seu nome e seu telefone. Ele é seu: independe de qual organização está ativa no momento.
-Nesta mesma tela também ficam os avisos que você recebe, o Telegram e a agenda — tudo o que é
-"seu", não da organização.
+Nesta mesma tela também ficam os avisos que você recebe e o Telegram — tudo o que é "seu", não da
+organização. A agenda para levar ao Google ou ao celular não é mais daqui: veja abaixo.
 
 ## Acessar
 
@@ -34,12 +34,7 @@ que torna o Realiza legível para quem trabalha com você.
 2. Formatos aceitos: PNG, JPEG ou WEBP.
 3. Para remover a foto atual, clique em **"Remover foto"**.
 
-![Tela Meu perfil, em duas colunas: nome/telefone/foto à esquerda, Telegram e Agenda no Google e no celular à direita](/assets/capturas/perfil-duas-colunas-desktop.png)
-{: .mt-4 }
-
-A mesma tela no celular:
-
-![Tela Meu perfil, em duas colunas: nome/telefone/foto à esquerda, Telegram e Agenda no Google e no celular à direita — no celular](/assets/capturas/perfil-duas-colunas-celular.png){: style="max-width:375px" }
+<!-- CAPTURA: rota=/perfil | o-que-mostrar=tela Meu perfil, em duas colunas: nome/telefone/foto à esquerda, Telegram e preferências de aviso à direita (sem o cartão de agenda, que saiu daqui) | arquivo=perfil-duas-colunas-desktop.png e perfil-duas-colunas-celular.png -->
 
 ## Por que o e-mail não se edita aqui
 
@@ -56,9 +51,9 @@ relação à conversa dentro do produto.
 
 ## Agenda no Google e no celular
 
-Copie um link e cole no Google Agenda (ou em qualquer app de calendário) para ver seus prazos do
-Realiza junto com o resto da sua agenda. Veja
-[Agenda no Google e no celular](/configuracoes/agenda-no-celular/).
+Assinar sua agenda não é feito aqui: é um botão discreto, **"Assinar agenda"**, na própria visão
+de calendário de um espaço — junto de onde você de fato olha o calendário, não separado dele. Veja
+[Levar sua agenda para o Google ou para o celular](/trabalho/assinar-agenda/).
 
 ## Avisos: o que você recebe e por onde
 

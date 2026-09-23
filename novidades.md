@@ -17,6 +17,17 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 22 de setembro de 2026 — versão 0.14.0
+
+### Alterado
+
+- **Assinar sua agenda no Google ou no celular mudou de lugar.** Não é mais em "Meu perfil": agora
+  é um botão discreto, **"Assinar agenda"**, na própria visão de calendário de um espaço — junto
+  de onde você de fato olha os prazos e as reuniões. Veja [Levar sua agenda para o Google ou para
+  o celular](/trabalho/assinar-agenda/).
+
+---
+
 ## 22 de setembro de 2026 — versão 0.13.0
 
 ### Alterado

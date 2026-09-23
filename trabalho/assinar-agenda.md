@@ -1,0 +1,91 @@
+---
+title: "Levar sua agenda para o Google ou para o celular"
+nav_order: 6.5
+parent: "O trabalho do dia a dia"
+permalink: /trabalho/assinar-agenda/
+---
+
+# Levar sua agenda para o Google ou para o celular
+
+Assine, direto da visão de calendário de um espaço, um endereço que o Google Agenda (ou qualquer
+outro aplicativo de calendário) busca sozinho — e passa a mostrar seus prazos e reuniões do
+Realiza junto com o resto do seu dia, sem você abrir o produto.
+
+## Por que isto importa
+
+Você já vive dentro do Google Agenda ou do calendário do celular. Em vez de checar o Realiza à
+parte, seus compromissos aparecem no mesmo lugar que o resto da sua agenda.
+
+{: .note }
+A assinatura não é só deste espaço: uma vez ativa, ela reúne os prazos e as reuniões de **todos os
+espaços em que você participa nesta organização** — não só do espaço em que você clicou em
+"Assinar agenda". É a sua agenda pessoal na organização, acessada a partir de qualquer calendário
+de espaço.
+
+## Assinar
+
+1. No espaço, abra a aba **"Trabalho"** e escolha a visão **"Calendário"** (veja [Ver o trabalho
+   em quadro, lista ou calendário](/trabalho/visoes/)).
+2. Acima da grade do mês, clique em **"Assinar agenda"**.
+3. No painel que abre, clique em **"Adicionar ao Google Agenda"**. O Google Agenda abre numa nova
+   aba, já pronto para você confirmar a incorporação.
+
+<!-- CAPTURA: rota=/espacos/<id> (aba Trabalho, visão Calendário) | o-que-mostrar=painel "Assinar agenda" aberto, com o texto "O endereço é pessoal e funciona como uma chave de leitura..." e o botão "Adicionar ao Google Agenda" visíveis | arquivo=assinar-agenda-painel-desktop.png e assinar-agenda-painel-celular.png -->
+
+## Usar outro calendário (Outlook, celular, outro programa)
+
+1. No painel, clique em **"usar outro calendário"**.
+2. Para colar manualmente, clique em **"Copiar endereço"** e cole em **"Adicionar agenda → A
+   partir de URL"** no Outlook, no celular ou em qualquer outro programa.
+3. Para abrir direto no aplicativo de calendário do aparelho, clique em **"Copiar link do
+   webcal"** — isso só funciona se houver um aplicativo instalado que reconheça esse formato.
+
+O botão que você clicou mostra **"Copiado!"** por instantes, confirmando que o texto foi para a
+área de transferência.
+
+<!-- CAPTURA: rota=/espacos/<id> (aba Trabalho, visão Calendário) | o-que-mostrar=painel "Assinar agenda" com "usar outro calendário" expandido, mostrando os dois endereços e os botões "Copiar endereço" e "Copiar link do webcal" | arquivo=assinar-agenda-outro-calendario-desktop.png e assinar-agenda-outro-calendario-celular.png -->
+
+## Exemplo
+
+Joana Martins participa de dois espaços do Instituto Semente: **Campanha do Agasalho 2026** e
+**Comunicação institucional**. Ela abre o calendário da campanha, clica em **"Assinar agenda"** e
+em **"Adicionar ao Google Agenda"**. A partir daí, o Google Agenda do celular dela passa a mostrar
+os prazos e as reuniões **dos dois espaços** — não só da campanha, que foi de onde ela assinou.
+
+## Dicas e armadilhas
+
+{: .warning }
+**O endereço é uma chave de leitura, não uma senha.** Quem tiver o endereço enxerga todos os seus
+compromissos na organização, sem precisar entrar no Realiza. Não cole em grupo, em planilha
+compartilhada nem em qualquer lugar que outras pessoas possam ver.
+
+- **Gerar um endereço novo derruba o anterior.** Se você já tem uma assinatura ativa e clica em
+  **"Adicionar ao Google Agenda"** de novo, o produto pergunta antes: **"Gerar um endereço
+  novo?"**, avisando que "Você já tem uma assinatura ativa. Gerar um endereço novo faz a anterior
+  parar de funcionar nos aparelhos onde ela já está." Confirmando, qualquer aparelho que ainda
+  esteja usando o endereço antigo para de receber atualizações — se você assina em mais de um
+  aparelho, repita a assinatura em todos depois de gerar um novo.
+- **Reabrindo o painel, o endereço não aparece de novo.** Por segurança, o Realiza não guarda o
+  endereço em claro depois de gerado — só um registro de que a assinatura está ativa. Se você
+  fechou a tela sem copiar, ao voltar o painel mostra: "Clique em 'Adicionar ao Google Agenda'
+  para gerar seu endereço — ele aparece aqui também." Não há como recuperar o endereço antigo;
+  gerar outro é a única saída, e isso derruba o anterior (item acima).
+- **O Google não atualiza na hora.** Ele busca o endereço sozinho, de tempos em tempos — não é
+  tempo real. Um prazo criado agora pode demorar para aparecer na agenda.
+- **Prazo de tarefa entra como compromisso de dia inteiro**, com o nome do espaço, mesmo depois de
+  a tarefa já ter sido concluída — é um registro do que aconteceu, não só uma lista do que falta.
+- **A janela cobre 90 dias para trás, sem limite para a frente.** Prazo ou reunião mais antigo do
+  que isso não aparece na agenda assinada.
+
+## Desligar
+
+No painel, em **"usar outro calendário"**, clique em **"Desligar assinatura"**. O endereço para de
+funcionar imediatamente, em qualquer aparelho que o esteja usando.
+
+## Quando dá errado
+
+- **"Não consegui verificar sua assinatura da agenda agora."** — o painel não carregou o estado
+  atual; feche e abra o painel de novo.
+- **"Não consegui gerar seu endereço de assinatura."** — tente novamente.
+- **"Não consegui desligar sua assinatura da agenda."** — tente novamente; se persistir, avise
+  quem administra o serviço.

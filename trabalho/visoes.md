@@ -63,6 +63,10 @@ o prazo de tarefa, não.
 Fora criar, mover ou reorganizar tarefas continua sendo feito nas outras duas visões, ou abrindo a
 tarefa diretamente. O calendário não tem arrastar.
 
+Acima da grade do mês, o botão discreto **"Assinar agenda"** leva estes mesmos prazos e reuniões
+para o Google Agenda ou para o calendário do celular — veja [Levar sua agenda para o Google ou
+para o celular](/trabalho/assinar-agenda/).
+
 ![O calendário do espaço, com as tarefas nos dias dos prazos](/assets/capturas/visao-calendario-desktop.png)
 {: .mt-4 }
 
