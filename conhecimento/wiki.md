@@ -27,9 +27,12 @@ não é para ela.
 Quem pode editar vê o botão **"Editar"** no alto da página. Quem não pode simplesmente não vê o
 botão.
 
-<!-- CAPTURA PENDENTE: leitura da página de wiki, desktop e celular. Feita e descartada em
-     23/09/2026 porque a tela mostrava título e lista sem formatação (issue #170); refazer quando
-     a correção sair, pelas rotas /conhecimento/wiki/:id e /espacos/:id/conhecimento/wiki/:id. -->
+![Página de wiki aberta em leitura, com o texto formatado e o botão "Editar" no alto](/assets/capturas/conhecimento-wiki-leitura-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Página de wiki aberta em leitura, com o texto formatado e o botão "Editar" no alto — no celular](/assets/capturas/conhecimento-wiki-leitura-celular.png){: style="max-width:375px" }
 
 {: .tip }
 O endereço da página é o mesmo de sempre. Link guardado nos favoritos, ou colado numa conversa,
@@ -67,15 +70,17 @@ vista. Em **"Link"**, uma caixa pergunta **"Endereço do link:"**; cole o endere
 importa — negrito, títulos, listas — e sem o lixo invisível que esses programas costumam trazer
 junto, que é o que antes deixava a página com fontes e espaçamentos estranhos.
 
-<!-- CAPTURA PENDENTE: editor da página de wiki, desktop e celular. As imagens anteriores mostravam
-     a barra de formatação antiga, que saiu na 0.20.0, e foram removidas. As novas ficam para
-     quando a issue #170 sair: hoje o corpo do texto aparece sem formatação, e a imagem ensinaria
-     o contrário do que a página diz. Rota: /conhecimento/wiki/:id/editar. -->
+![Editor de uma página de wiki, com a barra de formatação, o seletor de Visibilidade e os botões Salvar, Cancelar e Publicar](/assets/capturas/conhecimento-wiki-editor-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Editor de uma página de wiki, com a barra de formatação e o seletor de Visibilidade — no celular](/assets/capturas/conhecimento-wiki-editor-celular.png){: style="max-width:375px" }
 
 ## Ver o histórico e voltar a uma versão anterior
 
-No cartão **"Histórico"**, embaixo do editor, cada versão aparece com o número e a data em que foi
-salva. Para voltar a uma versão antiga:
+No cartão **"Histórico"**, embaixo do editor, cada versão aparece com o número e a data em que
+foi salva — a mais recente no topo, sem botão, porque é a que está no ar. Para voltar a uma versão antiga:
 
 1. Clique em **"Restaurar"** na versão desejada.
 2. Confirme: "Restaurar a versão [número]? Isto cria uma NOVA versão com o conteúdo daquela data —
@@ -84,12 +89,12 @@ salva. Para voltar a uma versão antiga:
 Restaurar nunca apaga nada — mesmo o texto atual (o que você está prestes a substituir) continua
 guardado no histórico, como a versão anterior a essa restauração.
 
-![Cartão "Histórico" da página de wiki, com três versões listadas](/assets/capturas/conhecimento-wiki-historico-desktop.png)
+![Cartão "Histórico" da página de wiki, com as versões listadas e o botão Restaurar em cada uma](/assets/capturas/conhecimento-wiki-historico-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Cartão "Histórico" da página de wiki, com três versões listadas — no celular](/assets/capturas/conhecimento-wiki-historico-celular.png){: style="max-width:375px" }
+![Cartão "Histórico" da página de wiki, com as versões listadas — no celular](/assets/capturas/conhecimento-wiki-historico-celular.png){: style="max-width:375px" }
 
 ## Excluir uma página
 
