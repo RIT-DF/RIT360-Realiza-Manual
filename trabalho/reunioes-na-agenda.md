@@ -3,6 +3,7 @@ title: "Criar um evento na agenda: reunião ou compromisso"
 nav_order: 7
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/reunioes-na-agenda/
+palavras_chave: "evento, compromisso, reunião, marcar horário, convite, presença, agenda do espaço"
 ---
 
 # Criar um evento na agenda: reunião ou compromisso
