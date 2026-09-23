@@ -21,15 +21,18 @@ ferramenta nos dois casos.
 - [Wiki: páginas, histórico e publicação pública](/conhecimento/wiki/) — escrever uma página,
   voltar a uma versão anterior, e publicar uma página para quem não tem conta no Realiza.
 
-## Interno ou compartilhado
+## Quem alcança o Conhecimento da organização
 
-Todo documento, link e página de wiki tem uma visibilidade:
+O que está na aba **"Conhecimento"** — fora de qualquer espaço — é da organização inteira, e só
+quem tem vínculo pleno com ela alcança. Quem foi convidado de fora, para trabalhar num espaço
+específico, **não vê nada** daqui: nem os arquivos, nem os links, nem as páginas de wiki.
 
-- **"Interno"** — só quem administra a organização (ou o espaço, quando é um item de espaço) vê.
-- **"Compartilhado"** — todo participante do espaço vê, inclusive convidado de fora.
-
-Quem não tem permissão ampla na organização — um convidado — só consegue criar e ver o
-**"Compartilhado"**; a opção "Interno" nem aparece para essa pessoa, porque o servidor recusaria.
+{: .note }
+Todo item também tem uma etiqueta de visibilidade, **"Interno"** ou **"Compartilhado"**, mas aqui
+ela não muda quem enxerga o quê — a regra de alcance já é "só quem é da organização". A
+visibilidade decide de verdade **dentro de um espaço**, que é onde existe gente de fora
+participando; veja [Interno ou compartilhado, dentro de um
+espaço](/trabalho/documentos-e-wiki-do-espaco/).
 
 ![Tela Conhecimento da organização, com as abas internas Documentos e Wiki](/assets/capturas/conhecimento-visao-geral-desktop.png)
 {: .mt-4 }

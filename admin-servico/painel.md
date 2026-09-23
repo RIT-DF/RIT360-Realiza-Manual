@@ -15,16 +15,12 @@ delas.
 
 ## Passo a passo
 
-1. Abra **"Administração geral"**.
-2. As três contagens aparecem logo no topo da tela.
+1. Na administração do serviço, abra a aba **"Visão geral"** — é a que abre por padrão.
+2. As três contagens aparecem em **"Números do serviço"**.
 
-![Painel da administração do serviço, com as contagens gerais](/assets/capturas/admin-servico-painel-desktop.png)
-{: .mt-4 }
-
-A mesma tela no celular:
-
-![Painel da administração do serviço, com as contagens gerais — no celular](/assets/capturas/admin-servico-painel-celular.png){: style="max-width:375px" }
-{: .mt-4 }
+<!-- CAPTURA PENDENTE: a tela mudou na 0.20.0 (menu de abas) e os títulos ainda vão ser
+     normalizados (issue #168). Refazer depois disso, e sem enquadrar a contagem de espaços
+     enquanto a issue #167 não sair — ela mostra zero havendo espaços. -->
 
 ## O que cada número conta
 
@@ -39,9 +35,9 @@ A mesma tela no celular:
 ## Quando as contagens não carregam
 
 Se o painel não conseguir buscar as contagens, elas ficam paradas em **"Carregando…"**
-— nunca mostram um número errado — e a mensagem **"Não foi possível carregar o
-painel."** aparece no cartão de introdução, acima das contagens. Recarregue a
-página; se o problema continuar, avise a equipe técnica.
+e a mensagem **"Não foi possível carregar o painel."** aparece no cartão de
+introdução, acima das contagens. Recarregue a página; se o problema continuar,
+avise a equipe técnica.
 
 ## O que esses números não dizem
 

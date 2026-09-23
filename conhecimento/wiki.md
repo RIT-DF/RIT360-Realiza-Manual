@@ -3,7 +3,7 @@ title: "Wiki: páginas, histórico e publicação pública"
 nav_order: 2
 parent: "Conhecimento"
 permalink: /conhecimento/wiki/
-palavras_chave: "página wiki, histórico de versões, publicar página pública, restaurar versão, endereço público"
+palavras_chave: "página wiki, ler página, editar página, negrito, formatar texto, colar do word, histórico de versões, publicar página pública, restaurar versão, endereço público"
 ---
 
 # Wiki: páginas, histórico e publicação pública
@@ -11,6 +11,29 @@ palavras_chave: "página wiki, histórico de versões, publicar página pública
 A aba **"Wiki"** do Conhecimento é para texto, não para arquivo: o passo a passo de um processo, a
 política interna, a apresentação da organização — qualquer coisa que se escreve e se atualiza ao
 longo do tempo, em vez de se enviar como arquivo pronto.
+
+## Abrir uma página para ler
+
+Clique no nome da página na lista. Ela abre **para leitura**, com o texto já formatado — títulos,
+listas e links do jeito que foram escritos.
+
+### Por que isto importa
+
+A maior parte das vezes em que alguém abre uma página da wiki é para consultar, não para escrever.
+Abrindo em leitura, quem só quer conferir um passo não corre o risco de mexer no texto sem querer
+— e quem não tem permissão de editar consegue ler normalmente, em vez de esbarrar numa tela que
+não é para ela.
+
+Quem pode editar vê o botão **"Editar"** no alto da página. Quem não pode simplesmente não vê o
+botão.
+
+<!-- CAPTURA PENDENTE: leitura da página de wiki, desktop e celular. Feita e descartada em
+     23/09/2026 porque a tela mostrava título e lista sem formatação (issue #170); refazer quando
+     a correção sair, pelas rotas /conhecimento/wiki/:id e /espacos/:id/conhecimento/wiki/:id. -->
+
+{: .tip }
+O endereço da página é o mesmo de sempre. Link guardado nos favoritos, ou colado numa conversa,
+continua levando à página — agora abrindo em leitura.
 
 ## Criar uma página
 
@@ -21,19 +44,33 @@ Você cai direto no editor da página nova, pronta para escrever.
 
 ## Editar uma página
 
+Na página aberta, clique em **"Editar"**.
+
 Escreva no corpo do editor. Ajuste o **"Título"** no campo acima dele quando precisar, e, dentro
 de um espaço, escolha a **"Visibilidade"**: **"Interno (só quem administra a organização)"** ou
 **"Compartilhado (todo participante do espaço)"**.
 
-Clique em **"Salvar"** para gravar. Cada vez que você salva, nasce **uma versão nova** — nada se
-sobrescreve, e o texto de antes continua acessível no histórico.
+Clique em **"Salvar"** para gravar — e você volta para a leitura, já vendo o texto como ficou.
+**"Cancelar"** também volta para a leitura, sem gravar nada. Cada vez que você salva, nasce **uma
+versão nova** — nada se sobrescreve, e o texto de antes continua acessível no histórico.
 
-![Editor de uma página de wiki, com texto, o seletor de Visibilidade e o botão Salvar](/assets/capturas/conhecimento-wiki-editor-desktop.png)
-{: .mt-4 }
+### Formatar o texto
 
-A mesma tela no celular:
+A barra acima do texto tem, nesta ordem: **"Negrito"**, **"Itálico"**, **"Título 1"**,
+**"Título 2"**, **"Parágrafo"**, **"Lista"**, **"Lista numerada"** e **"Link"**.
 
-![Editor de uma página de wiki, com texto, o seletor de Visibilidade e o botão Salvar — no celular](/assets/capturas/conhecimento-wiki-editor-celular.png){: style="max-width:375px" }
+Selecione o trecho e clique no botão — o texto muda na hora, na própria tela, sem código nenhum à
+vista. Em **"Link"**, uma caixa pergunta **"Endereço do link:"**; cole o endereço e confirme.
+
+{: .tip }
+**Pode colar de um documento do Word ou do Google Docs.** O texto chega com a formatação que
+importa — negrito, títulos, listas — e sem o lixo invisível que esses programas costumam trazer
+junto, que é o que antes deixava a página com fontes e espaçamentos estranhos.
+
+<!-- CAPTURA PENDENTE: editor da página de wiki, desktop e celular. As imagens anteriores mostravam
+     a barra de formatação antiga, que saiu na 0.20.0, e foram removidas. As novas ficam para
+     quando a issue #170 sair: hoje o corpo do texto aparece sem formatação, e a imagem ensinaria
+     o contrário do que a página diz. Rota: /conhecimento/wiki/:id/editar. -->
 
 ## Ver o histórico e voltar a uma versão anterior
 
@@ -68,8 +105,9 @@ permissão ampla na organização, por si só, não é suficiente.
 2. Confirme: "Publicar a versão atual desta página? Ela ficará acessível sem conta, por um
    endereço público."
 
-A página passa a existir num endereço no formato **`/p/<código>`**, que aparece no editor como o
-link **"Ver página pública"**.
+A página passa a existir num endereço no formato **`/p/<código>`**, que aparece como o link
+**"Ver página pública"** — tanto no editor quanto na página aberta em leitura, sempre que houver
+publicação no ar. Para pegar o link de uma página publicada semanas atrás, basta abri-la.
 
 {: .important }
 **"Público" quer dizer público mesmo: qualquer pessoa com o link lê a página, sem entrar no
