@@ -22,7 +22,9 @@ mesma regra que barraria você no quadro.
 
 ## Acessar
 
-Clique no ícone **"Assistente"**, no topo do aplicativo, ao lado do sino de avisos.
+Clique no botão redondo no canto inferior direito da tela — ele fica presente em qualquer tela de
+dentro do produto. A conversa abre em uma janela por cima da tela em que você está; fechando a
+janela, você continua exatamente onde estava, sem precisar navegar de volta.
 
 ## Conversar
 

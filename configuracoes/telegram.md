@@ -23,12 +23,21 @@ mostra: "O Telegram não está disponível neste serviço."
 
 1. No seu [perfil](/configuracoes/perfil/), no cartão **"Telegram"**, clique em **"Ligar
    Telegram"**.
-2. A tela mostra um link e o aviso: "Abra este link no celular ou no computador e toque em
-   'Iniciar' — o código vale por 10 minutos e só pode ser usado uma vez."
-3. Abra o link e toque em **"Iniciar"** dentro do Telegram.
+2. A tela mostra dois botões — **"Abrir no aplicativo do Telegram"** e **"Abrir no Telegram
+   Web"** — e o aviso: "O Telegram vai abrir — é só tocar em 'Iniciar'. O código vale por 10
+   minutos e só pode ser usado uma vez."
+3. Clique no botão que combina com o aparelho em que você está e toque em **"Iniciar"** dentro do
+   Telegram.
 
-Concluído o vínculo, o robô responde: "Pronto — seu Telegram está ligado à sua conta no Realiza."
-Se você participa de mais de uma organização, ele pede para você escolher com qual quer falar
+{: .tip }
+**Vai ligar de outro aparelho** — por exemplo, gerou o link no computador mas quer ligar pelo
+celular? Use o endereço copiável que aparece discretamente abaixo dos dois botões, com **"Vai
+ligar de outro aparelho? Use este endereço:"** e um botão **"Copiar"** (que vira **"Copiado!"**
+depois do clique).
+
+Concluído o vínculo, o robô responde: "Pronto — seu Telegram está ligado à sua conta no Realiza." A
+tela do perfil reconhece sozinha que o vínculo foi concluído, sem precisar recarregar a página. Se
+você participa de mais de uma organização, o robô pede para você escolher com qual quer falar
 antes de responder qualquer pergunta.
 
 ## Escolher a organização, pelo Telegram

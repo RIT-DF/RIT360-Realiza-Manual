@@ -169,9 +169,10 @@ de [Meu trabalho](/trabalho/meu-trabalho/). O canal muda; a obrigação, não.
 
 ### Onde está o assistente que responde por conversa?
 
-No ícone **"Assistente"**, no topo do aplicativo, e também pelo [Telegram](/configuracoes/telegram/)
-se você ligar o seu. Escreva uma pergunta ou um pedido, como "o que está atrasado esta semana" ou
-"cria uma tarefa para ligar para o depósito". Veja [Assistente](/assistente/).
+No botão redondo no canto inferior direito da tela, presente em qualquer tela do produto, e também
+pelo [Telegram](/configuracoes/telegram/) se você ligar o seu. Escreva uma pergunta ou um pedido,
+como "o que está atrasado esta semana" ou "cria uma tarefa para ligar para o depósito". Veja
+[Assistente](/assistente/).
 
 ### O assistente pode fazer algo que eu não posso?
 

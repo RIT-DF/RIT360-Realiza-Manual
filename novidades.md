@@ -17,6 +17,21 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 22 de setembro de 2026 — versão 0.13.0
+
+### Alterado
+
+- **O Assistente deixou de ser uma tela à parte.** Agora ele abre num botão redondo no canto
+  inferior direito, presente em qualquer tela do produto — clique para conversar, e feche para
+  voltar exatamente para onde você estava, sem precisar navegar de volta. Veja
+  [Assistente](/assistente/).
+- **Ligar o Telegram ficou mais rápido.** Em vez de só mostrar um link para copiar, a tela agora
+  oferece dois botões — um para abrir direto no aplicativo do Telegram, outro para abrir no
+  Telegram Web — e reconhece sozinha quando o vínculo foi concluído. Veja
+  [Telegram](/configuracoes/telegram/).
+
+---
+
 ## 22 de setembro de 2026 — versão 0.12.0
 
 ### Adicionado
