@@ -122,6 +122,18 @@ momento específico.
 mascarada. Se precisar trocar uma credencial, é preciso gerar uma nova no
 provedor e cadastrá-la de novo; não há como recuperar a anterior por aqui.
 
+## Últimas tentativas
+
+Esta tela tem a mesma seção **"Últimas tentativas"** que existe nos provedores de uma organização:
+as chamadas recentes, com o provedor, **"sucesso"** ou **"falhou"**, data e hora, e a mensagem que
+o provedor devolveu quando falhou. É por onde se descobre **por que** o assistente não respondeu,
+em vez de tentar e ver no que dá.
+
+Aqui ela mostra **só as tentativas dos provedores do serviço** — nunca as de organização nenhuma.
+Para ver as de uma organização específica, o caminho é
+[Inteligência artificial na sua organização](/configuracoes/inteligencia-artificial/), e quem
+enxerga aquilo é quem administra aquela organização.
+
 ## Quando dá errado
 
 - Cadastrar com uma credencial inválida não impede o cadastro — o cadastro

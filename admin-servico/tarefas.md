@@ -38,7 +38,7 @@ Cada rotina aparece num cartão, com:
 - O **nome** e a **descrição** da rotina.
 - A **frequência** com que ela roda.
 - Um selo de estado: **"Nunca rodou"**, **"Falhou"**, **"Reprocessando"**,
-  **"Deu certo"** ou **"Não foi possível consultar"**.
+  **"Deu certo"**, **"Represada"** ou **"Não foi possível consultar"**.
 - Quando já rodou ao menos uma vez: a data e hora da última execução, e
   quanto tempo ela durou.
 - Quando a rotina alimenta uma fila (eventos de um módulo, por exemplo): o
@@ -53,6 +53,22 @@ A mesma tela no celular:
 
 ![Tela Tarefas agendadas, com a rotina do espelho em "Falhou" mostrando o botão "Conferir com a origem agora" — no celular](/assets/capturas/admin-servico-tarefas-celular.png){: style="max-width:375px" }
 {: .mt-4 }
+
+## Quando a fila represa
+
+**"Represada"** avisa que a rotina não está falhando — está **acumulando**. A linha mostra:
+
+**"[quantidade] evento(s) esperando processamento — mais tempo ou mais itens que o normal. O
+consumidor de fundo deste módulo pode estar parado."**
+
+### Por que isto importa
+
+Uma rotina que falha avisa. Uma que simplesmente **parou de consumir a fila** não avisava: os
+eventos se acumulavam, e as telas seguiam mostrando o número de antes, com cara de número certo.
+Foi assim que a contagem de espaços apareceu zerada por horas, sem nada na tela indicar problema.
+
+Vendo "Represada", avise quem cuida do servidor: não se resolve por esta tela, e reprocessar não
+adianta enquanto o consumidor estiver parado.
 
 {: .important }
 **"Nunca rodou" e "Não foi possível consultar" não são a mesma coisa.**

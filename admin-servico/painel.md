@@ -20,7 +20,9 @@ link que leva direto à tela onde se resolve, com a contagem ao lado:
 - **"Pedidos de organização"** — pedidos de criação esperando você aprovar ou recusar.
 - **"Feedbacks sem resposta"** — o que as pessoas mandaram de dentro do produto e ninguém
   respondeu.
-- **"Rotina automática que falhou"** — alguma rotina da instalação parou com falha.
+- **"Rotina automática que falhou ou está represada"** — alguma rotina da instalação parou
+  com falha, ou parou de consumir a fila e está acumulando. Veja
+  [Tarefas agendadas](/admin-servico/tarefas/).
 - **"Cópia de segurança atrasada"** — a última cópia do banco passou de 48 horas. A linha diz
   desde quando: **"Cópia de segurança atrasada — última em [data e hora]"**, ou **"Cópia de
   segurança atrasada — nunca rodou"** quando nenhuma cópia foi reportada ainda.
@@ -75,6 +77,13 @@ A mesma tela no celular:
 - **"Espaços"** — quantos espaços **ativos** existem ao todo, somando projetos e
   operações contínuas de todas as organizações. Espaço arquivado **não** entra
   nesta conta: arquivar um espaço faz o número cair.
+
+{: .important }
+**O número de espaços avisa quando pode estar errado.** Havendo diferença entre a contagem e a
+origem, aparece logo abaixo dele: **"Este número pode estar desatualizado — a comparação com a
+origem encontrou diferença. Veja em Tarefas agendadas."**, com o nome da tela como link. **Sem
+diferença, a frase não existe** — a ausência dela é a afirmação de que o número está em dia.
+
 
 ## Quando as contagens não carregam
 
