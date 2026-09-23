@@ -7,11 +7,12 @@ permalink: /admin-servico/destinos-backup/
 
 # Destinos da cópia de segurança
 
-Esta tela cadastra **para onde a cópia de segurança do banco é enviada, fora
-do servidor original** — o que faltava na [página sobre a cópia de
-segurança](/admin-servico/copia-de-seguranca/). Antes, levar a cópia para
-longe do servidor dependia inteiramente de uma etapa feita à parte pela
-equipe técnica; agora isso tem uma tela própria, com teste de verdade.
+Esta tela cadastra **para onde a cópia de segurança (o backup) do banco é
+enviada, fora do servidor original** — o que faltava na [página sobre a
+cópia de segurança](/admin-servico/copia-de-seguranca/). Antes, levar a
+cópia para longe do servidor dependia inteiramente de uma etapa feita à
+parte pela equipe técnica; agora isso tem uma tela própria, com teste de
+verdade.
 
 ## Por que isto importa
 

@@ -7,8 +7,8 @@ permalink: /trabalho/arquivar-e-reabrir/
 
 # Arquivar e reabrir um espaço
 
-Quando um projeto termina, ou uma operação contínua para de fazer sentido, você arquiva o
-espaço em vez de deixá-lo solto na lista, ainda cobrando atenção.
+Quando um projeto termina — ou você simplesmente quer encerrá-lo, ou uma operação contínua para de
+fazer sentido —, você arquiva o espaço em vez de deixá-lo solto na lista, ainda cobrando atenção.
 
 ## Arquivar não é excluir
 

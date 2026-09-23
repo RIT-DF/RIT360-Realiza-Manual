@@ -1,11 +1,11 @@
 ---
-title: "Propor novas datas"
+title: "Reprogramar o prazo de uma tarefa"
 nav_order: 13
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/reprogramar-prazo/
 ---
 
-# Propor novas datas
+# Reprogramar o prazo de uma tarefa
 
 Depois que uma tarefa já tem um prazo acordado, ninguém muda esse prazo sozinho: qualquer mudança
 passa por uma proposta de reprogramação, que fica pendente até alguém decidir. Isso existe para que

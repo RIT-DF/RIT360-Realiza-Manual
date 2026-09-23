@@ -13,7 +13,9 @@ privada, nunca dentro de um grupo.
 ## Por que isto importa
 
 Nem sempre você está com o aplicativo aberto. Com o Telegram ligado, você pergunta ao assistente
-"o que está atrasado hoje" ou pede para criar uma tarefa direto do celular, sem abrir o navegador.
+"o que está atrasado hoje" ou pede para criar uma tarefa direto do celular, sem abrir o navegador —
+e também dúvidas de uso, tipo "como eu arquivo um espaço", que ele responde consultando o
+[manual](/assistente/#tirar-duvida-sobre-como-usar-o-realiza).
 
 {: .note }
 Este cartão só aparece se o serviço tiver o Telegram habilitado. Onde não estiver, o cartão

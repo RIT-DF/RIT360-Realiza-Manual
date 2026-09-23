@@ -1,11 +1,11 @@
 ---
-title: "Tarefas que se repetem e modelos de ciclo"
+title: "Tarefas recorrentes e modelos de ciclo"
 nav_order: 17
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/recorrencias/
 ---
 
-# Tarefas que se repetem e modelos de ciclo
+# Tarefas recorrentes e modelos de ciclo
 
 Trabalho de organização social tem muita coisa que volta: a prestação de contas mensal, o boletim
 quinzenal, o relatório de fim de campanha. A aba **"Recorrências"** existe para você não recriar a

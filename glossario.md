@@ -142,7 +142,7 @@ produto usa enquanto ninguém pediu aprovação. Ver
 Um conjunto de tarefas diferentes que sempre acontecem juntas quando um ciclo de trabalho começa
 — cada uma com o prazo contado a partir do início do ciclo. Diferente de **recorrência** (que
 repete a mesma tarefa sozinha), o modelo de ciclo é instanciado de novo a cada ciclo. Ver
-[Tarefas que se repetem e modelos de ciclo](/trabalho/recorrencias/).
+[Tarefas recorrentes e modelos de ciclo](/trabalho/recorrencias/).
 
 ## Módulo
 
@@ -191,7 +191,7 @@ Tipo de espaço para trabalho com objetivo definido e encerramento previsto.
 
 A repetição automática de uma tarefa, num intervalo fixo (semanal ou mensal) até uma data. Cada
 ocorrência nasce como uma tarefa comum, com andamento próprio — concluir uma não encerra a série.
-Ver [Tarefas que se repetem e modelos de ciclo](/trabalho/recorrencias/).
+Ver [Tarefas recorrentes e modelos de ciclo](/trabalho/recorrencias/).
 
 ## Relatório
 
@@ -203,7 +203,7 @@ depois de alguém revisar — publicar **congela** o conteúdo. Ver
 ## Reprogramação
 
 Uma proposta de novas datas para uma tarefa, que fica pendente até alguém
-aprovar ou recusar. Ver [Propor novas datas](/trabalho/reprogramar-prazo/).
+aprovar ou recusar. Ver [Reprogramar o prazo de uma tarefa](/trabalho/reprogramar-prazo/).
 
 ## Subtarefa
 

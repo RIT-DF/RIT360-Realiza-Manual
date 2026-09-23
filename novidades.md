@@ -17,6 +17,18 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 23 de setembro de 2026 — versão 0.17.0
+
+### Adicionado
+
+- **Agora dá para perguntar ao assistente como fazer alguma coisa no Realiza**, tanto no app
+  quanto pelo Telegram. Pergunte, por exemplo, "como eu arquivo um espaço?" ou "o que é uma
+  reprogramação de prazo?", e ele responde com a parte do manual que explica, mais o link para ler
+  o resto. Veja [Tirar dúvida sobre como usar o
+  Realiza](/assistente/#tirar-duvida-sobre-como-usar-o-realiza).
+
+---
+
 ## 23 de setembro de 2026 — versão 0.16.0
 
 ### Adicionado

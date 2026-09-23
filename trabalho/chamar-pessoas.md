@@ -7,8 +7,9 @@ permalink: /trabalho/chamar-pessoas/
 
 # Chamar pessoas para o espaço
 
-Um espaço só é útil com gente dentro dele. Aqui você decide quem participa e o que cada pessoa
-pode fazer — desde quem coordena tudo até quem só precisa acompanhar de fora.
+Um espaço só é útil com gente dentro dele. Aqui você dá acesso ao espaço para quem precisa
+participar e decide o que cada pessoa pode fazer — desde quem coordena tudo até quem só precisa
+acompanhar de fora.
 
 ## Passo a passo
 

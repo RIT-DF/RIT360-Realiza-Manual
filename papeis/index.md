@@ -36,4 +36,4 @@ num espaço sem que todo administrador o leia.
 - [Quem executa o trabalho](/papeis/executor/)
 - [Quem aprova](/papeis/aprovador/)
 - [Quem é convidado de fora](/papeis/convidado/)
-- [Quem administra o serviço](/papeis/administrador-do-servico/)
+- [Guia de quem administra o serviço](/papeis/administrador-do-servico/)

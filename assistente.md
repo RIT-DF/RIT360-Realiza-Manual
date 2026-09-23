@@ -42,6 +42,48 @@ para o depósito confirmando a entrega das caixas, prazo sexta". O assistente pr
 mostra um resumo do que vai fazer, esperando você confirmar antes de criar qualquer coisa de
 verdade.
 
+## Tirar dúvida sobre como usar o Realiza
+
+O assistente também responde "como eu faço X" ou "o que significa Y" — buscando a resposta no
+manual publicado, nunca inventando um passo que não existe ali.
+
+### Por que isto importa
+
+Em vez de procurar a página certa do manual, você pergunta com suas próprias palavras e o
+assistente traz o trecho que responde, junto com o link para ler o resto.
+
+### Perguntar
+
+1. Escreva a dúvida como preferir — por exemplo, "como eu arquivo um espaço?" ou "o que é uma
+   reprogramação de prazo?".
+2. O assistente responde com o título da seção do manual que respondeu, o trecho que explica, e
+   "Veja mais em:" com o link para a página completa.
+
+### Exemplo
+
+Joana Martins, voluntária na Campanha do Agasalho 2026, pergunta ao assistente: "como eu faço para
+reabrir uma tarefa que já concluí sem querer?". O assistente responde com o trecho do manual que
+explica o passo, e o link para a página inteira, caso ela queira ver mais.
+
+### Quando não encontra ou não consegue
+
+- **"Não encontrei isso no manual. Você pode dar uma olhada no índice completo: \<endereço do
+  manual\>"** — nenhuma seção do manual respondeu à pergunta. Tente reformular com outras
+  palavras, ou abra o índice pelo link.
+- **"Não consegui consultar o manual agora — tente de novo em instantes."** — o manual está
+  temporariamente fora do alcance do assistente. Tente de novo em alguns instantes.
+- **"Sobre qual dúvida de uso do Realiza você quer saber?"** — a pergunta chegou sem nenhum
+  conteúdo reconhecível. Escreva a dúvida com mais detalhe.
+
+### Dicas e armadilhas
+
+- **A resposta é sempre um trecho do manual, nunca uma explicação inventada.** Não encontrando
+  nada, o assistente diz isso — não tenta "adivinhar" um passo que o manual não descreve.
+- **Funciona nos dois canais**, no app e pelo Telegram, do mesmo jeito.
+- Pergunta que mistura dúvida com pedido de ação — por exemplo, "como arquivo um espaço? arquiva o
+  Horta pra mim" — também funciona: o assistente responde a dúvida e, entendendo que você também
+  quer a ação, oferece a prévia dela junto, esperando sua confirmação como de costume.
+
 ## Confirmar ou cancelar uma ação
 
 Quando o pedido envolve uma ação de verdade — criar uma tarefa, por exemplo —, o assistente nunca

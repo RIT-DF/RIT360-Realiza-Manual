@@ -42,7 +42,7 @@ nunca vai mostrar essas palavras para você.
 ## Combinar e encerrar
 
 13. [Conversar dentro da tarefa](/trabalho/conversas/)
-14. [Propor novas datas](/trabalho/reprogramar-prazo/)
+14. [Reprogramar o prazo de uma tarefa](/trabalho/reprogramar-prazo/)
 15. [Meu trabalho](/trabalho/meu-trabalho/)
 16. [Arquivar e reabrir um espaço](/trabalho/arquivar-e-reabrir/)
 
@@ -53,7 +53,7 @@ nenhuma.
 
 17. [Pedir uma tarefa, sem poder criar direto](/trabalho/pedidos/) — quando o espaço tem triagem
     ligada
-18. [Tarefas que se repetem e modelos de ciclo](/trabalho/recorrencias/)
+18. [Tarefas recorrentes e modelos de ciclo](/trabalho/recorrencias/)
 19. [Indicadores do espaço](/trabalho/indicadores/)
 20. [Relatórios do espaço](/trabalho/relatorios/)
 21. [Documentos e wiki do espaço](/trabalho/documentos-e-wiki-do-espaco/)

@@ -1,11 +1,11 @@
 ---
-title: "Quem administra o serviço"
+title: "Guia de quem administra o serviço"
 nav_order: 6
 parent: "Guias por papel"
 permalink: /papeis/administrador-do-servico/
 ---
 
-# Quem administra o serviço
+# Guia de quem administra o serviço
 
 Você cuida da instalação do Realiza — a que atende todas as organizações. É um
 papel de operação, diferente de tudo o mais neste manual: você mantém o serviço

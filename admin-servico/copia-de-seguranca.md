@@ -8,8 +8,9 @@ permalink: /admin-servico/copia-de-seguranca/
 # Cópia de segurança
 
 Na administração geral, o cartão **"Cópia de segurança do banco"** mostra o
-resultado da cópia de segurança do banco de dados do RIT360 Realiza — a rotina
-que existe para que os dados do produto não se percam se o servidor falhar.
+resultado da cópia de segurança (também chamada de **backup**) do banco de
+dados do RIT360 Realiza — a rotina que existe para que os dados do produto
+não se percam se o servidor falhar.
 Logo abaixo do título, o cartão explica: **"Roda sozinha, de madrugada, fora
 do produto. Aqui só se vê o resultado que a última rodada reportou."**
 

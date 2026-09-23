@@ -36,7 +36,7 @@ que você precisa saber e nada mais:
 | executa as tarefas | [Quem executa o trabalho](/papeis/executor/) |
 | aprova o material produzido | [Quem aprova](/papeis/aprovador/) |
 | é de fora e foi convidado para acompanhar ou aprovar | [Quem é convidado de fora](/papeis/convidado/) |
-| cuida da instalação do Realiza | [Quem administra o serviço](/papeis/administrador-do-servico/) |
+| cuida da instalação do Realiza | [Guia de quem administra o serviço](/papeis/administrador-do-servico/) |
 
 ## O caminho completo, do começo ao fim
 
