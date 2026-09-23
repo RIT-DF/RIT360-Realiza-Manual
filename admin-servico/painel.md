@@ -3,25 +3,67 @@ title: "Visão geral"
 nav_order: 1
 parent: "Administração do serviço"
 permalink: /admin-servico/painel/
-palavras_chave: "contagens gerais, visão geral, quantas organizações, quantos espaços, limite de alcance, cópia de segurança"
+palavras_chave: "pendências, o que precisa de decisão, pedidos esperando, feedback sem resposta, rotina falhou, cópia atrasada, contagens gerais, quantas organizações, quantos espaços"
 ---
 
 # Visão geral
 
-A aba **"Visão geral"** é a primeira coisa que você vê ao abrir a administração
-do serviço.
-Ele existe para dar um retrato rápido de tamanho — quantas organizações usam o
-produto, quantas pessoas, quantos espaços — sem abrir o conteúdo de nenhuma
+A aba **"Visão geral"** é a primeira coisa que você vê ao abrir a administração do serviço. Ela
+responde duas perguntas, nesta ordem: **o que está esperando você**, e **qual o tamanho do
+serviço**.
+
+## Pendências
+
+O primeiro cartão da tela, **"Pendências"**, lista o que precisa de decisão sua. Cada item é um
+link que leva direto à tela onde se resolve, com a contagem ao lado:
+
+- **"Pedidos de organização"** — pedidos de criação esperando você aprovar ou recusar.
+- **"Feedbacks sem resposta"** — o que as pessoas mandaram de dentro do produto e ninguém
+  respondeu.
+- **"Rotina automática que falhou"** — alguma rotina da instalação parou com falha.
+- **"Cópia de segurança atrasada"** — a última cópia do banco passou de 48 horas. A linha diz
+  desde quando: **"Cópia de segurança atrasada — última em [data e hora]"**, ou **"Cópia de
+  segurança atrasada — nunca rodou"** quando nenhuma cópia foi reportada ainda.
+
+### Por que isto importa
+
+Antes, esta tela abria com contagens — quantas organizações, quantas pessoas — que não pedem ação
+nenhuma. Quem administra o serviço não precisa saber o tamanho dele todo dia; precisa saber se
+alguém está esperando uma decisão. Por isso o que espera vem primeiro, e os números desceram.
+
+**Item zerado some da lista.** A tela não mostra "0 pedidos" — se não há pedido esperando, aquela
+linha simplesmente não existe, e o que sobra é o que precisa de você.
+
+### Quando não há nada esperando
+
+Estando tudo zerado, a seção continua na tela e mostra:
+
+**"Nenhuma pendência agora — tudo em dia."**
+
+{: .important }
+**Essa frase só aparece quando os quatro itens foram apurados com sucesso.** Falhando a apuração
+de um deles, ela não aparece — mesmo que todo o resto esteja zerado. É deliberado: uma tela que diz
+"tudo em dia" porque a consulta falhou é pior do que uma tela que não diz nada.
+
+### Quando um item não pôde ser apurado
+
+O item aparece com o rótulo **"Não foi possível apurar"** no lugar da contagem, e continua sendo um
+link — para você abrir a tela e olhar por conta própria. É o terceiro estado, e o mais fácil de
+confundir com "está tudo bem": **não é**. Significa que ninguém sabe, nem você nem a tela.
+
+## Números do serviço
+
+Abaixo das pendências, o cartão **"Números do serviço"** dá o retrato de tamanho — quantas
+organizações usam o produto, quantas pessoas, quantos espaços — sem abrir o conteúdo de nenhuma
 delas.
 
-## Passo a passo
+![Aba "Visão geral" da administração do serviço, com o cartão "Pendências" em cima e "Números do serviço" abaixo](/assets/capturas/admin-servico-painel-desktop.png)
+{: .mt-4 }
 
-1. Na administração do serviço, abra a aba **"Visão geral"** — é a que abre por padrão.
-2. As três contagens aparecem em **"Números do serviço"**.
+A mesma tela no celular:
 
-<!-- CAPTURA PENDENTE: a tela mudou na 0.20.0 (menu de abas) e os títulos ainda vão ser
-     normalizados (issue #168). Refazer depois disso, e sem enquadrar a contagem de espaços
-     enquanto a issue #167 não sair — ela mostra zero havendo espaços. -->
+![Aba "Visão geral" da administração do serviço, com as pendências em cima e as contagens abaixo — no celular](/assets/capturas/admin-servico-painel-celular.png){: style="max-width:375px" }
+{: .mt-4 }
 
 ## O que cada número conta
 
@@ -58,13 +100,10 @@ enxerga o próprio conteúdo.
 
 ## O que mais existe nesta aba
 
-Nada além disso: a **"Visão geral"** tem só o cartão **"Números do serviço"**.
-Ela é um retrato de tamanho, não um painel de controle.
+Nada além dos dois cartões: **"Pendências"** e **"Números do serviço"**.
 
 Todo o resto — organizações, acesso, serviços, manutenção e feedbacks — fica nas
 outras abas. O [índice desta seção](/admin-servico/) lista o que há em cada uma.
-O estado da última cópia de segurança, por exemplo, fica na aba
-**"Manutenção"**; veja [Cópia de segurança](/admin-servico/copia-de-seguranca/).
 
 ## Quando dá errado
 

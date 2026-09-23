@@ -78,12 +78,12 @@ não pode ser responsável — só quem executa ou gerencia este espaço."
      editado diretamente **antes de existir pela primeira vez**; depois disso, mudar o prazo
      passa a ser por reprogramação (veja abaixo).
 
-![Painel de uma tarefa aberto, com datas, subtarefas, dependências e materiais](/assets/capturas/detalhe-tarefa-desktop.png)
+![Painel de uma tarefa aberto sobre o quadro, com as seções Informações, Datas e "Responsável e etapa" na ordem, mostrando os dois botões de salvar e a seção que não tem botão](/assets/capturas/detalhe-tarefa-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Painel de uma tarefa aberto, com datas, subtarefas, dependências e materiais — no celular](/assets/capturas/detalhe-tarefa-celular.png){: style="max-width:375px" }
+![Painel de uma tarefa aberto, com as seções Informações, Datas e "Responsável e etapa" na ordem — no celular](/assets/capturas/detalhe-tarefa-celular.png){: style="max-width:375px" }
 
 {: .note }
 Depois que o prazo acordado existe uma vez, o campo fica desabilitado e a tela mostra: "Já existe
@@ -94,7 +94,9 @@ trabalho](/trabalho/meu-trabalho/) para o selo "Reprogramação de prazo pendent
 ## Como o painel de detalhe grava
 
 No painel da tarefa, **o que você digita só é gravado quando você clica em salvar**; o que você
-escolhe numa lista é gravado na hora.
+escolhe numa lista é gravado na hora. As seções estão arrumadas nessa ordem, de cima para baixo:
+primeiro **"Informações"** e **"Datas"**, que têm botão, e logo abaixo **"Responsável e etapa"**,
+que não tem.
 
 ### Por que isto importa
 
@@ -114,8 +116,13 @@ por ele que você enxerga que existe alteração pendente.
 
 ### O que grava sozinho
 
-**"Responsável"** e a etapa da tarefa gravam no instante em que você escolhe, sem botão — são
-escolhas de lista, em que não há texto a perder.
+Na seção **"Responsável e etapa"**, os dois campos gravam no instante em que você escolhe. A
+própria tela avisa, logo abaixo do título da seção:
+
+**"Estes dois campos são salvos assim que você escolhe — não precisam de botão."**
+
+São escolhas de lista, em que não há texto a perder — por isso não faz sentido pedir um clique a
+mais. É também nessa seção que fica o botão **"Remover tarefa"**.
 
 ### Fechar com alteração pendente
 
@@ -153,7 +160,8 @@ aparece um "pronto" único que esconderia uma recusa no meio.
 
 ## Remover uma tarefa
 
-No painel de detalhe da tarefa, clique em **"Remover tarefa"**. A confirmação avisa: **"A tarefa
+No painel de detalhe da tarefa, na seção **"Responsável e etapa"**, clique em
+**"Remover tarefa"**. A confirmação avisa: **"A tarefa
 '[título]' será apagada, com suas mensagens e material anexado. Esta ação não pode ser
 desfeita."**
 

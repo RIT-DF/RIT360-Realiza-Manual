@@ -32,8 +32,8 @@ clique — não é preciso voltar à primeira tela.
 
 ## O que você encontra aqui, por aba
 
-**Visão geral** — [as contagens do serviço](/admin-servico/painel/): quantas organizações,
-quantas pessoas e quantos espaços.
+**Visão geral** — [o que está esperando decisão sua](/admin-servico/painel/) e, abaixo, as
+contagens do serviço: quantas organizações, quantas pessoas e quantos espaços.
 
 **Organizações**
 - [Organizações](/admin-servico/organizacoes/) — a lista de todas as organizações do serviço, o
