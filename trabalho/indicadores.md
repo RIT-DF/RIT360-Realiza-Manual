@@ -17,6 +17,14 @@ período, para você ver a evolução e para ele entrar automaticamente nos
 Indicadores são dado de trabalho interno: quem é **membro** ou **administrador** da organização vê
 e mexe neles; quem foi convidado de fora não os vê.
 
+![Aba "Indicadores" de um espaço, com um indicador cadastrado e os botões de ver os valores e remover](/assets/capturas/indicadores-lista-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Aba "Indicadores" de um espaço, com um indicador cadastrado — no celular](/assets/capturas/indicadores-lista-celular.png){: style="max-width:375px" }
+{: .mt-4 }
+
 ## Criar um indicador
 
 1. Na aba **"Indicadores"**, clique em **"Novo indicador"**.
