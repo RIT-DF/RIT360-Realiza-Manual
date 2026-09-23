@@ -16,7 +16,12 @@ outra organização é que o Realiza troca para ela.
 
 No menu, é a tela que abre com o título **"Meu trabalho"**.
 
-<!-- CAPTURA: rota=/painel | o-que-mostrar=no desktop, tela completa com o campo de busca vazio, os três filtros ("Organização", "Espaço", "Prazo") acima da lista, a coluna "Tarefas" à esquerda com pelo menos três linhas mostrando as três tags de estado ("Atrasada", "Aguardando você", "Esperando outra pessoa"), e a coluna da direita com os três cartões "Movimento nos meus espaços", "Agenda" e "Conversas" (com "Menções" e "Últimas conversas"); no celular, a mesma tela em uma coluna só, com a lista de tarefas primeiro (em formato de cartão, não de tabela) e o começo do cartão "Movimento nos meus espaços" logo abaixo | arquivo=painel-visao-geral-desktop.png e painel-visao-geral-celular.png -->
+![Tela "Meu trabalho" com a lista de tarefas mostrando as etiquetas "Atrasada", "Aguardando você" e "Esperando outra pessoa", e à direita os cartões "Movimento nos meus espaços", "Agenda" e "Conversas"](/assets/capturas/painel-visao-geral-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular, com a lista de tarefas primeiro:
+
+![Tela "Meu trabalho" no celular, em uma coluna só, com a lista de tarefas primeiro e os cartões de contexto logo abaixo](/assets/capturas/painel-visao-geral-celular.png){: style="max-width:375px" }
 
 ## Por que isto importa
 
@@ -99,6 +104,13 @@ Traz as colunas **"Tipo"**, **"Nome"**, **"Espaço"** e **"Organização"**, com
 página do espaço ou lista de espaços daquele cliente.
 
 Sem nenhum resultado, o cartão mostra: `Nada encontrado para "<termo digitado>".`
+
+![Cartão "Resultados da busca" com o termo "Aroeira" digitado, mostrando uma tarefa e um cliente encontrados](/assets/capturas/painel-busca-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Cartão "Resultados da busca" no celular, com o termo "Aroeira" digitado](/assets/capturas/painel-busca-celular.png){: style="max-width:375px" }
 
 ## Movimento, agenda e conversas
 
@@ -188,4 +200,9 @@ conversa interna da equipe não aparece para ela em lugar nenhum do painel. Vale
 **"Menções"**: só aparecem ali as vezes em que alguém a citou na conversa compartilhada — ninguém
 consegue mencioná-la na conversa interna, porque ela não alcança essa aba.
 
-<!-- CAPTURA: rota=/painel | o-que-mostrar=painel de uma pessoa convidada de fora, restrito ao espaço "Campanha do Agasalho 2026" — busca vazia, filtro de "Organização" já travado numa única organização, lista de tarefas e cartões de contexto mostrando só itens desse espaço | arquivo=painel-convidado-desktop.png e painel-convidado-celular.png -->
+![Painel de Beatriz Lima, convidada de fora, mostrando só a tarefa e os cartões de contexto do espaço "Campanha do Agasalho 2026"](/assets/capturas/painel-convidado-desktop.png)
+{: .mt-4 }
+
+A mesma tela no celular:
+
+![Painel de Beatriz Lima no celular, restrito ao espaço "Campanha do Agasalho 2026"](/assets/capturas/painel-convidado-celular.png){: style="max-width:375px" }
