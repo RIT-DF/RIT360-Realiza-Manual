@@ -93,7 +93,8 @@ explica o passo, e o link para a página inteira, caso ela queira ver mais.
 ## Confirmar ou cancelar uma ação
 
 Quando o pedido envolve uma ação de verdade — criar uma tarefa, por exemplo —, o assistente nunca
-executa direto. Ele mostra uma prévia com dois botões:
+executa direto. Ele mostra a prévia na própria mensagem, terminando em "Confirma?", e logo abaixo
+um cartão com a pergunta **"Confirma a ação acima?"** e dois botões:
 
 - **"Confirmar"** — só agora a ação acontece.
 - **"Cancelar"** — nada é feito, e a prévia some da conversa.
