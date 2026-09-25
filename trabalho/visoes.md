@@ -73,6 +73,8 @@ Acima da grade do mês, o botão discreto **"Assinar agenda"** leva estes mesmos
 para o Google Agenda ou para o calendário do celular — veja [Levar sua agenda para o Google ou
 para o celular](/trabalho/assinar-agenda/).
 
+<!-- CAPTURA A REFAZER: a barra acima da grade ganhou "Novo evento" e "Nova tarefa" na 0.29.0
+     (issue #183), e esta imagem é de antes. Refazer quando o ambiente local estiver no ar. -->
 ![O calendário do espaço, com as tarefas nos dias dos prazos](/assets/capturas/visao-calendario-desktop.png)
 {: .mt-4 }
 

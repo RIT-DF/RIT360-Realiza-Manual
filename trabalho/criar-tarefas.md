@@ -38,7 +38,8 @@ A mesma tela no celular:
 
 ### No calendário
 
-1. Na visão **"Calendário"**, clique no dia em que a tarefa deve ter o prazo.
+1. Na visão **"Calendário"**, clique em **"+T"** no dia em que a tarefa deve ter o prazo — ou em
+   **"Nova tarefa"**, acima da grade do mês, e escolha a data na janela.
 2. Na janela **"Nova tarefa"**, que já mostra "Com prazo em [a data que você clicou]", digite o
    título.
 3. Em **"Responsável (opcional)"**, escolha quem vai executar — ou deixe como está, em **"Sem

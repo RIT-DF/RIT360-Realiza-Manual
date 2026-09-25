@@ -3,7 +3,7 @@ title: "Criar um evento na agenda: reunião ou compromisso"
 nav_order: 7
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/reunioes-na-agenda/
-palavras_chave: "evento, compromisso, reunião, marcar horário, convite, presença, agenda do espaço"
+palavras_chave: "evento, compromisso, reunião, marcar horário, convite, presença, agenda do espaço, novo evento, como criar reunião, onde crio evento"
 ---
 
 # Criar um evento na agenda: reunião ou compromisso
@@ -34,13 +34,26 @@ cria clicando num dia e o que [Criar e organizar tarefas](/trabalho/criar-tarefa
 confirmada — é o que esta página explica. Clicar no dia não escolhe uma das duas por engano: cada
 tipo tem o próprio botão.
 
-Na visão de calendário, cada dia tem dois botões pequenos: **"+T"**, para uma tarefa com prazo
-naquele dia, e **"+E"**, para uma reunião com hora naquele dia. Nas reuniões, o cartão do dia
-mostra o horário de início antes do título; nos prazos, não.
+Há **dois caminhos para criar**, e os dois levam às mesmas janelas:
+
+- **Acima da grade do mês**, ao lado de **"Assinar agenda"**, os botões **"Novo evento"** e
+  **"Nova tarefa"**. Como eles não nascem dentro de um dia, a janela abre com a data para você
+  escolher.
+- **Dentro da célula de cada dia**, dois botões pequenos: **"+T"**, para uma tarefa com prazo
+  naquele dia, e **"+E"**, para uma reunião com hora naquele dia. Estes já vêm com o dia
+  preenchido — é o caminho mais curto quando você já sabe a data.
+
+{: .tip }
+Se você nunca tinha reparado no "+T" e no "+E", não é só você: eles são discretos de propósito,
+para não poluir o calendário. Os botões acima da grade fazem exatamente a mesma coisa e são o
+caminho para quando você não está mirando um dia específico.
+
+Nas reuniões, o cartão do dia mostra o horário de início antes do título; nos prazos, não.
 
 ## Criar uma reunião
 
-1. Na visão **"Calendário"** do espaço, clique em **"+E"** no dia da reunião.
+1. Na visão **"Calendário"** do espaço, clique em **"Novo evento"**, acima da grade do mês — ou
+   em **"+E"** dentro do dia da reunião, se você já sabe a data.
 2. Na janela **"Novo evento"**, preencha:
    - **"Título"**.
    - **"Data"**, **"Início"** e **"Fim"** — a reunião precisa ter hora de começo e de fim.
