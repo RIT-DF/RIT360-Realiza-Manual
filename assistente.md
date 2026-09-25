@@ -2,7 +2,7 @@
 title: "Assistente"
 nav_order: 4.5
 permalink: /assistente/
-palavras_chave: "chatbot, inteligência artificial, telegram, pergunta, criar tarefa por chat, prévia de ação, pedir por escrito, criar tarefa falando, nome do espaço, concluir tarefa pelo assistente, excluir tarefa pelo assistente, reabrir tarefa pelo assistente, comentar tarefa pelo assistente, título da tarefa, responsável por nome, designar responsável pelo assistente, remover participante pelo assistente, listar tarefas por responsável"
+palavras_chave: "chatbot, inteligência artificial, telegram, pergunta, criar tarefa por chat, prévia de ação, pedir por escrito, criar tarefa falando, nome do espaço, concluir tarefa pelo assistente, excluir tarefa pelo assistente, reabrir tarefa pelo assistente, comentar tarefa pelo assistente, título da tarefa, responsável por nome, designar responsável pelo assistente, remover participante pelo assistente, listar tarefas por responsável, etapa da tarefa nova, aprovar entrega pelo assistente, pedir ajuste pelo assistente, nome da entrega, versão da entrega"
 ---
 
 # Assistente
@@ -176,14 +176,22 @@ Confirmar fornecedor de mudas no espaço Horta". Como a organização dela tem d
 de um espaço parecido com \"Horta\": \"Horta Comunitária\", \"Horta Escolar\". Qual deles?"
 Maria responde "a Comunitária", e o assistente mostra a prévia da tarefa, esperando confirmação.
 
+### Dizer a etapa da tarefa nova
+
+Ao criar uma tarefa, você também pode dizer em qual etapa ela deve nascer — por exemplo, "cria a
+tarefa Comprar cobertores na Campanha do Agasalho 2026, em Em andamento". Não dizendo nada, ela
+nasce na etapa padrão do espaço.
+
+Etapa que não existe naquele espaço é recusada, listando as etapas que existem:
+
+> Não encontrei nenhuma etapa chamada "Revisão externa" nesse espaço. As etapas são: "A fazer",
+> "Em andamento".
+
 ### Dicas e armadilhas
 
 - **Quanto mais parecido o nome que você usa com o nome real do espaço, menor a chance de
   ambiguidade.** Citar um trecho distintivo ("Agasalho 2026" em vez de só "Agasalho") já evita boa
   parte das perguntas de desempate.
-- **Entrega ainda não se resolve pelo nome.** Espaço, tarefa e pessoa (veja [Citar a tarefa pelo
-  título](#citar-a-tarefa-pelo-título) e [Citar a pessoa pelo nome](#citar-a-pessoa-pelo-nome),
-  a seguir) já funcionam assim.
 
 ## Citar a tarefa pelo título
 
@@ -374,8 +382,108 @@ responsável Maria Oliveira. Confirma?" Carlos confirma, e o assistente diz o qu
   alguém que ainda não participa, adicione a pessoa primeiro — veja [Chamar pessoas para o
   espaço](/trabalho/chamar-pessoas/).
 - **A pessoa por nome funciona nestas quatro formas de pedido, e só nelas** — listar, criar,
-  designar responsável e remover. **Entrega ainda não se resolve pelo nome** em nenhuma forma;
-  espaço e tarefa, sim, cada um na sua seção acima.
+  designar responsável e remover.
+
+## Citar a entrega pelo nome
+
+Pedindo para aprovar ou pedir ajuste numa entrega, você pode dizer o nome dela em vez de abrir a
+tarefa e procurar a versão certa na tela.
+
+### Por que isto importa
+
+Você não precisa navegar até a tarefa, abrir a seção de materiais e achar a versão certa — basta
+dizer o nome da entrega e a versão, do jeito que você já os reconhece.
+
+### Onde o assistente procura
+
+O assistente procura a entrega **entre as entregas dos espaços em que você participa de
+verdade** — e aqui a regra é mais estreita do que para tarefa. Quem administra a organização encontra tarefas de espaços em que
+não participa, mas **não** encontra entregas desse jeito: administrar amplia o que se **lista**
+nas telas, nunca o **conteúdo** — e entrega é conteúdo. Sem participar de verdade do espaço, a
+resposta é a mesma de "não encontrei" que valeria para um nome inventado, mesmo para quem
+administra.
+
+### Como funciona
+
+1. Diga o que quer fazer, cite a entrega pelo nome e diga a versão — por exemplo, "aprova a
+   versão 2 da entrega Arte final" ou "pede ajuste na versão 3 da entrega Arte final: as cores
+   saíram fora do padrão".
+2. Existindo só uma entrega com esse nome entre as que você alcança, o assistente mostra a
+   prévia, esperando sua confirmação — veja [Confirmar ou cancelar uma
+   ação](#confirmar-ou-cancelar-uma-ação). Por exemplo:
+
+   > Aprovar a versão 2 da entrega "Arte final" (tarefa "Revisar arte", espaço "Campanha do
+   > Agasalho 2026").
+
+   Pedir ajuste leva também o motivo:
+
+   > Pedir ajuste na versão 3 da entrega "Arte final" (tarefa "Revisar arte", espaço "Campanha do
+   > Agasalho 2026"). Motivo: "as cores saíram fora do padrão".
+
+### Restringir a busca pela tarefa
+
+Dizendo também o título da tarefa, a busca pela entrega fica restrita a ela — útil quando o mesmo
+nome de entrega se repete em tarefas diferentes: "aprova a versão 1 da entrega Arte final da
+tarefa Revisar arte".
+
+### A versão é obrigatória
+
+Pedir "aprova a entrega Arte final", sem dizer a versão, não resolve — o assistente não adivinha
+qual versão você quer. Isso é deliberado: no Realiza, a aprovação **sempre** referencia uma
+versão identificada, com confirmação explícita — nunca é consequência de um gesto genérico. É o
+mesmo princípio que vale para [aprovar ou pedir ajuste pela
+tela](/trabalho/aprovar-ou-pedir-ajuste/). Diga a versão junto do pedido.
+
+### Nome ambíguo
+
+Mais de uma entrega com esse nome entre as que você alcança? O assistente pergunta qual:
+
+> Encontrei mais de uma entrega com esse nome: … Qual delas?
+
+Havendo mais de uma entrega com o mesmo nome **na mesma tarefa**, dizer a tarefa não resolve o
+desempate — pelo nome não dá para distinguir:
+
+> Há mais de uma entrega chamada "X" na mesma tarefa — pelo nome não dá para distinguir. Dá para
+> escolher na tela da tarefa.
+
+### Nome que não existe, ou que você não alcança
+
+Nome que não bate com nenhuma entrega que você alcança:
+
+> Não encontrei nenhuma entrega chamada "X". Você tem: "Arte final" (tarefa "Revisar arte",
+> espaço "Campanha do Agasalho 2026"), entre outras.
+
+Não tendo nenhuma entrega nesta organização, a resposta diz isso também:
+
+> Não encontrei nenhuma entrega chamada "X" — e você não tem nenhuma entrega nesta organização.
+
+{: .note }
+Essa mesma resposta também aparece quando a entrega existe, mas está fora do que você alcança —
+inclusive quando você administra a organização mas não participa daquele espaço. O assistente
+nunca lista o que você não pode ver.
+
+### Quando o assistente não consegue verificar
+
+**"Não consegui verificar as entregas agora — pode tentar de novo em instantes?"** — uma falha de
+comunicação impediu a busca. Tente de novo em alguns instantes.
+
+### Exemplo
+
+Beatriz Lima, gestora na Campanha do Agasalho 2026, escreve ao assistente: "aprova a versão 2 da
+entrega Arte final". Como só existe uma entrega com esse nome entre as que ela alcança, o
+assistente mostra a prévia: "Aprovar a versão 2 da entrega 'Arte final' (tarefa 'Revisar arte',
+espaço 'Campanha do Agasalho 2026'). Confirma?" Beatriz confirma, e o assistente registra a
+aprovação em nome dela.
+
+### Dicas e armadilhas
+
+- **A versão é sempre obrigatória** — sem ela, o pedido não resolve, mesmo havendo só uma entrega
+  com aquele nome.
+- **Administrar a organização não amplia o alcance de entrega**, diferente de tarefa. Quem
+  administra sem participar do espaço recebe "não encontrei", exatamente como quem nunca
+  participou.
+- **Dizer a tarefa junto do nome da entrega evita a maior parte das perguntas de desempate** —
+  principalmente quando a mesma entrega se repete em tarefas diferentes.
 
 ## Limites do assistente
 
@@ -384,14 +492,16 @@ responsável Maria Oliveira. Confirma?" Carlos confirma, e o assistente diz o qu
   clicando. Sem a permissão, a recusa que aparece é a mesma que apareceria na tela correspondente.
 - **Só a organização ativa.** O assistente não vê nem mistura dados de outra organização de que
   você participe — a mesma regra que separa as organizações em qualquer outra tela.
-- **Citar pelo nome já funciona para espaço, tarefa e pessoa** — veja [Citar o espaço pelo
-  nome](#citar-o-espaço-pelo-nome), [Citar a tarefa pelo título](#citar-a-tarefa-pelo-título) e
-  [Citar a pessoa pelo nome](#citar-a-pessoa-pelo-nome). **Só entrega por nome ainda não** — para
-  ela, aponte a partir de uma lista que o assistente já tenha mostrado, ou prefira a própria
-  tela.
+- **Citar pelo nome já funciona para espaço, tarefa, pessoa e entrega** — veja [Citar o espaço
+  pelo nome](#citar-o-espaço-pelo-nome), [Citar a tarefa pelo título](#citar-a-tarefa-pelo-título),
+  [Citar a pessoa pelo nome](#citar-a-pessoa-pelo-nome) e [Citar a entrega pelo
+  nome](#citar-a-entrega-pelo-nome).
 - **A busca por pessoa alcança só quem participa do espaço em questão.** Administrar a
   organização amplia o que se lista nas telas, nunca o que o assistente encontra por nome dentro
   de um espaço.
+- **A busca por entrega é ainda mais estreita: só quem participa de verdade do espaço.**
+  Diferente de tarefa, administrar a organização não amplia esse alcance — entrega é conteúdo, e
+  administrar amplia só o que se lista, nunca o conteúdo.
 
 ## Quando a organização desligou a inteligência artificial
 

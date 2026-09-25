@@ -13,6 +13,9 @@ passa a mostrar, na seção "Materiais", o que está esperando a sua decisão. E
 que a aprovação seja um ato explícito, feito por uma pessoa identificada — nunca uma consequência
 de mexer em outra coisa.
 
+Também dá para aprovar ou pedir ajuste citando o nome da entrega ao assistente — veja [Citar a
+entrega pelo nome](/assistente/#citar-a-entrega-pelo-nome).
+
 ## O que a tela mostra
 
 - **"Aguardando aprovação — versão N"**, com a regra entre parênteses: "todos precisam aprovar" ou

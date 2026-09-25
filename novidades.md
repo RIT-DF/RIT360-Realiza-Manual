@@ -17,6 +17,27 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 25 de setembro de 2026 — versão 0.33.0
+
+### Adicionado
+
+- **Agora dá para pedir ao assistente que aprove ou peça ajuste numa entrega citando o nome
+  dela**, sem precisar abrir a tarefa e procurar a versão certa na tela — é a terceira e última
+  fatia da capacidade que já cobria espaço, tarefa e pessoa. Peça, por exemplo, "aprova a versão
+  2 da entrega Arte final" ou "pede ajuste na versão 3 da entrega Arte final: as cores saíram
+  fora do padrão": o assistente sempre mostra a prévia e pede confirmação antes de mudar qualquer
+  coisa. A versão é obrigatória — o assistente não adivinha qual versão você quer, porque
+  aprovação sempre referencia uma versão identificada. A busca é mais estreita que a de tarefa:
+  só encontra entrega de espaço em que você participa de verdade, mesmo para quem administra a
+  organização. Veja [Citar a entrega pelo nome](/assistente/#citar-a-entrega-pelo-nome).
+- **Criar uma tarefa pelo assistente dizendo a etapa agora respeita o que você pediu.** Antes, a
+  etapa informada era ignorada e a tarefa sempre nascia na etapa padrão do espaço, sem nenhum
+  aviso; agora ela nasce na etapa pedida, e etapa que não existe naquele espaço é recusada com a
+  lista das que existem. Veja [Dizer a etapa da tarefa
+  nova](/assistente/#dizer-a-etapa-da-tarefa-nova).
+
+---
+
 ## 25 de setembro de 2026 — versão 0.31.0
 
 ### Adicionado
