@@ -31,22 +31,6 @@ janela, você continua exatamente onde estava, sem precisar navegar de volta.
 Para fechar, use o botão **"Fechar"** (o ✕ no canto do cabeçalho), pressione Esc, ou clique fora da
 janela — as três formas funcionam.
 
-<!-- CAPTURA PENDENTE: janela do assistente, desktop e celular, com uma prévia de ação na tela.
-     As imagens anteriores mostravam a prévia antiga, de uma linha só, e foram removidas; a da
-     0.21.0 cita espaço, prazo e responsável.
-
-     Tentativa de 25/09/2026 (0.30.0): rodei Projeto/bin/capturas/assistente.mjs contra o
-     assistente subido com `npm run dev:ia-de-mentira`, pedindo "cria uma tarefa chamada Comprar
-     mudas no espaço Campanha do Agasalho 2026 com prazo em 25/09/2026" — 4 tentativas em desktop e
-     4 em celular, todas responderam SEM prévia (eco em texto simples). Causa apurada no código: o
-     adaptador de mentira só roteia a palavra-chave "pendência" para uma ferramenta de verdade;
-     qualquer outro pedido, inclusive criar tarefa, cai num eco de texto e nunca produz a prévia
-     "Confirmar"/"Cancelar" que esta captura precisa mostrar. Registrado como
-     RIT360-Realiza-Code#186 (adaptador de mentira não gera prévia de ação). A issue #173
-     (fuso das datas) já foi corrigida — não é mais bloqueio aqui.
-
-     Refazer só depois de #186 resolvida, ou usando um provedor de IA de verdade (gasta cota). -->
-
 ## Conversar
 
 1. No campo **"Mensagem para o assistente"** — o que mostra "Escreva sua mensagem…" enquanto está
@@ -119,6 +103,10 @@ tarefa vai nascer, o prazo e o responsável, quando você tiver dito algum deles
 
 > Criar a tarefa "ligar para o depósito confirmando a entrega das caixas", no espaço "Campanha do
 > Agasalho 2026", com prazo em 25/09/2026. Confirma?
+
+![Janela do assistente com a prévia de uma ação — "Criar a tarefa 'Comprar mudas', no espaço 'Campanha do Agasalho 2026', com prazo em 25/12/2026" — e os botões "Confirmar" e "Cancelar"](/assets/capturas/assistente-janela-desktop.png)
+
+![Janela do assistente com a prévia de uma ação — "Criar a tarefa 'Comprar mudas', no espaço 'Campanha do Agasalho 2026', com prazo em 25/12/2026" — e os botões "Confirmar" e "Cancelar" — no celular](/assets/capturas/assistente-janela-celular.png){: style="max-width:375px" }
 
 As prévias de excluir tarefa e de remover participante dizem de qual espaço; as de reprogramação
 de prazo e de ajuste de entrega dizem o motivo.
