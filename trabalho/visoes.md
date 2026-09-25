@@ -69,18 +69,20 @@ o prazo de tarefa, não.
 Fora criar, mover ou reorganizar tarefas continua sendo feito nas outras duas visões, ou abrindo a
 tarefa diretamente. O calendário não tem arrastar.
 
-Acima da grade do mês, o botão discreto **"Assinar agenda"** leva estes mesmos prazos e reuniões
-para o Google Agenda ou para o calendário do celular — veja [Levar sua agenda para o Google ou
-para o celular](/trabalho/assinar-agenda/).
+Acima da grade do mês fica uma barra com três botões: **"Novo evento"**, **"Nova tarefa"** e
+**"Assinar agenda"** — os dois primeiros criam diretamente (veja [Criar e organizar
+tarefas](/trabalho/criar-tarefas/) e [Criar um evento na agenda: reunião ou
+compromisso](/trabalho/reunioes-na-agenda/)); o terceiro leva estes mesmos prazos e reuniões para o
+Google Agenda ou para o calendário do celular — veja [Levar sua agenda para o Google ou para o
+celular](/trabalho/assinar-agenda/). No celular, a barra quebra em duas linhas: os dois botões de
+criar em cima, "Assinar agenda" embaixo.
 
-<!-- CAPTURA A REFAZER: a barra acima da grade ganhou "Novo evento" e "Nova tarefa" na 0.29.0
-     (issue #183), e esta imagem é de antes. Refazer quando o ambiente local estiver no ar. -->
-![O calendário do espaço, com as tarefas nos dias dos prazos](/assets/capturas/visao-calendario-desktop.png)
+![O calendário do espaço, com a barra "Novo evento" / "Nova tarefa" / "Assinar agenda" e as tarefas nos dias dos prazos](/assets/capturas/visao-calendario-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![O calendário do espaço, com as tarefas nos dias dos prazos — no celular](/assets/capturas/visao-calendario-celular.png){: style="max-width:375px" }
+![O calendário do espaço no celular, com a barra de botões quebrada em duas linhas](/assets/capturas/visao-calendario-celular.png){: style="max-width:375px" }
 
 ## Arrastar e a confirmação de aprovação
 

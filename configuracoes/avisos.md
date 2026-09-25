@@ -24,4 +24,4 @@ um ajuste que pediram na sua entrega. O que muda de canal para canal:
 Para ligar ou desligar cada tipo e cada canal — e ver a lista completa dos tipos de aviso que
 existem hoje, incluindo os que avisam sobre pedidos de triagem, relatórios prontos e exportações
 prontas — veja a seção **"Avisos: o que você recebe e por onde"** em
-[Seu perfil](/configuracoes/perfil/#preferencias-de-avisos).
+[Seu perfil](/configuracoes/perfil/#escolher-o-que-recebe-e-por-onde).

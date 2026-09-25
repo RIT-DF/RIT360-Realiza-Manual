@@ -17,6 +17,220 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 25 de setembro de 2026 — versão 0.31.0
+
+### Adicionado
+
+- **Agora dá para pedir ao assistente uma ação sobre uma pessoa citando o nome dela**, sem
+  precisar abrir a tela de participantes — é a segunda fatia de uma capacidade que ainda vai
+  cobrir entrega. Peça, por exemplo, "quais tarefas são da Maria na Campanha do Agasalho 2026?",
+  "cria a tarefa Montar release na Campanha do Agasalho 2026 para a Maria", "passa a tarefa
+  Revisar arte para a Maria" ou "remove a Maria da Campanha do Agasalho 2026": criar, designar
+  responsável e remover participante sempre mostram a prévia e pedem confirmação antes de mudar
+  qualquer coisa; listar tarefas responde direto, por ser consulta. A busca acontece só entre
+  quem participa do espaço do pedido — quem existe na organização mas não participa daquele
+  espaço não é encontrado por aqui, nem por quem administra a organização. Nome repetido no
+  mesmo espaço gera pergunta de qual pessoa, mostrando o papel de cada uma para ajudar a
+  distinguir. Veja [Citar a pessoa pelo nome](/assistente/#citar-a-pessoa-pelo-nome).
+
+---
+
+## 25 de setembro de 2026 — versão 0.30.0
+
+### Adicionado
+
+- **Agora dá para pedir ao assistente uma ação sobre uma tarefa citando o título**, sem
+  precisar abrir o espaço nem saber o identificador dela — é a primeira fatia de uma
+  capacidade que ainda vai cobrir entrega e pessoa. Peça, por exemplo, "conclui a tarefa
+  Revisar arte", "exclui a tarefa Revisar arte", "reabre a tarefa Revisar arte", "muda o
+  título da tarefa Revisar arte para Revisar arte final" ou "comenta na tarefa Revisar arte
+  que o andamento está ok": o assistente sempre mostra a prévia e pede confirmação antes de
+  mudar qualquer coisa. Dizer o espaço junto ("no espaço Campanha do Agasalho 2026")
+  restringe a busca a ele. Título repetido em mais de um espaço gera pergunta de qual delas;
+  título que não existe e título que existe mas está fora do seu alcance recebem a mesma
+  resposta, sem indicar que a tarefa existe em algum lugar que você não alcança. Veja [Citar
+  a tarefa pelo título](/assistente/#citar-a-tarefa-pelo-título).
+
+---
+
+## 25 de setembro de 2026 — versão 0.29.0
+
+### Adicionado
+
+- **Agora dá para criar evento e tarefa direto na barra de cima da visão "Calendário"**, sem
+  precisar abrir um dia primeiro. Os botões "Novo evento" e "Nova tarefa" ficam ao lado de
+  "Assinar agenda"; a data sugerida acompanha o mês em vista — o dia de hoje quando o mês é
+  o atual, ou o dia 1º de qualquer outro mês, sempre uma sugestão que dá para trocar. Os
+  botões "+E" e "+T" de dentro de cada dia continuam funcionando do mesmo jeito. Veja
+  [Calendário](/trabalho/visoes/#calendário).
+
+---
+
+## 25 de setembro de 2026 — versão 0.28.0
+
+### Modificado
+
+- **A tabela "Todas as organizações", na administração do serviço, passou a avisar quando
+  os números de Espaços e Clientes podem estar desatualizados**, com um aviso acima da
+  tabela e um link direto para a tela onde se confere a causa. Veja [Quando os números podem
+  estar
+  desatualizados](/admin-servico/organizacoes/#quando-os-números-podem-estar-desatualizados).
+
+---
+
+## 25 de setembro de 2026 — versão 0.27.0
+
+### Corrigido
+
+- **Uma falha ao registrar o histórico de chamadas à inteligência artificial deixou de
+  derrubar a resposta do assistente.** Esse registro serve só para guardar o que aconteceu;
+  ele podia, falhando sozinho, fazer o assistente responder "Erro interno." mesmo quando a
+  IA tinha respondido certo. Agora a resposta segue normalmente, e a seção "Últimas
+  tentativas" (nos provedores de IA, tanto da organização quanto do serviço) avisa quando
+  isso aconteceu. Veja [Quando o próprio registro
+  falha](/configuracoes/inteligencia-artificial/#quando-o-próprio-registro-falha).
+
+---
+
+## 23 de setembro de 2026 — versão 0.26.0
+
+### Adicionado
+
+- **Os provedores de inteligência artificial do serviço passaram a mostrar as últimas
+  tentativas** — a mesma lista que já existia para os provedores de uma organização, com o
+  provedor, se deu sucesso ou falhou, a data e a hora e a mensagem devolvida, só que aqui
+  mostrando apenas as tentativas dos provedores do serviço. Veja [Últimas
+  tentativas](/admin-servico/provedores-de-ia/#últimas-tentativas).
+
+### Modificado
+
+- **Fila represada deixou de passar em branco.** Quando o processamento de fundo de um
+  módulo para, os eventos se acumulam sem que a tela avise. Agora, em "Tarefas agendadas", a
+  rotina nesse estado ganha a etiqueta "Represada", com a explicação de quantos eventos
+  esperam e há quanto tempo; na Visão geral da administração, a pendência "Rotina automática
+  que falhou" passou a se chamar "Rotina automática que falhou ou está represada"; e o
+  número de espaços, em "Números do serviço", avisa quando pode estar errado. Veja [Quando a
+  fila represa](/admin-servico/tarefas/#quando-a-fila-represa).
+
+---
+
+## 23 de setembro de 2026 — versão 0.25.0
+
+### Modificado
+
+- **A aba "Serviços" da administração do serviço passou a trazer as duas configurações —
+  servidor de e-mail e provedores de IA padrão — direto na tela**, em vez de levar a outras
+  telas para vê-las. No computador elas aparecem lado a lado; no celular, uma abaixo da
+  outra e recolhidas, com um botão para mostrar cada uma. Os endereços próprios de cada
+  assunto continuam funcionando. Veja [O que você encontra aqui, por
+  aba](/admin-servico/#o-que-você-encontra-aqui-por-aba).
+
+---
+
+## 23 de setembro de 2026 — versão 0.24.0
+
+### Adicionado
+
+- **Quem administra a organização passou a ver por que a inteligência artificial falhou.**
+  Nas configurações da organização, os provedores de IA ganharam uma seção "Últimas
+  tentativas", com a sequência de chamadas recentes, sucesso ou falha, data, hora e a
+  mensagem que o próprio provedor devolveu. Veja [Últimas
+  tentativas](/configuracoes/inteligencia-artificial/#últimas-tentativas).
+
+### Modificado
+
+- **A mensagem do assistente passou a distinguir duas causas diferentes de falha.** Não
+  havendo provedor de IA cadastrado na organização, a resposta agora diz isso e orienta a
+  procurar quem administra; havendo provedor e ele tendo falhado agora, a resposta continua
+  sugerindo tentar de novo em instantes. Antes as duas situações mostravam a mesma frase, e
+  insistir era o conselho certo numa e inútil na outra. Veja [Quando dá
+  errado](/assistente/#quando-dá-errado).
+
+### Corrigido
+
+- **O assistente passou a recusar um prazo que já ficou no passado**, em vez de criar a
+  tarefa já atrasada — ele pergunta a data certa, mostrando a que entendeu. E as datas nas
+  respostas do assistente passaram a aparecer sempre em dd/mm/aaaa. Veja [Confirmar ou
+  cancelar uma ação](/assistente/#confirmar-ou-cancelar-uma-ação).
+- **Telas que falhavam ao carregar deixaram de ficar presas em "Carregando…" para sempre**,
+  em dez telas do produto — a mais notável era Integrações, onde a falha aparecia disfarçada
+  de "Nenhuma chave cadastrada" e "Nenhum webhook cadastrado".
+
+---
+
+## 23 de setembro de 2026 — versão 0.23.0
+
+### Modificado
+
+- **O painel da tarefa foi rearrumado**: "Responsável" e "etapa" ganharam uma seção própria,
+  sem botão de salvar, separada dos campos que precisam de "Salvar" ou "Salvar datas". Veja
+  [Como o painel de detalhe
+  grava](/trabalho/criar-tarefas/#como-o-painel-de-detalhe-grava).
+- **A Visão geral da administração do serviço passou a mostrar o que espera decisão.** Um
+  cartão "Pendências" reúne, quando existirem, os Pedidos de organização, Feedbacks sem
+  resposta, Rotinas automáticas que falharam e Cópias de segurança atrasadas — cada item
+  leva direto à tela onde se resolve. Não havendo nada pendente, a seção avisa "Nenhuma
+  pendência agora — tudo em dia." Veja [Pendências](/admin-servico/painel/#pendências).
+
+---
+
+## 23 de setembro de 2026 — versão 0.22.0
+
+### Modificado
+
+- **O painel da tarefa passou a exigir um clique para salvar** o que você digita — título,
+  descrição e as datas — em vez de gravar sozinho ao sair do campo. O botão acende quando há
+  alteração pendente, e fechar o painel com algo não salvo pede confirmação antes de
+  descartar. Responsável e etapa continuam gravando na hora, por serem escolhas de lista.
+  Veja [Como o painel de detalhe grava](/trabalho/criar-tarefas/#como-o-painel-de-detalhe-grava).
+- **A recusa de acesso às listas de Espaços e de Clientes passou a dizer o que foi
+  recusado**, em vez de uma mensagem genérica — e parou de mostrar "Carregando…" ao lado do
+  aviso de erro. Veja [Quando dá errado](/clientes/#quando-dá-errado).
+
+---
+
+## 23 de setembro de 2026 — versão 0.21.0
+
+### Modificado
+
+- **Os títulos das telas de administração do serviço ficaram uniformes**, e a tela de
+  entrada — que se chamava "Administração geral" — passou a se chamar "Visão geral", igual à
+  aba que a abre. Veja [Como navegar](/admin-servico/#como-navegar).
+- **A prévia do assistente passou a mostrar o que ele entendeu do pedido**, não só o título
+  — o espaço, o prazo e o responsável, quando você tiver dito algum deles. E uma ação já
+  confirmada ou cancelada deixou de reaparecer como pendente ao reabrir a conversa. Veja
+  [Confirmar ou cancelar uma ação](/assistente/#confirmar-ou-cancelar-uma-ação).
+
+---
+
+## 23 de setembro de 2026 — versão 0.20.1
+
+### Corrigido
+
+- **O texto das páginas de wiki voltou a aparecer formatado** — título de seção e item de
+  lista tinham parado de se destacar, e um guia escrito em títulos e passos virava um bloco
+  corrido. Vale na leitura, no editor e na página pública. Veja [Abrir uma página para
+  ler](/conhecimento/wiki/#abrir-uma-página-para-ler).
+
+---
+
+## 23 de setembro de 2026 — versão 0.20.0
+
+### Modificado
+
+- **Abrir uma página da wiki passou a mostrar a leitura primeiro**, não o editor direto —
+  quem pode editar vê um botão "Editar". O editor também ganhou uma barra de formatação de
+  verdade, e colar texto do Word ou do Google Docs parou de trazer lixo de formatação junto.
+  Veja [Abrir uma página para ler](/conhecimento/wiki/#abrir-uma-página-para-ler).
+- **A administração do serviço ganhou um menu de abas sempre visível** — Visão geral,
+  Organizações, Acesso, Serviços, Manutenção e Feedbacks —, no lugar de um cartão que
+  escondia oito telas no fim da página. Dentro de Organizações, um novo cartão "Pedidos de
+  organização" mostra quantos pedidos esperam decisão. Veja [Como
+  navegar](/admin-servico/#como-navegar) e [Pedidos de
+  organização](/admin-servico/pedidos-de-organizacao/).
+
+---
+
 ## 23 de setembro de 2026 — versão 0.19.0
 
 ### Adicionado
@@ -26,7 +240,7 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
   do Agasalho 2026": havendo mais de um espaço parecido, ele pergunta qual; não encontrando
   nenhum, diz que não encontrou e lista os espaços de que você participa. Como o nome precisou ser
   interpretado, o assistente sempre confirma com você antes de criar ou concluir a tarefa de
-  verdade. Veja [Citar o espaço pelo nome](/assistente/#citar-o-espaco-pelo-nome).
+  verdade. Veja [Citar o espaço pelo nome](/assistente/#citar-o-espaço-pelo-nome).
 
 ### Corrigido
 
@@ -45,7 +259,7 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
   cabeçalho, além de Esc e clique fora. Veja [Acessar](/assistente/#acessar).
 - **A resposta a uma dúvida agora traz um link clicável para a página do manual**, em vez do
   endereço em texto solto. Veja [Tirar dúvida sobre como usar o
-  Realiza](/assistente/#tirar-duvida-sobre-como-usar-o-realiza).
+  Realiza](/assistente/#tirar-dúvida-sobre-como-usar-o-realiza).
 
 ### Corrigido
 
@@ -63,7 +277,7 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
   quanto pelo Telegram. Pergunte, por exemplo, "como eu arquivo um espaço?" ou "o que é uma
   reprogramação de prazo?", e ele responde com a parte do manual que explica, mais o link para ler
   o resto. Veja [Tirar dúvida sobre como usar o
-  Realiza](/assistente/#tirar-duvida-sobre-como-usar-o-realiza).
+  Realiza](/assistente/#tirar-dúvida-sobre-como-usar-o-realiza).
 
 ---
 

@@ -3,7 +3,7 @@ title: "Provedores de inteligência artificial"
 nav_order: 5
 parent: "Administração do serviço"
 permalink: /admin-servico/provedores-de-ia/
-palavras_chave: "gemini, openai, claude, ordem de prioridade, failover, consumo de ia, provedor padrão"
+palavras_chave: "gemini, openai, claude, ordem de prioridade, failover, consumo de ia, provedor padrão, registro incompleto, lista incompleta, consumo subestimado"
 ---
 
 # Provedores de inteligência artificial
@@ -133,6 +133,28 @@ Aqui ela mostra **só as tentativas dos provedores do serviço** — nunca as de
 Para ver as de uma organização específica, o caminho é
 [Inteligência artificial na sua organização](/configuracoes/inteligencia-artificial/), e quem
 enxerga aquilo é quem administra aquela organização.
+
+### Quando o próprio registro falha
+
+{: .warning }
+Registrar uma tentativa é, em si, outra operação que pode falhar. Quando isso acontece, a seção
+avisa em cima da lista: **"Não foi possível registrar 3 tentativas desde 25/09/2026 12:00 — a
+lista abaixo está incompleta."** (ou "1 tentativa", no singular, quando for só uma). Isso quer
+dizer que a lista que você está vendo **não é o histórico completo** — algumas chamadas
+aconteceram e não deixaram registro, então uma pergunta ao assistente que não aparece ali pode
+mesmo assim ter sido respondida.
+
+Pode aparecer junto um segundo aviso: **"Também não foi possível registrar 1 medição de consumo —
+o consumo desta organização está subestimado."** (no plural, "medições de consumo", quando for
+mais de uma). Este é sobre o cartão de consumo, logo abaixo — o número ali pode estar **menor**
+do que o uso real.
+
+Os dois avisos aparecem juntos quando as duas contagens estiverem acima de zero ao mesmo tempo.
+
+{: .note }
+Em nenhum dos dois casos a resposta do assistente se perde por causa disso — quem pediu recebeu a
+resposta normalmente. O que falha é só o registro da tentativa, para fins de acompanhamento; a
+lacuna é na sua visibilidade sobre o que aconteceu, não no atendimento a quem usou.
 
 ## Quando dá errado
 

@@ -3,7 +3,7 @@ title: "Organizações"
 nav_order: 8
 parent: "Administração do serviço"
 permalink: /admin-servico/organizacoes/
-palavras_chave: "criar organização, gestor, suspender contrato, excluir organização, autosserviço desligado"
+palavras_chave: "criar organização, gestor, suspender contrato, excluir organização, autosserviço desligado, números desatualizados, tarefas agendadas, comparar organizações"
 ---
 
 # Organizações
@@ -72,6 +72,25 @@ precisa ser convidado à mão.
 2. Digite o novo domínio no campo que aparece.
 3. Clique em **"Salvar"** para confirmar, ou em **"Cancelar"** para desistir
    sem alterar nada.
+
+## Quando os números podem estar desatualizados
+
+{: .warning }
+Acima da tabela pode aparecer um aviso sobre as colunas **"Espaços"** e **"Clientes"**:
+**"Espaços e Clientes podem estar desatualizados — a comparação com a origem encontrou diferença.
+Enquanto isso, comparar uma organização com outra pode confrontar números de épocas diferentes.
+Veja em [Tarefas agendadas](/admin-servico/tarefas/)."**, ou, quando nem foi possível verificar:
+**"Não foi possível conferir agora se os números de Espaços e Clientes estão atualizados. Veja em
+[Tarefas agendadas](/admin-servico/tarefas/)."**
+
+Nenhum rótulo, coluna ou caminho muda por causa disso — é só um aviso acima da tabela, e o link
+leva para [Tarefas agendadas](/admin-servico/tarefas/), onde fica a rotina que mantém essas
+contagens em dia.
+
+O ponto que importa: **com o aviso na tela, comparar uma organização com outra pode confrontar
+números de épocas diferentes** — uma pode ter sido recalculada há pouco e a outra não, então a
+diferença entre as duas nem sempre reflete a realidade atual das duas ao mesmo tempo. Espere o
+aviso sumir antes de tirar conclusão de uma comparação entre organizações.
 
 ## O que cada coluna da tabela mostra
 

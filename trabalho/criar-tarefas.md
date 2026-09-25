@@ -38,13 +38,24 @@ A mesma tela no celular:
 
 ### No calendário
 
-1. Na visão **"Calendário"**, clique em **"+T"** no dia em que a tarefa deve ter o prazo — ou em
-   **"Nova tarefa"**, acima da grade do mês, e escolha a data na janela.
-2. Na janela **"Nova tarefa"**, que já mostra "Com prazo em [a data que você clicou]", digite o
-   título.
-3. Em **"Responsável (opcional)"**, escolha quem vai executar — ou deixe como está, em **"Sem
+Há dois jeitos de chegar na janela **"Nova tarefa"** pelo calendário, e a janela se apresenta um
+pouco diferente em cada um:
+
+- **Clicando em "+T" dentro de um dia** — a janela já mostra "Com prazo em [a data que você
+  clicou]", com aquele dia fixado.
+- **Clicando em "Nova tarefa", acima da grade do mês** — a janela mostra a descrição "Escolha o
+  prazo — o padrão é o dia em vista no calendário." e o campo **"Prazo"**, já preenchido com uma
+  sugestão (hoje, se o mês em exibição é o atual; dia 1º do mês, se você navegou para outro mês) —
+  mas você pode trocar antes de salvar. Veja [Criar um evento na agenda: reunião ou
+  compromisso](/trabalho/reunioes-na-agenda/#a-data-sugerida-ao-abrir-pelo-botão-de-cima) para o
+  mesmo comportamento explicado do lado do evento.
+
+Depois de escolher a data, os dois caminhos seguem iguais:
+
+1. Digite o **título**.
+2. Em **"Responsável (opcional)"**, escolha quem vai executar — ou deixe como está, em **"Sem
    responsável"**. Só aparecem aqui as pessoas que podem executar tarefa neste espaço.
-4. Clique em **"Criar"**.
+3. Clique em **"Criar"**.
 
 A tarefa nasce com aquele dia como **prazo acordado** — o mesmo campo que você veria e editaria
 abrindo a tarefa depois de criada.

@@ -36,9 +36,11 @@ tipo tem o próprio botão.
 
 Há **dois caminhos para criar**, e os dois levam às mesmas janelas:
 
-- **Acima da grade do mês**, ao lado de **"Assinar agenda"**, os botões **"Novo evento"** e
-  **"Nova tarefa"**. Como eles não nascem dentro de um dia, a janela abre com a data para você
-  escolher.
+- **Acima da grade do mês**, três botões nesta ordem: **"Novo evento"**, **"Nova tarefa"** e
+  **"Assinar agenda"**. Passando o mouse por cima, cada um mostra uma dica explicando o que faz —
+  **"Novo evento"**: "Criar reunião ou compromisso com hora marcada na agenda do espaço"; **"Nova
+  tarefa"**: "Criar tarefa com prazo". Como eles não nascem dentro de um dia, a janela abre com
+  uma data já sugerida, para você trocar se quiser (veja abaixo).
 - **Dentro da célula de cada dia**, dois botões pequenos: **"+T"**, para uma tarefa com prazo
   naquele dia, e **"+E"**, para uma reunião com hora naquele dia. Estes já vêm com o dia
   preenchido — é o caminho mais curto quando você já sabe a data.
@@ -47,6 +49,22 @@ Há **dois caminhos para criar**, e os dois levam às mesmas janelas:
 Se você nunca tinha reparado no "+T" e no "+E", não é só você: eles são discretos de propósito,
 para não poluir o calendário. Os botões acima da grade fazem exatamente a mesma coisa e são o
 caminho para quando você não está mirando um dia específico.
+
+![Barra acima da grade do calendário, com os botões "Novo evento", "Nova tarefa" e "Assinar agenda"](/assets/capturas/visao-calendario-desktop.png)
+{: .mt-4 }
+
+No celular, a barra quebra em duas linhas: **"Novo evento"** e **"Nova tarefa"** em cima,
+**"Assinar agenda"** embaixo.
+
+![A mesma barra no celular, quebrada em duas linhas](/assets/capturas/visao-calendario-celular.png){: style="max-width:375px" }
+
+### A data sugerida ao abrir pelo botão de cima
+
+Abrindo **"Novo evento"** ou **"Nova tarefa"** pelos botões de cima da grade — não pelo "+E"/"+T"
+de um dia —, a data já vem preenchida, mas é só sugestão, e dá para trocar antes de salvar:
+
+- Se o mês em exibição no calendário é o mês atual, a sugestão é **hoje**.
+- Se você navegou para outro mês, a sugestão é o **dia 1º** daquele mês.
 
 Nas reuniões, o cartão do dia mostra o horário de início antes do título; nos prazos, não.
 

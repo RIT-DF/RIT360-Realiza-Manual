@@ -2,7 +2,7 @@
 title: "Assistente"
 nav_order: 4.5
 permalink: /assistente/
-palavras_chave: "chatbot, inteligência artificial, telegram, pergunta, criar tarefa por chat, prévia de ação, pedir por escrito, criar tarefa falando, nome do espaço"
+palavras_chave: "chatbot, inteligência artificial, telegram, pergunta, criar tarefa por chat, prévia de ação, pedir por escrito, criar tarefa falando, nome do espaço, concluir tarefa pelo assistente, excluir tarefa pelo assistente, reabrir tarefa pelo assistente, comentar tarefa pelo assistente, título da tarefa, responsável por nome, designar responsável pelo assistente, remover participante pelo assistente, listar tarefas por responsável"
 ---
 
 # Assistente
@@ -33,10 +33,19 @@ janela — as três formas funcionam.
 
 <!-- CAPTURA PENDENTE: janela do assistente, desktop e celular, com uma prévia de ação na tela.
      As imagens anteriores mostravam a prévia antiga, de uma linha só, e foram removidas; a da
-     0.21.0 cita espaço, prazo e responsável. Tentado em 23/09/2026 e não foi possível: o provedor
-     de IA do ambiente local passou a recusar toda chamada (provavelmente cota diária), depois de
-     doze tentativas. Refazer noutro dia, com o roteiro que repete quando o provedor falha, e sem
-     enquadrar data crua enquanto a issue #173 não sair. -->
+     0.21.0 cita espaço, prazo e responsável.
+
+     Tentativa de 25/09/2026 (0.30.0): rodei Projeto/bin/capturas/assistente.mjs contra o
+     assistente subido com `npm run dev:ia-de-mentira`, pedindo "cria uma tarefa chamada Comprar
+     mudas no espaço Campanha do Agasalho 2026 com prazo em 25/09/2026" — 4 tentativas em desktop e
+     4 em celular, todas responderam SEM prévia (eco em texto simples). Causa apurada no código: o
+     adaptador de mentira só roteia a palavra-chave "pendência" para uma ferramenta de verdade;
+     qualquer outro pedido, inclusive criar tarefa, cai num eco de texto e nunca produz a prévia
+     "Confirmar"/"Cancelar" que esta captura precisa mostrar. Registrado como
+     RIT360-Realiza-Code#186 (adaptador de mentira não gera prévia de ação). A issue #173
+     (fuso das datas) já foi corrigida — não é mais bloqueio aqui.
+
+     Refazer só depois de #186 resolvida, ou usando um provedor de IA de verdade (gasta cota). -->
 
 ## Conversar
 
@@ -153,7 +162,7 @@ própria frase, do jeito que você já o reconhece.
 1. Diga o que quer fazer e cite o espaço pelo nome — por exemplo, "crie uma tarefa chamada Comprar
    mudas no espaço Campanha do Agasalho 2026".
 2. Existindo só um espaço com esse nome (ou parecido) entre os que você participa, o assistente
-   mostra a prévia da ação — veja [Confirmar ou cancelar uma ação](#confirmar-ou-cancelar-uma-acao).
+   mostra a prévia da ação — veja [Confirmar ou cancelar uma ação](#confirmar-ou-cancelar-uma-ação).
 
 ### Nome ambíguo
 
@@ -184,9 +193,201 @@ Maria responde "a Comunitária", e o assistente mostra a prévia da tarefa, espe
 - **Quanto mais parecido o nome que você usa com o nome real do espaço, menor a chance de
   ambiguidade.** Citar um trecho distintivo ("Agasalho 2026" em vez de só "Agasalho") já evita boa
   parte das perguntas de desempate.
-- **Tarefa, entrega e pessoa ainda não se resolvem pelo nome — só o espaço.** Pedir "conclua a
-  tarefa Comprar mudas" sem apontar de qual tarefa se trata (por exemplo, a partir de uma lista que
-  o próprio assistente já mostrou) ainda não funciona; nesse caso, prefira a tela.
+- **Entrega ainda não se resolve pelo nome.** Espaço, tarefa e pessoa (veja [Citar a tarefa pelo
+  título](#citar-a-tarefa-pelo-título) e [Citar a pessoa pelo nome](#citar-a-pessoa-pelo-nome),
+  a seguir) já funcionam assim.
+
+## Citar a tarefa pelo título
+
+Além de criar, você pode pedir ao assistente para **concluir, excluir, reabrir, mudar o título,
+comentar ou pedir o detalhe** de uma tarefa já existente — dizendo o título dela, sem precisar
+abrir a tarefa na tela primeiro.
+
+### Por que isto importa
+
+Antes, agir sobre uma tarefa pelo assistente exigia um identificador que ninguém guarda de
+cabeça. Agora basta dizer o título do jeito que você já o reconhece — o mesmo nome que aparece no
+quadro.
+
+### Como funciona
+
+1. Diga o que quer fazer e cite a tarefa pelo título — por exemplo, "conclui a tarefa Revisar
+   arte", "exclui a tarefa Revisar arte", "reabre a tarefa Revisar arte", "muda o título da tarefa
+   Revisar arte para Revisar arte final", "comenta na tarefa Revisar arte que o andamento está
+   ok", ou "me dá o detalhe da tarefa Revisar arte".
+2. Existindo só uma tarefa com esse título entre as que você alcança, o assistente mostra a
+   prévia da ação, esperando sua confirmação — veja [Confirmar ou cancelar uma
+   ação](#confirmar-ou-cancelar-uma-ação). Por exemplo:
+
+   > Marcar a tarefa "Revisar arte" (espaço "Campanha do Agasalho 2026") como concluída. Confirma?
+
+   Para excluir, reabrir, mudar o título ou comentar, a prévia muda de acordo:
+
+   > Excluir a tarefa "Revisar arte" (espaço "Campanha do Agasalho 2026"). Esta ação não pode ser
+   > desfeita por aqui. Confirma?
+
+   > Alterar a tarefa "Revisar arte" (espaço "Campanha do Agasalho 2026"): novo título "Revisar
+   > arte final". Confirma?
+
+   > Reabrir a tarefa "Revisar arte" (espaço "Campanha do Agasalho 2026"), que volta para uma
+   > etapa em andamento. Confirma?
+
+   > Registrar o comentário "o andamento está ok" na tarefa "Revisar arte" (espaço "Campanha do
+   > Agasalho 2026"). Confirma?
+
+Depois de confirmar, o assistente diz o que fez — por exemplo, "Pronto — alterei a tarefa 'Revisar
+arte'." ou "Pronto — reabri a tarefa 'Revisar arte' (voltou para a etapa 'Em andamento')."
+
+### Restringir a busca pelo espaço
+
+Dizendo também o espaço, a busca pela tarefa fica restrita a ele — útil quando o mesmo título se
+repete em espaços diferentes: "conclui a tarefa Revisar arte no espaço Campanha do Agasalho 2026".
+
+### Título ambíguo
+
+Mais de uma tarefa com esse título entre as que você alcança? O assistente pergunta qual, nomeando
+o espaço de cada uma: "Encontrei mais de uma tarefa com esse título: \"Revisar arte\" (espaço
+\"Campanha do Agasalho 2026\"), \"Revisar arte\" (espaço \"Comunicação institucional\"). Qual
+delas?"
+
+### Título que não existe, ou que você não alcança
+
+Nenhuma tarefa com esse título entre as que você alcança? O assistente lista as tarefas que você
+tem: "Não encontrei nenhuma tarefa chamada \"Revisar arte\". Você tem: \"Confirmar fornecedor de
+mudas\" (espaço \"Horta Comunitária\"), \"Texto do release para a imprensa\" (espaço \"Campanha do
+Agasalho 2026\")." Dizendo o espaço, a resposta nomeia onde ele procurou: "…chamada \"Revisar
+arte\" no espaço \"Comunicação institucional\"." Não tendo nenhuma tarefa na organização, a
+resposta diz isso também: "Não encontrei nenhuma tarefa chamada \"Revisar arte\" — e você não tem
+nenhuma tarefa nesta organização."
+
+{: .note }
+Essa mesma resposta também aparece quando a tarefa existe, mas está fora do que você alcança — o
+assistente nunca lista o que você não pode ver, então "não encontrei" cobre os dois casos sem
+diferenciar um do outro.
+
+### Quando o assistente não consegue verificar
+
+**"Não consegui verificar as tarefas agora — pode tentar de novo em instantes?"** — uma falha de
+comunicação impediu a busca. Tente de novo em alguns instantes.
+
+### Exemplo
+
+Carlos Nunes escreve ao assistente: "conclui a tarefa Revisar arte". Como duas tarefas com esse
+título existem em espaços diferentes, o assistente responde: "Encontrei mais de uma tarefa com
+esse título: \"Revisar arte\" (espaço \"Campanha do Agasalho 2026\"), \"Revisar arte\" (espaço
+\"Comunicação institucional\"). Qual delas?" Carlos responde citando o espaço, e o assistente
+mostra a prévia, esperando confirmação.
+
+### Dicas e armadilhas
+
+- **Dizer o espaço junto com o título evita a maior parte das perguntas de desempate** — do mesmo
+  jeito que ajuda ao citar o espaço para criar uma tarefa nova.
+- **Mencionar alguém dentro do texto de um comentário ainda não é reconhecido como destinatário.**
+  "Comenta na tarefa Revisar arte marcando a Joana" grava "marcando a Joana" como parte do texto
+  do comentário — não designa nem notifica ninguém. Para designar responsável, use a forma
+  dedicada: veja [Citar a pessoa pelo nome](#citar-a-pessoa-pelo-nome), a seguir.
+
+## Citar a pessoa pelo nome
+
+Pedindo para listar tarefas de alguém, criar uma tarefa com responsável, designar responsável numa
+tarefa existente ou remover um participante, você pode dizer o nome da pessoa em vez de escolhê-la
+numa lista.
+
+### Por que isto importa
+
+Você não precisa abrir a tela de participantes para lembrar o nome exato ou escolher a pessoa
+certa — basta citá-la do jeito que você já a reconhece, na própria frase do pedido.
+
+### Onde o assistente procura
+
+O assistente procura o nome **entre quem participa do espaço daquele pedido** — nunca entre todo
+mundo da organização. Alguém que existe na organização mas não participa daquele espaço é tratado
+como se não existisse: vem a mesma resposta de "não encontrei" que valeria para um nome inventado.
+Isso vale até para quem administra a organização — administrar amplia o que se **lista** nas
+telas, nunca o que o assistente alcança por nome num espaço.
+
+Nas quatro formas de pedido abaixo, **o espaço que vale é sempre o do trabalho em questão**:
+designar responsável alterando uma tarefa usa o espaço **daquela tarefa**, não o último espaço
+citado na conversa.
+
+### Como funciona
+
+- **Listar tarefas de um responsável** — por exemplo, "quais tarefas são da Maria na Campanha do
+  Agasalho 2026?". O assistente responde direto, sem prévia — é uma consulta.
+- **Criar tarefa com responsável** — por exemplo, "cria a tarefa Montar release na Campanha do
+  Agasalho 2026 para a Maria" ou, já dentro da conversa sobre um espaço, "cria a tarefa Montar
+  release nesse espaço para a Maria".
+- **Designar responsável numa tarefa existente** — por exemplo, "passa a tarefa Revisar arte para
+  a Maria".
+- **Remover participante** — por exemplo, "remove a Maria da Campanha do Agasalho 2026".
+
+Existindo só uma pessoa com esse nome (ou parecido) entre os participantes do espaço, criar,
+designar responsável e remover participante mostram a prévia da ação, esperando sua confirmação —
+veja [Confirmar ou cancelar uma ação](#confirmar-ou-cancelar-uma-ação). Por exemplo:
+
+> Alterar a tarefa "Revisar arte" (espaço "Campanha do Agasalho 2026"): responsável Maria
+> Oliveira. Confirma?
+
+Listar tarefas de um responsável é consulta e responde direto, sem "Confirma?".
+
+### Nome ambíguo
+
+Mais de uma pessoa parecida com o nome que você disse? O assistente lista até 8 opções, nomeando
+o **papel** de cada uma no espaço para ajudar a distinguir — nunca o e-mail, porque a própria tela
+de participantes não mostra e-mail, e o assistente não concede mais do que a tela concede:
+
+> Encontrei mais de uma pessoa chamada "Maria Silva" neste espaço: "Maria Silva" (papel
+> "gestor"), "Maria Silva" (papel "executor"). Qual delas?
+
+Quando nem o papel distingue — duas pessoas com o mesmo nome e o mesmo papel —, o assistente
+admite em vez de oferecer duas opções idênticas:
+
+> Há mais de uma pessoa chamada "Maria Silva" com o mesmo papel neste espaço — pelo nome não dá
+> para distinguir. Dá para escolher na tela do espaço, em Participantes.
+
+### Nome que não existe, ou que a pessoa não participa deste espaço
+
+Nome que não bate com ninguém que participa do espaço — o assistente diz que não encontrou e
+lista até 5 participantes, para ajudar (acima de 5, acrescenta ", entre outras"):
+
+> Não encontrei ninguém chamado "Maria" neste espaço. Participam: "Beatriz Lima", "João Pedro".
+
+Não havendo ninguém a listar, a resposta é mais curta:
+
+> Não encontrei ninguém chamado "Maria" neste espaço.
+
+Filtrar tarefas por um responsável que não tem nenhuma naquele espaço não é erro — é resposta
+vazia, como qualquer consulta sem resultado:
+
+> Nenhuma tarefa de Maria Oliveira neste espaço.
+
+### Quando o assistente não consegue verificar
+
+- **"Não consegui verificar quem participa desse espaço agora — pode tentar de novo em
+  instantes?"** — uma falha de comunicação impediu checar os participantes.
+- **"Não consegui verificar essa tarefa agora — pode tentar de novo em instantes?"** — uma falha
+  de comunicação impediu checar a tarefa, ao designar responsável.
+
+### Exemplo
+
+Carlos Nunes, gestor na Campanha do Agasalho 2026, escreve ao assistente: "passa a tarefa Revisar
+arte para a Maria". Só há uma Maria participando desse espaço — Maria Oliveira —, então o
+assistente mostra a prévia: "Alterar a tarefa 'Revisar arte' (espaço 'Campanha do Agasalho 2026'):
+responsável Maria Oliveira. Confirma?" Carlos confirma, e o assistente diz o que fez.
+
+### Dicas e armadilhas
+
+- **Quanto mais distintivo o nome que você usa, menor a chance de ambiguidade** — do mesmo jeito
+  que ajuda ao citar espaço ou tarefa.
+- **Remover participante não é sobre uma tarefa — é sobre o acesso da pessoa ao espaço.** Por
+  isso passa pela mesma prévia de confirmação das outras ações, e vale conferir com atenção antes
+  de confirmar: é a única das quatro formas que não se desfaz reabrindo ou recriando algo.
+- **A busca só alcança quem participa do espaço em questão.** Precisando designar ou remover
+  alguém que ainda não participa, adicione a pessoa primeiro — veja [Chamar pessoas para o
+  espaço](/trabalho/chamar-pessoas/).
+- **A pessoa por nome funciona nestas quatro formas de pedido, e só nelas** — listar, criar,
+  designar responsável e remover. **Entrega ainda não se resolve pelo nome** em nenhuma forma;
+  espaço e tarefa, sim, cada um na sua seção acima.
 
 ## Limites do assistente
 
@@ -195,9 +396,14 @@ Maria responde "a Comunitária", e o assistente mostra a prévia da tarefa, espe
   clicando. Sem a permissão, a recusa que aparece é a mesma que apareceria na tela correspondente.
 - **Só a organização ativa.** O assistente não vê nem mistura dados de outra organização de que
   você participe — a mesma regra que separa as organizações em qualquer outra tela.
-- **Citar o espaço pelo nome já funciona** para criar e concluir tarefa — veja [Citar o espaço pelo
-  nome](#citar-o-espaco-pelo-nome). **Tarefa, entrega e pessoa por nome ainda não** — para essas,
-  aponte a partir de uma lista que o assistente já tenha mostrado, ou prefira a própria tela.
+- **Citar pelo nome já funciona para espaço, tarefa e pessoa** — veja [Citar o espaço pelo
+  nome](#citar-o-espaço-pelo-nome), [Citar a tarefa pelo título](#citar-a-tarefa-pelo-título) e
+  [Citar a pessoa pelo nome](#citar-a-pessoa-pelo-nome). **Só entrega por nome ainda não** — para
+  ela, aponte a partir de uma lista que o assistente já tenha mostrado, ou prefira a própria
+  tela.
+- **A busca por pessoa alcança só quem participa do espaço em questão.** Administrar a
+  organização amplia o que se lista nas telas, nunca o que o assistente encontra por nome dentro
+  de um espaço.
 
 ## Quando a organização desligou a inteligência artificial
 
