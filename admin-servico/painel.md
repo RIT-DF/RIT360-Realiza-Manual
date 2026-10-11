@@ -8,7 +8,7 @@ palavras_chave: "pendências, o que precisa de decisão, pedidos esperando, feed
 
 # Visão geral
 
-A aba **"Visão geral"** é a primeira coisa que você vê ao abrir a administração do serviço. Ela
+A tela **"Visão geral"** é a primeira coisa que você vê ao abrir a administração do serviço. Ela
 responde duas perguntas, nesta ordem: **o que está esperando você**, e **qual o tamanho do
 serviço**.
 
@@ -59,12 +59,12 @@ Abaixo das pendências, o cartão **"Números do serviço"** dá o retrato de ta
 organizações usam o produto, quantas pessoas, quantos espaços — sem abrir o conteúdo de nenhuma
 delas.
 
-![Aba "Visão geral" da administração do serviço, com o cartão "Pendências" em cima e "Números do serviço" abaixo](/assets/capturas/admin-servico-painel-desktop.png)
+![Tela "Visão geral" da administração do serviço, com a barra principal da administração (Visão geral, Organizações, Acesso, Serviços, Manutenção, Feedbacks) e o cartão "Pendências"](/assets/capturas/admin-servico-painel-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Aba "Visão geral" da administração do serviço, com as pendências em cima e as contagens abaixo — no celular](/assets/capturas/admin-servico-painel-celular.png){: style="max-width:375px" }
+![Tela "Visão geral" da administração do serviço no celular, com o cartão "Pendências" e a barra da administração embaixo](/assets/capturas/admin-servico-painel-celular.png){: style="max-width:375px" }
 {: .mt-4 }
 
 ## O que cada número conta
@@ -107,12 +107,12 @@ Se você precisa saber como uma organização específica está usando o produto
 resposta não está aqui. Peça a quem administra aquela organização — só ela
 enxerga o próprio conteúdo.
 
-## O que mais existe nesta aba
+## O que mais existe nesta tela
 
 Nada além dos dois cartões: **"Pendências"** e **"Números do serviço"**.
 
-Todo o resto — organizações, acesso, serviços, manutenção e feedbacks — fica nas
-outras abas. O [índice desta seção](/admin-servico/) lista o que há em cada uma.
+Todo o resto — organizações, acesso, serviços, manutenção e feedbacks — fica nos
+outros itens da barra principal. O [índice desta seção](/admin-servico/) lista o que há em cada uma.
 
 ## Quando dá errado
 

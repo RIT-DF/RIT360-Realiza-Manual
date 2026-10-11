@@ -11,7 +11,7 @@ palavras_chave: "painel, tudo pendente, atrasada, buscar tarefa, menções, agen
 Esta é a tela para abrir no começo do dia. Ela junta, num lugar só, tudo que precisa da sua
 atenção e tudo que está por vir — em **todas** as organizações de que você participa, sem
 precisar trocar a organização ativa para enxergar cada uma. Só quando você clica num item de
-outra organização é que o Realiza troca para ela.
+outra organização é que a RIT360 Plataforma troca para ela.
 
 ## Onde fica
 

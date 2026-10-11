@@ -9,7 +9,7 @@ palavras_chave: "smtp, porta 587, autenticação smtp, servidor de reserva, reme
 # Servidor de e-mail do produto
 
 Esta tela cadastra **um único servidor de e-mail**, usado pelos dois caminhos
-de e-mail que o RIT360 Realiza tem: os avisos que a pessoa escolheu receber,
+de e-mail que a RIT360 Plataforma tem: os avisos que a pessoa escolheu receber,
 na tela de preferências dela, **e** o convite de conta nova e a recuperação de
 senha. Trocar a credencial aqui já vale para os dois — não é preciso configurar
 em dois lugares.
@@ -37,7 +37,7 @@ também sai.
 
 ## Passo a passo — configurar o servidor
 
-1. Na administração do serviço, abra a aba **"Serviços"**. No computador, a configuração já
+1. Na administração do serviço, abra **"Serviços"** na barra principal. No computador, a configuração já
    aparece ali, em **"Servidor de e-mail do produto"**, na coluna da esquerda. No celular, toque
    em **"Mostrar configuração"** no cartão **"Servidor de e-mail"**.
 2. Em **"Servidor primário"**, preencha:
@@ -99,7 +99,7 @@ outro. Não dê a configuração por pronta sem ver os dois testes chegarem.
 
 ## Exemplo
 
-A equipe técnica do RIT360 Realiza contrata um servidor de e-mail
+A equipe técnica da RIT360 Plataforma contrata um servidor de e-mail
 transacional. Ela cadastra host, porta, usuário e senha como **"Servidor
 primário"**, salva, e dispara um e-mail de teste em **"Avisos das
 organizações"**. Vê chegar, mas não para por aí: dispara o mesmo teste em

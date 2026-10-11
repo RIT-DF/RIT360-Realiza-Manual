@@ -36,7 +36,7 @@ quem pediu, o **domínio** desse e-mail e, quando informado e diferente, o **dom
 
 ## Passo a passo — decidir um pedido
 
-1. Na administração do serviço, abra a aba **"Organizações"** e clique em
+1. Na administração do serviço, abra **"Organizações"** na barra principal e clique em
    **"Pedidos de organização"**.
 2. Avalie o pedido: o nome da organização é plausível, o e-mail e o domínio do site (quando
    informado) fazem sentido para a mesma instituição.

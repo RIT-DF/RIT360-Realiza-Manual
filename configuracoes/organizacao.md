@@ -42,7 +42,7 @@ A organização tem duas imagens independentes, cada uma com o próprio botão d
 remover:
 
 - **"Logo (qualquer proporção)"** — a imagem que aparece no cabeçalho e no seletor de organização.
-  Aceita qualquer proporção: não precisa ser quadrada, e o Realiza não corta nem distorce para
+  Aceita qualquer proporção: não precisa ser quadrada, e a RIT360 Plataforma não corta nem distorce para
   encaixar num formato fixo.
 - **"Ícone/favicon (símbolo, quadrado)"** — o símbolo que aparece onde só cabe um espaço pequeno e
   quadrado, como ao lado do nome numa lista de organizações. Continua precisando ser quadrado,
@@ -81,7 +81,7 @@ Veja [Primeiros passos](/primeiros-passos/) para como esse pedido nasce, do lado
 
 {: .note }
 "Domínio de reconhecimento" é diferente do campo **"Site"**, ali em cima: o site é texto livre da
-ficha, sem efeito em nada; o domínio de reconhecimento é o que o Realiza usa para casar um pedido
+ficha, sem efeito em nada; o domínio de reconhecimento é o que a RIT360 Plataforma usa para casar um pedido
 novo com esta organização.
 
 ## Exportar dados

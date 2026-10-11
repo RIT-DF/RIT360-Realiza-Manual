@@ -7,7 +7,7 @@ palavras_chave: "definições, significado, termos, dicionário, o que quer dize
 
 # Glossário
 
-As palavras que o Realiza usa, e o que cada uma quer dizer aqui. Algumas têm
+As palavras que a RIT360 Plataforma usa, e o que cada uma quer dizer aqui. Algumas têm
 outro sentido em outras ferramentas — é para isso que esta página existe.
 
 ## Aprovador
@@ -75,7 +75,7 @@ A visão de todos os espaços ligados a um mesmo cliente.
 ## Dependência
 
 A relação entre duas tarefas em que uma precisa terminar antes da outra. O
-Realiza sinaliza o bloqueio, mas **não desloca prazo nenhum automaticamente**.
+RIT360 Realiza sinaliza o bloqueio, mas **não desloca prazo nenhum automaticamente**.
 Ver [Subtarefas e dependências](/trabalho/subtarefas-e-dependencias/).
 
 ## Domínio autorizado
@@ -121,6 +121,13 @@ vinculado e o que vai junto, para você confirmar sabendo o tamanho da ação.
 
 Papel dentro de um espaço: quem faz as tarefas.
 
+## Flow
+
+O produto da RIT360 Plataforma que cuida do ciclo da pessoa com a organização — candidatura, termo
+de adesão, credencial. "Flow" é o nome curto, o da barra lateral; neste manual e nas mensagens que
+a plataforma envia, o nome é **RIT360 Flow**. Hoje só tem uma tela inicial, com contagens
+zeradas. Ver [Os produtos na barra lateral](/produtos/).
+
 ## Gestor
 
 Papel dentro de um espaço: quem organiza o trabalho, as pessoas e as etapas.
@@ -149,12 +156,12 @@ repete a mesma tarefa sozinha), o modelo de ciclo é instanciado de novo a cada 
 
 A palavra tem dois usos, em lugares diferentes da tela:
 
-- **Cada produto da família RIT360** — hoje o Realiza e o Flow. É o sentido da coluna **"Módulos"**
+- **Cada produto da família RIT360** — hoje o RIT360 Realiza e o RIT360 Flow. É o sentido da coluna **"Módulos"**
   na tela [Organizações](/admin-servico/organizacoes/#ligar-e-desligar-módulos-de-uma-organização)
   de quem administra o serviço e da frase que aparece ao clicar num item **"não habilitado"** na
   barra lateral. Uma organização pode ter um módulo **ligado** (habilitado) ou **desligado**. Ver
   [Os produtos na barra lateral](/produtos/).
-- **Cada uma das partes em que o Realiza é dividido por dentro**, entre elas Trabalho (espaços e
+- **Cada uma das partes em que a RIT360 Plataforma é dividida por dentro**, entre elas Trabalho (espaços e
   tarefas), Comunicação (avisos e e-mails) e Núcleo (organizações e pessoas). Só aparece na tela de
   [Tarefas agendadas](/admin-servico/tarefas/), de quem administra o serviço.
 
@@ -174,7 +181,7 @@ administração. Não tem objetivo nem data de encerramento.
 
 ## Organização
 
-A sua OSC dentro do Realiza, com os membros, os espaços e os dados dela. Uma
+A sua OSC dentro da RIT360 Plataforma, com os membros, os espaços e os dados dela. Uma
 organização não alcança nada de outra. Uma mesma pessoa pode participar de
 várias, com permissões diferentes em cada uma — e nenhuma delas descobre as
 outras.
@@ -196,9 +203,25 @@ Duas coisas diferentes, conforme onde a palavra aparece:
   para criar uma organização nova, feitas antes de haver qualquer vínculo. Ver
   [Pedidos de entrada](/configuracoes/pedidos-de-entrada/).
 
+## Plataforma (RIT360 Plataforma)
+
+A **casa** onde você entra: a sua conta, as organizações de que você participa, os convites, os
+avisos, o assistente, o aplicativo no celular e a administração do serviço. Os produtos da família
+— o RIT360 Realiza e o RIT360 Flow — moram dentro dela. Quando este manual diz "a RIT360
+Plataforma", o assunto vale para a casa inteira, seja qual for o produto que a organização usa.
+Até a versão 0.36, o aplicativo inteiro se chamava RIT360 Realiza; a partir da 0.37.0 esse nome ficou
+só para o produto de trabalho. Ver a [página inicial](/).
+
 ## Projeto
 
 Tipo de espaço para trabalho com objetivo definido e encerramento previsto.
+
+## Realiza (RIT360 Realiza)
+
+O **produto de trabalho** da RIT360 Plataforma: espaços, tarefas, entregas, aprovações, clientes,
+agenda e Conhecimento. É o item **Realiza** da barra lateral. Quando este manual diz "o RIT360
+Realiza", o assunto é o trabalho em si, não a casa em volta dele. Ver a [página inicial](/) e
+[Os produtos na barra lateral](/produtos/).
 
 ## Recorrência
 
@@ -251,9 +274,9 @@ você aprovou" — mesmo que o arquivo original tenha mudado. Como a palavra
 
 ## Webhook
 
-Um aviso automático que o Realiza manda para um sistema externo quando algo acontece — uma tarefa
-criada, uma entrega decidida. Diferente da chave de API, que é o sistema externo perguntando ao
-Realiza, o webhook é o Realiza avisando por conta própria. Ver
+Um aviso automático que a RIT360 Plataforma manda para um sistema externo quando algo acontece — uma tarefa
+criada, uma entrega decidida. Diferente da chave de API, que é o sistema externo perguntando à
+RIT360 Plataforma, o webhook é a plataforma avisando por conta própria. Ver
 [Integrações](/configuracoes/integracoes/).
 
 ## Wiki
@@ -265,6 +288,7 @@ e uma página pode ser publicada num endereço público. Ver
 
 ## Administração do serviço
 
-A área de quem cuida da instalação do Realiza, não de uma organização. Quem
+A área de quem cuida da instalação da RIT360 Plataforma, não de uma organização. Fica no item
+**"Administração"** da barra lateral, visível só para essa pessoa. Quem
 administra o serviço **não tem acesso ao conteúdo das organizações**. Ver
 [Administração do serviço](/admin-servico/).

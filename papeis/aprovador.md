@@ -14,7 +14,7 @@ fora, como a Beatriz Lima, da Fundação Aroeira.
 
 ## O que a sua decisão significa
 
-A aprovação no Realiza não é um "ok" no meio de uma conversa. Ela vale sobre uma
+A aprovação no RIT360 Realiza não é um "ok" no meio de uma conversa. Ela vale sobre uma
 **versão identificada**: quando alguém envia material para aprovação, o sistema
 guarda uma cópia congelada daquele conjunto e a numera. Você aprova aquela
 cópia, e ela fica registrada com o seu nome e a data.

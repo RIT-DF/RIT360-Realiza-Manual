@@ -13,7 +13,7 @@ As preferências de aviso passaram a viver dentro do [Seu perfil](/configuracoes
 mais uma tela própria para elas. Chegando a este endereço pelo sino de avisos ou por um link
 salvo, você é levado direto para lá.
 
-O Realiza avisa você de coisas que pedem sua atenção — uma tarefa nova, um pedido de aprovação,
+A RIT360 Plataforma avisa você de coisas que pedem sua atenção — uma tarefa nova, um pedido de aprovação,
 um ajuste que pediram na sua entrega. O que muda de canal para canal:
 
 - **A central de avisos** (o sino, no topo do aplicativo) sempre mostra o que aconteceu, esteja o

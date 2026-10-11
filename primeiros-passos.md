@@ -7,7 +7,7 @@ palavras_chave: "login, cadastro, esqueci a senha, convite, criar organização,
 
 # Primeiros passos
 
-Antes de organizar qualquer trabalho, você precisa entrar no RIT360 Realiza e saber em qual
+Antes de organizar qualquer trabalho, você precisa entrar na RIT360 Plataforma e saber em qual
 organização está. Esta página cobre isso: entrar, cadastrar-se, aceitar um convite, recuperar a
 senha e entender a tela que aparece assim que você chega.
 
@@ -17,7 +17,7 @@ Você entra de duas formas, e as duas levam ao mesmo lugar.
 
 ### Por e-mail e senha
 
-1. Abra a tela **"Entrar no RIT360 Realiza"**.
+1. Abra a tela **"Entrar na RIT360 Plataforma"**.
 2. Preencha **"E-mail"** e **"Senha"**.
 3. Clique em **"Entrar"**.
 
@@ -31,18 +31,18 @@ do Google.
 O botão só aparece quando a entrada por Google está habilitada neste ambiente. Não vendo o botão,
 use e-mail e senha.
 
-![Tela de entrada do RIT360 Realiza, com o link "Solicitar a criação da minha organização" no rodapé do cartão](/assets/capturas/entrar-tela-desktop.png)
+![Tela de entrada da RIT360 Plataforma, com o link "Solicitar a criação da minha organização" no rodapé do cartão](/assets/capturas/entrar-tela-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Tela de entrada do RIT360 Realiza, com o link "Solicitar a criação da minha organização" no rodapé do cartão — no celular](/assets/capturas/entrar-tela-celular.png){: style="max-width:375px" }
+![Tela de entrada da RIT360 Plataforma, com o link "Solicitar a criação da minha organização" no rodapé do cartão — no celular](/assets/capturas/entrar-tela-celular.png){: style="max-width:375px" }
 
 ### Quando dá errado ao entrar
 
 - **"E-mail ou senha inválidos."** — aparece tanto quando o e-mail não existe quanto quando a
   senha está errada. É proposital: a tela nunca diz qual dos dois é o problema, para não dar pista
-  de quais e-mails têm conta no Realiza.
+  de quais e-mails têm conta na RIT360 Plataforma.
 - Tentando entrar pelo Google, um problema na autorização volta para esta tela com uma destas
   mensagens: **"A entrada por Google ainda não foi configurada neste ambiente."**, **"A
   confirmação do Google expirou ou é inválida. Tente entrar de novo."**, **"O Google recusou a
@@ -51,7 +51,7 @@ A mesma tela no celular:
 
 ## Solicitar a criação da minha organização
 
-Sua instituição ainda não tem organização no RIT360 Realiza? Você mesmo pode pedir a criação,
+Sua instituição ainda não tem organização na RIT360 Plataforma? Você mesmo pode pedir a criação,
 sem precisar de convite nem de contato prévio.
 
 ### Por que isto importa
@@ -91,7 +91,7 @@ domínio do e-mail que você usou:
 - **A organização é criada na hora**: "A organização [nome] foi criada, e enviamos um novo e-mail
   para você concluir o acesso como administrador dela."
 - **A organização já existe**, e seu e-mail é do mesmo domínio dela: "A organização [nome] já
-  existe no RIT360 Realiza — seu pedido foi enviado para quem administra ela decidir. Você recebe
+  existe na RIT360 Plataforma — seu pedido foi enviado para quem administra ela decidir. Você recebe
   um e-mail assim que houver decisão." Veja
   [Pedidos de entrada](/configuracoes/pedidos-de-entrada/) para como isso aparece do lado de quem
   decide.
@@ -122,8 +122,8 @@ como administradora.
 
 ## Cadastrar-se sem convite
 
-Nem todo mundo que entra no Realiza recebeu um convite antes. Na tela de entrar, clique em
-**"Cadastre-se"** para abrir a tela **"Cadastrar no RIT360 Realiza"**.
+Nem todo mundo que entra na RIT360 Plataforma recebeu um convite antes. Na tela de entrar, clique em
+**"Cadastre-se"** para abrir a tela **"Cadastrar na RIT360 Plataforma"**.
 
 1. Preencha **"E-mail"** e **"Senha (mínimo 8 caracteres)"**.
 2. Clique em **"Cadastrar"**.
@@ -134,7 +134,7 @@ sempre funciona, de qualquer domínio de e-mail — é o caminho para quem já f
 de uma organização. Sem convite, só é possível se cadastrar com um e-mail de um **domínio
 autorizado**, uma lista que quem administra o serviço mantém. A mesma regra vale entrando pelo
 Google: sem convite pendente e sem domínio autorizado, o Google recusa com "Este e-mail não tem
-convite pendente nem pertence a um domínio autorizado a entrar no RIT360 Realiza. Peça um convite
+convite pendente nem pertence a um domínio autorizado a entrar na RIT360 Plataforma. Peça um convite
 a quem administra sua organização."
 
 {: .note }
@@ -178,7 +178,7 @@ A mesma tela no celular:
 {: .important }
 A mensagem do passo 3 é sempre a mesma, exista ou não uma conta com aquele e-mail. Isso é
 proteção, não indefinição do sistema: se a resposta mudasse conforme o e-mail existir, qualquer
-pessoa poderia usar essa tela para descobrir quem tem conta no Realiza.
+pessoa poderia usar essa tela para descobrir quem tem conta na RIT360 Plataforma.
 
 ## A primeira tela depois de entrar
 
@@ -210,7 +210,7 @@ você pode administrar uma e ser apenas membro em outra.
 O seletor de organização fica fixo no topo do aplicativo, ao lado da logo, em qualquer tela do
 produto — não é preciso abrir uma aba própria para trocar.
 
-1. Clique no seletor, no cabeçalho, ao lado da logo do Realiza.
+1. Clique no seletor, no cabeçalho, ao lado da logo da RIT360 Plataforma.
 2. Escolha outra organização na lista para trocar.
 
 Se você ainda não tiver nenhuma organização ativa e participar de mais de uma, a tela que se abre
@@ -230,7 +230,7 @@ para trocar, então a tela evita oferecer um controle que não faz nada. Havendo
 organização ativa, o seletor mostra só a logo (o nome aparece passando o mouse); sem logo, mostra o
 nome por extenso.
 
-## Usar o Realiza como aplicativo no celular
+## Usar a RIT360 Plataforma como aplicativo no celular
 
-O Realiza pode ficar na tela inicial do celular, com ícone próprio e notificações. Veja o passo a
+A RIT360 Plataforma pode ficar na tela inicial do celular, com ícone próprio e notificações. Veja o passo a
 passo para Android e iPhone em [Instalar no celular](/instalar-no-celular/).

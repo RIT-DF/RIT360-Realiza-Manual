@@ -19,7 +19,7 @@ ferramenta nos dois casos.
 - [Documentos, pastas e links](/conhecimento/documentos/) — enviar arquivo, guardar um link,
   organizar em pastas e subpastas.
 - [Wiki: páginas, histórico e publicação pública](/conhecimento/wiki/) — escrever uma página,
-  voltar a uma versão anterior, e publicar uma página para quem não tem conta no Realiza.
+  voltar a uma versão anterior, e publicar uma página para quem não tem conta na RIT360 Plataforma.
 
 ## Quem alcança o Conhecimento da organização
 

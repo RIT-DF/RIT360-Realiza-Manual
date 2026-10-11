@@ -9,13 +9,13 @@ palavras_chave: "conceder acesso, revogar acesso, última administradora, alcanc
 # Quem administra o serviço
 
 Esta tela concede, lista e revoga o acesso à administração do serviço — o
-alcance mais amplo que existe no RIT360 Realiza. Como a própria tela avisa:
+alcance mais amplo que existe na RIT360 Plataforma. Como a própria tela avisa:
 **"Administrar o serviço não é uma permissão de organização — é o alcance mais
 amplo que existe no produto, e nunca pode chegar a zero pessoas."**
 
 ## Passo a passo — conceder
 
-1. Na administração do serviço, abra a aba **"Acesso"** e role até
+1. Na administração do serviço, abra **"Acesso"** na barra principal e role até
    **"Quem administra o serviço"**.
 2. No campo **"Conceder por e-mail"**, digite o e-mail da pessoa.
 3. Clique em **"Conceder"**.
@@ -23,16 +23,16 @@ amplo que existe no produto, e nunca pode chegar a zero pessoas."**
 A pessoa passa a administrar o serviço imediatamente — não é preciso ela
 aceitar nem confirmar nada.
 
-![Painel da administração do serviço, com as contagens gerais](/assets/capturas/admin-servico-painel-desktop.png)
+![Tela "Visão geral" da administração do serviço, com a barra principal da administração e o cartão "Pendências"](/assets/capturas/admin-servico-painel-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Painel da administração do serviço, com as contagens gerais — no celular](/assets/capturas/admin-servico-painel-celular.png){: style="max-width:375px" }
+![Tela "Visão geral" da administração do serviço no celular, com o cartão "Pendências"](/assets/capturas/admin-servico-painel-celular.png){: style="max-width:375px" }
 
 {: .warning }
 Conceder por e-mail exige que já exista uma conta com esse e-mail no serviço
-de identidade. Se a pessoa nunca entrou no RIT360 Realiza antes, a linha dela
+de identidade. Se a pessoa nunca entrou na RIT360 Plataforma antes, a linha dela
 na lista aparece como **"(conta não encontrada na Identidade)"** — o acesso
 foi concedido, mas ainda não há uma conta para associar a ele até que a pessoa
 crie a sua.

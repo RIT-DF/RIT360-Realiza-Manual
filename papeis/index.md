@@ -13,8 +13,8 @@ conteúdo novo — leia o seu e volte aqui só quando o seu papel mudar.
 
 ## Antes de escolher o seu guia: são dois papéis, não um
 
-No Realiza você tem **um papel na organização** e, separadamente, **um papel em
-cada espaço** de que participa. As duas coisas não se misturam, e confundi-las é
+Na RIT360 Plataforma você tem **um papel na organização** e, separadamente, **um papel em
+cada espaço** de que participa — o espaço é do RIT360 Realiza. As duas coisas não se misturam, e confundi-las é
 o engano mais comum de quem começa.
 
 | | O que decide |

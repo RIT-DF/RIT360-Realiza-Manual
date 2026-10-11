@@ -10,11 +10,11 @@ palavras_chave: "google agenda, sincronizar calendário, webcal, outlook, endere
 
 Assine, direto da visão de calendário de um espaço, um endereço que o Google Agenda (ou qualquer
 outro aplicativo de calendário) busca sozinho — e passa a mostrar seus prazos e reuniões do
-Realiza junto com o resto do seu dia, sem você abrir o produto.
+RIT360 Realiza junto com o resto do seu dia, sem você abrir o produto.
 
 ## Por que isto importa
 
-Você já vive dentro do Google Agenda ou do calendário do celular. Em vez de checar o Realiza à
+Você já vive dentro do Google Agenda ou do calendário do celular. Em vez de checar o RIT360 Realiza à
 parte, seus compromissos aparecem no mesmo lugar que o resto da sua agenda.
 
 {: .note }
@@ -72,7 +72,7 @@ os prazos e as reuniões **dos dois espaços** — não só da campanha, que foi
 
 {: .warning }
 **O endereço é uma chave de leitura, não uma senha.** Quem tiver o endereço enxerga todos os seus
-compromissos na organização, sem precisar entrar no Realiza. Não cole em grupo, em planilha
+compromissos na organização, sem precisar entrar na RIT360 Plataforma. Não cole em grupo, em planilha
 compartilhada nem em qualquer lugar que outras pessoas possam ver.
 
 - **Gerar um endereço novo derruba o anterior.** Se você já tem uma assinatura ativa e clica em
@@ -81,7 +81,7 @@ compartilhada nem em qualquer lugar que outras pessoas possam ver.
   parar de funcionar nos aparelhos onde ela já está." Confirmando, qualquer aparelho que ainda
   esteja usando o endereço antigo para de receber atualizações — se você assina em mais de um
   aparelho, repita a assinatura em todos depois de gerar um novo.
-- **Reabrindo o painel, o endereço não aparece de novo.** Por segurança, o Realiza não guarda o
+- **Reabrindo o painel, o endereço não aparece de novo.** Por segurança, o RIT360 Realiza não guarda o
   endereço em claro depois de gerado — só um registro de que a assinatura está ativa. Se você
   fechou a tela sem copiar, ao voltar o painel mostra: "Clique em 'Adicionar ao Google Agenda'
   para gerar seu endereço — ele aparece aqui também." Não há como recuperar o endereço antigo;

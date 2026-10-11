@@ -8,7 +8,7 @@ palavras_chave: "oauth, client id, client secret, login social, sso, botão goog
 
 # Entrada pelo Google
 
-Esta configuração liga ou desliga o botão de entrar no RIT360 Realiza usando
+Esta configuração liga ou desliga o botão de entrar na RIT360 Plataforma usando
 uma conta Google, para o produto inteiro — não é algo que se ativa por
 organização. Ela existe para quem prefere não criar mais uma senha: a pessoa
 entra com a conta Google que já usa no dia a dia.
@@ -16,12 +16,12 @@ entra com a conta Google que já usa no dia a dia.
 ## O que se cadastra
 
 Cadastrar aqui um identificador e um segredo obtidos no próprio Google, feitos
-especificamente para autorizar o RIT360 Realiza a aceitar contas Google como
+especificamente para autorizar a RIT360 Plataforma a aceitar contas Google como
 forma de entrada.
 
 ## Passo a passo
 
-1. Na administração do serviço, abra a aba **"Acesso"**. No computador, esta
+1. Na administração do serviço, abra **"Acesso"** na barra principal. No computador, esta
    configuração já aparece direto na tela, num card próprio — role até
    **"Login por Google"**. No celular, toque no botão **"Abrir"** do card
    **"Login por Google"** para chegar à tela própria dela.
@@ -60,7 +60,7 @@ de configurada.
 Se o identificador digitado aqui não corresponder exatamente ao que foi
 cadastrado no Google — inclusive o endereço de retorno, que precisa ser
 idêntico, sem barra a mais nem a menos — quem tentar entrar pelo Google
-recebe uma recusa do próprio Google, antes mesmo de voltar ao RIT360 Realiza.
+recebe uma recusa do próprio Google, antes mesmo de voltar à RIT360 Plataforma.
 
 ## Quando dá errado
 

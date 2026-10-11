@@ -8,7 +8,7 @@ palavras_chave: "operação, suporte técnico, sem acesso a conteúdo, instalaç
 
 # Guia de quem administra o serviço
 
-Você cuida da instalação do Realiza — a que atende todas as organizações. É um
+Você cuida da instalação da RIT360 Plataforma — a que atende todas as organizações. É um
 papel de operação, diferente de tudo o mais neste manual: você mantém o serviço
 de pé, mas **não tem acesso ao conteúdo de organização nenhuma**.
 
@@ -40,7 +40,7 @@ algo que o seu papel conceda.
 
 ## Por onde começar
 
-Leia a seção inteira: [Administração do serviço](/admin-servico/).
+No menu lateral, o item **"Administração"** — abaixo de Realiza e Flow, e visível só para quem tem este papel — leva à área. Leia a seção inteira: [Administração do serviço](/admin-servico/).
 
 ## A armadilha deste papel
 

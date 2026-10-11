@@ -13,7 +13,7 @@ as tenha convidado. Esta tela é onde você decide cada pedido.
 
 ## Por que isto importa
 
-Sem isso, alguém que chega numa equipe grande e tenta entrar no Realiza pelo domínio da
+Sem isso, alguém que chega numa equipe grande e tenta entrar na RIT360 Plataforma pelo domínio da
 instituição criaria uma organização nova e duplicada, ou ficaria travado sem saber a quem pedir
 convite. Com o domínio de reconhecimento cadastrado (veja
 [Dados e identidade da organização](/configuracoes/organizacao/)), o pedido cai aqui, para quem
@@ -49,7 +49,7 @@ falha alguma.
 Três pessoas da Fundação Aroeira, todas com e-mail `@fundacaoaroeira.org`, pedem entrada porque
 esse domínio já está cadastrado como reconhecimento de outra organização parceira. Maria Oliveira
 seleciona as três e clica em **"Recusar selecionados"**, com o motivo "Este e-mail pertence à
-Fundação Aroeira, que já tem organização própria no Realiza — pedimos que peçam por lá." As três
+Fundação Aroeira, que já tem organização própria na RIT360 Plataforma — pedimos que peçam por lá." As três
 recebem esse texto por e-mail.
 
 ## Dicas e armadilhas

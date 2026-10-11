@@ -9,7 +9,7 @@ palavras_chave: "domínio público, gmail.com, subdomínio, criar conta sem conv
 # Domínios autorizados
 
 Esta tela cadastra os **domínios de e-mail que dispensam convite** para criar
-conta no RIT360 Realiza. Convite continua funcionando para qualquer pessoa,
+conta na RIT360 Plataforma. Convite continua funcionando para qualquer pessoa,
 de qualquer domínio — o que esta lista faz é abrir uma segunda porta: quem
 tem e-mail de um domínio autorizado cria a própria conta sozinho, sem
 precisar que ninguém a convide primeiro, tanto pela entrada com senha quanto
@@ -29,16 +29,16 @@ Autorizar o domínio de e-mail dela (por exemplo, o domínio institucional de
 uma OSC) deixa qualquer pessoa daquele domínio criar a própria conta na hora,
 sem esperar convite individual.
 
-![Tela de domínios autorizados, com dois domínios já liberados](/assets/capturas/admin-servico-dominios-desktop.png)
+![Tela de domínios autorizados, com os domínios já liberados em lista](/assets/capturas/admin-servico-dominios-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Tela de domínios autorizados, com dois domínios já liberados — no celular](/assets/capturas/admin-servico-dominios-celular.png){: style="max-width:375px" }
+![Tela de domínios autorizados, com os domínios já liberados em lista — no celular](/assets/capturas/admin-servico-dominios-celular.png){: style="max-width:375px" }
 
 ## Passo a passo — autorizar um domínio
 
-1. Na administração do serviço, abra a aba **"Acesso"**. No computador, esta
+1. Na administração do serviço, abra **"Acesso"** na barra principal. No computador, esta
    configuração já aparece direto na tela, num card próprio — role até
    **"Domínios autorizados"**. No celular, toque no botão **"Abrir"** do card
    **"Domínios autorizados"**.
@@ -57,7 +57,7 @@ A mesma tela no celular:
 - **Autorizar um provedor de e-mail público (gmail.com, outlook.com e
   afins) abre o produto para qualquer pessoa**, não só para a sua
   organização — qualquer pessoa com conta naquele provedor passa a poder
-  criar conta no RIT360 Realiza. Por isso o produto pede uma confirmação
+  criar conta na RIT360 Plataforma. Por isso o produto pede uma confirmação
   explícita antes de aceitar um domínio assim: veja o aviso **"Este é um
   provedor de e-mail público"** e confirme em **"Autorizar mesmo assim"**
   só se for isso mesmo que você quer.

@@ -100,7 +100,7 @@ A tela confirma com "Convite enviado para [e-mail]."
 ### O que acontece do outro lado
 
 A pessoa convidada recebe um e-mail com um link para a tela de aceitar convite. Se ela ainda não
-tem conta no Realiza, define uma senha e a conta é criada na hora — veja
+tem conta na RIT360 Plataforma, define uma senha e a conta é criada na hora — veja
 [Primeiros passos](/primeiros-passos/#aceitar-um-convite). Se ela já tem conta com aquele e-mail,
 o vínculo com a organização passa a valer assim que ela entra.
 

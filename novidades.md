@@ -6,14 +6,127 @@ permalink: /novidades/
 
 # Novidades
 
-O que mudou no RIT360 Realiza, em linguagem de quem usa. As mudanças mais
+O que mudou na RIT360 Plataforma e nos seus produtos, em linguagem de quem usa. As mudanças mais
 recentes vêm primeiro.
 
 {: .note }
 O produto está em construção, e por isso estas primeiras entradas descrevem
 capacidades chegando pela primeira vez, não ajustes em cima do que já existia.
-Conforme o Realiza amadurecer, esta página vai virar o que ela é nos outros
+Conforme a plataforma amadurecer, esta página vai virar o que ela é nos outros
 produtos da casa: o registro do que mudou de uma versão para a outra.
+
+---
+
+## 11 de outubro de 2026 — versão 0.37.0
+
+### Modificado
+
+- **O aplicativo passou a se chamar RIT360 Plataforma, com a logo da família RIT360, e o nome
+  Realiza ficou para o produto de trabalho.** Até aqui o aplicativo inteiro se chamava RIT360
+  Realiza; agora a **RIT360 Plataforma** é a casa onde você entra, e o **RIT360 Realiza** é um dos
+  produtos que moram nela, ao lado do **RIT360 Flow**. O nome novo aparece no título da janela, no
+  aplicativo instalado no celular, no rodapé (que agora traz o nome antes do número da versão),
+  nas telas de entrar e de cadastrar, nas telas da administração do serviço, nos avisos e nas
+  mensagens do robô do Telegram. Nos e-mails que chegam para você — convite, recuperação de senha,
+  confirmação e resposta de pedido de organização —, quem manda é a RIT360 Plataforma; o aviso de
+  algo de um produto continua nomeando o produto. No celular, o topo da tela passou a mostrar o
+  símbolo da família, que antes não aparecia ali. **O que não muda:** o endereço do site é o mesmo,
+  a sua conta e a sua senha são as mesmas, e nada do que você tem salvo — favoritos, tarefas,
+  documentos, o ícone no celular — deixou de funcionar. Veja a [página inicial](/) para a
+  diferença entre os dois nomes, [Primeiros passos](/primeiros-passos/) e [Instalar no
+  celular](/instalar-no-celular/).
+- **A administração do serviço ganhou um item próprio na barra lateral**, chamado
+  **"Administração"**, abaixo de Realiza e Flow e visível só para quem administra o serviço.
+  Entrando nele, a barra principal passa a mostrar **Visão geral, Organizações, Acesso, Serviços,
+  Manutenção e Feedbacks** no lugar dos itens do Realiza, e nenhum produto fica aceso; para
+  voltar, clique em Realiza ou em Flow. No celular vale o mesmo, na barra de baixo. Os menus de abas
+  que apareciam dentro de cada tela da administração deixaram de existir — a barra principal é o
+  menu — e o ícone de atalho **"Administração geral"**, da barra de cima, saiu: era uma segunda
+  porta para o mesmo lugar. **Nenhum endereço mudou.** Veja [Como
+  navegar](/admin-servico/#como-navegar).
+- **A tabela de Organizações ficou mais enxuta e cabe na tela sem rolar para o lado.** Ela agora
+  mostra **Organização, Domínio, Contrato, Módulos e Ações**. Gestor, Entrada, Espaços, Clientes e
+  Pessoas foram para o **detalhe** de cada organização, que abre ao clicar no nome ou em
+  **"Detalhes"** — e o aviso de que os números de Espaços e Clientes podem estar desatualizados
+  foi junto, porque fala exatamente desses números. No celular, cada organização vira um bloco.
+  Quem percorria a lista para ver quem responde por cada organização agora precisa abrir o detalhe
+  de cada uma. Veja [Ver o detalhe de uma
+  organização](/admin-servico/organizacoes/#ver-o-detalhe-de-uma-organização).
+- **A tela Exportar dados passou a chamar cada parte do pacote pelo nome — Conhecimento,
+  Relatórios, Assistente, Comunicação, RIT360 Flow — e ganhou um terceiro resultado, "estava
+  vazio".** Antes, uma parte sem nada para levar aparecia como "concluído", o que dava a entender
+  que havia conteúdo no pacote. Agora a linha diz **"estava vazio"**: a parte foi considerada, e a
+  organização não tinha nada nela. O mesmo vale para qualquer parte, inclusive Trabalho e
+  Conhecimento. O pacote em si não mudou, e produto desligado continua sendo exportado. Veja [O
+  resultado de cada parte do
+  pacote](/configuracoes/exportar-dados/#o-resultado-de-cada-parte-do-pacote).
+
+### Corrigido
+
+- **Mudar a instalação de um servidor para outro não perde mais quais produtos cada organização
+  tem ligados.** Antes, a organização que chegava ao servidor novo podia aparecer com um produto
+  ligado que a origem tinha desligado de propósito. Agora o que veio da origem vale. Um pacote de
+  instalação exportado antes desta versão não traz essa informação; nesse caso toda organização
+  importada fica com o Realiza ligado, e exportar de novo a partir da origem resolve. Veja [Mudar
+  de servidor](/admin-servico/mudar-de-servidor/).
+- **As rotinas automáticas deixaram de rodar para a organização que desligou um produto.** Avisos
+  por e-mail, notificações, relatórios periódicos, remoção de arquivos e entrega de webhooks
+  daquele produto ficam esperando enquanto ele estiver desligado — nada sai e nada se perde — e
+  são processados quando o produto volta. Veja [O que acontece quando um módulo é
+  desligado](/admin-servico/organizacoes/#o-que-acontece-quando-um-módulo-é-desligado).
+
+---
+
+## 11 de outubro de 2026 — versão 0.36.0
+
+### Adicionado
+
+- **O RIT360 Flow entrou na barra lateral, ao lado do Realiza — por enquanto só com uma tela
+  inicial.** Ele cuida do ciclo da pessoa com a organização (candidatura, termo de adesão,
+  credencial) e nasce vazio: a tela mostra um resumo com quatro contagens, todas em zero, e as
+  funções que as preenchem chegam em entregas próprias. Nenhuma organização tem o Flow ligado
+  ainda; quem administra o serviço o liga na tela Organizações. Quem abre o endereço do Flow numa
+  organização que não o tem ligado vê o aviso de que ele não está habilitado e como pedir. Veja
+  [Os produtos na barra lateral](/produtos/).
+
+### Modificado
+
+- **O selo "não habilitado" do item apagado na barra lateral ficou legível.** Ele tinha pouco
+  contraste justamente na palavra que explica por que o item está apagado.
+
+---
+
+## 11 de outubro de 2026 — versão 0.35.0
+
+### Adicionado
+
+- **Quem administra o serviço passou a ligar e desligar os produtos de cada organização**, na
+  tela Organizações, pela coluna **"Módulos"** (botões **"Ligar"** e **"Desligar"**, com
+  confirmação ao desligar). Desligar **não apaga nada** do que a organização produziu: religar
+  traz tudo de volta. Toda organização existente, e toda que nascer, continua com o Realiza
+  ligado, e a própria organização não consegue ligar nem desligar produtos para si. Veja [Ligar e
+  desligar módulos de uma
+  organização](/admin-servico/organizacoes/#ligar-e-desligar-módulos-de-uma-organização).
+- **Na barra lateral, o produto que a organização não tem aparece apagado, com a marca "não
+  habilitado", para quem a administra.** Clicar nele não leva a lugar nenhum e mostra a frase
+  que explica como pedir a habilitação; para as demais pessoas o produto simplesmente não
+  aparece. Veja [Os produtos na barra lateral](/produtos/).
+- **A exportação dos dados da organização continua trazendo o conteúdo de um produto desligado**,
+  de propósito: "você não usa mais" nunca pode virar "você perdeu o que era seu". Veja [Exportar
+  dados](/configuracoes/exportar-dados/).
+
+---
+
+## 25 de setembro de 2026 — versão 0.34.0
+
+### Modificado
+
+- **A confirmação de uma ação do assistente deixou de repetir a mesma frase duas vezes na tela.**
+  Antes, a frase da prévia aparecia na mensagem do assistente e de novo no cartão de confirmação
+  logo abaixo; no celular, a repetição ocupava a altura que deveria mostrar o que estava sendo
+  confirmado. Agora ela fica só na mensagem, terminando em "Confirma?", e o cartão mostra
+  **"Confirma a ação acima?"** com os botões **"Confirmar"** e **"Cancelar"**, que não mudaram.
+  Veja [Assistente](/assistente/).
 
 ---
 
@@ -280,7 +393,7 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
   cabeçalho, além de Esc e clique fora. Veja [Acessar](/assistente/#acessar).
 - **A resposta a uma dúvida agora traz um link clicável para a página do manual**, em vez do
   endereço em texto solto. Veja [Tirar dúvida sobre como usar o
-  Realiza](/assistente/#tirar-dúvida-sobre-como-usar-o-realiza).
+  Realiza](/assistente/#tirar-dúvida-sobre-como-usar-a-rit360-plataforma).
 
 ### Corrigido
 
@@ -298,7 +411,7 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
   quanto pelo Telegram. Pergunte, por exemplo, "como eu arquivo um espaço?" ou "o que é uma
   reprogramação de prazo?", e ele responde com a parte do manual que explica, mais o link para ler
   o resto. Veja [Tirar dúvida sobre como usar o
-  Realiza](/assistente/#tirar-dúvida-sobre-como-usar-o-realiza).
+  Realiza](/assistente/#tirar-dúvida-sobre-como-usar-a-rit360-plataforma).
 
 ---
 

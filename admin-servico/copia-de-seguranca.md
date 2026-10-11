@@ -10,7 +10,7 @@ palavras_chave: "backup, restauração, falha silenciosa, madrugada, banco de da
 
 Na administração geral, o cartão **"Cópia de segurança do banco"** mostra o
 resultado da cópia de segurança (também chamada de **backup**) do banco de
-dados do RIT360 Realiza — a rotina que existe para que os dados do produto
+dados da RIT360 Plataforma — a rotina que existe para que os dados do produto
 não se percam se o servidor falhar.
 Logo abaixo do título, o cartão explica: **"Roda sozinha, de madrugada, fora
 do produto. Aqui só se vê o resultado que a última rodada reportou."**
@@ -22,7 +22,7 @@ reportou.
 
 ## O que a tela mostra
 
-Um dos três estados abaixo aparece sempre que você abre a aba
+Um dos três estados abaixo aparece sempre que você abre a tela
 **"Manutenção"**:
 
 - **Nunca rodou uma cópia de segurança reportada por este mecanismo.** —
@@ -65,7 +65,7 @@ verdade e acompanhar a última cópia enviada a cada um.
 {: .important }
 Se a sua organização depende de garantias formais sobre cópia de segurança —
 para um contrato, uma auditoria ou um doador —, trate essas informações como
-perguntas para a equipe técnica do RIT360 Realiza, não como algo que esta
+perguntas para a equipe técnica da RIT360 Plataforma, não como algo que esta
 tela comprova sozinha.
 
 ## Quando dá errado

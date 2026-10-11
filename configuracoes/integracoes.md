@@ -15,13 +15,13 @@ documentação técnica linkada no fim desta página.
 
 ## Por que isto importa
 
-Sem chave de API nem webhook, tirar um dado do Realiza ou avisar outro sistema quando algo
+Sem chave de API nem webhook, tirar um dado da RIT360 Plataforma ou avisar outro sistema quando algo
 acontece por aqui exigiria alguém copiando informação manualmente. Com eles, um sistema externo lê
 ou grava dentro dos limites que você definiu, e é avisado sozinho quando um evento acontece.
 
 {: .important }
-**Token**, aqui, é a **credencial** que um sistema externo usa para se identificar ao falar com o
-Realiza — como uma senha, só que feita para máquina, não para pessoa. É esse valor que aparece
+**Token**, aqui, é a **credencial** que um sistema externo usa para se identificar ao falar com a
+RIT360 Plataforma — como uma senha, só que feita para máquina, não para pessoa. É esse valor que aparece
 como "chave" e como "segredo" nesta página.
 
 ## Acessar
@@ -71,7 +71,7 @@ Para revogar várias de uma vez, marque-as e clique em **"Revogar selecionadas"*
 
 ## Webhooks
 
-Um webhook avisa um sistema externo, automaticamente, quando algo acontece no Realiza — uma tarefa
+Um webhook avisa um sistema externo, automaticamente, quando algo acontece na RIT360 Plataforma — uma tarefa
 criada, uma entrega enviada para aprovação, um pedido de triagem decidido.
 
 ### Criar um webhook
@@ -88,7 +88,14 @@ de entrega enviada para aprovação, entrega aprovada ou recusada, ajuste solici
 pedido de triagem recebido e pedido de triagem decidido.
 
 Como na chave de API, o **segredo** do webhook aparece **uma única vez**, para verificar que um
-aviso recebido realmente veio do Realiza (a documentação técnica explica como).
+aviso recebido realmente veio da RIT360 Plataforma (a documentação técnica explica como).
+
+{: .warning }
+**O aplicativo mudou de nome, mas o cabeçalho de assinatura dos avisos não.** Ele continua se
+chamando `X-Realiza-Assinatura` (e o do tipo de evento, `X-Realiza-Evento`), de propósito: quem já
+tem uma integração pronta verifica a assinatura procurando esse nome, e trocá-lo faria toda
+verificação existente passar a falhar sem aviso. Se você mantém uma integração, não precisa mudar
+nada; se vai criar uma nova, procure o cabeçalho com o nome antigo, não um com "Plataforma".
 
 ### Acompanhar as entregas
 
@@ -96,7 +103,7 @@ Na linha do webhook, clique em **"Entregas"** para ver o estado de cada tentativ
 
 - **"Na fila"** — ainda não foi tentado.
 - **"Entregue"** — o sistema de destino confirmou o recebimento.
-- **"Falhou — vai tentar de novo"** — a primeira tentativa não deu certo; o Realiza tenta de novo
+- **"Falhou — vai tentar de novo"** — a primeira tentativa não deu certo; a RIT360 Plataforma tenta de novo
   sozinho.
 - **"Esgotou as tentativas"** — todas as tentativas falharam. Aparece o botão **"Reenviar"**, para
   você forçar uma nova tentativa depois de corrigir o que estava impedindo o recebimento do outro

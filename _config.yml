@@ -1,5 +1,5 @@
-title: RIT360 Realiza
-description: "Manual do usuário e documentação oficial do RIT360 Realiza — coordenação de projetos e operações contínuas para Organizações da Sociedade Civil, pela RIT."
+title: RIT360 Plataforma
+description: "Manual do usuário e documentação oficial da RIT360 Plataforma — a casa dos produtos RIT360, entre eles o RIT360 Realiza, de coordenação de projetos e operações contínuas para Organizações da Sociedade Civil, pela RIT."
 lang: pt-BR
 url: https://docs.realiza.rit360.org.br
 permalink: pretty
@@ -60,7 +60,7 @@ callouts:
 
 # Links auxiliares (canto superior direito)
 aux_links:
-  "Acessar o RIT360 Realiza":
+  "Acessar a RIT360 Plataforma":
     - "https://realiza.rit360.org.br"
 aux_links_new_tab: true
 

@@ -9,7 +9,7 @@ palavras_chave: "parceiro, financiador, cliente externo, conversa interna, o que
 # Quem é convidado de fora
 
 Você recebeu um convite para participar de um espaço de outra organização —
-como parceiro, financiador ou cliente. Não faz parte da equipe dela, e o Realiza
+como parceiro, financiador ou cliente. Não faz parte da equipe dela, e o RIT360 Realiza
 foi desenhado para que isso fique claro sem ninguém precisar tomar cuidado.
 
 ## O que você vê
@@ -70,6 +70,6 @@ espaço, como você.
 3. [Conversar dentro da tarefa](/trabalho/conversas/)
 
 {: .note }
-Se você também usa o Realiza pela sua própria organização, é a **mesma conta**
+Se você também usa a RIT360 Plataforma pela sua própria organização, é a **mesma conta**
 nos dois lugares. Basta trocar de organização pelo seletor do cabeçalho — e
 cada organização só enxerga o vínculo dela com você, nunca os outros.

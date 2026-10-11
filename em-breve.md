@@ -6,7 +6,7 @@ permalink: /em-breve/
 
 # O que ainda vem por aí
 
-O RIT360 Realiza está sendo construído por partes, e uma decisão nossa é que o
+A RIT360 Plataforma está sendo construída por partes, e uma decisão nossa é que o
 manual descreve **só o que já existe na tela**. Esta página é o outro lado dessa
 decisão: o que está previsto, para você não procurar o que ainda não chegou.
 
@@ -20,7 +20,7 @@ houver algo novo previsto, ele aparece aqui.
 
 ## O que não está previsto
 
-Para não deixar dúvida: o Realiza **não** é uma ferramenta de publicação em
+Para não deixar dúvida: o RIT360 Realiza **não** é uma ferramenta de publicação em
 redes sociais, não gerencia candidaturas de vagas e não substitui o
 [RIT360 Financeiro](https://docs.rit360.org.br), que cuida da gestão financeira
 da organização.

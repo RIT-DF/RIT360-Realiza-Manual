@@ -115,8 +115,8 @@ A página passa a existir num endereço no formato **`/p/<código>`**, que apare
 publicação no ar. Para pegar o link de uma página publicada semanas atrás, basta abri-la.
 
 {: .important }
-**"Público" quer dizer público mesmo: qualquer pessoa com o link lê a página, sem entrar no
-Realiza e sem ter conta nenhuma.** Não existe senha nem verificação — quem tiver o endereço, lê. O
+**"Público" quer dizer público mesmo: qualquer pessoa com o link lê a página, sem entrar na
+RIT360 Plataforma e sem ter conta nenhuma.** Não existe senha nem verificação — quem tiver o endereço, lê. O
 que fica visível é exatamente o conteúdo daquela página, no estado em que você publicou; nada mais
 do Conhecimento, do espaço ou da organização.
 

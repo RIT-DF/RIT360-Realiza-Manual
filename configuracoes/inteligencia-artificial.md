@@ -41,7 +41,7 @@ salvos e inertes, prontos para voltar a funcionar se a recusa for desmarcada dep
 
 Desmarcando a recusa, aparece a pergunta **"De quem são os provedores usados?"**, com duas opções:
 
-- **"Provedores do sistema (padrão)."** — usa o que o RIT360 Realiza já cadastrou. A tela avisa:
+- **"Provedores do sistema (padrão)."** — usa o que a RIT360 Plataforma já cadastrou. A tela avisa:
   "Hoje está incluído; se um dia isso for cobrado, você será avisado antes."
 - **"Provedores próprios desta organização."** — usa só os provedores que a própria organização
   cadastra abaixo. A tela avisa: "Sem nenhum funcionando, o assistente fica indisponível — nunca

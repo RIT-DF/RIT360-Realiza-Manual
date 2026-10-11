@@ -66,7 +66,7 @@ Não precisa. As etapas já vêm prontas — "A fazer", "Fazendo", "Em aprovaç�
 "Concluído" — e são editáveis quando você souber do que precisa. Comece a
 trabalhar hoje.
 
-### Por que o Realiza não pergunta prioridade nem categoria ao criar a tarefa?
+### Por que o RIT360 Realiza não pergunta prioridade nem categoria ao criar a tarefa?
 
 Porque na hora de criar quase ninguém sabe a resposta, e perguntar cedo só
 ensina a preencher qualquer coisa. Título e Enter bastam; responsável e prazo
@@ -168,6 +168,29 @@ de [Meu trabalho](/trabalho/meu-trabalho/). O canal muda; a obrigação, não.
 
 ## O produto
 
+### Qual a diferença entre a RIT360 Plataforma e o RIT360 Realiza?
+
+A **RIT360 Plataforma** é a casa onde você entra: a sua conta, as organizações de que você
+participa, os convites, os avisos, o assistente, o aplicativo no celular e a administração do
+serviço. O **RIT360 Realiza** é o produto de trabalho que mora dentro dela — espaços, tarefas,
+entregas, aprovações, clientes e Conhecimento — ao lado do **RIT360 Flow**.
+
+Na prática: se a instrução fala de entrar, de conta, de convite, de avisos, do assistente ou do
+aplicativo no celular, ela é da plataforma. Se fala de espaço, tarefa, entrega, aprovação, cliente
+ou Conhecimento, é do RIT360 Realiza. Na barra lateral os dois aparecem pelo nome curto — Realiza e
+Flow. Veja a [página inicial](/) e [Os produtos na barra lateral](/produtos/).
+
+### O aplicativo mudou de nome e de logo. Perdi alguma coisa?
+
+Não. Até a versão 0.36, o aplicativo inteiro se chamava RIT360 Realiza; a partir da 0.37.0 ele se
+chama RIT360 Plataforma, e o nome Realiza ficou para o produto de trabalho. O endereço do site, a
+conta, a senha, as organizações, as tarefas, os documentos e os favoritos são os mesmos. O que muda
+é a logo, o nome no alto das telas e no rodapé, o remetente dos e-mails (convite, recuperação de
+senha, pedido de organização) e o jeito como o robô do Telegram se apresenta. Um convite ou e-mail
+que chegou antes da troca, ainda com o nome antigo, continua valendo: o endereço para onde ele leva
+não mudou. No celular, o ícone que você já tinha segue funcionando — veja
+[Instalar no celular](/instalar-no-celular/).
+
 ### Onde está o assistente que responde por conversa?
 
 No botão redondo no canto inferior direito da tela, presente em qualquer tela do produto, e também
@@ -220,7 +243,7 @@ dados](/configuracoes/exportar-dados/) que já existem nele.
 ### Alguém de fora consegue ver a página publicada da wiki?
 
 Sim, e sem precisar de conta: publicar uma página de wiki gera um endereço no formato `/p/<código>`
-que qualquer pessoa com o link consegue abrir, mesmo sem entrar no Realiza. Por isso o manual avisa
+que qualquer pessoa com o link consegue abrir, mesmo sem entrar na RIT360 Plataforma. Por isso o manual avisa
 para nunca publicar uma página com dado pessoal — veja
 [Wiki: páginas, histórico e publicação pública](/conhecimento/wiki/).
 
@@ -257,7 +280,7 @@ Segundo a documentação oficial das três, não. Cada uma retém o conteúdo po
 a 55 dias), só para monitorar abuso e segurança. As fontes estão na
 [Política de Privacidade](/privacidade/).
 
-### O que acontece com os nossos dados se pararmos de usar o Realiza?
+### O que acontece com os nossos dados se pararmos de usar a RIT360 Plataforma?
 
 Quem administra a organização mantém o acesso por **30 dias**, podendo fazer duas coisas: exportar
 os dados ou reativar o uso. **No trigésimo dia os dados são apagados, e isso não tem volta.**
@@ -273,12 +296,15 @@ artificial **não interrompe o resto da plataforma**.
 
 ### Apareceu uma faixa dizendo que há uma versão nova. Preciso recarregar agora?
 
-Não, se a faixa disser "Há uma versão nova do Realiza — recarregue quando puder." — nesse caso há
-um botão **"Agora não"**, e nada é perdido enquanto você não recarrega; a aba só continua na
-versão anterior até você clicar em **"Recarregar"**. Há uma segunda faixa, mais séria e sem botão
-de dispensar: se ela disser que a aba está numa versão que **já não conversa com o servidor**,
-recarregue assim que puder — a essa altura a aba pode não estar salvando o que você faz. O produto
-nunca recarrega sozinho: formulário preenchido é seu até você decidir.
+Não, se a faixa disser apenas **"Nova versão disponível"**: nada é perdido enquanto você não
+recarrega, e a aba só continua na versão anterior até você clicar em **"Atualizar"**. Há uma
+variante mais séria: se a faixa disser que a aba **já não conversa com o servidor** (**"Nova versão
+disponível — esta aba já não conversa com o servidor. Atualize para continuar."**), clique em
+**"Atualizar"** assim que puder — a essa altura a aba pode não estar salvando o que você faz. O
+produto nunca recarrega sozinho: formulário preenchido é seu até você decidir. No aplicativo
+instalado no celular a mensagem é outra — **"Uma versão nova da RIT360 Plataforma está pronta."**,
+com os botões **"Atualizar agora"** e **"Depois"** — e está explicada em
+[Instalar no celular](/instalar-no-celular/#quando-sai-uma-versão-nova).
 
 ### Achei um erro. Onde aviso?
 

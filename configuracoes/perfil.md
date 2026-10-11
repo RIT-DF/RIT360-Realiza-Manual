@@ -26,7 +26,7 @@ Clique no seu avatar, no canto superior direito, e escolha **"Meu perfil"**.
 {: .important }
 Preencher o nome importa mais do que parece: sem ele, as outras pessoas veem um código no lugar de
 gente — nas listas de participantes, nas tarefas atribuídas, nas conversas. Um nome preenchido é o
-que torna o Realiza legível para quem trabalha com você.
+que torna a RIT360 Plataforma legível para quem trabalha com você.
 
 ## Trocar ou remover a foto
 
@@ -52,7 +52,7 @@ está aqui como os outros campos.
 
 ## Telegram
 
-Ligue seu Telegram para conversar com o assistente do Realiza também por lá, sem abrir o
+Ligue seu Telegram para conversar com o assistente da RIT360 Plataforma também por lá, sem abrir o
 aplicativo. Veja [Telegram](/configuracoes/telegram/) — como ligar, como desligar e o que muda em
 relação à conversa dentro do produto.
 
@@ -64,7 +64,7 @@ de calendário de um espaço — junto de onde você de fato olha o calendário,
 
 ## Avisos: o que você recebe e por onde
 
-O Realiza avisa você de coisas que pedem sua atenção — uma tarefa nova, um pedido de aprovação,
+A RIT360 Plataforma avisa você de coisas que pedem sua atenção — uma tarefa nova, um pedido de aprovação,
 um ajuste que pediram na sua entrega. Esta seção é sobre onde esses avisos aparecem e como você
 escolhe receber cada um.
 
@@ -95,8 +95,8 @@ Os tipos de aviso são:
 - **"Fui mencionado numa conversa"**
 
 {: .note }
-**"Fui mencionado numa conversa"** já chega ligado no e-mail — para alcançar você mesmo com o
-Realiza fechado — e desligado na notificação do aparelho. Se preferir não receber e-mail a cada
+**"Fui mencionado numa conversa"** já chega ligado no e-mail — para alcançar você mesmo com a
+plataforma fechada — e desligado na notificação do aparelho. Se preferir não receber e-mail a cada
 menção, desligue esse interruptor aqui; a menção continua aparecendo na central de avisos
 normalmente.
 
@@ -122,8 +122,8 @@ sozinho porque o aviso por e-mail foi desligado.
 ### Notificações no aparelho
 
 Quando seu navegador aceita esse tipo de notificação, aparece o bloco **"Notificações neste
-aparelho"**, com um botão **"Ativar neste aparelho"**. Ativando, você recebe avisos mesmo com o
-Realiza fechado; o texto muda para "Ativas — este aparelho está registrado para receber
+aparelho"**, com um botão **"Ativar neste aparelho"**. Ativando, você recebe avisos mesmo com a
+plataforma fechada; o texto muda para "Ativas — este aparelho está registrado para receber
 notificações." e o botão vira **"Desativar"**.
 
 {: .note }

@@ -47,7 +47,7 @@ para o depósito confirmando a entrega das caixas, prazo sexta". O assistente pr
 mostra um resumo do que vai fazer, esperando você confirmar antes de criar qualquer coisa de
 verdade.
 
-## Tirar dúvida sobre como usar o Realiza
+## Tirar dúvida sobre como usar a RIT360 Plataforma
 
 O assistente também responde "como eu faço X" ou "o que significa Y" — buscando a resposta no
 manual publicado, nunca inventando um passo que não existe ali.
@@ -77,7 +77,7 @@ explica o passo, e o link para a página inteira, caso ela queira ver mais.
   clicável. Tente reformular com outras palavras, ou abra o índice pelo link.
 - **"Não consegui consultar o manual agora — tente de novo em instantes."** — o manual está
   temporariamente fora do alcance do assistente. Tente de novo em alguns instantes.
-- **"Sobre qual dúvida de uso do Realiza você quer saber?"** — a pergunta chegou sem nenhum
+- **"Sobre qual dúvida de uso da RIT360 Plataforma você quer saber?"** — a pergunta chegou sem nenhum
   conteúdo reconhecível. Escreva a dúvida com mais detalhe.
 
 ### Dicas e armadilhas
@@ -430,7 +430,7 @@ tarefa Revisar arte".
 ### A versão é obrigatória
 
 Pedir "aprova a entrega Arte final", sem dizer a versão, não resolve — o assistente não adivinha
-qual versão você quer. Isso é deliberado: no Realiza, a aprovação **sempre** referencia uma
+qual versão você quer. Isso é deliberado: no RIT360 Realiza, a aprovação **sempre** referencia uma
 versão identificada, com confirmação explícita — nunca é consequência de um gesto genérico. É o
 mesmo princípio que vale para [aprovar ou pedir ajuste pela
 tela](/trabalho/aprovar-ou-pedir-ajuste/). Diga a versão junto do pedido.

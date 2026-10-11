@@ -7,7 +7,7 @@ permalink: /admin-servico/
 
 # Administração do serviço
 
-Esta parte do manual é para quem administra o **RIT360 Realiza como um todo** — a
+Esta parte do manual é para quem administra a **RIT360 Plataforma como um todo** — a
 instalação que atende todas as organizações, não uma organização específica. Se
 você cuida só da sua organização (membros, espaços, configurações dela), o que
 você procura está em [Quem administra a organização](/papeis/administrador-da-organizacao/),
@@ -22,15 +22,34 @@ criados — nunca o que está dentro deles.
 
 ## Como navegar
 
-No alto de toda tela desta área fica um menu de abas, sempre visível: **"Visão geral"**,
-**"Organizações"**, **"Acesso"**, **"Serviços"**, **"Manutenção"** e **"Feedbacks"**. Cada aba
-abre uma tela de entrada, e dali saem as telas daquele assunto.
+A administração não pertence a produto nenhum: ela cuida de todas as organizações e de todos os
+produtos de uma vez. Por isso ela tem um lugar próprio, e não fica pendurada na navegação do
+RIT360 Realiza.
+
+**Para entrar:** quem administra o serviço vê, na barra lateral, o item **"Administração"**, abaixo
+de **Realiza** e **Flow**. No celular, o item está no menu que abre pelo botão **"Abrir
+navegação"**. Quem não administra o serviço nunca vê esse item.
+
+**Estando dentro:** a barra principal muda. No lugar de Meu trabalho, Espaços, Conhecimento e
+Clientes, ela passa a mostrar **"Visão geral"**, **"Organizações"**, **"Acesso"**, **"Serviços"**,
+**"Manutenção"** e **"Feedbacks"** — em cima, no computador; embaixo, no celular. Enquanto você
+está ali, nenhum produto fica aceso na lateral. Cada item abre uma tela de entrada, e dali saem as
+telas daquele assunto.
+
+**Para voltar ao trabalho:** clique em **Realiza** (ou em **Flow**) na barra lateral. No celular,
+abra o menu pelo botão **"Abrir navegação"** e escolha o produto.
 
 {: .tip }
-O menu acompanha você: mesmo três telas adiante, ele continua no alto, e trocar de assunto é um
-clique — não é preciso voltar à primeira tela.
+A barra acompanha você: mesmo três telas adiante, ela continua no alto (embaixo, no celular), e
+trocar de assunto é um clique — não é preciso voltar à primeira tela. Se você costumava usar o
+ícone de atalho **"Administração geral"** da barra de cima, ele saiu: o caminho agora é o item
+**"Administração"** da lateral.
 
-## O que você encontra aqui, por aba
+{: .note }
+Nenhum endereço mudou. Link guardado nos favoritos para qualquer tela desta área continua
+funcionando.
+
+## O que você encontra aqui, por item da barra
 
 **Visão geral** — [o que está esperando decisão sua](/admin-servico/painel/) e, abaixo, as
 contagens do serviço: quantas organizações, quantas pessoas e quantos espaços.
@@ -51,7 +70,7 @@ contagens do serviço: quantas organizações, quantas pessoas e quantos espaço
 - [Domínios autorizados](/admin-servico/dominios-autorizados/) — os domínios de e-mail que
   dispensam convite para criar conta.
 
-**Serviços** — esta aba traz as duas configurações **na própria tela**: no computador, lado a
+**Serviços** — esta tela traz as duas configurações **na própria tela**: no computador, lado a
 lado; no celular, uma abaixo da outra, recolhidas, com um botão **"Mostrar configuração"** em cada
 cartão. Abrir uma não carrega a outra.
 - [Servidor de e-mail do produto](/admin-servico/email/) — o servidor único por onde saem o
@@ -65,7 +84,7 @@ Os dois assuntos também têm endereço próprio, e ele continua valendo: abrir
 `/admin-servico/email` ou `/admin-servico/ia` leva à tela cheia daquele assunto, sem o outro ao
 lado. Link guardado nos favoritos não quebrou.
 
-![Aba "Serviços" no celular, com os cartões "Servidor de e-mail" e "Provedores de IA" recolhidos, cada um com o botão "Mostrar configuração"](/assets/capturas/admin-servico-servicos-celular.png){: style="max-width:375px" }
+![Tela "Serviços" no celular, com os cartões "Servidor de e-mail" e "Provedores de IA" recolhidos, cada um com o botão "Mostrar configuração"](/assets/capturas/admin-servico-servicos-celular.png){: style="max-width:375px" }
 {: .mt-4 }
 
 **Manutenção**
@@ -89,12 +108,11 @@ resposta a cada um.
 
 ## Como se chega aqui
 
-Não existe um link visível para quem não administra o serviço. Quem tenta
-acessar qualquer uma das telas desta seção sem essa permissão vê a mesma
-recusa, em todas elas: **"Você não administra o serviço — esta tela é para
-quem administra o RIT360 Realiza como um todo."**, com um link para **"Voltar
-para administração geral"** — nunca um erro técnico, e nunca uma porta
-entreaberta.
+Não existe um item visível para quem não administra o serviço. Quem tenta
+acessar qualquer uma das telas desta seção sem essa permissão (por um endereço
+guardado, por exemplo) vê a mesma recusa, em todas elas: **"Você não administra
+o serviço — esta tela é para quem administra a RIT360 Plataforma como um
+todo."** — nunca um erro técnico, e nunca uma porta entreaberta.
 
 {: .note }
 Ser administrador de uma organização — mesmo de todas as organizações que você

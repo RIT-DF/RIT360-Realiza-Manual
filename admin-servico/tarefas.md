@@ -11,8 +11,8 @@ palavras_chave: "rotina automática, fila de eventos, reprocessar, espelho, reco
 Esta tela mostra o estado de **toda rotina automática** da instalação: a
 cópia de segurança do banco, o envio dela a cada destino externo cadastrado
 em [Destinos da cópia de segurança](/admin-servico/destinos-backup/), e as
-filas de eventos de cada módulo do produto. **Módulo** é cada uma das partes em que o
-Realiza é dividido por dentro — entre elas o Trabalho (espaços e tarefas), a Comunicação (avisos e
+filas de eventos de cada módulo do produto. **Módulo** é cada uma das partes em que a
+RIT360 Plataforma é dividida por dentro — entre elas o Trabalho (espaços e tarefas), a Comunicação (avisos e
 e-mails), o Núcleo (organizações e pessoas) e os Relatórios (o rascunho mensal); a tela usa esses
 nomes.
 

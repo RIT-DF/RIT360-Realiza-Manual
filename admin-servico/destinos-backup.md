@@ -24,7 +24,7 @@ próprio, uma nuvem privada) é o que fecha essa lacuna.
 
 ## Passo a passo — cadastrar um destino
 
-1. Na administração do serviço, abra a aba **"Manutenção"** e clique em
+1. Na administração do serviço, abra **"Manutenção"** na barra principal e clique em
    **"Destinos da cópia de segurança"**.
 2. Clique em **"Cadastrar destino"**.
 3. Em **"Mecanismo"**, escolha um dos três: **"S3 e compatíveis (AWS,

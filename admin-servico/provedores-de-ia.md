@@ -25,7 +25,7 @@ Os provedores disponíveis hoje são **Gemini**, **OpenAI** e **Claude**.
 
 ## Passo a passo — cadastrar um provedor
 
-1. Na administração do serviço, abra a aba **"Serviços"**. No computador, a configuração já
+1. Na administração do serviço, abra **"Serviços"** na barra principal. No computador, a configuração já
    aparece ali, em **"Provedores de IA — padrão do serviço"**, na coluna da direita. No celular,
    toque em **"Mostrar configuração"** no cartão **"Provedores de IA"**.
 2. No formulário **"Cadastrar novo provedor"**, escolha o provedor em

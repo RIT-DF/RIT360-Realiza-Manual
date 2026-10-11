@@ -8,7 +8,7 @@ palavras_chave: "o que administrador pode, limites do administrador, publicar wi
 
 # Quem administra a organização
 
-Você responde pela organização dentro do Realiza: quem entra, quem sai, com
+Você responde pela organização dentro da RIT360 Plataforma: quem entra, quem sai, com
 que papel, e como a organização se apresenta. É o papel de quem coordena — no
 Instituto Semente, seria a Maria Oliveira.
 
@@ -50,7 +50,7 @@ Isso não é limitação por descuido: é o que permite guardar num espaço um
 trabalho que nem todo administrador deve ler.
 
 Você também não alcança a [administração do serviço](/admin-servico/), que é
-outra coisa: ela cuida da instalação do Realiza, não da sua organização.
+outra coisa: ela cuida da instalação da RIT360 Plataforma, não da sua organização.
 
 ## Por onde começar
 

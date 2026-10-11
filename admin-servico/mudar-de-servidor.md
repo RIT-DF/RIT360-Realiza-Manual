@@ -8,7 +8,7 @@ palavras_chave: "migração, exportar instalação, importar instalação, pacot
 
 # Mudar de servidor
 
-Esta tela leva a instalação inteira do RIT360 Realiza — todas as organizações, pessoas, vínculos,
+Esta tela leva a instalação inteira da RIT360 Plataforma — todas as organizações, pessoas, vínculos,
 conteúdo e configurações — de um servidor para outro. Serve para uma migração planejada, não para
 uso do dia a dia.
 
@@ -16,12 +16,12 @@ uso do dia a dia.
 
 Trocar de servidor sem uma ferramenta assim significa mexer direto no banco de dados, ação que só
 quem tem acesso técnico ao servidor consegue fazer, e sem nenhuma checagem própria do produto. Esta
-tela faz isso de dentro do produto, com o mesmo ensaio que protege outras importações do Realiza: o
+tela faz isso de dentro do produto, com o mesmo ensaio que protege outras importações da RIT360 Plataforma: o
 que vai entrar aparece antes de qualquer gravação de verdade.
 
 ## Exportar a instalação
 
-1. Na administração do serviço, abra a aba **"Manutenção"** e clique em
+1. Na administração do serviço, abra **"Manutenção"** na barra principal e clique em
    **"Mudar de servidor"**.
 2. Na aba **"Exportar"**, escolha **"Senha do pacote"** e repita em **"Confirme a senha"** — pelo
    menos 8 caracteres.

@@ -8,7 +8,7 @@ palavras_chave: "financiador, parceiro, carteira, cadastro de cliente, arquivar 
 # Clientes e carteira
 
 Um cliente é o parceiro ou financiador para quem o trabalho é feito — não é uma organização
-separada dentro do Realiza, é um registro da sua própria organização. Cadastrar clientes serve
+separada dentro da RIT360 Plataforma, é um registro da sua própria organização. Cadastrar clientes serve
 para ligar espaços a eles e ver, de uma vez, tudo que sua organização faz para cada um.
 
 ## Cadastrar um cliente

@@ -3,7 +3,7 @@ title: "Organizações"
 nav_order: 8
 parent: "Administração do serviço"
 permalink: /admin-servico/organizacoes/
-palavras_chave: "criar organização, gestor, suspender contrato, excluir organização, autosserviço desligado, números desatualizados, tarefas agendadas, comparar organizações, ligar módulo, desligar módulo, habilitar flow, módulo não habilitado, habilitação por organização"
+palavras_chave: "criar organização, gestor, quem responde pela organização, data de entrada, detalhe da organização, quantos espaços, suspender contrato, excluir organização, autosserviço desligado, números desatualizados, tarefas agendadas, ligar módulo, desligar módulo, habilitar flow, módulo não habilitado, habilitação por organização"
 ---
 
 # Organizações
@@ -16,16 +16,16 @@ assume dali em diante.
 
 {: .important }
 Como em toda esta área, esta tela mostra **cadastro**, nunca conteúdo. Você
-vê nome, gestor, data de entrada, situação do contrato e as contagens de cada
-organização — nunca uma tarefa, uma mensagem, um documento ou um material de
-dentro dela. Veja [a nota sobre alcance](/admin-servico/).
+vê nome, domínio, situação do contrato e os produtos ligados na tabela e, no
+detalhe de cada organização, o gestor, a data de entrada e as contagens —
+nunca uma tarefa, uma mensagem, um documento ou um material de dentro dela. Veja [a nota sobre alcance](/admin-servico/).
 
 É também por aqui que você **liga e desliga os módulos** — os produtos da família RIT360 — de
 cada organização: veja [Ligar e desligar módulos de uma organização](#ligar-e-desligar-módulos-de-uma-organização).
 
 ## Por que criar não é mais autosserviço
 
-Antes, quem queria começar a usar o RIT360 Realiza criava a própria
+Antes, quem queria começar a usar a RIT360 Plataforma criava a própria
 organização. Agora esse primeiro passo passou para quem administra o
 serviço: você cria a organização com o nome dela e o e-mail de quem vai
 administrá-la, e o produto cuida de convidar essa pessoa. Ela só passa a
@@ -40,17 +40,17 @@ julgamento — e aí ele aparece em [Pedidos de organização](/admin-servico/pe
 não aqui. O que você cria por esta tela é a organização que **você mesmo** decide abrir, sem
 pedido de ninguém.
 
-![Tela Organizações da administração geral, com o formulário de criação preenchido (incluindo o campo Domínio) e a coluna Domínio na tabela](/assets/capturas/admin-servico-organizacoes-desktop.png)
+![Tela Organizações da administração do serviço, com o formulário de criação e a tabela "Todas as organizações", com as colunas Organização, Domínio, Contrato, Módulos e Ações](/assets/capturas/admin-servico-organizacoes-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Tela Organizações da administração geral, com o formulário de criação preenchido e a coluna Domínio na tabela — no celular](/assets/capturas/admin-servico-organizacoes-celular.png){: style="max-width:375px" }
+![Tela Organizações da administração do serviço no celular: cada organização é um bloco, com o nome no topo e, abaixo, Domínio, Contrato, Módulos e os botões Detalhes e Excluir](/assets/capturas/admin-servico-organizacoes-celular.png){: style="max-width:375px" }
 {: .mt-4 }
 
 ## Passo a passo — criar uma organização
 
-1. Na administração do serviço, abra a aba **"Organizações"**.
+1. Na administração do serviço, abra **"Organizações"** na barra principal.
 2. No formulário **"Criar organização"**, preencha **"Nome da organização"**.
 3. Preencha **"E-mail de quem vai administrar"** com o e-mail da pessoa que
    vai gerir aquela organização a partir de agora.
@@ -76,12 +76,59 @@ precisa ser convidado à mão.
 3. Clique em **"Salvar"** para confirmar, ou em **"Cancelar"** para desistir
    sem alterar nada.
 
+## Ver o detalhe de uma organização
+
+A tabela mostra o que você precisa para decidir: **"Organização"**, **"Domínio"**, **"Contrato"**,
+**"Módulos"** e **"Ações"**. O resto do cadastro — quem gere a organização, desde quando ela existe
+e quanto ela tem — fica no **detalhe** de cada uma.
+
+### Por que isto importa
+
+Na hora de pedir uma decisão, avisar de uma mudança ou conferir se uma organização está mesmo em
+uso, você precisa saber quem responde por ela e do que ela é feita. Essas informações já ocuparam
+colunas da tabela e empurravam o nome da organização para fora da tela; no detalhe, a tabela cabe
+sem rolar para o lado, em qualquer tamanho de tela, e as informações continuam a um clique.
+
+### Passo a passo
+
+1. Na tabela **"Todas as organizações"**, clique no **nome** da organização ou no botão
+   **"Detalhes"** da linha. Os dois abrem o mesmo detalhe.
+2. A janela abre com o nome da organização no alto e a frase **"Cadastro e números desta
+   organização."**. Embaixo estão **"Gestor"** (o e-mail de quem administra a organização),
+   **"Entrada"** (a data em que ela foi criada), **"Espaços"**, **"Clientes"** e **"Pessoas"**.
+3. Feche a janela para voltar à tabela. Ela só mostra: nada pode ser alterado por ali.
+
+![Janela de detalhe do Instituto Semente, com Gestor, Entrada, Espaços, Clientes e Pessoas e o aviso de números possivelmente desatualizados](/assets/capturas/admin-servico-organizacoes-detalhe-desktop.png)
+{: .mt-4 }
+
+No celular:
+
+![Janela de detalhe do Instituto Semente no celular, com Gestor, Entrada, Espaços, Clientes e Pessoas](/assets/capturas/admin-servico-organizacoes-detalhe-celular.png){: style="max-width:375px" }
+
+### Exemplo
+
+A equipe da RIT precisa avisar o gestor do Instituto Semente de que o Flow vai ser ligado. Na linha
+do Instituto Semente, ela clica em **"Detalhes"**, lê o e-mail em **"Gestor"** e escreve para a
+Maria Oliveira. Na mesma janela vê que o Instituto entrou em setembro e tem três espaços — o
+suficiente para saber que é uma organização em uso, não um cadastro esquecido.
+
+### Dicas e armadilhas
+
+- **A tabela não mostra mais o gestor.** Se você costumava percorrer a lista para ver quem responde
+  por cada organização, agora precisa abrir o detalhe de cada uma. Conferir todas de uma vez deixou
+  de ser possível numa só olhada.
+- **"Gestor" mostra um travessão (—)** enquanto a pessoa convidada ainda não criou a conta. Não é
+  defeito: o convite foi enviado, mas ainda não foi aceito.
+- **Espaços e Clientes podem trazer um aviso de números desatualizados.** Veja
+  [Quando os números podem estar desatualizados](#quando-os-números-podem-estar-desatualizados).
+
 ## Ligar e desligar módulos de uma organização
 
 A coluna **"Módulos"** da tabela diz, para cada organização, quais produtos da família RIT360 ela
-tem habilitados — cada produto é um **módulo**. Hoje são dois: o **Realiza** e o **Flow**. Em cada
+tem habilitados — cada produto é um **módulo**. Hoje são dois: o **RIT360 Realiza** e o **RIT360 Flow**. Em cada
 linha aparece uma lista com um item por módulo, no formato **"Realiza: ligado"** ou **"Flow:
-desligado"**, e ao lado o botão **"Ligar"** ou **"Desligar"**, conforme o estado.
+desligado"** — os nomes curtos da barra lateral, como a tela os escreve —, e ao lado o botão
+**"Ligar"** ou **"Desligar"**, conforme o estado.
 
 ### Por que isto importa
 
@@ -97,7 +144,7 @@ resumo do que está nesta seção.
 
 ### Passo a passo — ligar um módulo
 
-1. Na administração do serviço, abra a aba **"Organizações"**.
+1. Na administração do serviço, abra **"Organizações"** na barra principal.
 2. Na tabela **"Todas as organizações"**, ache a linha da organização.
 3. Na coluna **"Módulos"**, no item do módulo que está **"desligado"** (por exemplo, **"Flow:
    desligado"**), clique em **"Ligar"**.
@@ -116,21 +163,18 @@ próxima vez que a página for carregada.
 3. Confirme em **"Desligar"** (ou desista em **"Cancelar"**). Enquanto o servidor responde, o botão
    mostra **"Desligando…"**.
 
-![Tabela de organizações rolada até a coluna Módulos: o Instituto Semente com "Realiza: ligado" e "Flow: ligado", as demais com "Flow: desligado", cada item com o botão Desligar ou Ligar](/assets/capturas/admin-servico-organizacoes-modulos-desktop.png)
+![Tabela de organizações com a coluna Módulos: o Instituto Semente com "Realiza: ligado" e "Flow: ligado", as demais com "Flow: desligado", cada item com o botão Desligar ou Ligar](/assets/capturas/admin-servico-organizacoes-modulos-desktop.png)
 {: .mt-4 }
 
 A confirmação que aparece ao desligar:
 
 ![Janela "Desligar Flow para Instituto Semente", explicando que nenhum dado é apagado, com os botões Cancelar e Desligar](/assets/capturas/admin-servico-organizacoes-desligar-modulo-desktop.png)
 
-No celular, a tabela rola para o lado; a coluna **"Módulos"** fica ao lado de **"Ação"**:
+No celular a tabela deixa de ser tabela: cada organização vira um bloco, com o nome no topo e, abaixo, cada valor precedido do nome da coluna — inclusive **"Módulos"**, com os botões **"Ligar"** e **"Desligar"** logo ali:
 
-![Coluna Módulos no celular, com Ligar e Desligar em cada organização](/assets/capturas/admin-servico-organizacoes-modulos-celular.png){: style="max-width:375px" }
+![Organização em bloco no celular, com a seção Módulos e os botões Ligar e Desligar](/assets/capturas/admin-servico-organizacoes-modulos-celular.png){: style="max-width:375px" }
 
 ![Confirmação de desligar o Flow no celular, com os botões Desligar e Cancelar empilhados](/assets/capturas/admin-servico-organizacoes-desligar-modulo-celular.png){: style="max-width:375px" }
-
-{: .note }
-Em telas que não comportam a tabela inteira, inclusive em monitores largos, a tabela rola para o lado. Se não achar os botões da coluna **"Módulos"**, role a tabela para a direita.
 
 ### O que acontece quando um módulo é desligado
 
@@ -151,7 +195,7 @@ Esta é a dúvida que a pessoa da organização vai ter, e a resposta é a mesma
 
 ### Exemplo
 
-A RIT fecha com o Instituto Semente a habilitação do Flow. Na aba **"Organizações"**, na linha do
+A RIT fecha com o Instituto Semente a habilitação do Flow. Em **"Organizações"**, na linha do
 Instituto Semente, a coluna **"Módulos"** mostra **"Realiza: ligado"** e **"Flow: desligado"**. Você
 clica em **"Ligar"** ao lado do Flow, e o item passa para **"Flow: ligado"**. Maria Oliveira, que
 administra o Instituto, recarrega a página e vê o Flow aceso na barra lateral.
@@ -162,9 +206,9 @@ basta **"Ligar"** de novo.
 
 ### Dicas e armadilhas
 
-- **Mexa no Flow, não no Realiza.** O Realiza vem ligado em toda organização, existente ou nova, e o
-  que você vai ligar e desligar no dia a dia é o Flow. A lista mostra os dois para ficar claro o
-  quadro da organização, não porque desligar o Realiza seja uma operação de rotina.
+- **Mexa no Flow, não no Realiza.** O RIT360 Realiza vem ligado em toda organização, existente ou
+  nova, e o que você vai ligar e desligar no dia a dia é o RIT360 Flow. A lista mostra os dois para
+  ficar claro o quadro da organização, não porque desligar o Realiza seja uma operação de rotina.
 - **Hoje o Flow tem uma tela inicial, mas ainda vazia.** Ligá-lo faz o item acender na barra de
   quem administra a organização e abrir a tela **"RIT360 Flow"**, com quatro contagens em zero
   (**"Pessoas"**, **"Candidaturas em análise"**, **"Termos aguardando assinatura"** e **"Credenciais
@@ -194,43 +238,47 @@ basta **"Ligar"** de novo.
 ## Quando os números podem estar desatualizados
 
 {: .warning }
-Acima da tabela pode aparecer um aviso sobre as colunas **"Espaços"** e **"Clientes"**:
-**"Espaços e Clientes podem estar desatualizados — a comparação com a origem encontrou diferença.
-Enquanto isso, comparar uma organização com outra pode confrontar números de épocas diferentes.
-Veja em [Tarefas agendadas](/admin-servico/tarefas/)."**, ou, quando nem foi possível verificar:
-**"Não foi possível conferir agora se os números de Espaços e Clientes estão atualizados. Veja em
-[Tarefas agendadas](/admin-servico/tarefas/)."**
+Dentro do detalhe de uma organização pode aparecer um aviso sobre os números de **"Espaços"** e
+**"Clientes"**: **"Espaços e Clientes podem estar desatualizados — a comparação com a origem
+encontrou diferença. Veja em [Tarefas agendadas](/admin-servico/tarefas/)."**, ou, quando nem foi
+possível verificar: **"Não foi possível conferir agora se os números de Espaços e Clientes estão
+atualizados. Veja em [Tarefas agendadas](/admin-servico/tarefas/)."**
 
-Nenhum rótulo, coluna ou caminho muda por causa disso — é só um aviso acima da tabela, e o link
-leva para [Tarefas agendadas](/admin-servico/tarefas/), onde fica a rotina que mantém essas
-contagens em dia.
+Esses dois números são mantidos por uma rotina automática, e o aviso diz que, no momento, ela pode
+estar atrasada ou ter falhado. O link leva para [Tarefas agendadas](/admin-servico/tarefas/), onde
+fica a rotina que os mantém em dia. Nenhum rótulo, coluna ou caminho muda por causa disso.
 
-O ponto que importa: **com o aviso na tela, comparar uma organização com outra pode confrontar
-números de épocas diferentes** — uma pode ter sido recalculada há pouco e a outra não, então a
-diferença entre as duas nem sempre reflete a realidade atual das duas ao mesmo tempo. Espere o
-aviso sumir antes de tirar conclusão de uma comparação entre organizações.
+O ponto que importa: **com o aviso na janela, trate "Espaços" e "Clientes" como números
+aproximados** — a organização pode ter mais ou menos espaços e clientes do que está escrito. Antes
+de decidir algo com base neles (por exemplo, achar que uma organização está vazia e pode ser
+excluída), confira em Tarefas agendadas. A confirmação de exclusão, por sua vez, conta o conteúdo
+real da organização — veja mais adiante.
 
 ## O que cada coluna da tabela mostra
 
-- **"Nome"** — o nome da organização.
+- **"Organização"** — o nome da organização. Clicar nele abre o detalhe.
 - **"Domínio"** — o domínio de e-mail associado à organização, editável
   clicando no valor. Mostra **"— (editar)"** quando ainda não há domínio
   cadastrado.
-- **"Gestor"** — o e-mail de quem administra aquela organização. Se a pessoa
-  convidada ainda não tiver conta no serviço de identidade, esta coluna
-  mostra um travessão até que ela crie a própria conta.
-- **"Entrada"** — a data em que a organização foi criada.
 - **"Contrato"** — a situação: **"Ativo"**, **"Suspenso"** ou
   **"Encerrado"**.
+- **"Módulos"** — quais produtos da família RIT360 a organização tem habilitados, com **"Ligar"** e
+  **"Desligar"** para cada um. Veja [Ligar e desligar módulos de uma
+  organização](#ligar-e-desligar-módulos-de-uma-organização).
+- **"Ações"** — o botão **"Detalhes"**, que abre o detalhe da organização, e o botão
+  **"Excluir"**, que apaga a organização inteira. Veja abaixo.
+
+E, no detalhe de cada organização (veja [Ver o detalhe de uma
+organização](#ver-o-detalhe-de-uma-organização)):
+
+- **"Gestor"** — o e-mail de quem administra aquela organização. Se a pessoa
+  convidada ainda não tiver conta no serviço de identidade, mostra um travessão
+  até que ela crie a própria conta.
+- **"Entrada"** — a data em que a organização foi criada.
 - **"Espaços"** — quantos espaços (projetos e operações contínuas) a
   organização tem, arquivados ou não.
 - **"Clientes"** — quantos clientes a organização tem cadastrados.
 - **"Pessoas"** — quantas pessoas têm vínculo com a organização.
-- **"Módulos"** — quais produtos da família RIT360 a organização tem habilitados, com **"Ligar"** e
-  **"Desligar"** para cada um. Veja [Ligar e desligar módulos de uma
-  organização](#ligar-e-desligar-módulos-de-uma-organização).
-- **"Ação"** — o botão **"Excluir"**, que apaga a organização inteira. Veja
-  abaixo.
 
 ## Excluir uma organização
 

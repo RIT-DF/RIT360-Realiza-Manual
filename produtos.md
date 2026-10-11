@@ -2,12 +2,13 @@
 title: "Os produtos na barra lateral"
 nav_order: 2.7
 permalink: /produtos/
-palavras_chave: "flow, não habilitado, item desbotado, módulo, produto que não aparece, habilitar produto, pedir habilitação, barra lateral, menu de produtos, rit360 flow, tela do flow, contagens em zero, permissão do flow"
+palavras_chave: "plataforma e realiza, qual a diferença, administração na lateral, flow, não habilitado, item desbotado, módulo, produto que não aparece, habilitar produto, pedir habilitação, barra lateral, menu de produtos, rit360 flow, tela do flow, contagens em zero, permissão do flow"
 ---
 
 # Os produtos na barra lateral
 
-O RIT360 é uma família de produtos, e a barra lateral é por onde você os alcança. O que aparece
+A RIT360 Plataforma é a casa, e os produtos da família RIT360 moram dentro dela — hoje, o
+**RIT360 Realiza** e o **RIT360 Flow**. A barra lateral é por onde você os alcança. O que aparece
 nela **depende da sua organização**: cada organização tem os produtos que foram habilitados para
 ela, e a barra mostra só esses — mais, para quem administra, um aviso do que ainda não está
 habilitado.
@@ -32,9 +33,13 @@ barra se fecha sozinha. Cada produto pode aparecer de um de três jeitos:
 | O nome apagado, com a marca **"não habilitado"** | A sua organização **não** tem o produto, e você administra a organização. Serve para você saber que ele existe. Clicar **não leva a lugar nenhum**: aparece uma explicação. |
 | O produto não aparece | Ou a sua organização não tem o produto e você não administra a organização, ou ela tem o produto mas o seu papel não alcança aquela parte. |
 
-Hoje a barra tem dois produtos: o **Realiza** (o **RIT360 Realiza**, este em que você está), que
-fica sempre aceso, e o **Flow** (o **RIT360 Flow**). Na barra os nomes aparecem curtos; no resto do
-produto e neste manual, completos.
+Hoje a barra tem dois produtos: o **Realiza** (o **RIT360 Realiza**, o produto de trabalho — espaços,
+tarefas e aprovações — em que você passa a maior parte do tempo) e o **Flow** (o **RIT360 Flow**).
+O Realiza fica aceso enquanto você trabalha nele. Na barra os nomes aparecem curtos, porque ali você
+já sabe em que casa está; neste manual e nas mensagens que a plataforma envia, completos.
+
+Quem administra o serviço vê ainda um terceiro item, **"Administração"**, que não é um produto —
+veja [O item "Administração"](#o-item-administração), mais abaixo.
 
 Para o Flow aparecer aceso e abrir, **duas condições** precisam valer ao mesmo tempo:
 
@@ -45,17 +50,33 @@ Para o Flow aparecer aceso e abrir, **duas condições** precisam valer ao mesmo
 Faltando a primeira, quem administra vê o item apagado e os demais não veem nada. Tendo a primeira e
 faltando a segunda, o item simplesmente **não aparece** para você. Em nenhum dos dois casos é defeito.
 
-![Barra lateral vista por quem administra a organização: Realiza aceso e Flow apagado, com a marca "não habilitado"](/assets/capturas/produtos-barra-lateral-desbotado-desktop.png)
+![Barra lateral vista por quem administra a organização e o serviço: Realiza aceso, Flow apagado com a marca "não habilitado" e, abaixo, o item Administração](/assets/capturas/produtos-barra-lateral-desbotado-desktop.png)
 {: .mt-4 }
 
 No celular, a mesma barra aparece depois de tocar em **"Abrir navegação"**:
 
-![Barra lateral aberta no celular: Realiza aceso e Flow apagado, com a marca "não habilitado"](/assets/capturas/produtos-barra-lateral-desbotado-celular.png){: style="max-width:375px" }
+![Barra lateral aberta no celular: Realiza aceso, Flow apagado com a marca "não habilitado" e, abaixo, o item Administração](/assets/capturas/produtos-barra-lateral-desbotado-celular.png){: style="max-width:375px" }
 
 {: .note }
 Quem **não** administra a organização nunca vê um produto não habilitado, nem apagado. Se você é
 membro comum e acha que a sua organização deveria ter um produto, fale com quem a administra — é
 essa pessoa que vê o aviso e sabe a quem pedir.
+
+## O item "Administração"
+
+Quem administra o serviço vê, abaixo de **Realiza** e **Flow**, o item **"Administração"**. Ele não
+é um produto: leva à parte da RIT360 Plataforma que cuida de todas as organizações de uma vez, e
+por isso não tem versão "apagada" nem depende de a sua organização ter isto ou aquilo habilitado.
+Quem não administra o serviço nunca o vê.
+
+Ao clicar nele, a barra principal troca os itens do Realiza (Meu trabalho, Espaços, Conhecimento,
+Clientes) pelos assuntos da administração, e nenhum produto fica aceso na lateral. Para voltar ao
+trabalho, clique em **Realiza** ou em **Flow**. Os detalhes estão em
+[Administração do serviço](/admin-servico/#como-navegar).
+
+{: .tip }
+Se você administra o serviço e a sua barra mostra os assuntos da administração em vez de "Meu
+trabalho", não há nada errado: você está dentro da administração. É só clicar em Realiza.
 
 ## Quando o item está apagado — o que fazer
 
