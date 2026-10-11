@@ -2,7 +2,7 @@
 title: "Os produtos na barra lateral"
 nav_order: 2.7
 permalink: /produtos/
-palavras_chave: "flow, não habilitado, item desbotado, módulo, produto que não aparece, habilitar produto, pedir habilitação, barra lateral, menu de produtos, rit360 flow"
+palavras_chave: "flow, não habilitado, item desbotado, módulo, produto que não aparece, habilitar produto, pedir habilitação, barra lateral, menu de produtos, rit360 flow, tela do flow, contagens em zero, permissão do flow"
 ---
 
 # Os produtos na barra lateral
@@ -32,9 +32,18 @@ barra se fecha sozinha. Cada produto pode aparecer de um de três jeitos:
 | O nome apagado, com a marca **"não habilitado"** | A sua organização **não** tem o produto, e você administra a organização. Serve para você saber que ele existe. Clicar **não leva a lugar nenhum**: aparece uma explicação. |
 | O produto não aparece | Ou a sua organização não tem o produto e você não administra a organização, ou ela tem o produto mas o seu papel não alcança aquela parte. |
 
-Hoje a barra tem dois produtos: o **Realiza**, que é este em que você está e fica sempre aceso, e o
-**Flow**. O Flow ainda não tem tela própria — por enquanto ele existe na barra para que quem
-administra saiba que ele está chegando.
+Hoje a barra tem dois produtos: o **Realiza** (o **RIT360 Realiza**, este em que você está), que
+fica sempre aceso, e o **Flow** (o **RIT360 Flow**). Na barra os nomes aparecem curtos; no resto do
+produto e neste manual, completos.
+
+Para o Flow aparecer aceso e abrir, **duas condições** precisam valer ao mesmo tempo:
+
+- **a organização** tem o Flow habilitado (quem liga é quem administra o serviço, na tela
+  [Organizações](/admin-servico/organizacoes/#ligar-e-desligar-módulos-de-uma-organização)); e
+- **você** tem permissão para alcançá-lo — hoje, quem administra a organização.
+
+Faltando a primeira, quem administra vê o item apagado e os demais não veem nada. Tendo a primeira e
+faltando a segunda, o item simplesmente **não aparece** para você. Em nenhum dos dois casos é defeito.
 
 ![Barra lateral vista por quem administra a organização: Realiza aceso e Flow apagado, com a marca "não habilitado"](/assets/capturas/produtos-barra-lateral-desbotado-desktop.png)
 {: .mt-4 }
@@ -69,20 +78,42 @@ não consegue ligar um produto para si mesma.
 Depois que a habilitação for feita, **recarregue a página**. O item deixa de ser apagado e passa a
 ser um link normal.
 
-## Quando o produto está habilitado mas ainda não tem tela
+Com o Flow habilitado e a permissão certa, o item aparece aceso. Ao clicar, abre a tela
+**"RIT360 Flow"**: um texto dizendo para que o produto serve (cuidar do ciclo da pessoa com a
+organização — candidatura, termo de adesão, credencial, capacitações, afastamento e desligamento) e
+um quadro **"Resumo"** com quatro contagens: **"Pessoas"**, **"Candidaturas em análise"**,
+**"Termos aguardando assinatura"** e **"Credenciais ativas"**.
 
-O Flow, hoje, pode ser habilitado numa organização antes de ter tela de verdade. Nesse caso o item
-aparece aceso e, ao clicar, abre uma página com o título **"RIT360 Flow"** e a mensagem **"Esta
-tela ainda não existe — chega numa próxima entrega."**, com um link para voltar ao seu trabalho. Isso
-é o esperado nesta fase, não uma falha.
+![Tela RIT360 Flow no computador, com o texto explicativo e o Resumo com as quatro contagens em zero](/assets/capturas/flow-tela-inicial-desktop.png)
+{: .mt-4 }
+
+![Tela RIT360 Flow no celular, com as quatro contagens em zero empilhadas](/assets/capturas/flow-tela-inicial-celular.png){: style="max-width:375px" }
+
+{: .note }
+**Todas as contagens estão em zero, e isso é o esperado.** O Flow está nascendo: cadastro de
+pessoas, candidatura, termo de adesão e credencial chegam em próximas entregas, uma de cada vez. Por
+enquanto a tela só confirma que o produto está ligado para a sua organização. Não há nada a
+preencher nem botão a clicar nela.
+
+### Abrir o Flow pelo endereço, sem ter o módulo
+
+Se alguém abrir o endereço do Flow diretamente (por um favorito, por exemplo) numa organização que
+não o tem habilitado, a tela mostra o título **"RIT360 Flow"** e um aviso dizendo que o Flow não
+está habilitado para a organização e como pedir a habilitação — a mesma orientação que aparece ao
+clicar no item apagado.
+
+![Tela RIT360 Flow aberta por endereço direto em organização sem o módulo, com o aviso de que o Flow não está habilitado](/assets/capturas/flow-nao-habilitado-endereco-direto-desktop.png)
+{: .mt-4 }
+
+![O mesmo aviso no celular](/assets/capturas/flow-nao-habilitado-endereco-direto-celular.png){: style="max-width:375px" }
 
 ## Exemplo
 
 Maria Oliveira administra o Instituto Semente e ouviu falar que a RIT lançou o Flow. Ela abre a
 barra lateral e vê o item **Flow** apagado, com a marca **"não habilitado"**. Clica, lê a frase de
 orientação e escreve para a equipe da RIT pedindo a habilitação. Dias depois, a equipe liga o Flow
-para o Instituto Semente. Maria recarrega a página, o item acende e, ao clicar, ela chega à mensagem
-de que a tela ainda não existe — o pedido deu certo, e o produto é que está por chegar.
+para o Instituto Semente. Maria recarrega a página, o item acende e, ao clicar, ela chega à tela do RIT360 Flow, com as
+contagens em zero — o pedido deu certo, e o produto é que está começando.
 
 Carlos Nunes, que executa tarefas no mesmo Instituto, **nunca** viu o Flow apagado: ele não
 administra a organização, então a barra dele só mostrou o Realiza antes e continua só com o Realiza
@@ -105,7 +136,13 @@ agora.
   outra organização — confira o seletor no alto da tela.
 - **O item continua apagado depois de a equipe dizer que habilitou.** Recarregue a página. Se
   persistir, avise pelo [feedback](/enviar-feedback/), dizendo o nome da organização.
-- **Abri o Flow e só apareceu um aviso.** É o esperado hoje: a tela ainda não existe.
+- **Abri o Flow e todos os números são zero.** É o esperado hoje: o produto acabou de chegar e ainda
+  não guarda nada.
+- **Abri o Flow e apareceu o aviso de que ele não está habilitado.** A sua organização não tem o
+  módulo (ou você está na organização errada — confira o seletor no alto da tela). Peça a
+  habilitação à equipe da RIT.
+- **A organização tem o Flow, mas o item não aparece para mim.** Falta a permissão: hoje só quem
+  administra a organização alcança o Flow. Fale com quem a administra.
 
 ## Para quem administra o serviço
 

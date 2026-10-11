@@ -165,9 +165,12 @@ basta **"Ligar"** de novo.
 - **Mexa no Flow, não no Realiza.** O Realiza vem ligado em toda organização, existente ou nova, e o
   que você vai ligar e desligar no dia a dia é o Flow. A lista mostra os dois para ficar claro o
   quadro da organização, não porque desligar o Realiza seja uma operação de rotina.
-- **Hoje o Flow ainda não tem tela.** Ligá-lo faz o item acender na barra de quem tem o módulo e
-  levar a uma página dizendo que a tela ainda não existe. O controle já está pronto para quando o
-  Flow chegar, mas por enquanto o efeito visível é só esse.
+- **Hoje o Flow tem uma tela inicial, mas ainda vazia.** Ligá-lo faz o item acender na barra de
+  quem administra a organização e abrir a tela **"RIT360 Flow"**, com quatro contagens em zero
+  (**"Pessoas"**, **"Candidaturas em análise"**, **"Termos aguardando assinatura"** e **"Credenciais
+  ativas"**). As funções que vão preenchê-las chegam em próximas entregas — avise a organização para
+  ela não esperar mais do que isso. Ligar o módulo não basta para todos verem o item: a pessoa também
+  precisa da permissão, que hoje é de quem administra a organização.
 - **Combine antes de desligar.** Desligar corta o acesso de **todas** as pessoas da organização de
   uma vez. Se a organização não foi avisada, o primeiro sinal para ela será o produto parar de
   responder. O dado fica a salvo, mas a surpresa fica.
