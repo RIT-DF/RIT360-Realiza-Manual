@@ -194,6 +194,27 @@ Pelo menu do seu avatar, em **"Exportar meus dados"** — qualquer pessoa pode p
 exportação. Quem administra a organização também pode pedir a exportação da organização inteira.
 Veja [Exportar dados](/configuracoes/exportar-dados/).
 
+### Na barra lateral tem um produto apagado, com a marca "não habilitado". É defeito?
+
+Não. Aparece para quem administra a organização, para avisar que aquele produto existe, mas a sua
+organização ainda não o tem. Clicar não leva a lugar nenhum — só mostra uma explicação de como
+pedir. Veja [Os produtos na barra lateral](/produtos/).
+
+### Um produto da família RIT360 não aparece para mim na barra lateral.
+
+Quem **não** administra a organização só vê os produtos que ela tem habilitados — um produto que a
+organização ainda não tem simplesmente não aparece, nem apagado. Se você acha que deveria aparecer,
+fale com quem administra a sua organização, que vê o aviso e sabe a quem pedir. Se você participa de
+mais de uma organização, confira também qual delas está selecionada no alto da tela. Veja
+[Os produtos na barra lateral](/produtos/).
+
+### Um produto foi desligado para a minha organização. Perdemos o que estava lá?
+
+Não. Desligar não apaga nada: religar devolve exatamente o que estava lá. Enquanto o produto está
+desligado, as telas dele ficam recusadas e as rotinas automáticas daquele produto pausam para a sua
+organização e retomam ao religar. E vocês continuam podendo [exportar os
+dados](/configuracoes/exportar-dados/) que já existem nele.
+
 ## Conhecimento e integrações
 
 ### Alguém de fora consegue ver a página publicada da wiki?

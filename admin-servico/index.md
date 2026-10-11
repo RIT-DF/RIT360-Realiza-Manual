@@ -37,7 +37,8 @@ contagens do serviço: quantas organizações, quantas pessoas e quantos espaço
 
 **Organizações**
 - [Organizações](/admin-servico/organizacoes/) — a lista de todas as organizações do serviço, o
-  domínio de cada uma, e o cadastro de organização nova.
+  domínio de cada uma, o cadastro de organização nova e, na coluna **"Módulos"**, quais produtos
+  da família RIT360 cada organização tem ligados.
 - [Pedidos de organização](/admin-servico/pedidos-de-organizacao/) — os pedidos de criação que o
   produto não conseguiu decidir sozinho, para você aprovar ou recusar. O número de pedidos
   esperando decisão aparece no próprio cartão.

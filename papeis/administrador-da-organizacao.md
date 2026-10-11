@@ -28,6 +28,9 @@ Instituto Semente, seria a Maria Oliveira.
   convidados, e publicar uma página de [wiki](/conhecimento/wiki/) num endereço público — as
   únicas ações de Conhecimento e Relatórios que exigem o seu papel
 - [Exportar os dados da organização inteira](/configuracoes/exportar-dados/)
+- Ver, na barra lateral, os [produtos da família RIT360](/produtos/) que a sua organização ainda não
+  tem — apagados e marcados como **"não habilitado"** — para saber que existem e poder pedir. Só
+  quem administra a organização vê esses itens; habilitar é decisão de quem administra o serviço
 
 {: .note }
 Ver e editar [documentos, wiki, indicadores e relatório-rascunho](/conhecimento/) não é exclusivo

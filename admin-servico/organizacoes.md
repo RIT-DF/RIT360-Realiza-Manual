@@ -3,7 +3,7 @@ title: "Organizações"
 nav_order: 8
 parent: "Administração do serviço"
 permalink: /admin-servico/organizacoes/
-palavras_chave: "criar organização, gestor, suspender contrato, excluir organização, autosserviço desligado, números desatualizados, tarefas agendadas, comparar organizações"
+palavras_chave: "criar organização, gestor, suspender contrato, excluir organização, autosserviço desligado, números desatualizados, tarefas agendadas, comparar organizações, ligar módulo, desligar módulo, habilitar flow, módulo não habilitado, habilitação por organização"
 ---
 
 # Organizações
@@ -19,6 +19,9 @@ Como em toda esta área, esta tela mostra **cadastro**, nunca conteúdo. Você
 vê nome, gestor, data de entrada, situação do contrato e as contagens de cada
 organização — nunca uma tarefa, uma mensagem, um documento ou um material de
 dentro dela. Veja [a nota sobre alcance](/admin-servico/).
+
+É também por aqui que você **liga e desliga os módulos** — os produtos da família RIT360 — de
+cada organização: veja [Ligar e desligar módulos de uma organização](#ligar-e-desligar-módulos-de-uma-organização).
 
 ## Por que criar não é mais autosserviço
 
@@ -73,6 +76,118 @@ precisa ser convidado à mão.
 3. Clique em **"Salvar"** para confirmar, ou em **"Cancelar"** para desistir
    sem alterar nada.
 
+## Ligar e desligar módulos de uma organização
+
+A coluna **"Módulos"** da tabela diz, para cada organização, quais produtos da família RIT360 ela
+tem habilitados — cada produto é um **módulo**. Hoje são dois: o **Realiza** e o **Flow**. Em cada
+linha aparece uma lista com um item por módulo, no formato **"Realiza: ligado"** ou **"Flow:
+desligado"**, e ao lado o botão **"Ligar"** ou **"Desligar"**, conforme o estado.
+
+### Por que isto importa
+
+Habilitar um produto é consequência do contrato com a organização, e por isso é **sua decisão, nunca
+da própria organização**. Quem administra uma organização não consegue ligar um módulo para si — ela
+só vê, apagado e marcado como **"não habilitado"**, o que ainda não tem, e precisa pedir a você (veja
+[Os produtos na barra lateral](/produtos/)). Ter um controle simples e visível aqui evita o contrário:
+um produto liberado por engano, ou esquecido ligado depois que o contrato acabou.
+
+{: .note }
+Uma frase acima da tabela resume o efeito do controle antes de você mexer nele. Leia-a: ela é o
+resumo do que está nesta seção.
+
+### Passo a passo — ligar um módulo
+
+1. Na administração do serviço, abra a aba **"Organizações"**.
+2. Na tabela **"Todas as organizações"**, ache a linha da organização.
+3. Na coluna **"Módulos"**, no item do módulo que está **"desligado"** (por exemplo, **"Flow:
+   desligado"**), clique em **"Ligar"**.
+
+Ligar vale na hora, sem confirmação. O texto do item passa para **"ligado"** e o botão vira
+**"Desligar"**. Quem administra a organização vê o item deixar de ser apagado na barra lateral na
+próxima vez que a página for carregada.
+
+### Passo a passo — desligar um módulo
+
+1. Na coluna **"Módulos"** da organização, no item que está **"ligado"**, clique em **"Desligar"**.
+2. Abre uma confirmação com o título **Desligar [módulo] para "[nome da organização]"**. Ela explica
+   o efeito: as telas e as ações do módulo deixam de funcionar para todas as pessoas da organização,
+   o que estiver em segundo plano para ela fica em espera, **nenhum dado é apagado**, ligar de novo
+   devolve exatamente o que estava lá, e a organização continua podendo exportar o conteúdo.
+3. Confirme em **"Desligar"** (ou desista em **"Cancelar"**). Enquanto o servidor responde, o botão
+   mostra **"Desligando…"**.
+
+![Tabela de organizações rolada até a coluna Módulos: o Instituto Semente com "Realiza: ligado" e "Flow: ligado", as demais com "Flow: desligado", cada item com o botão Desligar ou Ligar](/assets/capturas/admin-servico-organizacoes-modulos-desktop.png)
+{: .mt-4 }
+
+A confirmação que aparece ao desligar:
+
+![Janela "Desligar Flow para Instituto Semente", explicando que nenhum dado é apagado, com os botões Cancelar e Desligar](/assets/capturas/admin-servico-organizacoes-desligar-modulo-desktop.png)
+
+No celular, a tabela rola para o lado; a coluna **"Módulos"** fica ao lado de **"Ação"**:
+
+![Coluna Módulos no celular, com Ligar e Desligar em cada organização](/assets/capturas/admin-servico-organizacoes-modulos-celular.png){: style="max-width:375px" }
+
+![Confirmação de desligar o Flow no celular, com os botões Desligar e Cancelar empilhados](/assets/capturas/admin-servico-organizacoes-desligar-modulo-celular.png){: style="max-width:375px" }
+
+{: .note }
+Em telas que não comportam a tabela inteira, inclusive em monitores largos, a tabela rola para o lado. Se não achar os botões da coluna **"Módulos"**, role a tabela para a direita.
+
+### O que acontece quando um módulo é desligado
+
+Esta é a dúvida que a pessoa da organização vai ter, e a resposta é a mesma da confirmação:
+
+- **Nenhum dado é apagado.** Tudo o que a organização criou no módulo continua guardado. Ligar de
+  novo devolve exatamente o que estava lá — nada precisa ser refeito.
+- **As telas e as ações do módulo ficam recusadas** para todas as pessoas da organização, de
+  qualquer papel, e o item aparece apagado na barra lateral para quem administra a organização.
+- **A organização continua podendo exportar o que já existe no módulo**, pela exportação da
+  plataforma ([Exportar dados](/configuracoes/exportar-dados/)) — nunca pelas telas do módulo, que
+  ficam recusadas. A diferença é de propósito: "você não usa mais" não pode virar "você perdeu o que
+  era seu".
+- **As rotinas automáticas daquele módulo** (avisos, lembretes, espelhos) **deixam de rodar para
+  aquela organização** enquanto ele estiver desligado, e **retomam ao religar**. O que ficou
+  esperando no intervalo não se perde: é processado quando o módulo volta, o que pode levar alguns
+  instantes.
+
+### Exemplo
+
+A RIT fecha com o Instituto Semente a habilitação do Flow. Na aba **"Organizações"**, na linha do
+Instituto Semente, a coluna **"Módulos"** mostra **"Realiza: ligado"** e **"Flow: desligado"**. Você
+clica em **"Ligar"** ao lado do Flow, e o item passa para **"Flow: ligado"**. Maria Oliveira, que
+administra o Instituto, recarrega a página e vê o Flow aceso na barra lateral.
+
+Meses depois, o contrato do Flow termina. Você clica em **"Desligar"** ao lado do Flow, lê a
+confirmação e confirma. O Instituto não perde nada do que fez ali; se um dia voltar a contratar,
+basta **"Ligar"** de novo.
+
+### Dicas e armadilhas
+
+- **Mexa no Flow, não no Realiza.** O Realiza vem ligado em toda organização, existente ou nova, e o
+  que você vai ligar e desligar no dia a dia é o Flow. A lista mostra os dois para ficar claro o
+  quadro da organização, não porque desligar o Realiza seja uma operação de rotina.
+- **Hoje o Flow ainda não tem tela.** Ligá-lo faz o item acender na barra de quem tem o módulo e
+  levar a uma página dizendo que a tela ainda não existe. O controle já está pronto para quando o
+  Flow chegar, mas por enquanto o efeito visível é só esse.
+- **Combine antes de desligar.** Desligar corta o acesso de **todas** as pessoas da organização de
+  uma vez. Se a organização não foi avisada, o primeiro sinal para ela será o produto parar de
+  responder. O dado fica a salvo, mas a surpresa fica.
+- **Uma alteração por vez.** Enquanto uma mudança está em andamento, os botões da tabela ficam
+  inativos. Espere a resposta antes de clicar em outro.
+- **O pedido chega por fora do produto.** A organização é orientada a falar com a equipe da RIT; o
+  produto ainda não tem um botão de pedir. Quem lê isso aqui é quem recebe o pedido.
+
+### Quando dá errado
+
+- **"Não foi possível alterar o módulo."** — ou a mensagem que o servidor devolver — aparece acima
+  da tabela quando ligar falha, e dentro da confirmação quando desligar falha. Em ambos os casos
+  **nada mudou**: o módulo continua no estado de antes. Tente de novo; se persistir, avise
+  pelo [feedback](/enviar-feedback/), dizendo a organização e o módulo.
+- **A confirmação não fecha depois de "Desligar".** É de propósito: ela fica aberta até o servidor
+  responder, para o erro aparecer ali e não se perder. Se der erro, leia a mensagem no próprio
+  diálogo.
+- **A organização diz que o item continua apagado depois de você ligar.** Peça que recarregue a
+  página.
+
 ## Quando os números podem estar desatualizados
 
 {: .warning }
@@ -108,6 +223,9 @@ aviso sumir antes de tirar conclusão de uma comparação entre organizações.
   organização tem, arquivados ou não.
 - **"Clientes"** — quantos clientes a organização tem cadastrados.
 - **"Pessoas"** — quantas pessoas têm vínculo com a organização.
+- **"Módulos"** — quais produtos da família RIT360 a organização tem habilitados, com **"Ligar"** e
+  **"Desligar"** para cada um. Veja [Ligar e desligar módulos de uma
+  organização](#ligar-e-desligar-módulos-de-uma-organização).
 - **"Ação"** — o botão **"Excluir"**, que apaga a organização inteira. Veja
   abaixo.
 

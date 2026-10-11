@@ -59,6 +59,8 @@ primeiros e nunca chega perto dos outros.
 
 - [Assistente](/assistente/) — pergunte o que precisa da sua atenção, ou peça para criar uma
   tarefa, escrevendo em linguagem comum, dentro do app ou pelo [Telegram](/configuracoes/telegram/)
+- [Os produtos na barra lateral](/produtos/) — o que cada item significa, inclusive o apagado com a
+  marca "não habilitado"
 - [Conhecimento](/conhecimento/) — documentos, links e páginas de wiki que a organização guarda
   para o time, com histórico de versões e a opção de publicar uma página para quem não tem conta
 

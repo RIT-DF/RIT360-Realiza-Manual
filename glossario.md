@@ -147,9 +147,21 @@ repete a mesma tarefa sozinha), o modelo de ciclo é instanciado de novo a cada 
 
 ## Módulo
 
-Cada uma das partes em que o Realiza é dividido por dentro, entre elas Trabalho (espaços e tarefas),
-Comunicação (avisos e e-mails) e Núcleo (organizações e pessoas). Só aparece na tela de
-[Tarefas agendadas](/admin-servico/tarefas/), de quem administra o serviço.
+A palavra tem dois usos, em lugares diferentes da tela:
+
+- **Cada produto da família RIT360** — hoje o Realiza e o Flow. É o sentido da coluna **"Módulos"**
+  na tela [Organizações](/admin-servico/organizacoes/#ligar-e-desligar-módulos-de-uma-organização)
+  de quem administra o serviço e da frase que aparece ao clicar num item **"não habilitado"** na
+  barra lateral. Uma organização pode ter um módulo **ligado** (habilitado) ou **desligado**. Ver
+  [Os produtos na barra lateral](/produtos/).
+- **Cada uma das partes em que o Realiza é dividido por dentro**, entre elas Trabalho (espaços e
+  tarefas), Comunicação (avisos e e-mails) e Núcleo (organizações e pessoas). Só aparece na tela de
+  [Tarefas agendadas](/admin-servico/tarefas/), de quem administra o serviço.
+
+## Não habilitado
+
+A marca que aparece, na barra lateral, ao lado de um produto que a sua organização ainda não tem.
+Só quem administra a organização a vê. Ver [Os produtos na barra lateral](/produtos/).
 
 ## Observador
 

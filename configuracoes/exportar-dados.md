@@ -21,6 +21,11 @@ baixar.
 Cada exportação leva só o que você alcança navegando no produto — nunca mais do que isso, mesmo
 dentro da própria organização.
 
+{: .note }
+Se a organização teve um produto desligado (veja [Os produtos na barra lateral](/produtos/)), a
+exportação da organização **continua trazendo o conteúdo dele**. Desligar um produto fecha as telas
+dele, não o acesso da organização ao que ela mesma criou.
+
 ## Acessar
 
 Pelo menu do seu avatar, clique em **"Exportar meus dados"**. Quem administra a organização também

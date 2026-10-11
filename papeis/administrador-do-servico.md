@@ -15,6 +15,9 @@ de pé, mas **não tem acesso ao conteúdo de organização nenhuma**.
 ## O que você alcança
 
 - O painel com as contagens gerais do serviço
+- [Ligar e desligar módulos](/admin-servico/organizacoes/#ligar-e-desligar-módulos-de-uma-organização)
+  — os produtos da família RIT360 — organização por organização. Só você faz isso; a própria
+  organização nunca liga um módulo para si
 - O único servidor de e-mail do produto, usado tanto para entrada (convite e senha) quanto para os
   avisos das organizações
 - A entrada pelo Google
