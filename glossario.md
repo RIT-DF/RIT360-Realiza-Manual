@@ -38,8 +38,8 @@ prévia antes de qualquer ação de verdade acontecer. Ver [Assistente](/assiste
 ## Chave de API
 
 Uma credencial que permite a um sistema externo (uma planilha, um robô de automação) ler ou
-alterar dados de uma organização, sem usar a senha de ninguém. Nunca pode mais do que a pessoa que
-a criou. Ver [Integrações](/configuracoes/integracoes/).
+alterar dados de uma organização, sem usar a senha de ninguém. Alcança só o que foi marcado ao
+criá-la (nada vem marcado) e nunca mais do que a pessoa que a criou. Ver [Integrações](/configuracoes/integracoes/).
 
 ## Cliente
 

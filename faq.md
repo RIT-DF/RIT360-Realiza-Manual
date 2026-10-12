@@ -251,7 +251,9 @@ para nunca publicar uma página com dado pessoal — veja
 
 Não tem como "ver" de novo uma chave já criada — ela só aparece em claro uma vez, no momento em que
 é gerada. Revogue a antiga e crie uma nova em [Integrações](/configuracoes/integracoes/); sistemas
-que ainda usarem a chave revogada passam a receber erro de autenticação (401).
+que ainda usarem a chave revogada passam a receber erro de autenticação (401). Ao criar a nova,
+marque de novo o que ela deve alcançar: o alcance não é herdado da chave antiga nem pode ser editado
+depois, e uma chave criada sem nada marcado autentica mas é recusada em toda chamada.
 
 ## Dados, privacidade e inteligência artificial
 

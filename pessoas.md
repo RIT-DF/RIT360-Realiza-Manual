@@ -45,17 +45,20 @@ alguém para a organização continua sendo feito em
 
 ## Quem vê esta aba
 
-CPF e contato são dados pessoais, e nem todo membro da organização deve alcançá-los. Por isso a
-aba **"Pessoas"** só aparece para quem tem permissão para ver o cadastro — hoje, quem
-[administra a organização](/papeis/administrador-da-organizacao/). Ela fica depois de
-**"Clientes"**, na barra de cima no computador e na barra de baixo no celular.
+CPF e contato são dados pessoais, e nem todo mundo deve alcançá-los inteiros. A aba **"Pessoas"**
+aparece para **qualquer pessoa com vínculo com a organização** — não só para quem
+[administra](/papeis/administrador-da-organizacao/). O que muda de uma pessoa para outra é o que a
+tela deixa **fazer**, conforme a permissão que ela tem (veja abaixo). Quem participa da organização
+apenas como **convidado**, vindo de fora, continua sem alcançar os dados de pessoas da organização.
+A aba fica depois de **"Clientes"**, na barra de cima no computador e na barra de baixo no celular.
 
-Quem chega ao endereço sem a permissão vê apenas: **"Você não tem permissão para ver as pessoas
-desta organização."**
+Quem chega ao endereço sem nenhuma permissão sobre o cadastro vê apenas: **"Você não tem permissão
+para ver as pessoas desta organização."**
 
 A permissão tem quatro partes, e uma pessoa pode ter só algumas: **ver**, **cadastrar**,
-**alterar** e **remover**. Quem só pode ver abre a ficha **travada**, com o botão **"Fechar"** no
-lugar de **"Salvar"**, e não encontra os botões de cadastrar nem de remover.
+**alterar** e **remover**. Quem só pode ver encontra a tela mais enxuta: sem **"Cadastrar pessoa"**, sem caixas de
+seleção, sem **"Remover"**, e com **"Abrir"** no lugar de **"Editar"** — a ficha abre **travada**,
+com o botão **"Fechar"** no lugar de **"Salvar"**.
 
 ![Lista de pessoas da organização, com busca, seleção em lote e as colunas Nome, CPF, Contato, Conta e Ações](/assets/capturas/pessoas-lista-desktop.png)
 {: .mt-4 }
@@ -238,12 +241,13 @@ não devolve o que foi apagado.
 - **"Nenhuma organização ativa. Escolha uma no seletor, ao lado da logo."** — escolha a organização
   antes de abrir a aba. Se você ainda não participa de nenhuma, a mensagem é *"Você ainda não tem
   vínculo com nenhuma organização."*, e o caminho é [Primeiros passos](/primeiros-passos/).
-- **"Não vejo a aba Pessoas."** — ela só aparece para quem tem permissão de ver o cadastro. Confira
-  também se o seletor, no alto da tela, está na organização certa.
+- **"Não vejo a aba Pessoas."** — confira se o seletor, no alto da tela, está na organização certa.
+  Quem participa só como convidado, de fora da organização, não alcança o cadastro de pessoas.
 
 ## Limites do papel
 
-Quem administra a organização cadastra, altera e remove fichas. Membros e convidados **não**
-veem a aba. O que cada pessoa alcança depende das quatro partes da permissão (ver, cadastrar,
-alterar, remover), e o botão que você não pode usar simplesmente não aparece — ou aparece só
-**"Abrir"**, no lugar de **"Editar"**.
+Quem administra a organização cadastra, altera e remove fichas. Os demais membros veem a aba, mas o
+que fazem nela depende das quatro partes da permissão (ver, cadastrar, alterar, remover): quem só
+pode ver consulta a lista e abre a ficha travada, sem os botões de cadastrar e remover. Convidados de
+fora da organização não alcançam o cadastro. O botão que você não pode usar simplesmente não
+aparece — ou aparece só **"Abrir"**, no lugar de **"Editar"**.
