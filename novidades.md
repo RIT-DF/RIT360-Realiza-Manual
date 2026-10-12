@@ -17,6 +17,40 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 11 de outubro de 2026 — versão 0.38.0 e 0.38.1
+
+### Modificado
+
+- **A RIT360 Plataforma ganhou cor própria.** Antes o aplicativo usava o verde do Realiza — que é a
+  cor de um dos produtos de dentro dele, não a da casa. Agora uma faixa fina na cor da família
+  RIT360 (o verde-azulado do "360" da logo) aparece no topo do cabeçalho, e a barra do navegador e
+  a do aplicativo instalado no celular usam essa mesma cor. Botões, links, realce do item escolhido
+  e a moldura que mostra onde está o foco passaram a usar **a mesma cor da família, num tom mais
+  escuro** — porque o tom claro da logo não tem contraste suficiente para texto, e texto que não
+  se lê não serve. Os e-mails seguem o mesmo desenho: faixa na cor da família no topo do cartão, e
+  botão e link no tom escuro. **O que não muda:** nenhum botão trocou de lugar nem de nome — só a
+  cor.
+- **A tabela de Organizações voltou a mostrar o Gestor.** Na versão anterior ele tinha ido para o
+  detalhe, mas percorrer a lista para ver quem responde por cada organização é uso de todo dia, e
+  agora isso é possível numa olhada. As colunas são **Organização, Gestor, Domínio, Contrato,
+  Módulos e Ações**; o e-mail aparece cortado com reticências quando é longo (inteiro ao passar o
+  mouse e no detalhe), e um travessão (—) indica organização sem gestor resolvido. No celular, o
+  bloco de cada organização ganhou o rótulo **"Gestor"**. Entrada, Espaços, Clientes e Pessoas
+  continuam no detalhe. Veja [Ver o detalhe de uma
+  organização](/admin-servico/organizacoes/#ver-o-detalhe-de-uma-organização).
+
+### Corrigido
+
+- **Um pedido de exportação com parte falhada deixou de dizer "Pronto para baixar".** Agora o selo
+  é **"Pronto, mas incompleto"**, com a frase que explica que uma ou mais partes não estão no
+  pacote; o botão de baixar continua lá, para levar o que deu. O aviso por e-mail acompanha. Parte
+  que **"estava vazio"** não deixa o pedido incompleto — só **"falhou"**. Veja [Quando o pacote
+  sai incompleto](/configuracoes/exportar-dados/#quando-o-pacote-sai-incompleto).
+- **Um arquivo com acento ou outro caractere especial no nome deixou de derrubar a exportação.**
+  Antes, uma parte como Relatórios podia falhar só por causa disso.
+
+---
+
 ## 11 de outubro de 2026 — versão 0.37.0
 
 ### Modificado

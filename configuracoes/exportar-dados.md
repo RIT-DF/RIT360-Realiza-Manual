@@ -48,8 +48,13 @@ Cada pedido no histórico mostra um destes estados:
 
 - **"Preparando"** — o pacote ainda está sendo montado. A tela consulta sozinha a cada poucos
   segundos, sem você precisar recarregar.
-- **"Pronto para baixar"** — clique em **"Baixar pacote"** para receber o arquivo. Aparece também
-  até quando ele fica disponível.
+- **"Pronto para baixar"** — todas as partes foram tratadas e nenhuma falhou. Clique em **"Baixar
+  pacote"** para receber o arquivo. Aparece também até quando ele fica disponível.
+- **"Pronto, mas incompleto"** — o pacote existe e pode ser baixado, mas **uma ou mais partes
+  falharam e não estão nele**. Logo abaixo do selo vem a frase **"Uma ou mais partes falharam e não
+  estão no pacote. Você pode baixar o que deu para levar; confira abaixo o que ficou de fora."**
+  O botão **"Baixar pacote"** continua lá, de propósito: levar o que deu é melhor do que não levar
+  nada. Veja [Quando o pacote sai incompleto](#quando-o-pacote-sai-incompleto).
 - **"Falhou"** — o motivo aparece junto, quando o sistema souber dizer.
 - **"Expirado"** — o prazo para baixar passou; peça uma exportação nova.
 
@@ -70,7 +75,43 @@ um destes três resultados:
 - **"falhou (motivo)"** — a parte não pôde ser exportada, e o motivo aparece entre parênteses. Não
   conte com ela no pacote.
 
-<!-- CAPTURA PENDENTE: rota=/exportacoes | o-que-mostrar=histórico com as linhas "RIT360 Flow: estava vazio" e as demais "concluído" | arquivo=exportar-dados-resultado. Adiada porque o ambiente local de demonstração mostra "Relatórios: falhou" (issue #225, nome de arquivo com acento no download) — tela com defeito não entra. -->
+![Histórico de pedidos de exportação com dois pedidos da organização: o primeiro com o selo "Pronto para baixar", as partes "RIT360 Flow: estava vazio" e "Assistente: estava vazio" e as demais "concluído"; o segundo com o selo vermelho "Pronto, mas incompleto", a frase explicando que partes falharam e a linha "Relatórios: falhou"](/assets/capturas/exportar-dados-resultado-desktop.png)
+{: .mt-4 }
+
+No celular:
+
+![Histórico de pedidos de exportação no celular, com os dois pedidos empilhados: "Pronto para baixar" e "Pronto, mas incompleto"](/assets/capturas/exportar-dados-resultado-celular.png){: style="max-width:375px" }
+
+## Quando o pacote sai incompleto
+
+O selo do pedido resume as linhas abaixo dele, e a regra é uma só: **se alguma parte "falhou", o
+pedido aparece como "Pronto, mas incompleto"; se nenhuma falhou, aparece como "Pronto para
+baixar".**
+
+Repare no que **não** conta: parte que **"estava vazio"** não torna o pedido incompleto. Ela foi
+considerada e a organização não tinha nada nela — o pacote está inteiro. Só **"falhou"** deixa uma
+lacuna no pacote.
+
+### Por que isto importa
+
+Antes, o pedido dizia "Pronto para baixar" mesmo com uma parte falhada, e quem lia só o selo
+concluía que o pacote estava completo. Quem arquivava esse pacote para uma prestação de contas ou
+uma auditoria descobria a falta no dia em que precisava do que faltava. Agora o selo conta a
+verdade antes de você baixar.
+
+### O que fazer
+
+1. Leia as linhas do pedido e ache a que diz **"falhou (motivo)"**.
+2. Decida: o que falhou é importante para o que você vai fazer com o pacote? Se não for, baixe o
+   pacote e siga — ele traz tudo o que deu para levar.
+3. Se for, **peça uma exportação nova** (veja abaixo). Se a mesma parte falhar de novo, avise
+   pelo [feedback](/enviar-feedback/), dizendo o nome da parte e o motivo.
+
+A notificação por e-mail acompanha o selo. Quando o pacote sai completo, o assunto é **"Sua
+exportação de dados está pronta"**. Quando sai incompleto, o assunto é **"Sua exportação de dados
+está pronta, mas incompleta"**, com o resumo **"O pacote pode ser baixado, mas uma ou mais partes
+falharam e não estão nele. Abra o pedido para ver quais."** O e-mail não diz quais partes — isso
+está no pedido, na tela.
 
 {: .note }
 **Produto desligado continua sendo exportado.** Se a organização desligou o RIT360 Flow mas já
@@ -97,7 +138,8 @@ baixa o pacote com tranquilidade.
   de novo.
 - **Leia as linhas antes de baixar.** "estava vazio" é normal; "falhou" não é. Baixar o pacote com
   uma parte que falhou e arquivá-lo como se estivesse completo deixa a organização sem aquela parte
-  no dia em que precisar dela.
+  no dia em que precisar dela. O selo **"Pronto, mas incompleto"** existe para avisar disso, mas o
+  botão de baixar continua disponível: a decisão é sua.
 
 {: .important }
 O que acontece com os dados exportados depois do fim do contrato com a RIT360 Plataforma ainda está sendo

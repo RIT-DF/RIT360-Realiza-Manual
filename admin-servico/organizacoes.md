@@ -16,8 +16,8 @@ assume dali em diante.
 
 {: .important }
 Como em toda esta área, esta tela mostra **cadastro**, nunca conteúdo. Você
-vê nome, domínio, situação do contrato e os produtos ligados na tabela e, no
-detalhe de cada organização, o gestor, a data de entrada e as contagens —
+vê nome, gestor, domínio, situação do contrato e os produtos ligados na tabela e, no
+detalhe de cada organização, a data de entrada e as contagens —
 nunca uma tarefa, uma mensagem, um documento ou um material de dentro dela. Veja [a nota sobre alcance](/admin-servico/).
 
 É também por aqui que você **liga e desliga os módulos** — os produtos da família RIT360 — de
@@ -40,12 +40,12 @@ julgamento — e aí ele aparece em [Pedidos de organização](/admin-servico/pe
 não aqui. O que você cria por esta tela é a organização que **você mesmo** decide abrir, sem
 pedido de ninguém.
 
-![Tela Organizações da administração do serviço, com o formulário de criação e a tabela "Todas as organizações", com as colunas Organização, Domínio, Contrato, Módulos e Ações](/assets/capturas/admin-servico-organizacoes-desktop.png)
+![Tela Organizações da administração do serviço, com o formulário de criação e a tabela "Todas as organizações", com as colunas Organização, Gestor, Domínio, Contrato, Módulos e Ações](/assets/capturas/admin-servico-organizacoes-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Tela Organizações da administração do serviço no celular: cada organização é um bloco, com o nome no topo e, abaixo, Domínio, Contrato, Módulos e os botões Detalhes e Excluir](/assets/capturas/admin-servico-organizacoes-celular.png){: style="max-width:375px" }
+![Tela Organizações da administração do serviço no celular: cada organização é um bloco, com o nome no topo e, abaixo, Gestor, Domínio, Contrato, Módulos e os botões Detalhes e Excluir](/assets/capturas/admin-servico-organizacoes-celular.png){: style="max-width:375px" }
 {: .mt-4 }
 
 ## Passo a passo — criar uma organização
@@ -78,23 +78,24 @@ precisa ser convidado à mão.
 
 ## Ver o detalhe de uma organização
 
-A tabela mostra o que você precisa para decidir: **"Organização"**, **"Domínio"**, **"Contrato"**,
-**"Módulos"** e **"Ações"**. O resto do cadastro — quem gere a organização, desde quando ela existe
-e quanto ela tem — fica no **detalhe** de cada uma.
+A tabela mostra o que você precisa para decidir: **"Organização"**, **"Gestor"**, **"Domínio"**,
+**"Contrato"**, **"Módulos"** e **"Ações"**. O resto do cadastro — desde quando a organização existe
+e quanto ela tem — fica no **detalhe** de cada uma, que traz também o gestor por inteiro.
 
 ### Por que isto importa
 
 Na hora de pedir uma decisão, avisar de uma mudança ou conferir se uma organização está mesmo em
-uso, você precisa saber quem responde por ela e do que ela é feita. Essas informações já ocuparam
-colunas da tabela e empurravam o nome da organização para fora da tela; no detalhe, a tabela cabe
-sem rolar para o lado, em qualquer tamanho de tela, e as informações continuam a um clique.
+uso, você precisa saber quem responde por ela e do que ela é feita. Quem responde por cada
+organização você vê direto na lista, sem abrir nada — percorrer a coluna **"Gestor"** é o uso mais
+comum da tela. O que é mais raro de consultar (entrada e contagens) ficou no detalhe, para a tabela
+caber na tela sem rolar para o lado, em qualquer tamanho.
 
 ### Passo a passo
 
 1. Na tabela **"Todas as organizações"**, clique no **nome** da organização ou no botão
    **"Detalhes"** da linha. Os dois abrem o mesmo detalhe.
 2. A janela abre com o nome da organização no alto e a frase **"Cadastro e números desta
-   organização."**. Embaixo estão **"Gestor"** (o e-mail de quem administra a organização),
+   organização."**. Embaixo estão **"Gestor"** (o e-mail de quem administra a organização, inteiro),
    **"Entrada"** (a data em que ela foi criada), **"Espaços"**, **"Clientes"** e **"Pessoas"**.
 3. Feche a janela para voltar à tabela. Ela só mostra: nada pode ser alterado por ali.
 
@@ -107,18 +108,19 @@ No celular:
 
 ### Exemplo
 
-A equipe da RIT precisa avisar o gestor do Instituto Semente de que o Flow vai ser ligado. Na linha
-do Instituto Semente, ela clica em **"Detalhes"**, lê o e-mail em **"Gestor"** e escreve para a
-Maria Oliveira. Na mesma janela vê que o Instituto entrou em setembro e tem três espaços — o
-suficiente para saber que é uma organização em uso, não um cadastro esquecido.
+A equipe da RIT precisa avisar o gestor do Instituto Semente de que o Flow vai ser ligado. Na
+própria tabela, na linha do Instituto Semente, ela lê o e-mail em **"Gestor"** e escreve para a
+Maria Oliveira. Para saber se vale a pena insistir, ela clica em **"Detalhes"** e vê que o Instituto
+entrou em setembro e tem três espaços — o suficiente para saber que é uma organização em uso, não
+um cadastro esquecido.
 
 ### Dicas e armadilhas
 
-- **A tabela não mostra mais o gestor.** Se você costumava percorrer a lista para ver quem responde
-  por cada organização, agora precisa abrir o detalhe de cada uma. Conferir todas de uma vez deixou
-  de ser possível numa só olhada.
-- **"Gestor" mostra um travessão (—)** enquanto a pessoa convidada ainda não criou a conta. Não é
-  defeito: o convite foi enviado, mas ainda não foi aceito.
+- **O e-mail do gestor aparece cortado com reticências quando é longo.** Passe o mouse sobre ele
+  para ler o e-mail inteiro; ele também aparece completo no detalhe.
+- **"Gestor" mostra um travessão (—)** quando a organização não tem gestor resolvido — por
+  exemplo, enquanto a pessoa convidada ainda não criou a conta. Não é defeito: o convite foi
+  enviado, mas ainda não foi aceito.
 - **Espaços e Clientes podem trazer um aviso de números desatualizados.** Veja
   [Quando os números podem estar desatualizados](#quando-os-números-podem-estar-desatualizados).
 
@@ -257,6 +259,10 @@ real da organização — veja mais adiante.
 ## O que cada coluna da tabela mostra
 
 - **"Organização"** — o nome da organização. Clicar nele abre o detalhe.
+- **"Gestor"** — o e-mail de quem administra aquela organização, cortado com reticências quando é
+  longo (o e-mail inteiro aparece ao passar o mouse e no detalhe). Mostra um travessão (—) quando a
+  organização não tem gestor resolvido. No celular, o bloco da organização traz o rótulo
+  **"Gestor"**.
 - **"Domínio"** — o domínio de e-mail associado à organização, editável
   clicando no valor. Mostra **"— (editar)"** quando ainda não há domínio
   cadastrado.
@@ -271,9 +277,7 @@ real da organização — veja mais adiante.
 E, no detalhe de cada organização (veja [Ver o detalhe de uma
 organização](#ver-o-detalhe-de-uma-organização)):
 
-- **"Gestor"** — o e-mail de quem administra aquela organização. Se a pessoa
-  convidada ainda não tiver conta no serviço de identidade, mostra um travessão
-  até que ela crie a própria conta.
+- **"Gestor"** — o mesmo e-mail da tabela, por inteiro.
 - **"Entrada"** — a data em que a organização foi criada.
 - **"Espaços"** — quantos espaços (projetos e operações contínuas) a
   organização tem, arquivados ou não.
