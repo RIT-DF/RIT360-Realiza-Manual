@@ -111,10 +111,11 @@ um quadro **"Resumo"** com quatro contagens: **"Pessoas"**, **"Candidaturas em a
 ![Tela RIT360 Flow no celular, com as quatro contagens em zero empilhadas](/assets/capturas/flow-tela-inicial-celular.png){: style="max-width:375px" }
 
 {: .note }
-**Todas as contagens estão em zero, e isso é o esperado.** O Flow está nascendo: cadastro de
-pessoas, candidatura, termo de adesão e credencial chegam em próximas entregas, uma de cada vez. Por
-enquanto a tela só confirma que o produto está ligado para a sua organização. Não há nada a
-preencher nem botão a clicar nela.
+**Todas as contagens estão em zero, e isso é o esperado.** O Flow está nascendo: candidatura,
+termo de adesão e credencial chegam em próximas entregas, uma de cada vez. O cadastro de pessoas
+já existe, mas fica na aba [Pessoas](/pessoas/) da organização, não no Flow — e a contagem
+**"Pessoas"** do resumo do Flow ainda não o conta. Por enquanto a tela só confirma que o produto
+está ligado para a sua organização. Não há nada a preencher nem botão a clicar nela.
 
 ### Abrir o Flow pelo endereço, sem ter o módulo
 

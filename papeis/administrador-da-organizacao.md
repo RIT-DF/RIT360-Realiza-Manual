@@ -18,6 +18,7 @@ Instituto Semente, seria a Maria Oliveira.
 - Trocar o papel de um membro, e remover quem saiu da organização
 - Preencher os dados e a identidade visual da organização
 - Cadastrar os clientes e parceiros para quem o trabalho é feito
+- Manter o cadastro de [Pessoas](/pessoas/) da organização — as fichas de quem a organização conhece, com ou sem conta de acesso
 - Definir a postura da organização quanto a inteligência artificial
 - Criar espaços e enxergar a lista de todos eles
 - Decidir os [pedidos de entrada](/configuracoes/pedidos-de-entrada/) de gente com e-mail do

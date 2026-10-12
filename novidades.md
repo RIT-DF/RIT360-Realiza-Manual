@@ -17,6 +17,32 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 12 de outubro de 2026 — versão 0.40.0
+
+### Adicionado
+
+- **A aba "Pessoas" chegou: o cadastro de quem a sua organização conhece.** Ela fica depois de
+  "Clientes", só para quem tem permissão de ver pessoas. Cada pessoa tem uma **ficha** — nome, nome
+  social, CPF, data de nascimento, telefones, e-mails e endereço — e a ficha existe **sem que a
+  pessoa precise ter conta**: dá para cadastrar a equipe inteira de um projeto e dar acesso ao
+  sistema só a quem precisa. A lista tem busca por nome, nome social ou pedaço de CPF, seleção de
+  várias pessoas e as ações de cada linha. Veja [Pessoas](/pessoas/).
+- **Telefone e e-mail com um campo para cada um**, e máscara nos campos de CPF, telefone e CEP:
+  você digita só os números e a pontuação aparece.
+- **Remover várias pessoas de uma vez diz quantas serão afetadas antes de executar, e depois conta
+  o que aconteceu:** quantas foram removidas, quantas o sistema recusou e quantas falharam, cada
+  uma com o nome e o motivo.
+
+### Para ter cuidado
+
+- **Remover uma pessoa apaga a ficha, e não há como desfazer.** Se ela tiver conta de acesso, a
+  conta continua existindo.
+- **Na lista o CPF aparece só com o miolo**; inteiro, só dentro da ficha. A busca por pedaço de
+  CPF funciona do mesmo jeito. E, como nenhum endereço de página carrega CPF, **não dá para
+  mandar o link de uma ficha** a alguém.
+
+---
+
 ## 11 de outubro de 2026 — versão 0.38.0 e 0.38.1
 
 ### Modificado

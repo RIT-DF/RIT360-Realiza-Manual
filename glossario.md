@@ -54,6 +54,12 @@ pastas, links e páginas de **wiki**. Existe em duas portas de entrada — a da 
 a de dentro de um espaço, filtrada só por ele — mas é a mesma ferramenta nos dois casos. Ver
 [Conhecimento](/conhecimento/).
 
+## Conta
+
+O acesso de alguém à RIT360 Plataforma: o login e a senha com que a pessoa entra. Não é a mesma
+coisa que a **ficha**: uma pessoa pode ter ficha sem conta. Na lista de [Pessoas](/pessoas/), a
+coluna **"Conta"** mostra **"Tem conta"** ou **"Sem conta"**.
+
 ## Convidado
 
 Duas coisas diferentes, conforme onde a palavra aparece:
@@ -120,6 +126,12 @@ vinculado e o que vai junto, para você confirmar sabendo o tamanho da ação.
 ## Executor
 
 Papel dentro de um espaço: quem faz as tarefas.
+
+## Ficha
+
+O cadastro de uma pessoa que a organização conhece — nome, CPF, contatos, endereço. Existe
+independentemente de a pessoa ter conta. Remover a ficha não remove a conta. Ver
+[Pessoas](/pessoas/).
 
 ## Flow
 
