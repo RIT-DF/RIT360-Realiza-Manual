@@ -3,7 +3,7 @@ title: "Organizações"
 nav_order: 8
 parent: "Administração do serviço"
 permalink: /admin-servico/organizacoes/
-palavras_chave: "criar organização, gestor, quem responde pela organização, data de entrada, detalhe da organização, quantos espaços, suspender contrato, excluir organização, excluir apaga tudo, exclusão parcial, repetir a exclusão, autosserviço desligado, números desatualizados, tarefas agendadas, ligar módulo, desligar módulo, habilitar flow, módulo não habilitado, habilitação por organização"
+palavras_chave: "criar organização, gestor, quem responde pela organização, data de entrada, detalhe da organização, quantos espaços, suspender contrato, encerrar contrato, reabrir contrato, apagamento em 30 dias, excluir organização, excluir apaga tudo, exclusão parcial, repetir a exclusão, autosserviço desligado, números desatualizados, tarefas agendadas, ligar módulo, desligar módulo, habilitar flow, módulo não habilitado, habilitação por organização"
 ---
 
 # Organizações
@@ -288,9 +288,15 @@ organização](#ver-o-detalhe-de-uma-organização)):
 - **"Clientes"** — quantos clientes a organização tem cadastrados.
 - **"Pessoas"** — quantas pessoas têm vínculo com a organização.
 
+## Encerrar ou reabrir o contrato
+
+No **detalhe** da organização (botão **"Detalhes"**), o bloco **"Contrato com o serviço"** permite **encerrar o contrato** — informando o motivo — e **reabri-lo** enquanto o apagamento não começou. Encerrar marca o relógio: a organização será apagada **no trigésimo dia**, e o gestor é avisado por e-mail no ato e de novo sete dias antes. A coluna **"Contrato"** passa a mostrar **"Encerrado"**.
+
+Passo a passo, avisos, armadilhas e o que fazer se algo falhar: [Apagamento de organização encerrada](/admin-servico/apagamento-organizacao-encerrada/).
+
 ## Excluir uma organização
 
-Excluir aqui é definitivo, e é diferente de suspender o contrato: **a organização inteira some, com
+Excluir aqui é definitivo e imediato, e é diferente de suspender o contrato — e também de **encerrá-lo**: encerrar o contrato marca o prazo de 30 dias e só então apaga a organização, com aviso ao gestor e a chance de reabrir (veja [Apagamento de organização encerrada](/admin-servico/apagamento-organizacao-encerrada/)): **a organização inteira some, com
 tudo o que ela tem em todos os módulos.**
 
 Isso nem sempre foi assim. Até a versão 0.52.0 a tela prometia que tudo sumia, mas a exclusão valia

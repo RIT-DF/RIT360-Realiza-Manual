@@ -102,6 +102,9 @@ lado. Link guardado nos favoritos não quebrou.
   verdade.
 - [Retenção de candidaturas](/admin-servico/retencao-candidaturas/) — por quanto tempo o Flow
   guarda o que uma pessoa enviou ao se candidatar, e se a rotina que apaga isso está rodando.
+- [Apagamento de organização encerrada](/admin-servico/apagamento-organizacao-encerrada/) — como
+  encerrar e reabrir o contrato de uma organização, os dois avisos ao gestor, o prazo de 30 dias
+  e como conferir se a rotina que apaga está rodando.
 
 **Feedbacks** — [o que as pessoas enviaram](/admin-servico/feedbacks/) de dentro do produto, e a
 resposta a cada um.

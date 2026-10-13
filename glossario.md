@@ -398,6 +398,11 @@ Depois da remoção sobra, no máximo, um **registro mínimo** (tipo, frente, da
 decidiu) — e, no caso de recusa por idade, nada. Ver
 [Retenção de candidaturas](/admin-servico/retencao-candidaturas/).
 
+## Encerrar o contrato (organização)
+
+Ato de quem administra o serviço que marca o fim da relação com uma organização e inicia a contagem de 30 dias até o apagamento de todos os dados dela. Não é o mesmo que suspender (que só interrompe o uso). Reabrir o contrato antes de o apagamento começar cancela o apagamento. Ver
+[Apagamento de organização encerrada](/admin-servico/apagamento-organizacao-encerrada/).
+
 ## Selo (da plataforma)
 
 O que um documento recebe quando todas as partes aceitam por link: um texto que diz o que foi feito (o
