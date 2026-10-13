@@ -58,7 +58,7 @@ mensagens que a plataforma envia, completos.
 Quando você está em Pessoas, o item **Pessoas** é o que fica aceso, e nenhum módulo; em Instituições,
 o **Instituições**. Quando está no trabalho, é o **Realiza** que fica aceso; e **dentro do Flow, só
 o Flow fica aceso** (antes acendiam dois itens ao mesmo tempo). A faixa de abas no alto da tela
-(embaixo, no celular) acompanha: ela mostra as abas da área em que você está — **Meu trabalho,
+(embaixo, no celular) acompanha: ela mostra as abas da área em que você está — **Para mim,
 Espaços, Conhecimento e Clientes** no Realiza; **Visão geral, Candidaturas e Configurações** no
 Flow; **Visão geral e Lista de pessoas** em Pessoas; **Lista de instituições e Relações, situações e
 áreas** em Instituições.
@@ -110,7 +110,7 @@ detalhes estão em [Administração do serviço](/admin-servico/#como-navegar).
 
 {: .tip }
 Se você administra o serviço e a sua faixa de abas mostra os assuntos da administração em vez de
-"Meu trabalho", não há nada errado: você está dentro da administração. É só clicar em Realiza.
+"Para mim", não há nada errado: você está dentro da administração. É só clicar em Realiza.
 
 ## Quando o item está apagado — o que fazer
 

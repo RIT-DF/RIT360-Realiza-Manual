@@ -9,8 +9,10 @@ palavras_chave: "lembretes de candidatura, quem recebe o aviso, régua, insistir
 # Lembretes de candidatura
 
 Quando chega uma candidatura, o sistema avisa quem você escolher — e **volta a insistir enquanto
-ninguém decide**. Essa configuração mora no alto da aba **"Configurações"** do [Flow](/flow/), no
-cartão **"Lembretes de candidatura"**.
+ninguém decide**. Essa configuração mora no alto da aba **"Configurações"** do [Flow](/flow/), na seção
+**"Voluntariado"**, no cartão **"Lembretes de candidatura"**. (Quem tem acesso aos
+[documentos](/flow/documentos/) vê, acima do cartão, a faixa **"Voluntariado"** / **"Documentos"**; a
+seção **"Voluntariado"** é a que abre primeiro.)
 
 ## Por que isto importa
 

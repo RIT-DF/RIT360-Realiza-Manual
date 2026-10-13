@@ -2,7 +2,7 @@
 title: "Perguntas frequentes"
 nav_order: 12
 permalink: /faq/
-palavras_chave: "dúvidas comuns, ajuda, domínio autorizado, exportar dados, chave de api, inteligência artificial, cobrança, engrenagem, administração sumiu, pessoas ou membros, link da ficha, entrega adiada"
+palavras_chave: "dúvidas comuns, ajuda, domínio autorizado, exportar dados, chave de api, inteligência artificial, cobrança, engrenagem, administração sumiu, pessoas ou membros, link da ficha, entrega adiada, para mim, meu trabalho, não foi possível carregar, termo de adesão, emitir documento, modelo de documento, documento anexado, testemunha"
 ---
 
 # Perguntas frequentes
@@ -115,7 +115,7 @@ envie de novo.
 ### Ninguém aprovou e o prazo venceu. Está aprovado?
 
 Não. **Silêncio não aprova e prazo vencido não aprova.** A pendência continua
-esperando decisão, e aparece em [Meu trabalho](/trabalho/meu-trabalho/) de quem
+esperando decisão, e aparece em [Para mim](/para-mim/) de quem
 precisa decidir.
 
 ### Aprovei sem querer, ao arrastar o cartão.
@@ -156,15 +156,29 @@ quantas pessoas, quantos espaços — e nada do conteúdo.
 
 ## Avisos
 
-### "Meu trabalho" mostra tarefas de outras pessoas?
+### "Para mim" mostra tarefas de outras pessoas?
 
 Não. Tudo o que aparece ali depende de você. Tarefa atrasada de outra pessoa aparece no quadro do
-espaço, com o selo de atrasada, e no painel de quem é responsável por ela.
+espaço, com o selo de atrasada, e na tela "Para mim" de quem é responsável por ela.
+
+### Cadê a tela "Meu trabalho"?
+
+Ela se chama **"Para mim"** desde a versão 0.55.0, e deixou de ser só do Realiza: reúne o que
+espera por você em todos os produtos. O conteúdo de antes está inteiro na seção do Realiza, e o
+endereço antigo (`/painel`) continua abrindo a mesma tela. Veja [Para mim](/para-mim/).
+
+### A tela "Para mim" diz "Não foi possível carregar Flow agora". Então não tenho nada pendente?
+
+Não é isso que ela diz: **"Isso não quer dizer que não haja nada pendente."** Ela está avisando que
+não conseguiu olhar, e pode haver candidatura esperando. Clique em **"Tentar de novo"**; se seguir
+falhando, abra o Flow direto pela barra lateral. "Nada pendente em Flow" é a resposta de quem olhou
+e não achou nada; "Não foi possível carregar" é a de quem não conseguiu olhar. Veja
+[Quando um produto não responde](/para-mim/#quando-um-produto-não-responde).
 
 ### Desliguei os avisos por e-mail. Vou perder pedidos de aprovação?
 
 Não. Desligar o aviso não elimina a pendência: ela continua no app, na sua tela
-de [Meu trabalho](/trabalho/meu-trabalho/). O canal muda; a obrigação, não.
+[Para mim](/para-mim/). O canal muda; a obrigação, não.
 
 ## O produto
 
@@ -330,6 +344,52 @@ O próprio sistema, no recebimento: candidatura de **voluntário ou colaborador*
 anos (ou sem data de nascimento) é reprovada sozinha, com o motivo. A tela da candidatura diz
 **"Reprovada no recebimento, pela regra de idade"**. A inteligência artificial **não** reprova
 voluntário nem instituição por conta própria — só uma pessoa o faz.
+
+### Emiti o termo de adesão. A pessoa já recebeu para assinar?
+
+Não. **Emitir guarda o documento na ficha e não envia nada a ninguém** — a própria janela diz *"Nada
+é enviado a ninguém"*. Colher a assinatura por um link ainda não existe. Hoje, quem precisa de
+assinatura emite o documento aqui, colhe a assinatura por fora e
+[anexa](/flow/emitir-documentos/#anexar-um-documento-assinado-fora-do-sistema) o resultado. Veja
+também [O que ainda vem por aí](/em-breve/).
+
+### A janela de emissão diz "Antes de emitir, falta:" e não deixa emitir. Por quê?
+
+Porque o sistema **nunca imprime um documento com buraco**. Se o texto do modelo usa o CPF, o
+endereço ou o nome de um papel, e esse dado não existe, a emissão para e lista **tudo** o que falta
+de uma vez. Corrija na ficha (ou na organização) e clique em **"Conferir"** de novo. Para o termo de
+adesão há um [passo preparatório](/flow/emitir-documentos/#antes-de-emitir-o-primeiro-termo-de-adesão)
+que evita descobrir isso na hora.
+
+### Editei o modelo, mas os documentos que já emiti continuam com o texto antigo. É defeito?
+
+Não, é de propósito. **O documento emitido guarda o próprio texto, congelado**; editar o modelo vale
+só para os próximos. É isso que impede um texto de mudar depois de assinado. Se um documento saiu com
+erro, emita outro com o modelo corrigido — o antigo permanece. Veja
+[Modelos de documento](/flow/documentos/#editar-duplicar-e-apagar).
+
+### Posso apagar um documento emitido por engano?
+
+Não. **Modelo pode ser apagado; documento emitido, nunca** — nem por quem administra. Se emitiu por
+engano, emita o correto e deixe o outro como está, com a data que tem.
+
+### A testemunha não está em Pessoas. Preciso cadastrá-la para ela assinar?
+
+Não. Na emissão, escolha **"Assinante externo (digitar)"** e digite nome, CPF e e-mail dela. Ela **não
+entra na lista de Pessoas**: os dados ficam só naquele documento. Cadastre em Pessoas quem assina
+com frequência. Veja [Emitir, ver e anexar documentos](/flow/emitir-documentos/#como-preencher-cada-papel).
+
+### Anexei um documento assinado no papel. Ele vale como um emitido aqui?
+
+Vale como o arquivo que ele é, e a ficha avisa a diferença: ele aparece como **"Anexado — assinado fora
+do sistema"**, com a frase *"Sem trilha de assinatura neste sistema: ninguém aceitou nada aqui."* O
+sistema não tem registro de quem aceitou, quando e de onde — só guarda o arquivo.
+
+### Posso importar o meu modelo do Word ou de PDF?
+
+Não, e é de propósito: converter um arquivo prometeria um resultado que decepciona, e o que sai errado
+vira documento assinado. Use **"Baixar modelo de exemplo"**, copie o texto e troque pelas suas
+cláusulas. Veja [Modelos de documento](/flow/documentos/#o-texto).
 
 ### Excluí uma organização, mas depois vi que sobrou conteúdo. Isso acontece?
 

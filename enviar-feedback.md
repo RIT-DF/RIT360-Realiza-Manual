@@ -29,12 +29,12 @@ ter que perguntar de volta.
    se não quiser ser procurado sobre esse envio.
 6. Clique em **"Enviar"**. A janela fecha e você continua exatamente onde estava.
 
-![Janela de envio de feedback aberta por cima da tela "Meu trabalho"](/assets/capturas/feedback-envio-desktop.png)
+![Janela de envio de feedback aberta por cima da tela "Para mim", que na imagem ainda aparece com o nome antigo, "Meu trabalho" (imagem de uma versão anterior)](/assets/capturas/feedback-envio-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Janela de envio de feedback aberta por cima da tela "Meu trabalho" — no celular](/assets/capturas/feedback-envio-celular.png){: style="max-width:375px" }
+![Janela de envio de feedback aberta por cima da tela "Para mim", que na imagem ainda aparece com o nome antigo, "Meu trabalho" (imagem de uma versão anterior) — no celular](/assets/capturas/feedback-envio-celular.png){: style="max-width:375px" }
 {: .mt-4 }
 
 {: .note }

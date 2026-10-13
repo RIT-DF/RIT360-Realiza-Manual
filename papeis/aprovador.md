@@ -28,14 +28,14 @@ inércia. Enquanto você não decidir, a pendência continua esperando por você
 
 ## O que você alcança
 
-- Ver o que está esperando a sua decisão, na tela [Meu trabalho](/trabalho/meu-trabalho/)
+- Ver o que está esperando a sua decisão, na tela [Para mim](/para-mim/)
 - Abrir a versão enviada e conferir o que ela contém
 - Aprovar, com uma confirmação que diz exatamente o que vai ficar registrado
 - Pedir ajuste — e aí o sistema exige que você escreva o motivo
 
 ## Por onde começar
 
-1. [Meu trabalho](/trabalho/meu-trabalho/) — é aí que aparece o que espera por você
+1. [Para mim](/para-mim/) — é aí que aparece o que espera por você
 2. [Aprovar ou pedir ajuste](/trabalho/aprovar-ou-pedir-ajuste/) — o passo a passo
 3. [Corrigir e reenviar](/trabalho/corrigir-e-reenviar/) — o que acontece depois do seu pedido de ajuste
 

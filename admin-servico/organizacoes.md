@@ -215,8 +215,10 @@ basta **"Ligar"** de novo.
   barra de quem administra a organização e abrir o [RIT360 Flow](/flow/), com as abas **"Visão
   geral"**, **"Candidaturas"** e **"Configurações"**. A organização precisa **escolher quem recebe os
   avisos de candidatura** ([Lembretes de candidatura](/flow/lembretes/)): **enquanto ninguém for
-  escolhido, ninguém é avisado** quando chega uma candidatura. Termo de adesão e credencial ainda não
-  existem — avise a organização para ela não esperar mais do que isso. Ligar o módulo não basta para
+  escolhido, ninguém é avisado** quando chega uma candidatura. Antes de emitir o primeiro termo de adesão,
+  ela também precisa preencher os dados que o termo usa (CNPJ, endereço, representante) — veja
+  [Emitir, ver e anexar documentos](/flow/emitir-documentos/#antes-de-emitir-o-primeiro-termo-de-adesão).
+  Credencial e capacitação ainda não existem — avise a organização para ela não esperar mais do que isso. Ligar o módulo não basta para
   todos verem o item: a pessoa também precisa da permissão, que hoje é de quem administra a
   organização.
 - **Combine antes de desligar.** Desligar corta o acesso de **todas** as pessoas da organização de

@@ -10,7 +10,7 @@ palavras_chave: "frente de trabalho, voluntariado, vaga, quantas pessoas cabem, 
 
 As **frentes** são os lugares para onde a organização encaminha quem chega para ser voluntário:
 Tecnologia, Comunicação, Jurídico, Eventos e assim por diante. Ficam na aba **"Configurações"** do
-[Flow](/flow/), em **"Frentes do voluntariado"**, e são **da organização**: a lista nasce com
+[Flow](/flow/), na seção **"Voluntariado"**, em **"Frentes do voluntariado"**, e são **da organização**: a lista nasce com
 treze frentes de partida, e você a edita — renomeia, completa, cria outras, arquiva.
 
 ## Por que isto importa

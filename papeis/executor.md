@@ -29,7 +29,7 @@ configurar o espaço: etapas e participantes são do gestor.
 
 ## Por onde começar
 
-1. [Meu trabalho](/trabalho/meu-trabalho/) — abra esta tela todo dia, é a que
+1. [Para mim](/para-mim/) — abra esta tela todo dia, é a que
    mostra o que depende de você e o que vem por aí
 2. [Criar e organizar tarefas](/trabalho/criar-tarefas/)
 3. [Anexar material a uma tarefa](/trabalho/anexar-material/)

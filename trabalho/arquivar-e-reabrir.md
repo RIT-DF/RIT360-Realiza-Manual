@@ -77,8 +77,8 @@ tudo para consulta.
 
 ## O que muda para quem participava
 
-Um espaço arquivado some da lista de espaços ativos e para de gerar itens na tela [Meu
-trabalho](/trabalho/meu-trabalho/) — ninguém mais recebe aviso de prazo vencido ou
+Um espaço arquivado some da lista de espaços ativos e para de gerar itens na tela [Para
+mim](/para-mim/) — ninguém mais recebe aviso de prazo vencido ou
 aprovação pendente de um espaço arquivado. Quem participava continua conseguindo abrir o espaço
 para consultar tarefas, materiais e conversas antigas; só a cobrança ativa é que para.
 

@@ -149,6 +149,11 @@ A candidatura passa a mostrar o quadro **"Decisão"**: o **Resultado**, **Como**
 **"Mensagem enviada à pessoa"** e a **"Observação interna (não sai)"**. Se a aprovação criou ou
 ligou uma ficha, aparece o link **"abrir a ficha"** (ou **"abrir a instituição"**).
 
+{: .tip }
+**Aprovar uma voluntária é o que dá ao termo de adesão as frentes dela.** As áreas de atuação que o
+termo cita vêm da candidatura aprovada. Para emitir o termo, abra a ficha e siga
+[Emitir, ver e anexar documentos](/flow/emitir-documentos/).
+
 ## Conflito de e-mail
 
 Quando o e-mail da candidatura já pertence a **outra** pessoa já cadastrada, o sistema **não junta

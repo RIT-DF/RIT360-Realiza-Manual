@@ -1,33 +1,47 @@
 ---
-title: "Meu trabalho"
+title: "Para mim: a parte do Realiza"
 nav_order: 14
 parent: "O trabalho do dia a dia"
 permalink: /trabalho/meu-trabalho/
-palavras_chave: "painel, tudo pendente, atrasada, buscar tarefa, menções, agenda, aguardando você"
+palavras_chave: "meu trabalho, para mim, painel, tudo pendente, atrasada, buscar tarefa, menções, agenda, aguardando você"
 ---
 
-# Meu trabalho
+# Para mim: a parte do Realiza
 
-Esta é a tela para abrir no começo do dia. Ela junta, num lugar só, tudo que precisa da sua
-atenção e tudo que está por vir — em **todas** as organizações de que você participa, sem
+{: .note }
+**Esta página descreve a seção do Realiza dentro de "Para mim"** — a que, até a versão 0.54.0,
+era uma tela inteira chamada **"Meu trabalho"**. A tela hoje se chama **"Para mim"**, é da pessoa e
+reúne também o que espera por você em outros produtos; o que ela é como um todo está em
+[Para mim](/para-mim/). O endereço desta página não mudou, de propósito: é o mesmo para quem já o
+tinha salvo.
+
+A seção do Realiza é para abrir no começo do dia. Ela junta, num lugar só, tudo que precisa da
+sua atenção e tudo que está por vir — em **todas** as organizações de que você participa, sem
 precisar trocar a organização ativa para enxergar cada uma. Só quando você clica num item de
 outra organização é que a RIT360 Plataforma troca para ela.
 
 ## Onde fica
 
-No menu, é a tela que abre com o título **"Meu trabalho"**.
+É a primeira aba do Realiza, **"Para mim"**, e a tela que abre quando você entra. Com o Flow
+também ligado para você, esta parte vem sob o título **"Realiza"**, e o Flow ganha o dele logo
+abaixo; com o Realiza sozinho, não há título de seção e a tela é a que está descrita aqui.
 
-![Tela "Meu trabalho" com a lista de tarefas mostrando as etiquetas "Atrasada", "Aguardando você" e "Esperando outra pessoa", e à direita os cartões "Movimento nos meus espaços", "Agenda" e "Conversas"](/assets/capturas/painel-visao-geral-desktop.png)
+{: .note }
+**As imagens desta página mostram a tela com o nome antigo, "Meu trabalho"**, e ainda não foram
+refeitas. O conteúdo que elas mostram — a lista, as etiquetas, os cartões — é o mesmo; o que
+mudou é o título no alto da tela e a aba, que hoje dizem **"Para mim"**.
+
+![Tela "Meu trabalho" (hoje "Para mim"; imagem de uma versão anterior) com a lista de tarefas mostrando as etiquetas "Atrasada", "Aguardando você" e "Esperando outra pessoa", e à direita os cartões "Movimento nos meus espaços", "Agenda" e "Conversas"](/assets/capturas/painel-visao-geral-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular, com a lista de tarefas primeiro:
 
-![Tela "Meu trabalho" no celular, em uma coluna só, com a lista de tarefas primeiro e os cartões de contexto logo abaixo](/assets/capturas/painel-visao-geral-celular.png){: style="max-width:375px" }
+![Tela "Meu trabalho" (hoje "Para mim"; imagem de uma versão anterior) no celular, em uma coluna só, com a lista de tarefas primeiro e os cartões de contexto logo abaixo](/assets/capturas/painel-visao-geral-celular.png){: style="max-width:375px" }
 
 ## Por que isto importa
 
 Antes de qualquer entrega, você precisa saber o que está travado com você e o que está travado
-com outra pessoa — sem abrir espaço por espaço. "Meu trabalho" resolve isso: uma lista de tarefas
+com outra pessoa — sem abrir espaço por espaço. Esta seção resolve isso: uma lista de tarefas
 que já mostra, tag por tag, quem precisa agir; e, ao lado, o que aconteceu nos seus espaços, o que
 vem na agenda e onde alguém te chamou numa conversa. Sem essa tela, a única forma de descobrir o
 que está pendente é abrir cada espaço de cada organização, um a um.
@@ -140,7 +154,7 @@ deixa de aparecer; só a ordem muda, para que o que exige decisão sua fique sem
 
 ## Exemplo
 
-Maria Oliveira abre "Meu trabalho" pela manhã. Na lista de tarefas, a primeira linha é **"'Arte do
+Maria Oliveira abre "Para mim" pela manhã. Na lista de tarefas, a primeira linha é **"'Arte do
 cartaz para redes' está com você, prazo em 24/09/2026"**, com a etiqueta **"Aguardando você"** —
 está no topo porque o prazo é o mais próximo. Mais abaixo, ela vê **"'Prestação de contas de
 agosto' está aguardando aprovação"**, também com **"Aguardando você"**, e **"'Convite para Carlos
@@ -189,6 +203,11 @@ Se a tela não conseguir atualizar, aparece: **"Não foi possível atualizar ago
 últimos dados carregados."** — e ela continua exibindo a última lista que conseguiu carregar, em
 vez de ficar vazia.
 
+Se o Realiza inteiro não responder, a seção não se esconde nem vira "tudo em dia": a tela diz
+**"Não foi possível carregar Realiza agora. Isso não quer dizer que não haja nada pendente."** e
+oferece **"Tentar de novo"**. Vale o que está em [Para mim](/para-mim/#quando-um-produto-não-responde):
+essa frase quer dizer "não sei", não "não há nada".
+
 ## O que quem é convidado de fora vê
 
 Beatriz Lima, convidada de fora do Instituto Semente, só participa do espaço **"Campanha do
@@ -201,9 +220,9 @@ conversa interna da equipe não aparece para ela em lugar nenhum do painel. Vale
 **"Menções"**: só aparecem ali as vezes em que alguém a citou na conversa compartilhada — ninguém
 consegue mencioná-la na conversa interna, porque ela não alcança essa aba.
 
-![Painel de Beatriz Lima, convidada de fora, mostrando só a tarefa e os cartões de contexto do espaço "Campanha do Agasalho 2026"](/assets/capturas/painel-convidado-desktop.png)
+![Painel de Beatriz Lima (na tela com o nome antigo, "Meu trabalho"; imagem de uma versão anterior), convidada de fora, mostrando só a tarefa e os cartões de contexto do espaço "Campanha do Agasalho 2026"](/assets/capturas/painel-convidado-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Painel de Beatriz Lima no celular, restrito ao espaço "Campanha do Agasalho 2026"](/assets/capturas/painel-convidado-celular.png){: style="max-width:375px" }
+![Painel de Beatriz Lima no celular (na tela com o nome antigo, "Meu trabalho"; imagem de uma versão anterior), restrito ao espaço "Campanha do Agasalho 2026"](/assets/capturas/painel-convidado-celular.png){: style="max-width:375px" }

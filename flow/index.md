@@ -8,15 +8,19 @@ permalink: /flow/
 # RIT360 Flow
 
 O **RIT360 Flow** cuida do caminho da pessoa — e da instituição — até a organização: quem quer ser
-voluntário, quem quer integrar a rede, quem quer oferecer serviços. Hoje ele faz duas coisas:
+voluntário, quem quer integrar a rede, quem quer oferecer serviços. Hoje ele faz três coisas:
 
 - **Recebe as candidaturas** que chegam pelo site da organização e põe cada uma na frente de quem
   vai decidir, com o parecer automático junto e o registro de **quem decidiu, quando e por quê**.
 - **Guarda as frentes de trabalho do voluntariado**: para onde a organização encaminha quem chega,
   com o que se faz ali, quantas pessoas cabem e quem recebe.
+- **Emite os documentos da organização** — o termo de adesão do voluntário e os que a organização
+  cadastrar — a partir da ficha da pessoa ou da instituição, e guarda também os que foram assinados
+  fora do sistema.
 
-Termo de adesão, credencial e capacitação **ainda não existem** no Flow. Quando chegarem, ganham
-aba e página aqui — e nenhuma aba aparece antes de ter o que mostrar.
+Credencial e capacitação **ainda não existem** no Flow, e colher a assinatura por um link também não
+(veja [Emitir, ver e anexar documentos](/flow/emitir-documentos/#o-que-ainda-não-existe)). Quando
+chegarem, ganham página aqui — e nenhuma aba aparece antes de ter o que mostrar.
 
 ## Por que isto importa
 
@@ -40,10 +44,16 @@ Flow fica aceso na lateral**:
 |---|---|
 | **"Visão geral"** | O retrato do que espera por você: quantas candidaturas aguardam decisão e há quanto tempo espera a mais antiga, e como estão as frentes de trabalho. |
 | **"Candidaturas"** | A fila de candidaturas e a decisão de cada uma. Veja [Candidaturas: receber e decidir](/flow/candidaturas/). |
-| **"Configurações"** | Quem é avisado quando chega candidatura e as frentes do voluntariado. Veja [Lembretes de candidatura](/flow/lembretes/) e [Frentes de trabalho do voluntariado](/flow/frentes/). |
+| **"Configurações"** | Duas seções. **"Voluntariado"**: quem é avisado quando chega candidatura e as frentes do voluntariado — veja [Lembretes de candidatura](/flow/lembretes/) e [Frentes de trabalho do voluntariado](/flow/frentes/). **"Documentos"**: os modelos de documento da organização e quem assina por ela — veja [Modelos de documento](/flow/documentos/). |
 
 São só essas três abas porque aba sem conteúdo ensina a não voltar: cada nova aba só aparece
-quando tem o que mostrar.
+quando tem o que mostrar. **Os documentos não têm aba própria no Flow**: os modelos ficam em
+**"Configurações"**, e emitir ou ver um documento é na aba **"Documentos"** da ficha da pessoa ou da
+instituição — veja [Emitir, ver e anexar documentos](/flow/emitir-documentos/).
+
+A seção **"Documentos"**, em "Configurações", só aparece para quem tem permissão sobre documentos
+— hoje, quem administra a organização. Para quem não tem, "Configurações" mostra só o que sempre
+mostrou, sem a faixa de seções.
 
 <!-- CAPTURA: rota=/flow | viewport=1920x1080 | o-que-mostrar=Visão geral do Flow com o cartão Candidaturas (algumas aguardando, a mais antiga com há quantos dias) e o cartão Frentes de trabalho | arquivo=flow-visao-geral-desktop.png -->
 <!-- CAPTURA: rota=/flow | viewport=375x812 | o-que-mostrar=a mesma Visão geral no celular, com a barra de abas embaixo | arquivo=flow-visao-geral-celular.png -->
@@ -87,6 +97,11 @@ tem para quem avisar…"), mas só quem abrir o Flow a vê. O passo está em
 Depois, defina as frentes de trabalho ([Frentes de trabalho do voluntariado](/flow/frentes/)): as
 treze que vêm de partida nascem incompletas, e quem se candidata a voluntário precisa saber se há
 lugar e o que vai fazer.
+
+Antes de emitir o primeiro **termo de adesão**, preencha os dados da organização que o termo
+usa — CNPJ, endereço, razão social, e-mail de contato e quem assina por ela. A emissão recusa
+enquanto faltar algum, listando o que falta; o passo a passo está em
+[Emitir, ver e anexar documentos](/flow/emitir-documentos/#antes-de-emitir-o-primeiro-termo-de-adesão).
 
 ## Exemplo
 

@@ -182,8 +182,10 @@ pessoa poderia usar essa tela para descobrir quem tem conta na RIT360 Plataforma
 
 ## A primeira tela depois de entrar
 
-Depois de entrar, você chega à aba **"Meu trabalho"** — o que depende de você e o que está por
-vir, em todas as organizações de que você participa, não só na ativa.
+Depois de entrar, você chega à tela **"Para mim"** — o que depende de você e o que está por vir,
+em todas as organizações de que você participa, não só na ativa, e em todos os produtos que você
+usa. Era a tela "Meu trabalho"; o nome mudou, e o endereço antigo continua valendo. Veja
+[Para mim](/para-mim/).
 
 {: .note }
 Se você acabou de aceitar um convite pelo Google e ainda está sendo confirmado, pode ver por um

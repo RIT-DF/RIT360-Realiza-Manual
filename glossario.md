@@ -28,6 +28,13 @@ Tirar um espaço, cliente ou organização da rotina sem apagar nada. Tarefas, c
 aprovações continuam lá para consulta, e dá para reabrir depois. **Arquivar não é excluir** — veja
 **Excluir**, abaixo. Ver [Arquivar e reabrir](/trabalho/arquivar-e-reabrir/).
 
+## Assinante externo
+
+Quem assina um documento sem estar no cadastro de Pessoas: a testemunha eventual, quem assina uma vez
+e não volta. É digitado na hora de emitir (nome, CPF, e-mail) e seus dados ficam **só naquele
+documento** — ele **não entra** na lista de Pessoas, porque entrar seria virar pessoa da organização.
+Ver [Emitir, ver e anexar documentos](/flow/emitir-documentos/).
+
 ## Assistente
 
 O recurso que responde perguntas sobre o que precisa da sua atenção e pode criar tarefas para
@@ -113,6 +120,14 @@ A relação entre duas tarefas em que uma precisa terminar antes da outra. O
 RIT360 Realiza sinaliza o bloqueio, mas **não desloca prazo nenhum automaticamente**.
 Ver [Subtarefas e dependências](/trabalho/subtarefas-e-dependencias/).
 
+## Documento (emitido e anexado)
+
+Um **documento emitido** é o que a organização gera no Flow a partir de um modelo: guarda o próprio
+texto, congelado, tem validade (**vigente** ou **vencido**) e **nunca se apaga**. Um **documento
+anexado** é um arquivo que foi assinado fora do sistema e ficou guardado na ficha; ele tem marca
+própria porque **ninguém aceitou nada aqui** — não há registro de quem, quando e de onde. Ver
+[Emitir, ver e anexar documentos](/flow/emitir-documentos/).
+
 ## Domínio autorizado
 
 Um domínio de e-mail que quem administra o serviço libera para dispensar convite: qualquer pessoa
@@ -169,9 +184,10 @@ independentemente de a pessoa ter conta. Remover a ficha não remove a conta. Ve
 
 O produto da RIT360 Plataforma que cuida do ciclo da pessoa com a organização — candidatura, termo
 de adesão, credencial. "Flow" é o nome curto, o da barra lateral; neste manual e nas mensagens que
-a plataforma envia, o nome é **RIT360 Flow**. Hoje recebe as **candidaturas** e guarda as **frentes
-de trabalho** do voluntariado; termo de adesão e credencial ainda não existem. Ver
-[RIT360 Flow](/flow/) e [Os produtos na barra lateral](/produtos/).
+a plataforma envia, o nome é **RIT360 Flow**. Hoje recebe as **candidaturas**, guarda as **frentes
+de trabalho** do voluntariado e emite os **documentos** da organização, como o termo de adesão;
+credencial e capacitação ainda não existem. Ver [RIT360 Flow](/flow/) e
+[Os produtos na barra lateral](/produtos/).
 
 ## Frente de trabalho
 
@@ -221,6 +237,13 @@ Um conjunto de tarefas diferentes que sempre acontecem juntas quando um ciclo de
 repete a mesma tarefa sozinha), o modelo de ciclo é instanciado de novo a cada ciclo. Ver
 [Tarefas recorrentes e modelos de ciclo](/trabalho/recorrencias/).
 
+## Modelo de documento
+
+O molde de um documento que a organização emite: título, sobre quem é (uma pessoa ou uma
+instituição), os **papéis** de quem assina, o texto com os campos que o sistema preenche e a
+validade. Editar o modelo vale para os próximos documentos e não mexe nos já emitidos. Ver
+[Modelos de documento](/flow/documentos/).
+
 ## Módulo
 
 A palavra tem dois usos, em lugares diferentes da tela:
@@ -261,7 +284,15 @@ outras.
 
 O que uma pessoa pode fazer. Existem dois, independentes: o **papel na
 organização** (Administrador, Membro, Convidado) e o **papel no espaço**
-(Gestor, Executor, Aprovador, Observador).
+(Gestor, Executor, Aprovador, Observador). Não confunda com o **papel de um documento**
+(Responsável legal, Testemunha…), que é só *quem assina* aquele modelo e nada tem a ver com o que
+a pessoa pode fazer no sistema. Ver [Modelos de documento](/flow/documentos/).
+
+## Para mim
+
+A primeira tela do dia (antes chamada "Meu trabalho"): reúne o que espera por **você** em todos os
+produtos — tarefas no Realiza, candidaturas esperando a sua decisão no Flow. É da pessoa, não de um
+produto. Ver [Para mim](/para-mim/).
 
 ## Parecer automático
 

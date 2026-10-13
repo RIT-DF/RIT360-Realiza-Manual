@@ -17,6 +17,59 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 13 de outubro de 2026 — versão 0.55.0
+
+A primeira tela do dia passa a ser da pessoa, e não de um produto; e a organização passa a cadastrar
+os seus próprios documentos.
+
+{: .note }
+Algumas imagens deste manual ainda mostram a tela com o nome antigo, "Meu trabalho". Onde a imagem e o
+texto divergirem, vale o texto; as imagens serão refeitas depois que a navegação parar de mudar.
+
+### Adicionado
+
+- **"Meu trabalho" virou "Para mim".** A tela deixou de ser do Realiza: agora reúne o que espera por
+  você **em todos os produtos** — a tarefa no Realiza, a candidatura esperando a sua decisão no Flow.
+  O nome mudou porque "trabalho" prometia menos do que a tela entrega: um documento esperando uma
+  decisão sua não é uma tarefa. O endereço antigo continua valendo. Quem usa **um produto só** vê
+  exatamente o que via, sem título de seção; produto desligado na organização não aparece. Veja
+  [Para mim](/para-mim/) e [a parte do Realiza](/trabalho/meu-trabalho/).
+- **A organização cadastra os seus documentos.** Em **Flow › Configurações › Documentos**, ela cria
+  modelos com título, sobre quem é (uma pessoa ou uma instituição), os papéis de quem assina e o texto
+  com os campos que o sistema preenche. O **termo de adesão vem pronto**, como mais um modelo, com o
+  distintivo **"Termo de adesão"**. **Não há importação de arquivo**, de propósito; há **"Baixar modelo
+  de exemplo"**. Veja [Modelos de documento](/flow/documentos/).
+- **Quem assina tem nome.** O modelo declara papéis como "autorizante", "responsável legal" e
+  "testemunha", e na emissão a tela pergunta, em português, **"Quem é: responsável legal?"**. O
+  sistema **recusa emitir com papel vazio**, dizendo qual falta. Quem assina por um papel pode ser
+  alguém do cadastro ou um **assinante externo digitado na hora** — que **não entra na lista de
+  Pessoas**. A organização tem um **representante padrão**, e dá para escolher **"Assina outra pessoa
+  da organização"** em cada documento.
+- **A ficha da pessoa e a da instituição ganham a aba "Documentos"**, para quem usa o Flow: ali se
+  **emite** um documento a partir de um modelo (com **"Conferir"** e a prévia antes), se vê o que já
+  saiu e se **anexa** um documento assinado fora do sistema. Todo documento tem validade e aparece como
+  **"Vigente"** ou **"Vencido"**. Veja [Emitir, ver e anexar documentos](/flow/emitir-documentos/).
+
+### Para ter cuidado
+
+- **Quando um produto não responde, "Para mim" diz que não sabe, não que não há nada:** *"Não foi
+  possível carregar Flow agora. Isso não quer dizer que não haja nada pendente."*, com **"Tentar de
+  novo"**. As outras seções continuam na tela.
+- **Antes de emitir o primeiro termo de adesão**, a organização precisa ter razão social, e-mail de
+  contato, CNPJ, endereço e representante, e a pessoa precisa ter frentes vindas de uma candidatura
+  aprovada. Se faltar algo, a emissão **recusa e lista o que falta**. Veja
+  [o passo preparatório](/flow/emitir-documentos/#antes-de-emitir-o-primeiro-termo-de-adesão).
+- **Editar um modelo não muda os documentos já emitidos**: cada um guarda o próprio texto. **Modelo
+  pode ser apagado; documento emitido, nunca.**
+- **"Anexado" não é "emitido".** O documento assinado fora do sistema aparece com a marca **"Anexado —
+  assinado fora do sistema"** e **"Sem trilha de assinatura neste sistema"**: ninguém aceitou nada
+  aqui, e o sistema não tem registro de quem, quando e de onde.
+- **Emitir não envia nada a ninguém, e ainda não muda a situação da pessoa.** Colher a assinatura por
+  link, o selo e o carimbo do tempo ainda não existem — veja
+  [O que ainda vem por aí](/em-breve/).
+
+---
+
 ## 13 de outubro de 2026 — versão 0.54.0
 
 O Flow deixa de ser uma tela de boas-vindas e vira um módulo com conteúdo, e nasce um cadastro novo

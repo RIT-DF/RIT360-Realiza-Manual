@@ -106,9 +106,12 @@ para baixo:
 1. **"Relação com a organização"**, **"Situação"** e **"Representante e colaboradores"** — o que a
    instituição é para vocês. Veja
    [Relação, situação e representante](/instituicoes/relacao-situacao-e-pessoas/).
-2. **"Dados"** — o formulário descrito acima. Ao salvar, a tela confirma com **"Instituição
+2. **"Documentos"** — os documentos emitidos ou anexados sobre a instituição, e os botões para
+   emitir um novo. Só aparece com o Flow ligado para a organização e para quem tem permissão sobre
+   documentos. Veja [Emitir, ver e anexar documentos](/flow/emitir-documentos/).
+3. **"Dados"** — o formulário descrito acima. Ao salvar, a tela confirma com **"Instituição
    salva."** e você continua na ficha.
-3. **"Arquivar"** — veja abaixo.
+4. **"Arquivar"** — veja abaixo.
 
 Cada ficha tem **endereço próprio**; o que vai no endereço é só um código, nunca o CNPJ nem o nome.
 Quem abre o link precisa estar logada, na mesma organização, e poder ver instituições. Se a ficha

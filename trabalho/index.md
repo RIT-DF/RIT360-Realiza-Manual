@@ -43,7 +43,7 @@ nunca vai mostrar essas palavras para você.
 
 13. [Conversar dentro da tarefa](/trabalho/conversas/)
 14. [Reprogramar o prazo de uma tarefa](/trabalho/reprogramar-prazo/)
-15. [Meu trabalho](/trabalho/meu-trabalho/)
+15. [Para mim: a parte do Realiza](/trabalho/meu-trabalho/) (a tela inteira está em [Para mim](/para-mim/))
 16. [Arquivar e reabrir um espaço](/trabalho/arquivar-e-reabrir/)
 
 ## Pedir, repetir, medir e guardar

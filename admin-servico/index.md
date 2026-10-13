@@ -32,7 +32,7 @@ e no celular, e quem não administra o serviço nunca o vê. A administração *
 lateral: a lateral é o lugar de trabalhar, e cuidar da instalação não é trabalho de uma
 organização.
 
-**Estando dentro:** a barra principal muda. No lugar de Meu trabalho, Espaços, Conhecimento e
+**Estando dentro:** a barra principal muda. No lugar de Para mim, Espaços, Conhecimento e
 Clientes, ela passa a mostrar **"Visão geral"**, **"Organizações"**, **"Acesso"**, **"Serviços"**,
 **"Manutenção"** e **"Feedbacks"** — em cima, no computador; embaixo, no celular. Enquanto você
 está ali, nenhum produto fica aceso na lateral. Cada item abre uma tela de entrada, e dali saem as
@@ -45,7 +45,7 @@ abra o menu pelo botão **"Abrir navegação"** e escolha o produto.
 A barra acompanha você: mesmo três telas adiante, ela continua no alto (embaixo, no celular), e
 trocar de assunto é um clique — não é preciso voltar à primeira tela. O escudo só leva **para** a
 administração; o caminho de volta é **Realiza** (ou **Flow**) na lateral, ou a logo do cabeçalho,
-que leva a "Meu trabalho".
+que leva a "Para mim".
 
 {: .note }
 Nenhum endereço mudou. Link guardado nos favoritos para qualquer tela desta área continua

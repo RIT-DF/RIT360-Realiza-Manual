@@ -66,7 +66,7 @@ espaço, como você.
 ## Por onde começar
 
 1. [Primeiros passos](/primeiros-passos/) — aceitar o convite e definir a senha
-2. [Meu trabalho](/trabalho/meu-trabalho/) — o que está esperando por você
+2. [Para mim](/para-mim/) — o que está esperando por você
 3. [Conversar dentro da tarefa](/trabalho/conversas/)
 
 {: .note }
