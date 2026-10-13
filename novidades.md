@@ -17,6 +17,68 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 13 de outubro de 2026 — versão 0.56.0
+
+O documento deixa de ser só emitido e guardado: agora ele é **assinado por link**, o termo de adesão
+ganha **ciclo de vida**, e a mudança de servidor passa a levar tudo o que levava pela metade.
+
+### Adicionado
+
+- **Enviar um documento para assinatura.** Depois de emitir, o botão **"Assinatura"**, na linha do
+  documento, leva a **"Enviar para assinatura"**: cada parte recebe, por e-mail, o **próprio** link, que
+  dá acesso só ao documento dela — inclusive quem não tem conta. **Abrir o link não é aceitar**: a pessoa
+  digita o nome completo e marca a caixa. Quando todas aceitam, o documento é **selado** e cada parte
+  recebe a cópia. A tela mostra, por parte, **"link ainda não enviado"**, **"link enviado, aguardando o
+  aceite"**, **"aceitou em …"** e **"Cópia entregue em …"**. Veja
+  [Colher a assinatura de um documento](/flow/assinatura-de-documentos/).
+- **Conferir um documento selado.** Qualquer pessoa, **sem entrar no sistema**, confere um documento pelo
+  **código de conferência**, na página **"Conferir um documento"**, e vê se o PDF que tem é idêntico ao
+  selado.
+- **Como a vigência é contada agora vem do texto.** O modelo declara **"Até 31 de dezembro do ano da
+  emissão"**, **"Um período fixo, em dias, a partir da emissão"** ou **"O texto não diz o prazo (vale um
+  ano)"**, e pode renovar o acordo sozinho. Quando o texto do documento diz um prazo, é ele que manda. A
+  lista ganha **"Encerrado"**, **"Ainda não vale — faltam aceites"**, **"Termina em …"**, **"· renovado N
+  vez(es)"** e **"· renova sozinho"**.
+- **Encerrar e reabrir documentos.** **"Encerrar"** aceita **"Encerrar numa data."** (inclusive anterior ao
+  fim previsto) ou **"Não renovar."**, com **motivo obrigatório**; **"Reabrir (foi engano)"** desfaz. Em
+  **"Ver documento"**, a seção **"Encerramentos e reaberturas"** guarda tudo. Veja
+  [Quanto tempo vale, encerrar e reabrir](/flow/vigencia-do-termo/).
+- **O fim do termo de adesão muda a situação da pessoa.** A organização indica, em **Pessoas ›
+  Classificações e situações**, a situação em que a pessoa fica quando o termo acaba (**"fim de termo"**).
+  A mudança entra no histórico como **"Automático (Flow: termo de adesão)"**. Documento de outro tipo
+  que vence **não desliga ninguém**.
+- **A forma de assinatura é escolhida em Flow › Configurações › Documentos:** **"Hash eletrônico da
+  plataforma"** (funciona) ou **"Certificado A1 da ICP-Brasil"** (ainda indisponível).
+
+### Corrigido
+
+- **Mudar de servidor e exportar passaram a levar tudo.** Antes, ficavam de fora o cadastro de pessoas
+  (com CPF), as instituições, os clientes e o **texto** das páginas de conhecimento — e uma **versão
+  aprovada** podia chegar ao servidor novo **parecendo pendente**. Agora viajam. A tela de importação
+  ganhou **"O que este pacote não leva"** (com o motivo de cada item), **"Arquivos que já faltavam na
+  origem"** e o aviso **"O ensaio encontrou falhas. Confirmar grava o mesmo resultado, e a importação não
+  se refaz."** A **exportação da organização** também passou a trazer as pessoas, as instituições e o
+  texto das páginas. Veja [Mudar de servidor](/admin-servico/mudar-de-servidor/) e
+  [Exportar dados](/configuracoes/exportar-dados/).
+
+### Para ter cuidado
+
+- **O selo da plataforma não é assinatura com certificado digital.** Ele registra o aceite eletrônico, com
+  data, hora, código de conferência e resumo do conteúdo, e **diz isso no próprio texto**: a plataforma
+  **não verificou a identidade** de ninguém junto a autoridade nenhuma. Um documento **anexado**, assinado
+  fora do sistema, não tem nem essa trilha.
+- **Escolher o certificado digital faz o envio ser recusado, com explicação — de propósito.** O documento
+  nunca sai selado por outra forma sem a organização pedir.
+- **Falha nunca aparece como entrega.** Se a cópia não chegou a uma parte, a tela diz **"A cópia do
+  documento ainda não foi entregue: …"** e a plataforma tenta de novo.
+- **Pacote de mudança de servidor gerado antes desta versão não serve mais** e precisa ser gerado de novo.
+  O mesmo vale para uma exportação da organização guardada de antes: ela pode estar sem as pessoas, as
+  instituições e o texto das páginas.
+- **Enquanto nenhuma situação for marcada como fim de termo, encerrar um termo não muda a situação de
+  ninguém** — a mudança fica pendente e a tela diz que a situação ainda **não** foi mudada.
+
+---
+
 ## 13 de outubro de 2026 — versão 0.55.0
 
 A primeira tela do dia passa a ser da pessoa, e não de um produto; e a organização passa a cadastrar

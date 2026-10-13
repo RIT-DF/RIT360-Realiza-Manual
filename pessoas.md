@@ -182,8 +182,8 @@ alto; embaixo, no celular):
 - **"Classificação e situação"** — o que a pessoa é para a organização (voluntária, associada…) e em
   que pé ela está (em atuação, afastada, desligada), com o histórico. Veja
   [Classificação e situação](/pessoas/classificacao-e-situacao/).
-- **"Documentos"** — o que a organização emitiu ou guardou sobre a pessoa, como o termo de adesão, e o
-  botão para emitir um novo. Esta aba é do Flow: só aparece com o Flow ligado para a organização e para
+- **"Documentos"** — o que a organização emitiu ou guardou sobre a pessoa, como o termo de adesão, e os
+  botões para emitir um novo, enviá-lo para assinatura e encerrá-lo. Esta aba é do Flow: só aparece com o Flow ligado para a organização e para
   quem tem permissão sobre documentos. Veja [Emitir, ver e anexar documentos](/flow/emitir-documentos/).
 
 Cada aba salva por conta própria: o **"Salvar"** de "Dados e contato" não leva junto o que se fez

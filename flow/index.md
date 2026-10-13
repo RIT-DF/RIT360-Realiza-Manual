@@ -15,12 +15,13 @@ voluntário, quem quer integrar a rede, quem quer oferecer serviços. Hoje ele f
 - **Guarda as frentes de trabalho do voluntariado**: para onde a organização encaminha quem chega,
   com o que se faz ali, quantas pessoas cabem e quem recebe.
 - **Emite os documentos da organização** — o termo de adesão do voluntário e os que a organização
-  cadastrar — a partir da ficha da pessoa ou da instituição, e guarda também os que foram assinados
-  fora do sistema.
+  cadastrar — a partir da ficha da pessoa ou da instituição, **colhe o aceite de cada parte por um
+  link** (e sela o documento), controla **quanto tempo cada documento vale** e guarda também os que
+  foram assinados fora do sistema.
 
-Credencial e capacitação **ainda não existem** no Flow, e colher a assinatura por um link também não
-(veja [Emitir, ver e anexar documentos](/flow/emitir-documentos/#o-que-ainda-não-existe)). Quando
-chegarem, ganham página aqui — e nenhuma aba aparece antes de ter o que mostrar.
+Credencial e capacitação **ainda não existem** no Flow, e a assinatura com **certificado digital** também
+não (veja [Colher a assinatura de um documento](/flow/assinatura-de-documentos/)). Quando chegarem,
+ganham página aqui — e nenhuma aba aparece antes de ter o que mostrar.
 
 ## Por que isto importa
 
@@ -102,6 +103,10 @@ Antes de emitir o primeiro **termo de adesão**, preencha os dados da organizaç
 usa — CNPJ, endereço, razão social, e-mail de contato e quem assina por ela. A emissão recusa
 enquanto faltar algum, listando o que falta; o passo a passo está em
 [Emitir, ver e anexar documentos](/flow/emitir-documentos/#antes-de-emitir-o-primeiro-termo-de-adesão).
+
+E marque, em **Pessoas › Classificações e situações**, a situação em que a pessoa fica quando o termo
+acaba: sem ela, encerrar ou deixar vencer um termo **não muda a situação de ninguém** (veja
+[Quanto tempo vale, encerrar e reabrir](/flow/vigencia-do-termo/)).
 
 ## Exemplo
 

@@ -55,6 +55,19 @@ com o "importar" de **Mudar de servidor**, que é outra coisa: devolve a **insta
 as organizações — num servidor novo, e é feito por quem administra o serviço, nunca por uma
 organização.
 
+## O que a exportação da organização leva
+
+A exportação da organização traz, além do trabalho, do conhecimento e dos avisos, **o cadastro de
+pessoas** (com contatos, classificações e o histórico de situação), **as instituições** e o **texto das
+páginas de conhecimento** — não só a estrutura delas. Segue valendo a regra de alcance: quem tem
+permissão para ver o cadastro de pessoas leva todas as fichas, **com o CPF, como na tela**; sem ela,
+cada pessoa leva só a própria ficha. As instituições seguem a permissão de ver instituições.
+
+{: .important }
+**Uma exportação pedida antes da versão 0.56.0 pode estar incompleta.** Se você guardou um pacote da
+organização para uma prestação de contas ou uma auditoria, confira se ele tem as pessoas, as
+instituições e o texto das páginas — e, faltando, **peça de novo**. A exportação de hoje traz tudo.
+
 ## Pedir uma exportação
 
 - **"Exportar meus dados"** — qualquer pessoa pode pedir a própria, a qualquer momento, sem

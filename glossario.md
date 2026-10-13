@@ -35,6 +35,12 @@ e não volta. É digitado na hora de emitir (nome, CPF, e-mail) e seus dados fic
 documento** — ele **não entra** na lista de Pessoas, porque entrar seria virar pessoa da organização.
 Ver [Emitir, ver e anexar documentos](/flow/emitir-documentos/).
 
+## Aceite
+
+O ato de uma parte concordar com um documento enviado para assinatura: **digitar o nome completo, marcar
+que leu e concorda e clicar em "Aceitar o documento"**. Abrir o link não é aceitar. O aceite registra o
+nome, o dia, a hora e o endereço de rede. Ver [Colher a assinatura de um documento](/flow/assinatura-de-documentos/).
+
 ## Assistente
 
 O recurso que responde perguntas sobre o que precisa da sua atenção e pode criar tarefas para
@@ -120,13 +126,25 @@ A relação entre duas tarefas em que uma precisa terminar antes da outra. O
 RIT360 Realiza sinaliza o bloqueio, mas **não desloca prazo nenhum automaticamente**.
 Ver [Subtarefas e dependências](/trabalho/subtarefas-e-dependencias/).
 
+## Código de conferência
+
+O código que um documento selado recebe (`XXXX-XXXX-XXXX-XXXX`). Com ele, qualquer pessoa confere o
+documento na página **"Conferir um documento"**, sem entrar no sistema. Ver
+[Conferir um documento selado](/flow/assinatura-de-documentos/#conferir-um-documento-selado).
+
 ## Documento (emitido e anexado)
 
 Um **documento emitido** é o que a organização gera no Flow a partir de um modelo: guarda o próprio
-texto, congelado, tem validade (**vigente** ou **vencido**) e **nunca se apaga**. Um **documento
+texto, congelado, tem validade (**vigente**, **vencido** ou **encerrado**), pode ser enviado para assinatura por link e **nunca se apaga**. Um **documento
 anexado** é um arquivo que foi assinado fora do sistema e ficou guardado na ficha; ele tem marca
 própria porque **ninguém aceitou nada aqui** — não há registro de quem, quando e de onde. Ver
 [Emitir, ver e anexar documentos](/flow/emitir-documentos/).
+
+## Encerrar (um documento)
+
+Dizer que um documento deixa de valer — numa data, ou ao fim do período em curso (**"Não renovar."**) —
+com motivo obrigatório, sem apagar nada. Dá para **reabrir** se foi engano. No termo de adesão, encerrar
+pode mudar a situação da pessoa. Ver [Quanto tempo vale, encerrar e reabrir](/flow/vigencia-do-termo/).
 
 ## Domínio autorizado
 
@@ -363,6 +381,14 @@ depois de alguém revisar — publicar **congela** o conteúdo. Ver
 Uma proposta de novas datas para uma tarefa, que fica pendente até alguém
 aprovar ou recusar. Ver [Reprogramar o prazo de uma tarefa](/trabalho/reprogramar-prazo/).
 
+## Selo (da plataforma)
+
+O que um documento recebe quando todas as partes aceitam por link: um texto que diz o que foi feito (o
+aceite eletrônico, com data, hora, **código de conferência** e um resumo do conteúdo) e que declara, com
+todas as letras, que **não é assinatura com certificado digital** e que a plataforma **não verificou a
+identidade** de ninguém junto a uma autoridade. Ver
+[O que o selo diz e o que ele não diz](/flow/assinatura-de-documentos/#o-que-o-selo-diz-e-o-que-ele-não-diz).
+
 ## Situação
 
 Em que pé uma **pessoa** (ou uma **instituição**) está agora — em atuação, afastada, desligada; ativa,
@@ -400,6 +426,12 @@ A cópia congelada e numerada do material, guardada no momento em que ele foi
 enviado para aprovação. É o que permite responder, meses depois, "foi isto que
 você aprovou" — mesmo que o arquivo original tenha mudado. Como a palavra
 "entrega", ela **só aparece a partir do envio para aprovação**.
+
+## Vigência
+
+O período em que um documento vale. Quem a conta é o **texto do modelo**: até 31 de dezembro do ano da
+emissão, um período fixo em dias, ou — quando o texto não diz — um ano. A tela mostra **"Vigente"**,
+**"Vencido"** ou **"Encerrado"**. Ver [Quanto tempo vale, encerrar e reabrir](/flow/vigencia-do-termo/).
 
 ## Webhook
 

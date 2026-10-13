@@ -56,8 +56,13 @@ não foi emitido nada, a linha diz **"nenhum documento emitido"**.
 3. Em **"Sobre quem é"**, escolha **"Uma pessoa"** ou **"Uma instituição"**. A escolha decide **quais
    campos** o texto pode usar e **em qual ficha** o documento é emitido: o das pessoas, na ficha da
    pessoa; o das instituições, na ficha da instituição.
-4. Em **"Validade, em dias"**, diga por quantos dias o documento vale (de 1 a 3660; o padrão é 365).
-   Todo documento tem validade. Na emissão dá para escolher outra data.
+4. Em **"Como o texto conta a vigência"**, escolha o que o **texto do documento diz** sobre o prazo:
+   **"Até 31 de dezembro do ano da emissão"**, **"Um período fixo, em dias, a partir da emissão"** ou
+   **"O texto não diz o prazo (vale um ano)"**. Escolhendo o período fixo, aparece **"Validade, em
+   dias"** (de 1 a 3660). Se o acordo se renova sozinho, marque **"O texto renova o acordo sozinho, por
+   períodos iguais, salvo manifestação em contrário"**. Todo documento tem validade; na emissão dá para
+   escolher outra data. A explicação completa, e o que acontece quando o termo acaba, está em
+   [Quanto tempo vale, encerrar e reabrir](/flow/vigencia-do-termo/).
 5. Declare **quem assina** (próxima seção).
 6. Escreva o **texto** (mais adiante).
 7. Clique em **"Salvar modelo"**.
@@ -147,6 +152,22 @@ A **razão social** e o **e-mail de contato** da organização **não** são pre
 ficha da organização (veja [Dados e identidade da organização](/configuracoes/organizacao/): **"Razão social"** e **"E-mail de contato"**), e o bloco mostra
 os que estão lá — ou diz que não estão preenchidos.
 
+Logo abaixo, a parte **"Com que assinar os documentos"** diz com que o documento é **selado** depois
+que todas as partes aceitam por link. Há duas formas:
+
+- **"Hash eletrônico da plataforma"** — o selo da plataforma, que **funciona hoje**. O aceite de cada
+  parte fica registrado (quem, quando e de qual endereço de rede) e o documento recebe um código de
+  conferência. A própria tela avisa: *não é assinatura com certificado digital e não confirma a
+  identidade de ninguém junto a uma autoridade.*
+- **"Certificado A1 da ICP-Brasil"** — a assinatura com o certificado digital da organização, que
+  **ainda não está disponível** (a opção aparece com a explicação *"Indisponível: …"*).
+
+{: .warning }
+**Escolher o certificado digital, hoje, faz o envio para assinatura ser recusado com uma explicação —
+de propósito.** O documento **nunca é selado por outra forma sem a organização pedir**: a plataforma
+não troca, em silêncio, o certificado por um selo mais fraco. Veja
+[Colher a assinatura de um documento](/flow/assinatura-de-documentos/#escolher-com-que-assinar).
+
 Clique em **"Salvar"**; a tela confirma com **"Salvo."** Se a pessoa escolhida sair do cadastro, o
 bloco avisa **"A pessoa escolhida como representante não está mais no cadastro. Escolha outra."**
 
@@ -172,7 +193,8 @@ Maria Oliveira, do Instituto Semente, vai cadastrar a **autorização de uso de 
 voluntários.
 
 1. Em **Flow › Configurações › Documentos**, clica em **"Novo modelo"**.
-2. Título: **"Autorização de uso de imagem"**. Sobre quem é: **"Uma pessoa"**. Validade: **730** dias.
+2. Título: **"Autorização de uso de imagem"**. Sobre quem é: **"Uma pessoa"**. Como o texto conta a
+   vigência: **"Um período fixo, em dias, a partir da emissão"**, com **730** dias.
 3. Acrescenta dois papéis: **"Quem assina pela organização"** (marcando **"É quem assina pela
    organização"**) e **"Testemunha"**.
 4. Clica em **"Baixar modelo de exemplo"**, abre o arquivo, copia o texto, cola em **"Texto"** e
@@ -197,6 +219,8 @@ voluntários.
 - **Duplique o termo de adesão em vez de editá-lo, quando quiser testar.** Mexer no termo que veio
   pronto muda os próximos termos de verdade.
 - **Salvar o modelo não envia nada a ninguém.** Modelo é só o molde.
+- **Escreva no modelo o mesmo prazo que o texto diz.** Se o texto promete "até 31 de dezembro" e o
+  modelo diz "365 dias", vale o texto — mas a lista pode mostrar uma data que surpreende quem a lê.
 
 ## Quando dá errado
 

@@ -2,7 +2,7 @@
 title: "Perguntas frequentes"
 nav_order: 12
 permalink: /faq/
-palavras_chave: "dúvidas comuns, ajuda, domínio autorizado, exportar dados, chave de api, inteligência artificial, cobrança, engrenagem, administração sumiu, pessoas ou membros, link da ficha, entrega adiada, para mim, meu trabalho, não foi possível carregar, termo de adesão, emitir documento, modelo de documento, documento anexado, testemunha"
+palavras_chave: "dúvidas comuns, ajuda, domínio autorizado, exportar dados, chave de api, inteligência artificial, cobrança, engrenagem, administração sumiu, pessoas ou membros, link da ficha, entrega adiada, para mim, meu trabalho, não foi possível carregar, termo de adesão, emitir documento, modelo de documento, documento anexado, testemunha, enviar para assinatura, aceitar documento, selo, certificado digital, conferir documento, encerrar termo, mudar de servidor, pacote antigo"
 ---
 
 # Perguntas frequentes
@@ -347,11 +347,51 @@ voluntário nem instituição por conta própria — só uma pessoa o faz.
 
 ### Emiti o termo de adesão. A pessoa já recebeu para assinar?
 
-Não. **Emitir guarda o documento na ficha e não envia nada a ninguém** — a própria janela diz *"Nada
-é enviado a ninguém"*. Colher a assinatura por um link ainda não existe. Hoje, quem precisa de
-assinatura emite o documento aqui, colhe a assinatura por fora e
-[anexa](/flow/emitir-documentos/#anexar-um-documento-assinado-fora-do-sistema) o resultado. Veja
-também [O que ainda vem por aí](/em-breve/).
+Ainda não. **Emitir guarda o documento na ficha e não envia nada a ninguém** — a própria janela diz
+*"Nada foi enviado a ninguém"*. O passo seguinte é seu: na linha do documento, clique em
+**"Assinatura"** e depois em **"Enviar para assinatura"**. Cada parte recebe um e-mail com o próprio
+link. Veja [Colher a assinatura de um documento](/flow/assinatura-de-documentos/).
+
+### A pessoa abriu o link, mas o documento não aparece como assinado. Por quê?
+
+Porque **abrir o link não é aceitar**. Quem abre vê o documento; para aceitar, precisa **digitar o nome
+completo, marcar a caixa de que leu e concorda e clicar em "Aceitar o documento"**. É de propósito:
+programas de antivírus abrem os links de e-mail sozinhos, e, se abrir bastasse, um robô poderia dar o
+aceite. Veja [o que cada parte vê](/flow/assinatura-de-documentos/#o-que-cada-parte-vê-e-por-que-abrir-não-basta).
+
+### O documento está "Selado". Isso é o mesmo que assinado com certificado digital?
+
+Não. O selo da plataforma registra que as partes **aceitaram eletronicamente**, com data, hora e um código
+de conferência. Ele **não é assinatura com certificado digital** e a plataforma **não verificou a
+identidade de ninguém** junto a nenhuma autoridade — o texto do próprio selo diz isso. Se a lei ou o
+contrato exigem certificado digital, o selo não basta. Veja [O que o selo diz e o que ele não
+diz](/flow/assinatura-de-documentos/#o-que-o-selo-diz-e-o-que-ele-não-diz).
+
+### Como alguém de fora confere se um documento é verdadeiro?
+
+Pela página **"Conferir um documento"**, com o **código de conferência** do documento selado — sem
+precisar entrar no sistema nem ter conta. Ela mostra quem aceitou, quando, e permite enviar o PDF para
+ver se é idêntico ao documento selado. Veja [Conferir um documento
+selado](/flow/assinatura-de-documentos/#conferir-um-documento-selado).
+
+### A tela diz que a cópia do documento "ainda não foi entregue". Posso considerar que a pessoa recebeu?
+
+Não — e é por isso que a tela diz. O produto prefere avisar que não conseguiu entregar a deixar você
+achando que entregou. A plataforma tenta de novo sozinha. Veja [Falha nunca aparece como
+entrega](/flow/assinatura-de-documentos/#falha-nunca-aparece-como-entrega).
+
+### Encerrei o termo de adesão e a situação da pessoa não mudou. É defeito?
+
+Provavelmente não: a organização ainda não indicou **para qual situação** a pessoa vai quando o termo
+acaba. Em **Pessoas › Classificações e situações**, marque, em uma situação, **"É a situação em que a
+pessoa fica quando o termo de adesão dela acaba"**; a plataforma conclui a mudança em seguida. Outra
+razão possível: a pessoa tem **outro termo vigente**, e enquanto um valer ela não é desligada. Veja
+[O que o encerramento faz com a pessoa](/flow/vigencia-do-termo/#o-que-o-encerramento-faz-com-a-pessoa).
+
+### Um documento de autorização de imagem venceu. A pessoa foi desligada?
+
+Não. **Só o termo de adesão** mexe na situação da pessoa. Um documento de outro tipo que vence ou é
+encerrado só passa a aparecer como **"Vencido"** ou **"Encerrado"**.
 
 ### A janela de emissão diz "Antes de emitir, falta:" e não deixa emitir. Por quê?
 

@@ -99,7 +99,8 @@ quem vai lê-lo depois, e não só na pessoa que você acaba de afastar.
 Abaixo, o bloco **"Histórico de situação"** lista todas as mudanças. Cada uma mostra a passagem
 (**"Em atuação → Afastado"**; a primeira é **"Situação inicial: Em atuação"**), o **motivo**, e **a
 data e quem registrou**. Quando a mudança foi feita por uma regra do sistema, e não por uma pessoa, o
-nome que aparece é **"Automático (…)"**. Sem nenhuma, a tela diz **"Nenhuma mudança registrada."**
+nome que aparece é **"Automático (…)"** — por exemplo, **"Automático (Flow: termo de adesão)"**, quando a
+mudança veio do fim de um termo (veja [abaixo](#a-situação-de-fim-de-termo)). Sem nenhuma, a tela diz **"Nenhuma mudança registrada."**
 
 ## Ao cadastrar uma pessoa
 
@@ -146,6 +147,26 @@ não usa. Para cada item, a tela mostra quantas pessoas o têm hoje (**"Nenhuma 
    - **"Cursos recomendados (um por linha)"** — também guardado para quando a capacitação existir.
 5. Clique em **"Salvar"**.
 
+### A situação de fim de termo
+
+Nas **situações**, há um campo a mais: **"É a situação em que a pessoa fica quando o termo de adesão dela
+acaba"**. Marcado, o item ganha a etiqueta **"fim de termo"**.
+
+Quando o termo de adesão de uma pessoa é encerrado ou vence, e ela não tem outro termo em vigor, o Flow
+leva a pessoa para **essa** situação — com a mudança registrada no histórico como **"Automático (Flow:
+termo de adesão)"**. Só uma situação pode ser a de fim de termo: marcar uma tira a marca da outra.
+
+{: .warning }
+**Enquanto nenhuma situação estiver marcada, o fim de um termo não muda a situação de ninguém.** A
+mudança fica **pendente** — o termo é encerrado, a tela diz que a situação da pessoa **ainda não foi
+mudada**, e a plataforma conclui sozinha assim que você marcar uma situação. Marque uma antes de emitir o
+primeiro termo. Veja [Quanto tempo vale, encerrar e reabrir](/flow/vigencia-do-termo/).
+
+{: .tip }
+Escolha a situação que a sua organização quer dizer com "o termo acabou": para a maioria, **Desligado**;
+para quem prefere revisar caso a caso, **Afastado**. A escolha é só sua, e pode ser trocada depois — a
+troca vale para os próximos fins de termo.
+
 ### Arquivar: a lista deixa de oferecer, mas não tira de quem já tinha
 
 Item **arquiva, nunca se apaga.**
@@ -187,6 +208,8 @@ responde sem depender de memória.
   e dado de saúde ou de vida pessoal que a organização não precisa guardar — são dados sensíveis, e
   um registro que não se apaga os guardaria para sempre. Escreva o que a organização precisa saber:
   "Licença de três meses, a pedido".
+- **Marque a situação de fim de termo.** Sem ela, quem teve o termo encerrado continua "em atuação" na
+  ficha — e a lista de pessoas diz que está tudo bem.
 - **Não renomeie um item para significar outra coisa.** Renomear muda o nome em todas as fichas,
   inclusive no histórico antigo. Para uma coisa nova, crie um item novo.
 

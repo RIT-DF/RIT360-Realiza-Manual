@@ -10,8 +10,9 @@ palavras_chave: "emitir documento, termo de adesão, emitir termo, conferir docu
 
 Na ficha de uma pessoa ou de uma instituição há uma aba, **"Documentos"**, com tudo o que a
 organização já emitiu ou guardou sobre ela. É de lá que você **emite** um documento novo, a partir de
-um [modelo](/flow/documentos/), **vê** o que já saiu, e **anexa** um documento que foi assinado fora
-do sistema.
+um [modelo](/flow/documentos/), **vê** o que já saiu, **envia para assinatura** (veja
+[Colher a assinatura de um documento](/flow/assinatura-de-documentos/)) e **anexa** um documento que
+foi assinado fora do sistema.
 
 ## Por que isto importa
 
@@ -41,10 +42,15 @@ Cada documento aparece com seu **título** e as marcas que dizem o que ele é:
 - **"Emitido aqui"** — foi emitido por esta organização, neste sistema.
 - **"Anexado — assinado fora do sistema"** — veja [Anexar](#anexar-um-documento-assinado-fora-do-sistema).
 - **"Termo de adesão"** — veio do modelo marcado como termo de adesão.
-- **"Vigente"** ou **"Vencido"** — **todo documento tem validade**, e a lista diz em que pé está.
+- **"Vigente"**, **"Vencido"**, **"Encerrado"** ou **"Ainda não vale — faltam aceites"** — **todo
+  documento tem validade**, e a lista diz em que pé está. Veja
+  [Quanto tempo vale, encerrar e reabrir](/flow/vigencia-do-termo/).
+- **"Aguardando aceites"**, **"Selado"** e afins — o andamento da [assinatura por
+  link](/flow/assinatura-de-documentos/).
 
-Embaixo do título, a data: **"Emitido em 13/10/2026 · vale até 13/10/2027"** (ou **"venceu até…"** para
-o vencido). Sem nada emitido, a aba diz **"Nenhum documento ainda."**
+Embaixo do título, a data: **"Emitido em 13/10/2026 · vale até 13/10/2027"** (ou **"valeu até…"** para
+o vencido ou encerrado), com **"· renovado N vez(es)"** e **"· renova sozinho"** quando o modelo renova o
+acordo. Sem nada emitido, a aba diz **"Nenhum documento ainda."**
 
 {: .note }
 **Esta lista não tem seleção em lote, de propósito.** Documento emitido nunca se apaga nem se altera,
@@ -71,10 +77,12 @@ como um erro a descobrir na hora:
    [Candidaturas](/flow/candidaturas/).
 
 {: .important }
-**Emitir o termo de adesão ainda não muda a situação da pessoa.** O sistema já reconhece o termo — é o
-modelo com o distintivo —, mas a regra que o liga à situação (em atuação, afastada, desligada) não
-existe ainda. A situação continua mudando só por ato seu, em
-[Classificação e situação](/pessoas/classificacao-e-situacao/).
+**Emitir o termo de adesão não muda a situação da pessoa; encerrá-lo (ou deixá-lo vencer), sim.** O
+sistema reconhece o termo — é o modelo com o distintivo — e liga o fim dele à situação da pessoa, para a
+situação que a organização indicar. Veja
+[Quanto tempo vale, encerrar e reabrir](/flow/vigencia-do-termo/#o-que-o-encerramento-faz-com-a-pessoa)
+e, antes de emitir o primeiro termo, escolha essa situação em
+[Classificação e situação](/pessoas/classificacao-e-situacao/#as-listas-da-organização-o-botão-classificações-e-situações).
 
 ## Emitir um documento
 
@@ -86,12 +94,17 @@ existe ainda. A situação continua mudando só por ato seu, em
    pessoas."** (ou **"…para instituições."**) e manda para Flow › Configurações › Documentos.
 4. **Responda a cada papel do modelo.** Para cada um, a tela pergunta em português — **"Quem é:
    responsável legal?"**, **"Quem é: testemunha?"** — e você escolhe como preenchê-lo (veja abaixo).
-5. Em **"Vale até"**, deixe em branco para valer pelo prazo do modelo (a tela diz quantos dias) ou
-   escolha uma data.
+5. Em **"Vale até"**, deixe em branco para valer como o modelo diz (a tela explica a regra, por exemplo
+   *"até 31 de dezembro do ano da emissão"* ou *"365 dias a partir de hoje"*) ou escolha uma data.
 6. Clique em **"Conferir"**. Ou a tela mostra **"Tudo certo."** e a **prévia** do documento, com o
    texto já preenchido, ou lista o que falta (próxima seção).
 7. Com tudo certo, clique em **"Emitir documento"**. A tela confirma: **"Documento «…» emitido e
-   guardado. Nada foi enviado a ninguém."**
+   guardado. Nada foi enviado a ninguém — para colher os aceites por link, abra «Assinatura» no
+   documento."**
+
+Emitir **guarda** o documento; **colher a assinatura é o passo seguinte**, e é você quem o dá — o botão
+**"Assinatura"**, na linha do documento, leva à janela de envio. Veja
+[Colher a assinatura de um documento](/flow/assinatura-de-documentos/).
 
 O botão **"Emitir documento"** da janela só liga depois de uma conferência que deu certo — e a
 conferência se refaz a cada mudança que você faz.
@@ -153,7 +166,8 @@ falta:"** seguido da **lista inteira** do que falta, de uma vez — não uma coi
 
 Em **"Ver documento"**, a janela abre o documento **com o texto da hora da emissão**, as datas e
 quem assina (nome e papel de cada um). É o texto congelado: se o modelo mudou depois, você continua
-lendo o que foi emitido.
+lendo o que foi emitido. Se o documento já foi encerrado ou reaberto, a seção **"Encerramentos e
+reaberturas"** lista cada ato, com data, hora e motivo.
 
 ## Anexar um documento assinado fora do sistema
 
@@ -176,19 +190,25 @@ texto exato, quem constava como signatário e quando. Num anexado, **ninguém ac
 sistema**: não há registro de quem aceitou, quando e de onde — o arquivo é só o que alguém subiu. Por
 isso a marca é diferente e a frase está sempre embaixo: se parecesse igual aos emitidos, alguém suporia
 a mesma garantia. Quando precisar provar que alguém aceitou, o documento anexado prova só o que o
-arquivo mostra.
+arquivo mostra. Um documento [enviado para assinatura](/flow/assinatura-de-documentos/) aqui tem ao
+menos a trilha do aceite eletrônico — ainda que, como lá se explica, sem certificado digital.
 
-## O que ainda não existe
+## E a assinatura?
 
-O documento é **emitido e guardado**. Hoje a organização **ainda não consegue**:
+Emitir não envia nada a ninguém: o documento fica guardado, com o texto já preenchido. Para **colher o
+aceite de cada parte por um link**, use o botão **"Assinatura"** da linha do documento — cada parte
+recebe o próprio link por e-mail e, quando todas aceitam, o documento é **selado**. A página
+[Colher a assinatura de um documento](/flow/assinatura-de-documentos/) explica o caminho e, principalmente,
+**o que o selo prova e o que não prova**: ele não é assinatura com certificado digital.
 
-- **colher a assinatura ou o aceite por um link**, enviado à pessoa por e-mail ou mensagem;
-- aplicar **selo e carimbo do tempo** que atestem o documento;
-- gerar o documento em **PDF com cabeçalho e rodapé**.
+O que **ainda não existe**:
 
-Nada é enviado a ninguém na emissão — a própria janela diz isso. Quem precisa de uma assinatura de
-verdade hoje emite o documento aqui para ter o texto exato, colhe a assinatura por fora e **anexa** o
-resultado assinado.
+- a assinatura com **certificado digital** (a opção aparece na configuração, como indisponível);
+- o **carimbo do tempo** de uma autoridade externa;
+- o documento em **PDF com cabeçalho e rodapé** de papel timbrado.
+
+Quem precisa de uma assinatura com certificado, hoje, emite o documento aqui para ter o texto exato,
+assina fora e **anexa** o resultado assinado.
 
 ## Exemplo
 
@@ -201,8 +221,9 @@ aprovada para a frente **Comunicação**.
 3. Clica em **"Conferir"** e vê **"Tudo certo."** com a prévia: o texto já traz o nome da Helena, o CNPJ
    do Instituto Semente e **"Comunicação"** como área de atuação.
 4. Clica em **"Emitir documento"**. A aba passa a listar o termo, com **"Emitido aqui"**, **"Termo de
-   adesão"** e **"Vigente"**, e a frase **"Documento «Termo de adesão» emitido e guardado. Nada foi
-   enviado a ninguém."**
+   adesão"** e a frase **"Documento «Termo de adesão» emitido e guardado. Nada foi enviado a ninguém —
+   para colher os aceites por link, abra «Assinatura» no documento."** Para a Helena assinar, Maria dá o
+   passo seguinte: [enviar para assinatura](/flow/assinatura-de-documentos/).
 
 Para um voluntário cuja ficha foi cadastrada à mão, o **"Conferir"** responderia **"Antes de emitir,
 falta:"** e, embaixo, a mensagem das áreas de atuação — o sinal de que ele nunca passou por uma
@@ -217,10 +238,14 @@ candidatura aprovada.
 - **Uma testemunha que volta sempre merece cadastro.** Se a mesma pessoa assina em muitos documentos,
   digitá-la como externa a cada vez é retrabalho e abre espaço para erro de CPF.
 - **Confira a data do "Vale até".** Todo documento tem validade, e o que vence passa a aparecer como
-  **"Vencido"**. Vencer não apaga nem desfaz nada, e **um documento que vence nunca muda a situação de
-  ninguém**.
+  **"Vencido"**. Vencer não apaga nada. Um documento comum que vence **não muda a situação de ninguém**;
+  só o termo de adesão faz isso — veja
+  [Quanto tempo vale, encerrar e reabrir](/flow/vigencia-do-termo/).
+- **Emitir não é colher a assinatura.** Um termo só emitido está guardado, mas ninguém aceitou nada.
+  Enviar para assinatura é um passo à parte, e fácil de esquecer.
 - **Não use "Anexar" para fugir da emissão.** Anexar é para o que **já está** assinado fora. Se o
-  documento ainda vai ser assinado, emita aqui e depois anexe a versão assinada.
+  documento ainda vai ser assinado, emita aqui e [envie para assinatura](/flow/assinatura-de-documentos/);
+  só se a assinatura for feita fora, anexe depois a versão assinada.
 
 ## Quando dá errado
 
@@ -239,7 +264,9 @@ candidatura aprovada.
 
 ## Limites do papel
 
-Quem **administra a organização** vê, emite e anexa. Quem tem só a permissão de **ver** documentos lê a
-lista e abre os emitidos, mas não encontra **"Emitir documento"** nem **"Anexar documento assinado"**.
+Quem **administra a organização** vê, emite, anexa, envia para assinatura e encerra. Quem tem só a
+permissão de **ver** documentos lê a lista e abre os emitidos, mas não encontra **"Emitir documento"**,
+**"Anexar documento assinado"**, **"Encerrar"** nem o botão de enviar para assinatura (a janela
+**"Assinatura"** abre, só para acompanhar).
 Os **modelos** (criar, editar, apagar) e o **"Quem assina pela organização"** pedem outra permissão, a de
 configurar, descrita em [Modelos de documento](/flow/documentos/).
