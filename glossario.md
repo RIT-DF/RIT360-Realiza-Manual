@@ -58,6 +58,13 @@ Chega pelo site da organização à aba **"Candidaturas"** do **Flow**, com o **
 junto, e **uma pessoa decide** — a decisão é em tela e fica registrada (quem, quando e por quê).
 Ver [Candidaturas](/flow/candidaturas/).
 
+## Candidatura expirada
+
+Candidatura que **ninguém decidiu** dentro do prazo de retenção (180 dias, por padrão). **Não é uma
+reprovação**: reprovar é decisão de alguém; expirar é a organização não ter decidido. Aparece como
+**"Expirada sem decisão"** e, depois do prazo da reprovada, perde o conteúdo. Ver
+[Quanto tempo a candidatura fica guardada](/flow/candidaturas/#quanto-tempo-a-candidatura-fica-guardada).
+
 ## Chave de API
 
 Uma credencial que permite a um sistema externo (uma planilha, um robô de automação) ler ou
@@ -382,6 +389,14 @@ depois de alguém revisar — publicar **congela** o conteúdo. Ver
 
 Uma proposta de novas datas para uma tarefa, que fica pendente até alguém
 aprovar ou recusar. Ver [Reprogramar o prazo de uma tarefa](/trabalho/reprogramar-prazo/).
+
+## Retenção (de candidaturas)
+
+Por quanto tempo o Flow guarda o que uma pessoa enviou ao se candidatar antes de removê-lo
+sozinho. Os prazos são definidos por quem administra o serviço e valem para todas as organizações.
+Depois da remoção sobra, no máximo, um **registro mínimo** (tipo, frente, datas, desfecho e quem
+decidiu) — e, no caso de recusa por idade, nada. Ver
+[Retenção de candidaturas](/admin-servico/retencao-candidaturas/).
 
 ## Selo (da plataforma)
 

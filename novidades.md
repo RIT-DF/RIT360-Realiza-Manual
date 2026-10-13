@@ -17,6 +17,41 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 13 de outubro de 2026 — versão 0.58.0
+
+O que uma pessoa envia ao se candidatar **deixa de ficar guardado para sempre**: cada caso passa a ter
+prazo, e quem administra o serviço pode ajustá-los.
+
+### Adicionado
+
+- **Prazo para guardar candidaturas.** Quem foi **recusado por ser menor de idade** tem a candidatura
+  apagada **inteira em 24 horas**, sem sobrar nada. A **reprovada** perde o conteúdo (nome, CPF, data de
+  nascimento, contatos, endereço e consentimentos) **90 dias depois da decisão** e fica só um registro
+  mínimo. A que **ninguém decidiu** expira em **180 dias**. A **aprovada** nunca é tocada. Veja
+  [Quanto tempo a candidatura fica guardada](/flow/candidaturas/#quanto-tempo-a-candidatura-fica-guardada).
+- **Tela "Retenção de candidaturas"** na administração do serviço (**Manutenção**): ajusta os três
+  prazos e mostra o que a rotina de limpeza fez. A tela diferencia **"nunca rodou"**, **"nada a
+  apagar"**, **"começou e não terminou"** e **"falhou"** — quatro situações que pedem ações
+  diferentes. Veja [Retenção de candidaturas](/admin-servico/retencao-candidaturas/).
+- **Desfecho "Expirada sem decisão".** Candidatura que passou do prazo sem ninguém decidir aparece assim,
+  com a data. **Expirar não é reprovar**: ninguém tomou a decisão. Veja
+  [A candidatura expirada](/flow/candidaturas/#a-candidatura-expirada).
+
+### Mudou
+
+- **A aba "Decididas" passou a se chamar "Já resolvidas"**, porque agora reúne também as expiradas.
+- Na candidatura cujo conteúdo foi removido pelo prazo, a tela avisa o que sobrou e o que não existe
+  mais.
+
+### Ainda não
+
+- Quando uma candidatura expira, **ninguém é avisado**: nem a pessoa que se candidatou, nem a
+  automação.
+- Os três prazos são os padrões do produto e ainda dependem de confirmação da revisão jurídica; se
+  mudarem, é um ajuste na tela, sem nova versão.
+
+---
+
 ## 13 de outubro de 2026 — versão 0.57.0
 
 A ficha de pessoa ganha o **arquivar**, remover deixa de apagar às cegas, e os documentos da organização

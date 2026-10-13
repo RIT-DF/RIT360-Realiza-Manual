@@ -100,6 +100,8 @@ lado. Link guardado nos favoritos não quebrou.
 - [Mudar de servidor](/admin-servico/mudar-de-servidor/) — exporta a instalação inteira num pacote
   cifrado, ou importa um pacote numa instalação vazia, sempre com ensaio antes de gravar de
   verdade.
+- [Retenção de candidaturas](/admin-servico/retencao-candidaturas/) — por quanto tempo o Flow
+  guarda o que uma pessoa enviou ao se candidatar, e se a rotina que apaga isso está rodando.
 
 **Feedbacks** — [o que as pessoas enviaram](/admin-servico/feedbacks/) de dentro do produto, e a
 resposta a cada um.

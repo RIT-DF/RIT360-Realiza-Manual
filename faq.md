@@ -373,6 +373,32 @@ anos (ou sem data de nascimento) é reprovada sozinha, com o motivo. A tela da c
 **"Reprovada no recebimento, pela regra de idade"**. A inteligência artificial **não** reprova
 voluntário nem instituição por conta própria — só uma pessoa o faz.
 
+### Por quanto tempo o sistema guarda os dados de quem se candidatou?
+
+Depende do que aconteceu com a candidatura. Por padrão: se foi **recusada por idade**, é apagada
+**inteira em 24 horas**; se foi **reprovada**, o conteúdo sai **90 dias** depois da decisão e fica só
+um registro mínimo; se **ninguém decidiu**, ela **expira em 180 dias** e depois segue o prazo da
+reprovada. A **aprovada** nunca é tocada. Quem administra o serviço pode alterar os prazos. Veja
+[Quanto tempo a candidatura fica guardada](/flow/candidaturas/#quanto-tempo-a-candidatura-fica-guardada).
+
+### A candidatura aparece como "Expirada sem decisão". Alguém reprovou?
+
+Não. **Expirar não é reprovar**: passou o prazo sem que ninguém decidisse, e a candidatura já não se
+decide. A tela mostra o **"Desfecho"** com a data em que expirou e **não** atribui a ninguém. Veja
+[A candidatura expirada](/flow/candidaturas/#a-candidatura-expirada).
+
+### Abri uma candidatura e o nome, o CPF e os contatos sumiram. O que houve?
+
+O prazo de retenção passou e o sistema removeu o conteúdo, como previsto. A tela avisa **"O conteúdo
+desta candidatura foi removido…"** e mantém só o registro mínimo (tipo, frente, datas, desfecho e
+quem decidiu). Não há como recuperar o que foi enviado. Veja
+[Quando o conteúdo já foi removido](/flow/candidaturas/#quando-o-conteúdo-já-foi-removido).
+
+### Sumiu a aba "Decididas" da lista de candidaturas.
+
+Ela passou a se chamar **"Já resolvidas"**, porque agora reúne também as **expiradas**, que não foram
+decididas por ninguém. O conteúdo é o mesmo mais as expiradas.
+
 ### Emiti o termo de adesão. A pessoa já recebeu para assinar?
 
 Ainda não. **Emitir guarda o documento na ficha e não envia nada a ninguém** — a própria janela diz

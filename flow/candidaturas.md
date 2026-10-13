@@ -34,7 +34,7 @@ A aba abre em **"Aguardando decisão"**. No alto, a frase que importa: **"N cand
 decisão — a mais antiga espera há N dias."**
 
 Acima da lista há três botões para escolher o que mostrar — **"Aguardando decisão"**,
-**"Decididas"** e **"Todas"** — e um seletor **"Tipo"** (**"Todos"**, **"Voluntariado"**,
+**"Já resolvidas"** e **"Todas"** — e um seletor **"Tipo"** (**"Todos"**, **"Voluntariado"**,
 **"Colaborador de organização integrada"**, **"Adesão de organização"** e **"Credenciamento"**).
 Cada candidatura é um cartão com o nome, o tipo, o parecer (**"Parecer: apto"**, **"Parecer:
 inapto"**, **"Parecer: inconclusivo"** ou **"Parecer não disponível"**), há quanto tempo espera e a
@@ -45,8 +45,14 @@ situação:
 | **Aguardando decisão** | Chegou e ninguém decidiu. |
 | **Retida por conflito** | O e-mail dela já pertence a outra pessoa. Veja [Conflito de e-mail](#conflito-de-e-mail). |
 | **Aprovada** / **Reprovada** | Decidida; a decisão é definitiva. |
+| **Expirada sem decisão** | Passou o prazo de retenção sem que ninguém decidisse. **Não é uma reprovação** e já não se decide. Veja [Quanto tempo a candidatura fica guardada](#quanto-tempo-a-candidatura-fica-guardada). |
 | **Aprovada — disparo em andamento** / **Reprovada — disparo em andamento** | A decisão foi tomada, mas o aviso dela ainda não terminou de seguir para a automação. |
 | **Aprovada — disparo falhou** / **Reprovada — disparo falhou** | A decisão está registrada, mas **não chegou** a quem precisa. Veja [Quando a decisão não chega](#quando-a-decisão-não-chega). |
+
+A aba **"Já resolvidas"** (antes chamada **"Decididas"**) reúne tudo o que não espera mais ninguém:
+as aprovadas, as reprovadas **e as expiradas** — por isso o nome mudou: a expirada entra ali e não
+foi decisão de ninguém. Quando o conteúdo de uma candidatura já foi removido pelo prazo de
+retenção, a linha termina com **" — conteúdo removido pelo prazo de retenção"**.
 
 {: .note }
 Esta lista **não tem ação em lote, de propósito.** Aprovar e reprovar levam mensagem à pessoa,
@@ -174,6 +180,56 @@ candidatura de alguém que só errou o e-mail. Quem resolve escolhe uma de duas 
 Enquanto o conflito não é resolvido, **"Aprovar" fica desabilitado**. **"Reprovar" continua
 possível.**
 
+## Quanto tempo a candidatura fica guardada
+
+Tudo o que a pessoa enviou — nome, data de nascimento, CPF, endereço, contatos e consentimentos —
+**não fica guardado para sempre**. Quem é recusado não tem relação nenhuma com a organização (não
+é membro, não tem conta, não tem como pedir que o dado saia), então o próprio sistema o remove no
+prazo. Os prazos abaixo são os padrões; quem administra o serviço pode alterá-los, e valem para
+todas as organizações ([Retenção de candidaturas](/admin-servico/retencao-candidaturas/)).
+
+- **Recusada pela regra de idade:** apagada **inteira** em **24 horas**. Nada sobra.
+- **Reprovada:** **90 dias** depois da decisão, o conteúdo sai e fica um **registro mínimo** (que
+  houve candidatura, de que tipo, para qual frente, quando, qual o desfecho e quem decidiu).
+- **Que ninguém decidiu, ou retida por conflito:** **180 dias** depois da chegada ela **expira**.
+  Depois de expirar, segue o prazo da reprovada.
+- **Aprovada:** nunca é tocada.
+
+{: .important }
+**Candidatura parada na fila não é "adiável" para sempre.** Se ninguém decidir em 180 dias, ela
+expira — e o que a pessoa enviou some 90 dias depois. A pessoa **não é avisada** de que o prazo
+acabou. Decida (ou reprove, com motivo) antes disso.
+
+### A candidatura expirada
+
+Ao abrir uma candidatura expirada você vê:
+
+- a etiqueta **"Expirada sem decisão"**;
+- o quadro **"Desfecho"** no lugar de **"Decisão"**, com **"Resultado: Expirada sem decisão"**,
+  **"Expirou em"** (no lugar de **"Quando"**) e a origem **"Expirada pelo prazo: ninguém decidiu, e
+  isto não é uma reprovação"**.
+
+Ela **não se decide depois disso**: a tela de decidir recusa com *"Esta candidatura expirou em
+[data] — passou o prazo sem que ninguém decidisse, e ela não se decide depois disso."* Se a pessoa
+ainda interessa, o caminho é cadastrá-la diretamente em [Pessoas](/pessoas/).
+
+### Quando o conteúdo já foi removido
+
+Passado o prazo, a candidatura continua na lista, mas a tela avisa: *"O conteúdo desta candidatura
+foi removido em [data], pelo prazo de retenção. Ficou o registro mínimo: que houve candidatura, de
+que tipo, para qual frente, quando, qual foi o desfecho e quem decidiu. Nome, CPF, data de
+nascimento, contatos, endereço e consentimentos não existem mais aqui."*
+
+{: .warning }
+**Remoção não tem volta.** Se a organização precisa guardar algo do que a pessoa enviou (um
+parecer, uma justificativa para uma decisão), isso precisa estar no **motivo da decisão** ou na
+**observação interna**, que a pessoa que decide escreve — o conteúdo enviado por quem se candidata
+não será mais lido depois do prazo.
+
+<!-- CAPTURA PENDENTE: candidatura expirada e candidatura com conteúdo removido (tela de detalhe e
+     etiqueta "Expirada sem decisão" na lista) — o ambiente ainda não tem dado nesse estado (issue
+     #291). Refazer quando houver. -->
+
 ## Quem tem menos de 18 anos
 
 A candidatura de **voluntário e de colaborador** de menor de 18 anos (ou **sem data de nascimento**)
@@ -181,6 +237,11 @@ A candidatura de **voluntário e de colaborador** de menor de 18 anos (ou **sem 
 *"Menor de 18 anos (16 anos completos na data do recebimento)"*. A pessoa recebe a mensagem *"Para
 participar é preciso ter 18 anos completos."* Na tela da candidatura, o quadro **"Decisão"** diz
 **"Reprovada no recebimento, pela regra de idade"**.
+
+{: .warning }
+**Essa candidatura desaparece em 24 horas.** Para quem foi recusado por idade, o sistema apaga
+tudo — inclusive a linha da lista. Se você precisa conferir um caso, faça-o no mesmo dia; depois
+não há registro nenhum para consultar.
 
 Se a data foi só esquecida no formulário, a mensagem orienta a pessoa a enviar de novo com a data.
 Para o profissional autônomo credenciado, a data só barra quando é informada e faz a pessoa menor.
@@ -226,7 +287,7 @@ relação **Integrada**: a instituição é criada e Valéria continua com uma f
 
 ## Dicas e armadilhas
 
-- **Decida pela fila "Aguardando decisão", e olhe "Decididas" de vez em quando** para ver se algum
+- **Decida pela fila "Aguardando decisão", e olhe "Já resolvidas" de vez em quando** para ver se algum
   disparo falhou.
 - **Candidatura decidida não se decide de novo.** Aprovou por engano? Não há botão de desfazer na
   candidatura; o ajuste é feito na ficha (em [Pessoas](/pessoas/)) ou na
@@ -234,6 +295,8 @@ relação **Integrada**: a instituição é criada e Valéria continua com uma f
   cadastrar a pessoa diretamente em [Pessoas](/pessoas/).
 - **Reprove com motivo que você sustentaria diante da pessoa.** O motivo fica registrado e é parte
   do que a organização responde se alguém perguntar por quê.
+- **Não deixe candidatura esquecida na fila.** Passados 180 dias ela expira, e a pessoa não é
+  avisada.
 - **O CPF ou o CNPJ evita duplicata; o nome não.** Se a mesma pessoa se candidata duas vezes com
   e-mails diferentes e o mesmo CPF, a aprovação liga à ficha que existe, sem criar outra.
 
@@ -256,6 +319,14 @@ relação **Integrada**: a instituição é criada e Valéria continua com uma f
   Instituições). A candidatura **continua aguardando**; nada foi decidido.
 - **"O cadastro da casa não respondeu, e nada foi decidido … Tente de novo em instantes."** — o
   cadastro estava ocupado. Clique de novo.
+- **"Esta candidatura expirou em [data] — passou o prazo sem que ninguém decidisse, e ela não se
+  decide depois disso."** — o prazo de 180 dias passou; veja
+  [A candidatura expirada](#a-candidatura-expirada).
+- **"Esta candidatura expirou sem decisão: não houve disparo, então não há o que repetir."** — em
+  uma expirada, **"Repetir a entrega"** não se aplica: nenhuma decisão foi tomada, logo nada foi
+  enviado à automação.
+- **"O conteúdo desta candidatura já foi removido pelo prazo de retenção: não há o que mandar ao
+  n8n."** — o que a pessoa enviou já foi apagado; não dá mais para repetir a entrega.
 - **"Não foi possível concluir. Nada foi decidido."** — a decisão não foi gravada; tente de novo.
 - **"A ficha ligada a esta candidatura não existe mais no cadastro de pessoas. Resolva o conflito de
   novo ou reprove."** — alguém removeu a ficha que você tinha escolhido em "É a mesma pessoa".
