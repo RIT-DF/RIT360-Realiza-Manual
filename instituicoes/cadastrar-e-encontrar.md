@@ -51,7 +51,7 @@ No celular, cada instituição vira um cartão com os mesmos dados e os mesmos b
    **"Nome ou razão social"**, **"Nome de exibição (nome fantasia)"** e **"CNPJ"**.
 3. Preencha o **nome**. É o **único campo obrigatório**: a tela diz *"Informe ao menos o nome. Todo
    o resto é opcional."*
-4. Preencha o que souber: o **"Tipo de organização (associação, fundação, empresa…)"**, o
+4. Preencha o que souber: o **"Forma jurídica (associação, fundação, empresa…)"**, o
    **"CNPJ (opcional)"**, a **"Rede ou federação de que faz parte"**, os telefones e e-mails, o
    **site**, **Instagram**, **LinkedIn** e **"Outras redes sociais"**, o endereço, as **áreas de
    atuação** e os textos de apresentação (veja abaixo).

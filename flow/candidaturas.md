@@ -10,7 +10,7 @@ palavras_chave: "candidatura, voluntário, quero ser voluntário, aprovar candid
 
 Aba **"Candidaturas"** do [Flow](/flow/). É onde chega, e onde se decide, o pedido de quem quer
 entrar na órbita da organização: **uma pessoa** que quer ser voluntária (ou colaborar por uma
-organização integrada), **uma OSC** que quer aderir à rede, ou **uma empresa ou profissional** que
+instituição integrada), **uma OSC** que quer aderir à rede, ou **uma empresa ou profissional** que
 quer ser credenciado para oferecer serviços. Os três chegam ao **mesmo lugar**, porque é o mesmo
 ato: alguém pede, o sistema faz um parecer automático, e **uma pessoa decide**.
 
@@ -35,7 +35,7 @@ decisão — a mais antiga espera há N dias."**
 
 Acima da lista há três botões para escolher o que mostrar — **"Aguardando decisão"**,
 **"Já resolvidas"** e **"Todas"** — e um seletor **"Tipo"** (**"Todos"**, **"Voluntariado"**,
-**"Colaborador de organização integrada"**, **"Adesão de organização"** e **"Credenciamento"**).
+**"Colaborador de instituição integrada"**, **"Adesão de instituição"** e **"Credenciamento"**).
 Cada candidatura é um cartão com o nome, o tipo, o parecer (**"Parecer: apto"**, **"Parecer:
 inapto"**, **"Parecer: inconclusivo"** ou **"Parecer não disponível"**), há quanto tempo espera e a
 situação:
@@ -59,8 +59,11 @@ Esta lista **não tem ação em lote, de propósito.** Aprovar e reprovar levam 
 motivo e escolhas próprias de cada candidatura; decidir "todas de uma vez" esconderia exatamente o
 que a decisão em tela existe para registrar.
 
-<!-- CAPTURA: rota=/flow/candidaturas | viewport=1920x1080 | o-que-mostrar=A fila com a frase "N candidaturas esperam decisão — a mais antiga espera há N dias", os filtros e cartões de tipos e pareceres diferentes (uma retida por conflito) | arquivo=flow-candidaturas-fila-desktop.png -->
-<!-- CAPTURA: rota=/flow/candidaturas | viewport=375x812 | o-que-mostrar=A mesma fila no celular | arquivo=flow-candidaturas-fila-celular.png -->
+![A aba Candidaturas com a frase de espera, os botões de filtro, o seletor Tipo e três cartões: uma adesão de instituição e dois colaboradores de instituição integrada, todos aguardando decisão](/assets/capturas/flow-candidaturas-fila-desktop.png)
+
+![A mesma fila no celular](/assets/capturas/flow-candidaturas-fila-celular.png){: style="max-width:375px" }
+
+Quando a candidatura chegou no mesmo dia, a frase diz **"desde hoje"** no lugar de "há N dias".
 
 Fila vazia não é defeito: em **"Aguardando decisão"** a tela diz **"Nenhuma candidatura aguardando
 decisão."** (nas outras duas, **"Nenhuma candidatura por aqui."**) e, abaixo, que quando chegar uma
@@ -74,7 +77,7 @@ Clique no cartão. A tela de uma candidatura tem, de cima para baixo:
 2. **"Parecer automático"** — o resultado (**Apto**, **Inapto**, **Inconclusivo** ou **Não
    disponível**), o resumo e os itens que o sustentam.
 3. **"O que foi enviado"** — o que a pessoa preencheu, em blocos (por exemplo, **"Quem se
-   candidata"**, **"A organização"** ou **"A empresa ou o profissional"** e **"Outras respostas do
+   candidata"**, **"A instituição"** ou **"A empresa ou o profissional"** e **"Outras respostas do
    formulário"**), e as **"Frentes de interesse"** que ela marcou.
 4. **"Consentimentos"** — o que ela autorizou, um por um.
 5. **"Decidir"** — os botões **"Aprovar"** e **"Reprovar"**.
@@ -86,12 +89,18 @@ voluntário nem instituição: ela diz o que encontrou, e quem decide é uma pes
 exceção** é o credenciado (empresa ou profissional) com parecer **"inapto"**, que é reprovado
 automaticamente — a própria tela avisa isso na página dele.
 
-### Consentimentos: três respostas, e uma delas engana
+### Consentimentos: a frase que a pessoa leu, e o que ela respondeu
 
-Cada consentimento aparece com o nome, a resposta e a **versão do texto** que a pessoa viu quando
-aceitou — por exemplo, **"(texto na versão 2)"**. O nome é o **código que o formulário do site
-enviou**, em letras minúsculas e sublinhado (algo como `uso_de_imagem`), e não uma frase: é o site que
-decide como chamá-lo. As respostas possíveis são:
+Cada consentimento é um **quadro próprio**. Em cima, a **frase** que a pessoa leu no formulário —
+por exemplo, *"Autorizo o uso da minha imagem em fotos e vídeos das atividades da rede."*. Embaixo,
+a resposta e a **versão do texto** que valia quando ela respondeu — por exemplo, **"Autorizou"
+(texto na versão 2026-09)**.
+
+![O quadro Consentimentos com seis consentimentos, cada um com a frase em cima e, embaixo, Autorizou, Não autorizou ou Não marcou, seguido da versão do texto](/assets/capturas/flow-candidaturas-consentimentos-desktop.png)
+
+![Os mesmos consentimentos no celular](/assets/capturas/flow-candidaturas-consentimentos-celular.png){: style="max-width:375px" }
+
+As respostas possíveis são três:
 
 - **Autorizou** — marcou que sim.
 - **Não autorizou** — marcou que não.
@@ -101,6 +110,28 @@ decide como chamá-lo. As respostas possíveis são:
 os dois como recusa tira da pessoa algo que ela não recusou (e tratar os dois como aceite faz o
 contrário). Se o consentimento é necessário para o que você vai fazer com os dados dela, a resposta
 em branco pede que você pergunte — não que presuma.
+
+#### Por que a versão importa
+
+Esta é a parte da candidatura com **consequência jurídica**: é o registro do que a pessoa aceitou.
+Quando a organização muda a redação de um consentimento — acrescenta um uso, restringe outro —,
+duas pessoas com o **mesmo** consentimento podem ter aceitado **textos diferentes**. O que as
+distingue é a versão. Por isso a tela mostra a frase **e** a versão, e cada consentimento é um
+quadro separado: ler o "Autorizou" de um como se fosse do vizinho é exatamente o erro que a
+separação evita.
+
+#### Quando a frase não veio
+
+Se a candidatura chegou do site **só com o código** do consentimento, a tela não inventa a frase.
+Ela diz, em itálico: *"Texto não recebido: esta candidatura trouxe só o código «newsletter», sem a
+frase que a pessoa leu."* (o código entre aspas muda conforme o consentimento). A resposta e a
+versão continuam aparecendo.
+
+{: .warning }
+**Sem a frase, você não sabe a que a pessoa disse sim ou não.** Não presuma pelo nome do código: um
+"Autorizou" sem frase não deve ser tratado como autorização para qualquer uso. Se o consentimento
+importa para o que você vai fazer, pergunte à pessoa antes — e, se a falta de texto se repete,
+avise quem cuida do formulário do site.
 
 ## Decidir
 
@@ -114,13 +145,16 @@ decidir."**
 2. Na janela **"Aprovar candidatura"**, que explica: *"Cria a ficha da pessoa no cadastro — ou liga
    à ficha que já existe, sem duplicar."* (para instituição: *"Cria a instituição no cadastro — ou
    liga a que já existe, sem duplicar."*):
-   - Se for **adesão de organização** ou **credenciamento**, escolha a **"Relação com a
+   - Se for **adesão de instituição** ou **credenciamento**, escolha a **"Relação com a
      organização"** — é obrigatória (**"Escolha a relação com a organização…"** se faltar), porque é
      ela que diz o que aquela instituição passa a ser para vocês: integrada, credenciada,
      fornecedora.
    - Escolha, se quiser, a **"Situação inicial"** (**"Nenhuma"** é válido).
-   - Se for **colaborador**, dá para ligar a pessoa à **"Organização a que a pessoa fica ligada"**
+   - Se for **colaborador**, dá para ligar a pessoa à **"Instituição a que a pessoa fica ligada"**
      (busque por nome ou CNPJ e clique em **"Buscar"**).
+
+     ![A janela Aprovar candidatura de um colaborador, com Situação inicial, Instituição a que a pessoa fica ligada, e os campos de mensagem e observação interna](/assets/capturas/flow-candidaturas-aprovar-colaborador-desktop.png)
+
    - Preencha, se quiser, os dois campos de texto descritos logo abaixo.
 3. Clique em **"Aprovar"**.
 
@@ -274,7 +308,7 @@ que já foi dada. Passe os olhos pelas candidaturas decididas de vez em quando.
 
 Chega a candidatura de **Helena Barros**, 29 anos, para voluntariado na frente **Comunicação**. O
 sistema avisa Maria Oliveira por e-mail. Maria abre a candidatura: parecer **Apto**, consentimento
-`uso_de_imagem` **Não marcou**, frente de interesse **Comunicação**. Ela aprova, escolhe a
+*"Autorizo o uso da minha imagem em fotos e vídeos das atividades da rede."* **Não marcou**, frente de interesse **Comunicação**. Ela aprova, escolhe a
 situação inicial **Em atuação** e escreve na mensagem para a pessoa: *"Seja bem-vinda, Helena!
 A Joana Martins entra em contato para combinar o primeiro encontro."* No campo interno escreve:
 *"Perguntar sobre o uso de imagem no primeiro encontro."* A candidatura passa a **Aprovada —
@@ -311,7 +345,7 @@ relação **Integrada**: a instituição é criada e Valéria continua com uma f
 - **"Esta candidatura está retida por conflito (o e-mail pertence a outra pessoa). Resolva o
   conflito antes de decidir — ou reprove."** — resolva em **"É a mesma pessoa"** ou **"São pessoas
   diferentes"**.
-- **"Escolha a relação com a organização (por exemplo, a de organização integrada) antes de
+- **"Escolha a relação com a organização (por exemplo, a de instituição integrada) antes de
   aprovar."** — numa adesão ou credenciamento, escolha a **"Relação com a organização"** na janela
   de aprovar.
 - **"O cadastro da casa recusou: … Peça a permissão a quem administra a organização."** — para
@@ -339,8 +373,8 @@ de API (integração) pode **entregar** candidaturas ao sistema, mas **não pode
 reprovar**: decidir é ato de uma pessoa.
 
 {: .note }
-Dois rótulos desta tela dizem "organização" onde o resto do produto diz **instituição** —
-**"Adesão de organização"** e **"Colaborador de organização integrada"**, no seletor **"Tipo"**.
-Neste manual, a palavra **organização** é quem usa a plataforma (o Instituto Semente); a OSC que
-adere à rede é uma **instituição**. A tela ainda não segue essa distinção; o texto acima cita os
-rótulos como aparecem.
+**"Organização" e "instituição" são coisas diferentes.** A **organização** é quem usa a plataforma e
+decide as candidaturas (o Instituto Semente, por exemplo). A **instituição** é a OSC, empresa ou
+profissional que a organização conhece — quem adere à rede ou é credenciado. Por isso a tela fala de
+**"Adesão de instituição"**, mas de **"Relação com a organização"**: ali você diz o que a
+instituição passa a ser *para a sua organização*.
