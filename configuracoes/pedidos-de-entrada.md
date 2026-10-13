@@ -16,13 +16,18 @@ as tenha convidado. Esta tela é onde você decide cada pedido.
 Sem isso, alguém que chega numa equipe grande e tenta entrar na RIT360 Plataforma pelo domínio da
 instituição criaria uma organização nova e duplicada, ou ficaria travado sem saber a quem pedir
 convite. Com o domínio de reconhecimento cadastrado (veja
-[Dados e identidade da organização](/configuracoes/organizacao/)), o pedido cai aqui, para quem
-administra decidir.
+[Dados e identidade da organização](/configuracoes/organizacao/), aba "Informações básicas"), o
+pedido cai aqui, para quem administra decidir.
 
 ## Acessar
 
-Em [Dados e identidade da organização](/configuracoes/organizacao/), clique no link **"Pedidos de
-entrada"**, no topo da tela.
+Pela engrenagem do cabeçalho, abra a aba **"Membros"** da organização (veja
+[Membros, papéis e convites](/configuracoes/membros-e-papeis/)) e clique no link **"Pedidos de
+entrada"**, no topo da tela. É o mesmo endereço de sempre, `/organizacao/pedidos-de-entrada`. Para
+voltar, use o link **"← Voltar para membros"**, no alto.
+
+Os pedidos moram em Membros, e não numa aba própria, porque decidir um pedido é um ato de
+**acesso**: aprovar é conceder a alguém a entrada no sistema.
 
 ## Decidir um pedido
 

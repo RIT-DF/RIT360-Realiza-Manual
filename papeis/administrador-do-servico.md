@@ -40,7 +40,7 @@ algo que o seu papel conceda.
 
 ## Por onde começar
 
-No menu lateral, o item **"Administração"** — abaixo de Realiza e Flow, e visível só para quem tem este papel — leva à área. Leia a seção inteira: [Administração do serviço](/admin-servico/).
+No cabeçalho, o **ícone de escudo** — entre a engrenagem da organização e o seu avatar, e visível só para quem tem este papel — leva à área. Ele não está na barra lateral. Leia a seção inteira: [Administração do serviço](/admin-servico/).
 
 ## A armadilha deste papel
 

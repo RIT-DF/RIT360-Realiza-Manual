@@ -13,7 +13,7 @@ celular. Dentro da casa moram os produtos da família RIT360 — hoje, o **RIT36
 
 | Nome | O que é | Onde você o encontra |
 |---|---|---|
-| **RIT360 Plataforma** | A casa: entrar, trocar de organização, convites, avisos, assistente, o aplicativo no celular e a administração do serviço. | Em tudo: o nome aparece na tela de entrar, no rodapé, nos e-mails e no robô do Telegram. |
+| **RIT360 Plataforma** | A casa: entrar, trocar de organização, convites, avisos, assistente, o aplicativo no celular, o cadastro de [Pessoas](/pessoas/) e a administração do serviço. | Em tudo: o nome aparece na tela de entrar, no rodapé, nos e-mails e no robô do Telegram. |
 | **RIT360 Realiza** | O produto de trabalho: espaços, tarefas, entregas, aprovações, clientes, agenda e Conhecimento. | Na barra lateral, o item **Realiza**. |
 | **RIT360 Flow** | O produto que cuida do ciclo da pessoa com a organização — candidatura, termo de adesão, credencial. Está nascendo: por ora só tem uma tela inicial. | Na barra lateral, o item **Flow**, para as organizações que o têm. |
 
@@ -84,8 +84,8 @@ primeiros e nunca chega perto dos outros.
 
 - [Assistente](/assistente/) — pergunte o que precisa da sua atenção, ou peça para criar uma
   tarefa, escrevendo em linguagem comum, dentro do app ou pelo [Telegram](/configuracoes/telegram/)
-- [Os produtos na barra lateral](/produtos/) — o que cada item significa, inclusive o apagado com a
-  marca "não habilitado" e o item "Administração"
+- [Os produtos na barra lateral](/produtos/) — o que é da casa e o que é módulo, o que cada item
+  significa (inclusive o apagado, com a marca "não habilitado") e onde fica a administração do serviço
 - [Conhecimento](/conhecimento/) — documentos, links e páginas de wiki que a organização guarda
   para o time, com histórico de versões e a opção de publicar uma página para quem não tem conta
 

@@ -13,7 +13,9 @@ Esta tela é a **configuração** de uso de IA pela organização — quem decid
 qual provedor. Quem conversa com o assistente é o [Assistente](/assistente/), em separado; esta
 página cobre só a configuração, não a conversa.
 
-Só quem administra a organização ativa alcança esta tela — veja
+Esta é a aba **"IA"** da área da organização — a que se abre pela engrenagem do cabeçalho
+(**"Configurações da organização"**); a tela se chama **"IA de [nome da organização]"** e o endereço
+é `/organizacao/ia`. Só quem administra a organização ativa alcança esta tela — veja
 [Dados e identidade da organização](/configuracoes/organizacao/) para como essa permissão é
 concedida.
 

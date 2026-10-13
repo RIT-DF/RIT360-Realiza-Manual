@@ -2,14 +2,14 @@
 title: "Pessoas"
 nav_order: 6
 permalink: /pessoas/
-palavras_chave: "cadastro de pessoas, ficha, voluntário, equipe, cpf, telefone, e-mail da pessoa, tirar alguém, apagar ficha, pessoa sem conta, buscar por cpf, nome social"
+palavras_chave: "cadastro de pessoas, ficha, voluntário, equipe, cpf, telefone, e-mail da pessoa, tirar alguém, apagar ficha, pessoa sem conta, buscar por cpf, nome social, link da ficha, visão geral, diferença entre pessoa e membro, pessoas ou membros"
 ---
 
 # Pessoas
 
-A aba **"Pessoas"** é o cadastro de **quem a sua organização conhece**: a equipe, os voluntários,
-quem participa de um projeto, quem ainda vai participar. Cada pessoa tem uma **ficha** — nome,
-CPF, contatos, endereço — e a ficha existe **mesmo que a pessoa nunca entre no sistema**.
+**Pessoas** é o cadastro de **quem a sua organização conhece**: a equipe, os voluntários, quem
+participa de um projeto, quem ainda vai participar. Cada pessoa tem uma **ficha** — nome, CPF,
+contatos, endereço — e a ficha existe **mesmo que a pessoa nunca entre no sistema**.
 
 Por que isso importa: o que a organização precisa saber sobre as pessoas com quem trabalha
 (quem é, como falar com ela) é uma coisa; quem precisa **entrar no sistema** para ver tarefas e
@@ -17,6 +17,46 @@ conversas é outra, bem menor. Separar as duas poupa a organização de convidar
 gente que só precisa estar registrada. É também a base do que vem depois: quando o produto
 passar a cuidar de candidatura, termo de voluntário e credencial, todos eles vão se apoiar na
 ficha que você cadastrar aqui.
+
+## Onde fica Pessoas
+
+Pessoas é **da casa**, não de um produto: fica no topo da barra lateral, num grupo separado dos
+módulos (Realiza, Flow) por um filete. No celular, está no menu que abre pelo botão **"Abrir
+navegação"**. Como não é módulo, **não some quando um módulo é desligado** — veja
+[Os produtos na barra lateral](/produtos/).
+
+Ao entrar, a faixa de abas (no alto da tela; embaixo, no celular) passa a mostrar duas abas:
+
+- **"Visão geral"** — o retrato do cadastro. Hoje mostra uma coisa só: o total de **"Pessoas que a
+  organização conhece"**, contando todas as fichas, tenham ou não acesso ao sistema. Um link, **"Ver
+  a lista de pessoas"**, leva à lista. É só o total porque é só o que existe para contar; números
+  por situação ou por vencimento não existem ainda, e a tela não finge que existem.
+- **"Lista de pessoas"** — a lista de fichas, com busca, cadastro e remoção. É o que o resto desta
+  página descreve. (Antes dessa mudança, a lista se chamava só "Pessoas" e era uma aba do Realiza.)
+
+Os endereços: `/pessoas` é a lista e `/pessoas/visao-geral` é a visão geral. Quem guardou o
+endereço antigo da lista nos favoritos continua chegando nela.
+
+## Pessoas e Membros: duas listas, de propósito
+
+Duas telas da plataforma listam gente, e elas não são a mesma coisa. Confundi-las é a dúvida mais
+comum desta área.
+
+| | **Pessoas** | **Membros** |
+|---|---|---|
+| **Quem aparece** | Quem a organização **conhece** — pode nunca ter login. | Quem tem **acesso ao sistema** nesta organização. |
+| **O que cada linha é** | Uma **ficha**: nome, CPF, contatos, endereço. | Uma **conta**, com um **papel** (Administrador, Membro, Convidado). |
+| **Para que serve** | Saber quem é e como falar com a pessoa. | Decidir quem entra, e o que cada um pode fazer. |
+| **Onde fica** | **Pessoas**, na barra lateral. | Engrenagem do cabeçalho, aba **"Membros"** — veja [Membros, papéis e convites](/configuracoes/membros-e-papeis/). |
+
+A regra para não errar: **dar acesso é ato de acesso, e mora em Membros.** Convidar alguém, trocar o
+papel, remover o acesso, decidir um pedido de entrada — tudo isso é Membros. Cadastrar quem a
+organização conhece, sem dar acesso a nada, é Pessoas.
+
+Um voluntário que só assina o termo, por exemplo, tem ficha em Pessoas e **nunca aparece em
+Membros**. Já quem entra no sistema aparece nas duas: em Membros, com o papel; e, se tiver ficha,
+em Pessoas — o nome do membro leva direto à ficha, e quem ainda não tem ficha pode ganhar uma pelo
+botão **"Criar ficha"**.
 
 ## Ficha não é conta
 
@@ -43,14 +83,13 @@ Neste momento a tela **mostra** se a pessoa tem conta, mas não cria nem liga co
 alguém para a organização continua sendo feito em
 [Membros, papéis e convites](/configuracoes/membros-e-papeis/).
 
-## Quem vê esta aba
+## Quem vê Pessoas
 
-CPF e contato são dados pessoais, e nem todo mundo deve alcançá-los inteiros. A aba **"Pessoas"**
+CPF e contato são dados pessoais, e nem todo mundo deve alcançá-los inteiros. Pessoas
 aparece para **qualquer pessoa com vínculo com a organização** — não só para quem
 [administra](/papeis/administrador-da-organizacao/). O que muda de uma pessoa para outra é o que a
 tela deixa **fazer**, conforme a permissão que ela tem (veja abaixo). Quem participa da organização
 apenas como **convidado**, vindo de fora, continua sem alcançar os dados de pessoas da organização.
-A aba fica depois de **"Clientes"**, na barra de cima no computador e na barra de baixo no celular.
 
 Quem chega ao endereço sem nenhuma permissão sobre o cadastro vê apenas: **"Você não tem permissão
 para ver as pessoas desta organização."**
@@ -58,7 +97,7 @@ para ver as pessoas desta organização."**
 A permissão tem quatro partes, e uma pessoa pode ter só algumas: **ver**, **cadastrar**,
 **alterar** e **remover**. Quem só pode ver encontra a tela mais enxuta: sem **"Cadastrar pessoa"**, sem caixas de
 seleção, sem **"Remover"**, e com **"Abrir"** no lugar de **"Editar"** — a ficha abre **travada**,
-com o botão **"Fechar"** no lugar de **"Salvar"**.
+sem o botão **"Salvar"** e com **"Voltar à lista"** no lugar de **"Cancelar"**.
 
 ![Lista de pessoas da organização, com busca, seleção em lote e as colunas Nome, CPF, Contato, Conta e Ações](/assets/capturas/pessoas-lista-desktop.png)
 {: .mt-4 }
@@ -69,22 +108,29 @@ No celular, cada pessoa vira um cartão com os mesmos dados e os mesmos botões:
 
 ## Cadastrar uma pessoa
 
-1. Abra a aba **"Pessoas"** e clique em **"Cadastrar pessoa"**.
-2. Preencha o **"Nome"**. É o único campo obrigatório — a janela diz: *"Informe ao menos o nome.
+1. Em **"Lista de pessoas"**, clique em **"Cadastrar pessoa"**.
+2. Preencha o **"Nome"**. É o único campo obrigatório — a tela diz: *"Informe ao menos o nome.
    Todo o resto é opcional."*
 3. Se quiser, preencha **"Nome social"**, **"CPF"** e **"Data de nascimento"**.
 4. Em **"Telefones"** e **"E-mails"**, preencha um campo para cada contato (veja abaixo).
 5. Preencha o **"Endereço"**, se for útil: **"CEP"**, **"Logradouro"**, **"Número"**,
    **"Complemento"**, **"Bairro"**, **"Cidade"** e **"UF"**.
-6. Clique em **"Cadastrar"**. Para desistir, **"Cancelar"**.
+6. Clique em **"Cadastrar"**. Para desistir, **"Cancelar"** — ou o link **"← Lista de pessoas"**, no
+   alto da tela.
 
-A ficha abre numa janela sobre a lista; o endereço do navegador não muda. De propósito: assim o CPF
-nunca aparece em endereço de página, em favorito nem em histórico.
+O cadastro é uma **tela própria**, com o título **"Cadastrar pessoa"**, e não mais uma janela por
+cima da lista. **Depois de cadastrar, você vai para a ficha da pessoa** que acabou de criar, e não
+de volta à lista — assim dá para conferir o que ficou salvo antes de seguir.
 
-![Janela Cadastrar pessoa, com todos os campos em branco](/assets/capturas/pessoas-ficha-nova-desktop.png)
+{: .note }
+As imagens desta página mostram o cadastro e a ficha como **janelas sobre a lista**, que era como
+eram antes. Os campos e os botões de dentro continuam os mesmos; muda o que está em volta: agora é
+uma tela inteira, com o link "← Lista de pessoas" no alto.
+
+![Janela Cadastrar pessoa, com todos os campos em branco (imagem de uma versão anterior, em que o cadastro era uma janela)](/assets/capturas/pessoas-ficha-nova-desktop.png)
 {: .mt-4 }
 
-![A mesma janela no celular](/assets/capturas/pessoas-ficha-nova-celular.png){: style="max-width:375px" }
+![A mesma janela no celular (imagem de uma versão anterior)](/assets/capturas/pessoas-ficha-nova-celular.png){: style="max-width:375px" }
 
 ### Telefones e e-mails
 
@@ -107,21 +153,39 @@ Digitar os pontos e o traço também funciona.
 ## Abrir e alterar uma ficha
 
 Clique no **nome** da pessoa ou em **"Editar"** na linha dela (quem só pode ver encontra
-**"Abrir"** no lugar). A janela mostra *"Altere o que for preciso e salve."* — ou, para quem só
-pode ver, *"Você pode ver esta ficha, mas não alterá-la."*
+**"Abrir"** no lugar). A ficha abre numa **tela própria**: o título é o **nome da pessoa**, e no
+alto há o link **"← Lista de pessoas"** para voltar. A tela diz *"Altere o que for preciso e
+salve."* — ou, para quem só pode ver, *"Você pode ver esta ficha, mas não alterá-la."*
 
-Ao salvar, o que você **trocou nas listas de telefones e e-mails** vale por inteiro: a lista que está
-na tela é a lista que fica. Se você removeu um telefone da tela e clicou em **"Salvar"**, ele deixa
-de existir na ficha.
+Ao salvar, a tela confirma com **"Ficha salva."** e você continua na ficha. O que você **trocou nas
+listas de telefones e e-mails** vale por inteiro: a lista que está na tela é a lista que fica. Se
+você removeu um telefone da tela e clicou em **"Salvar"**, ele deixa de existir na ficha. Para sair
+sem salvar, **"Cancelar"** (ou **"Voltar à lista"**, para quem só pode ver).
 
-No rodapé da janela, uma frase diz se a pessoa tem conta: *"Esta pessoa não tem conta de acesso.
+No rodapé da ficha, uma frase diz se a pessoa tem conta: *"Esta pessoa não tem conta de acesso.
 Isso é normal: a ficha não depende de conta."* ou *"Esta pessoa também tem conta de acesso à
 organização."*
 
-![Ficha aberta para alteração, com nome social, vários telefones e e-mails](/assets/capturas/pessoas-ficha-desktop.png)
+![Ficha aberta para alteração, com nome social, vários telefones e e-mails (imagem de uma versão anterior, em que a ficha era uma janela)](/assets/capturas/pessoas-ficha-desktop.png)
 {: .mt-4 }
 
-![A ficha no celular](/assets/capturas/pessoas-ficha-celular.png){: style="max-width:375px" }
+![A ficha no celular (imagem de uma versão anterior)](/assets/capturas/pessoas-ficha-celular.png){: style="max-width:375px" }
+
+### Mandar o link de uma ficha
+
+Cada ficha tem **endereço próprio** (`/pessoas/` seguido de um identificador). Copie o endereço do
+navegador e **mande para quem precisa olhar aquela ficha** — uma colega que vai ligar para a
+pessoa, por exemplo. Quem abrir precisa **estar logada, na mesma organização, e ter permissão de
+ver pessoas**.
+
+Por que isso é seguro: o identificador no endereço não é o CPF nem o nome — é um código sem
+significado. O CPF **nunca** aparece em endereço de página, em favorito ou em histórico.
+
+- Para quem **não** tem permissão de ver pessoas, o link mostra *"Você não tem permissão para ver
+  as pessoas desta organização."*
+- Para uma ficha que foi removida, ou aberta na organização errada, a tela diz *"Esta ficha não foi
+  encontrada. Ela pode ter sido removida, ou o endereço está incorreto."* — a **mesma** frase nos
+  dois casos, de propósito: a tela não revela se a ficha existe em outra organização.
 
 ## Buscar
 
@@ -216,6 +280,9 @@ não devolve o que foi apagado.
   cadastra nunca aparece para a outra.
 - **O CPF é conferido.** Um número que não passa na conferência dos dígitos é recusado — veja abaixo.
   Se a pessoa não tem CPF à mão, deixe o campo em branco: ele é opcional.
+- **Ficha e acesso são decisões separadas.** Cadastrar alguém aqui não dá acesso a nada; para dar
+  acesso, convide em [Membros](/configuracoes/membros-e-papeis/). E remover a ficha não tira o
+  acesso de quem já é membro.
 - **Prefira o rótulo a um telefone sem explicação.** Quando uma ficha acumula três números, o rótulo
   ("celular", "recados") evita ligar para o lugar errado.
 - **Remover não é arquivar.** Não existe, hoje, um jeito de "guardar" uma ficha fora da lista: o que
@@ -229,24 +296,36 @@ não devolve o que foi apagado.
   pelo CPF e abra a ficha que existe.
 - **"Não foi possível listar as pessoas."** — a lista não carregou. Recarregue a página; se
   persistir, avise quem administra a organização.
-- **"Não foi possível abrir esta pessoa."** — a ficha não carregou, ou foi removida enquanto você
-  olhava a lista. Feche a janela e atualize a lista.
+- **"Não foi possível abrir esta pessoa."** — a ficha não carregou. Recarregue a página; se
+  persistir, volte à lista por **"← Lista de pessoas"** e abra a ficha de novo.
+- **"Esta ficha não foi encontrada. Ela pode ter sido removida, ou o endereço está incorreto."** — o
+  link aponta para uma ficha que não existe nesta organização: foi removida, o endereço foi copiado
+  pela metade, ou você está na organização errada (confira o seletor no alto da tela). Volte à
+  lista e busque a pessoa pelo nome.
+- **"Você não tem permissão para cadastrar pessoas nesta organização."** — você abriu o endereço de
+  cadastro sem a permissão de cadastrar. Peça a quem administra a organização.
 - **"Não foi possível salvar."** — o servidor não aceitou o cadastro; quando houver detalhe (um
-  campo inválido, por exemplo), ele vem junto, na mesma faixa vermelha no alto da janela. Corrija e
+  campo inválido, por exemplo), ele vem junto, na mesma faixa vermelha no alto da ficha. Corrija e
   tente de novo.
 - **"Não foi possível remover."** — a remoção não foi feita. Tente de novo; se continuar, avise quem
   administra a organização.
 - **"Você não tem permissão para ver as pessoas desta organização."** — o seu papel não alcança o
   cadastro. Peça a quem administra a organização.
 - **"Nenhuma organização ativa. Escolha uma no seletor, ao lado da logo."** — escolha a organização
-  antes de abrir a aba. Se você ainda não participa de nenhuma, a mensagem é *"Você ainda não tem
+  antes de abrir Pessoas. Se você ainda não participa de nenhuma, a mensagem é *"Você ainda não tem
   vínculo com nenhuma organização."*, e o caminho é [Primeiros passos](/primeiros-passos/).
-- **"Não vejo a aba Pessoas."** — confira se o seletor, no alto da tela, está na organização certa.
-  Quem participa só como convidado, de fora da organização, não alcança o cadastro de pessoas.
+- **"Não vejo Pessoas na barra lateral."** — confira se o seletor, no alto da tela, está na
+  organização certa. Quem participa só como convidado, de fora da organização, não alcança o
+  cadastro de pessoas, e o item não aparece. (Pessoas **não** depende de módulo: se o Flow ou o
+  Realiza não aparecem, isso não é a causa.)
+- **"Pessoa que eu conheço não aparece aqui, mas está em Membros."** — Membros lista quem tem
+  acesso; Pessoas lista as fichas. Quem entrou por convite pode não ter ficha ainda: em
+  **Membros**, o botão **"Criar ficha"**, ao lado do nome, cria uma a partir dos dados da conta — ele
+  aparece para quem tem permissão de cadastrar pessoas.
 
 ## Limites do papel
 
-Quem administra a organização cadastra, altera e remove fichas. Os demais membros veem a aba, mas o
+Quem administra a organização cadastra, altera e remove fichas. Os demais membros veem Pessoas, mas o
 que fazem nela depende das quatro partes da permissão (ver, cadastrar, alterar, remover): quem só
 pode ver consulta a lista e abre a ficha travada, sem os botões de cadastrar e remover. Convidados de
 fora da organização não alcançam o cadastro. O botão que você não pode usar simplesmente não

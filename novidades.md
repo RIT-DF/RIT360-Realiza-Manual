@@ -17,6 +17,57 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 12 de outubro de 2026 — versão 0.52.0
+
+Esta versão mexe no **lugar** de quatro coisas na tela. Nada do que você tinha salvo mudou, e os
+endereços antigos continuam funcionando.
+
+{: .note }
+Algumas imagens deste manual ainda mostram a navegação de antes — o item "Administração" na barra
+lateral, a ficha de pessoa como janela, a configuração da organização numa tela só. Onde a imagem e o
+texto divergirem, vale o texto; as imagens serão refeitas depois que a navegação parar de mudar.
+
+### Modificado
+
+- **Pessoas saiu das abas do Realiza e ganhou lugar próprio na barra lateral**, no topo, separada
+  dos módulos por um filete. A razão: pessoa é da casa, não de um produto — se o cadastro de gente
+  dependesse de um módulo, quem quisesse só outro módulo teria de contratá-lo para ter onde
+  cadastrar alguém. Pessoas **não some quando um módulo é desligado**. Ela tem duas abas, **"Visão
+  geral"** — que por ora mostra só o total de pessoas que a organização conhece — e **"Lista de
+  pessoas"** (a antiga "Pessoas"). O Realiza ficou com quatro abas: Meu trabalho, Espaços,
+  Conhecimento e Clientes. Veja [Pessoas](/pessoas/) e
+  [Os produtos na barra lateral](/produtos/).
+- **A ficha de uma pessoa agora é uma tela, com endereço próprio, no lugar da janela por cima da
+  lista.** Dá para **mandar o link de uma ficha** a quem tem permissão de vê-la. O endereço carrega
+  só um código — nunca o CPF nem o nome. Depois de **cadastrar** uma pessoa, você vai para a ficha
+  dela, em vez de voltar à lista. Veja [Pessoas](/pessoas/).
+- **A configuração da organização, que era uma tela só com tudo empilhado, virou uma área com cinco
+  abas** — **"Informações básicas"**, **"Membros"**, **"IA"**, **"Integrações"** e **"Exportação e
+  importação"** —, aberta pela engrenagem do cabeçalho. O endereço antigo leva a "Informações
+  básicas". Em **Membros**, o nome de cada um leva à ficha da pessoa, e quem ainda não tem ficha
+  ganha uma pelo botão **"Criar ficha"**. Veja
+  [Dados e identidade da organização](/configuracoes/organizacao/) e
+  [Membros, papéis e convites](/configuracoes/membros-e-papeis/).
+- **A administração do serviço saiu da barra lateral e virou um ícone de escudo no cabeçalho**, entre
+  a engrenagem e o avatar. Só aparece para quem administra o serviço. Os endereços e as seis abas não
+  mudaram. Veja [Administração do serviço](/admin-servico/).
+- **Entrega de webhook parada porque o módulo está desligado agora diz isso.** Aparece como
+  **"Adiada — módulo desligado"**, com a explicação de que a entrega não se perde e só sai quando o
+  módulo for religado, em vez de "Na fila" — que fazia esperar um aviso que não ia sair. Veja
+  [Integrações](/configuracoes/integracoes/).
+
+### Para ter cuidado
+
+- **Pessoas e Membros não são a mesma lista.** Pessoas é quem a organização conhece, com ou sem
+  login; Membros é quem tem acesso ao sistema. Convidar e decidir pedidos de entrada continuam sendo
+  atos de acesso, e ficam em Membros.
+- **Três coisas com nome parecido, cada uma com dono e tela própria:** exportar os dados da
+  organização (aba "Exportação e importação"), exportar os seus próprios dados (menu do avatar) e
+  mudar a instalação inteira de servidor (administração do serviço). **Importar** os dados da
+  organização ainda não está disponível. Veja [Exportar dados](/configuracoes/exportar-dados/).
+
+---
+
 ## 12 de outubro de 2026 — versão 0.40.0
 
 ### Adicionado
@@ -38,8 +89,8 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 - **Remover uma pessoa apaga a ficha, e não há como desfazer.** Se ela tiver conta de acesso, a
   conta continua existindo.
 - **Na lista o CPF aparece só com o miolo**; inteiro, só dentro da ficha. A busca por pedaço de
-  CPF funciona do mesmo jeito. E, como nenhum endereço de página carrega CPF, **não dá para
-  mandar o link de uma ficha** a alguém.
+  CPF funciona do mesmo jeito. (Na época, **não dava para mandar o link de uma ficha**; isso mudou
+  na versão 0.52.0, e o endereço continua sem carregar CPF.)
 
 ---
 
@@ -317,7 +368,7 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
   telas para vê-las. No computador elas aparecem lado a lado; no celular, uma abaixo da
   outra e recolhidas, com um botão para mostrar cada uma. Os endereços próprios de cada
   assunto continuam funcionando. Veja [O que você encontra aqui, por
-  aba](/admin-servico/#o-que-você-encontra-aqui-por-aba).
+  aba](/admin-servico/#o-que-você-encontra-aqui-por-item-da-barra).
 
 ---
 

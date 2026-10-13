@@ -28,9 +28,32 @@ dele, não o acesso da organização ao que ela mesma criou.
 
 ## Acessar
 
-Pelo menu do seu avatar, clique em **"Exportar meus dados"**. Quem administra a organização também
-encontra o caminho pelo cartão **"Exportar dados"**, em
-[Dados e identidade da organização](/configuracoes/organizacao/).
+Há dois caminhos, e eles levam à mesma tela de pedidos:
+
+- **Para os seus próprios dados:** pelo menu do seu avatar, clique em **"Exportar meus dados"**. A
+  tela se chama **"Exportar dados"**.
+- **Para os dados da organização:** quem administra a organização abre a engrenagem do cabeçalho
+  (**"Configurações da organização"**) e a aba **"Exportação e importação"**. A tela se chama
+  **"Exportação e importação"**, o endereço é `/organizacao/exportacao`, e ela traz os dois botões:
+  **"Exportar meus dados"** e **"Exportar a organização"**.
+
+## Três coisas que se parecem, e não são a mesma
+
+O produto tem três funções com nome parecido. Cada uma tem dono e tela própria, e trocar uma pela
+outra custa caro:
+
+| O que você quer | Quem faz | Onde fica |
+|---|---|---|
+| **Levar os dados da organização embora** (exportar) — e, um dia, trazê-los de volta (importar) | Quem administra a **organização** | Aba **"Exportação e importação"**, na engrenagem do cabeçalho — esta página |
+| **Levar os seus próprios dados** | Qualquer pessoa | **"Exportar meus dados"**, no menu do seu avatar |
+| **Mudar a instalação inteira de servidor** | Quem administra o **serviço** | Administração do serviço, aba "Manutenção" — veja [Mudar de servidor](/admin-servico/mudar-de-servidor/) |
+
+{: .warning }
+**Importar os dados da organização ainda não está disponível.** A aba diz isso na tela: *"Trazer
+esses dados de volta (importar) ainda não está disponível."* Hoje ela só **exporta**. Não confunda
+com o "importar" de **Mudar de servidor**, que é outra coisa: devolve a **instalação inteira** — todas
+as organizações — num servidor novo, e é feito por quem administra o serviço, nunca por uma
+organização.
 
 ## Pedir uma exportação
 

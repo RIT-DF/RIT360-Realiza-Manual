@@ -78,6 +78,14 @@ reenviar ou cancelar.
 
 A visão de todos os espaços ligados a um mesmo cliente.
 
+## Da casa
+
+O que toda organização tem na RIT360 Plataforma e **não se contrata**, por oposição aos **módulos**,
+que a organização vê só se foram habilitados para ela. Hoje, o que é da casa é **Pessoas**, o
+cadastro de quem a organização conhece: fica no topo da barra lateral, separado dos módulos por um
+filete, e não some quando um módulo é desligado. Ver
+[Os produtos na barra lateral](/produtos/).
+
 ## Dependência
 
 A relação entre duas tarefas em que uma precisa terminar antes da outra. O
@@ -157,6 +165,14 @@ Qualquer coisa anexada a um cartão: arquivo, link ou texto. É a palavra que o
 produto usa enquanto ninguém pediu aprovação. Ver
 [Anexar material](/trabalho/anexar-material/).
 
+## Membro
+
+Quem tem **acesso ao sistema** numa organização — alguém com conta, um **papel** (Administrador,
+Membro ou Convidado) e permissões. É diferente de **pessoa**: pessoa é quem a organização conhece e
+pode nunca ter login. A lista de membros fica na aba **"Membros"** da organização (engrenagem do
+cabeçalho), e é onde se convida, se troca o papel e se tira o acesso. Ver
+[Membros, papéis e convites](/configuracoes/membros-e-papeis/) e [Pessoas](/pessoas/).
+
 ## Modelo de ciclo
 
 Um conjunto de tarefas diferentes que sempre acontecem juntas quando um ciclo de trabalho começa
@@ -171,7 +187,8 @@ A palavra tem dois usos, em lugares diferentes da tela:
 - **Cada produto da família RIT360** — hoje o RIT360 Realiza e o RIT360 Flow. É o sentido da coluna **"Módulos"**
   na tela [Organizações](/admin-servico/organizacoes/#ligar-e-desligar-módulos-de-uma-organização)
   de quem administra o serviço e da frase que aparece ao clicar num item **"não habilitado"** na
-  barra lateral. Uma organização pode ter um módulo **ligado** (habilitado) ou **desligado**. Ver
+  barra lateral, sob o rótulo "MÓDULOS". Uma organização pode ter um módulo **ligado**
+  (habilitado) ou **desligado**. **Pessoas não é módulo**: é **da casa**. Ver
   [Os produtos na barra lateral](/produtos/).
 - **Cada uma das partes em que a RIT360 Plataforma é dividida por dentro**, entre elas Trabalho (espaços e
   tarefas), Comunicação (avisos e e-mails) e Núcleo (organizações e pessoas). Só aparece na tela de
@@ -214,6 +231,13 @@ Duas coisas diferentes, conforme onde a palavra aparece:
 - **Pedido de entrada** e **pedido de organização**: solicitações para entrar numa organização, ou
   para criar uma organização nova, feitas antes de haver qualquer vínculo. Ver
   [Pedidos de entrada](/configuracoes/pedidos-de-entrada/).
+
+## Pessoa
+
+Quem a organização **conhece**, com uma **ficha** (nome, CPF, contatos, endereço) — tenha ou não
+conta. A lista fica em **Pessoas**, no topo da barra lateral. Não é o mesmo que **membro**: membro é
+quem tem acesso ao sistema. Quem é membro e também tem ficha aparece nas duas listas. Ver
+[Pessoas](/pessoas/).
 
 ## Plataforma (RIT360 Plataforma)
 
@@ -300,7 +324,7 @@ e uma página pode ser publicada num endereço público. Ver
 
 ## Administração do serviço
 
-A área de quem cuida da instalação da RIT360 Plataforma, não de uma organização. Fica no item
-**"Administração"** da barra lateral, visível só para essa pessoa. Quem
-administra o serviço **não tem acesso ao conteúdo das organizações**. Ver
+A área de quem cuida da instalação da RIT360 Plataforma, não de uma organização. Abre pelo **ícone
+de escudo** do cabeçalho, entre a engrenagem e o avatar, visível só para essa pessoa — **não** está
+na barra lateral. Quem administra o serviço **não tem acesso ao conteúdo das organizações**. Ver
 [Administração do serviço](/admin-servico/).

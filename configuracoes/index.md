@@ -16,20 +16,21 @@ organização. Cada página resolve uma coisa:
   preferências de aviso vivem dentro do seu perfil.
 - [Telegram](/configuracoes/telegram/) — converse com o assistente pelo Telegram, fora do
   aplicativo. Também é seu.
-- [Dados e identidade da organização](/configuracoes/organizacao/) — o nome, a imagem e os dados
-  de contato da organização, além do domínio de reconhecimento. É da organização, e só quem a
-  administra altera.
-- [Membros, papéis e convites](/configuracoes/membros-e-papeis/) — quem faz parte da organização,
-  o que cada papel alcança e como convidar mais gente. Também é da organização.
+- [Dados e identidade da organização](/configuracoes/organizacao/) — a área da organização, que se
+  abre pela engrenagem do cabeçalho e tem cinco abas. Esta página explica a primeira, **"Informações
+  básicas"** (nome, imagem, dados de contato e domínio de reconhecimento) e o mapa das outras.
+  É da organização, e só quem a administra altera.
+- [Membros, papéis e convites](/configuracoes/membros-e-papeis/) — a aba **"Membros"**: quem tem
+  acesso à organização, o que cada papel alcança e como convidar mais gente. Também é da organização.
 - [Pedidos de entrada](/configuracoes/pedidos-de-entrada/) — gente pedindo para entrar pelo
-  domínio da organização, esperando sua decisão. Da organização.
-- [Inteligência artificial na sua organização](/configuracoes/inteligencia-artificial/) — se e como
-  a organização permite que IA trate os dados dela, e quanto isso está consumindo. Da organização,
-  e é ela que decide.
-- [Integrações](/configuracoes/integracoes/) — chaves de API e webhooks para conectar sistemas
-  externos a esta organização. Da organização.
-- [Exportar dados](/configuracoes/exportar-dados/) — baixe um pacote com os seus dados, ou com os
-  da organização inteira.
+  domínio da organização, esperando sua decisão. Mora em Membros.
+- [Inteligência artificial na sua organização](/configuracoes/inteligencia-artificial/) — a aba
+  **"IA"**: se e como a organização permite que IA trate os dados dela, e quanto isso está
+  consumindo. Da organização, e é ela que decide.
+- [Integrações](/configuracoes/integracoes/) — a aba **"Integrações"**: chaves de API e webhooks
+  para conectar sistemas externos a esta organização. Da organização.
+- [Exportar dados](/configuracoes/exportar-dados/) — baixe um pacote com os seus dados (menu do
+  avatar) ou com os da organização inteira (aba **"Exportação e importação"**).
 
 {: .note }
 As páginas que dizem "é seu" acompanham você em qualquer organização. As que dizem "é da

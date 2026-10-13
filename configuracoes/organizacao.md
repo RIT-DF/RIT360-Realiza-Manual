@@ -3,7 +3,7 @@ title: "Dados e identidade da organização"
 nav_order: 3
 parent: "Configurações"
 permalink: /configuracoes/organizacao/
-palavras_chave: "logo, ícone, favicon, razão social, domínio de reconhecimento, ficha da organização"
+palavras_chave: "logo, ícone, favicon, razão social, domínio de reconhecimento, ficha da organização, engrenagem, configurações da organização, informações básicas, abas da organização, onde configurar a organização"
 ---
 
 # Dados e identidade da organização
@@ -17,24 +17,49 @@ Criar uma organização não é algo que você faz por aqui, dentro do produto j
 feito na tela de entrada, antes de existir conta — veja
 [Primeiros passos](/primeiros-passos/), seção "Solicitar a criação da minha organização".
 
-## Quem alcança esta tela
+## Onde fica: a engrenagem do cabeçalho
 
-Só quem administra a organização ativa vê o link **"Configurar esta organização"** e alcança a
-tela de configurações. Quem não administra e chega direto ao endereço vê: "Você não administra
-[nome da organização] — só quem administra altera as configurações dela." — a mesma recusa vale
-mesmo que a pessoa digite o endereço direto, porque quem decide de verdade quem entra é o
-servidor, não a tela.
+Tudo o que quem administra a organização ajusta nela mora numa área própria, que se abre pela
+**engrenagem** do cabeçalho (o ícone chama-se **"Configurações da organização"**), no canto
+direito, ao lado dos ícones de avisos e de feedback. Há também o link **"Configurar esta
+organização"**, no seletor de organização. A área tem **cinco abas**, cada uma com a sua tela e o
+seu endereço:
 
-## Os outros dois links desta tela
+| Aba | O que tem | Onde está explicado |
+|---|---|---|
+| **"Informações básicas"** | Logo, ícone, razão social, contato, site e domínio de reconhecimento. | Esta página. |
+| **"Membros"** | Quem tem acesso à organização, os papéis, os convites e os **"Pedidos de entrada"**. | [Membros, papéis e convites](/configuracoes/membros-e-papeis/) e [Pedidos de entrada](/configuracoes/pedidos-de-entrada/) |
+| **"IA"** | Se e como a organização permite que IA trate os dados dela, os provedores próprios e o consumo. | [Inteligência artificial na sua organização](/configuracoes/inteligencia-artificial/) |
+| **"Integrações"** | Chaves de API e webhooks. | [Integrações](/configuracoes/integracoes/) |
+| **"Exportação e importação"** | Levar os dados da organização embora. | [Exportar dados](/configuracoes/exportar-dados/) |
 
-No topo, ao lado do título, dois links levam a assuntos que também são "da organização" mas têm
-página própria:
+Por que são abas: antes, tudo isso ficava empilhado numa tela só, e achar uma configuração era
+rolar a página inteira. Agora cada assunto tem o seu lugar, e dá para guardar nos favoritos, ou
+mandar a um colega que também administra, o endereço exato do que se quer: `/organizacao/informacoes`,
+`/organizacao/membros`, `/organizacao/ia`, `/organizacao/integracoes` e `/organizacao/exportacao`.
 
-- [Pedidos de entrada](/configuracoes/pedidos-de-entrada/) — gente com e-mail do mesmo domínio
-  pedindo para entrar, esperando sua decisão.
-- [Integrações](/configuracoes/integracoes/) — chaves de API e webhooks, para conectar sistemas
-  externos a esta organização.
+{: .note }
+O endereço antigo, `/organizacao/configuracoes`, continua funcionando: ele leva a **"Informações
+básicas"**. Favorito guardado antes da mudança não quebrou.
 
+{: .tip }
+**Pessoas e Membros não são a mesma lista.** **Membros**, aqui, é quem tem **acesso ao sistema**,
+com papel e permissões. **[Pessoas](/pessoas/)**, na barra lateral, é quem a organização
+**conhece** — pode nunca ter login. Convidar e decidir pedidos de entrada são atos de acesso, e por
+isso moram em Membros.
+
+## Quem alcança esta área
+
+Só quem administra a organização ativa vê a engrenagem e o link **"Configurar esta organização"** e
+alcança as cinco abas. Quem não administra e chega direto a um endereço da área vê: "Você não
+administra [nome da organização] — só quem administra altera as configurações dela." — a mesma
+recusa vale mesmo que a pessoa digite o endereço direto, porque quem decide de verdade quem entra é
+o servidor, não a tela.
+
+## Informações básicas
+
+Esta aba abre com o título **"Informações básicas de [nome da organização]"**, e o que vem a seguir
+é o que ela contém.
 
 ## Logo e ícone são dois arquivos diferentes
 
@@ -58,12 +83,17 @@ Trocar uma não afeta a outra: enviar uma logo nova não muda o ícone, e vice-v
 
 O site cadastrado aparece como link clicável ao lado do campo, assim que salvo.
 
-![Tela Configurações de Instituto Semente, com os links Pedidos de entrada e Integrações no topo e o campo Domínio de reconhecimento na ficha](/assets/capturas/organizacao-configuracoes-desktop.png)
+{: .note }
+As duas imagens abaixo são da tela de configurações **antes das abas**: ela ainda mostra os links
+"Pedidos de entrada" e "Integrações" no topo e outras seções empilhadas. O campo **"Domínio de
+reconhecimento"** e os demais campos da ficha são os mesmos.
+
+![Tela Configurações de Instituto Semente, com os links Pedidos de entrada e Integrações no topo e o campo Domínio de reconhecimento na ficha (imagem de antes das abas)](/assets/capturas/organizacao-configuracoes-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Tela Configurações de Instituto Semente, com os links Pedidos de entrada e Integrações no topo e o campo Domínio de reconhecimento na ficha — no celular](/assets/capturas/organizacao-configuracoes-celular.png){: style="max-width:375px" }
+![Tela Configurações de Instituto Semente, com os links Pedidos de entrada e Integrações no topo e o campo Domínio de reconhecimento na ficha — no celular (imagem de antes das abas)](/assets/capturas/organizacao-configuracoes-celular.png){: style="max-width:375px" }
 
 {: .note }
 O nome de exibição da organização (o que aparece em toda tela, como "Instituto Semente") não muda
@@ -86,9 +116,8 @@ novo com esta organização.
 
 ## Exportar dados
 
-No cartão **"Exportar dados"**, o link **"Exportar a organização"** leva à tela onde você pede o
-pacote com os dados da organização inteira. Veja
-[Exportar dados](/configuracoes/exportar-dados/).
+A exportação dos dados da organização agora é uma aba própria, **"Exportação e importação"** — não
+mais um cartão desta tela. Veja [Exportar dados](/configuracoes/exportar-dados/).
 
 ## Exemplo
 

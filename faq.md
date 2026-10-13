@@ -2,7 +2,7 @@
 title: "Perguntas frequentes"
 nav_order: 12
 permalink: /faq/
-palavras_chave: "dúvidas comuns, ajuda, domínio autorizado, exportar dados, chave de api, inteligência artificial, cobrança"
+palavras_chave: "dúvidas comuns, ajuda, domínio autorizado, exportar dados, chave de api, inteligência artificial, cobrança, engrenagem, administração sumiu, pessoas ou membros, link da ficha, entrega adiada"
 ---
 
 # Perguntas frequentes
@@ -214,8 +214,39 @@ pronto. Ele alcança **aquele espaço e nada mais**. Veja
 ### Como exporto os dados da minha organização?
 
 Pelo menu do seu avatar, em **"Exportar meus dados"** — qualquer pessoa pode pedir a própria
-exportação. Quem administra a organização também pode pedir a exportação da organização inteira.
-Veja [Exportar dados](/configuracoes/exportar-dados/).
+exportação. Quem administra a organização pede a exportação da organização inteira na aba
+**"Exportação e importação"**, que se abre pela engrenagem do cabeçalho. Importar os dados de volta
+ainda não está disponível. Veja [Exportar dados](/configuracoes/exportar-dados/).
+
+### Onde ficaram as configurações da organização?
+
+Na **engrenagem** do cabeçalho, que só aparece para quem administra a organização. Ela abre uma
+área com cinco abas — **"Informações básicas"**, **"Membros"**, **"IA"**, **"Integrações"** e
+**"Exportação e importação"** —, cada uma no seu endereço. O link antigo
+(`/organizacao/configuracoes`) continua funcionando e leva a "Informações básicas". Veja
+[Dados e identidade da organização](/configuracoes/organizacao/).
+
+### Sumiu o item "Administração" da barra lateral. Onde ele foi parar?
+
+Quem administra o serviço o encontra agora no **ícone de escudo** do cabeçalho, entre a engrenagem e
+o avatar. A administração não é produto nem trabalho de uma organização, então saiu da lateral. Os
+endereços e as seis abas dela não mudaram. Se o escudo não aparece, a sua conta não administra o
+serviço. Veja [Administração do serviço](/admin-servico/#como-navegar).
+
+### Qual a diferença entre Pessoas e Membros?
+
+**Membros** são as pessoas que têm **acesso ao sistema** nesta organização, com papel e
+permissões — a lista fica na engrenagem do cabeçalho, na aba "Membros", e é onde se convida e se tira
+acesso. **Pessoas**, no topo da barra lateral, é o cadastro de quem a organização **conhece**, e
+cada uma tem uma ficha mesmo sem nunca ter feito login (um voluntário que só assina o termo, por
+exemplo). Quem é membro e também tem ficha aparece nas duas, e o nome do membro leva à ficha. Veja
+[Pessoas](/pessoas/#pessoas-e-membros-duas-listas-de-propósito).
+
+### Posso mandar para uma colega o link da ficha de uma pessoa?
+
+Pode. Cada ficha tem endereço próprio, e o endereço não carrega CPF nem nome — só um código. Quem
+abrir precisa estar logada, na mesma organização e com permissão de ver pessoas; sem a permissão, a
+tela diz que ela não pode ver as pessoas da organização. Veja [Pessoas](/pessoas/#mandar-o-link-de-uma-ficha).
 
 ### Na barra lateral tem um produto apagado, com a marca "não habilitado". É defeito?
 
@@ -254,6 +285,13 @@ Não tem como "ver" de novo uma chave já criada — ela só aparece em claro um
 que ainda usarem a chave revogada passam a receber erro de autenticação (401). Ao criar a nova,
 marque de novo o que ela deve alcançar: o alcance não é herdado da chave antiga nem pode ser editado
 depois, e uma chave criada sem nada marcado autentica mas é recusada em toda chamada.
+
+### Um webhook mostra a entrega como "Adiada — módulo desligado". É defeito?
+
+Não. O aviso nasceu num módulo (o RIT360 Realiza, por exemplo) que está desligado para a sua
+organização, e por isso ele **não vai sair** enquanto o módulo não for religado — o que é decisão de
+quem administra o serviço. Nada se perde: quando o módulo volta, a entrega segue. É diferente de
+**"Na fila"**, que é só a espera normal. Veja [Integrações](/configuracoes/integracoes/).
 
 ## Dados, privacidade e inteligência artificial
 

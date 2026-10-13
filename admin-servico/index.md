@@ -26,9 +26,11 @@ A administração não pertence a produto nenhum: ela cuida de todas as organiza
 produtos de uma vez. Por isso ela tem um lugar próprio, e não fica pendurada na navegação do
 RIT360 Realiza.
 
-**Para entrar:** quem administra o serviço vê, na barra lateral, o item **"Administração"**, abaixo
-de **Realiza** e **Flow**. No celular, o item está no menu que abre pelo botão **"Abrir
-navegação"**. Quem não administra o serviço nunca vê esse item.
+**Para entrar:** quem administra o serviço vê, no cabeçalho, um **ícone de escudo** — entre a engrenagem
+da organização e o seu avatar. É nele que se clica. O escudo existe em qualquer tela de dentro do aplicativo, no computador
+e no celular, e quem não administra o serviço nunca o vê. A administração **não** está na barra
+lateral: a lateral é o lugar de trabalhar, e cuidar da instalação não é trabalho de uma
+organização.
 
 **Estando dentro:** a barra principal muda. No lugar de Meu trabalho, Espaços, Conhecimento e
 Clientes, ela passa a mostrar **"Visão geral"**, **"Organizações"**, **"Acesso"**, **"Serviços"**,
@@ -41,9 +43,9 @@ abra o menu pelo botão **"Abrir navegação"** e escolha o produto.
 
 {: .tip }
 A barra acompanha você: mesmo três telas adiante, ela continua no alto (embaixo, no celular), e
-trocar de assunto é um clique — não é preciso voltar à primeira tela. Se você costumava usar o
-ícone de atalho **"Administração geral"** da barra de cima, ele saiu: o caminho agora é o item
-**"Administração"** da lateral.
+trocar de assunto é um clique — não é preciso voltar à primeira tela. O escudo só leva **para** a
+administração; o caminho de volta é **Realiza** (ou **Flow**) na lateral, ou a logo do cabeçalho,
+que leva a "Meu trabalho".
 
 {: .note }
 Nenhum endereço mudou. Link guardado nos favoritos para qualquer tela desta área continua

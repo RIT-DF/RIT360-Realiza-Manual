@@ -26,8 +26,10 @@ como "chave" e como "segredo" nesta página.
 
 ## Acessar
 
-Em [Dados e identidade da organização](/configuracoes/organizacao/), clique no link
-**"Integrações"**, no topo da tela.
+Pela engrenagem do cabeçalho (**"Configurações da organização"**), abra a aba **"Integrações"**. A
+tela abre com o título **"Integrações de [nome da organização]"**, e o endereço dela é
+`/organizacao/integracoes`. Veja a área inteira em
+[Dados e identidade da organização](/configuracoes/organizacao/#onde-fica-a-engrenagem-do-cabeçalho).
 
 {: .note }
 Só quem tem permissão para gerenciar chaves de API, para gerenciar webhooks, ou as duas, alcança
@@ -141,13 +143,36 @@ nada; se vai criar uma nova, procure o cabeçalho com o nome antigo, não um com
 
 Na linha do webhook, clique em **"Entregas"** para ver o estado de cada tentativa de aviso:
 
-- **"Na fila"** — ainda não foi tentado.
+- **"Na fila"** — ainda não foi tentado, e está esperando a vez normal.
+- **"Adiada — módulo desligado"** — o aviso não vai sair **por enquanto**, e a própria linha diz por
+  quê. Veja a explicação logo abaixo.
 - **"Entregue"** — o sistema de destino confirmou o recebimento.
 - **"Falhou — vai tentar de novo"** — a primeira tentativa não deu certo; a RIT360 Plataforma tenta de novo
   sozinho.
 - **"Esgotou as tentativas"** — todas as tentativas falharam. Aparece o botão **"Reenviar"**, para
   você forçar uma nova tentativa depois de corrigir o que estava impedindo o recebimento do outro
   lado.
+
+#### Quando a entrega aparece como "Adiada — módulo desligado"
+
+Cada aviso nasce em algum módulo — o RIT360 Realiza, por exemplo. Se esse módulo está **desligado**
+para a organização, os avisos que ele originou ficam parados, e a linha da entrega mostra, em vez
+de "Na fila", o selo **"Adiada — módulo desligado"** e uma frase como esta:
+
+> O módulo RIT360 Realiza está desligado nesta organização, então esta entrega fica adiada — não se
+> perde, mas só sai quando o módulo for religado pela administração do serviço.
+
+(O nome do módulo na frase muda conforme a origem.)
+
+Por que isso importa: "Na fila" faz esperar um aviso que está prestes a sair. Quando o módulo está
+desligado, **ele não vai sair** enquanto não for religado — e achar o contrário leva a procurar o
+defeito no webhook, na URL ou no sistema de destino, onde ele não está.
+
+- **Nada se perde.** A entrega adiada sai quando o módulo for religado.
+- **Quem religa é quem administra o serviço**, não a organização: ligar e desligar módulos é decisão
+  contratual. Peça a quem administra o serviço (veja [Organizações](/admin-servico/organizacoes/#ligar-e-desligar-módulos-de-uma-organização)).
+- **Se o módulo já foi religado**, a entrega deixa de aparecer como adiada e volta a seguir o curso
+  normal ("Na fila", e depois "Entregue" ou uma das falhas).
 
 ### Ligar, desligar e excluir
 

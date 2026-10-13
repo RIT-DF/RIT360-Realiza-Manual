@@ -43,7 +43,7 @@ A mesma tela no celular:
 
 O seletor **"Pessoa (da organização)"** só lista quem já faz parte do Instituto Semente. Para
 trazer alguém de outra organização — como Beatriz Lima, da Fundação Aroeira — a organização
-precisa convidá-la primeiro pela tela de administração da organização, com o papel **Convidado**;
+precisa convidá-la primeiro pela aba **"Membros"** da organização (a engrenagem do cabeçalho), com o papel **Convidado**;
 depois disso ela aparece disponível para ser adicionada aos espaços como qualquer outra pessoa.
 
 ## Convidar quem não é da organização

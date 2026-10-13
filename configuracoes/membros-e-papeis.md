@@ -3,15 +3,30 @@ title: "Membros, papéis e convites"
 nav_order: 4
 parent: "Configurações"
 permalink: /configuracoes/membros-e-papeis/
-palavras_chave: "convite vencido, cancelar convite, remover acesso, trocar de papel, tirar alguém da organização, seleção em lote"
+palavras_chave: "convite vencido, cancelar convite, remover acesso, trocar de papel, tirar alguém da organização, seleção em lote, criar ficha, membro ou pessoa, diferença entre membros e pessoas, aba membros"
 ---
 
 # Membros, papéis e convites
 
 Aqui você vê quem faz parte da organização, decide o que cada pessoa pode fazer nela e traz gente
-nova. Só quem administra a organização ativa alcança esta tela — veja
-[Dados e identidade da organização](/configuracoes/organizacao/) para como essa permissão é
-concedida.
+nova. Esta é a aba **"Membros"** da área da organização — a que se abre pela engrenagem do
+cabeçalho (veja [Dados e identidade da organização](/configuracoes/organizacao/#onde-fica-a-engrenagem-do-cabeçalho)).
+Só quem administra a organização ativa alcança esta tela; o endereço dela é `/organizacao/membros`.
+
+## Membros e Pessoas: não são a mesma lista
+
+**Membro** é quem tem **acesso ao sistema** nesta organização — alguém com conta, um papel e
+permissões. **[Pessoa](/pessoas/)** é quem a organização **conhece**: tem uma ficha com nome e
+contatos, e pode nunca ter login (um voluntário que só assina o termo, por exemplo).
+
+Por isso **convidar, trocar de papel, remover o acesso e decidir pedidos de entrada ficam aqui**:
+são atos de acesso. Cadastrar quem a organização conhece, sem dar acesso a nada, é em Pessoas. Quem
+é membro e também tem ficha aparece nas duas — e as duas se ligam, como se vê abaixo.
+
+## Pedidos de entrada
+
+No topo da aba, o link **"Pedidos de entrada"** leva à tela onde você decide os pedidos de gente
+com e-mail do domínio da organização. Veja [Pedidos de entrada](/configuracoes/pedidos-de-entrada/).
 
 ## Ver os membros
 
@@ -27,12 +42,27 @@ Para organizações com muita gente, três recursos ajudam a achar quem você pr
 Buscar ou ordenar sempre volta para a primeira página. Só recarregar a lista, sem mudar busca nem
 ordenação, mantém a página em que você estava.
 
-![Configurações da organização: identidade, membros e inteligência artificial](/assets/capturas/organizacao-configuracoes-desktop.png)
+![Configurações da organização: identidade, membros e inteligência artificial (imagem de antes das abas, quando tudo ficava numa tela só)](/assets/capturas/organizacao-configuracoes-desktop.png)
 {: .mt-4 }
 
 A mesma tela no celular:
 
-![Configurações da organização: identidade, membros e inteligência artificial — no celular](/assets/capturas/organizacao-configuracoes-celular.png){: style="max-width:375px" }
+![Configurações da organização: identidade, membros e inteligência artificial — no celular (imagem de antes das abas)](/assets/capturas/organizacao-configuracoes-celular.png){: style="max-width:375px" }
+
+## O nome leva à ficha
+
+Quando o membro tem **ficha** em [Pessoas](/pessoas/), o nome dele, na linha, é um link: um clique
+abre a ficha (nome, contatos, endereço). O link só aparece para quem **já pode ver** o cadastro de
+pessoas — para os demais, o nome é só texto.
+
+Membro que **ainda não tem ficha** mostra, ao lado do nome, o botão **"Criar ficha"** (que vira
+**"Criando ficha…"** enquanto trabalha). Ele cria a ficha com o **nome** e o **e-mail** da conta,
+já ligada a ela, e **abre a ficha recém-criada** para você completar o resto — CPF, telefone,
+endereço. O botão aparece para quem tem permissão de ver, alterar e cadastrar pessoas.
+
+{: .tip }
+Criar a ficha por aqui, em vez de cadastrar a pessoa à mão em Pessoas, já nasce ligada à conta de
+acesso: não sobra uma ficha solta de um lado e uma conta do outro para você juntar depois.
 
 ## Os três papéis na organização
 
