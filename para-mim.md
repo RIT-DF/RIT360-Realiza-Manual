@@ -9,7 +9,7 @@ palavras_chave: "primeira tela, tela inicial, o que espera por mim, meu trabalho
 
 **"Para mim"** é a primeira tela do dia. Ela junta, num lugar só, **o que espera por você em todos os
 produtos da RIT360 Plataforma**: a tarefa que está com você no Realiza, a candidatura que espera a
-sua decisão no Flow e o que mais vier. Você abre a tela, lê de cima para baixo e sabe o que precisa
+sua decisão no Flow, o documento que espera a sua assinatura e o que mais vier. Você abre a tela, lê de cima para baixo e sabe o que precisa
 fazer, sem passar produto por produto.
 
 {: .note }
@@ -48,7 +48,7 @@ Cada produto responde por si e ocupa uma **seção** da tela, nesta ordem:
 | Seção | O que mostra | Quem vê |
 |---|---|---|
 | **Realiza** | O que já era de "Meu trabalho": a lista de tarefas com as etiquetas "Atrasada", "Aguardando você" e "Esperando outra pessoa", a busca, e os cartões "Movimento nos meus espaços", "Agenda" e "Conversas". Tudo explicado em [Para mim: a parte do Realiza](/trabalho/meu-trabalho/). | Todos. |
-| **Flow** | Um cartão que diz **"N candidaturas esperando a sua decisão"** (ou **"1 candidatura esperando a sua decisão"**), com **"A mais antiga espera há N dias."** — e, se houver, **"N em conflito."** Um clique leva à aba [Candidaturas](/flow/candidaturas/). | Quem tem a permissão de decidir candidaturas — hoje, quem administra a organização. |
+| **Flow** | Duas coisas, cada uma só para quem é dela. **(1)** Um cartão que diz **"N candidaturas esperando a sua decisão"** (ou **"1 candidatura esperando a sua decisão"**), com **"A mais antiga espera há N dias."** — e, se houver, **"N em conflito."** Um clique leva à aba [Candidaturas](/flow/candidaturas/). **(2)** Uma linha por documento que espera a **sua assinatura**: o título, **"Espera a sua assinatura há N dias."** (ou **"desde hoje"**) e o botão **"Assinar"**. Veja [Assinar um documento pelo "Para mim"](#assinar-um-documento-pelo-para-mim). | **(1)** Quem tem a permissão de decidir candidaturas — hoje, quem administra a organização. **(2)** Quem tem conta e é uma das partes do documento. |
 
 Outros produtos entram na tela do mesmo jeito, quando existirem: cada um declara o que é seu, e
 "Para mim" não precisa ser refeita.
@@ -67,6 +67,78 @@ quando há mais de uma seção para separar.
 - **Produto em que você não tem nada a fazer também some.** Quem não pode decidir candidaturas não vê
   a seção do Flow, mesmo com o Flow ligado.
 - Se **nenhuma** seção sobrar para você, a tela diz **"Nada pendente para você agora."**
+
+## Assinar um documento pelo "Para mim"
+
+Quando uma organização manda um documento para assinatura — o termo de adesão de uma voluntária, uma
+autorização —, cada parte recebe um **e-mail com um link** (veja
+[Colher a assinatura de um documento](/flow/assinatura-de-documentos/)). Se você **tem conta** e é uma
+das partes, o documento **também aparece aqui**, na seção **"Flow"**: o título, a frase **"Espera a sua
+assinatura há N dias."** (ou **"Espera a sua assinatura desde hoje."**) e o botão **"Assinar"**.
+
+![Seção "Flow" da tela "Para mim" com um documento esperando a assinatura: o título, a frase "Espera a sua assinatura desde hoje." e o botão "Assinar"](/assets/capturas/para-mim-flow-assinar-desktop.png)
+
+![Seção "Flow" no celular, com o documento e o botão "Assinar" ao lado](/assets/capturas/para-mim-flow-assinar-celular.png){: style="max-width:375px" }
+
+### Por que isto importa
+
+O caminho de quem assina era um só: o e-mail. Se ele caía no spam, era apagado sem querer ou nunca
+chegava, o documento ficava esperando e **ninguém percebia** — nem a organização, que achava que tinha
+enviado, nem você, que nem sabia que havia algo para assinar. Agora existe uma segunda porta, na tela
+por onde o seu dia já começa.
+
+### Como assinar por aqui
+
+1. Em **"Para mim"**, na seção **"Flow"**, ache o documento e clique em **"Assinar"**.
+2. Abre a página do documento, dentro do produto. Leia o texto inteiro.
+3. Em **"Seu nome completo"**, digite o seu nome; marque **"Li o documento acima e concordo com o que
+   está escrito nele."**; clique em **"Aceitar o documento"**.
+
+![Página de assinatura aberta pelo "Para mim": o documento, a seção "Aceitar o documento" com o campo "Seu nome completo", a caixa de concordância e o botão "Aceitar o documento"](/assets/capturas/assinar-pela-sessao-desktop.png)
+
+![Página de assinatura aberta pelo "Para mim", no celular](/assets/capturas/assinar-pela-sessao-celular.png){: style="max-width:375px" }
+
+{: .important }
+**Abrir a página não assina nada.** A própria tela avisa: **"Abrir esta página só mostra o documento:
+nada foi assinado ainda."** O aceite só vale no segundo passo, quando você digita o nome, marca a caixa
+e clica em **"Aceitar o documento"**. Pode abrir, ler e fechar sem consequência.
+
+### As duas portas convivem
+
+Assinar por "Para mim" **não invalida o link que chegou por e-mail**, e abrir "Para mim" também não.
+Quem prefere o e-mail continua usando o e-mail; quem perdeu o e-mail usa o portal. O que vale é o
+aceite — feito por um caminho ou pelo outro, ele fica registrado do mesmo jeito, com o nome, o dia, a
+hora e o endereço de rede. E o documento **aparece no portal mesmo que o e-mail nunca tenha chegado**,
+que é justamente o caso em que o portal serve.
+
+### O que muda em relação ao link
+
+- **Não há prazo de link** na página: a frase **"Este link aceita até …"** só existe na página aberta
+  pelo e-mail. O que vale aqui é o documento continuar esperando a sua assinatura.
+- **Não há botão para baixar o PDF** nesse caminho. Depois que todas as partes aceitam e o documento é
+  selado, o PDF com o histórico segue indo **por e-mail e pelo link**; o link **"Conferir o documento"**
+  continua na página.
+
+### Quando o documento não aparece ou some
+
+- **Quem não tem conta não tem "Para mim".** O assinante externo — quem assina sem ter conta na
+  plataforma, como uma testemunha de fora — **só tem o e-mail**. Para ele nada mudou: se o
+  e-mail não chegou, a organização precisa reenviar o link (**"Reenviar o link"**, na janela
+  "Assinatura" do documento).
+- **O documento some do portal depois que você aceita** — é o esperado: ele já não espera a sua
+  assinatura. O mesmo vale quando a organização **encerra** o documento: ele sai da lista na hora.
+- **Documento encerrado ou vencido não aparece.** Se você abrir o endereço dele direto (de um favorito,
+  por exemplo), a tela diz **"Documento não encontrado"** e **"Este documento não está esperando a sua
+  assinatura."**, com o link **"Voltar para o "Para mim""**. Não é falha sua: o documento foi encerrado,
+  venceu ou você não é parte dele. Se você achava que devia assinar, peça a quem enviou que confira.
+- **Aparece "Não foi possível carregar Flow agora"?** Veja a seção [Quando um produto não
+  responde](#quando-um-produto-não-responde): a frase quer dizer "não sei", e pode haver documento
+  esperando.
+
+{: .warning }
+**Documentos de títulos parecidos exigem atenção à data.** Se você tem mais de um termo do mesmo tipo
+esperando, a tela os distingue pelo tempo de espera (**"Espera a sua assinatura há N dias."**). Olhe
+essa frase e abra o documento para conferir o texto antes de aceitar.
 
 ## Quando um produto não responde
 
@@ -98,7 +170,13 @@ mais antiga espera há 3 dias."** Ela abre o cartão, vai direto à aba Candidat
 antiga primeiro.
 
 Carlos Nunes, que executa tarefas e não decide candidaturas, abre a mesma tela e vê só a lista de
-tarefas, sem título de seção — nada do Flow é dele.
+tarefas, sem título de seção — nada do Flow é dele. (Se a organização tivesse enviado a ele um termo
+para assinar, aí sim a seção **"Flow"** apareceria, só com o termo e o botão **"Assinar"**.)
+
+Helena Barros é voluntária e recebeu o termo de adesão por e-mail na semana passada, mas o e-mail caiu
+no spam. Ao abrir "Para mim", ela vê em **"Flow"**: **"Termo de adesão"** — **"Espera a sua assinatura
+há 6 dias."** Clica em **"Assinar"**, lê, digita o nome, marca a caixa e aceita. O e-mail perdido já
+não faz falta.
 
 No dia seguinte o Flow está lento. Maria vê a lista do Realiza normal e, no lugar do cartão, a frase
 **"Não foi possível carregar Flow agora. Isso não quer dizer que não haja nada pendente."** Ela não
@@ -111,12 +189,16 @@ conclui que a fila acabou: clica em **"Tentar de novo"**, e o cartão volta.
   aparece, desconfie do silêncio.
 - **Clicar num item de outra organização troca a organização ativa.** Isso já era assim em "Meu
   trabalho" e continua: veja [a parte do Realiza](/trabalho/meu-trabalho/#dicas-e-armadilhas).
-- **A seção do Flow mostra só o que é seu para decidir.** Candidatura que você pode ver mas não decidir
-  não conta aqui; ela está na aba Candidaturas.
+- **A seção do Flow mostra só o que é seu.** Candidatura que você pode ver mas não decidir não conta
+  aqui; ela está na aba Candidaturas. E só entra o documento em que **você** é uma das partes.
+- **Documento esperando a sua assinatura é pendência de verdade**, não aviso. Enquanto você não aceita,
+  ele não vale — veja [Quanto tempo vale, encerrar e reabrir](/flow/vigencia-do-termo/).
+- **Não tenha medo de clicar em "Assinar" só para ler.** Abrir não assina; o aceite é outro ato.
 
 ## Limites do papel
 
-- Quem **não decide candidaturas** nunca vê a seção do Flow. Se você deveria decidir e o cartão não
+- Quem **não decide candidaturas e não é parte de nenhum documento esperando assinatura** nunca vê a
+  seção do Flow. Se você deveria decidir e o cartão não
   aparece, peça a permissão a quem administra a organização.
 - Quem é **convidado de fora** vê só o que é do espaço em que participa — veja
   [Para mim: a parte do Realiza](/trabalho/meu-trabalho/#o-que-quem-é-convidado-de-fora-vê).

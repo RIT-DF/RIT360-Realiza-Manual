@@ -175,6 +175,15 @@ falhando, abra o Flow direto pela barra lateral. "Nada pendente em Flow" é a re
 e não achou nada; "Não foi possível carregar" é a de quem não conseguiu olhar. Veja
 [Quando um produto não responde](/para-mim/#quando-um-produto-não-responde).
 
+### Não recebi o e-mail para assinar um documento. Como assino?
+
+Abra **"Para mim"**: se você tem conta e é uma das partes, o documento está na seção **"Flow"**, com
+**"Espera a sua assinatura há N dias."** e o botão **"Assinar"**. Clicar nele não assina nada — o aceite
+é um segundo passo, com o seu nome e a caixa de concordância — e **não invalida o link do e-mail**, se
+ele aparecer depois. Se você **não tem conta** (assinante externo), só o e-mail vale: peça a quem enviou
+que use **"Reenviar o link"**. Veja
+[Assinar um documento pelo "Para mim"](/para-mim/#assinar-um-documento-pelo-para-mim).
+
 ### Desliguei os avisos por e-mail. Vou perder pedidos de aprovação?
 
 Não. Desligar o aviso não elimina a pendência: ela continua no app, na sua tela

@@ -82,6 +82,26 @@ Depois do aceite, a página diz quantas partes ainda faltam. Quando todas aceita
 **"Documento aceito por todas as partes e selado"**, com o código de conferência, o botão **"Baixar o PDF
 com o histórico"** e o link **"Conferir o documento"**.
 
+### Quem tem conta também assina pelo "Para mim"
+
+Se a parte **tem conta** na plataforma, o documento também aparece na tela [Para mim](/para-mim/), na
+seção **"Flow"**, com o título, **"Espera a sua assinatura há N dias."** e o botão **"Assinar"**. É a
+segunda porta, para o e-mail que se perdeu: o documento aparece lá **mesmo que o e-mail nunca tenha
+chegado**.
+
+- **O link do e-mail continua valendo.** Assinar ou abrir pelo "Para mim" não o invalida, e as duas
+  portas dão o mesmo aceite, com o mesmo registro.
+- **A página é a mesma, e abrir também não assina:** *"Abrir esta página só mostra o documento: nada foi
+  assinado ainda."* O aceite é o segundo ato, com nome e caixa marcada.
+- **Quem não tem conta não tem "Para mim"** — o assinante externo só tem o e-mail, e é para ele que o
+  **"Reenviar o link"** existe.
+- **Pelo "Para mim" não há botão de baixar o PDF.** O PDF selado continua indo por e-mail e pelo link, e
+  **"Conferir o documento"** continua na página.
+- **Documento encerrado ou vencido não aparece**; pelo endereço direto a tela diz **"Documento não
+  encontrado"** / **"Este documento não está esperando a sua assinatura."**
+
+Passo a passo e capturas em [Assinar um documento pelo "Para mim"](/para-mim/#assinar-um-documento-pelo-para-mim).
+
 ## Acompanhar
 
 Volte à janela **"Assinatura"** (ou abra a aba "Documentos": a lista já mostra o estado). O resumo diz,
@@ -216,6 +236,9 @@ uma testemunha, **Carlos Nunes**, que também trabalha no Instituto Semente.
   caso de dúvida, emita de novo com o endereço correto.
 - **Digitar o nome não é o mesmo que provar quem é.** Para documento de pouco risco isso basta; para
   documento de muito risco, combine com outra forma de identificar a pessoa.
+- **Se a parte tem conta, ela não depende só do e-mail.** O documento aparece no "Para mim" dela. Se
+  alguém diz que não recebeu, peça que abra "Para mim" antes de reenviar o link — reenviar invalida o
+  anterior. Para quem não tem conta, reenviar é o único caminho.
 - **"Reenviar o link" invalida o anterior.** Se a pessoa já abriu o e-mail antigo, ela precisa usar o
   novo.
 - **Não mande o PDF selado como se fosse assinado digitalmente.** Quem o receber pode presumir
