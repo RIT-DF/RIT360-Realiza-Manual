@@ -301,10 +301,38 @@ com o último dia, mude a situação (com o motivo) e, se quiser, arquive. Nada 
 
 ### Um voluntário deixou a organização. Removo a ficha dele?
 
-Em geral, não. Remover apaga a ficha e os contatos, sem volta. O que registra a saída é a
-**situação**: mude para **Desligado**, com o motivo. A ficha continua, com o histórico, e a lista de
-pessoas dá para filtrar por situação. Veja
-[Classificação e situação](/pessoas/classificacao-e-situacao/).
+Em geral, não. Registre a saída pela **situação**: mude para **Desligado**, com o motivo. A ficha
+continua, com o histórico, e dá para filtrar a lista por situação. Se quiser a ficha fora da lista do
+dia a dia, **arquive**: nada se perde e, se a pessoa voltar, **"Reativar"** traz tudo de volta. Veja
+[Arquivar, reativar ou remover](/pessoas/#arquivar-reativar-ou-remover).
+
+### Qual a diferença entre arquivar e remover uma pessoa?
+
+**Arquivar** tira a pessoa das listas e das buscas, mas **não apaga nada**: candidatura, documentos,
+classificações e histórico continuam, e **"Reativar"** desfaz. **Remover** apaga de vez o cadastro, os
+contatos, o CPF, o endereço, as classificações e o histórico de situação — e **não tem volta**. Quem
+pode voltar um dia se arquiva; remover é para ficha criada por engano ou que não deve mais ser
+guardada. Veja [Arquivar, reativar ou remover](/pessoas/#arquivar-reativar-ou-remover).
+
+### Arquivei uma pessoa e ela sumiu da lista. Perdi a ficha?
+
+Não. A lista de Pessoas mostra, por padrão, só quem está **"Em uso"**. No seletor **"Mostrar"**,
+escolha **"Arquivadas"** (ou **"Todas"**) e clique em **"Reativar"** na linha dela. Não cadastre a
+pessoa de novo: o CPF repetido é recusado, e a ficha antiga ficaria esquecida.
+
+### O sistema não deixa remover uma pessoa. Por quê?
+
+Porque ela tem algo em curso — **candidatura em análise**, **documento com assinatura pendente** ou
+**termo de adesão vigente** — e a mensagem diz quais. Conclua o que está em andamento e tente de novo,
+ou **arquive** a ficha, que sempre é permitido. Se a mensagem disser que não foi possível conferir com
+o Flow, nada foi removido: tente de novo em instantes. Veja
+[Quando a remoção é recusada](/pessoas/#remocao-recusada).
+
+### Removi a ficha de uma pessoa. O termo que ela assinou foi junto?
+
+Não. Documento emitido **nunca se apaga**. Ele continua na aba **"Documentos"** do Flow, marcado como
+**«Ficha removida»**, com o nome de quando foi emitido. Veja
+[Todos os documentos da organização](/flow/emitir-documentos/#todos-os-documentos).
 
 ### Errei o motivo ao mudar a situação de uma pessoa. Posso editar?
 

@@ -17,6 +17,32 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 13 de outubro de 2026 — versão 0.57.0
+
+A ficha de pessoa ganha o **arquivar**, remover deixa de apagar às cegas, e os documentos da organização
+passam a ter **tela própria** no Flow.
+
+### Adicionado
+
+- **Arquivar e reativar uma pessoa.** Para quem sai e pode voltar: a pessoa some das listas e das buscas do
+  dia a dia, e **nada se perde** — candidatura, documentos, classificações e histórico continuam. Voltar é
+  **"Reativar"**, nunca cadastrar de novo. A lista de Pessoas ganhou o seletor **"Mostrar"** (**"Em uso"**,
+  **"Arquivadas"**, **"Todas"**), e vale por pessoa e em lote. Veja
+  [Arquivar, reativar ou remover](/pessoas/#arquivar-reativar-ou-remover).
+- **Aba "Documentos" no Flow**, entre **"Candidaturas"** e **"Configurações"**: todos os documentos da
+  organização numa lista só. O documento de uma ficha removida continua aparecendo ali, marcado **"Ficha
+  removida"**. Veja [Todos os documentos da organização](/flow/emitir-documentos/#todos-os-documentos).
+
+### Mudou
+
+- **Remover uma pessoa agora é recusado quando há algo em curso** — candidatura em análise, documento com
+  assinatura pendente ou termo de adesão vigente — e a mensagem diz quais são. Antes, a ficha era apagada
+  sem nenhuma checagem. A confirmação também passou a dizer o que se perde e o que fica, e lembra que
+  **arquivar** é o caminho para quem pode voltar. Veja
+  [Quando a remoção é recusada](/pessoas/#remocao-recusada).
+
+---
+
 ## 13 de outubro de 2026 — versão 0.56.0
 
 O documento deixa de ser só emitido e guardado: agora ele é **assinado por link**, o termo de adesão

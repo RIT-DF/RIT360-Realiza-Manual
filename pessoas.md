@@ -3,7 +3,7 @@ title: "Pessoas"
 nav_order: 6
 has_children: true
 permalink: /pessoas/
-palavras_chave: "cadastro de pessoas, ficha, voluntário, equipe, cpf, telefone, e-mail da pessoa, tirar alguém, apagar ficha, pessoa sem conta, buscar por cpf, nome social, link da ficha, visão geral, diferença entre pessoa e membro, pessoas ou membros, filtrar por situação, filtrar por classificação, quem está afastado"
+palavras_chave: "cadastro de pessoas, ficha, voluntário, equipe, cpf, telefone, e-mail da pessoa, tirar alguém, apagar ficha, pessoa sem conta, buscar por cpf, nome social, link da ficha, visão geral, diferença entre pessoa e membro, pessoas ou membros, filtrar por situação, filtrar por classificação, quem está afastado, arquivar pessoa, reativar, ficha arquivada, mostrar arquivadas, remover de vez, ficha removida, apagar de vez"
 ---
 
 # Pessoas
@@ -274,56 +274,161 @@ Na coluna **"Contato"** aparece o primeiro telefone e o primeiro e-mail. Quando 
 contatos do que esses dois, a linha acrescenta **"+ N contato(s)"**. O **nome social** aparece
 abaixo do nome, como **"Nome social: …"**.
 
-## Remover uma pessoa
+## Arquivar, reativar ou remover
 
-{: .warning }
-**Remover apaga de verdade, e não há como desfazer.** A ficha e os contatos somem. Se a pessoa tem
-conta de acesso, **a conta continua existindo** — remover a ficha **não** tira o acesso dela à
-organização. Para tirar o acesso, use [Membros, papéis e convites](/configuracoes/membros-e-papeis/).
+A ficha tem **duas** saídas da lista, e elas **não são a mesma coisa**. Escolher a errada é o erro
+mais caro desta tela, então vale ler antes de clicar.
 
-1. Na linha da pessoa, clique em **"Remover"**.
-2. Leia a pergunta, na janela **"Remover pessoa"**: *"Remover <nome>? A ficha e os contatos dela
-   serão apagados e não há como desfazer. Se ela tiver conta de acesso, a conta continua existindo."*
-3. Confirme em **"Remover"**, ou desista em **"Cancelar"**.
+| | **Arquivar** | **Remover** |
+|---|---|---|
+| **O que acontece** | A pessoa sai das listas e das buscas do dia a dia. | A pessoa sai **de vez**. |
+| **O que se perde** | **Nada.** Candidatura, documentos, classificações e histórico continuam. | O cadastro, os contatos, o CPF, o endereço, as classificações e o histórico de situação. |
+| **Dá para voltar?** | Sim: **"Reativar"**, nunca cadastrar de novo. | **Não.** |
+| **Quando usar** | Para quem **pode voltar um dia**: a voluntária que parou por um semestre, o associado afastado. | Para ficha criada por engano ou duplicada, ou quando há motivo para não guardar mais os dados da pessoa. |
 
-Se a remoção for recusada, a janela **fica aberta** e mostra o motivo.
+Por que existem as duas: antes, quem quisesse tirar uma pessoa da lista só tinha o apagar — e apagar
+levava junto o histórico de quem poderia voltar. Arquivar resolve o caso mais comum (a pessoa deixou
+de aparecer, mas a organização não quer esquecer o que viveu com ela) **sem risco**.
 
-![Confirmação para remover uma pessoa](/assets/capturas/pessoas-remover-desktop.png)
+{: .important }
+**Na dúvida, arquive.** Arquivar se desfaz em um clique; remover não se desfaz nunca. A própria janela
+de remoção lembra: *"Se a pessoa pode voltar um dia, ARQUIVE: ela sai das listas e das buscas e nada
+se perde."*
+
+### Arquivar e reativar uma pessoa
+
+1. Na linha da pessoa, clique em **"Arquivar"**.
+2. Leia a janela **"Arquivar pessoa"**: *"Arquivar <nome>? Ela sai das listas e das buscas do dia a
+   dia, e nada é apagado — candidatura, documentos, classificações e histórico continuam. Para vê-la
+   depois, escolha “Arquivadas” em “Mostrar”."*
+3. Confirme em **"Arquivar"**, ou desista em **"Cancelar"**.
+
+Para **ver** quem está arquivado, use o seletor **"Mostrar"**, logo abaixo da busca. Ele tem três
+opções: **"Em uso"** (a que vem marcada — é o que você vê todo dia), **"Arquivadas"** e **"Todas"**.
+Na lista, a ficha arquivada leva a marca **"Arquivada"**, na linha e, no celular, no cartão. No lugar
+de **"Arquivar"**, ela mostra **"Reativar"**. A ficha arquivada continua alcançável pelo
+endereço dela, e aparece marcada nos lugares em que a pessoa é citada.
+
+Para trazer a pessoa de volta, clique em **"Reativar"**. A janela **"Reativar pessoa"** diz: *"Reativar
+<nome>? A ficha volta para a lista de pessoas em uso, com tudo o que ela já tinha."* — confirme em
+**"Reativar"**.
+
+![Lista de pessoas com o seletor Mostrar (Em uso, Arquivadas, Todas) e, em cada linha, os botões Editar, Arquivar e Remover](/assets/capturas/pessoas-mostrar-desktop.png)
 {: .mt-4 }
 
-### Remover várias de uma vez
+No celular, o seletor e os botões ficam empilhados, e cada pessoa é um cartão:
+
+![Lista de pessoas no celular, com o seletor Mostrar e os botões Arquivar, Reativar e Remover selecionadas](/assets/capturas/pessoas-mostrar-celular.png){: style="max-width:375px" }
+
+{: .example }
+Joana, voluntária do Instituto Semente, avisa que vai passar o semestre fora. A Maria **arquiva** a
+ficha dela. Joana some da lista do dia a dia e das buscas — mas a candidatura, o termo assinado e o
+histórico seguem guardados. Em março, Joana volta: a Maria escolhe **"Arquivadas"** em **"Mostrar"**,
+clica em **"Reativar"**, e a ficha reaparece **com tudo**, sem cadastrar nada de novo.
+
+{: .warning }
+**Arquivada não é o mesmo que desligada.** A **situação** (por exemplo, **Desligado**) diz em que pé a
+pessoa está com a organização e continua aparecendo na lista; **arquivar** só tira a ficha de vista.
+Para registrar que alguém deixou a organização, mude a situação, com o motivo — e arquive se também
+quiser a ficha fora da lista do dia a dia.
+
+### Remover uma pessoa de vez
+
+{: .warning }
+**Remover apaga de verdade, e não há como desfazer.** Antes, pergunte-se se **"Arquivar"** não resolve.
+
+1. Na linha da pessoa, clique em **"Remover"**.
+2. Leia a janela **"Remover pessoa de vez"**: *"Remover <nome> de vez? Não há como desfazer."* Ela
+   diz o que acontece, em dois blocos:
+   - **"O que se perde:"** apaga o cadastro, os contatos, o CPF, o endereço, as classificações e o
+     histórico de situação.
+   - **"O que fica:"** continua a conta de acesso, se houver, e os documentos já emitidos ou
+     anexados. **Documento emitido nunca se apaga:** ele passa a aparecer como **«Ficha removida»**
+     na lista de documentos da organização, com o nome de quando foi emitido (veja
+     [Flow › Documentos](/flow/emitir-documentos/#todos-os-documentos)).
+3. Confirme em **"Remover"**, ou desista em **"Cancelar"**.
+
+![Janela Remover pessoa de vez, com os blocos "O que se perde" e "O que fica" e o lembrete de arquivar](/assets/capturas/pessoas-remover-desktop.png)
+{: .mt-4 }
+
+No celular, a janela é a mesma, com os botões empilhados:
+
+![A janela Remover pessoa de vez no celular](/assets/capturas/pessoas-remover-celular.png){: style="max-width:375px" }
+
+**Se a pessoa tem conta de acesso, a conta continua existindo** — remover a ficha **não** tira o
+acesso dela à organização. Para tirar o acesso, use
+[Membros, papéis e convites](/configuracoes/membros-e-papeis/).
+
+#### Quando a remoção é recusada
+{: #remocao-recusada }
+
+O sistema **recusa** remover quem tem algo em curso, e **diz quais são**:
+
+- uma **candidatura em análise**;
+- um **documento com assinatura pendente**;
+- um **termo de adesão vigente**.
+
+A janela **fica aberta** e mostra o motivo, por exemplo: *"Não é possível remover esta pessoa: 1
+candidatura em análise (Maria Oliveira) e 1 termo de adesão vigente (Termo de adesão). Arquive a ficha
+— ela sai das listas e das buscas do dia a dia, e nada se perde."*
+
+Por que a recusa existe: remover a ficha no meio de uma candidatura ou de um termo valendo deixaria a
+organização com um compromisso em aberto e ninguém a quem ele se refira. **O que fazer:** conclua o
+que está em curso (decida a candidatura, encerre o termo, espere ou cancele a assinatura) e tente de
+novo — ou **arquive**, que sempre é permitido.
+
+Há uma segunda recusa, de outra natureza: *"Não foi possível conferir, com o módulo Flow, se há algo
+em curso para esta pessoa. A ficha NÃO foi removida. Tente de novo em instantes ou arquive a ficha,
+que tira a pessoa das listas sem perder nada."* Na dúvida sobre o que está em curso, o sistema **não
+remove**. É um problema momentâneo: tente de novo daqui a pouco.
+
+### Arquivar, reativar ou remover várias de uma vez
 
 1. Marque a caixa de cada pessoa — ou **"Selecionar todas (N na tela)"**, que marca as que
    estão visíveis.
-2. Clique em **"Remover selecionadas (N)"**.
-3. Na janela **"Remover pessoas"**, a pergunta diz **quantas** serão afetadas: *"Remover N
-   pessoa(s)? As fichas e os contatos delas serão apagados e não há como desfazer. Quem tiver conta
-   de acesso continua com a conta."* Confirme em **"Remover N"**.
+2. Clique em **"Arquivar selecionadas (N)"**, **"Reativar selecionadas (N)"** ou **"Remover
+   selecionadas (N)"**.
+3. A janela diz **quantas** serão afetadas, e o título e o texto mudam conforme a ação:
+   - **"Arquivar pessoas"**: *"Arquivar N pessoa(s)? Elas saem das listas e das buscas do dia a dia, e
+     nada é apagado. Para vê-las depois, escolha “Arquivadas” em “Mostrar”."* Botão **"Arquivar N"**.
+   - **"Reativar pessoas"**: *"Reativar N pessoa(s)? Elas voltam para a lista de pessoas em uso, com
+     tudo o que já tinham."* Botão **"Reativar N"**.
+   - **"Remover pessoas de vez"**: *"Remover N pessoa(s) de vez? Não há como desfazer."*, com os mesmos
+     blocos **"O que se perde"** e **"O que fica"** da remoção individual e o aviso: *"Quem tiver algo
+     em curso — candidatura em análise, documento com assinatura pendente ou termo de adesão vigente —
+     será recusada, com o motivo, e continuará na lista."* Botão **"Remover N"**.
 
-![Confirmação de remoção em lote, dizendo quantas pessoas serão afetadas](/assets/capturas/pessoas-lote-confirmar-celular.png){: style="max-width:375px" }
+{: .note }
+A imagem abaixo é da janela de remoção em lote **de antes** de existir o arquivar: o texto dela era
+mais curto e dizia só que "as fichas e os contatos" seriam apagados. A ideia — a janela diz quantas
+pessoas serão afetadas — é a mesma.
 
-Quando termina, um quadro acima da lista conta o que aconteceu, em três grupos:
+![Confirmação de remoção em lote, dizendo quantas pessoas serão afetadas (imagem de uma versão anterior, com o texto antigo)](/assets/capturas/pessoas-lote-confirmar-celular.png){: style="max-width:375px" }
+
+Quando termina, um quadro acima da lista conta o que aconteceu, em três grupos. A palavra do começo
+acompanha a ação (**removida(s)**, **arquivada(s)** ou **reativada(s)**):
 
 > **2 removida(s), 1 recusada(s) pela regra do sistema, 0 com falha.**
 > Recusada: Paulo Henrique Duarte — Esta ficha já não existia.
 
-- **Removidas** — apagadas.
+- **Concluídas** — removidas, arquivadas ou reativadas.
 - **Recusadas pela regra do sistema** — o sistema disse que não pode, e disse por quê: a ficha já
-  tinha sido removida por outra pessoa, ou a sua permissão não alcança aquela ficha. Tentar de
-  novo não muda nada.
+  não existia (**"Esta ficha já não existia."**), a sua permissão não alcança aquela ficha, ou — na
+  remoção — a pessoa tem algo em curso. Tentar de novo não muda nada **até o motivo mudar**.
 - **Com falha** — algo deu errado no caminho (conexão, por exemplo). Ao contrário da recusada, essa
   vale tentar de novo.
 
-Cada recusada e cada falha aparece numa linha própria, com o **nome** e o **motivo**.
+Cada recusada e cada falha aparece numa linha própria — **"Recusada: <nome> — <motivo>"** ou
+**"Falha: <nome> — <motivo>"**.
 
 ![Resultado de uma remoção em lote: duas removidas e uma recusada, com o nome e o motivo](/assets/capturas/pessoas-lote-resultado-desktop.png)
 {: .mt-4 }
 
 {: .warning }
-**A remoção em lote não é "tudo ou nada".** Ela remove uma pessoa por vez, em sequência. Se a
-conexão cair no meio, parte da lista **já foi removida** — e o quadro de resultado diz exatamente
-quantas. Antes de remover muitas fichas, confira a seleção: o quadro mostra o que aconteceu, mas
-não devolve o que foi apagado.
+**A ação em lote não é "tudo ou nada".** Ela age numa pessoa por vez, em sequência. Se a conexão cair
+no meio, parte da lista **já foi** arquivada, reativada ou removida — e o quadro de resultado diz
+exatamente quantas. Antes de remover muitas fichas, confira a seleção: o quadro mostra o que
+aconteceu, mas não devolve o que foi apagado. **Em lote, prefira arquivar.**
 
 ## Dicas e armadilhas
 
@@ -342,10 +447,16 @@ não devolve o que foi apagado.
   acesso de quem já é membro.
 - **Prefira o rótulo a um telefone sem explicação.** Quando uma ficha acumula três números, o rótulo
   ("celular", "recados") evita ligar para o lugar errado.
-- **Remover não é arquivar.** Não existe um jeito de "guardar" uma ficha fora da lista: o que sai,
-  sai. Se a pessoa **deixou de participar**, não a remova: mude a situação dela para **Desligado**,
-  com o motivo — a ficha continua, com o histórico, e dá para filtrar a lista por situação e ver só
-  quem está em atuação. Se a dúvida é se a pessoa ainda vai participar, deixe a ficha onde está.
+- **Na dúvida, arquive; remover é só para o que não deve ser guardado.** Arquivar tira a ficha das
+  listas e das buscas sem perder nada, e **"Reativar"** a traz de volta com tudo. Remover apaga
+  cadastro, contatos, CPF, endereço, classificações e histórico, **sem volta**. Se a pessoa **deixou
+  de participar**, mude a situação dela para **Desligado**, com o motivo — e arquive, se quiser a
+  ficha fora da lista do dia a dia.
+- **Arquivar não é cadastrar de novo.** Quem foi arquivada e volta **se reativa**. Cadastrar outra
+  ficha para a mesma pessoa deixa a primeira esquecida, com a candidatura e os documentos dela, e o
+  CPF repetido é recusado.
+- **Documento emitido sobrevive à remoção.** Remover a ficha não apaga o termo que ela assinou: ele
+  fica em [Flow › Documentos](/flow/emitir-documentos/#todos-os-documentos), marcado como **«Ficha removida»**.
 - **Situação e classificação são coisas diferentes.** Classificação é *o que a pessoa é* (voluntária,
   associada) e pode haver várias ao mesmo tempo; situação é *em que pé ela está* (em atuação,
   afastada, desligada) e é uma só por vez. Veja
@@ -378,6 +489,14 @@ não devolve o que foi apagado.
   tem ninguém agora. Experimente um filtro de cada vez.
 - **"Não foi possível remover."** — a remoção não foi feita. Tente de novo; se continuar, avise quem
   administra a organização.
+- **"Não é possível remover esta pessoa: … Arquive a ficha — …"** — a pessoa tem candidatura em
+  análise, documento com assinatura pendente ou termo de adesão vigente, e a mensagem diz quais. Conclua
+  o que está em curso, ou **arquive**. Veja [Quando a remoção é recusada](#remocao-recusada).
+- **"Não foi possível conferir, com o módulo Flow, se há algo em curso para esta pessoa. A ficha NÃO foi
+  removida. …"** — o sistema não conseguiu checar e, por segurança, não removeu. Tente de novo em
+  instantes, ou arquive.
+- **"Não vejo a pessoa que arquivei."** — arquivada sai da lista "Em uso". No seletor **"Mostrar"**,
+  escolha **"Arquivadas"** (ou **"Todas"**) e use **"Reativar"**.
 - **"Você não tem permissão para ver as pessoas desta organização."** — o seu papel não alcança o
   cadastro. Peça a quem administra a organização.
 - **"Nenhuma organização ativa. Escolha uma no seletor, ao lado da logo."** — escolha a organização
@@ -402,3 +521,7 @@ situações"** — que mantém as listas da organização — só aparece para q
 cadastro, hoje quem administra a organização. Convidados de
 fora da organização não alcançam o cadastro. O botão que você não pode usar simplesmente não
 aparece — ou aparece só **"Abrir"**, no lugar de **"Editar"**.
+
+**Arquivar e reativar** pedem a mesma permissão de **alterar** a ficha; **remover** pede a de **remover**,
+que é outra. Quem tem só "alterar" arquiva e reativa, mas não remove; quem tem só "remover" não arquiva.
+Quem administra a organização tem as duas; o **Membro**, que só pode ver, não encontra nenhum dos botões.

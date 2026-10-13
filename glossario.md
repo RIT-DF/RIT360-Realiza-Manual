@@ -24,9 +24,11 @@ que sobrevive a mudanças posteriores no material.
 
 ## Arquivar
 
-Tirar um espaço, cliente ou organização da rotina sem apagar nada. Tarefas, conversas, versões e
+Tirar um espaço, cliente, organização ou **pessoa** da rotina sem apagar nada. Tarefas, conversas, versões e
 aprovações continuam lá para consulta, e dá para reabrir depois. **Arquivar não é excluir** — veja
-**Excluir**, abaixo. Ver [Arquivar e reabrir](/trabalho/arquivar-e-reabrir/).
+**Excluir**, abaixo. Ver [Arquivar e reabrir](/trabalho/arquivar-e-reabrir/). Para pessoas, o caminho de volta chama-se
+**"Reativar"**, e **"Remover"** é a saída sem volta — veja
+[Arquivar, reativar ou remover](/pessoas/#arquivar-reativar-ou-remover).
 
 ## Assinante externo
 
@@ -195,8 +197,8 @@ Papel dentro de um espaço: quem faz as tarefas.
 ## Ficha
 
 O cadastro de uma pessoa que a organização conhece — nome, CPF, contatos, endereço. Existe
-independentemente de a pessoa ter conta. Remover a ficha não remove a conta. Ver
-[Pessoas](/pessoas/).
+independentemente de a pessoa ter conta. Remover a ficha não remove a conta, e os documentos já emitidos
+continuam, marcados como «Ficha removida». Ver [Pessoas](/pessoas/).
 
 ## Flow
 

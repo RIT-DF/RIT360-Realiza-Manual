@@ -28,12 +28,56 @@ modelo nem o tempo o alteram. O que você emite hoje é o que estará lá daqui 
 - **Instituição:** em [Instituições](/instituicoes/), abra a ficha; o bloco **"Documentos"** fica na
   mesma tela.
 
+(Para ver os documentos de **todas** as fichas de uma vez, há a aba **"Documentos"** do próprio Flow —
+veja [abaixo](#todos-os-documentos).)
+
 A aba só aparece com o **Flow ligado** para a organização e para quem tem permissão sobre documentos
 — hoje, quem administra a organização. Sem a permissão, quem abre a aba lê *"Você não tem permissão
 para ver os documentos desta organização."*
 
 <!-- CAPTURA: rota=/pessoas/<identificador>?aba=documentos | viewport=1920x1080 | o-que-mostrar=A aba Documentos da ficha de uma pessoa, com os botões "Emitir documento" e "Anexar documento assinado", um documento "Emitido aqui" e "Vigente", o termo de adesão com o distintivo, e um documento anexado com "Anexado — assinado fora do sistema" | arquivo=flow-documentos-aba-desktop.png -->
 <!-- CAPTURA: rota=/pessoas/<identificador>?aba=documentos | viewport=375x812 | o-que-mostrar=A mesma aba no celular | arquivo=flow-documentos-aba-celular.png -->
+
+## Todos os documentos da organização, numa tela só
+{: #todos-os-documentos }
+
+Até aqui, os documentos estavam **dentro de cada ficha**: para achar um, você precisava saber de quem
+ele era. A aba **"Documentos"**, na faixa do Flow (entre **"Candidaturas"** e **"Configurações"**),
+reúne **todos** os documentos da organização numa lista só, **do mais recente para o mais antigo**.
+
+Por que isto importa: é a tela para quem precisa de uma visão de conjunto — "o que emitimos este
+mês?", "quais termos estão vencidos?" — e, principalmente, para **achar um documento cuja ficha já não
+existe**. Documento emitido guarda o texto de quando foi emitido e **nunca se apaga nem se altera**,
+nem quando a ficha da pessoa é removida: nesse caso ele continua aqui, marcado como **«Ficha removida»**,
+com o nome de quando foi emitido. Quem remove uma ficha não perde, portanto, o termo que ela assinou.
+
+![Aba Documentos do Flow, com dois documentos emitidos cujas fichas foram removidas, marcados como Ficha removida](/assets/capturas/flow-documentos-lista-desktop.png)
+{: .mt-4 }
+
+![A aba Documentos no celular, com a faixa de abas do Flow embaixo](/assets/capturas/flow-documentos-lista-celular.png){: style="max-width:375px" }
+
+Cada documento aparece com o título e os mesmos distintivos da lista da ficha — **"Emitido aqui"**,
+**"Anexado — assinado fora do sistema"**, **"Termo de adesão"**, **"Vigente"**, **"Vencido"**,
+**"Encerrado"**, **"Ainda não vale — faltam aceites"** — mais um, de que só esta tela precisa:
+**"Ficha removida"**. Embaixo, as linhas:
+
+- **"Pessoa: <nome>"** (ou **"Instituição: <nome>"**) — quando a ficha existe, o nome é **link** para
+  ela; quando foi removida, é só o nome de quando o documento foi emitido, ao lado da marca **"Ficha
+  removida"**.
+- **"Emitido em dd/mm/aaaa · vale até dd/mm/aaaa"**.
+
+Em cada documento, **"Ver documento"** abre o texto congelado da emissão e, no anexado, **"Baixar <nome
+do arquivo>"** baixa o arquivo. A lista traz um grupo por vez; **"Mostrar mais"** (que vira
+**"Carregando…"** enquanto busca) traz o próximo. Sem nenhum, a tela diz **"Nenhum documento ainda."**
+
+{: .note }
+**Esta tela é para consultar.** Emitir, anexar, enviar para assinatura e encerrar continuam sendo na
+aba **"Documentos"** **da ficha**; aqui você lê e baixa. E, como na lista da ficha, não há seleção em
+lote: documento emitido não se apaga.
+
+Quem não tem permissão sobre documentos lê: **"Você não tem permissão para ver os documentos desta
+organização."** E, se o Flow não está ligado para a organização: **"O módulo RIT360 Flow não está
+habilitado para esta organização. Para pedir a habilitação, fale com a equipe da RIT."**
 
 ## O que a lista mostra
 

@@ -45,11 +45,12 @@ Flow fica aceso na lateral**:
 |---|---|
 | **"Visão geral"** | O retrato do que espera por você: quantas candidaturas aguardam decisão e há quanto tempo espera a mais antiga, e como estão as frentes de trabalho. |
 | **"Candidaturas"** | A fila de candidaturas e a decisão de cada uma. Veja [Candidaturas: receber e decidir](/flow/candidaturas/). |
+| **"Documentos"** | Todos os documentos da organização numa lista só, do mais recente para o mais antigo — inclusive os de fichas já removidas, marcados **"Ficha removida"**. Veja [Todos os documentos da organização](/flow/emitir-documentos/#todos-os-documentos). |
 | **"Configurações"** | Duas seções. **"Voluntariado"**: quem é avisado quando chega candidatura e as frentes do voluntariado — veja [Lembretes de candidatura](/flow/lembretes/) e [Frentes de trabalho do voluntariado](/flow/frentes/). **"Documentos"**: os modelos de documento da organização e quem assina por ela — veja [Modelos de documento](/flow/documentos/). |
 
-São só essas três abas porque aba sem conteúdo ensina a não voltar: cada nova aba só aparece
-quando tem o que mostrar. **Os documentos não têm aba própria no Flow**: os modelos ficam em
-**"Configurações"**, e emitir ou ver um documento é na aba **"Documentos"** da ficha da pessoa ou da
+São só essas quatro abas porque aba sem conteúdo ensina a não voltar: cada nova aba só aparece
+quando tem o que mostrar. **A aba "Documentos" do Flow serve para consultar**: os modelos ficam em
+**"Configurações"**, e emitir um documento é na aba **"Documentos"** **da ficha** da pessoa ou da
 instituição — veja [Emitir, ver e anexar documentos](/flow/emitir-documentos/).
 
 A seção **"Documentos"**, em "Configurações", só aparece para quem tem permissão sobre documentos
