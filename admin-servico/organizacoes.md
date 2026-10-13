@@ -3,7 +3,7 @@ title: "Organizações"
 nav_order: 8
 parent: "Administração do serviço"
 permalink: /admin-servico/organizacoes/
-palavras_chave: "criar organização, gestor, quem responde pela organização, data de entrada, detalhe da organização, quantos espaços, suspender contrato, excluir organização, autosserviço desligado, números desatualizados, tarefas agendadas, ligar módulo, desligar módulo, habilitar flow, módulo não habilitado, habilitação por organização"
+palavras_chave: "criar organização, gestor, quem responde pela organização, data de entrada, detalhe da organização, quantos espaços, suspender contrato, excluir organização, excluir apaga tudo, exclusão parcial, repetir a exclusão, autosserviço desligado, números desatualizados, tarefas agendadas, ligar módulo, desligar módulo, habilitar flow, módulo não habilitado, habilitação por organização"
 ---
 
 # Organizações
@@ -211,12 +211,14 @@ basta **"Ligar"** de novo.
 - **Mexa no Flow, não no Realiza.** O RIT360 Realiza vem ligado em toda organização, existente ou
   nova, e o que você vai ligar e desligar no dia a dia é o RIT360 Flow. A lista mostra os dois para
   ficar claro o quadro da organização, não porque desligar o Realiza seja uma operação de rotina.
-- **Hoje o Flow tem uma tela inicial, mas ainda vazia.** Ligá-lo faz o item acender na barra de
-  quem administra a organização e abrir a tela **"RIT360 Flow"**, com quatro contagens em zero
-  (**"Pessoas"**, **"Candidaturas em análise"**, **"Termos aguardando assinatura"** e **"Credenciais
-  ativas"**). As funções que vão preenchê-las chegam em próximas entregas — avise a organização para
-  ela não esperar mais do que isso. Ligar o módulo não basta para todos verem o item: a pessoa também
-  precisa da permissão, que hoje é de quem administra a organização.
+- **Depois de ligar o Flow, avise a organização do primeiro passo.** Ligá-lo faz o item acender na
+  barra de quem administra a organização e abrir o [RIT360 Flow](/flow/), com as abas **"Visão
+  geral"**, **"Candidaturas"** e **"Configurações"**. A organização precisa **escolher quem recebe os
+  avisos de candidatura** ([Lembretes de candidatura](/flow/lembretes/)): **enquanto ninguém for
+  escolhido, ninguém é avisado** quando chega uma candidatura. Termo de adesão e credencial ainda não
+  existem — avise a organização para ela não esperar mais do que isso. Ligar o módulo não basta para
+  todos verem o item: a pessoa também precisa da permissão, que hoje é de quem administra a
+  organização.
 - **Combine antes de desligar.** Desligar corta o acesso de **todas** as pessoas da organização de
   uma vez. Se a organização não foi avisada, o primeiro sinal para ela será o produto parar de
   responder. O dado fica a salvo, mas a surpresa fica.
@@ -286,23 +288,60 @@ organização](#ver-o-detalhe-de-uma-organização)):
 
 ## Excluir uma organização
 
-Excluir aqui é definitivo, e é diferente de suspender o contrato: a organização inteira — espaços
-(inclusive arquivados), clientes, tarefas e convites externos pendentes — some junto.
+Excluir aqui é definitivo, e é diferente de suspender o contrato: **a organização inteira some, com
+tudo o que ela tem em todos os módulos.**
+
+Isso nem sempre foi assim. Até a versão 0.52.0 a tela prometia que tudo sumia, mas a exclusão valia
+só para parte dos módulos: ficavam para trás documentos, **páginas já publicadas na web**,
+relatórios, conversas do assistente e arquivos guardados. **Desde a 0.53.0, a exclusão alcança os
+sete módulos** — e a confirmação diz, um por um, o que será apagado.
 
 1. Na linha da organização, clique em **"Excluir"**.
-2. A confirmação mostra o que vai acontecer:
-   - Organização sem conteúdo: **"Esta organização ainda não tem nenhum conteúdo — a exclusão não
-     afeta mais nada."**
-   - Organização com conteúdo: **"Esta organização tem [quantidade] espaço(s) ativo(s),
-     [quantidade] espaço(s) arquivado(s), [quantidade] cliente(s), [quantidade] tarefa(s) e
-     [quantidade] convite(s) externo(s) pendente(s). TUDO isso — inclusive o conteúdo dos espaços
-     arquivados — será excluído junto, sem volta. Confirma a exclusão?"**
-3. Confirme em **"Excluir"**.
+2. A janela **"Excluir "<nome da organização>""** abre com *"Verificando o que existe nesta
+   organização, em todos os módulos…"* e, quando termina, mostra:
+
+   > **Excluir apaga, sem volta, tudo o que esta organização tem em todos os módulos — inclusive o
+   > conteúdo dos espaços arquivados, as páginas já publicadas na web e os arquivos guardados.
+   > Confira o que será apagado:**
+
+   Em seguida vem **uma linha por módulo**, com o que há dentro dele — por exemplo, *"Núcleo: membros:
+   4; pessoas cadastradas: 59; instituições cadastradas: 3; …"*, *"Trabalho: espaços: 3; tarefas:
+   120; …"*, *"Conhecimento: documentos: 18; publicações de página na web: 2; arquivos guardados:
+   31"*. Cada linha lista só o que existe; um módulo vazio diz **"nada a apagar"**. Os módulos são
+   Núcleo, Trabalho, Conhecimento, Relatórios, Assistente, Comunicação e Flow. A janela termina com
+   **"Confirma a exclusão?"**.
+3. Confirme em **"Excluir"** (o botão só liga depois que a conferência termina), ou desista em
+   **"Cancelar"**.
+
+<!-- CAPTURA: rota=/admin-servico/organizacoes | viewport=1920x1080 | o-que-mostrar=A janela de confirmação de exclusão de uma organização com o texto "Excluir apaga, sem volta…" e a lista de módulos, cada um com suas contagens e "arquivos guardados" | arquivo=admin-servico-organizacoes-excluir-desktop.png -->
 
 {: .warning }
-O aviso conta o conteúdo real da organização, inclusive o que está dentro de espaços arquivados —
-uma organização que só tem trabalho arquivado **não** aparece como vazia. Não há como desfazer
+A lista vem do **conteúdo real** de cada módulo, inclusive do que está dentro de espaços arquivados —
+uma organização que só tem trabalho arquivado **não** aparece como vazia. Quem confirma vê o tamanho
+do que está confirmando: se a linha do Conhecimento diz "publicações de página na web: 2", a
+exclusão tira do ar duas páginas que **pessoas de fora** podem estar lendo. Não há como desfazer
 depois de confirmado.
+
+### Se um módulo falhar no meio
+
+A exclusão apaga os módulos **em sequência**. Se um deles não responder, ela **para**, e a mensagem
+diz exatamente onde: *"Não foi possível excluir a organização: o módulo X não confirmou a purga
+(…). A organização continua existindo. O conteúdo de Trabalho, Conhecimento já foi apagado e não
+volta; repetir a exclusão conclui o que falta."* Duas coisas a saber:
+
+- **O que já foi apagado não volta.** A mensagem lista os módulos que já estavam limpos.
+- **Repetir a exclusão conclui o que falta.** Resolva o problema do módulo que falhou (ou espere ele
+  voltar) e clique em **"Excluir"** de novo; a segunda tentativa apaga só o que sobrou.
+
+Se a falha vier **antes** de apagar qualquer coisa (na conferência), a mensagem diz o contrário:
+*"…a conferência do que seria apagado (…). Nada foi apagado em módulo nenhum — tente de novo."* A
+tela não diz mais "nada foi excluído" quando parte do conteúdo já foi apagado: diz o que já foi.
+
+{: .tip }
+Antes de excluir, combine com quem administra a organização: se ela precisa de uma cópia, é ela quem
+exporta, na aba **"Exportação e importação"** (veja [Exportar dados](/configuracoes/exportar-dados/)).
+Quem administra o serviço não alcança o conteúdo das organizações, e depois da exclusão não há de
+onde tirar o pacote.
 
 ## Exemplo
 
@@ -324,4 +363,6 @@ administra o serviço.
   **"Carregando…"**; se ainda não existir organização nenhuma, ela mostra
   **"Nenhuma organização cadastrada ainda. Crie uma acima."**
 - Se a exclusão falhar, a mensagem de erro aparece dentro do diálogo de
-  confirmação, e a organização continua existindo.
+  confirmação, e a organização continua existindo. Se a mensagem diz que **parte do conteúdo já foi
+  apagado**, não tente recuperar: repita a exclusão para concluir (veja
+  [Se um módulo falhar no meio](#se-um-módulo-falhar-no-meio)).

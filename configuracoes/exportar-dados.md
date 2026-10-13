@@ -92,9 +92,11 @@ um destes três resultados:
 - **"concluído"** — a parte foi exportada e o pacote traz conteúdo dela.
 - **"estava vazio"** — a parte foi considerada, mas a organização não tinha nada nela para levar.
   Não é falha, e o pacote não está incompleto: não havia o que incluir. Uma organização que ainda
-  não usou o Conhecimento, por exemplo, vê **"Conhecimento: estava vazio"**; e, enquanto ninguém
-  cadastrar nada no RIT360 Flow, vê **"RIT360 Flow: estava vazio"**. A frase vale para qualquer
-  parte, não só para o Flow.
+  não usou o Conhecimento, por exemplo, vê **"Conhecimento: estava vazio"**; e, enquanto o RIT360 Flow
+  não tiver nada — nem frentes de trabalho, nem candidaturas recebidas —, vê **"RIT360 Flow: estava
+  vazio"**. A frase vale para qualquer parte, não só para o Flow. (O Flow leva no pacote as frentes de
+  trabalho, inclusive as arquivadas, e as candidaturas, decididas ou não — só para quem tem
+  permissão de vê-las.)
 - **"falhou (motivo)"** — a parte não pôde ser exportada, e o motivo aparece entre parênteses. Não
   conte com ela no pacote.
 
@@ -150,7 +152,7 @@ uma parte que estava vazia — a frase nova vale para os pedidos feitos daqui em
 Maria Oliveira, encerrando a Formação de educadores, pede a exportação da organização inteira para
 guardar um registro do que foi feito. Ela acompanha o "Preparando" virar "Pronto para baixar" e lê
 as linhas do histórico: "Núcleo" e "Trabalho" aparecem como "concluído", e "RIT360 Flow: estava
-vazio" — o Instituto Semente nunca cadastrou nada nele. É exatamente o que ela esperava, então
+vazio" — o Instituto Semente nunca usou o Flow. É exatamente o que ela esperava, então
 baixa o pacote com tranquilidade.
 
 ## Dicas e armadilhas

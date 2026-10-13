@@ -2,7 +2,7 @@
 title: "Os produtos na barra lateral"
 nav_order: 2.7
 permalink: /produtos/
-palavras_chave: "plataforma e realiza, qual a diferença, da casa, módulos, onde está a administração, ícone de escudo, flow, não habilitado, item desbotado, módulo, produto que não aparece, habilitar produto, pedir habilitação, barra lateral, menu de produtos, rit360 flow, tela do flow, contagens em zero, permissão do flow, pessoas na lateral"
+palavras_chave: "plataforma e realiza, qual a diferença, da casa, módulos, onde está a administração, ícone de escudo, flow, não habilitado, item desbotado, módulo, produto que não aparece, habilitar produto, pedir habilitação, barra lateral, menu de produtos, rit360 flow, tela do flow, abas do flow, candidaturas, permissão do flow, pessoas na lateral, instituições na lateral"
 ---
 
 # Os produtos na barra lateral
@@ -11,8 +11,9 @@ A RIT360 Plataforma é a casa, e os produtos da família RIT360 moram dentro del
 **RIT360 Realiza** e o **RIT360 Flow**. A barra lateral é por onde você os alcança, e ela separa
 duas coisas de natureza diferente:
 
-- **O que é da casa** — o que toda organização tem e não se contrata. Hoje é **Pessoas**, o cadastro
-  de quem a organização conhece. Fica no topo da barra.
+- **O que é da casa** — o que toda organização tem e não se contrata. Hoje são **Pessoas**, o
+  cadastro de quem a organização conhece, e **Instituições**, o cadastro de quem ela conhece além de
+  gente (OSCs, empresas, fornecedores). Ficam no topo da barra.
 - **Os módulos** — os produtos, como **Realiza** e **Flow**. Cada organização tem os que foram
   habilitados para ela, e a barra mostra só esses — mais, para quem administra, um aviso do que
   ainda não está habilitado. Ficam logo abaixo, sob o rótulo **"MÓDULOS"**.
@@ -23,9 +24,9 @@ Se você administra uma organização e vê um item apagado na lateral, a primei
 defeito. Não é: é o produto avisando que aquele item **existe, mas a sua organização ainda não o
 tem**. Saber disso poupa um chamado de suporte e mostra o caminho certo para pedir o produto. E se
 você não administra e não vê um produto que um colega de outra organização comenta, a explicação é
-a mesma: a habilitação é da organização, não da pessoa. E o contrário também vale: **Pessoas nunca
-some porque um módulo foi desligado** — ela não é módulo, e desligar o Flow ou o Realiza não tira
-da organização o cadastro de quem ela conhece.
+a mesma: a habilitação é da organização, não da pessoa. E o contrário também vale: **Pessoas e
+Instituições nunca somem porque um módulo foi desligado** — elas não são módulo, e desligar o Flow ou
+o Realiza não tira da organização o cadastro de quem ela conhece.
 
 ## O que a barra lateral mostra
 
@@ -33,10 +34,12 @@ No computador, a barra fica à esquerda, sempre visível. No celular, ela fica a
 **"Abrir navegação"**, no canto superior esquerdo; ao tocar num item que leva a outra tela, a
 barra se fecha sozinha.
 
-**No topo, o que é da casa.** Hoje, o item **Pessoas**, separado dos módulos por um filete. Ele
-aparece para quem tem permissão de ver o cadastro de pessoas (veja [Pessoas](/pessoas/)) e **não
-depende de nenhum módulo estar habilitado**. Clicar nele abre a área de Pessoas, com as abas
-**"Visão geral"** e **"Lista de pessoas"**.
+**No topo, o que é da casa.** Hoje, os itens **Pessoas** e **Instituições**, separados dos módulos
+por um filete. Cada um aparece para quem tem a permissão de ver o cadastro correspondente (veja
+[Pessoas](/pessoas/) e [Instituições](/instituicoes/)) e **não depende de nenhum módulo estar
+habilitado**. **Pessoas** abre a área de Pessoas, com as abas **"Visão geral"** e **"Lista de
+pessoas"**; **Instituições** abre a de Instituições, com **"Lista de instituições"** e **"Relações,
+situações e áreas"**.
 
 **Abaixo do rótulo "MÓDULOS", os produtos.** Cada um pode aparecer de um de três jeitos:
 
@@ -47,14 +50,18 @@ depende de nenhum módulo estar habilitado**. Clicar nele abre a área de Pessoa
 | O produto não aparece | Ou a sua organização não tem o produto e você não administra a organização, ou ela tem o produto mas o seu papel não alcança aquela parte. |
 
 Hoje há dois módulos: o **Realiza** (o **RIT360 Realiza**, o produto de trabalho — espaços,
-tarefas e aprovações — em que você passa a maior parte do tempo) e o **Flow** (o **RIT360 Flow**).
+tarefas e aprovações — em que você passa a maior parte do tempo) e o **Flow** (o **RIT360 Flow**,
+que recebe as candidaturas de voluntários e de instituições e guarda as frentes do voluntariado).
 Na barra os nomes aparecem curtos, porque ali você já sabe em que casa está; neste manual e nas
 mensagens que a plataforma envia, completos.
 
-Quando você está em Pessoas, o item **Pessoas** é o que fica aceso, e nenhum módulo. Quando está no
-trabalho, é o **Realiza** que fica aceso. A faixa de abas no alto da tela (embaixo, no celular)
-acompanha: ela mostra as abas da área em que você está — **Meu trabalho, Espaços, Conhecimento e
-Clientes** no Realiza; **Visão geral e Lista de pessoas** em Pessoas.
+Quando você está em Pessoas, o item **Pessoas** é o que fica aceso, e nenhum módulo; em Instituições,
+o **Instituições**. Quando está no trabalho, é o **Realiza** que fica aceso; e **dentro do Flow, só
+o Flow fica aceso** (antes acendiam dois itens ao mesmo tempo). A faixa de abas no alto da tela
+(embaixo, no celular) acompanha: ela mostra as abas da área em que você está — **Meu trabalho,
+Espaços, Conhecimento e Clientes** no Realiza; **Visão geral, Candidaturas e Configurações** no
+Flow; **Visão geral e Lista de pessoas** em Pessoas; **Lista de instituições e Relações, situações e
+áreas** em Instituições.
 
 {: .note }
 A administração do serviço **não** está na barra lateral. Quem administra o serviço a alcança por um
@@ -126,23 +133,21 @@ não consegue ligar um produto para si mesma.
 Depois que a habilitação for feita, **recarregue a página**. O item deixa de ser apagado e passa a
 ser um link normal.
 
-Com o Flow habilitado e a permissão certa, o item aparece aceso. Ao clicar, abre a tela
-**"RIT360 Flow"**: um texto dizendo para que o produto serve (cuidar do ciclo da pessoa com a
-organização — candidatura, termo de adesão, credencial, capacitações, afastamento e desligamento) e
-um quadro **"Resumo"** com quatro contagens: **"Pessoas"**, **"Candidaturas em análise"**,
-**"Termos aguardando assinatura"** e **"Credenciais ativas"**.
-
-![Tela RIT360 Flow no computador, com o texto explicativo e o Resumo com as quatro contagens em zero](/assets/capturas/flow-tela-inicial-desktop.png)
-{: .mt-4 }
-
-![Tela RIT360 Flow no celular, com as quatro contagens em zero empilhadas](/assets/capturas/flow-tela-inicial-celular.png){: style="max-width:375px" }
+Com o Flow habilitado e a permissão certa, o item aparece aceso. Ao clicar, abre o **RIT360 Flow**,
+com a barra de abas própria: **"Visão geral"**, **"Candidaturas"** e **"Configurações"**. A
+**Visão geral** mostra quantas candidaturas esperam decisão e há quanto tempo espera a mais antiga,
+e como estão as frentes de trabalho. Tudo o que o Flow faz está em [RIT360 Flow](/flow/).
 
 {: .note }
-**Todas as contagens estão em zero, e isso é o esperado.** O Flow está nascendo: candidatura,
-termo de adesão e credencial chegam em próximas entregas, uma de cada vez. O cadastro de pessoas
-já existe, mas fica em [Pessoas](/pessoas/), no topo da barra lateral e fora do Flow — e a contagem
-**"Pessoas"** do resumo do Flow ainda não o conta. Por enquanto a tela só confirma que o produto
-está ligado para a sua organização. Não há nada a preencher nem botão a clicar nela.
+**O Flow deixou de ser uma tela de boas-vindas.** As duas imagens abaixo são de uma versão anterior,
+em que ele abria uma tela com um quadro **"Resumo"** de quatro contagens em zero e mostrava a barra
+de navegação do Realiza. Isso não existe mais: o quadro foi tirado (um zero ali dizia "ninguém
+está esperando" quando a verdade era "ainda não contamos"), e o Flow tem a sua própria barra.
+
+![Tela inicial do Flow numa versão anterior, com o texto explicativo e um quadro Resumo de quatro contagens em zero (imagem de uma versão anterior)](/assets/capturas/flow-tela-inicial-desktop.png)
+{: .mt-4 }
+
+![A mesma tela anterior no celular (imagem de uma versão anterior)](/assets/capturas/flow-tela-inicial-celular.png){: style="max-width:375px" }
 
 ### Abrir o Flow pelo endereço, sem ter o módulo
 
@@ -161,8 +166,9 @@ clicar no item apagado.
 Maria Oliveira administra o Instituto Semente e ouviu falar que a RIT lançou o Flow. Ela abre a
 barra lateral e vê o item **Flow** apagado, com a marca **"não habilitado"**. Clica, lê a frase de
 orientação e escreve para a equipe da RIT pedindo a habilitação. Dias depois, a equipe liga o Flow
-para o Instituto Semente. Maria recarrega a página, o item acende e, ao clicar, ela chega à tela do RIT360 Flow, com as
-contagens em zero — o pedido deu certo, e o produto é que está começando.
+para o Instituto Semente. Maria recarrega a página, o item acende e, ao clicar, ela chega ao RIT360
+Flow: na Visão geral lê que o sistema ainda não tem para quem avisar quando chega candidatura, e vai
+direto escolher quem recebe — o pedido deu certo, e o primeiro passo está à vista.
 
 Carlos Nunes, que executa tarefas no mesmo Instituto, **nunca** viu o Flow apagado: ele não
 administra a organização, então, entre os módulos, a barra dele só mostrou o Realiza antes e
@@ -185,8 +191,9 @@ continua só com o Realiza agora.
   outra organização — confira o seletor no alto da tela.
 - **O item continua apagado depois de a equipe dizer que habilitou.** Recarregue a página. Se
   persistir, avise pelo [feedback](/enviar-feedback/), dizendo o nome da organização.
-- **Abri o Flow e todos os números são zero.** É o esperado hoje: o produto acabou de chegar e ainda
-  não guarda nada.
+- **Abri o Flow e a Visão geral diz "Nenhuma candidatura aguardando decisão."** Se nenhuma chegou,
+  é o esperado. Se o site da organização já recebe candidaturas e nada chega aqui, avise pelo
+  [feedback](/enviar-feedback/).
 - **Abri o Flow e apareceu o aviso de que ele não está habilitado.** A sua organização não tem o
   módulo (ou você está na organização errada — confira o seletor no alto da tela). Peça a
   habilitação à equipe da RIT.

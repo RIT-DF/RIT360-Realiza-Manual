@@ -93,12 +93,20 @@ Os tipos de aviso são:
 - **"Um relatório periódico está pronto para revisão"**
 - **"Minha exportação de dados está pronta"**
 - **"Fui mencionado numa conversa"**
+- **"Chegou uma candidatura para decidir"** e **"Há candidaturas esperando decisão"** — os
+  avisos do [Flow](/flow/lembretes/), que só chegam a quem a organização escolheu para recebê-los
 
 {: .note }
 **"Fui mencionado numa conversa"** já chega ligado no e-mail — para alcançar você mesmo com a
 plataforma fechada — e desligado na notificação do aparelho. Se preferir não receber e-mail a cada
 menção, desligue esse interruptor aqui; a menção continua aparecendo na central de avisos
 normalmente.
+
+{: .note }
+Os dois avisos de **candidatura** também chegam **ligados no e-mail**, pelo mesmo motivo: candidatura
+é coisa que fica esperando, e um aviso que só aparece dentro do sistema não alcança quem não entrou.
+Desligar o e-mail deles não faz a candidatura deixar de esperar — veja
+[Lembretes de candidatura](/flow/lembretes/).
 
 {: .note }
 A coluna **"Notificação no aparelho"** é o interruptor por tipo — ela só tem efeito depois que

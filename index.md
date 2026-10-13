@@ -13,9 +13,9 @@ celular. Dentro da casa moram os produtos da família RIT360 — hoje, o **RIT36
 
 | Nome | O que é | Onde você o encontra |
 |---|---|---|
-| **RIT360 Plataforma** | A casa: entrar, trocar de organização, convites, avisos, assistente, o aplicativo no celular, o cadastro de [Pessoas](/pessoas/) e a administração do serviço. | Em tudo: o nome aparece na tela de entrar, no rodapé, nos e-mails e no robô do Telegram. |
+| **RIT360 Plataforma** | A casa: entrar, trocar de organização, convites, avisos, assistente, o aplicativo no celular, os cadastros de [Pessoas](/pessoas/) e de [Instituições](/instituicoes/) e a administração do serviço. | Em tudo: o nome aparece na tela de entrar, no rodapé, nos e-mails e no robô do Telegram. |
 | **RIT360 Realiza** | O produto de trabalho: espaços, tarefas, entregas, aprovações, clientes, agenda e Conhecimento. | Na barra lateral, o item **Realiza**. |
-| **RIT360 Flow** | O produto que cuida do ciclo da pessoa com a organização — candidatura, termo de adesão, credencial. Está nascendo: por ora só tem uma tela inicial. | Na barra lateral, o item **Flow**, para as organizações que o têm. |
+| **RIT360 Flow** | O produto que cuida do caminho até a organização: recebe as candidaturas de voluntários, de OSCs e de parceiros, e guarda as frentes de trabalho do voluntariado. Termo de adesão e credencial ainda vão chegar. Veja [RIT360 Flow](/flow/). | Na barra lateral, o item **Flow**, para as organizações que o têm. |
 
 Por que a distinção importa: quando este manual diz **"a RIT360 Plataforma"**, o assunto vale para
 a casa inteira, seja qual for o produto que a sua organização usa — entrar, trocar de senha, ligar
@@ -84,6 +84,10 @@ primeiros e nunca chega perto dos outros.
 
 - [Assistente](/assistente/) — pergunte o que precisa da sua atenção, ou peça para criar uma
   tarefa, escrevendo em linguagem comum, dentro do app ou pelo [Telegram](/configuracoes/telegram/)
+- [Pessoas](/pessoas/) e [Instituições](/instituicoes/) — os cadastros de quem a organização
+  conhece: a equipe e os voluntários, de um lado; as OSCs da rede, as empresas credenciadas e os
+  fornecedores, do outro
+- [RIT360 Flow](/flow/) — receber e decidir as candidaturas, e configurar as frentes do voluntariado
 - [Os produtos na barra lateral](/produtos/) — o que é da casa e o que é módulo, o que cada item
   significa (inclusive o apagado, com a marca "não habilitado") e onde fica a administração do serviço
 - [Conhecimento](/conhecimento/) — documentos, links e páginas de wiki que a organização guarda

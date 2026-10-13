@@ -127,7 +127,19 @@ criada, uma entrega enviada para aprovação, um pedido de triagem decidido.
 
 Os eventos disponíveis hoje: tarefa criada, responsável da tarefa alterado, entrega criada, versão
 de entrega enviada para aprovação, entrega aprovada ou recusada, ajuste solicitado numa entrega,
-pedido de triagem recebido e pedido de triagem decidido.
+pedido de triagem recebido, pedido de triagem decidido e — desde a versão 0.54.0 — **"Candidatura
+aprovada"** e **"Candidatura reprovada"**.
+
+Os dois eventos de **candidatura** são os do [Flow](/flow/candidaturas/): disparam quando uma pessoa
+decide uma candidatura em tela. É por eles que uma automação (o n8n, por exemplo) fica sabendo da
+decisão e dá o passo seguinte, como escrever à pessoa.
+
+{: .warning }
+**Candidatura não pertence a nenhum espaço.** Um webhook criado para **só alguns espaços** (em "Em
+quais espaços") **não recebe** os eventos de candidatura — eles só chegam a webhooks configurados
+para **todos os espaços**. Se a decisão aparece no Flow como *"concluído, mas nenhum destino de
+integração está inscrito neste evento"*, confira aqui se há um webhook ativo, com o evento marcado e
+sem limite de espaços.
 
 Como na chave de API, o **segredo** do webhook aparece **uma única vez**, para verificar que um
 aviso recebido realmente veio da RIT360 Plataforma (a documentação técnica explica como).

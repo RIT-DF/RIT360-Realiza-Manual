@@ -17,13 +17,21 @@ Instituto Semente, seria a Maria Oliveira.
 Tudo o que está nesta lista que é **da organização** — membros, imagem, IA, integrações, exportação —
 você alcança pela **engrenagem** do cabeçalho, numa área com cinco abas (veja
 [Dados e identidade da organização](/configuracoes/organizacao/#onde-fica-a-engrenagem-do-cabeçalho)).
-O cadastro de **Pessoas** é outro lugar: fica no topo da barra lateral, e não é aba da organização.
+Os cadastros de **Pessoas** e de **Instituições** são outro lugar: ficam no topo da barra lateral, e
+não são abas da organização.
 
 - Convidar pessoas por e-mail e acompanhar quem já entrou
 - Trocar o papel de um membro, e remover quem saiu da organização
 - Preencher os dados e a identidade visual da organização
 - Cadastrar os clientes e parceiros para quem o trabalho é feito
 - Manter o cadastro de [Pessoas](/pessoas/) da organização — as fichas de quem a organização conhece, com ou sem conta de acesso. **Não é a lista de Membros**: Pessoas é quem a organização conhece; Membros é quem tem acesso ao sistema
+- Classificar as pessoas (voluntária, associada…), mudar a situação delas — sempre com motivo — e
+  manter as listas de [classificações e situações](/pessoas/classificacao-e-situacao/)
+- Manter o cadastro de [Instituições](/instituicoes/) — as OSCs da rede, as empresas e profissionais
+  credenciados e os fornecedores —, com a relação de cada uma, no tempo
+- No [Flow](/flow/): **decidir as candidaturas**, escolher quem recebe os
+  [lembretes](/flow/lembretes/) e completar as [frentes de trabalho](/flow/frentes/) do voluntariado
+  — quando o Flow está habilitado para a organização
 - Definir a postura da organização quanto a inteligência artificial
 - Criar espaços e enxergar a lista de todos eles
 - Decidir os [pedidos de entrada](/configuracoes/pedidos-de-entrada/) de gente com e-mail do

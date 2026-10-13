@@ -35,11 +35,26 @@ você, a partir de uma frase escrita em linguagem comum — no aplicativo ou pel
 mais do que a sua própria permissão já permitiria fazer clicando na tela, e sempre mostra uma
 prévia antes de qualquer ação de verdade acontecer. Ver [Assistente](/assistente/).
 
+## Candidatura
+
+O pedido de quem quer entrar na órbita da organização — uma **pessoa** que quer ser voluntária,
+uma **OSC** que quer aderir à rede, ou uma **empresa ou profissional** que quer ser credenciado.
+Chega pelo site da organização à aba **"Candidaturas"** do **Flow**, com o **parecer automático**
+junto, e **uma pessoa decide** — a decisão é em tela e fica registrada (quem, quando e por quê).
+Ver [Candidaturas](/flow/candidaturas/).
+
 ## Chave de API
 
 Uma credencial que permite a um sistema externo (uma planilha, um robô de automação) ler ou
 alterar dados de uma organização, sem usar a senha de ninguém. Alcança só o que foi marcado ao
 criá-la (nada vem marcado) e nunca mais do que a pessoa que a criou. Ver [Integrações](/configuracoes/integracoes/).
+
+## Classificação
+
+O que uma **pessoa é** para a organização — voluntária, associada, diretora… — com a data em que
+começou e, se acabou, a data do fim. Uma pessoa pode ter **várias ao mesmo tempo**. Não é a
+**situação**, que diz em que pé ela está agora. Ver
+[Classificação e situação](/pessoas/classificacao-e-situacao/).
 
 ## Cliente
 
@@ -53,6 +68,12 @@ Onde a organização guarda o que não é tarefa, mas precisa existir em algum l
 pastas, links e páginas de **wiki**. Existe em duas portas de entrada — a da organização inteira, e
 a de dentro de um espaço, filtrada só por ele — mas é a mesma ferramenta nos dois casos. Ver
 [Conhecimento](/conhecimento/).
+
+## Conflito de e-mail
+
+Quando o e-mail de uma **candidatura** já pertence a outra pessoa cadastrada, o sistema não junta
+nem descarta: **retém** a candidatura (**"Retida por conflito"**) até alguém dizer se é **a mesma
+pessoa** ou **pessoas diferentes**. Ver [Candidaturas](/flow/candidaturas/#conflito-de-e-mail).
 
 ## Conta
 
@@ -81,9 +102,9 @@ A visão de todos os espaços ligados a um mesmo cliente.
 ## Da casa
 
 O que toda organização tem na RIT360 Plataforma e **não se contrata**, por oposição aos **módulos**,
-que a organização vê só se foram habilitados para ela. Hoje, o que é da casa é **Pessoas**, o
-cadastro de quem a organização conhece: fica no topo da barra lateral, separado dos módulos por um
-filete, e não some quando um módulo é desligado. Ver
+que a organização vê só se foram habilitados para ela. Hoje, o que é da casa são **Pessoas** e
+**Instituições**, os cadastros de quem a organização conhece: ficam no topo da barra lateral,
+separados dos módulos por um filete, e não somem quando um módulo é desligado. Ver
 [Os produtos na barra lateral](/produtos/).
 
 ## Dependência
@@ -129,7 +150,10 @@ de uma confirmação. Ver [Ajustar as etapas](/trabalho/etapas/).
 Apagar de verdade, sem volta — diferente de **Arquivar**, que só tira do caminho e preserva tudo.
 Existe para cliente, espaço e organização (e para membro, embora ali o nome seja "Remover
 acesso" — a conta de login nunca é apagada). Antes de excluir, a tela sempre mostra o que está
-vinculado e o que vai junto, para você confirmar sabendo o tamanho da ação.
+vinculado e o que vai junto, para você confirmar sabendo o tamanho da ação. **Excluir uma organização
+apaga, módulo a módulo, tudo o que ela tem** — inclusive as páginas já publicadas na web e os
+arquivos guardados —, e a confirmação lista o que será apagado em cada módulo. Ver
+[Organizações](/admin-servico/organizacoes/#excluir-uma-organização).
 
 ## Executor
 
@@ -145,8 +169,16 @@ independentemente de a pessoa ter conta. Remover a ficha não remove a conta. Ve
 
 O produto da RIT360 Plataforma que cuida do ciclo da pessoa com a organização — candidatura, termo
 de adesão, credencial. "Flow" é o nome curto, o da barra lateral; neste manual e nas mensagens que
-a plataforma envia, o nome é **RIT360 Flow**. Hoje só tem uma tela inicial, com contagens
-zeradas. Ver [Os produtos na barra lateral](/produtos/).
+a plataforma envia, o nome é **RIT360 Flow**. Hoje recebe as **candidaturas** e guarda as **frentes
+de trabalho** do voluntariado; termo de adesão e credencial ainda não existem. Ver
+[RIT360 Flow](/flow/) e [Os produtos na barra lateral](/produtos/).
+
+## Frente de trabalho
+
+Cada um dos lugares para onde a organização encaminha quem chega para ser voluntário — Tecnologia,
+Comunicação, Jurídico, Eventos… A lista é da organização: a frente guarda o que se faz ali, com que
+frequência, quantas pessoas cabem, quem coordena e o que se espera de quem entra. **Arquiva, nunca
+apaga.** Ver [Frentes de trabalho do voluntariado](/flow/frentes/).
 
 ## Gestor
 
@@ -158,6 +190,15 @@ Não confunda com **Administrador**, que é papel da organização.
 Um número que a organização acompanha ao longo do tempo — pessoas atendidas, cestas entregues —
 registrado por período, à mão ou por planilha. Alimenta os **relatórios** do espaço
 automaticamente. Ver [Indicadores do espaço](/trabalho/indicadores/).
+
+## Instituição
+
+Quem a organização conhece **além das pessoas**: uma OSC integrada à rede, uma empresa ou um
+profissional credenciado, um fornecedor. É a palavra do cadastro **Instituições** —
+**"organização"**, neste manual, é quem usa a plataforma. A relação da instituição com a organização
+(**Integrada**, **Credenciada**, **Fornecedora**) é guardada no tempo, e a instituição **arquiva,
+nunca se apaga**. A OSC não é "descredenciada": ela **deixa de ser integrada**. Ver
+[Instituições](/instituicoes/).
 
 ## Material
 
@@ -210,8 +251,9 @@ administração. Não tem objetivo nem data de encerramento.
 
 ## Organização
 
-A sua OSC dentro da RIT360 Plataforma, com os membros, os espaços e os dados dela. Uma
-organização não alcança nada de outra. Uma mesma pessoa pode participar de
+A sua OSC dentro da RIT360 Plataforma, com os membros, os espaços e os dados dela — quem **usa** a
+plataforma. Não confunda com **instituição**: a OSC parceira que a sua organização conhece e
+cadastra. Uma organização não alcança nada de outra. Uma mesma pessoa pode participar de
 várias, com permissões diferentes em cada uma — e nenhuma delas descobre as
 outras.
 
@@ -220,6 +262,13 @@ outras.
 O que uma pessoa pode fazer. Existem dois, independentes: o **papel na
 organização** (Administrador, Membro, Convidado) e o **papel no espaço**
 (Gestor, Executor, Aprovador, Observador).
+
+## Parecer automático
+
+A análise que o sistema faz de uma **candidatura** assim que ela chega — **Apto**, **Inapto**,
+**Inconclusivo** ou **Não disponível**, com o resumo e os itens que o sustentam. **É um insumo, não
+uma decisão**: quem decide é uma pessoa. A única exceção é o credenciado com parecer inapto, que é
+reprovado automaticamente. Ver [Candidaturas](/flow/candidaturas/).
 
 ## Pedido
 
@@ -237,7 +286,7 @@ Duas coisas diferentes, conforme onde a palavra aparece:
 Quem a organização **conhece**, com uma **ficha** (nome, CPF, contatos, endereço) — tenha ou não
 conta. A lista fica em **Pessoas**, no topo da barra lateral. Não é o mesmo que **membro**: membro é
 quem tem acesso ao sistema. Quem é membro e também tem ficha aparece nas duas listas. Ver
-[Pessoas](/pessoas/).
+[Pessoas](/pessoas/). Não confunda com **instituição**, que é a OSC, a empresa ou o fornecedor.
 
 ## Plataforma (RIT360 Plataforma)
 
@@ -259,6 +308,12 @@ agenda e Conhecimento. É o item **Realiza** da barra lateral. Quando este manua
 Realiza", o assunto é o trabalho em si, não a casa em volta dele. Ver a [página inicial](/) e
 [Os produtos na barra lateral](/produtos/).
 
+## Relação (da instituição)
+
+O que uma **instituição** é para a organização — **Integrada**, **Credenciada**, **Fornecedora** ou o
+que a organização criar —, com a data em que começou e, quando acabou, a data do fim. Uma instituição
+pode ter várias ao mesmo tempo. Ver [Relação, situação e representante](/instituicoes/relacao-situacao-e-pessoas/).
+
 ## Recorrência
 
 A repetição automática de uma tarefa, num intervalo fixo (semanal ou mensal) até uma data. Cada
@@ -276,6 +331,13 @@ depois de alguém revisar — publicar **congela** o conteúdo. Ver
 
 Uma proposta de novas datas para uma tarefa, que fica pendente até alguém
 aprovar ou recusar. Ver [Reprogramar o prazo de uma tarefa](/trabalho/reprogramar-prazo/).
+
+## Situação
+
+Em que pé uma **pessoa** (ou uma **instituição**) está agora — em atuação, afastada, desligada; ativa,
+suspensa, encerrada. É uma só por vez, e **só muda com um motivo**: cada mudança entra num histórico
+que **não se altera nem se apaga**, nem por quem administra. Não é a **classificação**. Ver
+[Classificação e situação](/pessoas/classificacao-e-situacao/).
 
 ## Subtarefa
 

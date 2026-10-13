@@ -17,6 +17,109 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 13 de outubro de 2026 — versão 0.54.0
+
+O Flow deixa de ser uma tela de boas-vindas e vira um módulo com conteúdo, e nasce um cadastro novo
+na barra lateral.
+
+{: .note }
+Algumas imagens deste manual ainda mostram a navegação de antes. Onde a imagem e o texto divergirem,
+vale o texto; as imagens serão refeitas depois que a navegação parar de mudar.
+
+### Adicionado
+
+- **Instituições: o cadastro de quem a organização conhece além das pessoas.** OSCs integradas à
+  rede, empresas e profissionais credenciados, fornecedores que aparecem em documentos. Fica na barra
+  lateral, **ao lado de Pessoas**, no grupo do que é da casa — não some quando um módulo é desligado.
+  Cada instituição tem uma **relação** com a organização (**Integrada**, **Credenciada**,
+  **Fornecedora** ou as que você criar) guardada **no tempo**, com começo e fim, e uma **situação**
+  que só muda com motivo. O **CNPJ é opcional** e aceita o formato novo, com letras. O **representante
+  e os colaboradores** são pessoas do cadastro de Pessoas. A lista tem **seleção de várias e ações em
+  lote** — arquivar, desarquivar, mudar situação e acrescentar relação —, cada uma dizendo quantas
+  afeta e contando, no fim, o que concluiu, o que o sistema recusou e o que falhou. Veja
+  [Instituições](/instituicoes/).
+- **O Flow ganhou barra própria, com três abas: "Visão geral", "Candidaturas" e "Configurações".**
+  Antes ele mostrava a barra de navegação do Realiza; agora, dentro dele, só o Flow fica aceso na
+  lateral. A Visão geral mostra quantas candidaturas esperam decisão e **há quanto tempo espera a mais
+  antiga**. Veja [RIT360 Flow](/flow/).
+- **Candidaturas.** Quem se candidata pelo site — **pessoa, OSC ou parceiro** — chega à aba
+  "Candidaturas" **sem ninguém redigitar**, com o parecer automático ao lado. Quem decide agora
+  decide **em tela**, e fica registrado **quem decidiu, quando e por quê**; antes a decisão era por um
+  link no e-mail, que funcionava para qualquer pessoa que recebesse a mensagem encaminhada e não
+  registrava nada. **Aprovar cria a ficha (ou a instituição), ou liga à que já existe** — achando por
+  CPF ou CNPJ —, sem duplicar. Os consentimentos aparecem um a um (**Autorizou**, **Não autorizou**
+  ou **Não marcou**), com a versão do texto que a pessoa aceitou. Quando o e-mail já é de outra
+  pessoa, a candidatura é **retida** até alguém dizer se é a mesma pessoa ou pessoas diferentes.
+  **Menor de 18 anos é reprovado no recebimento.** A inteligência artificial **não reprova sozinha**
+  voluntário nem instituição. Veja [Candidaturas](/flow/candidaturas/).
+- **Lembretes de candidatura.** Em "Configurações", a organização escolhe **quem recebe** os avisos,
+  **de quanto em quanto tempo** o sistema insiste e **até quando**. O aviso sai **por e-mail por
+  padrão** — ao contrário da maioria dos avisos, que nascem desligados —, porque candidatura fica
+  esperando e aviso que só aparece dentro do sistema não alcança quem não entrou. Veja
+  [Lembretes de candidatura](/flow/lembretes/).
+- **Frentes de trabalho do voluntariado.** São **treze frentes** de partida (Tecnologia, Governança,
+  Jurídico, Comunicação, Eventos…), e a lista é **editável**. Cada uma guarda o que precisa ser feito,
+  com que frequência, quantas pessoas cabem, quem coordena e o que se espera de quem entra. As treze
+  nascem incompletas e a tela mostra **"Falta definir: …"**. Frente **arquiva, nunca apaga**. Veja
+  [Frentes de trabalho do voluntariado](/flow/frentes/).
+- **Integrações ganhou os eventos "Candidatura aprovada" e "Candidatura reprovada".** Veja
+  [Integrações](/configuracoes/integracoes/).
+
+### Para ter cuidado
+
+- **Depois de ligar o Flow, escolha quem recebe os avisos de candidatura.** Enquanto ninguém for
+  escolhido, ninguém é avisado — e a Visão geral é a única que acusa.
+- **"Aprovada" não quer dizer "a pessoa foi avisada".** Quer dizer que a organização decidiu. Se a
+  entrega da decisão falhar, a candidatura mostra **"disparo falhou"** e oferece **"Repetir a
+  entrega"**.
+- **Dois campos que não se confundem:** na decisão, **"Mensagem para a pessoa"** sai; **"Observação
+  interna"** não sai da organização.
+- **A OSC não é "descredenciada": ela deixa de ser integrada.** Credenciar e descredenciar valem só
+  para empresas e profissionais que oferecem serviços à rede.
+- **Ainda não contamos quantas pessoas estão em cada frente de trabalho** — a tela mostra quantas
+  cabem.
+
+---
+
+## 12 de outubro de 2026 — versão 0.53.0
+
+### Adicionado
+
+- **A ficha de uma pessoa ganhou a aba "Classificação e situação".** Uma pessoa pode ter **mais de
+  uma classificação ao mesmo tempo** — voluntária **e** associada, por exemplo —, cada uma com a data
+  em que começou e, se for o caso, em que terminou. A **situação** (em atuação, afastada, desligada…)
+  muda **com motivo obrigatório**, e cada mudança entra num histórico que **não se altera nem se
+  apaga — nem por quem administra**: é o registro de que alguém decidiu algo sobre outra pessoa.
+  Veja [Classificação e situação](/pessoas/classificacao-e-situacao/).
+- **A lista de pessoas ganhou as colunas "Situação" e "Classificações" e filtros por cada uma**, que
+  também vão no endereço da página: dá para mandar a uma colega o link de "quem está afastada agora".
+  Veja [Pessoas](/pessoas/#filtrar-por-situação-e-por-classificação).
+- **O botão "Classificações e situações" abre as listas da organização.** Ela cria, renomeia e
+  **arquiva** (nunca apaga) as classificações e situações. Item arquivado **não é oferecido** em
+  cadastro novo e **continua aparecendo, marcado**, em quem já o tinha; a confirmação de arquivar diz
+  **quantas pessoas continuam com ele**. Vêm de partida as classificações Voluntário, Associado,
+  Profissional contratado, Diretor e Profissional autônomo credenciado, e as situações Em atuação,
+  Afastado e Desligado — quem administra ajusta, porque o significado de cada uma é da organização.
+
+### Corrigido
+
+- **Excluir uma organização agora apaga tudo, de verdade.** Antes a tela prometia que tudo sumia, mas
+  a exclusão valia só para parte dos módulos: ficavam documentos, **páginas já publicadas na web**,
+  relatórios, conversas do assistente e arquivos guardados. Agora a confirmação **lista, módulo a
+  módulo, o que será apagado**, inclusive os arquivos, e quem confirma vê o tamanho do que confirma.
+  Se um módulo falhar no meio, a mensagem diz **o que já foi apagado** e que repetir a exclusão
+  conclui — ela não diz mais "nada foi excluído" quando parte já foi. Veja
+  [Organizações](/admin-servico/organizacoes/#excluir-uma-organização).
+
+### Para ter cuidado
+
+- **O histórico de situação não se corrige: mude a situação de novo, com o motivo.** O erro e a
+  correção ficam os dois.
+- **Remover uma ficha não é o mesmo que desligar a pessoa.** Para quem saiu, mude a situação para
+  Desligado; remover apaga a ficha e os contatos, sem volta.
+
+---
+
 ## 12 de outubro de 2026 — versão 0.52.0
 
 Esta versão mexe no **lugar** de quatro coisas na tela. Nada do que você tinha salvo mudou, e os

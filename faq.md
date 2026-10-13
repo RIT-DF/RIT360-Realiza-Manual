@@ -269,6 +269,75 @@ desligado, as telas dele ficam recusadas e as rotinas automáticas daquele produ
 organização e retomam ao religar. E vocês continuam podendo [exportar os
 dados](/configuracoes/exportar-dados/) que já existem nele.
 
+## Cadastros e candidaturas
+
+### Qual a diferença entre uma pessoa, uma instituição e uma organização?
+
+**Organização** é quem usa a plataforma — o Instituto Semente, por exemplo. **Pessoa** é quem a
+organização conhece e tem ficha em [Pessoas](/pessoas/). **Instituição** é a OSC, a empresa, o
+profissional ou o fornecedor que a organização conhece, no cadastro [Instituições](/instituicoes/).
+O representante e os colaboradores de uma instituição são **pessoas** do cadastro de Pessoas.
+
+### Uma OSC saiu da nossa rede. Eu a "descredencio"?
+
+Não. **Credenciar e descredenciar valem só para empresas e profissionais** que oferecem serviços à
+rede. Uma OSC **deixa de ser integrada**: na ficha da instituição, encerre a relação **Integrada**
+com o último dia, mude a situação (com o motivo) e, se quiser, arquive. Nada é apagado. Veja
+[Relação, situação e representante](/instituicoes/relacao-situacao-e-pessoas/).
+
+### Um voluntário deixou a organização. Removo a ficha dele?
+
+Em geral, não. Remover apaga a ficha e os contatos, sem volta. O que registra a saída é a
+**situação**: mude para **Desligado**, com o motivo. A ficha continua, com o histórico, e a lista de
+pessoas dá para filtrar por situação. Veja
+[Classificação e situação](/pessoas/classificacao-e-situacao/).
+
+### Errei o motivo ao mudar a situação de uma pessoa. Posso editar?
+
+Não — e é de propósito. O histórico de situação não se altera nem se apaga, nem por quem administra,
+porque é o registro de que alguém decidiu algo sobre outra pessoa. Mude a situação de novo, com o
+motivo "corrigindo o registro anterior": o erro e a correção ficam os dois. Veja
+[Classificação e situação](/pessoas/classificacao-e-situacao/).
+
+### Alguém se candidatou pelo site e ninguém da organização foi avisado.
+
+Quase sempre é porque **ninguém foi escolhido para receber os avisos**: enquanto isso, o sistema não
+avisa ninguém. No Flow, abra **"Configurações"** e, em **"Lembretes de candidatura"**, marque quem
+recebe. A Visão geral do Flow acusa a falta, e o registro **"O que o sistema já fez"** mostra se
+algum aviso foi tentado e falhou. Veja [Lembretes de candidatura](/flow/lembretes/).
+
+### Posso aprovar uma candidatura pelo link do e-mail?
+
+Não. A decisão é **em tela**, na aba **"Candidaturas"** do Flow, e fica registrada com quem decidiu,
+quando e por quê. O link no e-mail deixava qualquer pessoa que recebesse a mensagem
+encaminhada decidir, sem registro de quem foi. Veja [Candidaturas](/flow/candidaturas/).
+
+### A candidatura ficou "Retida por conflito". O que é isso?
+
+O e-mail dela já pertence a outra pessoa cadastrada, e o sistema não quis juntar nem descartar sem
+perguntar. Abra a candidatura e diga se é **a mesma pessoa** ou se são **pessoas diferentes**. Veja
+[Conflito de e-mail](/flow/candidaturas/#conflito-de-e-mail).
+
+### A candidatura aparece como "Aprovada — disparo falhou". A pessoa foi avisada?
+
+Provavelmente não. A decisão está registrada, mas **não chegou** à automação que dá o passo seguinte
+(como escrever à pessoa). Abra a candidatura e use **"Repetir a entrega"**. Veja
+[Quando a decisão não chega](/flow/candidaturas/#quando-a-decisão-não-chega).
+
+### Uma candidatura de menor de idade chegou e já está "Reprovada". Quem reprovou?
+
+O próprio sistema, no recebimento: candidatura de **voluntário ou colaborador** com menos de 18
+anos (ou sem data de nascimento) é reprovada sozinha, com o motivo. A tela da candidatura diz
+**"Reprovada no recebimento, pela regra de idade"**. A inteligência artificial **não** reprova
+voluntário nem instituição por conta própria — só uma pessoa o faz.
+
+### Excluí uma organização, mas depois vi que sobrou conteúdo. Isso acontece?
+
+Não mais. Desde a versão 0.53.0, excluir uma organização apaga o que ela tem **nos sete módulos** —
+inclusive páginas já publicadas na web e arquivos guardados —, e a confirmação lista tudo antes. Se
+a exclusão falhar no meio, a mensagem diz o que já foi apagado e que repetir conclui. Veja
+[Organizações](/admin-servico/organizacoes/#excluir-uma-organização).
+
 ## Conhecimento e integrações
 
 ### Alguém de fora consegue ver a página publicada da wiki?
