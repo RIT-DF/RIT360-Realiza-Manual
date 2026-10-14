@@ -96,22 +96,62 @@ isso:
 - **O CPF dela não aparece pela instituição.** A ficha de uma instituição mostra nome, cargo e
   contatos; o CPF fica na ficha da pessoa, em Pessoas, para quem tem permissão de ver esse cadastro.
 
+![O bloco Representante e colaboradores de uma instituição, com o representante, dois colaboradores e os botões de cada um](/assets/capturas/instituicoes-pessoas-bloco-desktop.png)
+
 ### Acrescentar uma pessoa
 
-1. Clique em **"Acrescentar pessoa"** (só aparece para quem pode alterar instituições **e** cadastrar
-   pessoas).
-2. Preencha **"Nome"**, **"Cargo ou função"**, **"E-mail"** e **"Telefone"**.
-3. Marque **"É o representante da instituição"** se for quem assina por ela, e/ou **"Pode representar
+**Primeiro se procura; só depois se cadastra.** A pessoa é uma só: se ela já tem ficha em
+[Pessoas](/pessoas/) — porque é voluntária, por exemplo —, a instituição se liga a **essa** ficha,
+não a uma cópia. Ficha duplicada quer dizer telefone atualizado num lugar só, duas situações e duas
+histórias, nenhuma completa.
+
+1. Clique em **"Acrescentar pessoa"** (só aparece para quem pode alterar instituições **e** ver ou
+   cadastrar pessoas).
+2. Em **"Buscar no cadastro de Pessoas"**, digite o **nome ou o CPF** e clique em **"Buscar"** (ou
+   Enter). Cada resultado mostra o nome, o CPF parcialmente oculto e os contatos.
+3. Achou? Clique em **"Ligar esta pessoa"**. A janela passa a dizer **"Pessoa do cadastro: …"**; se
+   escolheu a errada, **"Escolher outra pessoa"** volta à busca.
+4. Preencha **"Cargo ou função"**, que vale só para esta instituição.
+5. Marque **"É o representante da instituição"** se for quem assina por ela, e/ou **"Pode representar
    a instituição em acordos e contratos"**. Quem é o representante sempre pode representar.
-4. Clique em **"Acrescentar"**.
+6. Clique em **"Acrescentar"**. O botão só liga depois que você escolheu uma pessoa.
 
-A pessoa é cadastrada em Pessoas e ligada à instituição na mesma hora.
+![Janela de acrescentar pessoa com a busca "Ana" e cinco resultados, cada um com o botão Ligar esta pessoa, e abaixo o botão Cadastrar pessoa nova](/assets/capturas/instituicoes-pessoas-buscar-desktop.png)
 
-{: .warning }
-**Hoje, esta janela cria uma ficha nova.** Se a pessoa já tem ficha em [Pessoas](/pessoas/) — porque
-é voluntária, por exemplo —, **busque-a lá antes**: acrescentar de novo cria uma segunda ficha para a
-mesma pessoa, e as duas passam a ter de ser mantidas à mão. Sem permissão de cadastrar pessoas, a
-tela diz *"Para acrescentar uma pessoa nova aqui é preciso poder cadastrar pessoas."*
+Se a busca responde que ninguém corresponde, a pessoa não está no cadastro:
+
+1. Clique em **"Cadastrar pessoa nova"**.
+2. Preencha **"Nome"** e, se souber, **"CPF (opcional)"**, **"E-mail"** e **"Telefone"**. Só o nome é
+   obrigatório.
+3. Siga dos passos 4 a 6 acima. A pessoa é cadastrada em Pessoas e ligada à instituição na mesma
+   hora. **"Voltar à busca"** desiste da ficha nova.
+
+#### Quando o CPF já tem dono
+
+Se você digita um CPF que já está no cadastro, a tela avisa e não deixa criar outra ficha: *"Já
+existe no cadastro uma pessoa com este CPF: **nome**. A pessoa é uma só — ligue esta ficha em vez de
+criar outra."* O botão **"Acrescentar"** fica desligado até você clicar em **"Ligar esta pessoa"**
+no próprio aviso. **Ficha arquivada conta como a mesma pessoa**: o aviso acrescenta *"(ficha
+arquivada)"*, e ligá-la é o caminho — reativá-la é feito depois, em [Pessoas](/pessoas/).
+
+![Pessoa nova com o CPF de Ana Almeida: o aviso diz que já existe uma pessoa com este CPF e oferece o botão Ligar esta pessoa](/assets/capturas/instituicoes-pessoas-cpf-repetido-desktop.png)
+
+{: .important }
+**O que você enxerga depende da sua permissão.** Quem pode ver Pessoas tem a busca e liga fichas
+existentes; quem só pode ver **não** encontra **"Cadastrar pessoa nova"**. Quem pode cadastrar mas não
+consultar vê só a ficha nova, com o recado *"Você pode cadastrar uma pessoa nova, mas não consultar o
+cadastro de Pessoas. Se o CPF já estiver cadastrado, o sistema avisa e não cria outra ficha."* — e,
+se o CPF já existir, a recusa **não diz de quem é a ficha**. Sem nenhuma das duas permissões, a tela
+diz *"Para acrescentar uma pessoa aqui é preciso poder ver ou cadastrar pessoas."*
+
+### No cadastro de uma instituição nova
+
+O bloco **"Representante (quem assina pela instituição)"** do formulário **"Para começar"** funciona
+do mesmo jeito: **"Buscar no cadastro de Pessoas"** → **"Ligar esta pessoa"**, ou **"Cadastrar pessoa
+nova"**, mais o **"Cargo"**. Sem permissão de ver nem de cadastrar pessoas, o bloco avisa que o
+representante só pode ser indicado depois, na ficha da instituição.
+
+![Cadastro de instituição, bloco Representante, com a pessoa do cadastro já escolhida](/assets/capturas/instituicoes-cadastrar-representante-desktop.png)
 
 ### Mudar o papel de alguém
 
@@ -132,8 +172,9 @@ Em cada pessoa:
 A **Associação Mãos Amigas** muda de presidente. Maria Oliveira abre a ficha da instituição e, no
 bloco das pessoas, clica em **"Deixar de ser representante"** na presidente anterior — que continua
 na lista como colaboradora (e Maria decide, em **"Pode representar"** / **"Não pode representar"**,
-se ela ainda pode assinar por ali). Depois clica em **"Acrescentar pessoa"**, escreve
-o nome da nova presidente, o cargo "Presidente" e o e-mail, marca **"É o representante da
+se ela ainda pode assinar por ali). Depois clica em **"Acrescentar pessoa"** e busca
+a nova presidente pelo CPF: ela já é voluntária da organização e tem ficha em Pessoas, então Maria
+clica em **"Ligar esta pessoa"**, escreve o cargo "Presidente", marca **"É o representante da
 instituição"** e acrescenta. Na semana seguinte a Mãos Amigas deixa a rede: Maria clica em
 **"Encerrar"** na relação **Integrada**, escolhe o último dia, muda a situação para **Encerrada** com
 o motivo "Mudou de cidade e deixou de atuar com a rede" — e arquiva a instituição.
@@ -144,8 +185,8 @@ o motivo "Mudou de cidade e deixou de atuar com a rede" — e arquiva a institui
   atividades" ajuda; "ver e-mail" não ajuda ninguém.
 - **Encerre a relação com a data real, não a data de hoje.** O que conta é o dia em que o vínculo
   de fato acabou; a data do registro já fica guardada à parte.
-- **Confira em Pessoas antes de acrescentar.** Quem já tem ficha não deve ganhar uma segunda — veja
-  o aviso acima.
+- **Busque pelo CPF, de preferência.** O nome varia ("Ana Almeida", "Ana A. Almeida"); o CPF é o que
+  identifica a pessoa. Foi assim que a tela passou a impedir a ficha dupla.
 - **Desligar não remove a ficha da pessoa.** Se o intuito é tirar a pessoa do cadastro de vez, isso
   se faz em [Pessoas](/pessoas/), e remover lá é definitivo.
 
@@ -160,6 +201,10 @@ o motivo "Mudou de cidade e deixou de atuar com a rede" — e arquiva a institui
 - **"Não foi possível acrescentar a relação."** / **"Não foi possível alterar a relação."** /
   **"Não foi possível mudar a situação."** / **"Não foi possível acrescentar a pessoa."** — a
   alteração não foi gravada; tente de novo.
+- **"Já existe uma ficha com este CPF nesta organização."** — o CPF digitado é de uma pessoa que já
+  está no cadastro (a mensagem que chega a quem não pode consultar Pessoas, sem dizer de quem é).
+  Peça a quem pode ver o cadastro para ligá-la, ou confira o CPF.
+- **"Não foi possível buscar no cadastro de Pessoas."** — a busca falhou; tente de novo.
 
 ## Limites do papel
 

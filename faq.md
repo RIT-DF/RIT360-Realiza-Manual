@@ -301,6 +301,13 @@ organização conhece e tem ficha em [Pessoas](/pessoas/). **Instituição** é 
 profissional ou o fornecedor que a organização conhece, no cadastro [Instituições](/instituicoes/).
 O representante e os colaboradores de uma instituição são **pessoas** do cadastro de Pessoas.
 
+### A pessoa que quero acrescentar à instituição já tem ficha. Crio outra?
+
+Não, e a tela não deixa: em **"Acrescentar pessoa"** você **busca no cadastro** (nome ou CPF) e clica em
+**"Ligar esta pessoa"**. A pessoa é uma só; duas fichas significariam telefone atualizado num lugar só e
+duas histórias, nenhuma completa. Veja
+[Acrescentar uma pessoa](/instituicoes/relacao-situacao-e-pessoas/#acrescentar-uma-pessoa).
+
 ### Uma OSC saiu da nossa rede. Eu a "descredencio"?
 
 Não. **Credenciar e descredenciar valem só para empresas e profissionais** que oferecem serviços à

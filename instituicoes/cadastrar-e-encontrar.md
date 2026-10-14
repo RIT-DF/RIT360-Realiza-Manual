@@ -56,16 +56,17 @@ No celular, cada instituição vira um cartão com os mesmos dados e os mesmos b
    **site**, **Instagram**, **LinkedIn** e **"Outras redes sociais"**, o endereço, as **áreas de
    atuação** e os textos de apresentação (veja abaixo).
 5. Em **"Para começar"** (só no cadastro), marque a **relação** com a organização, escolha a
-   **situação** e, se já souber, preencha o **representante**. Tudo isso pode ser registrado depois,
-   na ficha.
+   **situação** e, se já souber, indique o **representante**: **busque no cadastro de Pessoas** (por nome
+   ou CPF) e clique em **"Ligar esta pessoa"** — ou, se ela não está lá, **"Cadastrar pessoa nova"**. Tudo isso
+   pode ser registrado depois, na ficha. Veja
+   [Relação, situação e representante](/instituicoes/relacao-situacao-e-pessoas/#acrescentar-uma-pessoa).
 6. Clique em **"Cadastrar"**. Para desistir, **"Cancelar"**, ou o link **"← Lista de instituições"**,
    no alto.
 
 **Depois de cadastrar você vai para a ficha da instituição**, e não de volta à lista — assim dá para
 conferir o que ficou salvo.
 
-<!-- CAPTURA: rota=/instituicoes/nova | viewport=1920x1080 | o-que-mostrar=Cadastro de instituição com Tipo, nome, CNPJ, "Para começar" com as relações e a situação | arquivo=instituicoes-cadastrar-desktop.png -->
-<!-- CAPTURA: rota=/instituicoes/nova | viewport=375x812 | o-que-mostrar=O mesmo cadastro no celular | arquivo=instituicoes-cadastrar-celular.png -->
+![Formulário de cadastro de instituição, da identificação ao bloco "Para começar", com relações, situação e representante](/assets/capturas/instituicoes-cadastrar-desktop.png)
 
 ### O CNPJ
 

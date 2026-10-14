@@ -17,6 +17,37 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 13 de outubro de 2026 — versão 0.59.0
+
+A organização cujo contrato acaba passa a ser **apagada no prazo prometido**, o documento que espera a sua
+assinatura **aparece no "Para mim"**, e acrescentar uma pessoa a uma instituição **deixa de criar ficha
+em duplicata**.
+
+### Adicionado
+
+- **Apagamento da organização com contrato encerrado.** Quem administra o serviço encerra o contrato,
+  com motivo, e a organização é apagada **no trigésimo dia**. O gestor recebe **dois avisos**: na hora do
+  encerramento e **sete dias antes**, para dar tempo de baixar os dados. **Reabrir antes do prazo cancela o
+  apagamento**; depois que ele começa, não dá mais para reabrir. Veja
+  [Apagamento de organização encerrada](/admin-servico/apagamento-organizacao-encerrada/).
+- **O documento que espera a sua assinatura aparece no "Para mim"**, com o título, desde quando espera e o
+  botão **"Assinar"**. O link que chegou por e-mail **continua valendo**. Veja
+  [Assinar um documento pelo "Para mim"](/para-mim/#assinar-um-documento-pelo-para-mim).
+- **Buscar no cadastro ao acrescentar uma pessoa a uma instituição.** A janela agora começa por **"Buscar no
+  cadastro de Pessoas"** (por nome ou CPF) e **"Ligar esta pessoa"** liga a ficha que já existe;
+  **"Cadastrar pessoa nova"** é a segunda opção. Veja
+  [Acrescentar uma pessoa](/instituicoes/relacao-situacao-e-pessoas/#acrescentar-uma-pessoa).
+
+### Mudou
+
+- **CPF repetido é a mesma pessoa.** Digitando o CPF de alguém que já está no cadastro, a tela diz quem é e
+  não deixa criar outra ficha — vale também para a ficha arquivada. O mesmo vale para o **representante**,
+  no cadastro de uma instituição nova. Antes, a segunda ficha nascia em silêncio.
+- **A tela de candidatura passou a dizer "instituição"** onde dizia OSC, e o **consentimento aparece pela
+  frase que a pessoa aceitou**, não pelo código.
+
+---
+
 ## 13 de outubro de 2026 — versão 0.58.0
 
 O que uma pessoa envia ao se candidatar **deixa de ficar guardado para sempre**: cada caso passa a ter
