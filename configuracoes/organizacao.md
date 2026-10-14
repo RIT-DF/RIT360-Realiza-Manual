@@ -3,12 +3,12 @@ title: "Dados e identidade da organização"
 nav_order: 3
 parent: "Configurações"
 permalink: /configuracoes/organizacao/
-palavras_chave: "logo, ícone, favicon, razão social, domínio de reconhecimento, ficha da organização, engrenagem, configurações da organização, informações básicas, abas da organização, onde configurar a organização"
+palavras_chave: "logo, ícone, favicon, razão social, cnpj da organização, endereço da organização, dados que saem nos documentos, domínio de reconhecimento, ficha da organização, engrenagem, configurações da organização, informações básicas, abas da organização, onde configurar a organização"
 ---
 
 # Dados e identidade da organização
 
-A ficha da organização — logo, ícone, razão social, contato e site — aparece para todo mundo que
+A ficha da organização — logo, ícone, razão social, CNPJ, endereço, contato e site — aparece para todo mundo que
 participa dela: na lista de organizações, no cabeçalho do aplicativo e no seletor de organização.
 Esta página é sobre como manter esses dados em dia.
 
@@ -27,7 +27,7 @@ seu endereço:
 
 | Aba | O que tem | Onde está explicado |
 |---|---|---|
-| **"Informações básicas"** | Logo, ícone, razão social, contato, site e domínio de reconhecimento. | Esta página. |
+| **"Informações básicas"** | Logo, ícone, razão social, CNPJ, endereço, contato, site e domínio de reconhecimento. | Esta página. |
 | **"Membros"** | Quem tem acesso à organização, os papéis, os convites e os **"Pedidos de entrada"**. | [Membros, papéis e convites](/configuracoes/membros-e-papeis/) e [Pedidos de entrada](/configuracoes/pedidos-de-entrada/) |
 | **"IA"** | Se e como a organização permite que IA trate os dados dela, os provedores próprios e o consumo. | [Inteligência artificial na sua organização](/configuracoes/inteligencia-artificial/) |
 | **"Integrações"** | Chaves de API e webhooks. | [Integrações](/configuracoes/integracoes/) |
@@ -77,27 +77,47 @@ Trocar uma não afeta a outra: enviar uma logo nova não muda o ícone, e vice-v
 
 ## Editar a ficha
 
-1. Preencha **"Razão social"**, **"Pessoa de contato"**, **"E-mail de contato"**, **"Telefone de
-   contato"** e **"Site"**.
+1. Preencha **"Razão social"**, **"CNPJ"**, **"Endereço"**, **"Pessoa de contato"**, **"E-mail de
+   contato"**, **"Telefone de contato"** e **"Site"**.
 2. Clique em **"Salvar ficha"**.
 
 O site cadastrado aparece como link clicável ao lado do campo, assim que salvo.
 
-{: .note }
-As duas imagens abaixo são da tela de configurações **antes das abas**: ela ainda mostra os links
-"Pedidos de entrada" e "Integrações" no topo e outras seções empilhadas. O campo **"Domínio de
-reconhecimento"** e os demais campos da ficha são os mesmos.
-
-![Tela Configurações de Instituto Semente, com os links Pedidos de entrada e Integrações no topo e o campo Domínio de reconhecimento na ficha (imagem de antes das abas)](/assets/capturas/organizacao-configuracoes-desktop.png)
+![Aba Informações básicas do Instituto Semente, com os campos Razão social, CNPJ, Endereço, contato, site e domínio de reconhecimento e a frase que explica para que servem os três primeiros](/assets/capturas/organizacao-informacoes-basicas-desktop.png)
 {: .mt-4 }
 
-A mesma tela no celular:
+A mesma aba no celular:
 
-![Tela Configurações de Instituto Semente, com os links Pedidos de entrada e Integrações no topo e o campo Domínio de reconhecimento na ficha — no celular (imagem de antes das abas)](/assets/capturas/organizacao-configuracoes-celular.png){: style="max-width:375px" }
+![Aba Informações básicas do Instituto Semente no celular, com os campos da ficha, inclusive CNPJ e Endereço, empilhados](/assets/capturas/organizacao-informacoes-basicas-celular.png){: style="max-width:375px" }
+
+## CNPJ e endereço: por que moram aqui
+
+**Por que importa.** O CNPJ e o endereço são dados da **organização**, não de um módulo. O termo de
+adesão do voluntário já os imprime, e tudo o que o sistema vier a emitir em nome da organização —
+termos, contratos, declarações — vai usá-los. Por isso eles ficam na ficha, ao lado da razão social:
+se ficassem dentro do Flow, quem desligasse o módulo perderia o que declarou, sem aviso.
+
+- **"CNPJ"** aceita com ou sem pontuação e também o formato novo, com letras. A máscara é só da
+  tela. Número que não confere é recusado: **"CNPJ inválido."**
+- **"Endereço"** é um texto único, de até 300 caracteres: escreva do jeito que deve sair impresso,
+  por exemplo *"SCS Quadra 6, Bloco A, sala 201, Asa Sul, Brasília/DF, CEP 70306-000"*.
+
+{: .important }
+**Mudou de lugar.** Até a versão 0.61 o CNPJ e o endereço da organização se preenchiam em **Flow ›
+Configurações › Documentos**. Agora se editam **só aqui**, em **Organização › Informações básicas**.
+No Flow eles continuam aparecendo, mas para **leitura**, com a indicação de onde se editam — quem
+procurar o campo lá não o encontra. Quem já os tinha preenchido não precisa digitar de novo: o
+sistema leva os valores antigos para a ficha sozinho, sem sobrescrever o que você já tenha
+preenchido aqui.
+
+{: .warning }
+**Sem CNPJ ou endereço na ficha, o documento que os usa não é emitido.** O sistema recusa a emissão
+e diz onde preencher (veja [Emitir documentos](/flow/emitir-documentos/)). Preencha antes de emitir
+o primeiro termo de adesão, e não na hora, com a pessoa à espera.
 
 {: .note }
 O nome de exibição da organização (o que aparece em toda tela, como "Instituto Semente") não muda
-nesta seção — razão social, contato e site são dados de ficha, à parte.
+nesta seção — razão social, CNPJ, endereço, contato e site são dados de ficha, à parte.
 
 ## Domínio de reconhecimento
 
@@ -122,14 +142,14 @@ mais um cartão desta tela. Veja [Exportar dados](/configuracoes/exportar-dados/
 ## Exemplo
 
 Maria Oliveira, que administra o Instituto Semente, sobe a logo horizontal do instituto e, à parte,
-um ícone quadrado para as listas compactas. Preenche a razão social completa, o e-mail de contato
-institucional e o site do instituto. A partir daí, a logo aparece para todo mundo que participa do
+um ícone quadrado para as listas compactas. Preenche a razão social completa, o CNPJ, o endereço, o
+e-mail de contato institucional e o site do instituto. A partir daí, a logo aparece para todo mundo que participa do
 Instituto Semente — no seletor de organização, na lista de organizações e no cabeçalho.
 
 ## Quando dá errado
 
-- **"Não foi possível salvar a ficha."** — os dados de razão social, contato ou site não foram
-  salvos; tente de novo.
+- **"Não foi possível salvar a ficha."** — os dados da ficha não foram salvos; tente de novo.
+- **"CNPJ inválido."** — os dígitos do CNPJ não conferem. Reveja o número e salve de novo.
 - **"Não foi possível enviar logo."** ou **"Não foi possível enviar ícone."** — confira o formato
   do arquivo.
 - **"Não foi possível remover logo."** ou **"Não foi possível remover ícone."** — tente novamente;

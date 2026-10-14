@@ -140,17 +140,30 @@ dado que falta na ficha. A prévia não grava nada.
 
 ## Quem assina pela organização
 
-Abaixo da lista de modelos há o bloco **"Quem assina pela organização"**. Ele guarda os dados da
-organização que entram nos documentos e **quem assina por ela** por padrão:
+Abaixo da lista de modelos há o bloco **"Quem assina pela organização"**. Ele guarda **quem assina
+pela organização** por padrão e mostra, só para leitura, os dados dela que saem nos documentos:
 
-- **"CNPJ da organização"** e **"Endereço da organização"**. Se o texto os usa e estão em branco, a
-  emissão para.
+- **Os dados da organização, só para ler.** O bloco abre com *"Os dados da organização que saem nos
+  documentos vêm da ficha dela, e se editam em Organização › Informações básicas:"* e lista **Razão
+  social**, **CNPJ**, **Endereço** e **E-mail de contato** — ou **"não preenchida"/"não
+  preenchido"** quando falta. Se o texto do modelo usa um deles e está em branco, a emissão para.
+  Para corrigir, vá à ficha: [Dados e identidade da organização](/configuracoes/organizacao/#cnpj-e-endereço-por-que-moram-aqui).
 - **"Quem assina pela organização"** — a pessoa do cadastro de [Pessoas](/pessoas/) (busque pelo
   nome, com ao menos duas letras) e **"Cargo, como deve sair impresso"**, por exemplo *"Presidente"*.
 
-A **razão social** e o **e-mail de contato** da organização **não** são preenchidos aqui: vêm da
-ficha da organização (veja [Dados e identidade da organização](/configuracoes/organizacao/): **"Razão social"** e **"E-mail de contato"**), e o bloco mostra
-os que estão lá — ou diz que não estão preenchidos.
+{: .important }
+**Mudou de lugar.** Até a versão 0.61 o **CNPJ** e o **endereço** se preenchiam neste bloco, nos campos
+**"CNPJ da organização"** e **"Endereço da organização"**. Esses campos **deixaram de existir aqui**:
+a razão social, o CNPJ, o endereço e o e-mail de contato são todos da ficha da organização e se
+editam em **Organização › Informações básicas** — a razão de ser é que são dados da organização, não
+do Flow, e não se perdem se o módulo for desligado.
+
+![O bloco Quem assina pela organização, com a lista de dados que vêm da ficha (razão social, CNPJ, endereço e e-mail de contato), a pessoa que assina, o cargo e as formas de assinatura](/assets/capturas/flow-documentos-quem-assina-desktop.png)
+{: .mt-4 }
+
+No celular:
+
+![O bloco Quem assina pela organização no celular, com a lista de dados da ficha em leitura](/assets/capturas/flow-documentos-quem-assina-celular.png){: style="max-width:375px" }
 
 Logo abaixo, a parte **"Com que assinar os documentos"** diz com que o documento é **selado** depois
 que todas as partes aceitam por link. Há duas formas:
@@ -205,9 +218,9 @@ voluntários.
 
 ## Dicas e armadilhas
 
-- **Preencha o bloco "Quem assina pela organização" antes de emitir o primeiro documento.** Sem
-  o CNPJ, o endereço e o representante, todo modelo que os cita recusa a emissão — e a recusa chega
-  na hora de emitir, com a pessoa à espera.
+- **Preencha antes de emitir o primeiro documento: o CNPJ e o endereço na ficha da organização
+  (Organização › Informações básicas) e o representante neste bloco.** Sem eles, todo modelo que os
+  cita recusa a emissão — e a recusa chega na hora de emitir, com a pessoa à espera.
 - **Dê ao papel o nome que quem emite vai entender.** *"Responsável legal"* é uma pergunta
   compreensível; *"Assinante 2"*, não. É a pergunta da tela de emissão que o nome vira.
 - **Escolha chaves de papel bem diferentes entre si.** Duas chaves que, juntas, gerariam o mesmo
@@ -241,13 +254,14 @@ Ao salvar, a tela lista **de uma vez** tudo o que está errado, para você corri
 - **"A chave «x» gera o campo …, que já é um campo fixo do documento. Escolha outra chave."** —
   o nome que você deu ao papel colide com um campo que já existe; mude **"Como o texto o chama"**.
 - **"A validade é de ao menos 1 dia."** / **"A validade é de no máximo 3660 dias (10 anos)."**
-- **"CNPJ inválido."** — no bloco "Quem assina pela organização", o CNPJ não passou na conferência.
+- **"CNPJ inválido."** — ao salvar o CNPJ em **Organização › Informações básicas**, ele não passou na
+  conferência. Este bloco não edita mais o CNPJ.
 - **"Não foi possível carregar os modelos."** / **"Não foi possível salvar o modelo."** — recarregue
   a página e tente de novo; se persistir, avise pelo [feedback](/enviar-feedback/).
 
 ## Limites do papel
 
-Quem **administra a organização** vê, cria, edita e apaga modelos e preenche "Quem assina pela
-organização". Outras pessoas só ganham isso se receberem a permissão: sem ela, a seção
+Quem **administra a organização** vê, cria, edita e apaga modelos e escolhe quem assina pela
+organização. Outras pessoas só ganham isso se receberem a permissão: sem ela, a seção
 **"Documentos"** nem aparece em "Configurações". Quem **vê mas não configura** lê os modelos e não
 encontra **"Novo modelo"**, **"Editar"**, **"Duplicar"** nem **"Apagar"**.

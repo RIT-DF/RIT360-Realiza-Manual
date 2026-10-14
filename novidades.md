@@ -17,6 +17,26 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 13 de outubro de 2026 — versão 0.62.0
+
+O **CNPJ** e o **endereço** da organização mudam de lugar: saem do Flow e passam para a ficha da
+organização.
+
+### Modificado
+
+- **CNPJ e endereço se preenchem em Organização › Informações básicas**, ao lado da razão social,
+  nos campos **"CNPJ"** e **"Endereço"**. Antes ficavam em Flow › Configurações › Documentos. São
+  dados da organização, não de um módulo — e quem desligasse o Flow os perderia sem aviso.
+- **No Flow, eles passam a aparecer só para leitura**, no bloco "Quem assina pela organização", com a
+  indicação de onde se editam. Os campos de edição de lá deixaram de existir.
+- **Quem já tinha preenchido não precisa digitar de novo**: o sistema leva os valores antigos para a
+  ficha sozinho, sem sobrescrever o que já estiver nela.
+- **Sem CNPJ ou endereço, o documento que os usa não é emitido**, e a mensagem agora aponta
+  **Organização › Informações básicas**. Veja
+  [Dados e identidade da organização](/configuracoes/organizacao/#cnpj-e-endereço-por-que-moram-aqui).
+
+---
+
 ## 13 de outubro de 2026 — versão 0.61.0
 
 A tela de **Integrações** passa a **caber na tela** e a dizer **quais espaços** cada chave e cada

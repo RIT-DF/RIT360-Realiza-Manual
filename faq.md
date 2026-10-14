@@ -241,6 +241,15 @@ exportação. Quem administra a organização pede a exportação da organizaç�
 **"Exportação e importação"**, que se abre pela engrenagem do cabeçalho. Importar os dados de volta
 ainda não está disponível. Veja [Exportar dados](/configuracoes/exportar-dados/).
 
+### Onde preencho o CNPJ e o endereço da organização? Sumiram do Flow.
+
+Moram agora em **Organização › Informações básicas**, ao lado da razão social — pela engrenagem do
+cabeçalho. Em **Flow › Configurações › Documentos** eles continuam aparecendo, mas só para leitura,
+com a indicação de onde se editam. Mudou porque são dados da organização, não do Flow: ficam
+guardados mesmo que o módulo seja desligado. Quem já os tinha preenchido não precisa digitar de novo.
+Sem eles, o documento que os usa não é emitido. Veja
+[Dados e identidade da organização](/configuracoes/organizacao/#cnpj-e-endereço-por-que-moram-aqui).
+
 ### Onde ficaram as configurações da organização?
 
 Na **engrenagem** do cabeçalho, que só aparece para quem administra a organização. Ela abre uma

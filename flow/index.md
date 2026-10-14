@@ -101,7 +101,8 @@ treze que vêm de partida nascem incompletas, e quem se candidata a voluntário 
 lugar e o que vai fazer.
 
 Antes de emitir o primeiro **termo de adesão**, preencha os dados da organização que o termo
-usa — CNPJ, endereço, razão social, e-mail de contato e quem assina por ela. A emissão recusa
+usa — razão social, CNPJ, endereço e e-mail de contato, em **Organização › Informações básicas**, e
+quem assina por ela, em Flow › Configurações › Documentos. A emissão recusa
 enquanto faltar algum, listando o que falta; o passo a passo está em
 [Emitir, ver e anexar documentos](/flow/emitir-documentos/#antes-de-emitir-o-primeiro-termo-de-adesão).
 

@@ -107,9 +107,10 @@ organização precisa ter preenchidos **antes**. Se faltar algum, a emissão **r
 falta**, em vez de imprimir um documento com buraco. Trate isto como um **passo preparatório**, e não
 como um erro a descobrir na hora:
 
-1. **A razão social e o e-mail de contato da organização** — em
-   [Dados e identidade da organização](/configuracoes/organizacao/).
-2. **O CNPJ, o endereço e quem assina pela organização (o representante, com o cargo)** — em Flow ›
+1. **A razão social, o CNPJ, o endereço e o e-mail de contato da organização** — todos em
+   **Organização › Informações básicas**: [Dados e identidade da organização](/configuracoes/organizacao/#cnpj-e-endereço-por-que-moram-aqui).
+   (Até a versão 0.61 o CNPJ e o endereço se preenchiam no Flow; agora é só na ficha.)
+2. **Quem assina pela organização (o representante, com o cargo)** — em Flow ›
    Configurações › Documentos, no bloco **"Quem assina pela organização"** (veja
    [Modelos de documento](/flow/documentos/#quem-assina-pela-organização)). A ficha do representante
    em [Pessoas](/pessoas/) precisa ter **CPF**, porque o termo o cita.
@@ -195,8 +196,8 @@ falta:"** seguido da **lista inteira** do que falta, de uma vez — não uma coi
   pedido.
 - **"Diga quem assina pela organização: escolha uma pessoa aqui, ou defina o representante em Flow ›
   Configurações › Documentos."**
-- **"O CNPJ da organização não está informado em Flow › Configurações › Documentos."** (e o mesmo para o
-  endereço)
+- **"o CNPJ da organização não está preenchido na ficha da organização (Organização › Informações
+  básicas)"** (e o equivalente para o endereço) — preencha na ficha, não no Flow, e confira de novo.
 - **"A razão social não está preenchida na ficha da organização"** / **"a organização não tem e-mail
   de contato cadastrado"**.
 - **"A pessoa escolhida como «Testemunha» não foi encontrada no cadastro."** — a ficha foi removida
@@ -312,5 +313,5 @@ Quem **administra a organização** vê, emite, anexa, envia para assinatura e e
 permissão de **ver** documentos lê a lista e abre os emitidos, mas não encontra **"Emitir documento"**,
 **"Anexar documento assinado"**, **"Encerrar"** nem o botão de enviar para assinatura (a janela
 **"Assinatura"** abre, só para acompanhar).
-Os **modelos** (criar, editar, apagar) e o **"Quem assina pela organização"** pedem outra permissão, a de
+Os **modelos** (criar, editar, apagar) e a escolha de **"Quem assina pela organização"** pedem outra permissão, a de
 configurar, descrita em [Modelos de documento](/flow/documentos/).
