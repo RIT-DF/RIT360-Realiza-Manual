@@ -532,6 +532,14 @@ organização, e por isso ele **não vai sair** enquanto o módulo não for reli
 quem administra o serviço. Nada se perde: quando o módulo volta, a entrega segue. É diferente de
 **"Na fila"**, que é só a espera normal. Veja [Integrações](/configuracoes/integracoes/).
 
+### Limitei o webhook a alguns espaços. Ele ainda recebe as candidaturas?
+
+Recebe, se você marcou os eventos **"Candidatura aprovada"** ou **"Candidatura reprovada"**. O filtro
+de espaços só vale para os eventos que acontecem dentro de um espaço (tarefa criada, entrega
+aprovada…); candidatura não pertence a espaço nenhum e é entregue sempre, com ou sem filtro. A tela
+avisa com **"(não pertence a um espaço)"** ao lado do evento. Antes da versão 0.60.0 não era assim — o
+webhook limitado a espaços nunca recebia candidaturas. Veja [Integrações](/configuracoes/integracoes/#o-filtro-de-espaços-vale-só-para-os-eventos-de-espaço).
+
 ## Dados, privacidade e inteligência artificial
 
 ### Quem é o dono dos dados que a minha organização coloca aqui?

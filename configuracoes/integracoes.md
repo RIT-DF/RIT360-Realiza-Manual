@@ -122,8 +122,13 @@ criada, uma entrega enviada para aprovação, um pedido de triagem decidido.
 2. Preencha **"Nome"** e **"URL de destino"** — o endereço do sistema que vai receber o aviso. A
    URL precisa começar com `https://`; endereços internos são recusados.
 3. Em **"Eventos"**, marque os que você quer que disparem um aviso.
-4. Em **"Em quais espaços"**, escolha todos ou só alguns, como na chave de API.
+4. Em **"Em quais espaços"**, escolha todos ou só alguns, como na chave de API — mas leia antes a
+   regra do filtro, logo abaixo: ela não vale para todos os eventos.
 5. Clique em **"Criar webhook"**.
+
+![Janela "Novo webhook" aberta, com a lista de eventos — "Candidatura aprovada" e "Candidatura reprovada" trazem a marca "(não pertence a um espaço)" — e o campo "Em quais espaços" com "Todos os espaços da organização" marcado](/assets/capturas/integracoes-webhook-novo-desktop.png)
+
+![Janela "Novo webhook" no celular, com os eventos de candidatura marcados como "(não pertence a um espaço)"](/assets/capturas/integracoes-webhook-novo-celular.png){: style="max-width:375px" }
 
 Os eventos disponíveis hoje: tarefa criada, responsável da tarefa alterado, entrega criada, versão
 de entrega enviada para aprovação, entrega aprovada ou recusada, ajuste solicitado numa entrega,
@@ -134,12 +139,52 @@ Os dois eventos de **candidatura** são os do [Flow](/flow/candidaturas/): dispa
 decide uma candidatura em tela. É por eles que uma automação (o n8n, por exemplo) fica sabendo da
 decisão e dá o passo seguinte, como escrever à pessoa.
 
+#### O filtro de espaços vale só para os eventos de espaço
+
+Alguns eventos acontecem **dentro de um espaço** — uma tarefa criada, uma entrega aprovada. Outros
+não acontecem em espaço nenhum: **"Candidatura aprovada"** e **"Candidatura reprovada"** (as do
+[Flow](/flow/candidaturas/)) pertencem à organização, não a um espaço. A tela marca esses eventos
+com **"(não pertence a um espaço)"**, e a regra é esta:
+
+- **Evento de espaço** — respeita o filtro. Com **"Em quais espaços"** limitado, o aviso só sai se
+  o fato aconteceu num dos espaços escolhidos.
+- **Evento que não pertence a um espaço** — é entregue **sempre**, com filtro ou sem filtro.
+
+Por que é assim: quem marca um evento o marca de propósito — quer ser avisado quando ele acontece. O
+filtro de espaços responde a outra pergunta, "de quais espaços eu quero as coisas?", que não faz
+sentido para um fato que não aconteceu em espaço nenhum, como a decisão de uma candidatura. Tratar
+o filtro como se ele também excluísse esses eventos entregaria menos do que você pediu, em silêncio.
+
+A tela deixa isso à vista. Sob **"Em quais espaços"** aparece sempre: *"O filtro de espaços só vale
+para os eventos de espaço. Os eventos que não pertencem a um espaço (como as candidaturas) são
+entregues sempre, com ou sem filtro."* E, quando você limita os espaços e marca um evento desses,
+aparece também *"Dos eventos marcados, não são filtrados por espaço: …"*, com o nome dos eventos.
+
+![Janela "Novo webhook" com "Entrega aprovada ou recusada" e "Candidatura aprovada" marcados, o filtro limitado ao espaço "Campanha do Agasalho 2026" e a linha "Dos eventos marcados, não são filtrados por espaço: Candidatura aprovada."](/assets/capturas/integracoes-webhook-filtro-desktop.png)
+
+![Janela "Novo webhook" no celular, com o filtro limitado a um espaço e a linha que avisa quais eventos marcados não são filtrados](/assets/capturas/integracoes-webhook-filtro-celular.png){: style="max-width:375px" }
+
+Na lista de webhooks, o cartão de um webhook limitado a espaços repete o aviso numa linha própria —
+*"Sem filtro de espaços (entregues sempre): …"* —, para que ninguém precise lembrar o que marcou.
+
+![Cartão "Webhooks" com o webhook "Automação de decisões", limitado a 1 espaço, e a linha "Sem filtro de espaços (entregues sempre): Candidatura aprovada."](/assets/capturas/integracoes-webhook-lista-desktop.png)
+
+![Cartão "Webhooks" no celular, com a linha "Sem filtro de espaços (entregues sempre)"](/assets/capturas/integracoes-webhook-lista-celular.png){: style="max-width:375px" }
+
+{: .tip }
+Quer receber **só** as candidaturas, sem nenhum evento de espaço? Marque apenas os dois eventos de
+candidatura; o filtro de espaços fica sem efeito sobre eles, então pode deixar **"Todos os espaços
+da organização"** marcado — é o mais simples.
+
 {: .warning }
-**Candidatura não pertence a nenhum espaço.** Um webhook criado para **só alguns espaços** (em "Em
-quais espaços") **não recebe** os eventos de candidatura — eles só chegam a webhooks configurados
-para **todos os espaços**. Se a decisão aparece no Flow como *"concluído, mas nenhum destino de
-integração está inscrito neste evento"*, confira aqui se há um webhook ativo, com o evento marcado e
-sem limite de espaços.
+Se a decisão de uma candidatura aparece no Flow como *"concluído, mas nenhum destino de integração
+está inscrito neste evento"*, o problema **não** é o filtro de espaços (ele não alcança esses
+eventos): confira se há um webhook **ativo** com o evento de candidatura marcado.
+
+{: .note }
+Antes da versão 0.60.0 não era assim: um webhook limitado a espaços **nunca** recebia as
+candidaturas, mesmo com o evento marcado, e a tela não avisava. Se você tinha um webhook assim, ele
+passa a receber as decisões a partir da 0.60.0 — confira se é isso que a sua automação espera.
 
 Como na chave de API, o **segredo** do webhook aparece **uma única vez**, para verificar que um
 aviso recebido realmente veio da RIT360 Plataforma (a documentação técnica explica como).
@@ -222,6 +267,13 @@ toda decisão sobre uma entrega dispara o aviso sozinho, sem ninguém copiar nad
 - **"Falha ao criar a chave."** ou **"Falha ao criar o webhook."** — confira os dados (a URL do
   webhook, por exemplo, precisa começar com `https://` e não pode ser um endereço interno) e tente
   de novo. O motivo específico da recusa aparece na própria mensagem.
+- **"Carregando eventos…"** na janela **"Novo webhook"** que não sai — a lista de eventos vem do
+  servidor e ainda não chegou; se falhar, a janela mostra **"Falha ao carregar os eventos
+  disponíveis."** — recarregue a página.
+- **"Não foi possível resolver o endereço informado."** — a URL de destino não existe (erro de
+  digitação no domínio, por exemplo). Corrija e crie de novo.
+- **"Espaço(s) inexistente(s) ou arquivado(s): …"** — um dos espaços marcados no filtro foi
+  arquivado ou não existe mais. Desmarque-o e escolha outro.
 - **"Falha ao carregar as chaves de API."** ou **"Falha ao carregar os webhooks."** — recarregue a
   página.
 

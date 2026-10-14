@@ -293,7 +293,8 @@ plataforma; o que a plataforma garante é que a decisão foi entregue, e é por 
 - **Concluído.** *"O aviso da decisão foi entregue ao n8n."*
   Se aparecer *"mas nenhum destino de integração está inscrito neste evento"*, a entrega saiu, mas
   **não há automação ouvindo** a decisão: veja [Integrações](/configuracoes/integracoes/) — os
-  eventos **"Candidatura aprovada"** e **"Candidatura reprovada"**.
+  eventos **"Candidatura aprovada"** e **"Candidatura reprovada"** (o filtro de espaços de um webhook não
+  barra esses eventos: candidatura não pertence a espaço e é entregue sempre).
 - **Falhou.** *"A entrega ao n8n falhou depois de várias tentativas, e a decisão ainda não chegou a
   quem precisa."* — com o motivo. Resolva o problema do outro lado (a automação estava fora do ar,
   por exemplo) e clique em **"Repetir a entrega"**. A Visão geral do Flow também conta as decisões

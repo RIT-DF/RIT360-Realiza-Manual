@@ -17,6 +17,26 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 13 de outubro de 2026 — versão 0.60.0
+
+O webhook limitado a alguns espaços **passa a receber as candidaturas** que você marcou.
+
+### Corrigido
+
+- **Candidatura chega ao webhook mesmo com filtro de espaços.** Quem limitou um webhook a certos
+  espaços e marcou **"Candidatura aprovada"** ou **"Candidatura reprovada"** nunca recebia o aviso — e a
+  tela não dizia nada. Candidatura não pertence a espaço nenhum, então o filtro agora só vale para os
+  eventos que acontecem dentro de um espaço; os outros são entregues sempre. Veja
+  [Integrações](/configuracoes/integracoes/#o-filtro-de-espaços-vale-só-para-os-eventos-de-espaço).
+
+### Modificado
+
+- **A janela "Novo webhook" explica a regra.** Os eventos que não pertencem a um espaço trazem
+  **"(não pertence a um espaço)"**, a janela diz como o filtro funciona, e a lista de webhooks mostra,
+  em **"Sem filtro de espaços (entregues sempre)"**, quais eventos marcados o filtro não alcança.
+
+---
+
 ## 13 de outubro de 2026 — versão 0.59.0
 
 A organização cujo contrato acaba passa a ser **apagada no prazo prometido**, o documento que espera a sua
