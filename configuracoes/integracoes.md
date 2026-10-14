@@ -53,7 +53,9 @@ vazamento fica do tamanho da integração.
 2. Preencha **"Nome"** — algo que te ajude a lembrar para que serve, como "n8n produção".
 3. Em **"O que ela pode"**, escolha **"Só ler"** ou **"Ler e alterar"**.
 4. Em **"Em quais espaços"**, deixe marcado **"Todos os espaços da organização"**, ou desmarque e
-   escolha só os espaços que essa chave deve alcançar.
+   escolha só os espaços que essa chave deve alcançar. A lista oferece **só espaços ativos**: um
+   espaço arquivado não aparece (veja [Só espaços ativos](#só-espaços-ativos)). Se a organização não
+   tem nenhum espaço ativo, a lista diz **"Nenhum espaço ativo encontrado."**
 5. Em **"O que esta chave alcança"**, marque cada informação que a integração precisa. A lista é
    agrupada por módulo — **Organização, Trabalho, Conhecimento, Relatórios, Comunicação,
    Assistente e Flow** — e cada item aparece como **"<Recurso>: <ação>"**, por exemplo
@@ -62,6 +64,8 @@ vazamento fica do tamanho da integração.
    explicação na tela é: "Nada vem marcado: a chave alcança só o que você escolher aqui. Marque o
    mínimo que a integração precisa."
 6. Clique em **"Criar chave"**.
+
+![Janela "Nova chave de API" com "Todos os espaços da organização" desmarcado e a lista mostrando só dois espaços ativos, "Comunicação institucional" e "Campanha do Agasalho 2026", ambos marcados](/assets/capturas/integracoes-chave-nova-desktop.png)
 
 A tela mostra a chave em claro **uma única vez**, com o aviso: "Copie agora — por segurança, esta
 chave não aparece de novo. Se perdê-la, revogue e crie outra." Clique em **"Copiar"** antes de
@@ -90,6 +94,21 @@ Cada chave da lista traz uma linha **"O que ela alcança:"**, seguida dos itens 
 exemplo, *"Organização · Cadastro de pessoas: ver"*. Quando nada foi marcado, a linha diz: "O que
 ela alcança: nada — esta chave não alcança nenhuma informação." É o primeiro lugar a olhar quando
 uma integração começa a receber recusas.
+
+O cartão da chave é empilhado, de cima para baixo: o nome e o início da chave, **"Só ler"** ou
+**"Ler e alterar"**, **onde** a chave vale, **"Último uso"** e **"Limite"**, o **"O que ela alcança:"**
+e, por último, **"Revogar"**. Onde a chave vale vem numa linha própria: **"Todos os espaços"**, ou
+**"Espaço:"** (um só) / **"Espaços:"** (vários), seguido de **uma etiqueta com o nome de cada
+espaço**. Você não precisa abrir nada para saber *quais* — a tela nomeia. Se o espaço foi removido,
+ou a lista não o traz, a etiqueta diz **"Espaço não encontrado"**.
+
+Nada passa da largura da tela, nem no celular, e **"Último uso"** e os botões ficam sempre à vista.
+É o **"Último uso"** que diz se a integração está viva: uma chave que ninguém usa há semanas é
+candidata a revogar.
+
+![Cartão "Chaves de API" com a chave "planilha da equipe", "Só ler", a linha "Espaços:" com as etiquetas "Comunicação institucional" e "Campanha do Agasalho 2026", "Último uso: nunca", "O que ela alcança" e o botão "Revogar", tudo dentro da largura do cartão](/assets/capturas/integracoes-chave-lista-desktop.png)
+
+![Cartão "Chaves de API" no celular, empilhado: as etiquetas de espaço quebram para a linha de baixo e o botão "Revogar" aparece por inteiro](/assets/capturas/integracoes-chave-lista-celular.png){: style="max-width:375px" }
 
 ### O que uma chave nunca pode
 
@@ -122,8 +141,9 @@ criada, uma entrega enviada para aprovação, um pedido de triagem decidido.
 2. Preencha **"Nome"** e **"URL de destino"** — o endereço do sistema que vai receber o aviso. A
    URL precisa começar com `https://`; endereços internos são recusados.
 3. Em **"Eventos"**, marque os que você quer que disparem um aviso.
-4. Em **"Em quais espaços"**, escolha todos ou só alguns, como na chave de API — mas leia antes a
-   regra do filtro, logo abaixo: ela não vale para todos os eventos.
+4. Em **"Em quais espaços"**, escolha todos ou só alguns, como na chave de API — a lista oferece só
+   espaços ativos (**"Nenhum espaço ativo encontrado."** quando não há nenhum). Leia antes a regra
+   do filtro, logo abaixo: ela não vale para todos os eventos.
 5. Clique em **"Criar webhook"**.
 
 ![Janela "Novo webhook" aberta, com a lista de eventos — "Candidatura aprovada" e "Candidatura reprovada" trazem a marca "(não pertence a um espaço)" — e o campo "Em quais espaços" com "Todos os espaços da organização" marcado](/assets/capturas/integracoes-webhook-novo-desktop.png)
@@ -164,12 +184,24 @@ aparece também *"Dos eventos marcados, não são filtrados por espaço: …"*, 
 
 ![Janela "Novo webhook" no celular, com o filtro limitado a um espaço e a linha que avisa quais eventos marcados não são filtrados](/assets/capturas/integracoes-webhook-filtro-celular.png){: style="max-width:375px" }
 
-Na lista de webhooks, o cartão de um webhook limitado a espaços repete o aviso numa linha própria —
+Na lista de webhooks, cada cartão é empilhado e diz, em linhas separadas, **o que** e **onde**:
+
+- **"Evento:"** (um) ou **"Eventos:"** (vários), seguido de **uma etiqueta por evento**.
+- **"Espaço:"** (um) ou **"Espaços:"** (vários), seguido de **uma etiqueta com o nome de cada
+  espaço** — ou **"Todos os espaços"**, quando não há filtro. Espaço removido, ou que a lista não
+  traz, aparece como **"Espaço não encontrado"**.
+- **"Último uso"** e os botões, sempre visíveis.
+
+O rótulo em cada linha existe para que ninguém confunda uma etiqueta de espaço com uma de evento: as
+duas têm o mesmo formato, e sem o rótulo um webhook com três eventos e um espaço parece ter quatro
+eventos.
+
+Um webhook limitado a espaços repete também o aviso numa linha própria —
 *"Sem filtro de espaços (entregues sempre): …"* —, para que ninguém precise lembrar o que marcou.
 
-![Cartão "Webhooks" com o webhook "Automação de decisões", limitado a 1 espaço, e a linha "Sem filtro de espaços (entregues sempre): Candidatura aprovada."](/assets/capturas/integracoes-webhook-lista-desktop.png)
+![Cartão "Webhooks" com o webhook "Automação de decisões": "Eventos:" com duas etiquetas, "Espaço:" com "Campanha do Agasalho 2026", "Último uso: nunca", a linha "Sem filtro de espaços (entregues sempre): Candidatura aprovada." e os botões "Entregas" e "Excluir"](/assets/capturas/integracoes-webhook-lista-desktop.png)
 
-![Cartão "Webhooks" no celular, com a linha "Sem filtro de espaços (entregues sempre)"](/assets/capturas/integracoes-webhook-lista-celular.png){: style="max-width:375px" }
+![Cartão "Webhooks" no celular, empilhado, com "Eventos:", "Espaço:", "Último uso" e os botões, sem nada cortado](/assets/capturas/integracoes-webhook-lista-celular.png){: style="max-width:375px" }
 
 {: .tip }
 Quer receber **só** as candidaturas, sem nenhum evento de espaço? Marque apenas os dois eventos de
@@ -239,6 +271,16 @@ defeito no webhook, na URL ou no sistema de destino, onde ele não está.
   desfeita."
 - Para desligar vários de uma vez, marque-os e clique em **"Desativar selecionados"**.
 
+## Só espaços ativos
+
+Ao criar uma chave de API ou um webhook, a lista de espaços oferece **só os espaços ativos**. Por que
+isso importa: um espaço arquivado já terminou, e uma integração limitada a ele ficaria vigiando algo
+que não recebe mais nada — e você acharia que ela está funcionando.
+
+Se mesmo assim a criação chegar ao servidor com um espaço arquivado (a lista na tela estava aberta
+havia tempo e o espaço foi arquivado nesse intervalo, por exemplo), o servidor recusa e **diz qual
+espaço é o problema**, pelo nome — veja as mensagens em "Quando dá errado".
+
 ## Exemplo
 
 Para um relatório semanal, Maria Oliveira cria no Instituto Semente uma chave chamada "planilha da
@@ -272,8 +314,13 @@ toda decisão sobre uma entrega dispara o aviso sozinho, sem ninguém copiar nad
   disponíveis."** — recarregue a página.
 - **"Não foi possível resolver o endereço informado."** — a URL de destino não existe (erro de
   digitação no domínio, por exemplo). Corrija e crie de novo.
-- **"Espaço(s) inexistente(s) ou arquivado(s): …"** — um dos espaços marcados no filtro foi
-  arquivado ou não existe mais. Desmarque-o e escolha outro.
+- **"O espaço "Formação de educadores" está arquivado. Escolha só espaços ativos."** — o espaço
+  marcado no filtro foi arquivado. No plural: **"Os espaços "A", "B" estão arquivados. Escolha só
+  espaços ativos."** Desmarque os citados e crie de novo.
+- **"Um dos espaços escolhidos não existe nesta organização. Escolha só espaços ativos."** — um
+  espaço marcado já não existe aqui. No plural: **"N dos espaços escolhidos não existem nesta
+  organização. Escolha só espaços ativos."** Recarregue a página para ver a lista atual.
+  Quando há as duas situações ao mesmo tempo, as duas frases vêm juntas, na mesma mensagem.
 - **"Falha ao carregar as chaves de API."** ou **"Falha ao carregar os webhooks."** — recarregue a
   página.
 

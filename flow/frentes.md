@@ -62,7 +62,9 @@ precisa ser feito"**.)
      definido.** **Zero fecha a frente para novos.**
    - **"Quem coordena"** — busque a pessoa **no cadastro** (escreva ao menos duas letras do nome) e
      clique no nome. Tem de ser uma pessoa já cadastrada em [Pessoas](/pessoas/); o campo não aceita
-     nome digitado à mão. Para trocar, escolha outra; para tirar, **"Remover coordenação"**.
+     nome digitado à mão. Para trocar, escolha outra; para tirar, **"Remover coordenação"**. A
+     **caixa de busca** só aparece para quem tem permissão de ver o cadastro de pessoas — veja
+     "Dicas e armadilhas" e "Limites do papel".
    - **"O que se espera de quem entra"** — **"Tempo disponível"** (por exemplo, "4 horas por
      semana"), **"Experiência"** (**"Não precisa de experiência"** ou **"Pede alguma experiência"**)
      e **"Qual experiência (se pedir alguma)"**.
@@ -113,9 +115,13 @@ campanha, é arquivada — e quem trabalhou nela continua com o registro.
 - **Complete primeiro as frentes onde chegam candidatos.** Uma frente com "Falta definir" não deixa
   você responder à pergunta "há lugar?" — e candidato sem resposta desiste.
 - **Escolha uma coordenação que esteja no cadastro e que vá, de fato, chamar a pessoa.** Se a
-  pessoa escolhida sair do cadastro, a tela avisa **"A pessoa saiu do cadastro — escolha outra"**; e
-  se você não tiver acesso ao cadastro de pessoas, a tela mostra **"Definida (você não tem acesso ao
-  cadastro de pessoas para ver o nome)"** — a coordenação existe, você só não vê quem é.
+  pessoa escolhida sair do cadastro, a tela avisa **"A pessoa saiu do cadastro — escolha outra"**.
+- **Ver quem coordena não exige ver o cadastro; escolher outra pessoa pela busca exige.** Quem
+  configura frentes mas não tem permissão de ver pessoas enxerga o **nome** de quem coordena em cada
+  frente, sem alcançar CPF, endereço nem contato de ninguém. O que continua pedindo a permissão é a
+  caixa de busca para escolher *outra* pessoa: uma busca por nome mostraria a lista de todas as
+  pessoas cadastradas, e isso é mais do que quem organiza voluntariado precisa ver. Se você
+  precisa trocar a coordenação e não vê a caixa, peça a permissão ou peça a quem a tem.
 - **Zero é decisão, vazio é falta de decisão.** "Quantas pessoas cabem" vazio diz "ainda não
   definimos"; zero diz "está fechada". Não confunda os dois.
 - **Arquivar não devolve o lugar de ninguém.** Quem já está numa frente arquivada continua nela. Se
@@ -131,9 +137,12 @@ campanha, é arquivada — e quem trabalhou nela continua com o registro.
   estão arquivadas. Desarquive as que quer manter ou crie novas.
 - **"Você não tem permissão para ver as frentes de trabalho desta organização."** — o seu papel não
   alcança as frentes; peça a quem administra a organização.
-- **"Para escolher a coordenação é preciso poder consultar o cadastro de pessoas."** — você pode
-  editar a frente, mas não consultar [Pessoas](/pessoas/); peça a permissão ou peça a quem a tem
-  que escolha a coordenação.
+- **"Para escolher a coordenação é preciso poder consultar o cadastro de pessoas."** — aparece na
+  janela **"Editar frente"**, no lugar da caixa de busca de **"Quem coordena"**. Você pode editar a
+  frente e vê quem coordena hoje, mas não consultar [Pessoas](/pessoas/) para escolher outra
+  pessoa; peça a permissão ou peça a quem a tem que escolha a coordenação.
+- **"Não foi possível consultar o cadastro agora"**, no lugar do nome de quem coordena — o cadastro
+  não respondeu naquele momento; a coordenação não foi perdida. Recarregue a página em instantes.
 - **"Ninguém no cadastro com este nome. A pessoa precisa estar cadastrada em Pessoas."** —
   cadastre-a antes em [Pessoas](/pessoas/), depois volte à frente.
 - **"Não foi possível carregar as frentes de trabalho."** / **"Não foi possível salvar."** —
@@ -143,3 +152,7 @@ campanha, é arquivada — e quem trabalhou nela continua com o registro.
 
 Quem administra a organização vê e configura as frentes. Quem só pode ver as lê, mas não encontra os
 botões **"Nova frente"**, **"Editar"** e **"Arquivar"**.
+
+Para **escolher a coordenação** é preciso, além de poder editar frentes, ter a permissão de ver o
+cadastro de pessoas — é ela que libera a caixa de busca. Ver o **nome** de quem já coordena não pede
+essa permissão.

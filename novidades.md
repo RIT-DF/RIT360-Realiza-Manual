@@ -17,6 +17,32 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 13 de outubro de 2026 — versão 0.61.0
+
+A tela de **Integrações** passa a **caber na tela** e a dizer **quais espaços** cada chave e cada
+webhook alcançam; e quem configura as frentes do Flow **vê o nome de quem coordena** sem precisar
+ver o cadastro de pessoas.
+
+### Corrigido
+
+- **O cartão de chave de API e o de webhook cabem na largura.** Antes, "Último uso" podia ser cortado
+  e, com muitos eventos, os botões sumiam. Agora o cartão é empilhado e as duas coisas ficam sempre à
+  vista, inclusive no celular.
+- **Os espaços aparecem pelo nome.** Em vez de "1 espaço(s) selecionado(s)", cada cartão lista os
+  espaços, e cada grupo ganhou rótulo próprio — **"Eventos:"** e **"Espaços:"**, numa linha só dele.
+- **Criar chave ou webhook só oferece espaço ativo.** Espaço arquivado não aparece mais na lista; e,
+  se o servidor recusar um espaço, a mensagem diz **qual** pelo nome. Veja
+  [Integrações](/configuracoes/integracoes/#só-espaços-ativos).
+
+### Modificado
+
+- **Frentes de trabalho: o nome de quem coordena aparece para quem as configura.** Quem não podia ver
+  o cadastro de pessoas via "Definida (você não tem acesso…)" no lugar do nome — isso acabou. Escolher
+  **outra** pessoa pela caixa de busca continua pedindo a permissão de ver o cadastro de pessoas.
+  Veja [Frentes de trabalho](/flow/frentes/).
+
+---
+
 ## 13 de outubro de 2026 — versão 0.60.0
 
 O webhook limitado a alguns espaços **passa a receber as candidaturas** que você marcou.
