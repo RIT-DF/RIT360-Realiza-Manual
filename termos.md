@@ -4,15 +4,15 @@ nav_order: 2
 parent: "Termos e Privacidade"
 permalink: /termos/
 palavras_chave: "cancelamento, rescisão, encerramento de contrato, prazo de 30 dias, apagamento de dados, uso proibido, foro"
-version: "1.0"
-change_summary: "Primeira versão dos Termos de Uso do RIT360 Realiza. Revisada juridicamente em 23/09/2026, sem alteração de texto."
+version: "1.1"
+change_summary: "A seção 12 passou a descrever o que o produto faz na janela de 30 dias após o encerramento: dois avisos (no ato e sete dias antes) em vez de três, acesso não restrito durante a janela, prazo em dias corridos, e a lista correta do que sobrevive ao apagamento."
 ---
 
 # Termos de Uso — RIT360 Realiza
 
-**Vigência:** 20 de setembro de 2026
-**Versão:** 1.0  
-**Revisão jurídica:** 23 de setembro de 2026
+**Vigência:** 14 de outubro de 2026
+**Versão:** 1.1  
+**Revisão jurídica:** pendente para a versão 1.1 (a versão 1.0 foi revisada em 23 de setembro de 2026)
 
 ---
 
@@ -160,30 +160,32 @@ Qualquer das partes pode encerrar o uso da plataforma mediante aviso prévio de 
 
 **Toda organização tem o direito de exportar os seus dados, a qualquer momento.** Esse direito não depende de contrato vigente, de autorização nossa, nem de estar em dia com nada.
 
-### 12.2 A janela de 30 dias após o encerramento
+### 12.2 A janela até o apagamento
 
-Encerrado o uso, quem administra a organização **mantém o acesso por 30 (trinta) dias**. Nesse período pode fazer exatamente duas coisas:
+Encerrado o uso, a organização **continua acessível por 30 (trinta) dias**, e nesse período ela pode **exportar os dados** e **reativar** o uso — reativar antes do prazo cancela o apagamento.
 
-1. **Exportar os dados** da organização.
-2. **Reativar** o uso da plataforma.
+⚠️ **O acesso durante a janela não é restrito.** Quem administrava a organização continua podendo usá-la normalmente até o apagamento. Dizemos isto porque é o contrário do que se costuma supor de um contrato encerrado: se a organização não quiser que ninguém continue operando, cabe a ela retirar os acessos.
 
-Nenhuma outra ação é permitida nesse período — a restrição vale no servidor, não apenas na tela.
+**Dois avisos por e-mail são enviados a quem gere a organização:** um no ato do encerramento e outro **sete dias antes** do apagamento. Os dois dizem a data em que o apagamento acontecerá e lembram que a exportação existe. O segundo é a última comunicação enviada.
 
-Durante toda a janela, quem administra a organização vê, a cada entrada, um aviso em destaque com o prazo restante e o caminho para exportar. Avisos por e-mail reforçam esse aviso ao encerrar, faltando 3 dias, e na manhã do último dia.
+⚠️ **Os prazos acima são os padrões do serviço e podem ser ajustados na administração da plataforma** — sempre dentro do que esta cláusula promete como mínimo. Se mudarmos os padrões, a versão vigente desta página passa a dizer os novos.
 
-⚠️ **O aviso da manhã do último dia é a última comunicação enviada.** Depois dele não há nova mensagem nem confirmação posterior.
+⚠️ **Falha no envio de um aviso não adia o apagamento.** O prazo é contado do encerramento, em dias corridos, e corre independentemente de o e-mail ter chegado — mas a falha aparece para quem administra a plataforma, e não passa em silêncio.
 
 ### 12.3 O apagamento
 
-**No trigésimo dia, os dados da organização são apagados e o acesso termina.** O apagamento é irreversível.
+**No trigésimo dia, os dados da organização são apagados e o acesso termina.** O apagamento é irreversível e alcança todos os módulos e os arquivos.
 
-**Se a exportação estiver indisponível durante a janela, o prazo não corre.** A contagem só avança enquanto a organização de fato consegue levar os dados dela.
+Se o apagamento falhar em algum módulo, ele **para ali** e é tentado de novo: a organização nunca fica apagada pela metade e dada por concluída.
 
 ### 12.4 O que sobrevive ao apagamento
 
-Um registro mínimo do encerramento é preservado, para provar o que foi apagado e quando: **identificação da organização, data do encerramento, data do apagamento e as quantidades do que foi apagado**. Esse registro **não contém conteúdo** da organização.
+Duas coisas são preservadas, e você tem o direito de saber delas antes, não depois:
 
-Registramos isto aqui em vez de omitir, porque é uma exceção à promessa de apagar tudo e você tem o direito de saber dela antes, não depois.
+1. **O histórico de quais módulos foram habilitados ou desabilitados** em cada organização, com data e autor. Não contém conteúdo da organização.
+2. **O pedido de criação da organização**, feito na tela de entrada. A ligação com a organização é desfeita, mas **o nome e o e-mail de quem fez o pedido permanecem** — é o registro de quem solicitou a abertura, não dado de uso da plataforma.
+
+⚠️ **Nenhum dos dois tem prazo de apagamento definido hoje.** Quando houver, ele passará a constar desta cláusula.
 
 ---
 

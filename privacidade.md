@@ -4,15 +4,15 @@ nav_order: 1
 parent: "Termos e Privacidade"
 permalink: /privacidade/
 palavras_chave: "lgpd, titular de dados, controlador, operador, isolamento entre organizações, retenção de dados, cookies, direitos do titular, encarregado"
-version: "1.0"
-change_summary: "Primeira versão da Política de Privacidade do RIT360 Realiza. Revisada juridicamente em 23/09/2026, sem alteração de texto."
+version: "1.1"
+change_summary: "A seção 9.2 passou a descrever o que o produto faz quando a organização encerra: dois avisos (no ato e sete dias antes), acesso não restrito durante a janela, prazo em dias corridos, e a lista correta do que sobrevive ao apagamento — inclusive o nome e o e-mail de quem pediu a criação da organização."
 ---
 
 # Política de Privacidade — RIT360 Realiza
 
-**Vigência:** 20 de setembro de 2026
-**Versão:** 1.0  
-**Revisão jurídica:** 23 de setembro de 2026
+**Vigência:** 14 de outubro de 2026
+**Versão:** 1.1  
+**Revisão jurídica:** pendente para a versão 1.1 (a versão 1.0 foi revisada em 23 de setembro de 2026)
 
 ---
 
@@ -196,7 +196,7 @@ Nos dados que a organização cadastra, aplicamos os prazos **como operadora**: 
 | Conteúdo de trabalho (espaços, tarefas, materiais, conversas, aprovações) | Enquanto a organização usar a plataforma; depois, conforme a seção 9.2 |
 | Dados de perfil e de acesso | Eliminados ou anonimizados em até 30 dias após o encerramento da organização |
 | Registros de segurança e auditoria | 5 anos, sem identificação pessoal após o encerramento |
-| Registro mínimo do encerramento | Permanente — ver 9.2 |
+| O que sobrevive ao apagamento (ver 9.2) | Sem prazo definido |
 
 ### 9.1 O direito de levar os seus dados não depende de contrato ativo
 
@@ -209,13 +209,20 @@ A exportação pela tela ainda está em construção. Enquanto ela não existe, 
 
 ### 9.2 Quando a organização encerra
 
-Encerrado o uso, quem administra a organização **mantém acesso por 30 dias**, podendo apenas **exportar os dados** ou **reativar** o uso. Durante toda a janela, vê a cada entrada um aviso com o prazo restante e o caminho para exportar; avisos por e-mail reforçam ao encerrar, faltando 3 dias e na manhã do último dia — sendo este o último aviso enviado.
+Encerrado o uso, a organização **continua acessível por 30 dias**, e nesse período pode **exportar os dados** e **reativar** o uso — reativar antes do prazo cancela o apagamento.
 
-**No trigésimo dia, os dados da organização são apagados, de forma irreversível.**
+⚠️ **O acesso durante a janela não é restrito**: quem administrava continua podendo usar a organização normalmente até o apagamento. Se a organização não quiser isso, cabe a ela retirar os acessos.
 
-**Se a exportação estiver indisponível durante a janela, o prazo não corre.** A contagem só avança enquanto a organização de fato consegue levar os dados.
+**Dois avisos por e-mail vão a quem gere a organização:** um no ato do encerramento e outro **sete dias antes** do apagamento, dizendo a data e lembrando da exportação. O segundo é o último aviso enviado. **Falha no envio não adia o apagamento** — o prazo corre em dias corridos, contado do encerramento.
 
-⚠️ **O que sobrevive ao apagamento.** Guardamos um registro mínimo: identificação da organização, data do encerramento, data do apagamento e quantidades do que foi apagado. **Sem conteúdo.** Ele existe para provarmos o que apagamos e quando — e é uma exceção à promessa de apagar tudo, dita aqui em vez de descoberta depois.
+**No trigésimo dia, os dados da organização são apagados, de forma irreversível**, em todos os módulos e nos arquivos. Falha em um módulo **para** o apagamento daquela organização e é tentada de novo: nada fica apagado pela metade.
+
+⚠️ **O que sobrevive ao apagamento.** Duas coisas, ditas aqui em vez de descobertas depois:
+
+1. **O histórico de quais módulos foram habilitados ou desabilitados** na organização, com data e autor — sem conteúdo.
+2. **O pedido de criação da organização**: a ligação com ela é desfeita, mas **o nome e o e-mail de quem fez o pedido permanecem**.
+
+Nenhum dos dois tem prazo de apagamento definido hoje. Quando houver, passará a constar daqui.
 
 ---
 
