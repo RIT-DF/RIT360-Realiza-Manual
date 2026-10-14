@@ -59,7 +59,16 @@ com o nome de quando foi emitido. Quem remove uma ficha não perde, portanto, o 
 Cada documento aparece com o título e os mesmos distintivos da lista da ficha — **"Emitido aqui"**,
 **"Anexado — assinado fora do sistema"**, **"Termo de adesão"**, **"Vigente"**, **"Vencido"**,
 **"Encerrado"**, **"Ainda não vale — faltam aceites"** — mais um, de que só esta tela precisa:
-**"Ficha removida"**. Embaixo, as linhas:
+**"Ficha removida"**. A captura abaixo reúne as situações lado a lado: o anexado **"Vencido"**
+(a certidão negativa, que "valeu até" uma data já passada), o **"Encerrado"** e o termo que **"Ainda não
+vale — faltam aceites"**.
+
+![Aba Documentos com vários documentos: uma certidão negativa anexada marcada Vencido, um termo de adesão marcado Ainda não vale — faltam aceites e outro marcado Encerrado](/assets/capturas/flow-documentos-lista-situacoes-desktop.png)
+{: .mt-4 }
+
+![A mesma lista no celular, com os distintivos Vencido, Encerrado e Ainda não vale](/assets/capturas/flow-documentos-lista-situacoes-celular.png){: style="max-width:375px" }
+
+Embaixo, as linhas:
 
 - **"Pessoa: <nome>"** (ou **"Instituição: <nome>"**) — quando a ficha existe, o nome é **link** para
   ela; quando foi removida, é só o nome de quando o documento foi emitido, ao lado da marca **"Ficha

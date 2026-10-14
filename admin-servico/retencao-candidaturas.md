@@ -20,6 +20,10 @@ No celular:
 ![Tela Manutenção no celular, com o botão "Retenção de candidaturas" entre os botões de manutenção](/assets/capturas/admin-servico-manutencao-celular.png){: style="max-width:375px" }
 {: .mt-4 }
 
+{: .note }
+O Flow tem uma segunda rotina parecida, para o e-mail de quem foi convidado a assinar um documento e não
+assinou: [Retenção de convites de assinatura](/admin-servico/retencao-convites/).
+
 ## Por que isto importa
 
 Quem se candidata deixa nome, data de nascimento, CPF, endereço, contatos e consentimentos. Se a

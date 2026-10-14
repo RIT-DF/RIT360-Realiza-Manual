@@ -398,6 +398,14 @@ Depois da remoção sobra, no máximo, um **registro mínimo** (tipo, frente, da
 decidiu) — e, no caso de recusa por idade, nada. Ver
 [Retenção de candidaturas](/admin-servico/retencao-candidaturas/).
 
+## Retenção (de convites de assinatura)
+
+Por quanto tempo o Flow guarda o e-mail de quem foi chamado a assinar um documento e **não assinou**
+(90 dias, por padrão, contados da criação do convite). Passado o prazo, o convite é **esvaziado**: sai o
+e-mail e sai o link, e a parte não assina mais por ele — é preciso emitir um documento novo. Documento
+com qualquer assinatura nunca é alcançado. Ver
+[Retenção de convites de assinatura](/admin-servico/retencao-convites/).
+
 ## Encerrar o contrato (organização)
 
 Ato de quem administra o serviço que marca o fim da relação com uma organização e inicia a contagem de 30 dias até o apagamento de todos os dados dela. Não é o mesmo que suspender (que só interrompe o uso). Reabrir o contrato antes de o apagamento começar cancela o apagamento. Ver

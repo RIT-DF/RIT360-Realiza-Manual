@@ -121,10 +121,38 @@ Embaixo, **cada parte** aparece com a situação dela:
 | **"link enviado, aguardando o aceite"** | O e-mail saiu (com o dia e o endereço de destino) e a pessoa ainda não aceitou. |
 | **"aceitou em 13/10/2026 …"** | A parte aceitou, com dia e hora. |
 | **"Cópia entregue em …"** | Depois do selo: a cópia do documento chegou a essa parte. |
+| **"Convite encerrado: o e-mail desta parte foi removido ao fim do prazo de retenção…"** | O convite nunca foi atendido e o prazo de retenção passou: o e-mail e o link foram removidos, e a parte **não pode mais assinar por este processo**. Veja [Convite encerrado pelo prazo de retenção](#convite-encerrado). |
 
 Se uma parte demora, o botão **"Reenviar o link"** manda um novo e-mail — e **o link anterior deixa de
 valer**. Use quando o e-mail se perdeu ou o link expirou: a página do link vencido avisa que ele já não
 aceita o documento e que é preciso pedir a quem enviou que mande de novo.
+
+### Convite encerrado pelo prazo de retenção
+{: #convite-encerrado }
+
+Por que isto importa: quem foi chamado a assinar e nunca assinou, muitas vezes, não tem conta nem
+relação com a organização — e o e-mail dela não pode ficar guardado para sempre. Por isso, **90 dias
+depois de criado** (prazo padrão, definido por quem administra o serviço), o convite que ninguém atendeu
+**perde o e-mail e o link**.
+
+Na linha da parte, a tela passa a dizer: **"Convite encerrado: o e-mail desta parte foi removido ao
+fim do prazo de retenção e ela não pode mais assinar por este processo. Para convidá-la de novo, emita
+um documento novo."** As frases "enviado em … para <e-mail>" e "será enviado para <e-mail>" deixam de
+aparecer para essa parte, e o botão **"Reenviar o link"** também **não aparece**.
+
+- **O que fazer:** se ainda precisa da assinatura dessa pessoa, **emita um documento novo** e envie para
+  assinatura de novo. Não existe reativar o convite.
+- **O que não acontece:** documento com **pelo menos uma assinatura nunca é alcançado** — nenhum convite
+  dele é encerrado, nem o de quem assinou nem o das outras partes. O acordo assinado permanece inteiro, e
+  o documento em si não é alterado.
+- **Se o link foi reenviado há pouco**, e ainda está dentro da validade de 30 dias, o convite fica de
+  fora até o link vencer.
+
+{: .warning }
+**Cobre a parte antes dos 90 dias.** O link vale 30; use **"Reenviar o link"** enquanto o convite
+existe. Passado o prazo de retenção, a única saída é um documento novo. O prazo e o estado da rotina
+que esvazia os convites estão em
+[Retenção de convites de assinatura](/admin-servico/retencao-convites/).
 
 ### Falha nunca aparece como entrega
 
@@ -239,6 +267,9 @@ uma testemunha, **Carlos Nunes**, que também trabalha no Instituto Semente.
 - **Se a parte tem conta, ela não depende só do e-mail.** O documento aparece no "Para mim" dela. Se
   alguém diz que não recebeu, peça que abra "Para mim" antes de reenviar o link — reenviar invalida o
   anterior. Para quem não tem conta, reenviar é o único caminho.
+- **Convite parado por muito tempo se perde.** Depois de 90 dias sem assinatura, o e-mail da parte é
+  removido e ela não assina mais por aquele convite (veja [acima](#convite-encerrado)). Se o documento
+  ainda importa, cobre antes ou emita outro.
 - **"Reenviar o link" invalida o anterior.** Se a pessoa já abriu o e-mail antigo, ela precisa usar o
   novo.
 - **Não mande o PDF selado como se fosse assinado digitalmente.** Quem o receber pode presumir
@@ -266,6 +297,9 @@ uma testemunha, **Carlos Nunes**, que também trabalha no Instituto Semente.
   de e-mail errado, corrija o cadastro e avise pelo [feedback](/enviar-feedback/).
 - **"O e-mail ainda não saiu: <motivo>. A plataforma tenta de novo."** — o convite não saiu. Se o motivo
   indicar o endereço, verifique-o.
+- **"Convite encerrado: o e-mail desta parte foi removido ao fim do prazo de retenção…"** — o prazo
+  de retenção passou e a parte não pode mais assinar por este processo. Emita um documento novo; não há
+  botão de reenviar para ela. Veja [Convite encerrado pelo prazo de retenção](#convite-encerrado).
 - **Na página do link — "Este link expirou e já não aceita o documento."** — peça a quem enviou que mande
   o link de novo ("Reenviar o link").
 - **"Não há documento selado com este código."** (na conferência) — confira se digitou o código inteiro.

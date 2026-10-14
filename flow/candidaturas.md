@@ -54,6 +54,11 @@ as aprovadas, as reprovadas **e as expiradas** — por isso o nome mudou: a expi
 foi decisão de ninguém. Quando o conteúdo de uma candidatura já foi removido pelo prazo de
 retenção, a linha termina com **" — conteúdo removido pelo prazo de retenção"**.
 
+![Aba "Já resolvidas" da lista de candidaturas, com "Nelson Leite" marcado "Aprovada — disparo falhou" e "Inês Prado" marcada "Expirada sem decisão"](/assets/capturas/flow-candidaturas-resolvidas-desktop.png)
+{: .mt-4 }
+
+![Aba "Já resolvidas" no celular, com as etiquetas "Aprovada — disparo falhou" e "Expirada sem decisão"](/assets/capturas/flow-candidaturas-resolvidas-celular.png){: style="max-width:375px" }
+
 {: .note }
 Esta lista **não tem ação em lote, de propósito.** Aprovar e reprovar levam mensagem à pessoa,
 motivo e escolhas próprias de cada candidatura; decidir "todas de uma vez" esconderia exatamente o
@@ -247,6 +252,15 @@ Ela **não se decide depois disso**: a tela de decidir recusa com *"Esta candida
 [data] — passou o prazo sem que ninguém decidisse, e ela não se decide depois disso."* Se a pessoa
 ainda interessa, o caminho é cadastrá-la diretamente em [Pessoas](/pessoas/).
 
+![Candidatura de Inês Prado aberta, com a etiqueta "Expirada sem decisão" no alto e o quadro "Desfecho" com "Expirada pelo prazo: ninguém decidiu, e isto não é uma reprovação" e "Expirou em"](/assets/capturas/flow-candidaturas-expirada-desktop.png)
+{: .mt-4 }
+
+![Candidatura expirada no celular, com a etiqueta "Expirada sem decisão" e o quadro "Desfecho"](/assets/capturas/flow-candidaturas-expirada-celular.png){: style="max-width:375px" }
+
+{: .note }
+Repare que, enquanto o prazo de remoção não chega, o que a pessoa enviou **continua visível** na
+candidatura expirada — expirar não apaga nada por si só.
+
 ### Quando o conteúdo já foi removido
 
 Passado o prazo, a candidatura continua na lista, mas a tela avisa: *"O conteúdo desta candidatura
@@ -260,9 +274,10 @@ parecer, uma justificativa para uma decisão), isso precisa estar no **motivo da
 **observação interna**, que a pessoa que decide escreve — o conteúdo enviado por quem se candidata
 não será mais lido depois do prazo.
 
-<!-- CAPTURA PENDENTE: candidatura expirada e candidatura com conteúdo removido (tela de detalhe e
-     etiqueta "Expirada sem decisão" na lista) — o ambiente ainda não tem dado nesse estado (issue
-     #291). Refazer quando houver. -->
+<!-- CAPTURA PENDENTE: candidatura com conteúdo removido pelo prazo de retenção (tela de detalhe com o
+     aviso "O conteúdo desta candidatura foi removido…"). O cenário local ainda não produz esse estado: a
+     candidatura expirada do cenário só chega ao prazo de remoção 90 dias depois. A expirada em si já foi
+     capturada (0.63.0, #303). -->
 
 ## Quem tem menos de 18 anos
 
@@ -299,6 +314,11 @@ plataforma; o que a plataforma garante é que a decisão foi entregue, e é por 
   quem precisa."* — com o motivo. Resolva o problema do outro lado (a automação estava fora do ar,
   por exemplo) e clique em **"Repetir a entrega"**. A Visão geral do Flow também conta as decisões
   nesse estado.
+
+![Candidatura de Nelson Leite aprovada, no quadro "Decisão" o aviso "A entrega ao n8n falhou depois de várias tentativas, e a decisão ainda não chegou a quem precisa" com o motivo e o botão "Repetir a entrega"](/assets/capturas/flow-candidaturas-disparo-falhou-desktop.png)
+{: .mt-4 }
+
+![No celular, o mesmo aviso de falha de entrega e o botão "Repetir a entrega" no fim do quadro "Decisão"](/assets/capturas/flow-candidaturas-disparo-falhou-celular.png){: style="max-width:375px" }
 
 {: .warning }
 **"Aprovada" na lista não quer dizer que a pessoa já foi avisada.** Quer dizer que a organização

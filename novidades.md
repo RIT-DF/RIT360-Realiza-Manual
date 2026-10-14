@@ -17,6 +17,34 @@ produtos da casa: o registro do que mudou de uma versão para a outra.
 
 ---
 
+## 14 de outubro de 2026 — versão 0.63.0
+
+O convite de assinatura que **ninguém atendeu** deixa de guardar o e-mail para sempre, e a lista de
+permissões da chave de API passa a ter todos os nomes em português.
+
+### Adicionado
+
+- **Retenção de convites de assinatura**, nova página na administração do serviço (**Manutenção →
+  "Retenção de convites de assinatura"**). Quem foi chamado a assinar e não assinou perde o e-mail e o
+  link **90 dias depois** de criado o convite (o prazo se ajusta, de 1 a 3650 dias). A página também
+  mostra se a rotina que faz isso está rodando, com os mesmos quatro estados da retenção de
+  candidaturas: **nunca rodou**, **começou e não terminou**, **falhou** e **nada a esvaziar**. Veja
+  [Retenção de convites de assinatura](/admin-servico/retencao-convites/).
+- **Documento assinado nunca é alcançado.** Basta uma assinatura para proteger todos os convites do
+  documento — o de quem assinou e o das outras partes.
+- **Na ficha do documento**, a parte cujo convite foi encerrado mostra **"Convite encerrado: …"** e
+  deixa de ter o botão **"Reenviar o link"**. Para convidá-la de novo, emita um documento novo. Veja
+  [Convite encerrado pelo prazo de retenção](/flow/assinatura-de-documentos/#convite-encerrado).
+
+### Corrigido
+
+- **Na janela "Nova chave de API"**, o grupo que aparecia como **"Instituicoes"** (sem acento) agora é
+  **"Instituições"**, e os demais recursos e ações que apareciam sem nome em português — como
+  **"Espaço"**, **"Frentes"**, **"Candidaturas"** e **"Documentos"**, e as ações **"configurar"**,
+  **"decidir"**, **"emitir"**, **"encerrar"**, **"receber"** e **"executar"** — ganharam rótulo próprio.
+
+---
+
 ## 13 de outubro de 2026 — versão 0.62.0
 
 O **CNPJ** e o **endereço** da organização mudam de lugar: saem do Flow e passam para a ficha da

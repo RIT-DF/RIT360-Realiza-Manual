@@ -63,6 +63,9 @@ vazamento fica do tamanho da integração.
    título, **"Marcar todas"** e **"Desmarcar todas"** marcam ou limpam a lista de uma vez. A
    explicação na tela é: "Nada vem marcado: a chave alcança só o que você escolher aqui. Marque o
    mínimo que a integração precisa."
+   Os nomes aparecem em português, com acento — por exemplo *"Instituições: ver"*, *"Candidaturas:
+   decidir"* ou *"Documentos: emitir"*. Se algum item aparecer em forma crua (sem acento, com cara de
+   código), avise pelo [feedback](/enviar-feedback/): é um nome que ficou sem rótulo.
 6. Clique em **"Criar chave"**.
 
 ![Janela "Nova chave de API" com "Todos os espaços da organização" desmarcado e a lista mostrando só dois espaços ativos, "Comunicação institucional" e "Campanha do Agasalho 2026", ambos marcados](/assets/capturas/integracoes-chave-nova-desktop.png)
